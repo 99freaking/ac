@@ -1,8 +1,8 @@
 trojan://1234@127.0.0.1:1080/?type=tcp&security=tls#WiFi.4-----10-05
 ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.121.43.71:6679#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1297%2B%7C16.87Mb
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@38.68.134.191:8008#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1151%2B%7C10.47Mb
-trojan://xxoo@138.124.183.216:443/?type=tcp&security=tls&sni=divar.ir#%F0%9F%87%B3%F0%9F%87%B4NO_215.SNI
-trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=divar.ir#%F0%9F%87%B3%F0%9F%87%B4NO_214.SNI
+trojan://xxoo@138.124.183.216:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B4NO_215.SNI
+trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B4NO_214.SNI
 trojan://xxoo@138.124.183.216:443/?type=tcp&security=tls&sni=138.124.183.216#%F0%9F%87%B3%F0%9F%87%B4NO_215
 vmess://eyJhZGQiOiIxMjkuMTU5LjEzOS4xMDEiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImhvc3QiOiIiLCJpZCI6ImI3NTE5YTZmLWMxZGUtNDY2Ny1lNjA2LWI2MGM2NWQxOTA3OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuCBVU18xNDkxIHwgNy41Mk1iIiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
 trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=138.124.183.222#%F0%9F%87%B3%F0%9F%87%B4NO_214

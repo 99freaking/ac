@@ -1,5 +1,5 @@
 trojan://1234@127.0.0.1:1080/?type=tcp&security=tls#IRANCELL.5----10-05
-trojan://shefelnak@185.16.206.211:443/?type=tcp&security=tls&sni=divar.ir#mianfeifq%2B264.SNI
+trojan://shefelnak@185.16.206.211:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#mianfeifq%2B264.SNI
 trojan://shefelnak@185.16.206.211:443/?type=tcp&security=tls#mianfeifq%2B264
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@38.68.134.196:800#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1674%2B%7C18.64Mb
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.91.102.124:5003#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1268%2B%7C19.41Mb
@@ -10,5 +10,4 @@ ss://YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T@38.121.43.71:6679#%F0%9F%87%BA%F0%9F%8
 vmess://eyJhZGQiOiI1MS43Ny4xNTguMTY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJob3N0IjoiIiwiaWQiOiJjOTJmZDkwMi1iNWQzLTQyMDgtYmI0OC02MzBiMWM3YmFiZWEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6IjIwOTYiLCJwcyI6ImdpdGh1Yi5jb20vZnJlZWZxIC0g5rOV5Zu9T1ZIIDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6IiIsInR5cGUiOiIiLCJ2IjoiMiJ9
 vmess://eyJhZGQiOiJzMy5za2VwdGljdHlzb252MS54eXoiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImhvc3QiOiIiLCJpZCI6ImQwNzBjNzMxLWU1ODctNDcyMy05YjFmLTUyNmE4MTI0MTM2MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8yNTY0IiwicG9ydCI6IjQ0MyIsInBzIjoiaXJhbmNlbGwgMjQvMTIvMjAyMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqaW5hamluYTEyMw@samanehha.co:443#samanehha.co
-trojan://tune7jerky7HAYRICK@ap-northeast-1.openssl3.com:443/?type=tcp&security=tls&sni=soft98.ir#github.com%2Ffreefq%2B-%2B%E6%97%A5%E6%9C%AC%E4%B8%9C%E4%BA%ACLinode%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2B10.SNI
-vless://1d34cf77-c412-4485-9eca-b6a027bf336f@5.75.152.17:443?security=xtls&encryption=none&headerType=none&type=tcp&flow=xtls-rprx-direct&sni=www.xvqu.de#irancell+25%2F12%2F2022
+trojan://tune7jerky7HAYRICK@172.104.66.199:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#github.com%2Ffreefq%2B-%2B%E6%97%A5%E6%9C%AC%E4%B8%9C%E4%BA%ACLinode%E6%95%B0%E6%8D%AE%E4%B8%AD%E5%BF%83%2B10.SNI
