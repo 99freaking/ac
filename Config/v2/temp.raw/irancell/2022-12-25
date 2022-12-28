@@ -1,4 +1,4 @@
-trojan://1234@127.0.0.1:1080/?type=tcp&security=tls#IRANCELL.5----10-05
+trojan://1234@127.0.0.1:1080/?type=tcp&security=tls&allowInsecure=1#IRANCELL.5----10-05
 ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@38.91.102.124:5003#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1268%2B%7C19.41Mb
 trojan://xxoo@138.124.183.226:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B4NO_216.SNI
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8@148.66.56.99:801#%F0%9F%87%AD%F0%9F%87%B0%2BHK_294%2B%7C15.25Mb

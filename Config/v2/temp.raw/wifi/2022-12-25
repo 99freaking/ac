@@ -1,4 +1,4 @@
-trojan://1234@127.0.0.1:1080/?type=tcp&security=tls#WiFi.4-----10-05
+trojan://1234@127.0.0.1:1080/?type=tcp&security=tls&allowInsecure=1#WiFi.4-----10-05
 ss://YWVzLTI1Ni1nY206WEtGS2wyclVMaklwNzQ@38.68.134.191:8008#%F0%9F%87%BA%F0%9F%87%B8%2BUS_1151%2B%7C10.47Mb
 trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=divar.ir&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B4NO_214.SNI
 trojan://xxoo@138.124.183.222:443/?type=tcp&security=tls&sni=138.124.183.222&allowInsecure=1#%F0%9F%87%B3%F0%9F%87%B4NO_214
