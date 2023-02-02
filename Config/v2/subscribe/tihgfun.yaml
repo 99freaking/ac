@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 proxies:
 - {"name":"_01 | 2.67Mb","server":"14.29.124.168","type":"ss","port":24002,"udp":true,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
 - {"name":"🇦🇺 AU_03 |17.99Mb","server":"43.201.103.37","type":"ss","country":"🇦🇺 AU","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
@@ -5291,6 +5293,7 @@ proxies:
 - {"name":"🏁 ZZ_5394","server":"5.44.249.43","type":"trojan","country":"🏁 ZZ","port":3389,"password":"0c6a3341e8d5ab17","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5395","server":"5.44.249.50","type":"trojan","country":"🏁 ZZ","port":3306,"password":"0c6a3341e8d5ab17","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5396 |326.02Mb","server":"5.44.249.45","type":"trojan","country":"🏁 ZZ","port":3389,"password":"b09d2aaa443af97a","skip-cert-verify":true,"udp":true}
+<<<<<<< HEAD
 - {"name":"🏁 ZZ_5397 |337.75Mb","server":"5.44.249.45","type":"trojan","country":"🏁 ZZ","port":3389,"password":"182228812d1e0f23","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5398 |58.47Mb","server":"5.44.249.51","type":"trojan","country":"🏁 ZZ","port":3389,"password":"182228812d1e0f23","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5399 |58.58Mb","server":"5.44.249.52","type":"trojan","country":"🏁 ZZ","port":3389,"password":"182228812d1e0f23","skip-cert-verify":true,"udp":true}
@@ -5318,3 +5321,15 @@ proxies:
 - {"name":"🏁 ZZ_5421 |55.96Mb","server":"5.44.249.52","type":"trojan","country":"🏁 ZZ","port":3389,"password":"6c8b18adb11737af","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5422 |71.30Mb","server":"5.44.249.50","type":"trojan","country":"🏁 ZZ","port":3389,"password":"6c8b18adb11737af","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_5423 |66.20Mb","server":"5.44.249.53","type":"trojan","country":"🏁 ZZ","port":3389,"password":"b09d2aaa443af97a","skip-cert-verify":true,"udp":true}
+=======
+- {"name":"🏁 ZZ_5397 |52.63Mb","server":"5.44.249.51","type":"trojan","country":"🏁 ZZ","port":3389,"password":"faf42aa0a9ad4c1e","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5398 |51.44Mb","server":"103.173.255.127","type":"trojan","country":"🏁 ZZ","port":443,"password":"cd7f5ee4-be14-4f0c-9f60-271d50afdfe2","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5399 |58.12Mb","server":"103.173.255.234","type":"trojan","country":"🏁 ZZ","port":443,"password":"cd7f5ee4-be14-4f0c-9f60-271d50afdfe2","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5400 |35.12Mb","server":"103.173.255.127","type":"trojan","country":"🏁 ZZ","port":443,"password":"b874173c-dfc6-40f4-9542-d973997f9659","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5401","server":"103.173.255.234","type":"trojan","country":"🏁 ZZ","port":443,"password":"52171d41-9367-429f-baa6-43660a6c84e4","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5402 |56.39Mb","server":"103.173.255.21","type":"trojan","country":"🏁 ZZ","port":443,"password":"fa02d301-f620-4447-ac06-f838b285b393","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5403","server":"103.173.255.21","type":"trojan","country":"🏁 ZZ","port":443,"password":"52171d41-9367-429f-baa6-43660a6c84e4","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5404","server":"103.173.255.127","type":"trojan","country":"🏁 ZZ","port":443,"password":"52171d41-9367-429f-baa6-43660a6c84e4","skip-cert-verify":true,"udp":true}
+- {"name":"🏁 ZZ_5405 |72.78Mb","server":"103.173.255.21","type":"trojan","country":"🏁 ZZ","port":443,"password":"cd7f5ee4-be14-4f0c-9f60-271d50afdfe2","skip-cert-verify":true,"udp":true}
+>>>>>>> 2365d905f21c763a30daacd4d88c806d0401b0e7
+>>>>>>> 98c6f45fec40dd78463f2614d6006d5a188e7a0d
