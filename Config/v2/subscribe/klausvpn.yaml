@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 proxies:
 - {"name":"_01","server":"172.99.190.149","type":"ss","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
 - {"name":"_02","server":"172.99.190.149","type":"ss","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
@@ -484,4 +482,3 @@ proxies:
 - {"name":"🏁 ZZ_481","server":"103.173.255.21","type":"trojan","country":"🏁 ZZ","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_482","server":"103.173.255.234","type":"trojan","country":"🏁 ZZ","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","skip-cert-verify":true,"udp":true}
 - {"name":"🏁 ZZ_483","server":"103.173.255.127","type":"trojan","country":"🏁 ZZ","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","skip-cert-verify":true,"udp":true}
->>>>>>> 2365d905f21c763a30daacd4d88c806d0401b0e7
