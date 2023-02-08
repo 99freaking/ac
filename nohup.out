@@ -21,3 +21,4 @@
 2023/02/07 Tue 16:54:31.196030 [29596 139803915967288][INFO] Generate target: SS Subscription
 2023/02/07 Tue 16:54:31.200792 [29596 139803915967288][ERRO] filesystem error: cannot make canonical path: No such file or directory [templates]
 2023/02/07 Tue 16:54:31.201269 [29596 139803915967288][INFO] Generate completed.
+2023/02/07 Tue 16:54:33.576599 [29596 10739128][FATL] Interrupt signal 15 received. Exiting gracefully...
