@@ -1,0 +1,5275 @@
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "yacd",
+            "external_ui_download_url": "https:\/\/github.com\/MetaCubeX\/Yacd-meta\/archive\/gh-pages.zip",
+            "external_ui_download_detour": "direct",
+            "secret": "YEBEKHE",
+            "default_mode": "rule",
+            "store_selected": true,
+            "cache_file": "clash.db"
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address_resolver": "dns-direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "https:\/\/dns.bitdefender.net\/dns-query",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "strategy": "ipv4_only",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode:\/\/success",
+                "tag": "dns-block"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": "direct",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct",
+                "rewrite_ttl": 20
+            }
+        ],
+        "reverse_mapping": true,
+        "strategy": "ipv4_only",
+        "independent_cache": true
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "domain_strategy": "",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1\/30",
+            "mtu": 9000,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "domain_strategy": "",
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "RescueNet-6 | 1",
+                "RescueNet-8 | 2",
+                "🇺🇸US-138.197.5.103-9879 | 3",
+                "🇷🇺RU-185.143.220.25-17757 | 4",
+                "🇺🇸_US_美国_50 | 5",
+                "RescueNet-21 | 6",
+                "RescueNet-66 | 7",
+                "RescueNet-14 | 8",
+                "🏁RELAY-104.17.47.127-4007 | 9",
+                "RescueNet-45 | 10",
+                "RescueNet-43 | 11",
+                "RescueNet-14 | 12",
+                "RescueNet-2 | 13",
+                "🏁RELAY-66.235.200.0-4237 | 14",
+                "🇬🇧GB-51.38.71.175-0220 | 15",
+                "RescueNet-25 | 16",
+                "RescueNet-15 | 17",
+                "RescueNet-11 | 18",
+                "16|🇺🇸_US_美国_4_4@18 | 19",
+                "🇺🇸_US_美国_76 | 20",
+                "RescueNet-31 | 21",
+                "12|加拿大 01 | 22",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 55.02ms | 😂 | 23",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 120.95ms | 😊 | 24",
+                "6,7,12|美国【付费推荐：https:\/\/tt.vg\/vip】16 | 25",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 26",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 9.65ms | 0️⃣1️⃣ | 27",
+                "16|@Hope_Net-join-us-on-Telegram #5 | 28",
+                "RescueNet-121 | 29",
+                "RescueNet-26 | 30",
+                "🏁RELAY-104.18.28.109-5036 | 31",
+                "RescueNet-281 | 32",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 33",
+                "RescueNet-19 | 34",
+                "RescueNet-23 | 35",
+                "RescueNet-4 | 36",
+                "RescueNet-3 | 37",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 38",
+                "RescueNet-Dusseldorf | 39",
+                "🇺🇸_US_美国_157 | 40",
+                "RescueNet-26 | 41",
+                "🇺🇸 US 美国 191 | 42",
+                "RescueNet-49 | 43",
+                "RescueNet-26 | 44",
+                "RescueNet-232 | 45",
+                "RescueNet-30 | 46",
+                "RescueNet-108 | 47",
+                "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎 | 48",
+                "RescueNet-39 | 49",
+                "RescueNet-33 | 50",
+                "RescueNet-107 | 51",
+                "RescueNet-34 | 52",
+                "16|🇸🇬 SG(AzadNet.t.me)_044 | 53",
+                "RescueNet-157 | 54",
+                "RescueNet-66 | 55",
+                "🇺🇸_US_美国_138 | 56",
+                "@FreakConfig | RELAY🚩 | sandp.blanku.me:443 | 23.13ms | 0️⃣1️⃣ | 57",
+                "@PrivateVPNs | FR🇫🇷 | 13.39.192.236:22222 | 131.91ms | 0️⃣1️⃣ | 58",
+                "@iP_CF | US🇺🇸 | 15.204.209.50:80 | 6.77ms | 0️⃣1️⃣ | 59",
+                "RescueNet-184 | 60",
+                "@oneclickvpnkeys | GB🇬🇧 | 3.9.127.187:22222 | 144.13ms | 0️⃣1️⃣ | 61",
+                "@ShadowProxy66 | RELAY🚩 | rockp.blanku.me:443 | 20.59ms | 0️⃣1️⃣ | 62",
+                "RescueNet-66 | 63",
+                "RescueNet-5 | 64",
+                "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 327.86ms | 0️⃣2️⃣ | 65",
+                "8|🇺🇸_US_美国 #3 | 66",
+                "@ShadowProxy66 | US🇺🇸 | rockp.blanku.me:443 | 11.42ms | 0️⃣2️⃣ | 67",
+                "RescueNet-66 | 68",
+                "RescueNet-66 | 69",
+                "RescueNet-13 | 70",
+                "@vless_vmess | US🇺🇸 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 98.12ms | 0️⃣1️⃣ | 71",
+                "RescueNet-11 | 72",
+                "🏁RELAY-172.67.150.82-17016 | 73",
+                "0,1,2,3,4,8,16|🇺🇸 _US_美国 #7 | 74",
+                "🇺🇸US-45.63.106.86-0173 | 75",
+                "🇺🇸US-45.63.106.86-0179 | 76",
+                "🇺🇸US-45.63.106.86-0144 | 77",
+                "1,12,15|_US_美国 4 | 78",
+                "RescueNet-53 | 79",
+                "🏁RELAY-104.21.7.237-15150 | 80",
+                "RescueNet-66 | 81",
+                "15|🇺🇸 美国(油管破解资源君) 54 | 82",
+                "🇫🇷FR-217.182.76.202-8486 | 83",
+                "🏁RELAY-104.21.91.107-13617 | 84",
+                "RescueNet-Dusseldorf | 85",
+                "🏁RELAY-172.67.132.15-1615 | 86",
+                "🇸🇬SG-146.190.110.216-0198 | 87",
+                "RescueNet-17 | 88",
+                "RescueNet-135 | 89",
+                "NU_speednode_0036 | 90",
+                "RescueNet-32 | 91",
+                "22|🇺🇸_US_美国_4_8 | 92",
+                "RescueNet-17 | 93",
+                "RescueNet-3 | 94",
+                "16|GetAFreeNode.com-Lille | 95",
+                "16|GetAFreeNode.com-Lille | 96",
+                "🏁RELAY-104.31.16.213-5227 | 97",
+                "🏁RELAY-172.67.156.138-9484 | 98",
+                "15|🇨🇾 塞浦路斯 18 | 99",
+                "RescueNet-140 | 100",
+                "@yaney_01 | JP🇯🇵 | gsawsjp1.aiopen.cfd:443 | 287.86ms | 0️⃣1️⃣ | 101",
+                "11|美国CloudFlare节点 16 | 102",
+                "16|GetAFreeNode.com-Lille | 103",
+                "16|GetAFreeNode.com-Lille | 104",
+                "1|_SG_新加坡 2 | 105",
+                "🇭🇰HK-8.217.70.158-15218 | 106",
+                "15|🇩🇪DE德国(youtube阿伟科技) | 107",
+                "1|_TW_台湾 | 108",
+                "RescueNet-17 | 109",
+                "RescueNet-152 | 110",
+                "@DirectVPN | DE🇩🇪 | 3.78.178.252:22222 | 129.13ms | 0️⃣3️⃣ | 111",
+                "@DirectVPN | FR🇫🇷 | 13.39.30.41:22222 | 113.88ms | 0️⃣2️⃣ | 112",
+                "2,3,4,8|_US_美国 #15 | 113",
+                "@DirectVPN | GB🇬🇧 | 18.168.82.245:22222 | 143.76ms | 0️⃣1️⃣ | 114",
+                "RescueNet-148 | 115",
+                "RescueNet-29 | 116",
+                "🇺🇸 US 美国 161 | 117",
+                "RescueNet-16 | 118",
+                "RescueNet-23 | 119",
+                "RescueNet-45 | 120",
+                "RescueNet-39 | 121",
+                "RescueNet-42 | 122",
+                "🇸🇬SG-168.138.172.122-0196 | 123",
+                "🏁RELAY-172.67.81.238-16632 | 124",
+                "RescueNet-52 | 125",
+                "RescueNet-44 | 126",
+                "RescueNet-14 | 127",
+                "RescueNet-60 | 128",
+                "RescueNet-59 | 129",
+                "RescueNet-49 | 130",
+                "RescueNet-53 | 131",
+                "🇸🇬SG-138.2.84.26-0130 | 132",
+                "16|🇦🇺白嫖-299 | 133",
+                "RescueNet-177 | 134",
+                "RescueNet-134 | 135",
+                "@oneclickvpnkeys | RU🇷🇺 | gy.mianfenyun012.eu.org:23474 | 297.58ms | 0️⃣1️⃣ | 136",
+                "@V2parsin | US🇺🇸 | b2.itdguildd.sIte:2096 | 115.08ms | 0️⃣1️⃣ | 137",
+                "RescueNet-49 | 138",
+                "RescueNet-267 | 139",
+                "RescueNet-49 | 140",
+                "1,2,3,4|_CY_塞浦路斯->🇬🇧_GB_英国 | 141",
+                "RescueNet-4 | 142",
+                "1,2,3,4,8,16|_RU_俄罗斯联邦 | 143",
+                "RescueNet-14 | 144",
+                "RescueNet-49 | 145",
+                "🇺🇸US-45.79.110.190-1230 | 146",
+                "@DirectVPN | DE🇩🇪 | 18.195.134.100:22222 | 184.29ms | 0️⃣2️⃣ | 147",
+                "@DirectVPN | DE🇩🇪 | 52.59.99.113:22222 | 122.14ms | 0️⃣1️⃣ | 148",
+                "Relay_🇺🇸US-🇺🇸US_583 | 149",
+                "@PrivateVPNs | IE🇮🇪 | 3.251.28.24:22222 | 97.03ms | 0️⃣3️⃣ | 150"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "RescueNet-6 | 1",
+                "RescueNet-8 | 2",
+                "🇺🇸US-138.197.5.103-9879 | 3",
+                "🇷🇺RU-185.143.220.25-17757 | 4",
+                "🇺🇸_US_美国_50 | 5",
+                "RescueNet-21 | 6",
+                "RescueNet-66 | 7",
+                "RescueNet-14 | 8",
+                "🏁RELAY-104.17.47.127-4007 | 9",
+                "RescueNet-45 | 10",
+                "RescueNet-43 | 11",
+                "RescueNet-14 | 12",
+                "RescueNet-2 | 13",
+                "🏁RELAY-66.235.200.0-4237 | 14",
+                "🇬🇧GB-51.38.71.175-0220 | 15",
+                "RescueNet-25 | 16",
+                "RescueNet-15 | 17",
+                "RescueNet-11 | 18",
+                "16|🇺🇸_US_美国_4_4@18 | 19",
+                "🇺🇸_US_美国_76 | 20",
+                "RescueNet-31 | 21",
+                "12|加拿大 01 | 22",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 55.02ms | 😂 | 23",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 120.95ms | 😊 | 24",
+                "6,7,12|美国【付费推荐：https:\/\/tt.vg\/vip】16 | 25",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 26",
+                "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 9.65ms | 0️⃣1️⃣ | 27",
+                "16|@Hope_Net-join-us-on-Telegram #5 | 28",
+                "RescueNet-121 | 29",
+                "RescueNet-26 | 30",
+                "🏁RELAY-104.18.28.109-5036 | 31",
+                "RescueNet-281 | 32",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 33",
+                "RescueNet-19 | 34",
+                "RescueNet-23 | 35",
+                "RescueNet-4 | 36",
+                "RescueNet-3 | 37",
+                "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 38",
+                "RescueNet-Dusseldorf | 39",
+                "🇺🇸_US_美国_157 | 40",
+                "RescueNet-26 | 41",
+                "🇺🇸 US 美国 191 | 42",
+                "RescueNet-49 | 43",
+                "RescueNet-26 | 44",
+                "RescueNet-232 | 45",
+                "RescueNet-30 | 46",
+                "RescueNet-108 | 47",
+                "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎 | 48",
+                "RescueNet-39 | 49",
+                "RescueNet-33 | 50",
+                "RescueNet-107 | 51",
+                "RescueNet-34 | 52",
+                "16|🇸🇬 SG(AzadNet.t.me)_044 | 53",
+                "RescueNet-157 | 54",
+                "RescueNet-66 | 55",
+                "🇺🇸_US_美国_138 | 56",
+                "@FreakConfig | RELAY🚩 | sandp.blanku.me:443 | 23.13ms | 0️⃣1️⃣ | 57",
+                "@PrivateVPNs | FR🇫🇷 | 13.39.192.236:22222 | 131.91ms | 0️⃣1️⃣ | 58",
+                "@iP_CF | US🇺🇸 | 15.204.209.50:80 | 6.77ms | 0️⃣1️⃣ | 59",
+                "RescueNet-184 | 60",
+                "@oneclickvpnkeys | GB🇬🇧 | 3.9.127.187:22222 | 144.13ms | 0️⃣1️⃣ | 61",
+                "@ShadowProxy66 | RELAY🚩 | rockp.blanku.me:443 | 20.59ms | 0️⃣1️⃣ | 62",
+                "RescueNet-66 | 63",
+                "RescueNet-5 | 64",
+                "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 327.86ms | 0️⃣2️⃣ | 65",
+                "8|🇺🇸_US_美国 #3 | 66",
+                "@ShadowProxy66 | US🇺🇸 | rockp.blanku.me:443 | 11.42ms | 0️⃣2️⃣ | 67",
+                "RescueNet-66 | 68",
+                "RescueNet-66 | 69",
+                "RescueNet-13 | 70",
+                "@vless_vmess | US🇺🇸 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 98.12ms | 0️⃣1️⃣ | 71",
+                "RescueNet-11 | 72",
+                "🏁RELAY-172.67.150.82-17016 | 73",
+                "0,1,2,3,4,8,16|🇺🇸 _US_美国 #7 | 74",
+                "🇺🇸US-45.63.106.86-0173 | 75",
+                "🇺🇸US-45.63.106.86-0179 | 76",
+                "🇺🇸US-45.63.106.86-0144 | 77",
+                "1,12,15|_US_美国 4 | 78",
+                "RescueNet-53 | 79",
+                "🏁RELAY-104.21.7.237-15150 | 80",
+                "RescueNet-66 | 81",
+                "15|🇺🇸 美国(油管破解资源君) 54 | 82",
+                "🇫🇷FR-217.182.76.202-8486 | 83",
+                "🏁RELAY-104.21.91.107-13617 | 84",
+                "RescueNet-Dusseldorf | 85",
+                "🏁RELAY-172.67.132.15-1615 | 86",
+                "🇸🇬SG-146.190.110.216-0198 | 87",
+                "RescueNet-17 | 88",
+                "RescueNet-135 | 89",
+                "NU_speednode_0036 | 90",
+                "RescueNet-32 | 91",
+                "22|🇺🇸_US_美国_4_8 | 92",
+                "RescueNet-17 | 93",
+                "RescueNet-3 | 94",
+                "16|GetAFreeNode.com-Lille | 95",
+                "16|GetAFreeNode.com-Lille | 96",
+                "🏁RELAY-104.31.16.213-5227 | 97",
+                "🏁RELAY-172.67.156.138-9484 | 98",
+                "15|🇨🇾 塞浦路斯 18 | 99",
+                "RescueNet-140 | 100",
+                "@yaney_01 | JP🇯🇵 | gsawsjp1.aiopen.cfd:443 | 287.86ms | 0️⃣1️⃣ | 101",
+                "11|美国CloudFlare节点 16 | 102",
+                "16|GetAFreeNode.com-Lille | 103",
+                "16|GetAFreeNode.com-Lille | 104",
+                "1|_SG_新加坡 2 | 105",
+                "🇭🇰HK-8.217.70.158-15218 | 106",
+                "15|🇩🇪DE德国(youtube阿伟科技) | 107",
+                "1|_TW_台湾 | 108",
+                "RescueNet-17 | 109",
+                "RescueNet-152 | 110",
+                "@DirectVPN | DE🇩🇪 | 3.78.178.252:22222 | 129.13ms | 0️⃣3️⃣ | 111",
+                "@DirectVPN | FR🇫🇷 | 13.39.30.41:22222 | 113.88ms | 0️⃣2️⃣ | 112",
+                "2,3,4,8|_US_美国 #15 | 113",
+                "@DirectVPN | GB🇬🇧 | 18.168.82.245:22222 | 143.76ms | 0️⃣1️⃣ | 114",
+                "RescueNet-148 | 115",
+                "RescueNet-29 | 116",
+                "🇺🇸 US 美国 161 | 117",
+                "RescueNet-16 | 118",
+                "RescueNet-23 | 119",
+                "RescueNet-45 | 120",
+                "RescueNet-39 | 121",
+                "RescueNet-42 | 122",
+                "🇸🇬SG-168.138.172.122-0196 | 123",
+                "🏁RELAY-172.67.81.238-16632 | 124",
+                "RescueNet-52 | 125",
+                "RescueNet-44 | 126",
+                "RescueNet-14 | 127",
+                "RescueNet-60 | 128",
+                "RescueNet-59 | 129",
+                "RescueNet-49 | 130",
+                "RescueNet-53 | 131",
+                "🇸🇬SG-138.2.84.26-0130 | 132",
+                "16|🇦🇺白嫖-299 | 133",
+                "RescueNet-177 | 134",
+                "RescueNet-134 | 135",
+                "@oneclickvpnkeys | RU🇷🇺 | gy.mianfenyun012.eu.org:23474 | 297.58ms | 0️⃣1️⃣ | 136",
+                "@V2parsin | US🇺🇸 | b2.itdguildd.sIte:2096 | 115.08ms | 0️⃣1️⃣ | 137",
+                "RescueNet-49 | 138",
+                "RescueNet-267 | 139",
+                "RescueNet-49 | 140",
+                "1,2,3,4|_CY_塞浦路斯->🇬🇧_GB_英国 | 141",
+                "RescueNet-4 | 142",
+                "1,2,3,4,8,16|_RU_俄罗斯联邦 | 143",
+                "RescueNet-14 | 144",
+                "RescueNet-49 | 145",
+                "🇺🇸US-45.79.110.190-1230 | 146",
+                "@DirectVPN | DE🇩🇪 | 18.195.134.100:22222 | 184.29ms | 0️⃣2️⃣ | 147",
+                "@DirectVPN | DE🇩🇪 | 52.59.99.113:22222 | 122.14ms | 0️⃣1️⃣ | 148",
+                "Relay_🇺🇸US-🇺🇸US_583 | 149",
+                "@PrivateVPNs | IE🇮🇪 | 3.251.28.24:22222 | 97.03ms | 0️⃣3️⃣ | 150"
+            ],
+            "url": "https:\/\/www.gstatic.com\/generate_204",
+            "interval": "3m",
+            "tolerance": 50
+        },
+        {
+            "tag": "RescueNet-6 | 1",
+            "type": "vmess",
+            "server": "104.31.16.35",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-8 | 2",
+            "type": "trojan",
+            "server": "51.38.71.175",
+            "server_port": 80,
+            "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "uk1.trojanvh.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US-138.197.5.103-9879 | 3",
+            "type": "trojan",
+            "server": "138.197.5.103",
+            "server_port": 443,
+            "password": "xxoo",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU-185.143.220.25-17757 | 4",
+            "type": "vmess",
+            "server": "185.143.220.25",
+            "server_port": 443,
+            "uuid": "f28e354e-c2d1-4983-9b07-5acaf1b3b3e5",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/6e9EtZ2dL",
+                "headers": {
+                    "Host": "185.143.220.25"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸_US_美国_50 | 5",
+            "type": "vmess",
+            "server": "104.24.176.7",
+            "server_port": 443,
+            "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Amsterdam.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Amsterdam.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-21 | 6",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 7",
+            "type": "vmess",
+            "server": "104.27.97.42",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-14 | 8",
+            "type": "trojan",
+            "server": "us.blazeppn.info",
+            "server_port": 443,
+            "password": "xxoo",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.17.47.127-4007 | 9",
+            "type": "vmess",
+            "server": "104.17.47.127",
+            "server_port": 443,
+            "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "raspy-leaf-a6f0.lille7737.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "raspy-leaf-a6f0.lille7737.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-45 | 10",
+            "type": "vmess",
+            "server": "188.114.99.29",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-43 | 11",
+            "type": "trojan",
+            "server": "135.148.148.4",
+            "server_port": 80,
+            "password": "ee2bccd3-0f30-42d4-86d6-3d393ad230bd",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-14 | 12",
+            "type": "vmess",
+            "server": "107.173.35.242",
+            "server_port": 8443,
+            "uuid": "1074988f-51da-41df-9db9-36bf3d6f3d94",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/xpyrvws?ed=2048",
+                "headers": {
+                    "Host": "ra.679888.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-2 | 13",
+            "type": "vmess",
+            "server": "104.24.208.25",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-66.235.200.0-4237 | 14",
+            "type": "vmess",
+            "server": "185.170.166.157",
+            "server_port": 443,
+            "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "raspy-leaf-a6f0.lille7737.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "raspy-leaf-a6f0.lille7737.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇬🇧GB-51.38.71.175-0220 | 15",
+            "type": "trojan",
+            "server": "uk1.trojanvh.xyz",
+            "server_port": 80,
+            "password": "b640d791-ff83-4300-b509-c2a02f97f167",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-25 | 16",
+            "type": "trojan",
+            "server": "15.204.210.176",
+            "server_port": 80,
+            "password": "c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-15 | 17",
+            "type": "vmess",
+            "server": "104.21.23.154",
+            "server_port": 443,
+            "uuid": "02DD674F-898E-4835-9958-97670C4CCA71",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sweet-darkness-7d26.sourgalmc3532.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "sweet-darkness-7d26.sourgalmc3532.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-11 | 18",
+            "type": "vmess",
+            "server": "104.31.16.65",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|🇺🇸_US_美国_4_4@18 | 19",
+            "type": "vmess",
+            "server": "cold-dawn-9246.fly.dev",
+            "server_port": 443,
+            "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cold-dawn-9246.fly.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+                "headers": {
+                    "Host": "cold-dawn-9246.fly.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸_US_美国_76 | 20",
+            "type": "vmess",
+            "server": "104.24.177.7",
+            "server_port": 443,
+            "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Amsterdam.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Amsterdam.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-31 | 21",
+            "type": "trojan",
+            "server": "23.94.122.66",
+            "server_port": 38505,
+            "password": "dTjHHw2kDE",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "12|加拿大 01 | 22",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "d4b6f48f-7474-44dc-9492-8fa3f63db887",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "4.saintink.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ro2.v2rayserv.com\/vmess",
+                "headers": {
+                    "Host": "4.saintink.eu.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 55.02ms | 😂 | 23",
+            "type": "vmess",
+            "server": "172.67.184.53",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 120.95ms | 😊 | 24",
+            "type": "vmess",
+            "server": "104.21.36.26",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "6,7,12|美国【付费推荐：https:\/\/tt.vg\/vip】16 | 25",
+            "type": "vmess",
+            "server": "104.18.28.109",
+            "server_port": 443,
+            "uuid": "12eed507-9a58-4ca5-f7af-2871e9aae684",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdntr2.digisport.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/19544",
+                "headers": {
+                    "Host": "cdntr2.digisport.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 26",
+            "type": "vmess",
+            "server": "104.31.16.213",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | RELAY🚩 | cloudconebbb.gorgorchicken.one:8443 | 9.65ms | 0️⃣1️⃣ | 27",
+            "type": "vmess",
+            "server": "cloudconebbb.gorgorchicken.one",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|@Hope_Net-join-us-on-Telegram #5 | 28",
+            "type": "vmess",
+            "server": "104.21.238.21",
+            "server_port": 443,
+            "uuid": "02DD674F-898E-4835-9958-97670C4CCA71",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aged-salad-8e8c.walidfree17.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "aged-salad-8e8c.walidfree17.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-121 | 29",
+            "type": "vmess",
+            "server": "188.114.99.0",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-26 | 30",
+            "type": "vmess",
+            "server": "vuk1.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/chat",
+                "headers": {
+                    "Host": "vuk1.0bad.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.18.28.109-5036 | 31",
+            "type": "vmess",
+            "server": "104.18.29.109",
+            "server_port": 443,
+            "uuid": "12eed507-9a58-4ca5-f7af-2871e9aae684",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdntr2.digisport.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/19544",
+                "headers": {
+                    "Host": "cdntr2.digisport.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-281 | 32",
+            "type": "vmess",
+            "server": "ahsorathiyaa.fly.dev",
+            "server_port": 443,
+            "uuid": "de04add9-5c68-8bab-950c-08cd5320df18",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ahsorathiyaa.fly.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vmess",
+                "headers": {
+                    "Host": "ahsorathiyaa.fly.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 33",
+            "type": "vmess",
+            "server": "104.31.16.65",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-19 | 34",
+            "type": "vmess",
+            "server": "ra.679888.xyz",
+            "server_port": 8443,
+            "uuid": "1074988f-51da-41df-9db9-36bf3d6f3d94",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/xpyrvws?ed=2048",
+                "headers": {
+                    "Host": "ra.679888.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-23 | 35",
+            "type": "vmess",
+            "server": "95.174.71.96",
+            "server_port": 3331,
+            "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/d\/082f26a.fm.apple.com:31859",
+                "headers": {
+                    "Host": "082f26a.v6.gladns.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-4 | 36",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-3 | 37",
+            "type": "vmess",
+            "server": "130.162.47.123",
+            "server_port": 6854,
+            "uuid": "b5f7e932-f730-4ad2-b425-40977b9db332",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/zBLPou",
+                "headers": {
+                    "Host": "130.162.47.123"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@free4allVPN | US🇺🇸 | cloudconebbb.gorgorchicken.one:8443 | 409.72ms | 🎸 | 38",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 8443,
+            "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconebbb.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconebbb",
+                "headers": {
+                    "Host": "cloudconebbb.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-Dusseldorf | 39",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "FF03EAEC-37DA-4566-B38D-CC4884E1D950",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸_US_美国_157 | 40",
+            "type": "vmess",
+            "server": "104.24.161.123",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sand.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-26 | 41",
+            "type": "vmess",
+            "server": "203.23.106.157",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸 US 美国 191 | 42",
+            "type": "vmess",
+            "server": "104.21.7.50",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sand.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-49 | 43",
+            "type": "vmess",
+            "server": "203.23.104.222",
+            "server_port": 2053,
+            "uuid": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "iraniancp.click",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/?ed=2048",
+                "headers": {
+                    "Host": "b5.iraniancp.click"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-26 | 44",
+            "type": "vmess",
+            "server": "95.174.71.96",
+            "server_port": 3331,
+            "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/d\/082f26a.fm.apple.com:31859",
+                "headers": {
+                    "Host": "95.174.71.96"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-232 | 45",
+            "type": "vmess",
+            "server": "172.67.184.53",
+            "server_port": 8443,
+            "uuid": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconeaaa.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconeaaa",
+                "headers": {
+                    "Host": "cloudconeaaa.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-30 | 46",
+            "type": "vmess",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-108 | 47",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎 | 48",
+            "type": "vmess",
+            "server": "104.31.16.58",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sand.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-39 | 49",
+            "type": "vmess",
+            "server": "vin1.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/chat",
+                "headers": {
+                    "Host": "vin1.0bad.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-33 | 50",
+            "type": "vmess",
+            "server": "104.21.12.103",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-107 | 51",
+            "type": "vmess",
+            "server": "ming2.kiwireich.com",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-34 | 52",
+            "type": "vmess",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|🇸🇬 SG(AzadNet.t.me)_044 | 53",
+            "type": "vmess",
+            "server": "vsg1.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "getandroid.com,bsi.ir,telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/chat",
+                "headers": {
+                    "Host": "vsg1.0bad.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-157 | 54",
+            "type": "trojan",
+            "server": "34.254.39.213",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 55",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸_US_美国_138 | 56",
+            "type": "vmess",
+            "server": "162.159.62.69",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sand.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@FreakConfig | RELAY🚩 | sandp.blanku.me:443 | 23.13ms | 0️⃣1️⃣ | 57",
+            "type": "vmess",
+            "server": "104.27.203.169",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@PrivateVPNs | FR🇫🇷 | 13.39.192.236:22222 | 131.91ms | 0️⃣1️⃣ | 58",
+            "type": "trojan",
+            "server": "13.39.192.236",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@iP_CF | US🇺🇸 | 15.204.209.50:80 | 6.77ms | 0️⃣1️⃣ | 59",
+            "type": "trojan",
+            "server": "15.204.209.50",
+            "server_port": 80,
+            "password": "7ea37e4f-325b-416f-901a-67012367307f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-184 | 60",
+            "type": "trojan",
+            "server": "13.37.47.83",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@oneclickvpnkeys | GB🇬🇧 | 3.9.127.187:22222 | 144.13ms | 0️⃣1️⃣ | 61",
+            "type": "trojan",
+            "server": "3.9.127.187",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@ShadowProxy66 | RELAY🚩 | rockp.blanku.me:443 | 20.59ms | 0️⃣1️⃣ | 62",
+            "type": "vmess",
+            "server": "104.24.145.43",
+            "server_port": 443,
+            "uuid": "824c58b1-65ba-4680-a609-663a000dbb92",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rockp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss13889",
+                "headers": {
+                    "Host": "rock.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 63",
+            "type": "vmess",
+            "server": "188.114.99.29",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-5 | 64",
+            "type": "trojan",
+            "server": "99.81.120.13",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@proxystore11 | US🇺🇸 | notdirect.howhealthyistoomajreally.homes:443 | 327.86ms | 0️⃣2️⃣ | 65",
+            "type": "vmess",
+            "server": "172.67.150.82",
+            "server_port": 443,
+            "uuid": "e35026da-e985-49ca-b43b-276062a535a6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "notdirect.howhealthyistoomajreally.homes",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/pNV7izRFLO8rGCkIH66kMFPa",
+                "headers": {
+                    "Host": "notdirect.howhealthyistoomajreally.homes"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "8|🇺🇸_US_美国 #3 | 66",
+            "type": "vmess",
+            "server": "104.24.176.7",
+            "server_port": 443,
+            "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amstd.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/12796",
+                "headers": {
+                    "Host": "amstd.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@ShadowProxy66 | US🇺🇸 | rockp.blanku.me:443 | 11.42ms | 0️⃣2️⃣ | 67",
+            "type": "vmess",
+            "server": "172.67.214.41",
+            "server_port": 443,
+            "uuid": "824c58b1-65ba-4680-a609-663a000dbb92",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rockp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss13889",
+                "headers": {
+                    "Host": "rock.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 68",
+            "type": "vmess",
+            "server": "104.19.180.169",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 69",
+            "type": "vmess",
+            "server": "104.16.250.250",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-13 | 70",
+            "type": "vmess",
+            "server": "107.173.35.242",
+            "server_port": 8443,
+            "uuid": "1074988f-51da-41df-9db9-36bf3d6f3d94",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/xpyrvws?ed=2048",
+                "headers": {
+                    "Host": "107.173.35.242"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@vless_vmess | US🇺🇸 | wispy-bread-83b4.bangolan121980.workers.dev:443 | 98.12ms | 0️⃣1️⃣ | 71",
+            "type": "vmess",
+            "server": "104.20.47.106",
+            "server_port": 443,
+            "uuid": "795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wispy-bread-83b4.bangolan121980.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Kansas.kotick.site",
+                "headers": {
+                    "Host": "wispy-bread-83b4.bangolan121980.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-11 | 72",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 443,
+            "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amstd.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/12796",
+                "headers": {
+                    "Host": "amstd.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.150.82-17016 | 73",
+            "type": "trojan",
+            "server": "notdirect.howhealthyistoomajreally.homes",
+            "server_port": 443,
+            "password": "e35026da-e985-49ca-b43b-276062a535a6",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "notdirect.howhealthyistoomajreally.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ilb9fuWfuqWDjlQrGCkIH66kMFPa",
+                "headers": {
+                    "Host": null
+                }
+            }
+        },
+        {
+            "tag": "0,1,2,3,4,8,16|🇺🇸 _US_美国 #7 | 74",
+            "type": "vmess",
+            "server": "66.241.124.93",
+            "server_port": 443,
+            "uuid": "de04add9-5c68-8bab-950c-08cd5320df18",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ahsorathiyaa.fly.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vmess",
+                "headers": {
+                    "Host": "ahsorathiyaa.fly.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸US-45.63.106.86-0173 | 75",
+            "type": "trojan",
+            "server": "45.63.106.86",
+            "server_port": 17831,
+            "password": "vbmwVEzFLS",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US-45.63.106.86-0179 | 76",
+            "type": "trojan",
+            "server": "45.63.106.86",
+            "server_port": 39277,
+            "password": "KYAawE5EGp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US-45.63.106.86-0144 | 77",
+            "type": "trojan",
+            "server": "45.63.106.86",
+            "server_port": 42903,
+            "password": "TmxGNUA1jL",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "1,12,15|_US_美国 4 | 78",
+            "type": "vmess",
+            "server": "104.21.7.237",
+            "server_port": 443,
+            "uuid": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-53 | 79",
+            "type": "vmess",
+            "server": "104.31.16.58",
+            "server_port": 443,
+            "uuid": "479280EB-AD8F-4C31-85B0-5DE66C29C0B4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.21.7.237-15150 | 80",
+            "type": "vmess",
+            "server": "172.67.156.138",
+            "server_port": 443,
+            "uuid": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-66 | 81",
+            "type": "vmess",
+            "server": "203.23.104.190",
+            "server_port": 443,
+            "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sandp.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss51068",
+                "headers": {
+                    "Host": "sand.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "15|🇺🇸 美国(油管破解资源君) 54 | 82",
+            "type": "vmess",
+            "server": "104.24.176.7",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇫🇷FR-217.182.76.202-8486 | 83",
+            "type": "vmess",
+            "server": "217.182.76.202",
+            "server_port": 443,
+            "uuid": "2e68015f-a8b2-4893-a7a3-4edb19b178d9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "pl2-vmess.greenssh.xyz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.21.91.107-13617 | 84",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pzl.p237875155.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/pzl237875155",
+                "headers": {
+                    "Host": "pzl.p237875155.buzz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-Dusseldorf | 85",
+            "type": "vmess",
+            "server": "fake.id.workers.dev",
+            "server_port": 443,
+            "uuid": "479280EB-AD8F-4C31-85B0-5DE66C29C0B4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.132.15-1615 | 86",
+            "type": "vmess",
+            "server": "172.67.132.15",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇸🇬SG-146.190.110.216-0198 | 87",
+            "type": "trojan",
+            "server": "146.190.110.216",
+            "server_port": 55903,
+            "password": "cGzrjnNzpU",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-17 | 88",
+            "type": "vmess",
+            "server": "104.31.16.58",
+            "server_port": 8443,
+            "uuid": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconeaaa.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconeaaa",
+                "headers": {
+                    "Host": "cloudconeaaa.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-135 | 89",
+            "type": "vmess",
+            "server": "203.23.104.190",
+            "server_port": 8443,
+            "uuid": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconeaaa.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconeaaa",
+                "headers": {
+                    "Host": "cloudconeaaa.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "NU_speednode_0036 | 90",
+            "type": "vmess",
+            "server": "pzl.p237875155.buzz",
+            "server_port": 443,
+            "uuid": "9b78b7fe-47a3-41eb-d695-22692ac835a0",
+            "security": "auto",
+            "alter_id": 1,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pzl.p237875155.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/pzl237875155",
+                "headers": {
+                    "Host": "pzl.p237875155.buzz"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-32 | 91",
+            "type": "vmess",
+            "server": "104.31.16.196",
+            "server_port": 443,
+            "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ming2.kiwireich.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ray",
+                "headers": {
+                    "Host": "ming2.kiwireich.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "22|🇺🇸_US_美国_4_8 | 92",
+            "type": "vmess",
+            "server": "104.18.16.131",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Kansas.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Kansas.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-17 | 93",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 8443,
+            "uuid": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconeaaa.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconeaaa",
+                "headers": {
+                    "Host": "cloudconeaaa.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-3 | 94",
+            "type": "vmess",
+            "server": "104.24.176.7",
+            "server_port": 443,
+            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "franc.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/11201",
+                "headers": {
+                    "Host": "franc.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|GetAFreeNode.com-Lille | 95",
+            "type": "vmess",
+            "server": "104.19.180.169",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|GetAFreeNode.com-Lille | 96",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-104.31.16.213-5227 | 97",
+            "type": "vmess",
+            "server": "104.31.16.213",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.156.138-9484 | 98",
+            "type": "vmess",
+            "server": "172.67.156.138",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Kansas.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Kansas.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "15|🇨🇾 塞浦路斯 18 | 99",
+            "type": "vmess",
+            "server": "203.23.106.157",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-140 | 100",
+            "type": "vmess",
+            "server": "104.21.36.26",
+            "server_port": 8443,
+            "uuid": "1cec1ebc-b489-4769-f2d9-e079b5832a60",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudconeaaa.gorgorchicken.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/cloudconeaaa",
+                "headers": {
+                    "Host": "cloudconeaaa.gorgorchicken.one"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@yaney_01 | JP🇯🇵 | gsawsjp1.aiopen.cfd:443 | 287.86ms | 0️⃣1️⃣ | 101",
+            "type": "trojan",
+            "server": "13.115.83.154",
+            "server_port": 443,
+            "password": "db4fb0e6-0e5b-4b12-95ac-03e60f5685d7",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-212-60-88.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "11|美国CloudFlare节点 16 | 102",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|GetAFreeNode.com-Lille | 103",
+            "type": "vmess",
+            "server": "104.31.16.196",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "16|GetAFreeNode.com-Lille | 104",
+            "type": "vmess",
+            "server": "104.16.250.250",
+            "server_port": 443,
+            "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Lille.bobbykotick.rip",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Lille.bobbykotick.rip"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "1|_SG_新加坡 2 | 105",
+            "type": "trojan",
+            "server": "13.212.124.18",
+            "server_port": 443,
+            "password": "db4fb0e6-0e5b-4b12-95ac-03e60f5685d7",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-212-60-88.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK-8.217.70.158-15218 | 106",
+            "type": "vmess",
+            "server": "8.217.70.158",
+            "server_port": 8080,
+            "uuid": "ad13f574-f6b7-427e-bb29-224a07c56d10",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/rdg",
+                "headers": {
+                    "Host": "619hk1.fr99kt.top"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "15|🇩🇪DE德国(youtube阿伟科技) | 107",
+            "type": "vmess",
+            "server": "168.100.6.250",
+            "server_port": 443,
+            "uuid": "479280EB-AD8F-4C31-85B0-5DE66C29C0B4",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "1|_TW_台湾 | 108",
+            "type": "trojan",
+            "server": "36.231.88.229",
+            "server_port": 443,
+            "password": "db4fb0e6-0e5b-4b12-95ac-03e60f5685d7",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-212-60-88.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-17 | 109",
+            "type": "vmess",
+            "server": "104.21.73.213",
+            "server_port": 443,
+            "uuid": "F0259D88-2331-4109-A540-B240DFA251F2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "little-sound-292f.walidfree22.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "little-sound-292f.walidfree22.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-152 | 110",
+            "type": "trojan",
+            "server": "35.76.115.125",
+            "server_port": 443,
+            "password": "db4fb0e6-0e5b-4b12-95ac-03e60f5685d7",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "20-212-60-88.nhost.00cdn.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@DirectVPN | DE🇩🇪 | 3.78.178.252:22222 | 129.13ms | 0️⃣3️⃣ | 111",
+            "type": "trojan",
+            "server": "3.78.178.252",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@DirectVPN | FR🇫🇷 | 13.39.30.41:22222 | 113.88ms | 0️⃣2️⃣ | 112",
+            "type": "trojan",
+            "server": "13.39.30.41",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "2,3,4,8|_US_美国 #15 | 113",
+            "type": "vmess",
+            "server": "104.17.137.141",
+            "server_port": 443,
+            "uuid": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/d84ee332-1284-11ee-a5c8-8213fd3be4b9",
+                "headers": {
+                    "Host": "d84ee332-1284-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@DirectVPN | GB🇬🇧 | 18.168.82.245:22222 | 143.76ms | 0️⃣1️⃣ | 114",
+            "type": "trojan",
+            "server": "18.168.82.245",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-148 | 115",
+            "type": "vmess",
+            "server": "3.112.223.76",
+            "server_port": 38190,
+            "uuid": "ad13f574-f6b7-427e-bb29-224a07c56d10",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/rdg",
+                "headers": {
+                    "Host": "86jpjp.fr99kt.top"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-29 | 116",
+            "type": "trojan",
+            "server": "13.239.24.51",
+            "server_port": 21022,
+            "password": "nXlDP9xN1l",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US 美国 161 | 117",
+            "type": "vmess",
+            "server": "104.16.72.175",
+            "server_port": 443,
+            "uuid": "824c58b1-65ba-4680-a609-663a000dbb92",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "rock.blanku.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/wss13889",
+                "headers": {
+                    "Host": "rock.blanku.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-16 | 118",
+            "type": "vmess",
+            "server": "188.114.99.29",
+            "server_port": 443,
+            "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amstd.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/12796",
+                "headers": {
+                    "Host": "amstd.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-23 | 119",
+            "type": "trojan",
+            "server": "131.186.35.57",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-45 | 120",
+            "type": "trojan",
+            "server": "152.70.111.86",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-39 | 121",
+            "type": "trojan",
+            "server": "168.138.187.72",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-42 | 122",
+            "type": "trojan",
+            "server": "131.186.35.70",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG-168.138.172.122-0196 | 123",
+            "type": "trojan",
+            "server": "168.138.172.122",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🏁RELAY-172.67.81.238-16632 | 124",
+            "type": "vmess",
+            "server": "104.31.16.213",
+            "server_port": 443,
+            "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "amstd.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/12796",
+                "headers": {
+                    "Host": "amstd.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-52 | 125",
+            "type": "vmess",
+            "server": "104.27.38.85",
+            "server_port": 443,
+            "uuid": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "franc.digires.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/11201",
+                "headers": {
+                    "Host": "franc.digires.shop"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-44 | 126",
+            "type": "trojan",
+            "server": "155.248.176.74",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-14 | 127",
+            "type": "vmess",
+            "server": "172.67.149.230",
+            "server_port": 443,
+            "uuid": "F0259D88-2331-4109-A540-B240DFA251F2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "little-sound-292f.walidfree22.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "little-sound-292f.walidfree22.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-60 | 128",
+            "type": "vmess",
+            "server": "104.31.16.196",
+            "server_port": 443,
+            "uuid": "795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lucky-fire-4924.walidfree10.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "lucky-fire-4924.walidfree10.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-59 | 129",
+            "type": "vmess",
+            "server": "203.23.104.222",
+            "server_port": 443,
+            "uuid": "F0259D88-2331-4109-A540-B240DFA251F2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sweet-boat-18e0.kenzas6788.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Dusseldorf.kotick.site",
+                "headers": {
+                    "Host": "sweet-boat-18e0.kenzas6788.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-49 | 130",
+            "type": "vmess",
+            "server": "104.31.16.35",
+            "server_port": 443,
+            "uuid": "795CAC68-4CF8-42D6-BCF6-EDAA8EDCC435",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lucky-fire-4924.walidfree10.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Amsterdam.kotick.site",
+                "headers": {
+                    "Host": "lucky-fire-4924.walidfree10.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-53 | 131",
+            "type": "vmess",
+            "server": "104.31.16.65",
+            "server_port": 443,
+            "uuid": "F0259D88-2331-4109-A540-B240DFA251F2",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sweet-boat-18e0.kenzas6788.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest\/Dusseldorf.kotick.site",
+                "headers": {
+                    "Host": "sweet-boat-18e0.kenzas6788.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇸🇬SG-138.2.84.26-0130 | 132",
+            "type": "trojan",
+            "server": "138.2.84.26",
+            "server_port": 10001,
+            "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "16|🇦🇺白嫖-299 | 133",
+            "type": "vmess",
+            "server": "vau1.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/chat",
+                "headers": {
+                    "Host": "vau1.0bad.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-177 | 134",
+            "type": "trojan",
+            "server": "138.2.234.225",
+            "server_port": 45555,
+            "password": "VpRuqFDCJo",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-134 | 135",
+            "type": "vmess",
+            "server": "cf.dalazhi.eu.org",
+            "server_port": 443,
+            "uuid": "64480f4c-61c2-4d88-89c3-fc0045229bfc",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us.dalazhi.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/kplxvws",
+                "headers": {
+                    "Host": "us.dalazhi.eu.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@oneclickvpnkeys | RU🇷🇺 | gy.mianfenyun012.eu.org:23474 | 297.58ms | 0️⃣1️⃣ | 136",
+            "type": "trojan",
+            "server": "195.58.49.140",
+            "server_port": 23474,
+            "password": "HXLeyKfZPn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@V2parsin | US🇺🇸 | b2.itdguildd.sIte:2096 | 115.08ms | 0️⃣1️⃣ | 137",
+            "type": "vmess",
+            "server": "104.31.16.65",
+            "server_port": 2096,
+            "uuid": "39d11bc3-9843-4745-bf37-28cbd355ab10",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "b2.itdguildd.sIte",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/",
+                "headers": {
+                    "Host": "b2.itdguildd.sIte"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-49 | 138",
+            "type": "vmess",
+            "server": "188.114.99.29",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "small-firefly-cb30.sehadek6103.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vuk2.0bad.com\/chat",
+                "headers": {
+                    "Host": "small-firefly-cb30.sehadek6103.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-267 | 139",
+            "type": "vmess",
+            "server": "172.67.8.239",
+            "server_port": 443,
+            "uuid": "8d2ba456-2f0d-4c13-b8a0-bff99c679709",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vceu3e.twittei.me",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/ikun",
+                "headers": {
+                    "Host": "vceu3e.twittei.me"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-49 | 140",
+            "type": "vmess",
+            "server": "104.19.180.169",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "small-firefly-cb30.sehadek6103.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vuk2.0bad.com\/chat",
+                "headers": {
+                    "Host": "small-firefly-cb30.sehadek6103.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "1,2,3,4|_CY_塞浦路斯->🇬🇧_GB_英国 | 141",
+            "type": "vmess",
+            "server": "104.20.156.248",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sub2.saintink.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vuk2.0bad.com\/chat",
+                "headers": {
+                    "Host": "sub2.saintink.eu.org"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-4 | 142",
+            "type": "vmess",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "FDDA5DE1-4144-492B-ABF3-756A79EFBFE9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "1,2,3,4,8,16|_RU_俄罗斯联邦 | 143",
+            "type": "vmess",
+            "server": "185.59.218.177",
+            "server_port": 443,
+            "uuid": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9",
+                "headers": {
+                    "Host": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "RescueNet-14 | 144",
+            "type": "trojan",
+            "server": "51.38.71.175",
+            "server_port": 80,
+            "password": "211f5876-8c89-4d97-9004-ff16acddd506",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "RescueNet-49 | 145",
+            "type": "vmess",
+            "server": "104.17.77.94",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "small-firefly-cb30.sehadek6103.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/vuk2.0bad.com\/chat",
+                "headers": {
+                    "Host": "small-firefly-cb30.sehadek6103.workers.dev"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "🇺🇸US-45.79.110.190-1230 | 146",
+            "type": "vmess",
+            "server": "vus4.0bad.com",
+            "server_port": 443,
+            "uuid": "927094d3-d678-4763-8591-e240d0bcae87",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "getandroid.com,bsi.ir,telewebion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/\/chat",
+                "headers": {
+                    "Host": "vus4.0bad.com"
+                },
+                "max_early_data": 0,
+                "early_data_header_name": "Sec-WebSocket-Protocol"
+            }
+        },
+        {
+            "tag": "@DirectVPN | DE🇩🇪 | 18.195.134.100:22222 | 184.29ms | 0️⃣2️⃣ | 147",
+            "type": "trojan",
+            "server": "18.195.134.100",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@DirectVPN | DE🇩🇪 | 52.59.99.113:22222 | 122.14ms | 0️⃣1️⃣ | 148",
+            "type": "trojan",
+            "server": "52.59.99.113",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telewebion.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "Relay_🇺🇸US-🇺🇸US_583 | 149",
+            "type": "trojan",
+            "server": "141.148.176.3",
+            "server_port": 80,
+            "password": "c8e877d3-2909-416d-aa5a-6d1722a374bd",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ssrsub.t19.trojan.tel",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "@PrivateVPNs | IE🇮🇪 | 3.251.28.24:22222 | 97.03ms | 0️⃣3️⃣ | 150",
+            "type": "trojan",
+            "server": "3.251.28.24",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "geoip": {
+            "download_url": "https:\/\/github.com\/malikshi\/sing-box-geo\/releases\/latest\/download\/geoip.db",
+            "download_detour": "direct"
+        },
+        "geosite": {
+            "download_url": "https:\/\/github.com\/malikshi\/v2ray-rules-dat\/releases\/latest\/download\/geosite.db",
+            "download_detour": "direct"
+        },
+        "rules": [
+            {
+                "outbound": "dns-out",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "inbound": [
+                    "dns-in"
+                ],
+                "outbound": "dns-out"
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "geoip": [
+                    "ir"
+                ],
+                "outbound": "bypass"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0\/3",
+                    "ff00::\/8"
+                ]
+            }
+        ]
+    }
+}
