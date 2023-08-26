@@ -528,7 +528,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -799,7 +799,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -978,7 +978,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -1094,7 +1094,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "jp.caball.link"
                 },
@@ -1417,7 +1417,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -1656,7 +1656,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -1879,7 +1879,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -3721,7 +3721,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
@@ -4113,7 +4113,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "admin.quranmajid.eu.org"
                 },
@@ -4326,7 +4326,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/\/?ed=2048",
+                "path": "\/?ed=2048",
                 "headers": {
                     "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
                 },
