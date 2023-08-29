@@ -1,0 +1,2301 @@
++ '[' '' = true ']'
++ '[' '' '!=' false ']'
++ linebuffer=--linebuffer
++ '[' '' = true ']'
+++ mktemp -d
++ export thread_dir=/data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe
++ thread_dir=/data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe
+++ wc -l
++ threads=2
++ '[' 2 -gt 32 ']'
++ '[' -z '' ']'
++ jobs=2
++ sed -i -e '$a\' /data/data/com.termux/files/usr/tmp/tmp.I0X8J2jX7S
++ split -d -n l/2 /data/data/com.termux/files/usr/tmp/tmp.I0X8J2jX7S /data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr
+++ seq -w 00 1
++ parallel --linebuffer --jobs 2 -q -- setsubcfg set_sub_cfg '/data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr{}' /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1 'allowInsecure;1' ::: 00 01
++ case "$1" in
++ set_sub_cfg /data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr00 /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1 'allowInsecure;1'
++ local in out
++ in=/data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr00
++ out=/data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1
++ shift 2
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ line_org='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ local line NL
+++ NL='
+'
+++ line='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ line_prop[2]='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI.CF-08-29------'
+++ line='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line_prop[2]='#------MCI.CF-08-29------'
+++ line_prop[2]=------MCI.CF-08-29------
+++ line_cfg='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line=2234@127.0.0.1:1080
+++ line_cfg='?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line_cfg='security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line=2234@127.0.0.1:1080
+++ line_prop[3]=2234@127.0.0.1:1080
+++ line=2234
+++ line_prop[3]=@127.0.0.1:1080
+++ line_prop[3]=127.0.0.1:1080
+++ line_prop[4]=1080
+++ line_prop[3]=127.0.0.1
+++ line_prop[3]=127.0.0.1
+++ '[' trojan = ss ']'
+++ line_prop[1]=2234
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ echo 'security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
++ case "$1" in
++ set_sub_cfg /data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr01 /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1 'allowInsecure;1'
++ local in out
++ in=/data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe/thr01
++ out=/data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1
++ shift 2
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ tr _- +/
+++++ printf %s==== eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ base64 -di
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 127.0.0.1
+++ [[ 127.0.0.1 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1'
+++ echo 'trojan://2234@127.0.0.1:1080?security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1#------MCI.CF-08-29------'
+++ return 0
++ printf '%s;%s\n' 1 'trojan://2234@127.0.0.1:1080?security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1#------MCI.CF-08-29------'
++ IFS=
++ read -r line
++++ decode='{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ set_node_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ jq ''
++++ vmess_decode vmess://eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
++++ printf %s '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++++ tr _- +/
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
+++++ printf %s==== eyJhZGQiOiIxNzIuNjcuMTgzLjUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ decode='{"add":"172.67.183.5","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"172.67.183.5","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"172.67.183.5","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"172.67.183.5","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ jq ''
++++ printf %s '{"add":"172.67.183.5","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI0LjIwOC4yNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 15 vmess://ewogICJhZGQiOiAiMTA0LjI0LjIwOC4yNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ tr _- +/
+++++ sed -E 's/.{4}/&\n/g'
+++++ base64 -di
+++++ sed -e '$ d'
++++ decode='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ line_cfg='{
+  "add": "172.67.183.5",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "172.67.183.5",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
++++ printf %s '{
+  "add": "172.67.183.5",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4My41IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAi8J+HuvCfh7hfVVNf576O5Zu9LT7wn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 2 vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4My41IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAi8J+HuvCfh7hfVVNf576O5Zu9LT7wn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 16 vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ base64 -di
+++++ tr _- +/
+++ line_cfg='{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++++ decode='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++ printf '%s;%s\n' 3 vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ line_cfg='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ jq ''
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 17 vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJpZCI6ImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMjc5NiIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0xMCIsInNjeSI6ImF1dG8iLCJzbmkiOiJhbXN0ZC5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ base64 -di
+++++ sed -e '$ d'
+++++ tr _- +/
++++ decode='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"amstd.digires.shop","id":"c13277ce-cda6-4d01-cedc-1e3605a0eb72","net":"ws","path":"/12796","port":"443","ps":"RescueNet-10","scy":"auto","sni":"amstd.digires.shop","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"amstd.digires.shop","id":"c13277ce-cda6-4d01-cedc-1e3605a0eb72","net":"ws","path":"/12796","port":"443","ps":"RescueNet-10","scy":"auto","sni":"amstd.digires.shop","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"amstd.digires.shop","id":"c13277ce-cda6-4d01-cedc-1e3605a0eb72","net":"ws","path":"/12796","port":"443","ps":"RescueNet-10","scy":"auto","sni":"amstd.digires.shop","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"amstd.digires.shop","id":"c13277ce-cda6-4d01-cedc-1e3605a0eb72","net":"ws","path":"/12796","port":"443","ps":"RescueNet-10","scy":"auto","sni":"amstd.digires.shop","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"amstd.digires.shop","id":"c13277ce-cda6-4d01-cedc-1e3605a0eb72","net":"ws","path":"/12796","port":"443","ps":"RescueNet-10","scy":"auto","sni":"amstd.digires.shop","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE2LjEwNi4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImI1LmlyYW5pYW5jcC5jbGljayIsCiAgImlkIjogIjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLz9lZD0yMDQ4IiwKICAicG9ydCI6ICIyMDUzIiwKICAicHMiOiAiUmVzY3VlTmV0LTE5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiaXJhbmlhbmNwLmNsaWNrIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 4 vmess://ewogICJhZGQiOiAiMTA0LjE2LjEwNi4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImI1LmlyYW5pYW5jcC5jbGljayIsCiAgImlkIjogIjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLz9lZD0yMDQ4IiwKICAicG9ydCI6ICIyMDUzIiwKICAicHMiOiAiUmVzY3VlTmV0LTE5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiaXJhbmlhbmNwLmNsaWNrIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "amstd.digires.shop",
+  "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+  "net": "ws",
+  "path": "/12796",
+  "port": "443",
+  "ps": "RescueNet-10",
+  "scy": "auto",
+  "sni": "amstd.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "amstd.digires.shop",
+  "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+  "net": "ws",
+  "path": "/12796",
+  "port": "443",
+  "ps": "RescueNet-10",
+  "scy": "auto",
+  "sni": "amstd.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "amstd.digires.shop",
+  "id": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+  "net": "ws",
+  "path": "/12796",
+  "port": "443",
+  "ps": "RescueNet-10",
+  "scy": "auto",
+  "sni": "amstd.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImFtc3RkLmRpZ2lyZXMuc2hvcCIsCiAgImlkIjogImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLzEyNzk2IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMTAiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJhbXN0ZC5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 18 vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImFtc3RkLmRpZ2lyZXMuc2hvcCIsCiAgImlkIjogImMxMzI3N2NlLWNkYTYtNGQwMS1jZWRjLTFlMzYwNWEwZWI3MiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLzEyNzk2IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMTAiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJhbXN0ZC5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 5 vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjQuMjU1LjE5MSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJiNS5pcmFuaWFuY3AuY2xpY2siLCJpZCI6IjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii8/ZWRcdTAwM2QyMDQ4IiwicG9ydCI6IjIwNTMiLCJwcyI6IlJlc2N1ZU5ldC0xOSIsInNjeSI6ImF1dG8iLCJzbmkiOiJpcmFuaWFuY3AuY2xpY2siLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.24.255.191","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.24.255.191","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.24.255.191","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.24.255.191","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.24.255.191","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 19 vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMzEuMTYuMzUiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiTGlsbGUua290aWNrLnNpdGUiLCJpZCI6IjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsInNjeSI6ImF1dG8iLCJzbmkiOiJMaWxsZS5rb3RpY2suc2l0ZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.31.16.35","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.31.16.35","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.31.16.35","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.31.16.35","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.31.16.35","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.24.255.191",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.24.255.191",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.24.255.191",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI0LjI1NS4xOTEiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImI1LmlyYW5pYW5jcC5jbGljayIsCiAgImlkIjogIjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLz9lZD0yMDQ4IiwKICAicG9ydCI6ICIyMDUzIiwKICAicHMiOiAiUmVzY3VlTmV0LTE5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiaXJhbmlhbmNwLmNsaWNrIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 6 vmess://ewogICJhZGQiOiAiMTA0LjI0LjI1NS4xOTEiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogImI1LmlyYW5pYW5jcC5jbGljayIsCiAgImlkIjogIjcyZjc2YzM2LTNlM2MtNDViMy1hNjFmLWQ4ZjAxNzM0NTk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLz9lZD0yMDQ4IiwKICAicG9ydCI6ICIyMDUzIiwKICAicHMiOiAiUmVzY3VlTmV0LTE5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiaXJhbmlhbmNwLmNsaWNrIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjQuMTg1LjEzNyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ tr _- +/
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
++++ decode='{"add":"104.24.185.137","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.24.185.137","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.24.185.137","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.24.185.137","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.24.185.137","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{
+  "add": "104.31.16.35",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.31.16.35",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ jq ''
++++ printf %s '{
+  "add": "104.31.16.35",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjMxLjE2LjM1IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAi8J+HuvCfh7hfVVNf576O5Zu9LT7wn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 20 vmess://ewogICJhZGQiOiAiMTA0LjMxLjE2LjM1IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjYxNDdGMDY1LTlBQzAtNDA4MS1BNUEzLUEyRUI0RUJCODk1OCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAi8J+HuvCfh7hfVVNf576O5Zu9LT7wn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.24.185.137",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.24.185.137",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.24.185.137",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI0LjE4NS4xMzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 7 vmess://ewogICJhZGQiOiAiMTA0LjI0LjE4NS4xMzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ base64 -di
+++++ tr _- +/
+++ line_cfg='{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ decode='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ printf %s '{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ line_cfg='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ base64 -w 0
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE4LjIwMC4yMjAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNhbmRwLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 21 vmess://ewogICJhZGQiOiAiMTA0LjE4LjIwMC4yMjAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNhbmRwLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJAdjJyYXljb2xsZWN0b3Jkb25hdGUgfCBERfCfh6nwn4eqIHwgc2FuZC5ibGFua3UubWU6NDQzIHwgMTk0LjM5bXMgfCAw77iP4oOjNu+4j+KDoyIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ sed -e '$ d'
+++++ base64 -di
++++ decode='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ jq ''
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 8 vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMTg4LjEyNiIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ sed -e '$ d'
+++++ base64 -di
+++ line_cfg='{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ decode='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@v2raycollectordonate | DE🇩🇪 | sand.blanku.me:443 | 194.39ms | 0️⃣6️⃣",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
++++ printf %s '{"add":"104.25.188.126","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiQHYycmF5Y29sbGVjdG9yZG9uYXRlIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE5NC4zOW1zIHwgMO+4j+KDozbvuI/ig6MiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 22 vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiQHYycmF5Y29sbGVjdG9yZG9uYXRlIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE5NC4zOW1zIHwgMO+4j+KDozbvuI/ig6MiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
+++++ tr _- +/
+++ line_cfg='{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.25.188.126",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwKICAiaWQiOiAiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMjEyIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++++ decode='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
++ printf '%s;%s\n' 9 vmess://ewogICJhZGQiOiAiMTA0LjI1LjE4OC4xMjYiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwKICAiaWQiOiAiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMjEyIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImI1LmlyYW5pYW5jcC5jbGljayIsImlkIjoiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiLz9lZFx1MDAzZDIwNDgiLCJwb3J0IjoiMjA1MyIsInBzIjoiUmVzY3VlTmV0LTE5Iiwic2N5IjoiYXV0byIsInNuaSI6ImlyYW5pYW5jcC5jbGljayIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ base64 -di
+++++ tr _- +/
++++ decode='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"b5.iraniancp.click","id":"72f76c36-3e3c-45b3-a61f-d8f017345958","net":"ws","path":"/?ed\u003d2048","port":"2053","ps":"RescueNet-19","scy":"auto","sni":"iraniancp.click","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ jq ''
++++ printf %s '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 23 vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ sed -E 's/.{4}/&\n/g'
+++++ printf %s==== eyJhZGQiOiIxMDQuMjUuMjEuMTM1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwiaWQiOiI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTIxMiIsInNjeSI6ImF1dG8iLCJzbmkiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.25.21.135","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "b5.iraniancp.click",
+  "id": "72f76c36-3e3c-45b3-a61f-d8f017345958",
+  "net": "ws",
+  "path": "/?ed=2048",
+  "port": "2053",
+  "ps": "RescueNet-19",
+  "scy": "auto",
+  "sni": "iraniancp.click",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiYjUuaXJhbmlhbmNwLmNsaWNrIiwKICAiaWQiOiAiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvP2VkPTIwNDgiLAogICJwb3J0IjogIjIwNTMiLAogICJwcyI6ICJSZXNjdWVOZXQtMTkiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJpcmFuaWFuY3AuY2xpY2siLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 10 vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiYjUuaXJhbmlhbmNwLmNsaWNrIiwKICAiaWQiOiAiNzJmNzZjMzYtM2UzYy00NWIzLWE2MWYtZDhmMDE3MzQ1OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvP2VkPTIwNDgiLAogICJwb3J0IjogIjIwNTMiLAogICJwcyI6ICJSZXNjdWVOZXQtMTkiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJpcmFuaWFuY3AuY2xpY2siLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjcuNjIuMjQzIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InNhbmQuYmxhbmt1Lm1lIiwiaWQiOiJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLCJuZXQiOiJ3cyIsInBhdGgiOiIvd3NzNTEwNjgiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtMjUiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ sed -e '$ d'
+++++ base64 -di
+++ line_cfg='{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ decode='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{
+  "add": "104.25.21.135",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
++++ printf %s '{"add":"104.27.62.243","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-25","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 24 vmess://ewogICJhZGQiOiAiMTA0LjI1LjIxLjEzNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJpZCI6ICI4Zjc0ZWM4YS05NzFjLTExZWQtYThmYy0wMjQyYWMxMjAwMDIiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi8xYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMTIiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjQuMjA4LjI1IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ sed -e '$ d'
+++++ base64 -di
++++ decode='{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.24.208.25","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.27.62.243",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-25",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 11 vmess://ewogICJhZGQiOiAiMTA0LjI3LjYyLjI0MyIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAic2FuZC5ibGFua3UubWUiLAogICJpZCI6ICJiM2EyMWRlZi01ZmNjLTQ3YTgtYTZhMC1hMzRlMjlkNTI4OGEiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi93c3M1MTA2OCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTI1IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxNzIuNjcuMTg2LjQyIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkxpbGxlLmtvdGljay5zaXRlIiwiaWQiOiI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3BlZWR0ZXN0IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9LVx1MDAzZfCfh6vwn4e3X0ZSX+azleWbvSAoMykiLCJzY3kiOiJhdXRvIiwic25pIjoiTGlsbGUua290aWNrLnNpdGUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++ line_cfg='{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++++ sed -e '$ d'
+++++ tr _- +/
++++ base64 -w 0
++++ printf %s '{
+  "add": "104.24.208.25",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++++ base64 -di
++++ decode='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"172.67.186.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI0LjIwOC4yNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 25 vmess://ewogICJhZGQiOiAiMTA0LjI0LjIwOC4yNSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTYuMTA2LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJMaWxsZS5rb3RpY2suc2l0ZSIsImlkIjoiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwibmV0Ijoid3MiLCJwYXRoIjoiL3NwZWVkdGVzdCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4X1VTX+e+juWbvS1cdTAwM2Xwn4er8J+Ht19GUl/ms5Xlm70gKDMpIiwic2N5IjoiYXV0byIsInNuaSI6IkxpbGxlLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ line_cfg='{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{"add":"104.16.106.177","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"Lille.kotick.site","id":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","net":"ws","path":"/speedtest","port":"443","ps":"🇺🇸_US_美国-\u003e🇫🇷_FR_法国 (3)","scy":"auto","sni":"Lille.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
++++ printf %s '{
+  "add": "172.67.186.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 12 vmess://ewogICJhZGQiOiAiMTcyLjY3LjE4Ni40MiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiTGlsbGUua290aWNrLnNpdGUiLAogICJpZCI6ICI2MTQ3RjA2NS05QUMwLTQwODEtQTVBMy1BMkVCNEVCQjg5NTgiLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi9zcGVlZHRlc3QiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvS0+8J+Hq/Cfh7dfRlJf5rOV5Zu9ICgzKSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTguMjAwLjIyMCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIxYzU4NTRiYS0xYjQ0LTExZWUtYTE0Ni04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsImlkIjoiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwibmV0Ijoid3MiLCJwYXRoIjoiLzFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOSIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC0yMTIiLCJzY3kiOiJhdXRvIiwic25pIjoiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
+++ line_cfg='{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.16.106.177",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "Lille.kotick.site",
+  "id": "6147F065-9AC0-4081-A5A3-A2EB4EBB8958",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "🇺🇸_US_美国->🇫🇷_FR_法国 (3)",
+  "scy": "auto",
+  "sni": "Lille.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
++++ decode='{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE2LjEwNi4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 26 vmess://ewogICJhZGQiOiAiMTA0LjE2LjEwNi4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIkxpbGxlLmtvdGljay5zaXRlIiwKICAiaWQiOiAiNjE0N0YwNjUtOUFDMC00MDgxLUE1QTMtQTJFQjRFQkI4OTU4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvc3BlZWR0ZXN0IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuF9VU1/nvo7lm70tPvCfh6vwn4e3X0ZSX+azleWbvSAoMykiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJMaWxsZS5rb3RpY2suc2l0ZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
++ exit
++++ printf %s '{"add":"104.18.200.220","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/1c5854ba-1b44-11ee-a146-8213fd3be4b9","port":"443","ps":"RescueNet-212","scy":"auto","sni":"1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.18.200.220",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/1c5854ba-1b44-11ee-a146-8213fd3be4b9",
+  "port": "443",
+  "ps": "RescueNet-212",
+  "scy": "auto",
+  "sni": "1c5854ba-1b44-11ee-a146-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE4LjIwMC4yMjAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwKICAiaWQiOiAiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMjEyIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 13 vmess://ewogICJhZGQiOiAiMTA0LjE4LjIwMC4yMjAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIjFjNTg1NGJhLTFiNDQtMTFlZS1hMTQ2LTgyMTNmZDNiZTRiOS5iYW1hcmFtYmFzaC5tb25zdGVyIiwKICAiaWQiOiAiOGY3NGVjOGEtOTcxYy0xMWVkLWE4ZmMtMDI0MmFjMTIwMDAyIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtMjEyIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAiMWM1ODU0YmEtMWI0NC0xMWVlLWExNDYtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTkuMjU1LjUxIiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI0NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
++++ decode='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-246","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-246","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-246","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-246","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.19.255.51","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-246","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-246",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-246",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.19.255.51",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-246",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiaWQiOiAiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMTEyMDEiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNDYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJmcmFuYy5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 14 vmess://ewogICJhZGQiOiAiMTA0LjE5LjI1NS41MSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICJoMixodHRwLzEuMSIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiaWQiOiAiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMTEyMDEiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNDYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJmcmFuYy5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
++ exit
++ '[' '' '!=' true ']'
++ rm -rf /data/data/com.termux/files/usr/tmp/tmp.LWpgHruLPe
++ sort -t ';' -n -k 1,1 -o /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1 /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1
++ sed -i -E -e 's/^([^;]*;){1}//' /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1
++ mv -f /data/data/com.termux/files/usr/tmp/tmp.dyPVSsEPw1 Config/v2/mci.cf.raw

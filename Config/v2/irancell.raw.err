@@ -1,0 +1,2535 @@
++ '[' '' = true ']'
++ '[' '' '!=' false ']'
++ linebuffer=--linebuffer
++ '[' '' = true ']'
+++ mktemp -d
++ export thread_dir=/data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7
++ thread_dir=/data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7
+++ wc -l
++ threads=2
++ '[' 2 -gt 32 ']'
++ '[' -z '' ']'
++ jobs=2
++ sed -i -e '$a\' /data/data/com.termux/files/usr/tmp/tmp.OwKkcW792H
++ split -d -n l/2 /data/data/com.termux/files/usr/tmp/tmp.OwKkcW792H /data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr
+++ seq -w 00 1
++ parallel --linebuffer --jobs 2 -q -- setsubcfg set_sub_cfg '/data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr{}' /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG 'allowInsecure;1' ::: 00 01
++ case "$1" in
++ set_sub_cfg /data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr00 /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG 'allowInsecure;1'
++ local in out
++ in=/data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr00
++ out=/data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG
++ shift 2
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ line_org='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ local line NL
+++ NL='
+'
+++ line='trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ line_prop[2]='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------IRANCELL-08-29------'
+++ line='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line_prop[2]='#------IRANCELL-08-29------'
+++ line_prop[2]=------IRANCELL-08-29------
+++ line_cfg='2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line=2234@127.0.0.1:1080
+++ line_cfg='?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line_cfg='security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none'
+++ line=2234@127.0.0.1:1080
+++ line_prop[3]=2234@127.0.0.1:1080
+++ line=2234
+++ line_prop[3]=@127.0.0.1:1080
+++ line_prop[3]=127.0.0.1:1080
+++ line_prop[4]=1080
+++ line_prop[3]=127.0.0.1
+++ line_prop[3]=127.0.0.1
+++ '[' trojan = ss ']'
+++ line_prop[1]=2234
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
++++ echo 'security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none'
++ case "$1" in
++ set_sub_cfg /data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr01 /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG 'allowInsecure;1'
++ local in out
++ in=/data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7/thr01
++ out=/data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG
++ shift 2
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 127.0.0.1
+++ [[ 127.0.0.1 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1'
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++ echo 'trojan://2234@127.0.0.1:1080?security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1#------IRANCELL-08-29------'
+++ return 0
++ printf '%s;%s\n' 1 'trojan://2234@127.0.0.1:1080?security=tls
+sni=bsi.ir
+alpn=h2
+fp=chrome
+type=tcp
+headerType=none
+allowInsecure=1#------IRANCELL-08-29------'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ line_org='trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ local line NL
+++ NL='
+'
+++ line='trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ line_prop[2]='211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-14'
+++ line='211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#RescueNet-14'
+++ line_prop[2]=RescueNet-14
+++ line_cfg='211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80
+++ line_prop[3]=211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80
+++ line=211f5876-8c89-4d97-9004-ff16acddd506
+++ line_prop[3]=@51.38.71.175:80
+++ line_prop[3]=51.38.71.175:80
+++ line_prop[4]=80
+++ line_prop[3]=51.38.71.175
+++ line_prop[3]=51.38.71.175
+++ '[' trojan = ss ']'
+++ line_prop[1]=211f5876-8c89-4d97-9004-ff16acddd506
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
+++++ sed -E 's/.{4}/&\n/g'
+++++ printf %s==== eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwiaWQiOiI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLCJuZXQiOiJ3cyIsInBhdGgiOiIvdnVrMi4wYmFkLmNvbS9jaGF0IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTQ5Iiwic2N5IjoiYXV0byIsInNuaSI6InNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
+++++ tr _- +/
+++++ sed -e '$ d'
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++++ base64 -di
++++ decode='{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 51.38.71.175
+++ [[ 51.38.71.175 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#RescueNet-14'
+++ return 0
++ printf '%s;%s\n' 2 'trojan://211f5876-8c89-4d97-9004-ff16acddd506@51.38.71.175:80?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#RescueNet-14'
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ tr _- +/
+++++ sed -E 's/.{4}/&\n/g'
+++++ printf %s==== eyJhZGQiOiIxMzAuMTYyLjQ3LjEyMyIsImFpZCI6IjAiLCJhbHBuIjoiaDIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsIm5ldCI6IndzIiwicGF0aCI6Ii96QkxQb3UiLCJwb3J0IjoiNjg1NCIsInBzIjoiUmVzY3VlTmV0LTIwOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJ0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -e '$ d'
+++++ base64 -di
++++ decode='{"add":"130.162.47.123","aid":"0","alpn":"h2","fp":"chrome","host":"","id":"b5f7e932-f730-4ad2-b425-40977b9db332","net":"ws","path":"/zBLPou","port":"6854","ps":"RescueNet-208","scy":"auto","sni":"telewebion.com","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"130.162.47.123","aid":"0","alpn":"h2","fp":"chrome","host":"","id":"b5f7e932-f730-4ad2-b425-40977b9db332","net":"ws","path":"/zBLPou","port":"6854","ps":"RescueNet-208","scy":"auto","sni":"telewebion.com","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"130.162.47.123","aid":"0","alpn":"h2","fp":"chrome","host":"","id":"b5f7e932-f730-4ad2-b425-40977b9db332","net":"ws","path":"/zBLPou","port":"6854","ps":"RescueNet-208","scy":"auto","sni":"telewebion.com","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"130.162.47.123","aid":"0","alpn":"h2","fp":"chrome","host":"","id":"b5f7e932-f730-4ad2-b425-40977b9db332","net":"ws","path":"/zBLPou","port":"6854","ps":"RescueNet-208","scy":"auto","sni":"telewebion.com","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"130.162.47.123","aid":"0","alpn":"h2","fp":"chrome","host":"","id":"b5f7e932-f730-4ad2-b425-40977b9db332","net":"ws","path":"/zBLPou","port":"6854","ps":"RescueNet-208","scy":"auto","sni":"telewebion.com","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE3Ljc3Ljk0IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLAogICJpZCI6ICI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi92dWsyLjBiYWQuY29tL2NoYXQiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC00OSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 18 vmess://ewogICJhZGQiOiAiMTA0LjE3Ljc3Ljk0IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLAogICJpZCI6ICI5MjcwOTRkMy1kNjc4LTQ3NjMtODU5MS1lMjQwZDBiY2FlODciLAogICJuZXQiOiAid3MiLAogICJwYXRoIjogIi92dWsyLjBiYWQuY29tL2NoYXQiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC00OSIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjcuOTcuNDIiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ sed -e '$ d'
+++++ base64 -di
++++ decode='{"add":"104.27.97.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.27.97.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.27.97.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.27.97.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ jq ''
++++ printf %s '{"add":"104.27.97.42","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{
+  "add": "130.162.47.123",
+  "aid": "0",
+  "alpn": "h2",
+  "fp": "chrome",
+  "host": "",
+  "id": "b5f7e932-f730-4ad2-b425-40977b9db332",
+  "net": "ws",
+  "path": "/zBLPou",
+  "port": "6854",
+  "ps": "RescueNet-208",
+  "scy": "auto",
+  "sni": "telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "130.162.47.123",
+  "aid": "0",
+  "alpn": "h2",
+  "fp": "chrome",
+  "host": "",
+  "id": "b5f7e932-f730-4ad2-b425-40977b9db332",
+  "net": "ws",
+  "path": "/zBLPou",
+  "port": "6854",
+  "ps": "RescueNet-208",
+  "scy": "auto",
+  "sni": "telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "130.162.47.123",
+  "aid": "0",
+  "alpn": "h2",
+  "fp": "chrome",
+  "host": "",
+  "id": "b5f7e932-f730-4ad2-b425-40977b9db332",
+  "net": "ws",
+  "path": "/zBLPou",
+  "port": "6854",
+  "ps": "RescueNet-208",
+  "scy": "auto",
+  "sni": "telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTMwLjE2Mi40Ny4xMjMiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIiIsCiAgImlkIjogImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3pCTFBvdSIsCiAgInBvcnQiOiAiNjg1NCIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMDgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJ0ZWxld2ViaW9uLmNvbSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 3 vmess://ewogICJhZGQiOiAiMTMwLjE2Mi40Ny4xMjMiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIiIsCiAgImlkIjogImI1ZjdlOTMyLWY3MzAtNGFkMi1iNDI1LTQwOTc3YjlkYjMzMiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3pCTFBvdSIsCiAgInBvcnQiOiAiNjg1NCIsCiAgInBzIjogIlJlc2N1ZU5ldC0yMDgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJ0ZWxld2ViaW9uLmNvbSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ line_org='trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ local line NL
+++ NL='
+'
+++ line='trojan://27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ line_prop[2]='27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ line='27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ line_prop[2]=%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010
+++ line_cfg='27181131b8@62.210.188.19:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=27181131b8@62.210.188.19:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=27181131b8@62.210.188.19:443
+++ line_prop[3]=27181131b8@62.210.188.19:443
+++ line=27181131b8
+++ line_prop[3]=@62.210.188.19:443
+++ line_prop[3]=62.210.188.19:443
+++ line_prop[4]=443
+++ line_prop[3]=62.210.188.19
+++ line_prop[3]=62.210.188.19
+++ '[' trojan = ss ']'
+++ line_prop[1]=27181131b8
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 62.210.188.19
+++ [[ 62.210.188.19 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://27181131b8@62.210.188.19:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
+++ return 0
++ printf '%s;%s\n' 4 'trojan://27181131b8@62.210.188.19:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD_2_5%4010'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ line_org='trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ local line NL
+++ NL='
+'
+++ line='trojan://41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ line_prop[2]='41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ line='41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ line_prop[2]=%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99
+++ line_cfg='41dbabe59a@82.223.108.64:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=41dbabe59a@82.223.108.64:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=41dbabe59a@82.223.108.64:443
+++ line_prop[3]=41dbabe59a@82.223.108.64:443
+++ line=41dbabe59a
+++ line_prop[3]=@82.223.108.64:443
+++ line_prop[3]=82.223.108.64:443
+++ line_prop[4]=443
+++ line_prop[3]=82.223.108.64
+++ line_prop[3]=82.223.108.64
+++ '[' trojan = ss ']'
+++ line_prop[1]=41dbabe59a
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
+++ line_cfg='{
+  "add": "104.27.97.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.27.97.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
++++ printf %s '{
+  "add": "104.27.97.42",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI3Ljk3LjQyIiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtNjYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kcC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 82.223.108.64
+++ [[ 82.223.108.64 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
++ printf '%s;%s\n' 19 vmess://ewogICJhZGQiOiAiMTA0LjI3Ljk3LjQyIiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtNjYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kcC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://41dbabe59a@82.223.108.64:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
+++ return 0
++ printf '%s;%s\n' 5 'trojan://41dbabe59a@82.223.108.64:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AA%F0%9F%87%B8_ES_%E8%A5%BF%E7%8F%AD%E7%89%99'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ line_org='trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ local line NL
+++ NL='
+'
+++ line='trojan://27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ line_prop[2]='27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ line='27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ line_prop[2]=%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD
+++ line_cfg='27181131b8@fra1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=27181131b8@fra1.connecton.surf:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=27181131b8@fra1.connecton.surf:443
+++ line_prop[3]=27181131b8@fra1.connecton.surf:443
+++ line=27181131b8
+++ line_prop[3]=@fra1.connecton.surf:443
+++ line_prop[3]=fra1.connecton.surf:443
+++ line_prop[4]=443
+++ line_prop[3]=fra1.connecton.surf
+++ line_prop[3]=fra1.connecton.surf
+++ set_node_cfg vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ '[' trojan = ss ']'
+++ line_prop[1]=27181131b8
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ vmess_decode vmess://eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
+++++ printf %s==== eyJhZGQiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiIiLCJpZCI6ImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsIm5ldCI6IndzIiwicGF0aCI6Ii9lYTQ5MDllZi03Y2E2LTRiNDYtYmYyZS02YzA3ODk2ZWYzMzgtdm0iLCJwb3J0IjoiNDQzIiwicHMiOiIxNnzwn4e68J+HuF9VU1/nvo7lm71fNF80QDE4Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++++ sed -e '$ d'
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 fra1.connecton.surf
+++ [[ fra1.connecton.surf =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++++ base64 -di
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://27181131b8@fra1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
+++ return 0
++ printf '%s;%s\n' 6 'trojan://27181131b8@fra1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7_FR_%E6%B3%95%E5%9B%BD'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ line_org='trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ local line NL
+++ NL='
+'
+++ line='trojan://5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ line_prop[2]='5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#PL-51.77.57.30-0720+%7C+25.108MB'
+++ line='5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#PL-51.77.57.30-0720+%7C+25.108MB'
+++ line_prop[2]=PL-51.77.57.30-0720+%7C+25.108MB
+++ line_cfg='5d91f01a98@51.77.57.30:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=5d91f01a98@51.77.57.30:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=5d91f01a98@51.77.57.30:443
+++ line_prop[3]=5d91f01a98@51.77.57.30:443
+++ line=5d91f01a98
+++ line_prop[3]=@51.77.57.30:443
+++ line_prop[3]=51.77.57.30:443
+++ line_prop[4]=443
+++ line_prop[3]=51.77.57.30
+++ line_prop[3]=51.77.57.30
+++ '[' trojan = ss ']'
+++ line_prop[1]=5d91f01a98
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ decode='{"add":"cold-dawn-9246.fly.dev","aid":"0","alpn":"","fp":"chrome","host":"","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"16|🇺🇸_US_美国_4_4@18","scy":"auto","sni":"","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"cold-dawn-9246.fly.dev","aid":"0","alpn":"","fp":"chrome","host":"","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"16|🇺🇸_US_美国_4_4@18","scy":"auto","sni":"","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"cold-dawn-9246.fly.dev","aid":"0","alpn":"","fp":"chrome","host":"","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"16|🇺🇸_US_美国_4_4@18","scy":"auto","sni":"","tls":"tls","type":"","v":"2"}'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ line_cfg='{"add":"cold-dawn-9246.fly.dev","aid":"0","alpn":"","fp":"chrome","host":"","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"16|🇺🇸_US_美国_4_4@18","scy":"auto","sni":"","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ printf %s '{"add":"cold-dawn-9246.fly.dev","aid":"0","alpn":"","fp":"chrome","host":"","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"16|🇺🇸_US_美国_4_4@18","scy":"auto","sni":"","tls":"tls","type":"","v":"2"}'
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ jq ''
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 51.77.57.30
+++ [[ 51.77.57.30 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://5d91f01a98@51.77.57.30:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#PL-51.77.57.30-0720+%7C+25.108MB'
+++ return 0
++ printf '%s;%s\n' 7 'trojan://5d91f01a98@51.77.57.30:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#PL-51.77.57.30-0720+%7C+25.108MB'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ line_org='trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ local line NL
+++ NL='
+'
+++ line='trojan://092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ line_prop[2]='092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ line='092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ line_prop[2]=%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3
+++ line_cfg='092ab6fae1@5.199.143.230:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=092ab6fae1@5.199.143.230:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=092ab6fae1@5.199.143.230:443
+++ line_prop[3]=092ab6fae1@5.199.143.230:443
+++ line=092ab6fae1
+++ line_prop[3]=@5.199.143.230:443
+++ line_prop[3]=5.199.143.230:443
+++ line_prop[4]=443
+++ line_prop[3]=5.199.143.230
+++ line_prop[3]=5.199.143.230
+++ '[' trojan = ss ']'
+++ line_prop[1]=092ab6fae1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 5.199.143.230
+++ [[ 5.199.143.230 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://092ab6fae1@5.199.143.230:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
+++ return 0
++ printf '%s;%s\n' 8 'trojan://092ab6fae1@5.199.143.230:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%40oneclickvpnkeys+%7C+DE%F0%9F%87%A9%F0%9F%87%AA+%7C+5.199.143.230%3A443+%7C+156.22ms+%7C+0%EF%B8%8F%E2%83%A33%EF%B8%8F%E2%83%A3'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ line_org='trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ local line NL
+++ NL='
+'
+++ line='trojan://21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ line_prop[2]='21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ line='21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ line_prop[2]=BZ-91.209.70.106-0739+%7C+20.449MB
+++ line_cfg='21520357e1@91.209.70.106:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=21520357e1@91.209.70.106:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=21520357e1@91.209.70.106:443
+++ line_prop[3]=21520357e1@91.209.70.106:443
+++ line=21520357e1
+++ line_prop[3]=@91.209.70.106:443
+++ line_prop[3]=91.209.70.106:443
+++ line_prop[4]=443
+++ line_prop[3]=91.209.70.106
+++ line_prop[3]=91.209.70.106
+++ '[' trojan = ss ']'
+++ line_prop[1]=21520357e1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 91.209.70.106
+++ [[ 91.209.70.106 =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://21520357e1@91.209.70.106:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#BZ-91.209.70.106-0739+%7C+20.449MB'
+++ return 0
++ printf '%s;%s\n' 9 'trojan://21520357e1@91.209.70.106:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#BZ-91.209.70.106-0739+%7C+20.449MB'
++ IFS=
++ read -r line
+++ set_node_cfg 'trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ line_org='trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ local line NL
+++ NL='
+'
+++ line='trojan://21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ line_prop[2]='21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#RescueNet-248'
+++ line='21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#RescueNet-248'
+++ line_prop[2]=RescueNet-248
+++ line_cfg='21520357e1@ru1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=21520357e1@ru1.connecton.surf:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=21520357e1@ru1.connecton.surf:443
+++ line_prop[3]=21520357e1@ru1.connecton.surf:443
+++ line=21520357e1
+++ line_prop[3]=@ru1.connecton.surf:443
+++ line_prop[3]=ru1.connecton.surf:443
+++ line_prop[4]=443
+++ line_prop[3]=ru1.connecton.surf
+++ line_prop[3]=ru1.connecton.surf
+++ '[' trojan = ss ']'
+++ line_prop[1]=21520357e1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
+++ line_cfg='{
+  "add": "cold-dawn-9246.fly.dev",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "16|🇺🇸_US_美国_4_4@18",
+  "scy": "auto",
+  "sni": "",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "cold-dawn-9246.fly.dev",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "16|🇺🇸_US_美国_4_4@18",
+  "scy": "auto",
+  "sni": "",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
++++ printf %s '{
+  "add": "cold-dawn-9246.fly.dev",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "16|🇺🇸_US_美国_4_4@18",
+  "scy": "auto",
+  "sni": "",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ case "$cfg" in
++++ base64 -w 0
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIiIsCiAgImlkIjogImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMTZ88J+HuvCfh7hfVVNf576O5Zu9XzRfNEAxOCIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIiIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 20 vmess://ewogICJhZGQiOiAiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogIiIsCiAgImlkIjogImVhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOCIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMTZ88J+HuvCfh7hfVVNf576O5Zu9XzRfNEAxOCIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogIiIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 ru1.connecton.surf
+++ [[ ru1.connecton.surf =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://21520357e1@ru1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#RescueNet-248'
+++ return 0
++ printf '%s;%s\n' 10 'trojan://21520357e1@ru1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#RescueNet-248'
+++++ printf %s==== eyJhZGQiOiI2Ni4yNDEuMTI0LjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiY29sZC1kYXduLTkyNDYuZmx5LmRldiIsImlkIjoiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwibmV0Ijoid3MiLCJwYXRoIjoiL2VhNDkwOWVmLTdjYTYtNGI0Ni1iZjJlLTZjMDc4OTZlZjMzOC12bSIsInBvcnQiOiI0NDMiLCJwcyI6IjEyLDE2fOe+juWbvSAxNiIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++ IFS=
++ read -r line
+++++ sed -E 's/.{4}/&\n/g'
+++ set_node_cfg 'trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian' 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line='trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ line_org='trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ shift 1
+++ case "$line" in
+++ trojan_set_cfg 'trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian' 'allowInsecure;1'
+++ local pair cfg value NL
+++ NL='
+'
+++ trojan_parse 'trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ local line NL
+++ NL='
+'
+++ line='trojan://41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ line_prop[0]=trojan
+++ '[' trojan = ss ']'
+++ line='41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ line_prop[2]='41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ line='41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_prop[2]='#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ line_prop[2]=%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian
+++ line_cfg='41dbabe59a@sp1.connecton.surf:443?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=41dbabe59a@sp1.connecton.surf:443
+++ line_cfg='?security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line_cfg='security=tls&alpn=h2&headerType=none&fp=chrome&type=tcp&sni=telewebion.com'
+++ line=41dbabe59a@sp1.connecton.surf:443
+++ line_prop[3]=41dbabe59a@sp1.connecton.surf:443
+++ line=41dbabe59a
+++ line_prop[3]=@sp1.connecton.surf:443
+++ line_prop[3]=sp1.connecton.surf:443
+++ line_prop[4]=443
+++ line_prop[3]=sp1.connecton.surf
+++ line_prop[3]=sp1.connecton.surf
+++ '[' trojan = ss ']'
+++ line_prop[1]=41dbabe59a
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
+++ return 0
+++ shift 1
+++ for pair in "$@"
+++ cfg=allowInsecure
+++ '[' allowInsecure = add ']'
+++++ tr _- +/
++++ rawurlencode 1
++++ local string=1
++++ local strlen=1
++++ local encoded=
++++ local pos c o
++++ (( pos=0  ))
++++ (( pos<strlen  ))
++++ c=1
++++ case "$c" in
++++ o=1
++++ encoded+=1
++++ (( pos++  ))
++++ (( pos<strlen  ))
++++ printf %s 1
++++ REPLY=1
+++ value=1
+++++ base64 -di
+++++ sed -e '$ d'
+++ '[' 'trojan[0]' = trojan ']'
+++ case "$cfg" in
+++ case "$cfg" in
++++ awk -v cfg=allowInsecure -v value=1 'BEGIN { pat="^"cfg } $0 ~ pat { found=1; print cfg "=" value; next } END {if(!found) print cfg "=" value} 1'
++++ echo 'security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com'
++++ decode='{"add":"66.241.124.229","aid":"0","alpn":"","fp":"chrome","host":"cold-dawn-9246.fly.dev","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"12,16|美国 16","scy":"auto","sni":"cold-dawn-9246.fly.dev","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"66.241.124.229","aid":"0","alpn":"","fp":"chrome","host":"cold-dawn-9246.fly.dev","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"12,16|美国 16","scy":"auto","sni":"cold-dawn-9246.fly.dev","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"66.241.124.229","aid":"0","alpn":"","fp":"chrome","host":"cold-dawn-9246.fly.dev","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"12,16|美国 16","scy":"auto","sni":"cold-dawn-9246.fly.dev","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"66.241.124.229","aid":"0","alpn":"","fp":"chrome","host":"cold-dawn-9246.fly.dev","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"12,16|美国 16","scy":"auto","sni":"cold-dawn-9246.fly.dev","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ trojan_deparse
+++ local NL
+++ NL='
+'
+++ is_ipv6 sp1.connecton.surf
+++ [[ sp1.connecton.surf =~ ^([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4}$ ]]
+++ return 1
+++ line_cfg='security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1'
+++ echo 'trojan://41dbabe59a@sp1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
+++ return 0
++++ printf %s '{"add":"66.241.124.229","aid":"0","alpn":"","fp":"chrome","host":"cold-dawn-9246.fly.dev","id":"ea4909ef-7ca6-4b46-bf2e-6c07896ef338","net":"ws","path":"/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm","port":"443","ps":"12,16|美国 16","scy":"auto","sni":"cold-dawn-9246.fly.dev","tls":"tls","type":"","v":"2"}'
++ printf '%s;%s\n' 11 'trojan://41dbabe59a@sp1.connecton.surf:443?security=tls
+alpn=h2
+headerType=none
+fp=chrome
+type=tcp
+sni=telewebion.com
+allowInsecure=1#%E8%A5%BF%E7%8F%AD%E7%89%99%7C%40ripaojiedian'
++ IFS=
++ read -r line
++++ jq ''
+++ set_node_cfg vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxODUuNTkuMjE4LjE3NyIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0IjoiNzJkNmQyNWUtMWIzOS0xMWVlLWE1YzgtODIxM2ZkM2JlNGI5LmJhbWFyYW1iYXNoLm1vbnN0ZXIiLCJpZCI6IjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsIm5ldCI6IndzIiwicGF0aCI6Ii83MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkiLCJwb3J0IjoiNDQzIiwicHMiOiIxLDIsMyw0LDgsMTZ8X1JVX+S/hOe9l+aWr+iBlOmCpiIsInNjeSI6ImF1dG8iLCJzbmkiOiI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ tr _- +/
+++++ base64 -di
+++++ sed -e '$ d'
++++ decode='{"add":"185.59.218.177","aid":"0","alpn":"","fp":"chrome","host":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9","port":"443","ps":"1,2,3,4,8,16|_RU_俄罗斯联邦","scy":"auto","sni":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"185.59.218.177","aid":"0","alpn":"","fp":"chrome","host":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9","port":"443","ps":"1,2,3,4,8,16|_RU_俄罗斯联邦","scy":"auto","sni":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"185.59.218.177","aid":"0","alpn":"","fp":"chrome","host":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9","port":"443","ps":"1,2,3,4,8,16|_RU_俄罗斯联邦","scy":"auto","sni":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"185.59.218.177","aid":"0","alpn":"","fp":"chrome","host":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9","port":"443","ps":"1,2,3,4,8,16|_RU_俄罗斯联邦","scy":"auto","sni":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"185.59.218.177","aid":"0","alpn":"","fp":"chrome","host":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","id":"8f74ec8a-971c-11ed-a8fc-0242ac120002","net":"ws","path":"/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9","port":"443","ps":"1,2,3,4,8,16|_RU_俄罗斯联邦","scy":"auto","sni":"72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "66.241.124.229",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "cold-dawn-9246.fly.dev",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "12,16|美国 16",
+  "scy": "auto",
+  "sni": "cold-dawn-9246.fly.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "66.241.124.229",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "cold-dawn-9246.fly.dev",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "12,16|美国 16",
+  "scy": "auto",
+  "sni": "cold-dawn-9246.fly.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "66.241.124.229",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "cold-dawn-9246.fly.dev",
+  "id": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
+  "net": "ws",
+  "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
+  "port": "443",
+  "ps": "12,16|美国 16",
+  "scy": "auto",
+  "sni": "cold-dawn-9246.fly.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiNjYuMjQxLjEyNC4yMjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwKICAiaWQiOiAiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4LXZtIiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICIxMiwxNnznvo7lm70gMTYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 21 vmess://ewogICJhZGQiOiAiNjYuMjQxLjEyNC4yMjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwKICAiaWQiOiAiZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4IiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvZWE0OTA5ZWYtN2NhNi00YjQ2LWJmMmUtNmMwNzg5NmVmMzM4LXZtIiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICIxMiwxNnznvo7lm70gMTYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJjb2xkLWRhd24tOTI0Ni5mbHkuZGV2IiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJwaG9zcGhvcnlsYXRpdmUuYXVyb3JhaW5pY2VsYW5kLmNvbSIsImlkIjoiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwibmV0Ijoid3MiLCJwYXRoIjoiL25pbXZ3cyIsInBvcnQiOiI0NDMiLCJwcyI6IjE2fEBIb3BlX05ldC1qb2luLXVzLW9uLVRlbGVncmFtICMzIiwic2N5IjoiYXV0byIsInNuaSI6ImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
+++ line_cfg='{
+  "add": "185.59.218.177",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9",
+  "port": "443",
+  "ps": "1,2,3,4,8,16|_RU_俄罗斯联邦",
+  "scy": "auto",
+  "sni": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "185.59.218.177",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9",
+  "port": "443",
+  "ps": "1,2,3,4,8,16|_RU_俄罗斯联邦",
+  "scy": "auto",
+  "sni": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "185.59.218.177",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "id": "8f74ec8a-971c-11ed-a8fc-0242ac120002",
+  "net": "ws",
+  "path": "/72d6d25e-1b39-11ee-a5c8-8213fd3be4b9",
+  "port": "443",
+  "ps": "1,2,3,4,8,16|_RU_俄罗斯联邦",
+  "scy": "auto",
+  "sni": "72d6d25e-1b39-11ee-a5c8-8213fd3be4b9.bamarambash.monster",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTg1LjU5LjIxOC4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgImlkIjogIjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLzcyZDZkMjVlLTFiMzktMTFlZS1hNWM4LTgyMTNmZDNiZTRiOSIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMSwyLDMsNCw4LDE2fF9SVV/kv4TnvZfmlq/ogZTpgqYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 12 vmess://ewogICJhZGQiOiAiMTg1LjU5LjIxOC4xNzciLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgImlkIjogIjhmNzRlYzhhLTk3MWMtMTFlZC1hOGZjLTAyNDJhYzEyMDAwMiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiLzcyZDZkMjVlLTFiMzktMTFlZS1hNWM4LTgyMTNmZDNiZTRiOSIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMSwyLDMsNCw4LDE2fF9SVV/kv4TnvZfmlq/ogZTpgqYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICI3MmQ2ZDI1ZS0xYjM5LTExZWUtYTVjOC04MjEzZmQzYmU0YjkuYmFtYXJhbWJhc2gubW9uc3RlciIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ decode='{"add":"phosphorylative.aurorainiceland.com","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"phosphorylative.aurorainiceland.com","id":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","net":"ws","path":"/nimvws","port":"443","ps":"16|@Hope_Net-join-us-on-Telegram #3","scy":"auto","sni":"getandroid.com,bsi.ir,telewebion.com","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"phosphorylative.aurorainiceland.com","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"phosphorylative.aurorainiceland.com","id":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","net":"ws","path":"/nimvws","port":"443","ps":"16|@Hope_Net-join-us-on-Telegram #3","scy":"auto","sni":"getandroid.com,bsi.ir,telewebion.com","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"phosphorylative.aurorainiceland.com","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"phosphorylative.aurorainiceland.com","id":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","net":"ws","path":"/nimvws","port":"443","ps":"16|@Hope_Net-join-us-on-Telegram #3","scy":"auto","sni":"getandroid.com,bsi.ir,telewebion.com","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"phosphorylative.aurorainiceland.com","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"phosphorylative.aurorainiceland.com","id":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","net":"ws","path":"/nimvws","port":"443","ps":"16|@Hope_Net-join-us-on-Telegram #3","scy":"auto","sni":"getandroid.com,bsi.ir,telewebion.com","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
++++ printf %s '{"add":"phosphorylative.aurorainiceland.com","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"phosphorylative.aurorainiceland.com","id":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","net":"ws","path":"/nimvws","port":"443","ps":"16|@Hope_Net-join-us-on-Telegram #3","scy":"auto","sni":"getandroid.com,bsi.ir,telewebion.com","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++++ printf %s==== eyJhZGQiOiIxMDQuMjQuMTc2LjciLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiY2hyb21lIiwiaG9zdCI6IkR1c3NlbGRvcmYua290aWNrLnNpdGUiLCJpZCI6IjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsIm5ldCI6IndzIiwicGF0aCI6Ii9zcGVlZHRlc3QiLCJwb3J0IjoiNDQzIiwicHMiOiIxNXzwn4e68J+HuCDnvo7lm70o5rK5566h56C06Kej6LWE5rqQ5ZCbKSA1NCIsInNjeSI6ImF1dG8iLCJzbmkiOiJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
+++++ tr _- +/
++++ decode='{"add":"104.24.176.7","aid":"0","alpn":"","fp":"chrome","host":"Dusseldorf.kotick.site","id":"2F094845-E2BD-EBF7-DEB7-995992436FAF","net":"ws","path":"/speedtest","port":"443","ps":"15|🇺🇸 美国(油管破解资源君) 54","scy":"auto","sni":"Dusseldorf.kotick.site","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.24.176.7","aid":"0","alpn":"","fp":"chrome","host":"Dusseldorf.kotick.site","id":"2F094845-E2BD-EBF7-DEB7-995992436FAF","net":"ws","path":"/speedtest","port":"443","ps":"15|🇺🇸 美国(油管破解资源君) 54","scy":"auto","sni":"Dusseldorf.kotick.site","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.24.176.7","aid":"0","alpn":"","fp":"chrome","host":"Dusseldorf.kotick.site","id":"2F094845-E2BD-EBF7-DEB7-995992436FAF","net":"ws","path":"/speedtest","port":"443","ps":"15|🇺🇸 美国(油管破解资源君) 54","scy":"auto","sni":"Dusseldorf.kotick.site","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.24.176.7","aid":"0","alpn":"","fp":"chrome","host":"Dusseldorf.kotick.site","id":"2F094845-E2BD-EBF7-DEB7-995992436FAF","net":"ws","path":"/speedtest","port":"443","ps":"15|🇺🇸 美国(油管破解资源君) 54","scy":"auto","sni":"Dusseldorf.kotick.site","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.24.176.7","aid":"0","alpn":"","fp":"chrome","host":"Dusseldorf.kotick.site","id":"2F094845-E2BD-EBF7-DEB7-995992436FAF","net":"ws","path":"/speedtest","port":"443","ps":"15|🇺🇸 美国(油管破解资源君) 54","scy":"auto","sni":"Dusseldorf.kotick.site","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "phosphorylative.aurorainiceland.com",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "phosphorylative.aurorainiceland.com",
+  "id": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+  "net": "ws",
+  "path": "/nimvws",
+  "port": "443",
+  "ps": "16|@Hope_Net-join-us-on-Telegram #3",
+  "scy": "auto",
+  "sni": "getandroid.com,bsi.ir,telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "phosphorylative.aurorainiceland.com",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "phosphorylative.aurorainiceland.com",
+  "id": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+  "net": "ws",
+  "path": "/nimvws",
+  "port": "443",
+  "ps": "16|@Hope_Net-join-us-on-Telegram #3",
+  "scy": "auto",
+  "sni": "getandroid.com,bsi.ir,telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "phosphorylative.aurorainiceland.com",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "phosphorylative.aurorainiceland.com",
+  "id": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+  "net": "ws",
+  "path": "/nimvws",
+  "port": "443",
+  "ps": "16|@Hope_Net-join-us-on-Telegram #3",
+  "scy": "auto",
+  "sni": "getandroid.com,bsi.ir,telewebion.com",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAicGhvc3Bob3J5bGF0aXZlLmF1cm9yYWluaWNlbGFuZC5jb20iLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInBob3NwaG9yeWxhdGl2ZS5hdXJvcmFpbmljZWxhbmQuY29tIiwKICAiaWQiOiAiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvbmltdndzIiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICIxNnxASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSAjMyIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 22 vmess://ewogICJhZGQiOiAicGhvc3Bob3J5bGF0aXZlLmF1cm9yYWluaWNlbGFuZC5jb20iLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInBob3NwaG9yeWxhdGl2ZS5hdXJvcmFpbmljZWxhbmQuY29tIiwKICAiaWQiOiAiNjM4OGJkOTItNmNiYy00YjcyLWE5YTYtOTMxZjA3MWQwZmZhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvbmltdndzIiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICIxNnxASG9wZV9OZXQtam9pbi11cy1vbi1UZWxlZ3JhbSAjMyIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogImdldGFuZHJvaWQuY29tLGJzaS5pcix0ZWxld2ViaW9uLmNvbSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTkuMTgwLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzbWFsbC1maXJlZmx5LWNiMzAuc2VoYWRlazYxMDMud29ya2Vycy5kZXYiLCJpZCI6IjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsIm5ldCI6IndzIiwicGF0aCI6Ii92dWsyLjBiYWQuY29tL2NoYXQiLCJwb3J0IjoiNDQzIiwicHMiOiJSZXNjdWVOZXQtNDkiLCJzY3kiOiJhdXRvIiwic25pIjoic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
+++ line_cfg='{
+  "add": "104.24.176.7",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "Dusseldorf.kotick.site",
+  "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "15|🇺🇸 美国(油管破解资源君) 54",
+  "scy": "auto",
+  "sni": "Dusseldorf.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.24.176.7",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "Dusseldorf.kotick.site",
+  "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "15|🇺🇸 美国(油管破解资源君) 54",
+  "scy": "auto",
+  "sni": "Dusseldorf.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.24.176.7",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "Dusseldorf.kotick.site",
+  "id": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+  "net": "ws",
+  "path": "/speedtest",
+  "port": "443",
+  "ps": "15|🇺🇸 美国(油管破解资源君) 54",
+  "scy": "auto",
+  "sni": "Dusseldorf.kotick.site",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ decode='{"add":"104.19.180.169","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.19.180.169","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.19.180.169","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.19.180.169","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ base64 -w 0
++++ printf %s '{"add":"104.19.180.169","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"small-firefly-cb30.sehadek6103.workers.dev","id":"927094d3-d678-4763-8591-e240d0bcae87","net":"ws","path":"/vuk2.0bad.com/chat","port":"443","ps":"RescueNet-49","scy":"auto","sni":"small-firefly-cb30.sehadek6103.workers.dev","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI0LjE3Ni43IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogIiIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiRHVzc2VsZG9yZi5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMTV88J+HuvCfh7gg576O5Zu9KOayueeuoeegtOino+i1hOa6kOWQmykgNTQiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 13 vmess://ewogICJhZGQiOiAiMTA0LjI0LjE3Ni43IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogIiIsCiAgImZwIjogImNocm9tZSIsCiAgImhvc3QiOiAiRHVzc2VsZG9yZi5rb3RpY2suc2l0ZSIsCiAgImlkIjogIjJGMDk0ODQ1LUUyQkQtRUJGNy1ERUI3LTk5NTk5MjQzNkZBRiIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3NwZWVkdGVzdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiMTV88J+HuvCfh7gg576O5Zu9KOayueeuoeegtOino+i1hOa6kOWQmykgNTQiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJEdXNzZWxkb3JmLmtvdGljay5zaXRlIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxNjIuMTU5LjYyLjY5IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoi8J+HuvCfh7hfVVNf576O5Zu9XzEzOCIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
+++++ tr _- +/
++++ decode='{"add":"162.159.62.69","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸_US_美国_138","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"162.159.62.69","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸_US_美国_138","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"162.159.62.69","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸_US_美国_138","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"162.159.62.69","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸_US_美国_138","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"162.159.62.69","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸_US_美国_138","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.19.180.169",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.19.180.169",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.19.180.169",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "small-firefly-cb30.sehadek6103.workers.dev",
+  "id": "927094d3-d678-4763-8591-e240d0bcae87",
+  "net": "ws",
+  "path": "/vuk2.0bad.com/chat",
+  "port": "443",
+  "ps": "RescueNet-49",
+  "scy": "auto",
+  "sni": "small-firefly-cb30.sehadek6103.workers.dev",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE5LjE4MC4xNjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsCiAgImlkIjogIjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3Z1azIuMGJhZC5jb20vY2hhdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTQ5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 23 vmess://ewogICJhZGQiOiAiMTA0LjE5LjE4MC4xNjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNtYWxsLWZpcmVmbHktY2IzMC5zZWhhZGVrNjEwMy53b3JrZXJzLmRldiIsCiAgImlkIjogIjkyNzA5NGQzLWQ2NzgtNDc2My04NTkxLWUyNDBkMGJjYWU4NyIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3Z1azIuMGJhZC5jb20vY2hhdCIsCiAgInBvcnQiOiAiNDQzIiwKICAicHMiOiAiUmVzY3VlTmV0LTQ5IiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic21hbGwtZmlyZWZseS1jYjMwLnNlaGFkZWs2MTAzLndvcmtlcnMuZGV2IiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMTYuMjUwLjI1MCIsImFpZCI6IjAiLCJhbHBuIjoiaDIsaHR0cC8xLjEiLCJmcCI6ImNocm9tZSIsImhvc3QiOiJzYW5kLmJsYW5rdS5tZSIsImlkIjoiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwibmV0Ijoid3MiLCJwYXRoIjoiL3dzczUxMDY4IiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTY2Iiwic2N5IjoiYXV0byIsInNuaSI6InNhbmRwLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++ line_cfg='{
+  "add": "162.159.62.69",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸_US_美国_138",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "162.159.62.69",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸_US_美国_138",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++++ tr _- +/
+++++ base64 -di
++++ printf %s '{
+  "add": "162.159.62.69",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸_US_美国_138",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
++++ decode='{"add":"104.16.250.250","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.16.250.250","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.16.250.250","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.16.250.250","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTYyLjE1OS42Mi42OSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvV8xMzgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 14 vmess://ewogICJhZGQiOiAiMTYyLjE1OS42Mi42OSIsCiAgImFpZCI6ICIwIiwKICAiYWxwbiI6ICIiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIvCfh7rwn4e4X1VTX+e+juWbvV8xMzgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
++++ printf %s '{"add":"104.16.250.250","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ set_node_cfg vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJhbmRyb2lkIiwiaG9zdCI6ImZyYW5jLmRpZ2lyZXMuc2hvcCIsImlkIjoiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwibmV0Ijoid3MiLCJwYXRoIjoiLzExMjAxIiwicG9ydCI6IjQ0MyIsInBzIjoiUmVzY3VlTmV0LTI1OCIsInNjeSI6ImF1dG8iLCJzbmkiOiJmcmFuYy5kaWdpcmVzLnNob3AiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ base64 -di
+++++ tr _- +/
++++ decode='{"add":"franc.digires.shop","aid":"0","alpn":"h2,http/1.1","fp":"android","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-258","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"franc.digires.shop","aid":"0","alpn":"h2,http/1.1","fp":"android","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-258","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"franc.digires.shop","aid":"0","alpn":"h2,http/1.1","fp":"android","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-258","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"franc.digires.shop","aid":"0","alpn":"h2,http/1.1","fp":"android","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-258","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"franc.digires.shop","aid":"0","alpn":"h2,http/1.1","fp":"android","host":"franc.digires.shop","id":"1af4ba3d-e60f-4f83-b38b-23fc181f676d","net":"ws","path":"/11201","port":"443","ps":"RescueNet-258","scy":"auto","sni":"franc.digires.shop","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.16.250.250",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.16.250.250",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
++++ printf %s '{
+  "add": "104.16.250.250",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE2LjI1MC4yNTAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC02NiIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNhbmRwLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++ return 0
++ printf '%s;%s\n' 24 vmess://ewogICJhZGQiOiAiMTA0LjE2LjI1MC4yNTAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiaDIsaHR0cC8xLjEiLAogICJmcCI6ICJjaHJvbWUiLAogICJob3N0IjogInNhbmQuYmxhbmt1Lm1lIiwKICAiaWQiOiAiYjNhMjFkZWYtNWZjYy00N2E4LWE2YTAtYTM0ZTI5ZDUyODhhIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvd3NzNTEwNjgiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC02NiIsCiAgInNjeSI6ICJhdXRvIiwKICAic25pIjogInNhbmRwLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0= 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
++++ local decode err_val
+++++ printf %s==== eyJhZGQiOiIxMDQuMjcuMjAzLjE2OSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkBQcm94eV9QSiB8IFJFTEFZ8J+aqSB8IHNhbmRwLmJsYW5rdS5tZTo0NDMgfCAxOC41Nm1zIHwgMO+4j+KDozLvuI/ig6MiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZHAuYmxhbmt1Lm1lIiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
+++++ tr _- +/
+++++ base64 -di
+++ line_cfg='{
+  "add": "franc.digires.shop",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "android",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-258",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "franc.digires.shop",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "android",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-258",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "franc.digires.shop",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "android",
+  "host": "franc.digires.shop",
+  "id": "1af4ba3d-e60f-4f83-b38b-23fc181f676d",
+  "net": "ws",
+  "path": "/11201",
+  "port": "443",
+  "ps": "RescueNet-258",
+  "scy": "auto",
+  "sni": "franc.digires.shop",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiYW5kcm9pZCIsCiAgImhvc3QiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiaWQiOiAiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMTEyMDEiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNTgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJmcmFuYy5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 15 vmess://ewogICJhZGQiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiYW5kcm9pZCIsCiAgImhvc3QiOiAiZnJhbmMuZGlnaXJlcy5zaG9wIiwKICAiaWQiOiAiMWFmNGJhM2QtZTYwZi00ZjgzLWIzOGItMjNmYzE4MWY2NzZkIiwKICAibmV0IjogIndzIiwKICAicGF0aCI6ICIvMTEyMDEiLAogICJwb3J0IjogIjQ0MyIsCiAgInBzIjogIlJlc2N1ZU5ldC0yNTgiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJmcmFuYy5kaWdpcmVzLnNob3AiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ line_org=vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
++++ local decode err_val
++++ decode='{"add":"104.27.203.169","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.27.203.169","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.27.203.169","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.27.203.169","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
+++++ printf %s==== eyJhZGQiOiIxMDQuMzEuMTYuNTgiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IkB2cG5fdGVocmFuIHwgREXwn4ep8J+HqiB8IHNhbmQuYmxhbmt1Lm1lOjQ0MyB8IDE2MC4zN21zIHwg8J+YjiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kLmJsYW5rdS5tZSIsInRscyI6InRscyIsInR5cGUiOiIiLCJ2IjoiMiJ9
+++++ sed -E 's/.{4}/&\n/g'
+++++ sed -e '$ d'
++++ printf %s '{"add":"104.27.203.169","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++++ tr _- +/
++++ jq ''
+++++ base64 -di
++++ decode='{"add":"104.31.16.58","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.31.16.58","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.31.16.58","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.31.16.58","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.31.16.58","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.27.203.169",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.27.203.169",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.27.203.169",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjI3LjIwMy4xNjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJAUHJveHlfUEogfCBSRUxBWfCfmqkgfCBzYW5kcC5ibGFua3UubWU6NDQzIHwgMTguNTZtcyB8IDDvuI/ig6My77iP4oOjIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
+++ return 0
++ printf '%s;%s\n' 25 vmess://ewogICJhZGQiOiAiMTA0LjI3LjIwMy4xNjkiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJAUHJveHlfUEogfCBSRUxBWfCfmqkgfCBzYW5kcC5ibGFua3UubWU6NDQzIHwgMTguNTZtcyB8IDDvuI/ig6My77iP4oOjIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZHAuYmxhbmt1Lm1lIiwKICAidGxzIjogInRscyIsCiAgInR5cGUiOiAiIiwKICAidiI6ICIyIgp9
++ IFS=
++ read -r line
+++ line_cfg='{
+  "add": "104.31.16.58",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.31.16.58",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
++++ printf %s '{
+  "add": "104.31.16.58",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++++ sed -e '$ d'
+++++ printf %s==== eyJhZGQiOiIxMDQuMjEuNy41MCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IvCfh7rwn4e4IFVTIOe+juWbvSAxOTEiLCJzY3kiOiJhdXRvIiwic25pIjoic2FuZC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ sed -E 's/.{4}/&\n/g'
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjMxLjE2LjU4IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJAdnBuX3RlaHJhbiB8IERF8J+HqfCfh6ogfCBzYW5kLmJsYW5rdS5tZTo0NDMgfCAxNjAuMzdtcyB8IPCfmI4iLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
+++++ tr _- +/
+++ return 0
++ printf '%s;%s\n' 16 vmess://ewogICJhZGQiOiAiMTA0LjMxLjE2LjU4IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJAdnBuX3RlaHJhbiB8IERF8J+HqfCfh6ogfCBzYW5kLmJsYW5rdS5tZTo0NDMgfCAxNjAuMzdtcyB8IPCfmI4iLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgInRscyI6ICJ0bHMiLAogICJ0eXBlIjogIiIsCiAgInYiOiAiMiIKfQ==
++ IFS=
++ read -r line
+++++ base64 -di
+++ set_node_cfg vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local line
+++ unset line_prop line_cfg
+++ line=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ line_org=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
+++ case "$line" in
+++ vmess_set_cfg vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ== 'allowInsecure;1'
+++ local err_val pattern line pair
+++ line=vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++ shift 1
++++ vmess_decode vmess://eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
++++ local decode err_val
+++++ sed -E 's/.{4}/&\n/g'
++++ decode='{"add":"104.21.7.50","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸 US 美国 191","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.21.7.50","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸 US 美国 191","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.21.7.50","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸 US 美国 191","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.21.7.50","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸 US 美国 191","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ jq ''
+++++ sed -e '$ d'
+++++ printf %s==== eyJhZGQiOiIxMDQuMTcuNzcuOTQiLCJhaWQiOiIwIiwiYWxwbiI6ImgyLGh0dHAvMS4xIiwiZnAiOiJjaHJvbWUiLCJob3N0Ijoic2FuZC5ibGFua3UubWUiLCJpZCI6ImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsIm5ldCI6IndzIiwicGF0aCI6Ii93c3M1MTA2OCIsInBvcnQiOiI0NDMiLCJwcyI6IlJlc2N1ZU5ldC02NiIsInNjeSI6ImF1dG8iLCJzbmkiOiJzYW5kcC5ibGFua3UubWUiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
+++++ base64 -di
+++++ tr _- +/
++++ printf %s '{"add":"104.21.7.50","aid":"0","alpn":"","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"🇺🇸 US 美国 191","scy":"auto","sni":"sand.blanku.me","tls":"tls","type":"","v":"2"}'
++++ decode='{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ '[' -z '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}' ']'
++++ '[' '' = 1 ']'
++++ printf %s '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ line_cfg='{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
+++ for pair in "$@"
+++ '[' allowInsecure = allowInsecure ']'
+++ continue
++++ printf %s '{"add":"104.17.77.94","aid":"0","alpn":"h2,http/1.1","fp":"chrome","host":"sand.blanku.me","id":"b3a21def-5fcc-47a8-a6a0-a34e29d5288a","net":"ws","path":"/wss51068","port":"443","ps":"RescueNet-66","scy":"auto","sni":"sandp.blanku.me","tls":"tls","type":"","v":"2"}'
++++ jq ''
+++ line_cfg='{
+  "add": "104.21.7.50",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸 US 美国 191",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.21.7.50",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸 US 美国 191",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.21.7.50",
+  "aid": "0",
+  "alpn": "",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "🇺🇸 US 美国 191",
+  "scy": "auto",
+  "sni": "sand.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjIxLjcuNTAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuCBVUyDnvo7lm70gMTkxIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 26 vmess://ewogICJhZGQiOiAiMTA0LjIxLjcuNTAiLAogICJhaWQiOiAiMCIsCiAgImFscG4iOiAiIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICLwn4e68J+HuCBVUyDnvo7lm70gMTkxIiwKICAic2N5IjogImF1dG8iLAogICJzbmkiOiAic2FuZC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
++ exit
+++ line_cfg='{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
+++ '[' '' = 1 ']'
+++ vmess_encode '{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ printf %s '{
+  "add": "104.17.77.94",
+  "aid": "0",
+  "alpn": "h2,http/1.1",
+  "fp": "chrome",
+  "host": "sand.blanku.me",
+  "id": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+  "net": "ws",
+  "path": "/wss51068",
+  "port": "443",
+  "ps": "RescueNet-66",
+  "scy": "auto",
+  "sni": "sandp.blanku.me",
+  "tls": "tls",
+  "type": "",
+  "v": "2"
+}'
++++ base64 -w 0
+++ printf '%s\n' vmess://ewogICJhZGQiOiAiMTA0LjE3Ljc3Ljk0IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtNjYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kcC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
+++ return 0
++ printf '%s;%s\n' 17 vmess://ewogICJhZGQiOiAiMTA0LjE3Ljc3Ljk0IiwKICAiYWlkIjogIjAiLAogICJhbHBuIjogImgyLGh0dHAvMS4xIiwKICAiZnAiOiAiY2hyb21lIiwKICAiaG9zdCI6ICJzYW5kLmJsYW5rdS5tZSIsCiAgImlkIjogImIzYTIxZGVmLTVmY2MtNDdhOC1hNmEwLWEzNGUyOWQ1Mjg4YSIsCiAgIm5ldCI6ICJ3cyIsCiAgInBhdGgiOiAiL3dzczUxMDY4IiwKICAicG9ydCI6ICI0NDMiLAogICJwcyI6ICJSZXNjdWVOZXQtNjYiLAogICJzY3kiOiAiYXV0byIsCiAgInNuaSI6ICJzYW5kcC5ibGFua3UubWUiLAogICJ0bHMiOiAidGxzIiwKICAidHlwZSI6ICIiLAogICJ2IjogIjIiCn0=
++ IFS=
++ read -r line
++ exit
++ '[' '' '!=' true ']'
++ rm -rf /data/data/com.termux/files/usr/tmp/tmp.g6pkBcb9a7
++ sort -t ';' -n -k 1,1 -o /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG
++ sed -i -E -e 's/^([^;]*;){1}//' /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG
++ mv -f /data/data/com.termux/files/usr/tmp/tmp.bIS2aL2irG Config/v2/irancell.raw
