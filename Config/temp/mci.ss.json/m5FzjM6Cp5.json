@@ -1,0 +1,904 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "bypass",
+      "secret": "REZMIR",
+      "default_mode": "rule",
+      "store_selected": true,
+      "cache_file": "clash.db"
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "address_resolver": "dns-direct",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.digitalsize.net/dns-query",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "direct",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "bypass",
+        "server": "dns-local",
+        "rewrite_ttl": 20
+      }
+    ],
+    "final": "dns-remote",
+    "reverse_mapping": true,
+    "strategy": "ipv4_only",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "domain_strategy": "",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "mtu": 1500,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "6.RescueNet-191",
+        "7.🇵🇱PL-217.30.10.68-9137",
+        "8.RescueNet-260",
+        "9.🇵🇱PL-217.30.10.68-9135",
+        "10.🇱🇻LV-185.135.86.173-14901",
+        "11.RescueNet-83",
+        "12.🇮🇸IS-37.235.49.162-8850",
+        "13.🇱🇻LV-185.135.86.173-14900",
+        "14.🇧🇪BE-192.71.249.71-8195",
+        "15.🇵🇱PL-217.30.10.68-17621",
+        "16.🇱🇻LV-185.135.86.173-14909",
+        "17.🇱🇻LV-185.135.86.173-14951",
+        "18.🇵🇱PL-217.30.10.68-9125",
+        "19.RescueNet-86",
+        "20.🇵🇱PL-217.30.10.68-9132",
+        "21.🇱🇻LV-185.135.86.173-17770",
+        "22.🇰🇿KZ-213.156.137.67-14956",
+        "23.RescueNet-93",
+        "24.🇨🇾CY-213.169.137.221-1709",
+        "25.RescueNet-101",
+        "26.RescueNet-99",
+        "27.RescueNet-100",
+        "28._43",
+        "29.RescueNet-102",
+        "30.🇮🇪IE-23.92.127.133-8830",
+        "31.RescueNet-85",
+        "32.🇲🇰MK-46.183.185.37-8991",
+        "33.🇯🇵JP-103.75.118.27-18308",
+        "34.RescueNet-96",
+        "35.🇧🇦BA-185.164.35.9-7343",
+        "36.RescueNet-213",
+        "37.🇷🇸RS-194.71.126.31-7342",
+        "38.RescueNet-98",
+        "39.RescueNet-89",
+        "40.RescueNet-216",
+        "41.RescueNet-166",
+        "42.RescueNet-204",
+        "43.RescueNet-147",
+        "44.RescueNet-210",
+        "45.🇵🇱PL-217.30.10.68-9130",
+        "46.🇳🇬NG-185.255.123.90-17749",
+        "47.🇵🇷PR-185.47.255.219-14898",
+        "48.🇵🇱PL-217.30.10.68-9124",
+        "49.🇵🇱PL-217.30.10.68-9143",
+        "50.🇵🇱PL-217.30.10.68-9133"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "6.RescueNet-191",
+        "7.🇵🇱PL-217.30.10.68-9137",
+        "8.RescueNet-260",
+        "9.🇵🇱PL-217.30.10.68-9135",
+        "10.🇱🇻LV-185.135.86.173-14901",
+        "11.RescueNet-83",
+        "12.🇮🇸IS-37.235.49.162-8850",
+        "13.🇱🇻LV-185.135.86.173-14900",
+        "14.🇧🇪BE-192.71.249.71-8195",
+        "15.🇵🇱PL-217.30.10.68-17621",
+        "16.🇱🇻LV-185.135.86.173-14909",
+        "17.🇱🇻LV-185.135.86.173-14951",
+        "18.🇵🇱PL-217.30.10.68-9125",
+        "19.RescueNet-86",
+        "20.🇵🇱PL-217.30.10.68-9132",
+        "21.🇱🇻LV-185.135.86.173-17770",
+        "22.🇰🇿KZ-213.156.137.67-14956",
+        "23.RescueNet-93",
+        "24.🇨🇾CY-213.169.137.221-1709",
+        "25.RescueNet-101",
+        "26.RescueNet-99",
+        "27.RescueNet-100",
+        "28._43",
+        "29.RescueNet-102",
+        "30.🇮🇪IE-23.92.127.133-8830",
+        "31.RescueNet-85",
+        "32.🇲🇰MK-46.183.185.37-8991",
+        "33.🇯🇵JP-103.75.118.27-18308",
+        "34.RescueNet-96",
+        "35.🇧🇦BA-185.164.35.9-7343",
+        "36.RescueNet-213",
+        "37.🇷🇸RS-194.71.126.31-7342",
+        "38.RescueNet-98",
+        "39.RescueNet-89",
+        "40.RescueNet-216",
+        "41.RescueNet-166",
+        "42.RescueNet-204",
+        "43.RescueNet-147",
+        "44.RescueNet-210",
+        "45.🇵🇱PL-217.30.10.68-9130",
+        "46.🇳🇬NG-185.255.123.90-17749",
+        "47.🇵🇷PR-185.47.255.219-14898",
+        "48.🇵🇱PL-217.30.10.68-9124",
+        "49.🇵🇱PL-217.30.10.68-9143",
+        "50.🇵🇱PL-217.30.10.68-9133"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "5m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "12.🇮🇸IS-37.235.49.162-8850",
+      "server": "37.235.49.162",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "13.🇱🇻LV-185.135.86.173-14900",
+      "server": "185.135.86.173",
+      "server_port": 9031,
+      "method": "aes-256-cfb",
+      "password": "BwcAUZk8hUFAkDGN",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "14.🇧🇪BE-192.71.249.71-8195",
+      "server": "192.71.249.71",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "15.🇵🇱PL-217.30.10.68-17621",
+      "server": "217.30.10.68",
+      "server_port": 9057,
+      "method": "aes-256-cfb",
+      "password": "wjTugX3ZtHMB9c3Z",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "16.🇱🇻LV-185.135.86.173-14909",
+      "server": "185.135.86.173",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "17.🇱🇻LV-185.135.86.173-14951",
+      "server": "185.135.86.173",
+      "server_port": 9040,
+      "method": "aes-256-cfb",
+      "password": "p9z5BVADH2YFs3MN",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "18.🇵🇱PL-217.30.10.68-9125",
+      "server": "217.30.10.68",
+      "server_port": 9073,
+      "method": "aes-256-cfb",
+      "password": "daFYagqDdBdA6VTX",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "19.RescueNet-86",
+      "server": "192.71.27.87",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "20.🇵🇱PL-217.30.10.68-9132",
+      "server": "217.30.10.68",
+      "server_port": 9079,
+      "method": "aes-256-cfb",
+      "password": "TPqX8edgbAURcAMb",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "21.🇱🇻LV-185.135.86.173-17770",
+      "server": "185.135.86.173",
+      "server_port": 9041,
+      "method": "aes-256-cfb",
+      "password": "U6qnYRhfyDmn8sgn",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "22.🇰🇿KZ-213.156.137.67-14956",
+      "server": "213.156.137.67",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "23.RescueNet-93",
+      "server": "45.89.52.66",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "24.🇨🇾CY-213.169.137.221-1709",
+      "server": "213.169.137.221",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "25.RescueNet-101",
+      "server": "143.244.58.102",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "26.RescueNet-99",
+      "server": "46.183.184.60",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "27.RescueNet-100",
+      "server": "46.183.184.61",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "28._43",
+      "server": "23.248.176.96",
+      "server_port": 44444,
+      "method": "aes-128-gcm",
+      "password": "123456",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "29.RescueNet-102",
+      "server": "46.183.184.64",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "30.🇮🇪IE-23.92.127.133-8830",
+      "server": "23.92.127.133",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "6.RescueNet-191",
+      "server": "beacomf.xyz",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "T1pb7XxxrolvPSb0u2xSOA",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "7.🇵🇱PL-217.30.10.68-9137",
+      "server": "217.30.10.68",
+      "server_port": 9045,
+      "method": "aes-256-cfb",
+      "password": "Lp27rqyJq72bZsqX",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "8.RescueNet-260",
+      "server": "62.12.116.66",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "9.🇵🇱PL-217.30.10.68-9135",
+      "server": "217.30.10.68",
+      "server_port": 9053,
+      "method": "aes-256-cfb",
+      "password": "SBM7R883jBmnqe6C",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "10.🇱🇻LV-185.135.86.173-14901",
+      "server": "185.135.86.173",
+      "server_port": 9030,
+      "method": "aes-256-cfb",
+      "password": "GeregetR8cvQHzYr",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "11.RescueNet-83",
+      "server": "103.163.218.2",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "31.RescueNet-85",
+      "server": "23.92.127.134",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "32.🇲🇰MK-46.183.185.37-8991",
+      "server": "46.183.185.37",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "33.🇯🇵JP-103.75.118.27-18308",
+      "server": "103.75.118.27",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "34.RescueNet-96",
+      "server": "193.182.144.183",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "35.🇧🇦BA-185.164.35.9-7343",
+      "server": "185.164.35.9",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "36.RescueNet-213",
+      "server": "5.188.108.10",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "37.🇷🇸RS-194.71.126.31-7342",
+      "server": "194.71.126.31",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "38.RescueNet-98",
+      "server": "31.171.153.181",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "39.RescueNet-89",
+      "server": "74.121.191.98",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "40.RescueNet-216",
+      "server": "43.202.49.222",
+      "server_port": 2333,
+      "method": "aes-256-cfb",
+      "password": "doub.io",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "41.RescueNet-166",
+      "server": "77.72.5.150",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "42.RescueNet-204",
+      "server": "156.146.62.160",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "43.RescueNet-147",
+      "server": "54.199.83.239",
+      "server_port": 2333,
+      "method": "aes-256-cfb",
+      "password": "doub.io",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "44.RescueNet-210",
+      "server": "92.38.171.89",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "45.🇵🇱PL-217.30.10.68-9130",
+      "server": "217.30.10.68",
+      "server_port": 9001,
+      "method": "aes-256-cfb",
+      "password": "UkXRsXvR6buDMG2Y",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "46.🇳🇬NG-185.255.123.90-17749",
+      "server": "185.255.123.90",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "47.🇵🇷PR-185.47.255.219-14898",
+      "server": "185.47.255.219",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "48.🇵🇱PL-217.30.10.68-9124",
+      "server": "217.30.10.68",
+      "server_port": 9010,
+      "method": "aes-256-cfb",
+      "password": "f63gg8EruDnUrmz4",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "49.🇵🇱PL-217.30.10.68-9143",
+      "server": "217.30.10.68",
+      "server_port": 9019,
+      "method": "aes-256-cfb",
+      "password": "GA9KzeEgvfxNrgmM",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "50.🇵🇱PL-217.30.10.68-9133",
+      "server": "217.30.10.68",
+      "server_port": 9026,
+      "method": "aes-256-cfb",
+      "password": "QWDDvVE9npNurQfA",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "proxy",
+    "geoip": {
+      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+      "download_detour": "bypass"
+    },
+    "geosite": {
+      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+      "download_detour": "bypass"
+    },
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "port": [
+          53
+        ]
+      },
+      {
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}
