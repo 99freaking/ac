@@ -51,9 +51,14 @@
         "outbound": "bypass",
         "server": "dns-local",
         "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "dns-remote",
+        "rewrite_ttl": 20
       }
     ],
-    "final": "dns-remote",
+    "final": "dns-direct",
     "reverse_mapping": true,
     "strategy": "ipv4_only",
     "independent_cache": true
@@ -97,6 +102,11 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
+        "1.[HK]103.152.221.207:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "2.[🇸🇬]8d242c5.dc.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "3.[🇺🇸]8d242c5.db.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "4.[TW]956f2ba.t1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "5.[US]956f2ba.u1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
         "6.RescueNet-191",
         "7.🇵🇱PL-217.30.10.68-9137",
         "8.RescueNet-260",
@@ -148,6 +158,11 @@
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
+        "1.[HK]103.152.221.207:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "2.[🇸🇬]8d242c5.dc.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "3.[🇺🇸]8d242c5.db.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "4.[TW]956f2ba.t1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+        "5.[US]956f2ba.u1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
         "6.RescueNet-191",
         "7.🇵🇱PL-217.30.10.68-9137",
         "8.RescueNet-260",
@@ -479,6 +494,86 @@
         "protocol": "smux",
         "max_streams": 0
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "1.[HK]103.152.221.207:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+      "server": "103.152.221.207",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "plugin": "obfs-local",
+      "plugin_opts": "obfs=tls;obfs-host=8d242c5.dl.nintendo.net:123597"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "2.[🇸🇬]8d242c5.dc.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+      "server": "103.172.116.16",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "plugin": "obfs-local",
+      "plugin_opts": "obfs=tls;obfs-host=8d242c5.dl.nintendo.net:123597"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "3.[🇺🇸]8d242c5.db.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+      "server": "95.174.71.97",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "plugin": "obfs-local",
+      "plugin_opts": "obfs=tls;obfs-host=8d242c5.dl.nintendo.net:123597"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "4.[TW]956f2ba.t1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+      "server": "956f2ba.t1.glados-config.net",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "plugin": "obfs-local",
+      "plugin_opts": "obfs=tls;obfs-host=956f2ba.dl.nintendo.net:142593"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "5.[US]956f2ba.u1.glados-config.net:2377(t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv)",
+      "server": "956f2ba.u1.glados-config.net",
+      "server_port": 2377,
+      "method": "chacha20-ietf-poly1305",
+      "password": "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "plugin": "obfs-local",
+      "plugin_opts": "obfs=tls;obfs-host=956f2ba.dl.nintendo.net:142593"
     },
     {
       "type": "shadowsocks",
