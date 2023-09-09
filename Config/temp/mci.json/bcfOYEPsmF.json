@@ -25,10 +25,17 @@
       },
       {
         "address": "https://dns.digitalsize.net/dns-query",
-        "address_resolver": "dns-local",
+        "address_resolver": "dns-plain",
         "detour": "direct",
         "strategy": "prefer_ipv4",
         "tag": "dns-direct"
+      },
+      {
+        "address": "8.8.8.8",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-plain"
       },
       {
         "address": "local",
@@ -60,7 +67,7 @@
     ],
     "final": "dns-direct",
     "reverse_mapping": true,
-    "strategy": "ipv4_only",
+    "strategy": "prefer_ipv4",
     "independent_cache": true
   },
   "inbounds": [
@@ -410,7 +417,7 @@
         "150.رایگان+|+REALITY+|+@v2ray_swhil+|+TR🇹🇷+|+0️⃣2️⃣"
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "5m",
+      "interval": "10m",
       "tolerance": 50
     },
     {
