@@ -55,6 +55,11 @@
         "rewrite_ttl": 20
       },
       {
+        "geosite": "category-ads-all",
+        "server": "block",
+        "disable_cache": true
+      },
+      {
         "outbound": "bypass",
         "server": "dns-local",
         "rewrite_ttl": 20
@@ -979,6 +984,10 @@
           "private"
         ],
         "outbound": "bypass"
+      },
+      {
+        "geosite": "category-ads-all",
+        "outbound": "block"
       },
       {
         "ip_cidr": [
