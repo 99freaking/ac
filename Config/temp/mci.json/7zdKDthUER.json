@@ -883,11 +883,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1055,11 +1055,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1258,11 +1258,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "current.iraniancp.click"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1318,11 +1318,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "admin.quranmajid.eu.org"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1350,11 +1350,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1382,11 +1382,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1442,11 +1442,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "jp.caball.link"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1505,11 +1505,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "current.iraniancp.click"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1600,11 +1600,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "admin.quranmajid.eu.org"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -1835,11 +1835,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -2066,11 +2066,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -2133,11 +2133,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -2221,11 +2221,11 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "cf-wkrs-pages-vless-aoy.pages.dev"
         },
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -2284,9 +2284,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "medusans.aurorainiceland.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -2368,9 +2366,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "seaside.aurorainiceland.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -2397,9 +2393,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048",
+        "path": "/",
         "headers": {},
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -2465,9 +2461,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "liverleaf.thenorthernlights.website"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -2679,9 +2673,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "foal.aurorainiceland.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -3455,9 +3447,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "storeships.toptechnonews.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -3711,9 +3701,7 @@
         "path": "ws",
         "headers": {
           "Host": "jbboiwgb.parvanedeve.click"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4042,9 +4030,7 @@
         "path": "/1C1eEyrBbGr0r2HZ1tSkA",
         "headers": {
           "Host": "ftp.pardazesh.tech"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4186,9 +4172,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "geminal.aurorainiceland.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4224,9 +4208,7 @@
         "path": "/chat",
         "headers": {
           "Host": "vde1.0bad.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4354,9 +4336,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "patronage.aurorainiceland.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4516,9 +4496,7 @@
       "transport": {
         "type": "ws",
         "path": "/chat",
-        "headers": {},
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        "headers": {}
       }
     },
     {
@@ -4576,9 +4554,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "users?ed=2048",
+        "path": "users",
         "headers": {},
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -4637,9 +4615,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "interlopers.realbarcafootball.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4704,9 +4680,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "users?ed=2048",
+        "path": "users",
         "headers": {},
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
@@ -4737,9 +4713,7 @@
         "path": "/vncf0bfUuZ6QgIre2fcLjqskl",
         "headers": {
           "Host": "hdfy2cdn1.cpionline.co"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4825,9 +4799,7 @@
         "path": "/nimws",
         "headers": {
           "Host": "logaoedic.realbarcafootball.com"
-        },
-        "max_early_data": 0,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
+        }
       }
     },
     {
@@ -4885,9 +4857,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "users?ed=2048",
+        "path": "users",
         "headers": {},
-        "max_early_data": 0,
+        "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
