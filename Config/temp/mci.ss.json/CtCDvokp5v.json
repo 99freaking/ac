@@ -1,0 +1,996 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "../files/yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "bypass",
+      "secret": "",
+      "default_mode": "rule",
+      "store_selected": true
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "address_resolver": "dns-direct",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.digitalsize.net/dns-query",
+        "address_resolver": "dns-plain",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "8.8.8.8",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-plain"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "direct",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "bypass",
+        "server": "dns-local",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "dns-remote",
+        "rewrite_ttl": 20
+      }
+    ],
+    "final": "dns-direct",
+    "reverse_mapping": true,
+    "strategy": "prefer_ipv4",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "domain_strategy": "",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "mtu": 1500,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "1.日本-东京都-东京-ss-54.199.83.239:2333",
+        "2.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣1️⃣",
+        "3.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣2️⃣",
+        "4.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣3️⃣",
+        "5.رایگان+|+SS+|+@free4allVPN+|+IE🇮🇪+|+0️⃣1️⃣",
+        "6.رایگان+|+SS+|+@VPNGate_Config+|+US🇺🇸+|+0️⃣3️⃣",
+        "7.14|🇰🇷 首尔特殊|@ripaojiedian",
+        "8.美国_Telegram@kxswa (2)",
+        "9.美国_Telegram@kxswa (3)",
+        "10.美国_Telegram@kxswa (4)",
+        "11.美国_Telegram@kxswa (5)",
+        "12.美国_Telegram@kxswa (10)",
+        "13.美国_Telegram@kxswa (11)",
+        "14.🇷🇪_RE_留尼汪",
+        "15.AL-31.171.153.181-0691 | 17.571MB",
+        "16.AT-185.180.12.81-1668 | 21.063MB",
+        "17.BA-185.164.35.9-0726 | 17.498MB",
+        "18.CH-156.146.62.160-0671 | 18.007MB",
+        "19.CH-84.17.53.160-0675 | 18.231MB",
+        "20.CZ-143.244.58.102-0677 | 21.541MB",
+        "21.CZ-212.102.38.41-0687 | 17.219MB",
+        "22.IM-192.71.211.161-0730 | 13.115MB",
+        "23.PA-138.186.142.4-18061 | 8.694MB",
+        "24.SE-121.127.46.147-0681 | 17.953MB",
+        "25.SE-37.19.222.212-0693 | 17.9MB",
+        "26.SE-37.19.222.214-0701 | 15.509MB",
+        "27.TR-45.89.52.66-0764 | 10.064MB",
+        "28.TR-45.89.52.66-17473 | 9.71MB",
+        "29.UA-5.188.6.8-0704 | 7.442MB",
+        "30.ES-92.38.171.89-0706 | 16.066MB",
+        "31.FR-51.15.27.48-0632 | 37.38MB",
+        "32.FR-51.159.111.208-0660 | 30.4MB",
+        "33.GB-212.102.53.194-0606 | 16.627MB",
+        "34.GB-212.102.53.197-0611 | 16.99MB",
+        "35.GB-212.102.53.197-2078 | 16.604MB",
+        "36.GB-77.72.5.113-0641 | 15.302MB",
+        "37.GB-77.72.5.150-2087 | 19.609MB",
+        "38.NL-109.201.152.181-0635 | 36.29MB",
+        "39.PL-5.188.108.10-0751 | 14.674MB",
+        "40.RU-31.172.67.43-0688 | 17.253MB",
+        "41._RU_俄罗斯联邦_24@0",
+        "42.US-156.146.38.163-0236 | 87.522MB",
+        "43.US-184.170.241.194-0580 | 75.504MB",
+        "44.US-205.134.180.137-0575 | 116.389MB",
+        "45.US-205.134.180.145-0570 | 108.889MB",
+        "46.US-212.102.47.198-0581 | 74.031MB",
+        "47.EE_23",
+        "48.RU_76",
+        "49.🇺🇸US-205.134.180.143-9811",
+        "50.🇺🇸US-74.121.191.98-0676"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "1.日本-东京都-东京-ss-54.199.83.239:2333",
+        "2.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣1️⃣",
+        "3.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣2️⃣",
+        "4.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣3️⃣",
+        "5.رایگان+|+SS+|+@free4allVPN+|+IE🇮🇪+|+0️⃣1️⃣",
+        "6.رایگان+|+SS+|+@VPNGate_Config+|+US🇺🇸+|+0️⃣3️⃣",
+        "7.14|🇰🇷 首尔特殊|@ripaojiedian",
+        "8.美国_Telegram@kxswa (2)",
+        "9.美国_Telegram@kxswa (3)",
+        "10.美国_Telegram@kxswa (4)",
+        "11.美国_Telegram@kxswa (5)",
+        "12.美国_Telegram@kxswa (10)",
+        "13.美国_Telegram@kxswa (11)",
+        "14.🇷🇪_RE_留尼汪",
+        "15.AL-31.171.153.181-0691 | 17.571MB",
+        "16.AT-185.180.12.81-1668 | 21.063MB",
+        "17.BA-185.164.35.9-0726 | 17.498MB",
+        "18.CH-156.146.62.160-0671 | 18.007MB",
+        "19.CH-84.17.53.160-0675 | 18.231MB",
+        "20.CZ-143.244.58.102-0677 | 21.541MB",
+        "21.CZ-212.102.38.41-0687 | 17.219MB",
+        "22.IM-192.71.211.161-0730 | 13.115MB",
+        "23.PA-138.186.142.4-18061 | 8.694MB",
+        "24.SE-121.127.46.147-0681 | 17.953MB",
+        "25.SE-37.19.222.212-0693 | 17.9MB",
+        "26.SE-37.19.222.214-0701 | 15.509MB",
+        "27.TR-45.89.52.66-0764 | 10.064MB",
+        "28.TR-45.89.52.66-17473 | 9.71MB",
+        "29.UA-5.188.6.8-0704 | 7.442MB",
+        "30.ES-92.38.171.89-0706 | 16.066MB",
+        "31.FR-51.15.27.48-0632 | 37.38MB",
+        "32.FR-51.159.111.208-0660 | 30.4MB",
+        "33.GB-212.102.53.194-0606 | 16.627MB",
+        "34.GB-212.102.53.197-0611 | 16.99MB",
+        "35.GB-212.102.53.197-2078 | 16.604MB",
+        "36.GB-77.72.5.113-0641 | 15.302MB",
+        "37.GB-77.72.5.150-2087 | 19.609MB",
+        "38.NL-109.201.152.181-0635 | 36.29MB",
+        "39.PL-5.188.108.10-0751 | 14.674MB",
+        "40.RU-31.172.67.43-0688 | 17.253MB",
+        "41._RU_俄罗斯联邦_24@0",
+        "42.US-156.146.38.163-0236 | 87.522MB",
+        "43.US-184.170.241.194-0580 | 75.504MB",
+        "44.US-205.134.180.137-0575 | 116.389MB",
+        "45.US-205.134.180.145-0570 | 108.889MB",
+        "46.US-212.102.47.198-0581 | 74.031MB",
+        "47.EE_23",
+        "48.RU_76",
+        "49.🇺🇸US-205.134.180.143-9811",
+        "50.🇺🇸US-74.121.191.98-0676"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "30m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "1.日本-东京都-东京-ss-54.199.83.239:2333",
+      "server": "54.199.83.239",
+      "server_port": 2333,
+      "method": "aes-256-cfb",
+      "password": "doub.io",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "2.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣1️⃣",
+      "server": "51.195.41.122",
+      "server_port": 2087,
+      "method": "chacha20-ietf-poly1305",
+      "password": "NstTsxRHZvlOBOXy",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "3.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣2️⃣",
+      "server": "141.95.193.97",
+      "server_port": 2087,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Y5rdJzKCGy2tE0N0",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "4.رایگان+|+SS+|+@V2rayCollectorDonate+|+FR🇫🇷+|+0️⃣3️⃣",
+      "server": "51.68.169.76",
+      "server_port": 2087,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2VFWTvXdqvuiCqdt",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "5.رایگان+|+SS+|+@free4allVPN+|+IE🇮🇪+|+0️⃣1️⃣",
+      "server": "54.220.133.34",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5Ib9l2M6FC7SayRNmutDuF",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "6.رایگان+|+SS+|+@VPNGate_Config+|+US🇺🇸+|+0️⃣3️⃣",
+      "server": "205.134.180.147",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9Bvkw5aupNy8",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "7.14|🇰🇷 首尔特殊|@ripaojiedian",
+      "server": "13.124.205.12",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "amazonskr05",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "8.美国_Telegram@kxswa (2)",
+      "server": "142.202.48.55",
+      "server_port": 2376,
+      "method": "aes-256-gcm",
+      "password": "faBAoD54k87UJG7",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "9.美国_Telegram@kxswa (3)",
+      "server": "142.202.48.55",
+      "server_port": 3306,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "10.美国_Telegram@kxswa (4)",
+      "server": "142.202.48.55",
+      "server_port": 2375,
+      "method": "aes-256-gcm",
+      "password": "faBAoD54k87UJG7",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "11.美国_Telegram@kxswa (5)",
+      "server": "142.202.48.55",
+      "server_port": 8091,
+      "method": "aes-256-gcm",
+      "password": "PCnnH6SQSnfoS27",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "12.美国_Telegram@kxswa (10)",
+      "server": "142.202.48.55",
+      "server_port": 7306,
+      "method": "aes-256-gcm",
+      "password": "FoOiGlkAA9yPEGP",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "13.美国_Telegram@kxswa (11)",
+      "server": "142.202.48.55",
+      "server_port": 5004,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "14.🇷🇪_RE_留尼汪",
+      "server": "45.59.170.13",
+      "server_port": 443,
+      "method": "aes-256-ctr",
+      "password": "VNewBypasser2023",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "15.AL-31.171.153.181-0691 | 17.571MB",
+      "server": "31.171.153.181",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "16.AT-185.180.12.81-1668 | 21.063MB",
+      "server": "185.180.12.81",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "17.BA-185.164.35.9-0726 | 17.498MB",
+      "server": "185.164.35.9",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "18.CH-156.146.62.160-0671 | 18.007MB",
+      "server": "156.146.62.160",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "19.CH-84.17.53.160-0675 | 18.231MB",
+      "server": "84.17.53.160",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "20.CZ-143.244.58.102-0677 | 21.541MB",
+      "server": "143.244.58.102",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "21.CZ-212.102.38.41-0687 | 17.219MB",
+      "server": "212.102.38.41",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "22.IM-192.71.211.161-0730 | 13.115MB",
+      "server": "192.71.211.161",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "23.PA-138.186.142.4-18061 | 8.694MB",
+      "server": "138.186.142.4",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "24.SE-121.127.46.147-0681 | 17.953MB",
+      "server": "121.127.46.147",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "25.SE-37.19.222.212-0693 | 17.9MB",
+      "server": "37.19.222.212",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "26.SE-37.19.222.214-0701 | 15.509MB",
+      "server": "37.19.222.214",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "27.TR-45.89.52.66-0764 | 10.064MB",
+      "server": "45.89.52.66",
+      "server_port": 9037,
+      "method": "aes-256-cfb",
+      "password": "TN2YqghxeFDKZfLU",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "28.TR-45.89.52.66-17473 | 9.71MB",
+      "server": "45.89.52.66",
+      "server_port": 9042,
+      "method": "aes-256-cfb",
+      "password": "S7KwUu7yBy58S3Ga",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "29.UA-5.188.6.8-0704 | 7.442MB",
+      "server": "5.188.6.8",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "30.ES-92.38.171.89-0706 | 16.066MB",
+      "server": "92.38.171.89",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "31.FR-51.15.27.48-0632 | 37.38MB",
+      "server": "51.15.27.48",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "32.FR-51.159.111.208-0660 | 30.4MB",
+      "server": "51.159.111.208",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "33.GB-212.102.53.194-0606 | 16.627MB",
+      "server": "ak1793.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "34.GB-212.102.53.197-0611 | 16.99MB",
+      "server": "ak1784.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "35.GB-212.102.53.197-2078 | 16.604MB",
+      "server": "212.102.53.197",
+      "server_port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "36.GB-77.72.5.113-0641 | 15.302MB",
+      "server": "77.72.5.113",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "37.GB-77.72.5.150-2087 | 19.609MB",
+      "server": "77.72.5.150",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "38.NL-109.201.152.181-0635 | 36.29MB",
+      "server": "109.201.152.181",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "39.PL-5.188.108.10-0751 | 14.674MB",
+      "server": "5.188.108.10",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "40.RU-31.172.67.43-0688 | 17.253MB",
+      "server": "31.172.67.43",
+      "server_port": 443,
+      "method": "aes-256-cfb",
+      "password": "asdKkaskJKfnsa",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "41._RU_俄罗斯联邦_24@0",
+      "server": "212.113.106.243",
+      "server_port": 12949,
+      "method": "chacha20-ietf-poly1305",
+      "password": "P2zxXPewlV3BlfqqYiSthvtLc",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "42.US-156.146.38.163-0236 | 87.522MB",
+      "server": "156.146.38.163",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "43.US-184.170.241.194-0580 | 75.504MB",
+      "server": "184.170.241.194",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "44.US-205.134.180.137-0575 | 116.389MB",
+      "server": "205.134.180.137",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "g13S7doXar0A",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "45.US-205.134.180.145-0570 | 108.889MB",
+      "server": "205.134.180.145",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hgLCgfLRgB6d",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "46.US-212.102.47.198-0581 | 74.031MB",
+      "server": "212.102.47.198",
+      "server_port": 443,
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "47.EE_23",
+      "server": "45.129.96.62",
+      "server_port": 51348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "dafHo6GF3d67mOdji",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "48.RU_76",
+      "server": "212.113.106.243",
+      "server_port": 13022,
+      "method": "chacha20-ietf-poly1305",
+      "password": "w5drAL7PfCIwQ2ycUuoDsV2Ls",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "49.🇺🇸US-205.134.180.143-9811",
+      "server": "205.134.180.143",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "R9Xc4dHXGv3c",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "50.🇺🇸US-74.121.191.98-0676",
+      "server": "74.121.191.98",
+      "server_port": 989,
+      "method": "aes-256-cfb",
+      "password": "f8f7aCzcPKbsF8p3",
+      "udp_over_tcp": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "proxy",
+    "geoip": {
+      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+      "download_detour": "bypass"
+    },
+    "geosite": {
+      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+      "download_detour": "bypass"
+    },
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "port": [
+          53
+        ]
+      },
+      {
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "private"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}
