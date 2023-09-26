@@ -12,7 +12,8 @@
       "external_ui_download_detour": "bypass",
       "secret": "",
       "default_mode": "rule",
-      "store_selected": true
+      "store_selected": true,
+      "cache_file": "cache.db"
     }
   },
   "dns": {
@@ -45,9 +46,21 @@
       {
         "address": "rcode://success",
         "tag": "dns-block"
+      },
+      {
+        "address": "fakeip",
+        "strategy": "ipv4_only",
+        "tag": "dns-fake"
       }
     ],
     "rules": [
+      {
+        "disable_cache": true,
+        "inbound": [
+          "tun-in"
+        ],
+        "server": "dns-fake"
+      },
       {
         "outbound": "direct",
         "server": "dns-direct",
@@ -67,7 +80,12 @@
     "final": "dns-direct",
     "reverse_mapping": true,
     "strategy": "prefer_ipv4",
-    "independent_cache": true
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    }
   },
   "inbounds": [
     {
