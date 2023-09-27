@@ -4140,11 +4140,11 @@
     "override_android_vpn": true,
     "final": "proxy",
     "geoip": {
-      "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geoip.db",
+      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
       "download_detour": "bypass"
     },
     "geosite": {
-      "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geosite.db",
+      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
       "download_detour": "bypass"
     },
     "rules": [
@@ -4172,30 +4172,15 @@
         ]
       },
       {
-        "geosite": [
-          "category-ads-all",
-          "malware",
-          "phishing",
-          "cryptominers"
+        "domain_suffix": [
+          "ir"
         ],
-        "outbound": "block"
-      },
-      {
-        "geoip": [
-          "malware",
-          "phishing"
-        ],
-        "outbound": "block"
-      },
-      {
-        "geosite": "ir",
         "outbound": "bypass"
       },
       {
         "geoip": [
           "ir",
-          "private",
-          "arvancloud"
+          "private"
         ],
         "outbound": "bypass"
       }
