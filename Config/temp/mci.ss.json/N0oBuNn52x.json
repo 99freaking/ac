@@ -102,6 +102,7 @@
       "domain_strategy": "",
       "interface_name": "tun0",
       "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
       "mtu": 1500,
       "auto_route": true,
       "strict_route": true,
@@ -2159,11 +2160,11 @@
     "override_android_vpn": true,
     "final": "proxy",
     "geoip": {
-      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+      "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geoip.db",
       "download_detour": "bypass"
     },
     "geosite": {
-      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+      "download_url": "https://github.com/Chocolate4U/Iran-sing-box-rules/releases/latest/download/geosite.db",
       "download_detour": "bypass"
     },
     "rules": [
@@ -2180,24 +2181,6 @@
         "outbound": "dns-out"
       },
       {
-        "domain_suffix": [
-          "ir"
-        ],
-        "outbound": "bypass"
-      },
-      {
-        "geoip": [
-          "ir"
-        ],
-        "outbound": "bypass"
-      },
-      {
-        "geoip": [
-          "private"
-        ],
-        "outbound": "bypass"
-      },
-      {
         "ip_cidr": [
           "224.0.0.0/3",
           "ff00::/8"
@@ -2207,6 +2190,34 @@
           "224.0.0.0/3",
           "ff00::/8"
         ]
+      },
+      {
+        "geosite": [
+          "category-ads-all",
+          "malware",
+          "phishing",
+          "cryptominers"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geoip": [
+          "malware",
+          "phishing"
+        ],
+        "outbound": "block"
+      },
+      {
+        "geosite": "ir",
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "ir",
+          "private",
+          "arvancloud"
+        ],
+        "outbound": "bypass"
       }
     ]
   }
