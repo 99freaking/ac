@@ -1,0 +1,4262 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "../files/yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "bypass",
+      "secret": "",
+      "default_mode": "rule",
+      "store_selected": true,
+      "cache_file": "cache.db"
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "address_resolver": "dns-direct",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.digitalsize.net/dns-query",
+        "address_resolver": "dns-plain",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "8.8.8.8",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-plain"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      },
+      {
+        "address": "fakeip",
+        "strategy": "ipv4_only",
+        "tag": "dns-fake"
+      }
+    ],
+    "rules": [
+      {
+        "disable_cache": true,
+        "inbound": [
+          "tun-in"
+        ],
+        "server": "dns-fake"
+      },
+      {
+        "outbound": "direct",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "bypass",
+        "server": "dns-local",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "dns-remote",
+        "rewrite_ttl": 20
+      }
+    ],
+    "final": "dns-direct",
+    "reverse_mapping": true,
+    "strategy": "prefer_ipv4",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    }
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "domain_strategy": "",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "mtu": 1500,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "1.💻 Channel 🆔 : @AlienVPN402 👽 (320)",
+        "2.美国_Telegram@kxswa (101)",
+        "3.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+        "4.12|🇺🇸 美国 357",
+        "5.🇺🇸_US_美国 (100)",
+        "6.阿尔巴尼亚_0930001",
+        "7.🇺🇸US-138.2.234.225-16830",
+        "8.频道14@wxgqlfx",
+        "9.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+        "10.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "11.🏁RELAY-188.114.98.0-16738",
+        "12.12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20",
+        "13.Relay_🇺🇸US-🇺🇸US_116 |20.33Mb",
+        "14.日本A|@ripaojiedian",
+        "15.美国_0930146",
+        "16.🇭🇰HK-18.163.81.85-16953",
+        "17.印度_0930001",
+        "18.印度_0930002",
+        "19.1,15|_HK__2",
+        "20.",
+        "21.11|github.com/freefq - 香港香港城市电讯(香...",
+        "22.12|🇺🇸 美国 365",
+        "23.رایگان | VMESS | @Awlix_ir | RELAY🚩 | 0️⃣1️⃣",
+        "24.Relay_ |23.60Mb",
+        "25.FR-51.158.63.14-0719 | 16.926MB",
+        "26.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+        "27.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+        "28.12|🇺🇸 美国_09241173",
+        "29.12|12|12|Server-2",
+        "30.12|🇺🇸 US 270",
+        "31.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣3️⃣",
+        "32.12|美国 #1",
+        "33.💻 Channel 🆔 : @AlienVPN402 👽 (7)",
+        "34.رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
+        "35.💻+Channel+🆔+:+@AlienVPN402+👽+(30)",
+        "36.United+States+16┠TG：@ccbaohe┨免费节点分享",
+        "37.🇺🇸_US_美国+(141)",
+        "38.加拿大 118",
+        "39.🇺🇸_US_美国 (61)",
+        "40.@hkaa0+|日本_9",
+        "41.12|美国4 #1",
+        "42.12|🇺🇸 US(AzadNet.t.me)_060",
+        "43.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣2️⃣",
+        "44.🇺🇸_US_美国+(80)",
+        "45.🇺🇸_US_美国->🇯🇵_JP_日本 (1)",
+        "46.12|🇺🇸 美国 258",
+        "47.美国_0925179",
+        "48.0,2,3,4,6,10,11,12,14|🇭🇰 _HK_香港 #2",
+        "49.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+        "50.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+        "51.🇬🇧+_GB_英国_1_5@16",
+        "52.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+        "53.🇸🇬+_SG_新加坡+3+2+2",
+        "54.💻 Channel 🆔 : @AlienVPN402 👽 (23)",
+        "55.US-138.2.234.225-17276+|+31.97MB",
+        "56.💻 Channel 🆔 : @AlienVPN402 👽 (234)",
+        "57.🇭🇰+_HK_香港_4@2",
+        "58.🇸🇬+_SG_新加坡+3+2+2",
+        "59.🇯🇵+日本_0925073",
+        "60.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+        "61.🇫🇷FR-51.15.105.39-8919",
+        "62.🇫🇷FR-51.15.105.39-5020",
+        "63.رایگان+|+TROJAN+|+@oneclickvpnkeys+|+FR🇫🇷+|+0️⃣3️⃣",
+        "64.IE-176.34.139.67-0681+|+19.433MB",
+        "65.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+        "66.💻 Channel 🆔 : @AlienVPN402 👽 (123)",
+        "67.🇺🇸_US_美国 (35)",
+        "68.💻 Channel 🆔 : @AlienVPN402 👽 (67)",
+        "69.💻 Channel 🆔 : @AlienVPN402 👽 (14)",
+        "70.11,12|github.com/freefq - 美国CloudFla...",
+        "71.💻 Channel 🆔 : @AlienVPN402 👽 (30)",
+        "72.12|美国3",
+        "73.💻 Channel 🆔 : @AlienVPN402 👽 (90)",
+        "74.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+        "75.💻 Channel 🆔 : @AlienVPN402 👽 (12)",
+        "76.🇨🇳CN-103.184.44.112-4318",
+        "77.12|🇺🇸 US 476",
+        "78.💻 Channel 🆔 : @AlienVPN402 👽 (154)",
+        "79.💻 Channel 🆔 : @AlienVPN402 👽 (3)",
+        "80.💻 Channel 🆔 : @AlienVPN402 👽 (9)",
+        "81.💻 Channel 🆔 : @AlienVPN402 👽 (25)",
+        "82.FR-51.158.63.14-0719+|+16.926MB",
+        "83.💻 Channel 🆔 : @AlienVPN402 👽 (66)",
+        "84.💻 Channel 🆔 : @AlienVPN402 👽 (98)",
+        "85.💻 Channel 🆔 : @AlienVPN402 👽 (18)",
+        "86.💻 Channel 🆔 : @AlienVPN402 👽 (145)",
+        "87.",
+        "88.💻 Channel 🆔 : @AlienVPN402 👽 (223)",
+        "89.@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+        "90.💻 Channel 🆔 : @AlienVPN402 👽 (86)",
+        "91.رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
+        "92.RescueNet-66",
+        "93.RescueNet-66",
+        "94.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+        "95.💻 Channel 🆔 : @AlienVPN402 👽 (69)",
+        "96.💻 Channel 🆔 : @AlienVPN402 👽 (68)",
+        "97.🏁RELAY-172.67.142.191-16410",
+        "98.🇺🇸US-15.204.210.176-7528",
+        "99.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "100.RescueNet-66",
+        "101.美国_Telegram@kxswa (122)",
+        "102.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+        "103.💻 Channel 🆔 : @AlienVPN402 👽 (97)",
+        "104.美国 113",
+        "105.@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+        "106.🇺🇸_US_美国_138",
+        "107.💻 Channel 🆔 : @AlienVPN402 👽 (115)",
+        "108.💻 Channel 🆔 : @AlienVPN402 👽 (220)",
+        "109.💻 Channel 🆔 : @AlienVPN402 👽 (130)",
+        "110.💻 Channel 🆔 : @AlienVPN402 👽 (136)",
+        "111.💻 Channel 🆔 : @AlienVPN402 👽 (31)",
+        "112.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+        "113.RescueNet-66",
+        "114.🇺🇸US-138.197.5.103-9951",
+        "115.12|🇺🇸 美国 338",
+        "116.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "117.رایگان | VMESS | @VPNGate_Config | DE🇩🇪 | 0️⃣1️⃣",
+        "118.💻 Channel 🆔 : @AlienVPN402 👽 (110)",
+        "119.💻 Channel 🆔 : @AlienVPN402 👽 (232)",
+        "120.🇺🇸_US_美国_157",
+        "121.💻 Channel 🆔 : @AlienVPN402 👽 (132)",
+        "122.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+        "123.💻 Channel 🆔 : @AlienVPN402 👽 (227)",
+        "124.💻 Channel 🆔 : @AlienVPN402 👽 (29)"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "1.💻 Channel 🆔 : @AlienVPN402 👽 (320)",
+        "2.美国_Telegram@kxswa (101)",
+        "3.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+        "4.12|🇺🇸 美国 357",
+        "5.🇺🇸_US_美国 (100)",
+        "6.阿尔巴尼亚_0930001",
+        "7.🇺🇸US-138.2.234.225-16830",
+        "8.频道14@wxgqlfx",
+        "9.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+        "10.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "11.🏁RELAY-188.114.98.0-16738",
+        "12.12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20",
+        "13.Relay_🇺🇸US-🇺🇸US_116 |20.33Mb",
+        "14.日本A|@ripaojiedian",
+        "15.美国_0930146",
+        "16.🇭🇰HK-18.163.81.85-16953",
+        "17.印度_0930001",
+        "18.印度_0930002",
+        "19.1,15|_HK__2",
+        "20.",
+        "21.11|github.com/freefq - 香港香港城市电讯(香...",
+        "22.12|🇺🇸 美国 365",
+        "23.رایگان | VMESS | @Awlix_ir | RELAY🚩 | 0️⃣1️⃣",
+        "24.Relay_ |23.60Mb",
+        "25.FR-51.158.63.14-0719 | 16.926MB",
+        "26.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+        "27.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+        "28.12|🇺🇸 美国_09241173",
+        "29.12|12|12|Server-2",
+        "30.12|🇺🇸 US 270",
+        "31.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣3️⃣",
+        "32.12|美国 #1",
+        "33.💻 Channel 🆔 : @AlienVPN402 👽 (7)",
+        "34.رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
+        "35.💻+Channel+🆔+:+@AlienVPN402+👽+(30)",
+        "36.United+States+16┠TG：@ccbaohe┨免费节点分享",
+        "37.🇺🇸_US_美国+(141)",
+        "38.加拿大 118",
+        "39.🇺🇸_US_美国 (61)",
+        "40.@hkaa0+|日本_9",
+        "41.12|美国4 #1",
+        "42.12|🇺🇸 US(AzadNet.t.me)_060",
+        "43.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣2️⃣",
+        "44.🇺🇸_US_美国+(80)",
+        "45.🇺🇸_US_美国->🇯🇵_JP_日本 (1)",
+        "46.12|🇺🇸 美国 258",
+        "47.美国_0925179",
+        "48.0,2,3,4,6,10,11,12,14|🇭🇰 _HK_香港 #2",
+        "49.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+        "50.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+        "51.🇬🇧+_GB_英国_1_5@16",
+        "52.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+        "53.🇸🇬+_SG_新加坡+3+2+2",
+        "54.💻 Channel 🆔 : @AlienVPN402 👽 (23)",
+        "55.US-138.2.234.225-17276+|+31.97MB",
+        "56.💻 Channel 🆔 : @AlienVPN402 👽 (234)",
+        "57.🇭🇰+_HK_香港_4@2",
+        "58.🇸🇬+_SG_新加坡+3+2+2",
+        "59.🇯🇵+日本_0925073",
+        "60.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+        "61.🇫🇷FR-51.15.105.39-8919",
+        "62.🇫🇷FR-51.15.105.39-5020",
+        "63.رایگان+|+TROJAN+|+@oneclickvpnkeys+|+FR🇫🇷+|+0️⃣3️⃣",
+        "64.IE-176.34.139.67-0681+|+19.433MB",
+        "65.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+        "66.💻 Channel 🆔 : @AlienVPN402 👽 (123)",
+        "67.🇺🇸_US_美国 (35)",
+        "68.💻 Channel 🆔 : @AlienVPN402 👽 (67)",
+        "69.💻 Channel 🆔 : @AlienVPN402 👽 (14)",
+        "70.11,12|github.com/freefq - 美国CloudFla...",
+        "71.💻 Channel 🆔 : @AlienVPN402 👽 (30)",
+        "72.12|美国3",
+        "73.💻 Channel 🆔 : @AlienVPN402 👽 (90)",
+        "74.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+        "75.💻 Channel 🆔 : @AlienVPN402 👽 (12)",
+        "76.🇨🇳CN-103.184.44.112-4318",
+        "77.12|🇺🇸 US 476",
+        "78.💻 Channel 🆔 : @AlienVPN402 👽 (154)",
+        "79.💻 Channel 🆔 : @AlienVPN402 👽 (3)",
+        "80.💻 Channel 🆔 : @AlienVPN402 👽 (9)",
+        "81.💻 Channel 🆔 : @AlienVPN402 👽 (25)",
+        "82.FR-51.158.63.14-0719+|+16.926MB",
+        "83.💻 Channel 🆔 : @AlienVPN402 👽 (66)",
+        "84.💻 Channel 🆔 : @AlienVPN402 👽 (98)",
+        "85.💻 Channel 🆔 : @AlienVPN402 👽 (18)",
+        "86.💻 Channel 🆔 : @AlienVPN402 👽 (145)",
+        "87.",
+        "88.💻 Channel 🆔 : @AlienVPN402 👽 (223)",
+        "89.@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+        "90.💻 Channel 🆔 : @AlienVPN402 👽 (86)",
+        "91.رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
+        "92.RescueNet-66",
+        "93.RescueNet-66",
+        "94.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+        "95.💻 Channel 🆔 : @AlienVPN402 👽 (69)",
+        "96.💻 Channel 🆔 : @AlienVPN402 👽 (68)",
+        "97.🏁RELAY-172.67.142.191-16410",
+        "98.🇺🇸US-15.204.210.176-7528",
+        "99.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "100.RescueNet-66",
+        "101.美国_Telegram@kxswa (122)",
+        "102.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+        "103.💻 Channel 🆔 : @AlienVPN402 👽 (97)",
+        "104.美国 113",
+        "105.@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+        "106.🇺🇸_US_美国_138",
+        "107.💻 Channel 🆔 : @AlienVPN402 👽 (115)",
+        "108.💻 Channel 🆔 : @AlienVPN402 👽 (220)",
+        "109.💻 Channel 🆔 : @AlienVPN402 👽 (130)",
+        "110.💻 Channel 🆔 : @AlienVPN402 👽 (136)",
+        "111.💻 Channel 🆔 : @AlienVPN402 👽 (31)",
+        "112.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+        "113.RescueNet-66",
+        "114.🇺🇸US-138.197.5.103-9951",
+        "115.12|🇺🇸 美国 338",
+        "116.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+        "117.رایگان | VMESS | @VPNGate_Config | DE🇩🇪 | 0️⃣1️⃣",
+        "118.💻 Channel 🆔 : @AlienVPN402 👽 (110)",
+        "119.💻 Channel 🆔 : @AlienVPN402 👽 (232)",
+        "120.🇺🇸_US_美国_157",
+        "121.💻 Channel 🆔 : @AlienVPN402 👽 (132)",
+        "122.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+        "123.💻 Channel 🆔 : @AlienVPN402 👽 (227)",
+        "124.💻 Channel 🆔 : @AlienVPN402 👽 (29)"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "30m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "type": "vmess",
+      "tag": "1.💻 Channel 🆔 : @AlienVPN402 👽 (320)",
+      "server": "172.66.47.74",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "2.美国_Telegram@kxswa (101)",
+      "server": "ryoza-1088-v2-1.d-kcd.tuil.xyz",
+      "server_port": 888,
+      "uuid": "b00a4568-6396-44c6-8697-f1d1600ba9fd",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/je5x3pBN1vez3NQudNkB",
+        "headers": {
+          "Host": "s3.cjhh.beauty"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "3.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+      "server": "109.104.155.144",
+      "server_port": 443,
+      "password": "f10d5c0ce1",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "4.12|🇺🇸 美国 357",
+      "server": "octavi.cfd",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "octavi.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "octavi.cfd"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "5.🇺🇸_US_美国 (100)",
+      "server": "soap2day.to",
+      "server_port": 443,
+      "uuid": "7522A28C-F9A1-40A0-BD92-67CF39AB5D5B",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Dusseldorf.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Dusseldorf.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "6.阿尔巴尼亚_0930001",
+      "server": "bra1.connecton.surf",
+      "server_port": 443,
+      "password": "f10d5c0ce1",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "7.🇺🇸US-138.2.234.225-16830",
+      "server": "sj1.alieszvps.cf",
+      "server_port": 45555,
+      "password": "VpRuqFDCJo",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "8.频道14@wxgqlfx",
+      "server": "13.51.83.233",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "9.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+      "server": "104.16.242.124",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "10.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+      "server": "162.159.254.0",
+      "server_port": 443,
+      "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rapid-queen-5b2c.barmasi4.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest/Dusseldorf.kotick.site",
+        "headers": {
+          "Host": "rapid-queen-5b2c.barmasi4.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "11.🏁RELAY-188.114.98.0-16738",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "12.12|🇰🇷 _KR_韩国_欢迎订阅yui科技_20",
+      "server": "cc1.clare88.tk",
+      "server_port": 12653,
+      "uuid": "fce96161-0c58-4ba9-8430-660d84083888",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "13.Relay_🇺🇸US-🇺🇸US_116 |20.33Mb",
+      "server": "tempest-us.aikun.online",
+      "server_port": 443,
+      "password": "11e247e5-136d-45f1-844a-a7f054d36bab",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "14.日本A|@ripaojiedian",
+      "server": "qmyuj-1087-tr-0.d-kcd.tuil.xyz",
+      "server_port": 889,
+      "password": "PJUKhmVpDDqtAvMHDvmMpoQYChiuwjgv",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.cjhh.lol",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "15.美国_0930146",
+      "server": "45.63.106.86",
+      "server_port": 39277,
+      "password": "KYAawE5EGp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "16.🇭🇰HK-18.163.81.85-16953",
+      "server": "aws-hk03.aikun.online",
+      "server_port": 443,
+      "password": "fa9a512a-eab5-4cdf-b559-14922eb3948e",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "17.印度_0930001",
+      "server": "103.106.228.223",
+      "server_port": 443,
+      "password": "9aa1e1569a",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "18.印度_0930002",
+      "server": "jp1.connecton.surf",
+      "server_port": 443,
+      "password": "9aa1e1569a",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "19.1,15|_HK__2",
+      "server": "hkt.123ddns.xyz",
+      "server_port": 55455,
+      "uuid": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "20.",
+      "server": "de1.connecton.surf",
+      "server_port": 443,
+      "password": "e4bfb6fe1e",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "21.11|github.com/freefq - 香港香港城市电讯(香...",
+      "server": "hkbn1.411api-snisajdnjkndd.com",
+      "server_port": 4443,
+      "uuid": "f8be07e9-4455-463f-ab36-770c5c5a39bb",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "22.12|🇺🇸 美国 365",
+      "server": "laravel.com",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/octavi.cfd:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "23.رایگان | VMESS | @Awlix_ir | RELAY🚩 | 0️⃣1️⃣",
+      "server": "api.jquery.com",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oliv.beauty:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "24.Relay_ |23.60Mb",
+      "server": "facet.x31416.top",
+      "server_port": 443,
+      "uuid": "c090fe2c-442b-4643-ef5e-98d53a5d72ac",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "25.FR-51.158.63.14-0719 | 16.926MB",
+      "server": "fra1.connecton.surf",
+      "server_port": 443,
+      "password": "cc491f13e9",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "26.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+      "server": "195.245.221.206",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "27.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+      "server": "195.245.221.224",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "28.12|🇺🇸 美国_09241173",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "29.12|12|12|Server-2",
+      "server": "alvvin.click",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "alvvin.click",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "alvvin.click"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "30.12|🇺🇸 US 270",
+      "server": "104.31.16.120",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edeen.makeup",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "edeen.makeup"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "31.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣3️⃣",
+      "server": "usa3.connecton.surf",
+      "server_port": 443,
+      "password": "3550ce3dec",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "32.12|美国 #1",
+      "server": "172.67.12.34",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/octavi.cfd:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "33.💻 Channel 🆔 : @AlienVPN402 👽 (7)",
+      "server": "104.22.4.136",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "34.رایگان | VMESS | @oneclickvpnkeys | RELAY🚩 | 0️⃣2️⃣",
+      "server": "edeen.makeup",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {}
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "35.💻+Channel+🆔+:+@AlienVPN402+👽+(30)",
+      "server": "208.115.233.80",
+      "server_port": 443,
+      "password": "29dbe98050",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "36.United+States+16┠TG：@ccbaohe┨免费节点分享",
+      "server": "66.112.216.121",
+      "server_port": 40317,
+      "password": "AA3uvT5KGT",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "37.🇺🇸_US_美国+(141)",
+      "server": "45.63.106.86",
+      "server_port": 17831,
+      "password": "vbmwVEzFLS",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "38.加拿大 118",
+      "server": "172.67.184.53",
+      "server_port": 8443,
+      "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudconebbb.gorgorchicken.one",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cloudconebbb",
+        "headers": {
+          "Host": "cloudconebbb.gorgorchicken.one"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "39.🇺🇸_US_美国 (61)",
+      "server": "104.27.97.42",
+      "server_port": 8443,
+      "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudconebbb.gorgorchicken.one",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cloudconebbb",
+        "headers": {
+          "Host": "cloudconebbb.gorgorchicken.one"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "40.@hkaa0+|日本_9",
+      "server": "1gzdx2.156786.xyz",
+      "server_port": 37905,
+      "password": "98bae868-4f00-40e0-9603-8d848644ec44",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "41.12|美国4 #1",
+      "server": "104.22.1.126",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/octavi.cfd:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "42.12|🇺🇸 US(AzadNet.t.me)_060",
+      "server": "cloudconebbb.gorgorchicken.one",
+      "server_port": 8443,
+      "uuid": "aa0c4744-9568-4bee-a08b-73668a9b2a42",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudconebbb.gorgorchicken.one",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cloudconebbb",
+        "headers": {
+          "Host": "cloudconebbb.gorgorchicken.one"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "43.رایگان+|+TROJAN+|+@iP_CF+|+US🇺🇸+|+0️⃣2️⃣",
+      "server": "usa2.connecton.surf",
+      "server_port": 443,
+      "password": "29dbe98050",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "44.🇺🇸_US_美国+(80)",
+      "server": "209.216.77.26",
+      "server_port": 443,
+      "password": "3550ce3dec",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "45.🇺🇸_US_美国->🇯🇵_JP_日本 (1)",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "18e5f40f-bda6-4c15-9334-e87cda6047af",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ming2.kiwireich.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ray",
+        "headers": {
+          "Host": "ming2.kiwireich.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "46.12|🇺🇸 美国 258",
+      "server": "172.67.81.238",
+      "server_port": 443,
+      "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "amstd.digires.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/12796",
+        "headers": {
+          "Host": "amstd.digires.shop"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "47.美国_0925179",
+      "server": "45.63.106.86",
+      "server_port": 42903,
+      "password": "TmxGNUA1jL",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "48.0,2,3,4,6,10,11,12,14|🇭🇰 _HK_香港 #2",
+      "server": "hkt.123ddns.xyz",
+      "server_port": 55455,
+      "uuid": "d2ce45e6-9f22-492d-d81d-d639067a7583",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkt.123ddns.xyz"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "49.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+      "server": "uk1.connecton.surf",
+      "server_port": 443,
+      "password": "ee4657c907",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "50.رایگان+|+TROJAN+|+@iP_CF+|+GB🇬🇧+|+0️⃣1️⃣",
+      "server": "198.244.252.93",
+      "server_port": 443,
+      "password": "ee4657c907",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "51.🇬🇧+_GB_英国_1_5@16",
+      "server": "198.244.252.93",
+      "server_port": 443,
+      "password": "de5a47b3e2",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "52.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+      "server": "183.178.194.228",
+      "server_port": 4443,
+      "uuid": "f15ca202-7edc-4e36-bf34-fe29db9ec305",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkbn1.411api-snisajdnjkndd.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "53.🇸🇬+_SG_新加坡+3+2+2",
+      "server": "138.2.85.162",
+      "server_port": 10001,
+      "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54.💻 Channel 🆔 : @AlienVPN402 👽 (23)",
+      "server": "104.23.113.202",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "55.US-138.2.234.225-17276+|+31.97MB",
+      "server": "138.2.234.225",
+      "server_port": 45555,
+      "password": "VpRuqFDCJo",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "56.💻 Channel 🆔 : @AlienVPN402 👽 (234)",
+      "server": "141.193.213.30",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "57.🇭🇰+_HK_香港_4@2",
+      "server": "103.15.217.182",
+      "server_port": 33058,
+      "password": "QHhbhwe6lj",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "58.🇸🇬+_SG_新加坡+3+2+2",
+      "server": "sg1.fighting.win",
+      "server_port": 10001,
+      "password": "8861ad96-45d4-42f7-9703-7de363a39a0f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "59.🇯🇵+日本_0925073",
+      "server": "tokyo.clare88.tk",
+      "server_port": 43986,
+      "password": "3pfvcVO2H7",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60.12|🇭🇰 香港ND02-【ccbaohe.com〗 永久免费节点...",
+      "server": "hkbn1.411api-snisajdnjkndd.com",
+      "server_port": 4443,
+      "uuid": "f15ca202-7edc-4e36-bf34-fe29db9ec305",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hkbn1.411api-snisajdnjkndd.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "61.🇫🇷FR-51.15.105.39-8919",
+      "server": "51.15.105.39",
+      "server_port": 443,
+      "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nimvws",
+        "headers": {}
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "62.🇫🇷FR-51.15.105.39-5020",
+      "server": "phosphorylative.aurorainiceland.com",
+      "server_port": 443,
+      "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nimvws",
+        "headers": {
+          "Host": "phosphorylative.aurorainiceland.com"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "63.رایگان+|+TROJAN+|+@oneclickvpnkeys+|+FR🇫🇷+|+0️⃣3️⃣",
+      "server": "51.158.63.14",
+      "server_port": 443,
+      "password": "cc491f13e9",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "64.IE-176.34.139.67-0681+|+19.433MB",
+      "server": "176.34.139.67",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "trj.rollingnext.co.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "65.💻 Channel 🆔 : @AlienVPN402 👽 (92)",
+      "server": "104.16.242.124",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "66.💻 Channel 🆔 : @AlienVPN402 👽 (123)",
+      "server": "104.27.62.243",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "67.🇺🇸_US_美国 (35)",
+      "server": "104.31.16.120",
+      "server_port": 443,
+      "uuid": "7522A28C-F9A1-40A0-BD92-67CF39AB5D5B",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Dusseldorf.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Dusseldorf.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "68.💻 Channel 🆔 : @AlienVPN402 👽 (67)",
+      "server": "104.19.20.140",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "69.💻 Channel 🆔 : @AlienVPN402 👽 (14)",
+      "server": "104.25.64.147",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "70.11,12|github.com/freefq - 美国CloudFla...",
+      "server": "104.22.1.126",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/octavi.cfd:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "71.💻 Channel 🆔 : @AlienVPN402 👽 (30)",
+      "server": "104.27.101.40",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "72.12|美国3",
+      "server": "104.17.14.48",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.yifenjichang.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/octavi.cfd:443/linkvws",
+        "headers": {
+          "Host": "sub.yifenjichang.top"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "73.💻 Channel 🆔 : @AlienVPN402 👽 (90)",
+      "server": "104.25.105.122",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "74.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+      "server": "104.24.172.243",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "75.💻 Channel 🆔 : @AlienVPN402 👽 (12)",
+      "server": "104.27.122.56",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "76.🇨🇳CN-103.184.44.112-4318",
+      "server": "104.31.16.189",
+      "server_port": 443,
+      "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "raspy-leaf-a6f0.lille7737.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest/Amsterdam.kotick.site",
+        "headers": {
+          "Host": "raspy-leaf-a6f0.lille7737.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "77.12|🇺🇸 US 476",
+      "server": "104.21.23.154",
+      "server_port": 443,
+      "uuid": "02DD674F-898E-4835-9958-97670C4CCA71",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sweet-darkness-7d26.sourgalmc3532.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest/Amsterdam.kotick.site",
+        "headers": {
+          "Host": "sweet-darkness-7d26.sourgalmc3532.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "78.💻 Channel 🆔 : @AlienVPN402 👽 (154)",
+      "server": "45.12.30.154",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "79.💻 Channel 🆔 : @AlienVPN402 👽 (3)",
+      "server": "104.20.21.111",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "80.💻 Channel 🆔 : @AlienVPN402 👽 (9)",
+      "server": "104.27.97.42",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "81.💻 Channel 🆔 : @AlienVPN402 👽 (25)",
+      "server": "104.20.181.114",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "82.FR-51.158.63.14-0719+|+16.926MB",
+      "server": "fra1.connecton.surf",
+      "server_port": 443,
+      "password": "cc491f13e9",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "83.💻 Channel 🆔 : @AlienVPN402 👽 (66)",
+      "server": "104.25.193.8",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "84.💻 Channel 🆔 : @AlienVPN402 👽 (98)",
+      "server": "104.16.183.101",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "85.💻 Channel 🆔 : @AlienVPN402 👽 (18)",
+      "server": "104.18.72.191",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "86.💻 Channel 🆔 : @AlienVPN402 👽 (145)",
+      "server": "104.31.16.189",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "87.",
+      "server": "5.199.143.230",
+      "server_port": 443,
+      "password": "e4bfb6fe1e",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "88.💻 Channel 🆔 : @AlienVPN402 👽 (223)",
+      "server": "154.85.99.113",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "89.@vpn_tehran | DE🇩🇪 | sand.blanku.me:443 | 160.37ms | 😎",
+      "server": "104.31.16.58",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "90.💻 Channel 🆔 : @AlienVPN402 👽 (86)",
+      "server": "104.20.157.73",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "91.رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
+      "server": "162.159.136.232",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "92.RescueNet-66",
+      "server": "104.27.97.42",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "93.RescueNet-66",
+      "server": "104.16.250.250",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "94.💻 Channel 🆔 : @AlienVPN402 👽 (11)",
+      "server": "104.21.95.137",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "95.💻 Channel 🆔 : @AlienVPN402 👽 (69)",
+      "server": "104.17.229.103",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "96.💻 Channel 🆔 : @AlienVPN402 👽 (68)",
+      "server": "104.21.11.206",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "97.🏁RELAY-172.67.142.191-16410",
+      "server": "edeen.makeup",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edeen.makeup",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "edeen.makeup"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "98.🇺🇸US-15.204.210.176-7528",
+      "server": "15.204.210.176",
+      "server_port": 80,
+      "password": "c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "99.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+      "server": "162.159.254.0",
+      "server_port": 443,
+      "uuid": "DCE76061-EE65-49DB-997C-A6A880DADE3A",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rapid-queen-5b2c.barmasi4.workers.dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest/Dusseldorf.kotick.site",
+        "headers": {
+          "Host": "rapid-queen-5b2c.barmasi4.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "100.RescueNet-66",
+      "server": "188.114.99.29",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "101.美国_Telegram@kxswa (122)",
+      "server": "cdnjs.com",
+      "server_port": 443,
+      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Dusseldorf.kotick.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Dusseldorf.kotick.site"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102.💻 Channel 🆔 : @AlienVPN402 👽 (116)",
+      "server": "195.245.221.206",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "103.💻 Channel 🆔 : @AlienVPN402 👽 (97)",
+      "server": "185.135.9.126",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "104.美国 113",
+      "server": "172.67.81.238",
+      "server_port": 443,
+      "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "amstd.digires.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/12796",
+        "headers": {
+          "Host": "amstd.digires.shop"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "105.@Proxy_PJ | RELAY🚩 | sandp.blanku.me:443 | 18.56ms | 0️⃣2️⃣",
+      "server": "104.27.203.169",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "106.🇺🇸_US_美国_138",
+      "server": "162.159.62.69",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107.💻 Channel 🆔 : @AlienVPN402 👽 (115)",
+      "server": "104.22.51.241",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "108.💻 Channel 🆔 : @AlienVPN402 👽 (220)",
+      "server": "104.21.93.170",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "109.💻 Channel 🆔 : @AlienVPN402 👽 (130)",
+      "server": "104.19.160.142",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "110.💻 Channel 🆔 : @AlienVPN402 👽 (136)",
+      "server": "104.27.35.232",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "111.💻 Channel 🆔 : @AlienVPN402 👽 (31)",
+      "server": "185.135.9.92",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "112.💻 Channel 🆔 : @AlienVPN402 👽 (239)",
+      "server": "195.245.221.224",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "113.RescueNet-66",
+      "server": "104.19.180.169",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "114.🇺🇸US-138.197.5.103-9951",
+      "server": "138.197.5.103",
+      "server_port": 443,
+      "password": "xxoo",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "telewebion.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "115.12|🇺🇸 美国 338",
+      "server": "amstd.digires.shop",
+      "server_port": 443,
+      "uuid": "c13277ce-cda6-4d01-cedc-1e3605a0eb72",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "amstd.digires.shop",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/12796",
+        "headers": {
+          "Host": "amstd.digires.shop"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "116.💻 Channel 🆔 : @AlienVPN402 👽 (107)",
+      "server": "195.245.221.29",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "117.رایگان | VMESS | @VPNGate_Config | DE🇩🇪 | 0️⃣1️⃣",
+      "server": "104.18.14.229",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "118.💻 Channel 🆔 : @AlienVPN402 👽 (110)",
+      "server": "188.244.122.62",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "119.💻 Channel 🆔 : @AlienVPN402 👽 (232)",
+      "server": "162.159.1.94",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "120.🇺🇸_US_美国_157",
+      "server": "104.24.161.123",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sand.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "121.💻 Channel 🆔 : @AlienVPN402 👽 (132)",
+      "server": "193.227.99.134",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "122.💻 Channel 🆔 : @AlienVPN402 👽 (20)",
+      "server": "45.85.119.148",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "123.💻 Channel 🆔 : @AlienVPN402 👽 (227)",
+      "server": "104.23.113.202",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "sandp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
+        "headers": {
+          "Host": "sand.blanku.me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "124.💻 Channel 🆔 : @AlienVPN402 👽 (29)",
+      "server": "185.176.26.245",
+      "server_port": 443,
+      "uuid": "91a4ed1f-f693-4685-a6be-f0981d6f2613",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "rockp.blanku.me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss28885",
+        "headers": {
+          "Host": "tree.blanku.me"
+        }
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "proxy",
+    "geoip": {
+      "download_url": "https://github.com/malikshi/sing-box-geo/releases/latest/download/geoip.db",
+      "download_detour": "bypass"
+    },
+    "geosite": {
+      "download_url": "https://github.com/malikshi/v2ray-rules-dat/releases/latest/download/geosite.db",
+      "download_detour": "bypass"
+    },
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "port": [
+          53
+        ]
+      },
+      {
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "geoip": [
+          "ir",
+          "private"
+        ],
+        "outbound": "bypass"
+      }
+    ]
+  }
+}
