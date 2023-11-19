@@ -127,9 +127,9 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.俄罗斯联邦_111820030",
+        "1.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
         "2.12,14,15|新加坡|@ripaojiedian",
-        "3.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+        "3.俄罗斯联邦_111820030",
         "4.🇭🇰+香港核心+IEPL+03",
         "5.12|加拿大 320",
         "6.日本+-+东京+-+Amazon+Technologies+Inc.",
@@ -257,9 +257,9 @@
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.俄罗斯联邦_111820030",
+        "1.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
         "2.12,14,15|新加坡|@ripaojiedian",
-        "3.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+        "3.俄罗斯联邦_111820030",
         "4.🇭🇰+香港核心+IEPL+03",
         "5.12|加拿大 320",
         "6.日本+-+东京+-+Amazon+Technologies+Inc.",
@@ -403,11 +403,16 @@
       "type": "dns"
     },
     {
-      "type": "trojan",
-      "tag": "1.俄罗斯联邦_111820030",
-      "server": "is-gy.115cloud.link",
-      "server_port": 38860,
-      "password": "8d8d77ad-9719-362e-9436-6e6904958143",
+      "type": "vmess",
+      "tag": "1.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
+      "server": "104.18.154.43",
+      "server_port": 2053,
+      "uuid": "80835c4b-5816-4554-ae09-88c71e7fd49f",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -415,15 +420,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "speed.cloudflare.com",
+        "server_name": "dIGIkAlA.ONlINeviSioNsTore.sITE",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "alpn": [
-          "h2"
+          "h2",
+          "http/1.1"
         ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
+        }
       }
     },
     {
@@ -460,16 +473,11 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "3.رایگان | VMESS | @DailyV2RY | US🇺🇸 | 0️⃣1️⃣",
-      "server": "104.18.154.43",
-      "server_port": 2053,
-      "uuid": "80835c4b-5816-4554-ae09-88c71e7fd49f",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "type": "trojan",
+      "tag": "3.俄罗斯联邦_111820030",
+      "server": "is-gy.115cloud.link",
+      "server_port": 38860,
+      "password": "8d8d77ad-9719-362e-9436-6e6904958143",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -477,23 +485,15 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "dIGIkAlA.ONlINeviSioNsTore.sITE",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "alpn": [
-          "h2",
-          "http/1.1"
+          "h2"
         ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dIGIkAlA.ONlINeviSioNsTore.sITE"
-        }
       }
     },
     {
