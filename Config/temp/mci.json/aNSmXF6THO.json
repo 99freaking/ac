@@ -127,262 +127,238 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.未知_120411060",
-        "2.🇺🇸_US_美国_401",
-        "3.🇺🇸_US_美国_394",
-        "4.🇺🇸_US_美国_390",
-        "5.🇺🇸_US_美国_138",
-        "6.🇺🇸_US_美国_83",
-        "7.🇺🇸_US_美国_43",
-        "8.🇺🇸_US_美国_69",
-        "9.🇺🇸_US_美国_29",
-        "10.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "11.🇺🇸_US_美国_4",
-        "12.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣5️⃣",
-        "13.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-        "14.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-        "15.美国_120411932",
-        "16.🇺🇸 @FreakConfig",
-        "17.🇺🇸+US+美国+26",
-        "18.加拿大 233",
-        "19.美国 045",
-        "20.加拿大 233",
-        "21.美国 045",
-        "22.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
-        "23.",
-        "24.加拿大 233",
-        "25.加拿大 233",
-        "26.美国 045",
-        "27.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
-        "28.美国_120411167",
-        "29.🇺🇸_US_美国_9",
-        "30.12|美国 047",
-        "31.12|美国 047",
-        "32.12|美国 047",
-        "33.12|美国 047",
-        "34.12|美国 047",
-        "35.12|美国 047",
-        "36.12|美国 047",
-        "37.12|美国 047",
-        "38.12|美国 047",
-        "39.12|美国 047",
-        "40.12|美国 047",
-        "41.12|美国 047",
-        "42.12|美国 047",
-        "43.12|美国 047",
-        "44.12|美国 047",
-        "45.12|美国 047",
-        "46.12|美国 047",
-        "47.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "48.🇺🇸 @FreakConfig",
-        "49.💻 Channel 🆔 : @AlienVPN402 👽 (458)",
-        "50.未知_120411068",
-        "51.🇺🇸 @FreakConfig",
-        "52.🇺🇸_US_美国_99",
-        "53.未知_120309073",
-        "54.🇺🇸+US+美国+22",
-        "55.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-        "56.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-        "57.🇺🇸 @FreakConfig",
-        "58.新加坡_120309077",
-        "59.🇺🇸_US_美国_369",
-        "60.🇺🇸_US_美国_261",
+        "1.未知_120611106",
+        "2.🇺🇸_US_美国_138",
+        "3.🇺🇸_US_美国_350",
+        "4.🇺🇸_US_美国_69",
+        "5.🇺🇸_US_美国_83",
+        "6.🇺🇸_US_美国_43",
+        "7.12|US_youtube@资源分享师_38",
+        "8.12|US_youtube@资源分享师_38",
+        "9.12|US_youtube@资源分享师_38",
+        "10.🇺🇸_US_美国_369",
+        "11.12|US_youtube@资源分享师_38",
+        "12.12|US_youtube@资源分享师_38",
+        "13.12|US_youtube@资源分享师_38",
+        "14.🇺🇸_US_美国_29",
+        "15.12|US_youtube@资源分享师_38",
+        "16.12|US_youtube@资源分享师_38",
+        "17.12|US_youtube@资源分享师_38",
+        "18.12|US_youtube@资源分享师_38",
+        "19.12|US_youtube@资源分享师_38",
+        "20.12|US_youtube@资源分享师_38",
+        "21.12|US_youtube@资源分享师_38",
+        "22.12|US_youtube@资源分享师_38",
+        "23.美国_120611793",
+        "24.🇺🇸 @FreakConfig",
+        "25.美国 047",
+        "26.美国 047",
+        "27.12|US_youtube@资源分享师_38",
+        "28.美国 047",
+        "29.美国 047",
+        "30.美国 047",
+        "31.美国 047",
+        "32.12|US_youtube@资源分享师_38",
+        "33.美国 047",
+        "34.美国 047",
+        "35.美国 047",
+        "36.美国 047",
+        "37.美国 047",
+        "38.美国 047",
+        "39.美国 047",
+        "40.US美国(mibei77.com 米贝节点分享) (2)",
+        "41.美国 047",
+        "42.US美国(mibei77.com 米贝节点分享) (2)",
+        "43.US美国(mibei77.com 米贝节点分享) (2)",
+        "44.US美国(mibei77.com 米贝节点分享) (2)",
+        "45.US美国(mibei77.com 米贝节点分享) (2)",
+        "46.US美国(mibei77.com 米贝节点分享) (2)",
+        "47.US美国(mibei77.com 米贝节点分享) (2)",
+        "48.US美国(mibei77.com 米贝节点分享) (2)",
+        "49.US美国(mibei77.com 米贝节点分享) (2)",
+        "50.美国 047",
+        "51.US美国(mibei77.com 米贝节点分享) (2)",
+        "52.US美国(mibei77.com 米贝节点分享) (2)",
+        "53.US美国(mibei77.com 米贝节点分享) (2)",
+        "54.US美国(mibei77.com 米贝节点分享) (2)",
+        "55.US美国(mibei77.com 米贝节点分享) (2)",
+        "56.US美国(mibei77.com 米贝节点分享) (2)",
+        "57.US美国(mibei77.com 米贝节点分享) (2)",
+        "58.美国_120611145",
+        "59.US美国(mibei77.com 米贝节点分享) (2)",
+        "60.美国 047",
         "61.🇺🇸 @FreakConfig",
-        "62.0,3,6|🇺🇸_US_美国 #19",
-        "63.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "64.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "65.美国 045",
-        "66.美国 045",
-        "67.美国 045",
-        "68.加拿大 233",
-        "69.加拿大 233",
-        "70.加拿大 233",
-        "71.加拿大 233",
-        "72.美国 045",
-        "73.美国 045",
-        "74.美国 045",
-        "75.美国 045",
-        "76.加拿大 233",
-        "77.美国 045",
-        "78.美国 045",
-        "79.美国 047",
-        "80.美国 045",
-        "81.加拿大 233",
-        "82.加拿大 233",
-        "83.美国 045",
-        "84.加拿大 233",
-        "85.加拿大 233",
-        "86.美国 047",
-        "87.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
-        "88.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
-        "89.🇺🇸_US_美国_57",
-        "90.🇺🇸_US_美国_131",
-        "91.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "92.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "93.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "94.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "95.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "96.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "97.🇺🇸_US_美国_98",
-        "98.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "99.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "100.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "101.رایگان | VLESS | @FreakConfig | CA🇨🇦 | 0️⃣4️⃣",
-        "102.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "103.0,3,6,11,12,19|🇺🇸_US_美国_3_27",
-        "104.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "105.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "106.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "107.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "108.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "109.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "110.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "111.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "112.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "113.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "114.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "115.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "116.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "117.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "118.🔒 VL-TCP-RLT 🇳🇱 NL-45.15.159.182:24200 📡 PING-160.44-MS",
-        "119.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-        "120.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-        "121.美国_120411985",
-        "122.0,3,6|🇺🇸_US_美国 #19",
-        "123.美国_120309956",
-        "124.加拿大 361",
-        "125.12|加拿大 190"
+        "62.🇺🇸_US_美国_394",
+        "63.🇺🇸_US_美国_390",
+        "64.YouTube面具人哈乐_美国_67",
+        "65.日本 B",
+        "66.日本 C",
+        "67.日本 E",
+        "68.🇺🇸 @FreakConfig",
+        "69.日本 A",
+        "70.YouTube面具人哈乐_美国_8",
+        "71.荷兰 013",
+        "72.🇺🇸_US_美国_401",
+        "73.🇺🇸_US_美国_4",
+        "74.美国_120411932",
+        "75.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
+        "76.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
+        "77.🇺🇸_US_美国_9",
+        "78.12|美国 047",
+        "79.🇺🇸_US_美国_99",
+        "80.未知_120309073",
+        "81.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+        "82.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+        "83.🇺🇸_US_美国_261",
+        "84.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
+        "85.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
+        "86.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
+        "87.🇺🇸_US_美国_57",
+        "88.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
+        "89.🇺🇸 @FreakConfig",
+        "90.🇺🇸+US+美国+17",
+        "99.🇺🇸 @FreakConfig",
+        "100.🇺🇸 @FreakConfig",
+        "101.美国_120611970",
+        "102.🇺🇸 @FreakConfig",
+        "103.🇺🇸 @FreakConfig",
+        "104.加拿大 383",
+        "105.🇺🇸_US_美国_5",
+        "106.🇺🇸 @FreakConfig",
+        "107.🇺🇸 @FreakConfig",
+        "108.🇺🇸 @FreakConfig",
+        "110.美国_120611285",
+        "111.US_2",
+        "112.US_3",
+        "116.US_4",
+        "117.0,2,3,4,6,10,12|法国(yudou66.com 玉豆免费节点)",
+        "118.🇩🇪DE-5.75.254.127-7937",
+        "119.美国_120611285",
+        "120.VL-TCP-TLS DE",
+        "121.🇩🇪DE-5.75.254.127-8047",
+        "122._504 |43.67Mb",
+        "123.",
+        "124.VL-TCP-TLS UK2",
+        "125."
       ]
     },
     {
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.未知_120411060",
-        "2.🇺🇸_US_美国_401",
-        "3.🇺🇸_US_美国_394",
-        "4.🇺🇸_US_美国_390",
-        "5.🇺🇸_US_美国_138",
-        "6.🇺🇸_US_美国_83",
-        "7.🇺🇸_US_美国_43",
-        "8.🇺🇸_US_美国_69",
-        "9.🇺🇸_US_美国_29",
-        "10.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "11.🇺🇸_US_美国_4",
-        "12.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣5️⃣",
-        "13.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-        "14.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-        "15.美国_120411932",
-        "16.🇺🇸 @FreakConfig",
-        "17.🇺🇸+US+美国+26",
-        "18.加拿大 233",
-        "19.美国 045",
-        "20.加拿大 233",
-        "21.美国 045",
-        "22.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
-        "23.",
-        "24.加拿大 233",
-        "25.加拿大 233",
-        "26.美国 045",
-        "27.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
-        "28.美国_120411167",
-        "29.🇺🇸_US_美国_9",
-        "30.12|美国 047",
-        "31.12|美国 047",
-        "32.12|美国 047",
-        "33.12|美国 047",
-        "34.12|美国 047",
-        "35.12|美国 047",
-        "36.12|美国 047",
-        "37.12|美国 047",
-        "38.12|美国 047",
-        "39.12|美国 047",
-        "40.12|美国 047",
-        "41.12|美国 047",
-        "42.12|美国 047",
-        "43.12|美国 047",
-        "44.12|美国 047",
-        "45.12|美国 047",
-        "46.12|美国 047",
-        "47.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "48.🇺🇸 @FreakConfig",
-        "49.💻 Channel 🆔 : @AlienVPN402 👽 (458)",
-        "50.未知_120411068",
-        "51.🇺🇸 @FreakConfig",
-        "52.🇺🇸_US_美国_99",
-        "53.未知_120309073",
-        "54.🇺🇸+US+美国+22",
-        "55.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-        "56.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-        "57.🇺🇸 @FreakConfig",
-        "58.新加坡_120309077",
-        "59.🇺🇸_US_美国_369",
-        "60.🇺🇸_US_美国_261",
+        "1.未知_120611106",
+        "2.🇺🇸_US_美国_138",
+        "3.🇺🇸_US_美国_350",
+        "4.🇺🇸_US_美国_69",
+        "5.🇺🇸_US_美国_83",
+        "6.🇺🇸_US_美国_43",
+        "7.12|US_youtube@资源分享师_38",
+        "8.12|US_youtube@资源分享师_38",
+        "9.12|US_youtube@资源分享师_38",
+        "10.🇺🇸_US_美国_369",
+        "11.12|US_youtube@资源分享师_38",
+        "12.12|US_youtube@资源分享师_38",
+        "13.12|US_youtube@资源分享师_38",
+        "14.🇺🇸_US_美国_29",
+        "15.12|US_youtube@资源分享师_38",
+        "16.12|US_youtube@资源分享师_38",
+        "17.12|US_youtube@资源分享师_38",
+        "18.12|US_youtube@资源分享师_38",
+        "19.12|US_youtube@资源分享师_38",
+        "20.12|US_youtube@资源分享师_38",
+        "21.12|US_youtube@资源分享师_38",
+        "22.12|US_youtube@资源分享师_38",
+        "23.美国_120611793",
+        "24.🇺🇸 @FreakConfig",
+        "25.美国 047",
+        "26.美国 047",
+        "27.12|US_youtube@资源分享师_38",
+        "28.美国 047",
+        "29.美国 047",
+        "30.美国 047",
+        "31.美国 047",
+        "32.12|US_youtube@资源分享师_38",
+        "33.美国 047",
+        "34.美国 047",
+        "35.美国 047",
+        "36.美国 047",
+        "37.美国 047",
+        "38.美国 047",
+        "39.美国 047",
+        "40.US美国(mibei77.com 米贝节点分享) (2)",
+        "41.美国 047",
+        "42.US美国(mibei77.com 米贝节点分享) (2)",
+        "43.US美国(mibei77.com 米贝节点分享) (2)",
+        "44.US美国(mibei77.com 米贝节点分享) (2)",
+        "45.US美国(mibei77.com 米贝节点分享) (2)",
+        "46.US美国(mibei77.com 米贝节点分享) (2)",
+        "47.US美国(mibei77.com 米贝节点分享) (2)",
+        "48.US美国(mibei77.com 米贝节点分享) (2)",
+        "49.US美国(mibei77.com 米贝节点分享) (2)",
+        "50.美国 047",
+        "51.US美国(mibei77.com 米贝节点分享) (2)",
+        "52.US美国(mibei77.com 米贝节点分享) (2)",
+        "53.US美国(mibei77.com 米贝节点分享) (2)",
+        "54.US美国(mibei77.com 米贝节点分享) (2)",
+        "55.US美国(mibei77.com 米贝节点分享) (2)",
+        "56.US美国(mibei77.com 米贝节点分享) (2)",
+        "57.US美国(mibei77.com 米贝节点分享) (2)",
+        "58.美国_120611145",
+        "59.US美国(mibei77.com 米贝节点分享) (2)",
+        "60.美国 047",
         "61.🇺🇸 @FreakConfig",
-        "62.0,3,6|🇺🇸_US_美国 #19",
-        "63.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "64.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-        "65.美国 045",
-        "66.美国 045",
-        "67.美国 045",
-        "68.加拿大 233",
-        "69.加拿大 233",
-        "70.加拿大 233",
-        "71.加拿大 233",
-        "72.美国 045",
-        "73.美国 045",
-        "74.美国 045",
-        "75.美国 045",
-        "76.加拿大 233",
-        "77.美国 045",
-        "78.美国 045",
-        "79.美国 047",
-        "80.美国 045",
-        "81.加拿大 233",
-        "82.加拿大 233",
-        "83.美国 045",
-        "84.加拿大 233",
-        "85.加拿大 233",
-        "86.美国 047",
-        "87.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
-        "88.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
-        "89.🇺🇸_US_美国_57",
-        "90.🇺🇸_US_美国_131",
-        "91.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "92.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "93.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "94.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "95.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "96.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "97.🇺🇸_US_美国_98",
-        "98.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "99.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "100.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "101.رایگان | VLESS | @FreakConfig | CA🇨🇦 | 0️⃣4️⃣",
-        "102.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "103.0,3,6,11,12,19|🇺🇸_US_美国_3_27",
-        "104.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "105.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "106.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "107.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "108.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-        "109.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "110.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "111.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "112.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "113.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "114.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "115.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "116.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "117.12|美国57【ccbaohe.com〗 永久免费节点机场",
-        "118.🔒 VL-TCP-RLT 🇳🇱 NL-45.15.159.182:24200 📡 PING-160.44-MS",
-        "119.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-        "120.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-        "121.美国_120411985",
-        "122.0,3,6|🇺🇸_US_美国 #19",
-        "123.美国_120309956",
-        "124.加拿大 361",
-        "125.12|加拿大 190"
+        "62.🇺🇸_US_美国_394",
+        "63.🇺🇸_US_美国_390",
+        "64.YouTube面具人哈乐_美国_67",
+        "65.日本 B",
+        "66.日本 C",
+        "67.日本 E",
+        "68.🇺🇸 @FreakConfig",
+        "69.日本 A",
+        "70.YouTube面具人哈乐_美国_8",
+        "71.荷兰 013",
+        "72.🇺🇸_US_美国_401",
+        "73.🇺🇸_US_美国_4",
+        "74.美国_120411932",
+        "75.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
+        "76.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
+        "77.🇺🇸_US_美国_9",
+        "78.12|美国 047",
+        "79.🇺🇸_US_美国_99",
+        "80.未知_120309073",
+        "81.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+        "82.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+        "83.🇺🇸_US_美国_261",
+        "84.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
+        "85.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
+        "86.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
+        "87.🇺🇸_US_美国_57",
+        "88.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
+        "89.🇺🇸 @FreakConfig",
+        "90.🇺🇸+US+美国+17",
+        "99.🇺🇸 @FreakConfig",
+        "100.🇺🇸 @FreakConfig",
+        "101.美国_120611970",
+        "102.🇺🇸 @FreakConfig",
+        "103.🇺🇸 @FreakConfig",
+        "104.加拿大 383",
+        "105.🇺🇸_US_美国_5",
+        "106.🇺🇸 @FreakConfig",
+        "107.🇺🇸 @FreakConfig",
+        "108.🇺🇸 @FreakConfig",
+        "110.美国_120611285",
+        "111.US_2",
+        "112.US_3",
+        "116.US_4",
+        "117.0,2,3,4,6,10,12|法国(yudou66.com 玉豆免费节点)",
+        "118.🇩🇪DE-5.75.254.127-7937",
+        "119.美国_120611285",
+        "120.VL-TCP-TLS DE",
+        "121.🇩🇪DE-5.75.254.127-8047",
+        "122._504 |43.67Mb",
+        "123.",
+        "124.VL-TCP-TLS UK2",
+        "125."
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30m",
@@ -406,7 +382,7 @@
     },
     {
       "type": "vless",
-      "tag": "1.未知_120411060",
+      "tag": "1.未知_120611106",
       "server": "104.16.178.157",
       "server_port": 443,
       "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
@@ -438,103 +414,7 @@
     },
     {
       "type": "vless",
-      "tag": "2.🇺🇸_US_美国_401",
-      "server": "172.67.121.27",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "3.🇺🇸_US_美国_394",
-      "server": "172.67.95.232",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "4.🇺🇸_US_美国_390",
-      "server": "172.67.91.105",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "5.🇺🇸_US_美国_138",
+      "tag": "2.🇺🇸_US_美国_138",
       "server": "173.245.58.34",
       "server_port": 443,
       "uuid": "ffffffff-17ad-45e7-aaa1-f2baaa08e930",
@@ -566,10 +446,10 @@
     },
     {
       "type": "vless",
-      "tag": "6.🇺🇸_US_美国_83",
-      "server": "104.26.5.133",
+      "tag": "3.🇺🇸_US_美国_350",
+      "server": "162.159.36.66",
       "server_port": 443,
-      "uuid": "10ae7ea9-d74a-4a2b-8f77-467be657eec9",
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -579,7 +459,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hk2.hbbaby.top",
+        "server_name": "edge.020770.xyz",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -588,9 +468,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
         "headers": {
-          "Host": "hk2.hbbaby.top"
+          "Host": "edge.020770.xyz"
         },
         "max_early_data": 2048,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -598,39 +478,7 @@
     },
     {
       "type": "vless",
-      "tag": "7.🇺🇸_US_美国_43",
-      "server": "104.26.4.133",
-      "server_port": 443,
-      "uuid": "10ae7ea9-d74a-4a2b-8f77-467be657eec9",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "hk2.hbbaby.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hk2.hbbaby.top"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "8.🇺🇸_US_美国_69",
+      "tag": "4.🇺🇸_US_美国_69",
       "server": "172.67.74.128",
       "server_port": 443,
       "uuid": "10ae7ea9-d74a-4a2b-8f77-467be657eec9",
@@ -662,7 +510,301 @@
     },
     {
       "type": "vless",
-      "tag": "9.🇺🇸_US_美国_29",
+      "tag": "5.🇺🇸_US_美国_83",
+      "server": "104.26.5.133",
+      "server_port": 443,
+      "uuid": "10ae7ea9-d74a-4a2b-8f77-467be657eec9",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "hk2.hbbaby.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk2.hbbaby.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "6.🇺🇸_US_美国_43",
+      "server": "104.26.4.133",
+      "server_port": 443,
+      "uuid": "10ae7ea9-d74a-4a2b-8f77-467be657eec9",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "hk2.hbbaby.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "hk2.hbbaby.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "7.12|US_youtube@资源分享师_38",
+      "server": "104.17.77.94",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "8.12|US_youtube@资源分享师_38",
+      "server": "104.18.216.215",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "9.12|US_youtube@资源分享师_38",
+      "server": "104.27.1.133",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "10.🇺🇸_US_美国_369",
+      "server": "172.64.138.167",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "11.12|US_youtube@资源分享师_38",
+      "server": "104.25.63.151",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "12.12|US_youtube@资源分享师_38",
+      "server": "104.16.119.47",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "13.12|US_youtube@资源分享师_38",
+      "server": "104.17.17.103",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "14.🇺🇸_US_美国_29",
       "server": "104.21.69.44",
       "server_port": 2053,
       "uuid": "e832cdc2-0e7b-4d33-8fad-0efc1d0b53f4",
@@ -692,10 +834,10 @@
     },
     {
       "type": "vmess",
-      "tag": "10.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-      "server": "104.24.255.191",
-      "server_port": 443,
-      "uuid": "c76762f7-ae3d-4fd8-98b2-9c3f9767c8ae",
+      "tag": "15.12|US_youtube@资源分享师_38",
+      "server": "104.17.229.103",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -708,99 +850,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Rockp.Blanku.Me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss49406",
-        "headers": {
-          "Host": "Tree.Blanku.Me"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "11.🇺🇸_US_美国_4",
-      "server": "172.64.111.9",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "12.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣5️⃣",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "lmn37.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/fflsws",
-        "headers": {
-          "Host": "lmn37.sbs"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "13.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-      "server": "free.kickvpn.cloud",
-      "server_port": 443,
-      "uuid": "3fefc100-faed-43ad-b087-d47ddfe75121",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev",
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -811,76 +861,1493 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev"
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "14.رایگان | VLESS | @V2rayCollectorDonate | CA🇨🇦 | 1️⃣7️⃣",
-      "server": "162.159.48.84",
-      "server_port": 443,
-      "uuid": "3fefc100-faed-43ad-b087-d47ddfe75121",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "s92qb78mnok7yh5ykir1ayugvc49aqclfapp4qmqvixdxyd8crqppthcfpsjmm2.esmpy.workers.Dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "15.美国_120411932",
-      "server": "172.67.219.241",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
       }
     },
     {
       "type": "vmess",
-      "tag": "16.🇺🇸 @FreakConfig",
+      "tag": "16.12|US_youtube@资源分享师_38",
+      "server": "172.67.123.23",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "17.12|US_youtube@资源分享师_38",
+      "server": "104.16.8.3",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "18.12|US_youtube@资源分享师_38",
+      "server": "104.16.150.199",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "19.12|US_youtube@资源分享师_38",
+      "server": "104.16.250.250",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "20.12|US_youtube@资源分享师_38",
+      "server": "104.24.255.191",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "21.12|US_youtube@资源分享师_38",
+      "server": "104.20.9.79",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "22.12|US_youtube@资源分享师_38",
+      "server": "104.21.231.123",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "23.美国_120611793",
+      "server": "172.67.178.12",
+      "server_port": 443,
+      "uuid": "43e00e4c-2316-4dc9-8262-cef31886dc56",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "marly.toptechnonews.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nimws",
+        "headers": {
+          "Host": "marly.toptechnonews.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "24.🇺🇸 @FreakConfig",
+      "server": "104.18.216.215",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "25.美国 047",
+      "server": "172.67.123.23",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "26.美国 047",
+      "server": "104.21.231.123",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "27.12|US_youtube@资源分享师_38",
+      "server": "104.21.33.129",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "28.美国 047",
+      "server": "104.16.8.3",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "29.美国 047",
+      "server": "104.25.63.151",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "30.美国 047",
+      "server": "104.20.9.79",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "31.美国 047",
+      "server": "104.18.216.215",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "32.12|US_youtube@资源分享师_38",
+      "server": "172.67.81.238",
+      "server_port": 2053,
+      "uuid": "ef9e887a-c26c-4cda-a731-1dbbc5263c77",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zUla.eSMAIlkOrEa.sHOp",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zUla.eSMAIlkOrEa.sHOp"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "33.美国 047",
+      "server": "104.17.229.103",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "34.美国 047",
       "server": "104.17.77.94",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "35.美国 047",
+      "server": "104.27.1.133",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "36.美国 047",
+      "server": "104.17.45.51",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "37.美国 047",
+      "server": "104.24.255.191",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "38.美国 047",
+      "server": "104.21.33.129",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "39.美国 047",
+      "server": "172.67.81.238",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "40.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.18.216.215",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "41.美国 047",
+      "server": "104.17.17.103",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "42.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.16.250.250",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "43.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.24.255.191",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "44.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.17.229.103",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "45.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.16.150.199",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "46.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.20.9.79",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "47.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.17.17.103",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "48.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "172.67.81.238",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "49.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.17.77.94",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "50.美国 047",
+      "server": "104.16.150.199",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "51.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.27.1.133",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "52.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.16.8.3",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "53.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.25.63.151",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "54.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.21.33.129",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "55.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.16.119.47",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "56.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.16.133.220",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "57.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "104.21.231.123",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "58.美国_120611145",
+      "server": "172.67.201.188",
+      "server_port": 443,
+      "uuid": "a5caca7b-9c8c-4825-b186-8fb70db0ddc0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zula.moaidownloader.info",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/download.zula_v1.8.10",
+        "headers": {
+          "Host": "zula.moaidownloader.info"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "59.US美国(mibei77.com 米贝节点分享) (2)",
+      "server": "172.67.123.23",
+      "server_port": 2096,
+      "uuid": "900ceafc-30b8-4581-a305-31854f563e4f",
+      "security": "none",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "fairy-latitude-explains-sister.trycloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "900ceafc-30b8-4581-a305-31854f563e4f-vm",
+        "headers": {
+          "Host": "fairy-latitude-explains-sister.trycloudflare.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "60.美国 047",
+      "server": "104.16.250.250",
+      "server_port": 443,
+      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Kansas.bobbykotick.rip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/speedtest",
+        "headers": {
+          "Host": "Kansas.bobbykotick.rip"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "61.🇺🇸 @FreakConfig",
+      "server": "104.20.9.79",
       "server_port": 443,
       "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
       "security": "auto",
@@ -912,10 +2379,10 @@
     },
     {
       "type": "vless",
-      "tag": "17.🇺🇸+US+美国+26",
-      "server": "104.21.74.139",
+      "tag": "62.🇺🇸_US_美国_394",
+      "server": "172.67.95.232",
       "server_port": 443,
-      "uuid": "55894b90-c29a-40e1-b2e1-9f038394d0d3",
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -925,7 +2392,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "geminal.aurorainiceland.com",
+        "server_name": "edge.020770.xyz",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -934,18 +2401,139 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/nimws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
         "headers": {
-          "Host": "geminal.aurorainiceland.com"
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "63.🇺🇸_US_美国_390",
+      "server": "172.67.91.105",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "64.YouTube面具人哈乐_美国_67",
+      "server": "64.176.80.213",
+      "server_port": 8443,
+      "password": "63179baf-e94a-4d88-8968-ffe9ae3f1e45",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2"
+        ]
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "65.日本 B",
+      "server": "172.233.66.95",
+      "server_port": 20006,
+      "password": "ee2d164e-ee98-4f0b-ac21-1b5bdca4024f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "tls.qqwljs.buzz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "66.日本 C",
+      "server": "172.233.66.53",
+      "server_port": 30021,
+      "password": "ee2d164e-ee98-4f0b-ac21-1b5bdca4024f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "tls.qqwljs.buzz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "67.日本 E",
+      "server": "172.233.90.27",
+      "server_port": 40014,
+      "password": "ee2d164e-ee98-4f0b-ac21-1b5bdca4024f",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "tls.qqwljs.buzz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "18.加拿大 233",
-      "server": "172.67.81.238",
+      "tag": "68.🇺🇸 @FreakConfig",
+      "server": "104.16.1.195",
       "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -958,7 +2546,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "kansas.kotick.site",
+        "server_name": "Sandp.Blanku.Me",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -967,23 +2555,18 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/speedtest",
+        "path": "/wss13480",
         "headers": {
-          "Host": "kansas.kotick.site"
+          "Host": "Sand.Blanku.Me"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "19.美国 045",
-      "server": "104.16.150.199",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "type": "trojan",
+      "tag": "69.日本 A",
+      "server": "172.233.66.48",
+      "server_port": 10023,
+      "password": "ee2d164e-ee98-4f0b-ac21-1b5bdca4024f",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -991,32 +2574,20 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
+        "server_name": "tls.qqwljs.buzz",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
       }
     },
     {
-      "type": "vmess",
-      "tag": "20.加拿大 233",
-      "server": "104.16.150.199",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "type": "trojan",
+      "tag": "70.YouTube面具人哈乐_美国_8",
+      "server": "47.236.140.139",
+      "server_port": 8443,
+      "password": "63179baf-e94a-4d88-8968-ffe9ae3f1e45",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1024,27 +2595,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "kansas.kotick.site",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
+        },
+        "alpn": [
+          "h2"
+        ]
       }
     },
     {
       "type": "vmess",
-      "tag": "21.美国 045",
-      "server": "bobbykotick.rip",
+      "tag": "71.荷兰 013",
+      "server": "104.31.16.5",
       "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
+      "uuid": "97F80B9B-B6B8-4C7D-93E1-734FFBB0F07C",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -1074,7 +2641,103 @@
     },
     {
       "type": "vless",
-      "tag": "22.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
+      "tag": "72.🇺🇸_US_美国_401",
+      "server": "172.67.121.27",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "73.🇺🇸_US_美国_4",
+      "server": "172.64.111.9",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "74.美国_120411932",
+      "server": "172.67.219.241",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "75.🔒 VL-GRPC-RLT 🇩🇪 DE-49.13.153.45:443 📡 PING-158.00-MS",
       "server": "49.13.153.45",
       "server_port": 443,
       "uuid": "d7f1be3a-7542-4178-81a9-dd6444a9ab5e",
@@ -1109,134 +2772,7 @@
     },
     {
       "type": "vless",
-      "tag": "23.",
-      "server": "z1p.isecurity.site",
-      "server_port": 443,
-      "uuid": "741d28ec-7361-4982-b71f-d6fe039ad27c",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "z1p.isecurity.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/7IaM5TNiNbD6jagy5GzWC",
-        "headers": {}
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "24.加拿大 233",
-      "server": "104.17.77.94",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "25.加拿大 233",
-      "server": "104.27.1.133",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "26.美国 045",
-      "server": "104.21.33.129",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
+      "tag": "76.رایگان | VLESS | @mahvarehnewssat | NL🇳🇱 | 0️⃣4️⃣",
       "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "6e34f2c5-6c71-4010-c292-10d05ef4a9a2",
@@ -1271,37 +2807,7 @@
     },
     {
       "type": "vless",
-      "tag": "28.美国_120411167",
-      "server": "172.67.201.188",
-      "server_port": 443,
-      "uuid": "a5caca7b-9c8c-4825-b186-8fb70db0ddc0",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "zula.moaidownloader.info",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/download.zula_v1.8.10",
-        "headers": {
-          "Host": "zula.moaidownloader.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "29.🇺🇸_US_美国_9",
+      "tag": "77.🇺🇸_US_美国_9",
       "server": "104.21.85.30",
       "server_port": 443,
       "uuid": "a5caca7b-9c8c-4825-b186-8fb70db0ddc0",
@@ -1331,7 +2837,7 @@
     },
     {
       "type": "vmess",
-      "tag": "30.12|美国 047",
+      "tag": "78.12|美国 047",
       "server": "104.16.119.47",
       "server_port": 443,
       "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
@@ -1363,16 +2869,13 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "31.12|美国 047",
-      "server": "104.17.77.94",
+      "type": "vless",
+      "tag": "79.🇺🇸_US_美国_99",
+      "server": "104.21.40.63",
       "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "uuid": "cede337b-9ea5-40e5-a8b1-690bf49ff41d",
+      "flow": "",
+      "packet_encoding": "xudp",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1380,7 +2883,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
+        "server_name": "storeships.toptechnonews.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1389,23 +2892,20 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/speedtest",
+        "path": "/nimws",
         "headers": {
-          "Host": "Kansas.bobbykotick.rip"
+          "Host": "storeships.toptechnonews.com"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "32.12|美国 047",
-      "server": "104.25.63.151",
+      "type": "vless",
+      "tag": "80.未知_120309073",
+      "server": "190.93.246.241",
       "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "uuid": "a5caca7b-9c8c-4825-b186-8fb70db0ddc0",
+      "flow": "",
+      "packet_encoding": "xudp",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1413,7 +2913,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
+        "server_name": "zula.moaidownloader.info",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1422,23 +2922,20 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/speedtest",
+        "path": "/download.zula_v1.8.10",
         "headers": {
-          "Host": "Kansas.bobbykotick.rip"
+          "Host": "zula.moaidownloader.info"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "33.12|美国 047",
-      "server": "104.17.229.103",
+      "type": "vless",
+      "tag": "81.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+      "server": "188.114.96.3",
       "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "uuid": "e8646610-b0a5-48de-b10d-ef2efc094045",
+      "flow": "",
+      "packet_encoding": "xudp",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1446,7 +2943,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
+        "server_name": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -1455,445 +2952,202 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/speedtest",
+        "path": "/",
         "headers": {
-          "Host": "Kansas.bobbykotick.rip"
+          "Host": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev"
         }
       }
     },
     {
+      "type": "vless",
+      "tag": "82.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
+      "server": "free.pandavpn.tech",
+      "server_port": 443,
+      "uuid": "e8646610-b0a5-48de-b10d-ef2efc094045",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "83.🇺🇸_US_美国_261",
+      "server": "162.159.135.233",
+      "server_port": 8443,
+      "uuid": "1c3ce4c0-c056-4445-b879-a2b05bdad61e",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ee591e6109013cfd.tahrimgozarchannel.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/e1466c8d-7eae-4211-87ff-b8479815b157/api/tahrimgozar",
+        "headers": {
+          "Host": "ee591e6109013cfd.tahrimgozarchannel.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "84.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
+      "server": "172.67.69.149",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "85.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
+      "server": "172.67.96.59",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "86.رایگان | VLESS | @forwardv2ray | CA🇨🇦 | 0️⃣3️⃣",
+      "server": "104.31.16.32",
+      "server_port": 443,
+      "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "oniyx.fun",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/uorpws",
+        "headers": {
+          "Host": "oniyx.fun"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "87.🇺🇸_US_美国_57",
+      "server": "172.67.56.140",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "34.12|美国 047",
+      "tag": "88.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
       "server": "104.21.231.123",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "35.12|美国 047",
-      "server": "172.67.123.23",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "36.12|美国 047",
-      "server": "104.24.255.191",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "37.12|美国 047",
-      "server": "104.17.45.51",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "38.12|美国 047",
-      "server": "104.20.9.79",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "39.12|美国 047",
-      "server": "104.16.250.250",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "40.12|美国 047",
-      "server": "104.21.33.129",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "41.12|美国 047",
-      "server": "104.16.150.199",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "42.12|美国 047",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "43.12|美国 047",
-      "server": "172.67.81.238",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "44.12|美国 047",
-      "server": "104.18.216.215",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "45.12|美国 047",
-      "server": "104.27.1.133",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "46.12|美国 047",
-      "server": "104.16.8.3",
-      "server_port": 443,
-      "uuid": "F3E36B53-E75E-48C0-B9F1-F918F397E996",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "47.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-      "server": "172.67.81.238",
       "server_port": 443,
       "uuid": "c76762f7-ae3d-4fd8-98b2-9c3f9767c8ae",
       "security": "auto",
@@ -1925,8 +3179,8 @@
     },
     {
       "type": "vmess",
-      "tag": "48.🇺🇸 @FreakConfig",
-      "server": "104.20.9.79",
+      "tag": "89.🇺🇸 @FreakConfig",
+      "server": "104.16.8.3",
       "server_port": 443,
       "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
       "security": "auto",
@@ -1958,163 +3212,10 @@
     },
     {
       "type": "vless",
-      "tag": "49.💻 Channel 🆔 : @AlienVPN402 👽 (458)",
-      "server": "172.67.197.103",
-      "server_port": 443,
-      "uuid": "1fbd7633-8800-4de0-87fb-c656017f4099",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "aurora.nextgentechnews.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimws",
-        "headers": {
-          "Host": "aurora.nextgentechnews.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "50.未知_120411068",
-      "server": "104.21.76.160",
-      "server_port": 443,
-      "uuid": "1fbd7633-8800-4de0-87fb-c656017f4099",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "aurora.nextgentechnews.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimws",
-        "headers": {
-          "Host": "aurora.nextgentechnews.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "51.🇺🇸 @FreakConfig",
-      "server": "104.16.1.195",
-      "server_port": 443,
-      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Sandp.Blanku.Me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss13480",
-        "headers": {
-          "Host": "Sand.Blanku.Me"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "52.🇺🇸_US_美国_99",
-      "server": "104.21.40.63",
-      "server_port": 443,
-      "uuid": "cede337b-9ea5-40e5-a8b1-690bf49ff41d",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "storeships.toptechnonews.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimws",
-        "headers": {
-          "Host": "storeships.toptechnonews.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "53.未知_120309073",
-      "server": "190.93.246.241",
-      "server_port": 443,
-      "uuid": "a5caca7b-9c8c-4825-b186-8fb70db0ddc0",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "zula.moaidownloader.info",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/download.zula_v1.8.10",
-        "headers": {
-          "Host": "zula.moaidownloader.info"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "54.🇺🇸+US+美国+22",
+      "tag": "90.🇺🇸+US+美国+17",
       "server": "104.21.74.139",
       "server_port": 443,
-      "uuid": "9b704599-c989-4e1d-b842-84b5fa0f6549",
+      "uuid": "d402216a-0728-448d-bccd-3d3a8e8af2c8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2124,7 +3225,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "stunts.aurorainiceland.com",
+        "server_name": "foal.aurorainiceland.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -2135,73 +3236,304 @@
         "type": "ws",
         "path": "/nimws",
         "headers": {
-          "Host": "stunts.aurorainiceland.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "55.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "188.114.96.3",
-      "server_port": 443,
-      "uuid": "e8646610-b0a5-48de-b10d-ef2efc094045",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "56.رایگان | VLESS | @azadi_az_inja_migzare | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "free.pandavpn.tech",
-      "server_port": 443,
-      "uuid": "e8646610-b0a5-48de-b10d-ef2efc094045",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "7yr55qjnoacvhmqydcvi7drcwbgdrvdxct3qixhbuufkr2ahztft35fdssad4jl.ezlc715wgc.workers.Dev"
+          "Host": "foal.aurorainiceland.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "57.🇺🇸 @FreakConfig",
+      "tag": "99.🇺🇸 @FreakConfig",
+      "server": "104.17.77.94",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "100.🇺🇸 @FreakConfig",
+      "server": "104.21.33.129",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "101.美国_120611970",
+      "server": "172.67.178.12",
+      "server_port": 443,
+      "uuid": "5dc23bba-0e31-4016-895f-517ce4b7ccc0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "glassiest.toptechnonews.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nimws",
+        "headers": {
+          "Host": "glassiest.toptechnonews.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "102.🇺🇸 @FreakConfig",
+      "server": "104.17.17.103",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "103.🇺🇸 @FreakConfig",
+      "server": "104.17.229.103",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "104.加拿大 383",
+      "server": "104.27.1.133",
+      "server_port": 443,
+      "uuid": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "icu2.mac2win.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
+        "headers": {
+          "Host": "icu2.mac2win.top"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "105.🇺🇸_US_美国_5",
+      "server": "172.67.193.36",
+      "server_port": 8443,
+      "uuid": "acca9938-3695-43df-872a-9c7d2b11f3bd",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "felinetest.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "felinetest.site"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "106.🇺🇸 @FreakConfig",
+      "server": "104.16.150.199",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "107.🇺🇸 @FreakConfig",
+      "server": "104.27.1.133",
+      "server_port": 443,
+      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Sandp.Blanku.Me",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss13480",
+        "headers": {
+          "Host": "Sand.Blanku.Me"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "108.🇺🇸 @FreakConfig",
       "server": "172.67.81.238",
       "server_port": 443,
       "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
@@ -2234,10 +3566,194 @@
     },
     {
       "type": "trojan",
-      "tag": "58.新加坡_120309077",
-      "server": "207.148.72.255",
+      "tag": "110.美国_120611285",
+      "server": "64.226.120.109",
+      "server_port": 50538,
+      "password": "031b1d27-48db-45e9-a76e-7792e7b8f5d6",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "de302.zebrassr.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "111.US_2",
+      "server": "156.225.67.76",
+      "server_port": 30000,
+      "uuid": "3e016c4d-986e-42df-838c-6046f3d89ecf",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.56427994.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1697892739836",
+        "headers": {
+          "Host": "www.56427994.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "112.US_3",
+      "server": "156.225.67.91",
+      "server_port": 30000,
+      "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.58174467.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1696509352101",
+        "headers": {
+          "Host": "www.58174467.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "116.US_4",
+      "server": "45.199.138.227",
+      "server_port": 30000,
+      "uuid": "743bdc87-1dea-41bf-aa0b-51dfbbfec8aa",
+      "security": "auto",
+      "alter_id": 64,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "www.83456969.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/path/1696339269262",
+        "headers": {
+          "Host": "www.83456969.xyz"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "117.0,2,3,4,6,10,12|法国(yudou66.com 玉豆免费节点)",
+      "server": "s1.19kala.co",
       "server_port": 443,
-      "password": "a4712887-fcc9-4aef-9d92-066c8e8197f7",
+      "uuid": "5775de7e-0c2e-4e7c-8b9c-c48704d8facb",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/OWTu4RMkF9V12oO5NLlQk",
+        "headers": {
+          "Host": "s1.19kala.co"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "118.🇩🇪DE-5.75.254.127-7937",
+      "server": "5.75.254.127",
+      "server_port": 53797,
+      "uuid": "2946527d-830f-429d-8969-f6acb68b0876",
+      "security": "auto",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "speed.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {}
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "119.美国_120611285",
+      "server": "de302.zebrassr.com",
+      "server_port": 50538,
+      "password": "031b1d27-48db-45e9-a76e-7792e7b8f5d6",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -2258,10 +3774,10 @@
     },
     {
       "type": "vless",
-      "tag": "59.🇺🇸_US_美国_369",
-      "server": "172.64.138.167",
+      "tag": "120.VL-TCP-TLS DE",
+      "server": "ischium.norwaylovers.com",
       "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "uuid": "4925bbf4-fb2f-43cb-a15d-0f52aa82b9e8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2271,59 +3787,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "edge.020770.xyz",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
         },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "60.🇺🇸_US_美国_261",
-      "server": "162.159.135.233",
-      "server_port": 8443,
-      "uuid": "1c3ce4c0-c056-4445-b879-a2b05bdad61e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ee591e6109013cfd.tahrimgozarchannel.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e1466c8d-7eae-4211-87ff-b8479815b157/api/tahrimgozar",
-        "headers": {
-          "Host": "ee591e6109013cfd.tahrimgozarchannel.com"
-        }
+        "alpn": [
+          "h2"
+        ]
       }
     },
     {
       "type": "vmess",
-      "tag": "61.🇺🇸 @FreakConfig",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "c8abf66a-1903-4638-a448-9c86733e4254",
+      "tag": "121.🇩🇪DE-5.75.254.127-8047",
+      "server": "5.75.254.127",
+      "server_port": 53797,
+      "uuid": "2946527d-830f-429d-8969-f6acb68b0876",
       "security": "auto",
       "alter_id": 0,
       "global_padding": false,
@@ -2336,958 +3816,7 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "Sandp.Blanku.Me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss13480",
-        "headers": {
-          "Host": "Sand.Blanku.Me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "62.0,3,6|🇺🇸_US_美国 #19",
-      "server": "104.16.150.199",
-      "server_port": 443,
-      "uuid": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "icu2.mac2win.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
-        "headers": {
-          "Host": "icu2.mac2win.top"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "63.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "c76762f7-ae3d-4fd8-98b2-9c3f9767c8ae",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Rockp.Blanku.Me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss49406",
-        "headers": {
-          "Host": "Tree.Blanku.Me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "64.رایگان | VMESS | @FreakConfig | CA🇨🇦 | 0️⃣7️⃣",
-      "server": "104.17.42.10",
-      "server_port": 443,
-      "uuid": "c76762f7-ae3d-4fd8-98b2-9c3f9767c8ae",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Rockp.Blanku.Me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss49406",
-        "headers": {
-          "Host": "Tree.Blanku.Me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "65.美国 045",
-      "server": "104.21.231.123",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "66.美国 045",
-      "server": "172.67.81.238",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "67.美国 045",
-      "server": "104.16.8.3",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "68.加拿大 233",
-      "server": "104.16.8.3",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "69.加拿大 233",
-      "server": "104.21.231.123",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "70.加拿大 233",
-      "server": "104.16.250.250",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "71.加拿大 233",
-      "server": "172.67.123.23",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "72.美国 045",
-      "server": "104.24.255.191",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "73.美国 045",
-      "server": "104.20.9.79",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "74.美国 045",
-      "server": "104.16.119.47",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "75.美国 045",
-      "server": "104.27.1.133",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "76.加拿大 233",
-      "server": "104.18.216.215",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "77.美国 045",
-      "server": "104.25.63.151",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "78.美国 045",
-      "server": "104.17.77.94",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "79.美国 047",
-      "server": "104.18.216.215",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "80.美国 045",
-      "server": "188.114.96.3",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "81.加拿大 233",
-      "server": "104.20.9.79",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "82.加拿大 233",
-      "server": "104.16.119.47",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "83.美国 045",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "84.加拿大 233",
-      "server": "172.67.156.138",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "85.加拿大 233",
-      "server": "kansas.kotick.site",
-      "server_port": 443,
-      "uuid": "2f094845-e2bd-ebf7-deb7-995992436faf",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "kansas.kotick.site",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "kansas.kotick.site"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "86.美国 047",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "2F094845-E2BD-EBF7-DEB7-995992436FAF",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "Kansas.bobbykotick.rip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest",
-        "headers": {
-          "Host": "Kansas.bobbykotick.rip"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "87.رایگان | VLESS | @Lockey_vpn | CA🇨🇦 | 0️⃣3️⃣",
-      "server": "172.67.69.149",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "88.رایگان | VLESS | @ShadowProxy66 | CA🇨🇦 | 0️⃣7️⃣",
-      "server": "172.67.96.59",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "89.🇺🇸_US_美国_57",
-      "server": "172.67.56.140",
-      "server_port": 443,
-      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "edge.020770.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
-        "headers": {
-          "Host": "edge.020770.xyz"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "90.🇺🇸_US_美国_131",
-      "server": "104.21.60.254",
-      "server_port": 2083,
-      "uuid": "fe19a16f-b111-4e1a-8a78-d387920aacea",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "all1.mebird1.fun",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -3298,21 +3827,16 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "all1.mebird1.fun"
+          "Host": "b2.talamala.co"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "91.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.25.63.151",
+      "type": "trojan",
+      "tag": "122._504 |43.67Mb",
+      "server": "64.176.162.24",
       "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
+      "password": "wkmY1R4EcP",
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -3320,910 +3844,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "92.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "172.67.81.238",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "93.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.17.229.103",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "94.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "172.67.123.23",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "95.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.27.1.133",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "96.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.16.108.254",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "97.🇺🇸_US_美国_98",
-      "server": "172.67.204.9",
-      "server_port": 2083,
-      "uuid": "fe19a16f-b111-4e1a-8a78-d387920aacea",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "all1.mebird1.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "all1.mebird1.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "98.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.24.255.191",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "99.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.16.150.199",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "100.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.21.231.123",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "101.رایگان | VLESS | @FreakConfig | CA🇨🇦 | 0️⃣4️⃣",
-      "server": "104.21.54.86",
-      "server_port": 443,
-      "uuid": "97d26fd0-e2ac-4b1f-a098-f422fc49bd30",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "singbox.cypherpunks.asia",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "alpn": [
-          "http/1.1"
+          "h2"
         ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cypherpunks",
-        "headers": {
-          "Host": "singbox.cypherpunks.asia"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "102.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.17.77.94",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "103.0,3,6,11,12,19|🇺🇸_US_美国_3_27",
-      "server": "104.21.40.162",
-      "server_port": 443,
-      "uuid": "d196ccc9-db42-475d-a7e4-7c27a6a326d1",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "be1.xv2ray.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess",
-        "headers": {
-          "Host": "be1.xv2ray.net"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "104.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.16.250.250",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "105.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.16.8.3",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "106.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.21.33.129",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "107.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "108.رایگان | VMESS | @ConfigsHUB | CA🇨🇦 | 0️⃣1️⃣",
-      "server": "104.16.119.47",
-      "server_port": 443,
-      "uuid": "617c9bc4-4116-41c6-99e0-ace49a38fcdb",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "fr1.tehme100.fun",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/Jnv8ViZOUVgijjOh0p5uGjHnXIiY",
-        "headers": {
-          "Host": "fr1.tehme100.fun"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "109.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.17.77.94",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "110.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "172.67.123.23",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "111.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.17.17.103",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "112.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.20.9.79",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "113.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.21.33.129",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "114.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "172.67.81.238",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "115.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.27.1.133",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "116.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.21.231.123",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "117.12|美国57【ccbaohe.com〗 永久免费节点机场",
-      "server": "104.16.250.250",
-      "server_port": 443,
-      "uuid": "c169844a-1530-450a-a7df-0736475bd68b",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "uswu.1145114.me",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lonan",
-        "headers": {
-          "Host": "uswu.1145114.me"
-        }
       }
     },
     {
       "type": "vless",
-      "tag": "118.🔒 VL-TCP-RLT 🇳🇱 NL-45.15.159.182:24200 📡 PING-160.44-MS",
-      "server": "45.15.159.182",
-      "server_port": 24200,
-      "uuid": "84ae7f5f-67cc-4906-ba29-16b933d99811",
-      "flow": "xtls-rprx-vision",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "s2.vipserver.monster",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ORWbh0BXfMKNn0SQuB8XC00XbXRMXsr4Y0_zR0xPOBE",
-          "short_id": "e95bec7e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "119.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-      "server": "172.67.137.77",
+      "tag": "123.",
+      "server": "51.79.27.21",
       "server_port": 443,
-      "uuid": "97d26fd0-e2ac-4b1f-a098-f422fc49bd30",
+      "uuid": "2bdea61f-d14b-4f0f-a70b-fd027f0a5549",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -4233,30 +3870,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "singbox.cypherpunks.asia",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "alpn": [
-          "http/1.1"
+          "h2"
         ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cypherpunks",
-        "headers": {
-          "Host": "singbox.cypherpunks.asia"
-        }
       }
     },
     {
       "type": "vless",
-      "tag": "120.● Sing-Box | @Ln2Ray🎗 Iranian Cypherpunks VPN (1)",
-      "server": "singbox.cypherpunks.asia",
+      "tag": "124.VL-TCP-TLS UK2",
+      "server": "euglobulins.realbarcafootball.com",
       "server_port": 443,
-      "uuid": "97d26fd0-e2ac-4b1f-a098-f422fc49bd30",
+      "uuid": "999afd32-9845-4f82-87a3-5ed117e25f1f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -4266,30 +3896,23 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "singbox.cypherpunks.asia",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "alpn": [
-          "http/1.1"
+          "h2"
         ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cypherpunks",
-        "headers": {
-          "Host": "singbox.cypherpunks.asia"
-        }
       }
     },
     {
       "type": "vless",
-      "tag": "121.美国_120411985",
-      "server": "172.67.178.12",
+      "tag": "125.",
+      "server": "dirk.norwaylovers.com",
       "server_port": 443,
-      "uuid": "5dc23bba-0e31-4016-895f-517ce4b7ccc0",
+      "uuid": "2bdea61f-d14b-4f0f-a70b-fd027f0a5549",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -4299,148 +3922,15 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "glassiest.toptechnonews.com",
+        "server_name": "speed.cloudflare.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimws",
-        "headers": {
-          "Host": "glassiest.toptechnonews.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "122.0,3,6|🇺🇸_US_美国 #19",
-      "server": "104.16.8.3",
-      "server_port": 443,
-      "uuid": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "icu2.mac2win.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "9c906ced-40f7-48cf-b0d2-64b287f7bfcd-vm",
-        "headers": {
-          "Host": "icu2.mac2win.top"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "123.美国_120309956",
-      "server": "729.outline-vpn.cloud",
-      "server_port": 443,
-      "uuid": "5dc23bba-0e31-4016-895f-517ce4b7ccc0",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "glassiest.toptechnonews.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/nimws",
-        "headers": {
-          "Host": "glassiest.toptechnonews.com"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "124.加拿大 361",
-      "server": "104.21.59.220",
-      "server_port": 2053,
-      "uuid": "2db9ed16-75d3-4951-a48b-31f7913e958c",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "v13.583181.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "v13.583181.xyz"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "125.12|加拿大 190",
-      "server": "104.25.63.151",
-      "server_port": 443,
-      "uuid": "02DD674F-898E-4835-9958-97670C4CCA71",
-      "security": "auto",
-      "alter_id": 0,
-      "global_padding": false,
-      "authenticated_length": true,
-      "packet_encoding": "",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "red-leaf-2332.walidfree20.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/speedtest/Kansas.kotick.site",
-        "headers": {
-          "Host": "red-leaf-2332.walidfree20.workers.dev"
-        }
+        },
+        "alpn": [
+          "h2"
+        ]
       }
     }
   ],
