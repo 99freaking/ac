@@ -515,7 +515,6 @@
       "url": "https://www.gstatic.com/generate_204",
       "interval": "20m",
       "tolerance": 50,
-      "idle_timeout": "",
       "interrupt_exist_connections": true
     },
     {
