@@ -71,11 +71,11 @@
       },
       {
         "outbound": "any",
-        "server": "dns-remote",
+        "server": "dns-direct",
         "rewrite_ttl": 20
       }
     ],
-    "final": "dns-direct",
+    "final": "dns-remote",
     "reverse_mapping": true,
     "strategy": "prefer_ipv4",
     "independent_cache": true,
@@ -383,8 +383,9 @@
         "125.🇺🇸_US_美国_208"
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
+      "interval": "20m",
+      "tolerance": 50,
+      "interrupt_exist_connections": true
     },
     {
       "tag": "direct",
