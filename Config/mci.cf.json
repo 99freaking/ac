@@ -126,8 +126,8 @@
       "outbounds": [
         "URL-TEST",
         "1.🇺🇸_US_美国_188",
-        "2.🇺🇸_US_美国_124",
-        "3.🇺🇸_US_美国_30",
+        "2.🇺🇸_US_美国_30",
+        "3.🇺🇸_US_美国_124",
         "4.未知_012918596",
         "5.未知_010918947",
         "6.🇺🇸_US_美国_208",
@@ -257,8 +257,8 @@
       "type": "urltest",
       "outbounds": [
         "1.🇺🇸_US_美国_188",
-        "2.🇺🇸_US_美国_124",
-        "3.🇺🇸_US_美国_30",
+        "2.🇺🇸_US_美国_30",
+        "3.🇺🇸_US_美国_124",
         "4.未知_012918596",
         "5.未知_010918947",
         "6.🇺🇸_US_美国_208",
@@ -441,43 +441,7 @@
     },
     {
       "type": "vless",
-      "tag": "2.🇺🇸_US_美国_124",
-      "server": "104.19.75.119",
-      "server_port": 2087,
-      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "pages.20230619.love",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "alpn": [
-          "h2",
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "telegram🇨🇳+@wangcai_8+/",
-        "headers": {
-          "Host": "pages.20230619.love"
-        },
-        "max_early_data": 2048,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "3.🇺🇸_US_美国_30",
+      "tag": "2.🇺🇸_US_美国_30",
       "server": "104.25.63.151",
       "server_port": 2083,
       "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
@@ -504,6 +468,42 @@
       "transport": {
         "type": "ws",
         "path": "telegram🇨🇳+@vpn_proxy66+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "3.🇺🇸_US_美国_124",
+      "server": "104.19.75.119",
+      "server_port": 2087,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
         "headers": {
           "Host": "pages.20230619.love"
         },
