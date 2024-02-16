@@ -465,7 +465,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edgu.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -566,7 +566,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -598,7 +598,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -630,7 +630,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -662,7 +662,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -694,7 +694,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -726,7 +726,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -758,7 +758,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -790,7 +790,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -822,7 +822,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -854,7 +854,7 @@
       "tls": {
         "enabled": true,
         "server_name": "parmo.jorevec922.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
@@ -889,7 +889,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -921,7 +921,7 @@
       "tls": {
         "enabled": true,
         "server_name": "always-online1.lp-airdrop.top",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -953,7 +953,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w3.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -985,7 +985,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1017,7 +1017,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1049,7 +1049,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w2.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1081,7 +1081,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1113,7 +1113,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1145,7 +1145,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1177,7 +1177,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1209,7 +1209,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1241,7 +1241,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1273,7 +1273,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1305,7 +1305,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1337,7 +1337,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edge.020770.xyz",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1369,7 +1369,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1401,7 +1401,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w1.sylar8.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1433,7 +1433,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnCt.arvancode.eu.Org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1465,7 +1465,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1497,7 +1497,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edgu.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1529,7 +1529,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1561,7 +1561,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1593,7 +1593,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1625,7 +1625,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1657,7 +1657,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1689,7 +1689,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1721,7 +1721,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1753,7 +1753,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnCt.arvancode.eu.Org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1785,7 +1785,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w3.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1817,7 +1817,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1849,7 +1849,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1881,7 +1881,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1913,7 +1913,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1945,7 +1945,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edge.020770.xyz",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1977,7 +1977,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2009,7 +2009,7 @@
       "tls": {
         "enabled": true,
         "server_name": "always-online1.lp-airdrop.top",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2041,7 +2041,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2073,7 +2073,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2105,7 +2105,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2137,7 +2137,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2169,7 +2169,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2201,7 +2201,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2233,7 +2233,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2265,7 +2265,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2297,7 +2297,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2329,7 +2329,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2384,7 +2384,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2416,7 +2416,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2448,7 +2448,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2480,7 +2480,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2512,7 +2512,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2590,7 +2590,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2622,7 +2622,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2654,7 +2654,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2684,7 +2684,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2714,7 +2714,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2746,7 +2746,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2778,7 +2778,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2810,7 +2810,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edge.020770.xyz",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2842,7 +2842,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edge.020770.xyz",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2874,7 +2874,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2906,7 +2906,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2938,7 +2938,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w1.sylar8.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2970,7 +2970,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3002,7 +3002,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3030,7 +3030,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3062,7 +3062,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3094,7 +3094,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w3.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3126,7 +3126,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w2.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3158,7 +3158,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w2.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3190,7 +3190,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3222,7 +3222,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3254,7 +3254,7 @@
       "tls": {
         "enabled": true,
         "server_name": "sany0116.amyrrdakazmy17.wORkERS.DeV",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3286,7 +3286,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3318,7 +3318,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3350,7 +3350,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3382,7 +3382,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3414,7 +3414,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3446,7 +3446,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3478,7 +3478,7 @@
       "tls": {
         "enabled": true,
         "server_name": "always-online1.lp-airdrop.top",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3510,7 +3510,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3542,7 +3542,7 @@
       "tls": {
         "enabled": true,
         "server_name": "sany0116.amyrrdakazmy17.woRkErs.DEV",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
@@ -3577,7 +3577,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3609,7 +3609,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3641,7 +3641,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3673,7 +3673,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3705,7 +3705,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3737,7 +3737,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3769,7 +3769,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3801,7 +3801,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3833,7 +3833,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3865,7 +3865,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3897,7 +3897,7 @@
       "tls": {
         "enabled": true,
         "server_name": "edgu.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3929,7 +3929,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3961,7 +3961,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w2.sylarsun.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3993,7 +3993,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4025,7 +4025,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4057,7 +4057,7 @@
       "tls": {
         "enabled": true,
         "server_name": "w1.sylar8.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4089,7 +4089,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -4121,7 +4121,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4153,7 +4153,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4185,7 +4185,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4217,7 +4217,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4249,7 +4249,7 @@
       "tls": {
         "enabled": true,
         "server_name": "vpnct.arvancode.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4281,7 +4281,7 @@
       "tls": {
         "enabled": true,
         "server_name": "3k.pureboy.eu.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4313,7 +4313,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pages.20230619.love",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
