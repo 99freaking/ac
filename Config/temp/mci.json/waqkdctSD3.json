@@ -756,7 +756,7 @@
       "tls": {
         "enabled": true,
         "server_name": "germanypanel.yejaiidgh.site",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -790,7 +790,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -958,7 +958,7 @@
       "tls": {
         "enabled": true,
         "server_name": "frAnCe-31b7a5eaCEd497Cf50fA5a3771.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1143,7 +1143,7 @@
       "tls": {
         "enabled": true,
         "server_name": "16-163-218-240.nhost.00cdn.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
@@ -1164,7 +1164,7 @@
       "tls": {
         "enabled": true,
         "server_name": "lienquan.garena.vn",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1232,7 +1232,7 @@
       "tls": {
         "enabled": true,
         "server_name": "g.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1266,7 +1266,7 @@
       "tls": {
         "enabled": true,
         "server_name": "us.byxiao.top",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1387,7 +1387,7 @@
       "tls": {
         "enabled": true,
         "server_name": "g.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1442,7 +1442,7 @@
       "tls": {
         "enabled": true,
         "server_name": "g.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1637,7 +1637,7 @@
       "tls": {
         "enabled": true,
         "server_name": "frAnCe-31b7a5eaCEd497Cf50fA5a3771.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1856,7 +1856,7 @@
       "tls": {
         "enabled": true,
         "server_name": "mci---------gearbox.socialsigma.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1886,7 +1886,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -1916,7 +1916,7 @@
       "tls": {
         "enabled": true,
         "server_name": "16-163-218-240.nhost.00cdn.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
@@ -2053,7 +2053,7 @@
       "tls": {
         "enabled": true,
         "server_name": "selinc------9-------selinc-------9------selinc.mjopnpex.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "android"
@@ -2089,7 +2089,7 @@
       "tls": {
         "enabled": true,
         "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
@@ -2121,7 +2121,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2200,7 +2200,7 @@
       "tls": {
         "enabled": true,
         "server_name": "dd.gevom47953.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2253,7 +2253,7 @@
       "tls": {
         "enabled": true,
         "server_name": "uciranir-uciranir-uciranirarvanclud-server1.cirapaj173.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2285,7 +2285,7 @@
       "tls": {
         "enabled": true,
         "server_name": "uciranir-uciranir-uiranir-uciranir-uciranir-uciranir-uciranir1.detixi1932.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2317,7 +2317,7 @@
       "tls": {
         "enabled": true,
         "server_name": "parmo.kajesi4977.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "ios"
@@ -2379,7 +2379,7 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2431,7 +2431,7 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2459,7 +2459,7 @@
       "tls": {
         "enabled": true,
         "server_name": "mci---------gearbox.socialsigma.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2510,7 +2510,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2586,7 +2586,7 @@
       "tls": {
         "enabled": true,
         "server_name": "miza-grpc-4dfcdaa9b187f7533626a34d19b4efee.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2620,7 +2620,7 @@
       "tls": {
         "enabled": true,
         "server_name": "miza-grpc-4dfcdaa9b187f7533626a34d19b4efee.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2654,7 +2654,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2688,7 +2688,7 @@
       "tls": {
         "enabled": true,
         "server_name": "l.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2722,7 +2722,7 @@
       "tls": {
         "enabled": true,
         "server_name": "l.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2822,7 +2822,7 @@
       "tls": {
         "enabled": true,
         "server_name": "frAnCe-31b7a5eaCEd497Cf50fA5a3771.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2858,7 +2858,7 @@
       "tls": {
         "enabled": true,
         "server_name": "sina.wuvcuv.WORkERS.Dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2894,7 +2894,7 @@
       "tls": {
         "enabled": true,
         "server_name": "ams.servervless.de",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -2981,7 +2981,7 @@
       "tls": {
         "enabled": true,
         "server_name": "n.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3013,7 +3013,7 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3036,7 +3036,7 @@
       "tls": {
         "enabled": true,
         "server_name": "pro.richscale.io",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3066,7 +3066,7 @@
       "tls": {
         "enabled": true,
         "server_name": "v2ray-vmess-free.keitldp.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3098,7 +3098,7 @@
       "tls": {
         "enabled": true,
         "server_name": "ams.servervless.de",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3130,7 +3130,7 @@
       "tls": {
         "enabled": true,
         "server_name": "miza-grpc-4dfcdaa9b187f7533626a34d19b4efee.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3181,7 +3181,7 @@
       "tls": {
         "enabled": true,
         "server_name": "mci------net.socialsigma.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3228,7 +3228,7 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3297,7 +3297,7 @@
       "tls": {
         "enabled": true,
         "server_name": "ai-duet-3.arianzagrosmachine.WORkers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "android"
@@ -3378,7 +3378,7 @@
       "tls": {
         "enabled": true,
         "server_name": "miza-grpc-4dfcdaa9b187f7533626a34d19b4efee.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3429,7 +3429,7 @@
       "tls": {
         "enabled": true,
         "server_name": "n.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3505,7 +3505,7 @@
       "tls": {
         "enabled": true,
         "server_name": "n.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3539,7 +3539,7 @@
       "tls": {
         "enabled": true,
         "server_name": "v2rayfree1.globalnetvpn.site",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3573,7 +3573,7 @@
       "tls": {
         "enabled": true,
         "server_name": "Free-config-for-you77ew6j884313hdhdhhgfsdhhdh.turkeyone.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3626,7 +3626,7 @@
       "tls": {
         "enabled": true,
         "server_name": "selinc---6---selinc---6---selinc.gxjuztaq.workers.dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "safari"
@@ -3661,7 +3661,7 @@
       "tls": {
         "enabled": true,
         "server_name": "n.networknim.lol",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3783,7 +3783,7 @@
       "tls": {
         "enabled": true,
         "server_name": "miza-grpc-4dfcdaa9b187f7533626a34d19b4efee.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3850,7 +3850,7 @@
       "tls": {
         "enabled": true,
         "server_name": "perceive-340cbdadd77efbf21443877.mitowear.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -3903,7 +3903,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hxi91.oxnEtworks.linK",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4000,7 +4000,7 @@
       "tls": {
         "enabled": true,
         "server_name": "fjjfpsisejxvtcj.onkasikepcdaddastam.tech",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4077,7 +4077,7 @@
       "tls": {
         "enabled": true,
         "server_name": "fjjfpsisejxvtcj.onkasikepcdaddastam.tech",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4157,7 +4157,7 @@
       "tls": {
         "enabled": true,
         "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4189,7 +4189,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4221,7 +4221,7 @@
       "tls": {
         "enabled": true,
         "server_name": "Free-config-for-you972uu6j88803hdhdhhgfsdhhdh.turkeyone.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4251,7 +4251,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4375,7 +4375,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4407,7 +4407,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4439,7 +4439,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4638,7 +4638,7 @@
       "tls": {
         "enabled": true,
         "server_name": "46w74stishjfjhfucsjjjs4wyf8gohdhhd0jojojurstustjdjgxgkduraeya36a75d69f96fyodyixgkxfjsrua63a64s85e96f6ofuofyocgkxjfzuriyoyf97d85w47stidoabzar546856.belakfiltervakabinetekbatan.space",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4668,7 +4668,7 @@
       "tls": {
         "enabled": true,
         "server_name": "transaction-24385b2fdde5059057d092719877602e24a85e24fd2e6feb0e79eeeccbfd1024.mitsonic.com",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4703,7 +4703,7 @@
       "tls": {
         "enabled": true,
         "server_name": "46w74stishjfjhfucsjjjs4wyf8gohdhhd0jojojurstustjdjgxgkduraeya36a75d69f96fyodyixgkxfjsrua63a64s85e96f6ofuofyocgkxjfzuriyoyf97d85w47stidoabzar546856.belakfiltervakabinetekbatan.space",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4736,7 +4736,7 @@
       "tls": {
         "enabled": true,
         "server_name": "dkcdkdmdkkcmcbbbvcgdutyeutueywtwrruiyigigfiye5w256347tr7e7r8t5iekyxgkxfjzrhsyidiyroyr5uw4uei6eu4w58e4uw47e5iei6ritstisjfzgkxlhjlclhkggzgkjgtuur63q63q7e68r977r70r79ryie5i5uwtisitijgsfjturu4u46iroydtispatriike.flokoosdectoreandfaktor.space",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -4789,7 +4789,7 @@
       "tls": {
         "enabled": true,
         "server_name": "Free-config-for-you77ew6j884313hdhdhhgfsdhhdh.turkeyone.org",
-        "insecure": true,
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
