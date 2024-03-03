@@ -76,7 +76,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.150.199",
+            "address": "104.18.10.128",
             "port": 443,
             "users": [
               {
@@ -138,8 +138,8 @@
       "protocol": "freedom",
       "settings": {
         "fragment": {
-          "interval": "10-20",
-          "length": "50-100",
+          "interval": "0",
+          "length": "10-20",
           "packets": "tlshello"
         }
       },
