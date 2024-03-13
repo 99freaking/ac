@@ -1,0 +1,4434 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "../files/yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "external_ui_download_detour": "bypass",
+      "secret": "",
+      "default_mode": "rule"
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "address_resolver": "dns-direct",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.digitalsize.net/dns-query",
+        "address_resolver": "dns-plain",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "8.8.8.8",
+        "address_resolver": "dns-local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-plain"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "strategy": "prefer_ipv4",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      },
+      {
+        "address": "fakeip",
+        "strategy": "ipv4_only",
+        "tag": "dns-fake"
+      }
+    ],
+    "rules": [
+      {
+        "disable_cache": true,
+        "inbound": [
+          "tun-in"
+        ],
+        "server": "dns-fake"
+      },
+      {
+        "outbound": "direct",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "bypass",
+        "server": "dns-local",
+        "rewrite_ttl": 20
+      },
+      {
+        "outbound": "any",
+        "server": "dns-direct",
+        "rewrite_ttl": 20
+      }
+    ],
+    "final": "dns-remote",
+    "reverse_mapping": true,
+    "strategy": "prefer_ipv4",
+    "independent_cache": true,
+    "fakeip": {
+      "enabled": true,
+      "inet4_range": "198.18.0.0/15",
+      "inet6_range": "fc00::/18"
+    }
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "domain_strategy": "",
+      "interface_name": "tun0",
+      "inet4_address": "172.19.0.1/30",
+      "inet6_address": "fdfe:dcba:9876::1/126",
+      "mtu": 1500,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "system",
+      "endpoint_independent_nat": true,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "1.美国_012713557",
+        "2.未知_0229131972",
+        "3.未知_0229131957",
+        "4.🇺🇸_US_美国_193",
+        "5.未知_0229132018",
+        "6.🇺🇸_US_美国_60",
+        "7.未知_0229131989",
+        "8.美国_0229133711",
+        "9.美国_0229133424",
+        "10.未知_0229132871",
+        "11.美国_0122092281",
+        "12.未知_0229131936",
+        "13.美国_0229133298",
+        "14.未知_0229132079",
+        "15.未知_0229132030",
+        "16.未知_0229131951",
+        "17.美国_0229132414",
+        "18.🇺🇸_US_美国_147",
+        "19.未知_012713793",
+        "20.未知_0122091865",
+        "21.未知_0229132004",
+        "22.未知_0229132038",
+        "23.未知_0122093340",
+        "24.未知_0229131935",
+        "25.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣2️⃣",
+        "26.美国_0229132906",
+        "27.未知_0122092680",
+        "28.未知_0229132077",
+        "29.🇺🇸_US_美国_54",
+        "30.未知_0229131950",
+        "31.未知_0229132070",
+        "32.رایگان+|+VLESS+|+@v2rayngvpn+|+CA🇨🇦+|+0️⃣2️⃣",
+        "33.🇺🇸_US_美国_83",
+        "34.未知_012713952",
+        "35.美国_0229134663",
+        "36.未知_0229132240",
+        "37.未知_0229132033",
+        "38.未知_0229132174",
+        "39.未知_0229131944",
+        "40.未知_0229132233",
+        "41.美国_0116091809",
+        "42.未知_0229132221",
+        "43.رایگان+|+VLESS+|+@proxy_mtm+|+CA🇨🇦+|+0️⃣3️⃣",
+        "44.رایگان+|+VLESS+|+@V2rayCollectorDonate+|+CA🇨🇦+|+0️⃣4️⃣",
+        "45.美国_0229132887",
+        "46.未知_0229132866",
+        "47.未知_0229132135",
+        "48.未知_0229132874",
+        "49.未知_0122093438",
+        "50.未知_0127132445",
+        "51.未知_0229132785",
+        "52.美国_0122093187",
+        "53.未知_0229131979",
+        "54.未知_0229132821",
+        "55.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣3️⃣",
+        "56.未知_012713412",
+        "57.未知_0229131310",
+        "58.美国_0122092397",
+        "59.未知_0229132091",
+        "60.未知_012713805",
+        "61.未知_0229132104",
+        "62.رایگان+|+VLESS+|+@DarkTeam_VPN+|+CA🇨🇦+|+0️⃣7️⃣",
+        "63.🇺🇸_US_美国_124",
+        "64.瑞典_022913023",
+        "65.未知_0229132249",
+        "66.美国_012713569",
+        "67.未知_0122093273",
+        "68.未知_0229134170",
+        "69.美国_0122092276",
+        "70.未知_0229132244",
+        "71.未知_0229131963",
+        "72.未知_0229131959",
+        "73.🇺🇸_US_美国_228",
+        "74.رایگان+|+VLESS+|+@VmessProtocol+|+CA🇨🇦+|+0️⃣1️⃣",
+        "75.رایگان+|+VLESS+|+@EliV2ray+|+CA🇨🇦+|+0️⃣1️⃣",
+        "76.未知_0229131919",
+        "77.未知_0229132246",
+        "78.美国_012713554",
+        "79.未知_0116093095",
+        "80.رایگان+|+VLESS+|+@sinabigo+|+US🇺🇸+|+0️⃣7️⃣",
+        "81.未知_0229132129",
+        "82.未知_0122093294",
+        "83.美国_012713571",
+        "84.美国_111211955",
+        "85.未知_0229132257",
+        "86.未知_0122093466",
+        "87.未知_0229133047",
+        "88.🇺🇸_US_美国_130",
+        "89.美国_0229133713",
+        "90.未知_0229134169",
+        "91.رایگان+|+VLESS+|+@ShadowProxy66+|+CA🇨🇦+|+0️⃣3️⃣",
+        "92.未知_022913162",
+        "93.未知_0229132090",
+        "94.美国_0229133452",
+        "95.未知_0229132011",
+        "96.未知_0229133550",
+        "97.未知_0229132040",
+        "98.美国_0229132912",
+        "99.未知_0229132234",
+        "100.🇺🇸_US_美国_126",
+        "101.🇺🇸_US_美国_171",
+        "102.荷兰_012713052",
+        "103.未知_0229132567",
+        "104.🇺🇸_US_美国_99",
+        "105.未知_0229132488",
+        "106.未知_0229134166",
+        "107.未知_0229132013",
+        "108.美国_0116092833",
+        "109.加拿大_022913096",
+        "110.未知_0229131994",
+        "111.🇺🇸_US_美国_77",
+        "112.未知_0229132230",
+        "113.未知_0229132160",
+        "114.未知_0229132173",
+        "115.美国_0116092844",
+        "116.🇺🇸_US_美国_166",
+        "117.美国_0229132889",
+        "118.🇺🇸_US_美国_162",
+        "119.🇨🇦_CA_加拿大_366",
+        "120.未知_0229132203",
+        "121.未知_0229131943",
+        "122.未知_0229132180",
+        "123.未知_0229132054",
+        "124.未知_0229132247",
+        "125.美国_0127131659"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "1.美国_012713557",
+        "2.未知_0229131972",
+        "3.未知_0229131957",
+        "4.🇺🇸_US_美国_193",
+        "5.未知_0229132018",
+        "6.🇺🇸_US_美国_60",
+        "7.未知_0229131989",
+        "8.美国_0229133711",
+        "9.美国_0229133424",
+        "10.未知_0229132871",
+        "11.美国_0122092281",
+        "12.未知_0229131936",
+        "13.美国_0229133298",
+        "14.未知_0229132079",
+        "15.未知_0229132030",
+        "16.未知_0229131951",
+        "17.美国_0229132414",
+        "18.🇺🇸_US_美国_147",
+        "19.未知_012713793",
+        "20.未知_0122091865",
+        "21.未知_0229132004",
+        "22.未知_0229132038",
+        "23.未知_0122093340",
+        "24.未知_0229131935",
+        "25.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣2️⃣",
+        "26.美国_0229132906",
+        "27.未知_0122092680",
+        "28.未知_0229132077",
+        "29.🇺🇸_US_美国_54",
+        "30.未知_0229131950",
+        "31.未知_0229132070",
+        "32.رایگان+|+VLESS+|+@v2rayngvpn+|+CA🇨🇦+|+0️⃣2️⃣",
+        "33.🇺🇸_US_美国_83",
+        "34.未知_012713952",
+        "35.美国_0229134663",
+        "36.未知_0229132240",
+        "37.未知_0229132033",
+        "38.未知_0229132174",
+        "39.未知_0229131944",
+        "40.未知_0229132233",
+        "41.美国_0116091809",
+        "42.未知_0229132221",
+        "43.رایگان+|+VLESS+|+@proxy_mtm+|+CA🇨🇦+|+0️⃣3️⃣",
+        "44.رایگان+|+VLESS+|+@V2rayCollectorDonate+|+CA🇨🇦+|+0️⃣4️⃣",
+        "45.美国_0229132887",
+        "46.未知_0229132866",
+        "47.未知_0229132135",
+        "48.未知_0229132874",
+        "49.未知_0122093438",
+        "50.未知_0127132445",
+        "51.未知_0229132785",
+        "52.美国_0122093187",
+        "53.未知_0229131979",
+        "54.未知_0229132821",
+        "55.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣3️⃣",
+        "56.未知_012713412",
+        "57.未知_0229131310",
+        "58.美国_0122092397",
+        "59.未知_0229132091",
+        "60.未知_012713805",
+        "61.未知_0229132104",
+        "62.رایگان+|+VLESS+|+@DarkTeam_VPN+|+CA🇨🇦+|+0️⃣7️⃣",
+        "63.🇺🇸_US_美国_124",
+        "64.瑞典_022913023",
+        "65.未知_0229132249",
+        "66.美国_012713569",
+        "67.未知_0122093273",
+        "68.未知_0229134170",
+        "69.美国_0122092276",
+        "70.未知_0229132244",
+        "71.未知_0229131963",
+        "72.未知_0229131959",
+        "73.🇺🇸_US_美国_228",
+        "74.رایگان+|+VLESS+|+@VmessProtocol+|+CA🇨🇦+|+0️⃣1️⃣",
+        "75.رایگان+|+VLESS+|+@EliV2ray+|+CA🇨🇦+|+0️⃣1️⃣",
+        "76.未知_0229131919",
+        "77.未知_0229132246",
+        "78.美国_012713554",
+        "79.未知_0116093095",
+        "80.رایگان+|+VLESS+|+@sinabigo+|+US🇺🇸+|+0️⃣7️⃣",
+        "81.未知_0229132129",
+        "82.未知_0122093294",
+        "83.美国_012713571",
+        "84.美国_111211955",
+        "85.未知_0229132257",
+        "86.未知_0122093466",
+        "87.未知_0229133047",
+        "88.🇺🇸_US_美国_130",
+        "89.美国_0229133713",
+        "90.未知_0229134169",
+        "91.رایگان+|+VLESS+|+@ShadowProxy66+|+CA🇨🇦+|+0️⃣3️⃣",
+        "92.未知_022913162",
+        "93.未知_0229132090",
+        "94.美国_0229133452",
+        "95.未知_0229132011",
+        "96.未知_0229133550",
+        "97.未知_0229132040",
+        "98.美国_0229132912",
+        "99.未知_0229132234",
+        "100.🇺🇸_US_美国_126",
+        "101.🇺🇸_US_美国_171",
+        "102.荷兰_012713052",
+        "103.未知_0229132567",
+        "104.🇺🇸_US_美国_99",
+        "105.未知_0229132488",
+        "106.未知_0229134166",
+        "107.未知_0229132013",
+        "108.美国_0116092833",
+        "109.加拿大_022913096",
+        "110.未知_0229131994",
+        "111.🇺🇸_US_美国_77",
+        "112.未知_0229132230",
+        "113.未知_0229132160",
+        "114.未知_0229132173",
+        "115.美国_0116092844",
+        "116.🇺🇸_US_美国_166",
+        "117.美国_0229132889",
+        "118.🇺🇸_US_美国_162",
+        "119.🇨🇦_CA_加拿大_366",
+        "120.未知_0229132203",
+        "121.未知_0229131943",
+        "122.未知_0229132180",
+        "123.未知_0229132054",
+        "124.未知_0229132247",
+        "125.美国_0127131659"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "20m",
+      "tolerance": 50,
+      "interrupt_exist_connections": true
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    },
+    {
+      "type": "vless",
+      "tag": "1.美国_012713557",
+      "server": "172.64.86.191",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "2.未知_0229131972",
+      "server": "104.18.113.124",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "3.未知_0229131957",
+      "server": "104.17.143.198",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "4.🇺🇸_US_美国_193",
+      "server": "172.66.45.2",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zsf-5fa.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zsf-5fa.pages.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "5.未知_0229132018",
+      "server": "104.18.17.172",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "6.🇺🇸_US_美国_60",
+      "server": "104.16.216.122",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "7.未知_0229131989",
+      "server": "104.18.119.37",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "8.美国_0229133711",
+      "server": "172.66.44.201",
+      "server_port": 443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnct.arvancode.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "9.美国_0229133424",
+      "server": "151.101.3.10",
+      "server_port": 80,
+      "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aries",
+        "headers": {
+          "Host": "k.pl"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "10.未知_0229132871",
+      "server": "104.31.16.193",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "11.美国_0122092281",
+      "server": "172.67.219.93",
+      "server_port": 8443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnCt.arvancode.eu.Org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.Org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "12.未知_0229131936",
+      "server": "104.16.120.246",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "13.美国_0229133298",
+      "server": "172.67.71.138",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "14.未知_0229132079",
+      "server": "104.19.129.7",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "15.未知_0229132030",
+      "server": "104.18.21.148",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "16.未知_0229131951",
+      "server": "104.16.214.79",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "17.美国_0229132414",
+      "server": "172.67.170.103",
+      "server_port": 443,
+      "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edgu.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "edgu.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "18.🇺🇸_US_美国_147",
+      "server": "172.64.89.170",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "19.未知_012713793",
+      "server": "104.16.228.131",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "20.未知_0122091865",
+      "server": "162.159.152.54",
+      "server_port": 443,
+      "uuid": "9d690356-4779-4826-a91c-abd5468a24b7",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "worldpingchannel.daboti6270.workers.Dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "worldpingchannel.daboti6270.workers.Dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "21.未知_0229132004",
+      "server": "104.18.124.138",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "22.未知_0229132038",
+      "server": "104.18.25.61",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "23.未知_0122093340",
+      "server": "104.21.0.38",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "24.未知_0229131935",
+      "server": "104.16.118.71",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "25.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣2️⃣",
+      "server": "104.20.19.145",
+      "server_port": 2053,
+      "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "@UCIRANIR-@UCIRANIR/Microsoft",
+        "headers": {
+          "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
+        },
+        "max_early_data": 2047,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "26.美国_0229132906",
+      "server": "172.67.168.29",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇮🇷+@vpn_proxy66+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "27.未知_0122092680",
+      "server": "104.21.43.44",
+      "server_port": 8443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnCt.arvancode.eu.Org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.Org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "28.未知_0229132077",
+      "server": "104.19.128.68",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "29.🇺🇸_US_美国_54",
+      "server": "104.21.60.216",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/telegram@v2ray_alpha/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "30.未知_0229131950",
+      "server": "104.16.183.226",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "31.未知_0229132070",
+      "server": "104.18.99.172",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "32.رایگان+|+VLESS+|+@v2rayngvpn+|+CA🇨🇦+|+0️⃣2️⃣",
+      "server": "172.64.80.150",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "33.🇺🇸_US_美国_83",
+      "server": "104.21.32.238",
+      "server_port": 443,
+      "uuid": "29f8ad12-ea84-431b-bf32-9d3fb5cf2aa2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "w1.sylar8.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "w1.sylar8.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "34.未知_012713952",
+      "server": "104.20.19.145",
+      "server_port": 2053,
+      "uuid": "7da383f5-e626-4f8a-8db9-00e736e9de26",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "@UCIRANIR-@UCIRANIR/Microsoft",
+        "headers": {
+          "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran8.nimoxof961.workers.Dev"
+        },
+        "max_early_data": 2047,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "35.美国_0229134663",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Telegram🇨🇳+@WangCai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "36.未知_0229132240",
+      "server": "162.159.248.61",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "37.未知_0229132033",
+      "server": "104.18.22.213",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "38.未知_0229132174",
+      "server": "104.21.225.75",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "39.未知_0229131944",
+      "server": "104.16.125.143",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "40.未知_0229132233",
+      "server": "162.159.247.154",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "41.美国_0116091809",
+      "server": "172.67.195.20",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "42.未知_0229132221",
+      "server": "162.159.240.131",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "43.رایگان+|+VLESS+|+@proxy_mtm+|+CA🇨🇦+|+0️⃣3️⃣",
+      "server": "172.67.183.230",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/TELEGRAM-PROXY_MTM",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "44.رایگان+|+VLESS+|+@V2rayCollectorDonate+|+CA🇨🇦+|+0️⃣4️⃣",
+      "server": "104.18.203.232",
+      "server_port": 443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Iran.ir.arvancode.eu.Org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "Iran.ir.arvancode.eu.Org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "45.美国_0229132887",
+      "server": "172.64.229.25",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "46.未知_0229132866",
+      "server": "104.24.0.11",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Path/Telegram@V2ray_alpha/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "47.未知_0229132135",
+      "server": "104.19.248.111",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "48.未知_0229132874",
+      "server": "104.31.16.73",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Telegram@SINABIGO/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "49.未知_0122093438",
+      "server": "172.67.218.115",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "50.未知_0127132445",
+      "server": "104.21.0.196",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "51.未知_0229132785",
+      "server": "104.21.95.119",
+      "server_port": 2087,
+      "uuid": "a9fd39bc-5c3f-4e38-b190-6a236e05eab2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "armin.cludflare0.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "vless-ws/",
+        "headers": {
+          "Host": "armin.cludflare0.workers.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "52.美国_0122093187",
+      "server": "188.114.96.3",
+      "server_port": 2096,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "53.未知_0229131979",
+      "server": "104.18.115.62",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "54.未知_0229132821",
+      "server": "162.159.36.66",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "55.رایگان+|+VLESS+|+@FreakConfig+|+CA🇨🇦+|+0️⃣3️⃣",
+      "server": "104.31.16.162",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "56.未知_012713412",
+      "server": "104.21.60.84",
+      "server_port": 8443,
+      "uuid": "01535199-0a2f-4c27-a012-4543be34f113",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "parmo.jorevec922.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "vless-ws/",
+        "headers": {
+          "Host": "parmo.jorevec922.workers.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "57.未知_0229131310",
+      "server": "104.21.67.2",
+      "server_port": 443,
+      "uuid": "1113a576-d328-447a-99a7-6fe72aac9596",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "HTTPSTMeYushIkvpn.wI1KEd9-2222.WorkERs.deV",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "alpn": [
+          "h2",
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/-iTHd_IhWEGiFXyL",
+        "headers": {
+          "Host": "htTpSTMeyuSHIkVPn.wI1KED9-2222.workeRS.DEV"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "58.美国_0122092397",
+      "server": "172.67.220.65",
+      "server_port": 443,
+      "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "watashi.free.de.mnhacker.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "watashi.free.de.mnhacker.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "59.未知_0229132091",
+      "server": "104.19.134.47",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "60.未知_012713805",
+      "server": "104.21.80.236",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram@V2ray_Alpha/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "61.未知_0229132104",
+      "server": "104.19.137.3",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "62.رایگان+|+VLESS+|+@DarkTeam_VPN+|+CA🇨🇦+|+0️⃣7️⃣",
+      "server": "172.67.71.160",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "63.🇺🇸_US_美国_124",
+      "server": "162.159.3.11",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "64.瑞典_022913023",
+      "server": "185.146.173.20",
+      "server_port": 80,
+      "uuid": "bda4be04-48bf-4df1-aaf2-6d42522eab6b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayi@alpha_v2ray_fazayied=2048",
+        "headers": {
+          "Host": "ehda.sajaditsme.com"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "65.未知_0229132249",
+      "server": "162.159.250.91",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "66.美国_012713569",
+      "server": "173.245.59.100",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "67.未知_0122093273",
+      "server": "104.21.4.181",
+      "server_port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edgood.king361.cf",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "edgood.king361.cf"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "68.未知_0229134170",
+      "server": "188.114.96.3",
+      "server_port": 2096,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "69.美国_0122092276",
+      "server": "172.67.132.209",
+      "server_port": 2096,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnct.arvancode.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "70.未知_0229132244",
+      "server": "162.159.249.221",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "71.未知_0229131963",
+      "server": "104.17.2.48",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "72.未知_0229131959",
+      "server": "104.17.171.115",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "73.🇺🇸_US_美国_228",
+      "server": "198.41.223.24",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "74.رایگان+|+VLESS+|+@VmessProtocol+|+CA🇨🇦+|+0️⃣1️⃣",
+      "server": "188.114.96.3",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "75.رایگان+|+VLESS+|+@EliV2ray+|+CA🇨🇦+|+0️⃣1️⃣",
+      "server": "172.67.170.103",
+      "server_port": 443,
+      "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edgu.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "edgu.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "76.未知_0229131919",
+      "server": "104.16.0.94",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "77.未知_0229132246",
+      "server": "162.159.250.125",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "78.美国_012713554",
+      "server": "172.64.171.37",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "79.未知_0116093095",
+      "server": "104.18.203.232",
+      "server_port": 2096,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnct.arvancode.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "80.رایگان+|+VLESS+|+@sinabigo+|+US🇺🇸+|+0️⃣7️⃣",
+      "server": "172.64.111.9",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "81.未知_0229132129",
+      "server": "104.19.244.47",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "82.未知_0122093294",
+      "server": "104.21.0.222",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "83.美国_012713571",
+      "server": "188.114.97.3",
+      "server_port": 2087,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "84.美国_111211955",
+      "server": "172.64.92.189",
+      "server_port": 443,
+      "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edge.020770.xyz",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/b0138d55-a493-4dc3-9932-c6f0391707c1",
+        "headers": {
+          "Host": "edge.020770.xyz"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "85.未知_0229132257",
+      "server": "162.159.254.83",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "86.未知_0122093466",
+      "server": "104.21.0.99",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "87.未知_0229133047",
+      "server": "104.25.255.9",
+      "server_port": 443,
+      "uuid": "cb211e44-7725-4ddc-b52e-6a0059162fde",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "moZ.soft98.deDYn.io",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/Path/Telegram@V2ray_alpha/",
+        "headers": {
+          "Host": "MoZ.SOFt98.dEdyn.Io"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "88.🇺🇸_US_美国_130",
+      "server": "104.31.16.222",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "always-online1.lp-airdrop.top",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "always-online1.lp-airdrop.top"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "89.美国_0229133713",
+      "server": "172.66.47.55",
+      "server_port": 443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "vpnct.arvancode.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "vpnct.arvancode.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "90.未知_0229134169",
+      "server": "104.21.13.100",
+      "server_port": 2087,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "91.رایگان+|+VLESS+|+@ShadowProxy66+|+CA🇨🇦+|+0️⃣3️⃣",
+      "server": "104.18.202.232",
+      "server_port": 443,
+      "uuid": "f4cec6cc-6177-423c-90f8-2ad9f0dd996b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "Iran.ir.arvancode.eu.Org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/bShq2qgG8GnX8zqm/",
+        "headers": {
+          "Host": "Iran.ir.arvancode.eu.Org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "92.未知_022913162",
+      "server": "104.18.122.244",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "93.未知_0229132090",
+      "server": "104.19.133.186",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "94.美国_0229133452",
+      "server": "172.66.45.2",
+      "server_port": 2087,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zsf-5fa.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "zsf-5fa.pages.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "95.未知_0229132011",
+      "server": "104.18.127.77",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "96.未知_0229133550",
+      "server": "104.21.51.208",
+      "server_port": 443,
+      "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "watashi.free.de.mnhacker.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Path/Telegramproxy_mtm/",
+        "headers": {
+          "Host": "watashi.free.de.mnhacker.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "97.未知_0229132040",
+      "server": "104.18.26.219",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "98.美国_0229132912",
+      "server": "172.67.44.123",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram@proxy_mtm/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "99.未知_0229132234",
+      "server": "162.159.247.155",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "100.🇺🇸_US_美国_126",
+      "server": "162.159.5.6",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "101.🇺🇸_US_美国_171",
+      "server": "172.67.182.104",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/telegram@v2ray_alpha/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "102.荷兰_012713052",
+      "server": "188.114.97.0",
+      "server_port": 443,
+      "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "w3.sylarsun.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Path/Telegram@V2ray_alpha/",
+        "headers": {
+          "Host": "w3.sylarsun.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "103.未知_0229132567",
+      "server": "104.21.80.134",
+      "server_port": 443,
+      "uuid": "89420825-e589-4735-bee1-6dc636fca343",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "w3.sylarsun.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/@V2rayN5",
+        "headers": {
+          "Host": "w3.sylarsun.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "104.🇺🇸_US_美国_99",
+      "server": "108.162.192.100",
+      "server_port": 443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "105.未知_0229132488",
+      "server": "104.24.0.10",
+      "server_port": 2083,
+      "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "guq22.oXNETWoRks.liNK",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "vless-ws/",
+        "headers": {
+          "Host": "guq22.oXNETWoRks.liNK"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "106.未知_0229134166",
+      "server": "188.114.97.3",
+      "server_port": 2087,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "107.未知_0229132013",
+      "server": "104.18.14.182",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "108.美国_0116092833",
+      "server": "172.67.173.52",
+      "server_port": 2096,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "109.加拿大_022913096",
+      "server": "23.227.60.7",
+      "server_port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zsf-5fa.pages.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "Path/Telegram@V2ray_alpha/",
+        "headers": {
+          "Host": "zsf-5fa.pages.dev"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "110.未知_0229131994",
+      "server": "104.18.121.160",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "111.🇺🇸_US_美国_77",
+      "server": "104.21.95.250",
+      "server_port": 443,
+      "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edgu.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/telegram@v2ray_alpha/",
+        "headers": {
+          "Host": "edgu.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "112.未知_0229132230",
+      "server": "162.159.244.95",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "113.未知_0229132160",
+      "server": "104.19.78.159",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "114.未知_0229132173",
+      "server": "104.21.225.55",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "115.美国_0116092844",
+      "server": "188.114.96.3",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "116.🇺🇸_US_美国_166",
+      "server": "172.67.172.190",
+      "server_port": 443,
+      "uuid": "04a93bb8-0a5b-4aa8-ab7f-31fc7adab1c1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "edgu.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/telegram@v2ray_alpha/",
+        "headers": {
+          "Host": "edgu.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "117.美国_0229132889",
+      "server": "172.64.229.5",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "118.🇺🇸_US_美国_162",
+      "server": "172.67.170.108",
+      "server_port": 443,
+      "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "3k.pureboy.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "3k.pureboy.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "119.🇨🇦_CA_加拿大_366",
+      "server": "23.227.38.193",
+      "server_port": 443,
+      "uuid": "dfb18c6f-731a-4898-a1c4-cc36c6055a90",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "w2.sylarsun.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "path/telegram@v2ray_alpha/",
+        "headers": {
+          "Host": "w2.sylarsun.eu.org"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "120.未知_0229132203",
+      "server": "104.21.239.112",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "121.未知_0229131943",
+      "server": "104.16.124.36",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "122.未知_0229132180",
+      "server": "104.21.227.74",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "123.未知_0229132054",
+      "server": "104.18.30.49",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "124.未知_0229132247",
+      "server": "162.159.250.147",
+      "server_port": 2083,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳@wangcai_8/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "125.美国_0127131659",
+      "server": "172.67.135.153",
+      "server_port": 8443,
+      "uuid": "60813b9d-aa0e-4a5c-88b8-ed231058e82a",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "pages.20230619.love",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "telegram🇨🇳+@wangcai_8+/",
+        "headers": {
+          "Host": "pages.20230619.love"
+        },
+        "max_early_data": 2048,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "outbound": "dns-out",
+        "port": [
+          53
+        ]
+      },
+      {
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "bypass"
+      }
+    ]
+  }
+}
