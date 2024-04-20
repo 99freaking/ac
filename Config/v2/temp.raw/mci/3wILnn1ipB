@@ -1,4 +1,5 @@
-trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI-04-17------
+trojan://2234@127.0.0.1:1080?security=tls&sni=bsi.ir&alpn=h2&fp=chrome&type=tcp&headerType=none#------MCI-04-21------
+vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.arizona.edu:443/?type=ws&encryption=none&host=binance.co.kp&path=%2F%3Fed%3D2560&security=tls&sni=www.arizona.edu#%E7%BE%8E%E5%9B%BD_0420132555
 vmess://eyJhZGQiOiJhZG1pbi5hcnpvbmhvc3QuaXIiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6ImFkbWluLmFyem9uaG9zdC5pciIsImlkIjoiN2Q5M2U5OTItNDhjZi00MmQ0LTg0ZjgtNzU3NjhlODE1YTRjIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiIyMDg2IiwicHMiOiIxMHzwn4e68J+HuF9VU1/nvo7lm70tXHUwMDNl8J+Hq/Cfh7dfRlJf5rOV5Zu9XzJfNyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIifQ==
 vless://cc236a51-836f-4d96-b622-49ddb937671b@bpb-98d.pages.dev:443/?type=ws&encryption=none&host=Bpb-98D.PAGES.dEV&path=%2Fk6ugsbLtk1GoYZw6%3Fed%3D2048&security=tls&sni=BpB-98d.pAgES.dEv&alpn=http%2F1.1#%E7%BE%8E%E5%9B%BD_041323935
 vless://b97cdd0e-bba9-4391-b265-b72f80b670db@cafe.zhaal.ir:2052/?type=ws&encryption=none&path=%2F#%E6%9C%AA%E7%9F%A5_0413232256
@@ -23,4 +24,3 @@ vless://d672ec4f-afba-4f61-af09-eec872f97e99@t47.gobo.life:443/?type=ws&encrypti
 vless://03728bdd-745c-4ef6-a01f-70b006d3bbae@thorianite.toptechnonews.com:443/?type=ws&encryption=none&path=%2Fnimws&security=tls&sni=thorianite.toptechnonews.com#%E7%BE%8E%E5%9B%BD_0413231857
 vless://d77906a1-59fd-4222-ba9e-3de834bb33e2@vpn442telegram.wucwej.workers.dev:443/?type=ws&encryption=none&path=%2F%3Fed%3D2048&security=tls&sni=vpn442telegram.wucwej.workers.Dev#%E7%BE%8E%E5%9B%BD_0413231662
 vless://d978c26d-1c43-440b-b696-be950032ab6f@worker-winter-sea-7f30.jvxxmax5.workers.dev:2053/?type=ws&encryption=none&path=%2F%3Fed%3D2048&security=tls&sni=worker-winter-sea-7f30.jvxxmax5.workers.dev#%E7%BE%8E%E5%9B%BD_0413232518
-vless://cefffd1d-cc58-4560-b4d1-44f1af528f30@www.paypal.com.cn:80/?type=ws&encryption=none&host=binance.co.kp&path=%2F%3Fed%3D2560#%E7%BE%8E%E5%9B%BD_0413232519
