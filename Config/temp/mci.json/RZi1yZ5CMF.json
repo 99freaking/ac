@@ -12,6 +12,10 @@
       "external_ui_download_detour": "bypass",
       "secret": "",
       "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true
     }
   },
   "dns": {
@@ -66,6 +70,13 @@
       },
       {
         "outbound": "bypass",
+        "server": "dns-local",
+        "rewrite_ttl": 20
+      },
+      {
+        "domain_suffix": [
+          ".ir"
+        ],
         "server": "dns-local",
         "rewrite_ttl": 20
       },
@@ -514,8 +525,7 @@
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "20m",
-      "tolerance": 50,
-      "interrupt_exist_connections": true
+      "tolerance": 50
     },
     {
       "tag": "direct",
@@ -5161,6 +5171,22 @@
     "auto_detect_interface": true,
     "override_android_vpn": true,
     "final": "proxy",
+    "rule_set": [
+      {
+        "tag": "geosite-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+        "download_detour": "bypass"
+      },
+      {
+        "tag": "geoip-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+        "download_detour": "bypass"
+      }
+    ],
     "rules": [
       {
         "outbound": "dns-out",
@@ -5188,6 +5214,17 @@
       {
         "domain_suffix": [
           "ir"
+        ],
+        "outbound": "bypass"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "bypass"
+      },
+      {
+        "rule_set": [
+          "geosite-ir",
+          "geoip-ir"
         ],
         "outbound": "bypass"
       }
