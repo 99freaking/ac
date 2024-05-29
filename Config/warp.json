@@ -1,4 +1,4 @@
-//Wed May 29 16:44:23 +0430 2024
+//Wed May 29 19:49:45 +0430 2024
 {
   "log": {
     "disabled": false,
@@ -158,13 +158,13 @@
     {
       "local_address": [
         "172.16.0.2/32",
-        "2606:4700:110:8c87:dca:ed87:7842:6784/128"
+        "2606:4700:110:8add:cba9:656f:c6f1:a3/128"
       ],
       "mtu": 1280,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "pre_shared_key": "",
-      "private_key": "CNuYq1wLEisAVgz2jHon5dtsLibAYiC+f74JiSTb5HI=",
-      "reserved": "hLOJ",
+      "private_key": "OMsuvMkW65QTsw4Tj5QdrlgBQwP8LBK2QsrTI/m4klc=",
+      "reserved": "vgbY",
       "server": "162.159.192.87",
       "server_port": 8886,
       "type": "wireguard",
