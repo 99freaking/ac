@@ -1,4 +1,4 @@
-//Wed May 29 19:49:45 +0430 2024
+//Wed May 29 20:02:55 +0430 2024
 {
   "log": {
     "disabled": false,
@@ -165,8 +165,8 @@
       "pre_shared_key": "",
       "private_key": "OMsuvMkW65QTsw4Tj5QdrlgBQwP8LBK2QsrTI/m4klc=",
       "reserved": "vgbY",
-      "server": "162.159.192.87",
-      "server_port": 8886,
+      "server": "0:0:0:0:0:ffff:bc72:6277",
+      "server_port": 946,
       "type": "wireguard",
       "domain_strategy": "",
       "tag": "warp"
