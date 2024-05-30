@@ -1,4 +1,4 @@
-//Thu May 30 21:12:47 +0430 2024
+//Thu May 30 21:24:02 +0430 2024
 {
   "log": {
     "disabled": false,
@@ -165,8 +165,8 @@
       "pre_shared_key": "",
       "private_key": "cLcqNOwxp+mVZxedvCjS9rlDGMnsgDHEPmgFDDjOqH4=",
       "reserved": "iJgo",
-      "server": "0:0:0:0:0:ffff:bc72:6277",
-      "server_port": 946,
+      "server": "162.159.192.87",
+      "server_port": 8886,
       "type": "wireguard",
       "domain_strategy": "",
       "tag": "warp"
