@@ -1,4 +1,4 @@
-//Sun Jun  2 14:17:21 +0430 2024
+//Sun Jun  2 14:17:32 +0430 2024
 {
   "log": {
     "disabled": false,
@@ -165,8 +165,8 @@
       "pre_shared_key": "",
       "private_key": "0JXcrhYahe3HJ7tcEZwf5tnVL1Y+xkGOzR4ctXmnB1E=",
       "reserved": "YDm0",
-      "server": "162.159.192.87",
-      "server_port": 8886,
+      "server": "0:0:0:0:0:ffff:bc72:6277",
+      "server_port": 946,
       "type": "wireguard",
       "domain_strategy": "",
       "tag": "warp"
