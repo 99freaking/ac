@@ -14,20 +14,9 @@
       ]
     },
     "servers": [
-      "fakedns",
       "https://one.one.one.one/dns-query"
     ]
   },
-  "fakedns": [
-    {
-      "ipPool": "198.20.0.0/15",
-      "poolSize": 512
-    },
-    {
-      "ipPool": "fc00::/64",
-      "poolSize": 512
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -1150,20 +1139,9 @@
       ]
     },
     "servers": [
-      "fakedns",
       "https://one.one.one.one/dns-query"
     ]
   },
-  "fakedns": [
-    {
-      "ipPool": "198.20.0.0/15",
-      "poolSize": 512
-    },
-    {
-      "ipPool": "fc00::/64",
-      "poolSize": 512
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
