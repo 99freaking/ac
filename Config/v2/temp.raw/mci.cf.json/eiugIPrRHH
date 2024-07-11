@@ -1,5 +1,5 @@
 {
-  "remarks": "MCI.CF 2024-07-07",
+  "remarks": "MCI.CF 2024-07-11",
   "log": {
     "access": "",
     "error": "",
@@ -97,13 +97,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "162.159.130.234",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
+                "id": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
                 "level": 8,
                 "security": "auto"
               }
@@ -121,12 +121,12 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "bb.limoo.online",
+          "serverName": "turkmenistan.armanibash.Shop.",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "bb.limoo.online"
+            "Host": "turkmenistan.armanibash.Shop."
           },
           "path": "/?ed=2048"
         },
@@ -139,6 +139,168 @@
         }
       },
       "tag": "proxy1_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.17.42.10",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "5bdf790f-0af2-4481-a624-41b66e7e3489",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "cdn.ircp.online",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "cdn.ircp.online"
+          },
+          "path": "/@ln2ray?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy2_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.133.234",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1ef034ba-20d5-41b0-a922-d7e6def1a706",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "dd.limoo.online",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "dd.limoo.online"
+          },
+          "path": "/?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy3_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.20.9.79",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "juzibaipiao.5112233.xyz",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "juzibaipiao.5112233.xyz"
+          },
+          "path": "/?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy4_frag0"
     },
     {
       "mux": {
@@ -192,7 +354,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy2_frag0"
+      "tag": "proxy5_frag0"
     },
     {
       "mux": {
@@ -205,13 +367,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "104.16.250.250",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+                "id": "3490f22a-f4a3-48af-b073-41e328b30216",
                 "level": 8,
                 "security": "auto"
               }
@@ -229,12 +391,12 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "juzibaipiao.5112233.xyz",
+          "serverName": "tunnel.foolish.my.id",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "juzibaipiao.5112233.xyz"
+            "Host": "tunnel.foolish.my.id"
           },
           "path": "/?ed=2048"
         },
@@ -246,61 +408,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy3_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.170.72",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "cab438c4-9c5a-43fd-a623-ce81cb93085c",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "hk.twittei.link",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "hk.twittei.link"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy4_frag0"
+      "tag": "proxy6_frag0"
     },
     {
       "mux": {
@@ -354,115 +462,6 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy5_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.20.9.79",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "glweidf.cfd",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "glweidf.cfd"
-          },
-          "path": "/linkws"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy6_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.73.174",
-            "port": 2096,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "juzibaipiao.5112233.xyz",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "juzibaipiao.5112233.xyz"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
       "tag": "proxy7_frag0"
     },
     {
@@ -476,8 +475,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
-            "port": 8443,
+            "address": "188.114.99.243",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -526,223 +525,11 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
-      "settings": {
-        "servers": [
-          {
-            "address": "104.19.250.20",
-            "flow": "",
-            "level": 8,
-            "method": "chacha20-poly1305",
-            "ota": false,
-            "password": "765409b4-3e9b-4d1d-bcbb-c6b65956b689",
-            "port": 443
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "de1.trojanvpn.de",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "de1.trojanvpn.de"
-          },
-          "path": "/websocket"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy9_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "turkmenistan.armanibash.Shop.",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "turkmenistan.armanibash.Shop."
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy10_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.97.3",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3490f22a-f4a3-48af-b073-41e328b30216",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "tunnel.foolish.my.id",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "tunnel.foolish.my.id"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy13_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.27.1.133",
-            "port": 2083,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "juzibaipiao.5112233.xyz",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "juzibaipiao.5112233.xyz"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy14_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.250.250",
+            "address": "188.114.99.243",
             "port": 2053,
             "users": [
               {
@@ -783,7 +570,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_frag0"
+      "tag": "proxy9_frag0"
     },
     {
       "mux": {
@@ -796,13 +583,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.3",
+            "address": "162.159.133.234",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1ef034ba-20d5-41b0-a922-d7e6def1a706",
+                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
                 "level": 8,
                 "security": "auto"
               }
@@ -820,12 +607,12 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "dd.limoo.online",
+          "serverName": "bb.limoo.online",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "dd.limoo.online"
+            "Host": "bb.limoo.online"
           },
           "path": "/?ed=2048"
         },
@@ -837,61 +624,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy17_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.97.3",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "juzibaipiao.5112233.xyz",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "juzibaipiao.5112233.xyz"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy18_frag0"
+      "tag": "proxy10_frag0"
     },
     {
       "mux": {
@@ -945,6 +678,493 @@
           "tcpFastOpen": true
         }
       },
+      "tag": "proxy11_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.202.232",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "vpNeRor.SAjadHADadi.WEbsiTe",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "VPnerOr.sajAdHaDaDI.WEbSITe"
+          },
+          "path": "/eOwMtmADY6cWup8R?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy12_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.204.39",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "turkmenistan.armanibash.Shop.",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "turkmenistan.armanibash.Shop."
+          },
+          "path": "/?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy13_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.97.3",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f0f67b84-2770-4413-8b26-cfb302fac247",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "v2fly.milik-fukada.eu.org",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "v2fly.milik-fukada.eu.org"
+          },
+          "path": "/@vano_ganzzz"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy14_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.164.164",
+            "port": 443,
+            "users": [
+              {
+                "alterId": 0,
+                "encryption": "",
+                "flow": "",
+                "id": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "afrhms07.xfixedfloat.cfd",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "afrhms07.xfixedfloat.cfd"
+          },
+          "path": "/linkws"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy15_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.97.3",
+            "port": 2096,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "juzibaipiao.5112233.xyz",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "juzibaipiao.5112233.xyz"
+          },
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy16_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.178.12",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b867aa62-33f4-452a-a175-98b84fad295b",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "unlikelier.toptechnonews.com",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "unlikelier.toptechnonews.com"
+          },
+          "path": "/nimws"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy17_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.135.149",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1ef034ba-20d5-41b0-a922-d7e6def1a706",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "dd.limoo.online",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "dd.limoo.online"
+          },
+          "path": "/?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy18_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.21.40.63",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "ff3c4db3-2259-479e-a0e0-7af7d1d429db",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "shaliest.toptechnonews.com",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "shaliest.toptechnonews.com"
+          },
+          "path": "/nimws"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy19_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "188.114.96.3",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "e4e7b149-8bd8-4266-8cbb-0987604dbc87",
+                "level": 8,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "toujiediansigema.5112233.xyz",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "toujiediansigema.5112233.xyz"
+          },
+          "path": "TG@juzibaipiao偷节点死吗"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
       "tag": "proxy20_frag0"
     },
     {
@@ -966,154 +1186,6 @@
           "tcpKeepAliveIdle": 100
         }
       }
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.97.3",
-            "port": 8880,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "51baeda8-1288-458a-b5ae-b8b080b937b6",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "Host": "樱桃.浆果.草莓.我们生活在2024地狱.site."
-          },
-          "path": "/Telegram:,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,@sectun,?ed=1024"
-        }
-      },
-      "tag": "proxy11"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.27.1.133",
-            "port": 80,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7b798c2f-7f0f-48e8-d713-743c4b93cde3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "Host": "snapp.ir.iran.ir.bank-maskan.ir.isna.ir.nobat.ir.namava.ir.iauh.ac.ir.hamshahrionline.ir.emalls.ir.snappfood.ir.irna.ir.sid.ir.namava.ir.nobat.ir.blog.ir.khamenei.ir.bki.ir.iranjib.ir.avval.ir.mche.or.ir.araku.ac.ir.疯狂的莫迪17.shop."
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy12"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.96.3",
-            "port": 2082,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "24347e96-912c-4f53-9c67-9cc895fc6fdf",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "Host": "h3.xn--gmq282ekfhyys3gs.com."
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy15"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.97.3",
-            "port": 80,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7b798c2f-7f0f-48e8-d713-743c4b93cde3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "Host": "snapp.ir.iran.ir.bank-maskan.ir.isna.ir.nobat.ir.namava.ir.iauh.ac.ir.hamshahrionline.ir.emalls.ir.snappfood.ir.irna.ir.sid.ir.namava.ir.nobat.ir.blog.ir.khamenei.ir.bki.ir.iranjib.ir.avval.ir.mche.or.ir.araku.ac.ir.疯狂的莫迪17.shop."
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy19"
     }
   ],
   "routing": {
