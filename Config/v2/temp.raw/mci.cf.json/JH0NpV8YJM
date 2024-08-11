@@ -14,7 +14,7 @@
     },
     "servers": [
       "fakedns",
-      "https://one.one.one.one/dns-query"
+      "https://8.8.8.8/dns-query"
     ]
   },
   "fakedns": [
