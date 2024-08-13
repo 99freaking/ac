@@ -14,8 +14,7 @@
     },
     "servers": [
       "fakedns",
-      "https://dns.google/dns-query",
-      "https+local://dns.digitalsize.net/dns-query"
+      "https://dns.google/dns-query"
     ]
   },
   "fakedns": [
