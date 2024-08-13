@@ -9,7 +9,6 @@
       "external_controller": "0.0.0.0:9090",
       "external_ui": "../files/yacd",
       "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
-      "external_ui_download_detour": "bypass",
       "secret": "",
       "default_mode": "rule"
     },
@@ -21,7 +20,7 @@
   "dns": {
     "servers": [
       {
-        "address": "https://1.1.1.1/dns-query",
+        "address": "tls://8.8.8.8",
         "address_resolver": "dns-direct",
         "tag": "dns-remote"
       },
@@ -29,20 +28,17 @@
         "address": "https://dns.digitalsize.net/dns-query",
         "address_resolver": "dns-plain",
         "detour": "direct",
-        "strategy": "prefer_ipv4",
         "tag": "dns-direct"
       },
       {
         "address": "8.8.8.8",
         "address_resolver": "dns-local",
         "detour": "direct",
-        "strategy": "prefer_ipv4",
         "tag": "dns-plain"
       },
       {
         "address": "local",
         "detour": "direct",
-        "strategy": "prefer_ipv4",
         "tag": "dns-local"
       },
       {
@@ -64,26 +60,20 @@
         "server": "dns-fake"
       },
       {
-        "outbound": "direct",
-        "server": "dns-direct",
-        "rewrite_ttl": 20
-      },
-      {
-        "outbound": "bypass",
-        "server": "dns-local",
-        "rewrite_ttl": 20
+        "outbound": "any",
+        "server": "dns-direct"
       },
       {
         "domain_suffix": [
           ".ir"
         ],
-        "server": "dns-local",
-        "rewrite_ttl": 20
+        "server": "dns-local"
       },
       {
-        "outbound": "any",
-        "server": "dns-direct",
-        "rewrite_ttl": 20
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "dns-local"
       }
     ],
     "final": "dns-remote",
@@ -108,7 +98,6 @@
     {
       "type": "tun",
       "tag": "tun-in",
-      "domain_strategy": "",
       "interface_name": "tun0",
       "inet4_address": "172.19.0.1/30",
       "inet6_address": "fdfe:dcba:9876::1/126",
@@ -121,7 +110,6 @@
       "sniff_override_destination": false
     },
     {
-      "domain_strategy": "",
       "listen": "0.0.0.0",
       "listen_port": 2080,
       "sniff": true,
@@ -749,10 +737,6 @@
     },
     {
       "tag": "direct",
-      "type": "direct"
-    },
-    {
-      "tag": "bypass",
       "type": "direct"
     },
     {
@@ -9890,15 +9874,13 @@
         "tag": "geosite-ir",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-        "download_detour": "bypass"
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
       },
       {
         "tag": "geoip-ir",
         "type": "remote",
         "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-        "download_detour": "bypass"
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
       }
     ],
     "rules": [
@@ -9929,18 +9911,18 @@
         "domain_suffix": [
           "ir"
         ],
-        "outbound": "bypass"
+        "outbound": "direct"
       },
       {
         "ip_is_private": true,
-        "outbound": "bypass"
+        "outbound": "direct"
       },
       {
         "rule_set": [
           "geosite-ir",
           "geoip-ir"
         ],
-        "outbound": "bypass"
+        "outbound": "direct"
       }
     ]
   }
