@@ -9,24 +9,15 @@
     "hosts": {
       "dns.google": [
         "8.8.8.8",
-        "8.8.4.4"
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
       ]
     },
     "servers": [
-      "fakedns",
       "https://dns.google/dns-query"
     ]
   },
-  "fakedns": [
-    {
-      "ipPool": "198.20.0.0/15",
-      "poolSize": 512
-    },
-    {
-      "ipPool": "fc00::/64",
-      "poolSize": 512
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -40,8 +31,7 @@
           "tls",
           "quic",
           "fakedns"
-        ],
-        "routeOnly": true
+        ]
       },
       "settings": {
         "auth": "noauth",
@@ -61,21 +51,33 @@
           "tls",
           "quic",
           "fakedns"
-        ],
-        "routeOnly": true
+        ]
       },
       "settings": {
         "auth": "noauth",
         "udp": true,
         "allowTransparent": false
       }
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
     }
   ],
   "outbounds": [
     {
       "tag": "direct",
       "protocol": "freedom",
-      "settings": {}
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
     },
     {
       "tag": "block",
@@ -1194,12 +1196,10 @@
     "domainStrategy": "AsIs",
     "rules": [
       {
-        "type": "field",
         "inboundTag": [
-          "api"
+          "dns-in"
         ],
-        "outboundTag": "api",
-        "enabled": true
+        "outboundTag": "dns-out"
       },
       {
         "domain": [
