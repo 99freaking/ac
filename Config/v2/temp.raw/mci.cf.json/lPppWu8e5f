@@ -1,5 +1,5 @@
 {
-  "remarks": "MCI.CF 2024-08-17",
+  "remarks": "MCI.CF 2024-08-18",
   "log": {
     "access": "",
     "error": "",
@@ -15,9 +15,20 @@
       ]
     },
     "servers": [
+      "fakedns",
       "https://dns.google/dns-query"
     ]
   },
+  "fakedns": [
+    {
+      "ipPool": "198.20.0.0/15",
+      "poolSize": 512
+    },
+    {
+      "ipPool": "fc00::/64",
+      "poolSize": 512
+    }
+  ],
   "inbounds": [
     {
       "tag": "socks",
