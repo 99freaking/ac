@@ -53,13 +53,6 @@
     ],
     "rules": [
       {
-        "disable_cache": true,
-        "inbound": [
-          "tun-in"
-        ],
-        "server": "dns-fake"
-      },
-      {
         "outbound": "any",
         "server": "dns-direct"
       },
@@ -74,6 +67,17 @@
           "geosite-ir"
         ],
         "server": "dns-local"
+      },
+      {
+        "disable_cache": true,
+        "inbound": [
+          "tun-in"
+        ],
+        "query_type": [
+          "A",
+          "AAAA"
+        ],
+        "server": "dns-fake"
       }
     ],
     "final": "dns-remote",
@@ -9885,15 +9889,15 @@
     ],
     "rules": [
       {
-        "outbound": "dns-out",
-        "port": [
-          53
-        ]
+        "protocol": "dns",
+        "outbound": "dns-out"
       },
       {
-        "inbound": [
-          "dns-in"
-        ],
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "port": 53,
         "outbound": "dns-out"
       },
       {
