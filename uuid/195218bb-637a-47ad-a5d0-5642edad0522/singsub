@@ -1,0 +1,1568 @@
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "../files/yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "secret": "",
+            "default_mode": "rule"
+        },
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tls://8.8.8.8",
+                "address_resolver": "dns-direct",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "https://dns.digitalsize.net/dns-query",
+                "address_resolver": "dns-plain",
+                "detour": "direct",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "8.8.8.8",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "tag": "dns-plain"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            },
+            {
+                "address": "fakeip",
+                "strategy": "ipv4_only",
+                "tag": "dns-fake"
+            }
+        ],
+        "rules": [
+            {
+                "outbound": "any",
+                "server": "dns-direct"
+            },
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-local"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir"
+                ],
+                "server": "dns-local"
+            },
+            {
+                "disable_cache": true,
+                "inbound": [
+                    "tun-in"
+                ],
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "server": "dns-fake"
+            }
+        ],
+        "final": "dns-remote",
+        "reverse_mapping": true,
+        "strategy": "prefer_ipv4",
+        "independent_cache": true,
+        "fakeip": {
+            "enabled": true,
+            "inet4_range": "198.18.0.0/15",
+            "inet6_range": "fc00::/18"
+        }
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "interface_name": "tun0",
+            "inet4_address": "172.19.0.1/30",
+            "inet6_address": "fdfe:dcba:9876::1/126",
+            "mtu": 1500,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "104.16.219.230",
+                "104.16.250.250",
+                "104.17.42.10",
+                "104.17.88.212",
+                "104.17.147.22",
+                "104.18.10.128",
+                "104.19.250.20",
+                "104.20.9.79",
+                "104.21.63.78",
+                "104.26.15.85",
+                "162.159.130.234",
+                "162.159.133.234",
+                "172.67.73.174",
+                "172.67.135.149",
+                "172.67.170.72",
+                "188.114.96.6",
+                "188.114.97.3",
+                "188.114.98.0",
+                "b2n.ir",
+                "bolej.ir",
+                "tgju.org",
+                "www.speedtest.net",
+                "www.zula.ir",
+                "broken-dust-ae38.homipap371.workers.dev",
+                "[2606:4700:3037::6815:4a9c]",
+                "[2606:4700:3037::ac43:9fd9]",
+                "104.16.219.230-tls",
+                "104.16.250.250-tls",
+                "104.17.42.10-tls",
+                "104.17.88.212-tls",
+                "104.17.147.22-tls",
+                "104.18.10.128-tls",
+                "104.19.250.20-tls",
+                "104.20.9.79-tls",
+                "104.21.63.78-tls",
+                "104.26.15.85-tls",
+                "162.159.130.234-tls",
+                "162.159.133.234-tls",
+                "172.67.73.174-tls",
+                "172.67.135.149-tls",
+                "172.67.170.72-tls",
+                "188.114.96.6-tls",
+                "188.114.97.3-tls",
+                "188.114.98.0-tls",
+                "b2n.ir-tls",
+                "bolej.ir-tls",
+                "tgju.org-tls",
+                "www.speedtest.net-tls",
+                "www.zula.ir-tls",
+                "broken-dust-ae38.homipap371.workers.dev-tls",
+                "[2606:4700:3037::6815:4a9c]-tls",
+                "[2606:4700:3037::ac43:9fd9]-tls"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "104.16.219.230",
+                "104.16.250.250",
+                "104.17.42.10",
+                "104.17.88.212",
+                "104.17.147.22",
+                "104.18.10.128",
+                "104.19.250.20",
+                "104.20.9.79",
+                "104.21.63.78",
+                "104.26.15.85",
+                "162.159.130.234",
+                "162.159.133.234",
+                "172.67.73.174",
+                "172.67.135.149",
+                "172.67.170.72",
+                "188.114.96.6",
+                "188.114.97.3",
+                "188.114.98.0",
+                "b2n.ir",
+                "bolej.ir",
+                "tgju.org",
+                "www.speedtest.net",
+                "www.zula.ir",
+                "broken-dust-ae38.homipap371.workers.dev",
+                "[2606:4700:3037::6815:4a9c]",
+                "[2606:4700:3037::ac43:9fd9]",
+                "104.16.219.230-tls",
+                "104.16.250.250-tls",
+                "104.17.42.10-tls",
+                "104.17.88.212-tls",
+                "104.17.147.22-tls",
+                "104.18.10.128-tls",
+                "104.19.250.20-tls",
+                "104.20.9.79-tls",
+                "104.21.63.78-tls",
+                "104.26.15.85-tls",
+                "162.159.130.234-tls",
+                "162.159.133.234-tls",
+                "172.67.73.174-tls",
+                "172.67.135.149-tls",
+                "172.67.170.72-tls",
+                "188.114.96.6-tls",
+                "188.114.97.3-tls",
+                "188.114.98.0-tls",
+                "b2n.ir-tls",
+                "bolej.ir-tls",
+                "tgju.org-tls",
+                "www.speedtest.net-tls",
+                "www.zula.ir-tls",
+                "broken-dust-ae38.homipap371.workers.dev-tls",
+                "[2606:4700:3037::6815:4a9c]-tls",
+                "[2606:4700:3037::ac43:9fd9]-tls"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.219.230",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrOKen-dUsT-aE38.HOmipAp371.wOrKeRS.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/ogmK5y76IwEYkkNV",
+                "type": "ws"
+            },
+            "tag": "104.16.219.230"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.250.250",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "brOKen-duST-Ae38.hOMIPAP371.wOrkers.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/k8lWIf36zS5Yg7CS",
+                "type": "ws"
+            },
+            "tag": "104.16.250.250"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BROkeN-dUST-ae38.hoMIpaP371.WorKErs.DEv"
+                },
+                "max_early_data": 2560,
+                "path": "/1US510gFi0j3UTQ5",
+                "type": "ws"
+            },
+            "tag": "104.17.42.10"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRoKeN-DuSt-AE38.HoMiPAP371.WORkeRs.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/tEKoqbPUMIYnemPV",
+                "type": "ws"
+            },
+            "tag": "104.17.88.212"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrOKEN-DUsT-AE38.HOMipaP371.wOrKeRs.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/YSDvlJLOcCvMjQ2b",
+                "type": "ws"
+            },
+            "tag": "104.17.147.22"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.10.128",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BROkeN-dUSt-AE38.hOmIPAP371.wORKERS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/lym18k8Tem0Pw2Qq",
+                "type": "ws"
+            },
+            "tag": "104.18.10.128"
+        },
+        {
+            "type": "vless",
+            "server": "104.19.250.20",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BROKen-DUst-aE38.hOmipAP371.WORkErs.dev"
+                },
+                "max_early_data": 2560,
+                "path": "/N9ZvDDWAIEhRU5Wq",
+                "type": "ws"
+            },
+            "tag": "104.19.250.20"
+        },
+        {
+            "type": "vless",
+            "server": "104.20.9.79",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "bROkEN-DuSt-AE38.homiPaP371.worKErs.dev"
+                },
+                "max_early_data": 2560,
+                "path": "/y3Jw7FvWs8rDLsMF",
+                "type": "ws"
+            },
+            "tag": "104.20.9.79"
+        },
+        {
+            "type": "vless",
+            "server": "104.21.63.78",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BROken-dUst-ae38.HoMipAP371.wOrkERS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/Y3CcACiWPklyEm3X",
+                "type": "ws"
+            },
+            "tag": "104.21.63.78"
+        },
+        {
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrOKeN-dust-ae38.HoMiPAp371.WORkErs.DEV"
+                },
+                "max_early_data": 2560,
+                "path": "/1JacLD205CR1Llo6",
+                "type": "ws"
+            },
+            "tag": "104.26.15.85"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.130.234",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRoKEn-dust-aE38.hOmIpap371.WorkERS.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/XW42DNHwOQST8OzJ",
+                "type": "ws"
+            },
+            "tag": "162.159.130.234"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.133.234",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "bROKEn-DUSt-Ae38.HomIPap371.wOrkErS.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/wFD0ZMMqJsEJ06H0",
+                "type": "ws"
+            },
+            "tag": "162.159.133.234"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.73.174",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrokEn-DUst-ae38.homiPaP371.WorKeRS.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/lBpGK7LnFM17Ks0H",
+                "type": "ws"
+            },
+            "tag": "172.67.73.174"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.135.149",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BroKeN-duST-aE38.hoMipAp371.workeRS.DEv"
+                },
+                "max_early_data": 2560,
+                "path": "/Wf7clB8hXjRPO64G",
+                "type": "ws"
+            },
+            "tag": "172.67.135.149"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.170.72",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrOkEN-dUst-aE38.HOmipaP371.wOrkERS.DEV"
+                },
+                "max_early_data": 2560,
+                "path": "/RrPjcNk7C8FUt1Os",
+                "type": "ws"
+            },
+            "tag": "172.67.170.72"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrokEn-duSt-AE38.hOMipaP371.wOrkeRS.DEV"
+                },
+                "max_early_data": 2560,
+                "path": "/mGDEd8m9VJzspNju",
+                "type": "ws"
+            },
+            "tag": "188.114.96.6"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "brOkEN-dUST-Ae38.HOMIPAP371.woRKeRS.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/7ofSJfjYSDoYJMMA",
+                "type": "ws"
+            },
+            "tag": "188.114.97.3"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.98.0",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRoKEN-dUSt-Ae38.homiPap371.wOrKerS.DEv"
+                },
+                "max_early_data": 2560,
+                "path": "/eeFRR5pv1Bpwql1H",
+                "type": "ws"
+            },
+            "tag": "188.114.98.0"
+        },
+        {
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BroKen-DUSt-aE38.hoMIpAp371.WoRKERs.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/ME1PCHnNwuh2tS0o",
+                "type": "ws"
+            },
+            "tag": "b2n.ir"
+        },
+        {
+            "type": "vless",
+            "server": "bolej.ir",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "bROken-duSt-Ae38.hoMIPAP371.WorKers.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/duO4eonGmmgZAVaX",
+                "type": "ws"
+            },
+            "tag": "bolej.ir"
+        },
+        {
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRoKeN-duSt-AE38.HOmIPAP371.WoRKErs.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/v2aLnQfT0YwTOKh0",
+                "type": "ws"
+            },
+            "tag": "tgju.org"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "broKEn-DUSt-Ae38.HoMIPAp371.workerS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/GJV52Hc4tm4gxfmv",
+                "type": "ws"
+            },
+            "tag": "www.speedtest.net"
+        },
+        {
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BROken-duST-AE38.HoMipAP371.WOrKeRS.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/0FMywFkEeDsdS4Ks",
+                "type": "ws"
+            },
+            "tag": "www.zula.ir"
+        },
+        {
+            "type": "vless",
+            "server": "broken-dust-ae38.homipap371.workers.dev",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRokeN-duST-aE38.HOMipaP371.worKerS.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/EEVgZlw2C7L1jmOw",
+                "type": "ws"
+            },
+            "tag": "broken-dust-ae38.homipap371.workers.dev"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3037::6815:4a9c]",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BRoKEN-duSt-Ae38.HoMipAP371.wOrkerS.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/jBL8VyzmSl8FpWtM",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3037::6815:4a9c]"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3037::ac43:9fd9]",
+            "server_port": 8880,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "BrOkEn-dUst-AE38.hOmIPaP371.wORKErs.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/HbPOOEvBDkj6wCWt",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3037::ac43:9fd9]"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.219.230",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BRoKEN-dust-ae38.hoMIpaP371.WoRKERS.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROKEN-DuSt-AE38.HoMipaP371.WORkERs.dEv"
+                },
+                "path": "/v0LHuxMfO6TI3KXJ",
+                "type": "ws"
+            },
+            "tag": "104.16.219.230-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.250.250",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bRoKEN-duST-aE38.HomIpaP371.WoRkeRs.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BrOken-dUst-AE38.hoMIpAp371.Workers.dEV"
+                },
+                "path": "/xbKpVgEeJulaieS4",
+                "type": "ws"
+            },
+            "tag": "104.16.250.250-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brOken-DusT-AE38.hoMIpAP371.worKers.DEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROkeN-Dust-aE38.hOmIPap371.WORkErS.dEV"
+                },
+                "path": "/D7EiTyKdQCveCgyP",
+                "type": "ws"
+            },
+            "tag": "104.17.42.10-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BROkeN-DUsT-Ae38.hOMIpaP371.wORKeRs.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BRoKEn-DUst-Ae38.HOmiPaP371.WorKeRS.dEV"
+                },
+                "path": "/RGOrOG23ELsFHkEn",
+                "type": "ws"
+            },
+            "tag": "104.17.88.212-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bROken-Dust-aE38.HOMIPAP371.WORkERs.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BroKeN-dust-ae38.hOMIpap371.wORkErs.Dev"
+                },
+                "path": "/ySuQD7x2NqXa3fmh",
+                "type": "ws"
+            },
+            "tag": "104.17.147.22-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.10.128",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brOkEn-DUsT-Ae38.HOmIPap371.wOrkERs.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "bROkeN-DUst-AE38.hoMIpap371.woRKers.Dev"
+                },
+                "path": "/YBEKq2jbLKpBmplG",
+                "type": "ws"
+            },
+            "tag": "104.18.10.128-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.19.250.20",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BrOken-dust-aE38.HOmIPAP371.WORkERs.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brOken-DuSt-ae38.hOMipap371.wOrkeRS.dEV"
+                },
+                "path": "/wf1uN553SbMGvXDr",
+                "type": "ws"
+            },
+            "tag": "104.19.250.20-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.20.9.79",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "broken-DUst-Ae38.HoMipAP371.woRkerS.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "bROKeN-DuST-Ae38.hoMIPAP371.wOrkERS.DeV"
+                },
+                "path": "/xN884gGkG8Cni6Up",
+                "type": "ws"
+            },
+            "tag": "104.20.9.79-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.21.63.78",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bROKEn-Dust-Ae38.hoMIPAP371.wORKErs.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brokeN-DusT-Ae38.HoMIPap371.WORKErS.DEV"
+                },
+                "path": "/vspTlCXMF0b4ghq8",
+                "type": "ws"
+            },
+            "tag": "104.21.63.78-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brokEN-DUsT-ae38.HoMiPAP371.wOrKeRS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BRoken-duSt-Ae38.HoMiPAp371.WORkeRs.Dev"
+                },
+                "path": "/WrBTfUkUJYyQRBfj",
+                "type": "ws"
+            },
+            "tag": "104.26.15.85-tls"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.130.234",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brokeN-duST-Ae38.hoMiPAp371.wOrKERs.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "broKEn-Dust-aE38.hOMipAP371.WORkeRs.deV"
+                },
+                "path": "/cYGFzeFxBojSrqw9",
+                "type": "ws"
+            },
+            "tag": "162.159.130.234-tls"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.133.234",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bRoKEN-duST-AE38.hOmIpaP371.WOrkErs.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brOkEN-dUsT-aE38.hOmIpap371.WOrkErS.deV"
+                },
+                "path": "/YxTWUGLcbnV2U2gS",
+                "type": "ws"
+            },
+            "tag": "162.159.133.234-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.73.174",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brOken-dUST-AE38.HoMiPAp371.wORkers.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROkEn-DUst-ae38.HoMipAp371.WorkerS.deV"
+                },
+                "path": "/0q7BgV6AGNKtD6Jj",
+                "type": "ws"
+            },
+            "tag": "172.67.73.174-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.135.149",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BRoKEN-dUST-Ae38.homipAp371.woRKERs.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROKeN-dUsT-Ae38.HOmiPAp371.WORkErs.DEv"
+                },
+                "path": "/5bTAk6Tsgs1Q7vXX",
+                "type": "ws"
+            },
+            "tag": "172.67.135.149-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.170.72",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BrOken-DuSt-Ae38.HOMIpAP371.WoRkERs.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BRokEN-DUST-ae38.HomiPaP371.WORkErS.DEv"
+                },
+                "path": "/4bqMRJ4O4zpGMgOO",
+                "type": "ws"
+            },
+            "tag": "172.67.170.72-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bRokEn-DUst-ae38.HOmIPaP371.WOrkeRs.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "broken-duSt-aE38.HoMIPaP371.woRkErS.deV"
+                },
+                "path": "/awhhUFurwkImMjxR",
+                "type": "ws"
+            },
+            "tag": "188.114.96.6-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "brOken-DUst-AE38.HOmipAp371.WorkErS.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROkEn-DUsT-ae38.HoMIpaP371.wOrKerS.DEV"
+                },
+                "path": "/PzBApUlydgX4xNyn",
+                "type": "ws"
+            },
+            "tag": "188.114.97.3-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.98.0",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bROken-DuST-AE38.HOMipAp371.worKErS.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "bRoken-dUst-aE38.HoMipAP371.woRKerS.DEV"
+                },
+                "path": "/EYStpAi9ZMHkBAdD",
+                "type": "ws"
+            },
+            "tag": "188.114.98.0-tls"
+        },
+        {
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BRoKEn-DuSt-AE38.hOMipAp371.wORkers.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brOKen-dust-aE38.HOmiPAP371.WorkERS.DeV"
+                },
+                "path": "/p5vrWVrzcJfcLGJv",
+                "type": "ws"
+            },
+            "tag": "b2n.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "bolej.ir",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BroKen-dUsT-AE38.HOMipaP371.WOrkerS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "broken-duSt-Ae38.hOmIPAp371.WORKers.dev"
+                },
+                "path": "/3Xc35k0DNRoFDtXi",
+                "type": "ws"
+            },
+            "tag": "bolej.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bROKen-Dust-ae38.hOmIPap371.WoRKeRs.DEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brokeN-dUST-aE38.hoMiPAP371.wOrkErs.deV"
+                },
+                "path": "/FHQSpqo2qmd3aYAq",
+                "type": "ws"
+            },
+            "tag": "tgju.org-tls"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BrOkeN-duST-AE38.HoMIPAp371.WoRKerS.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "brokEN-dUSt-AE38.HomipaP371.woRKErS.DEV"
+                },
+                "path": "/aZLQFTUuwpAcXx8N",
+                "type": "ws"
+            },
+            "tag": "www.speedtest.net-tls"
+        },
+        {
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BRoKeN-DuSt-Ae38.HomiPAp371.wORkErs.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "broKeN-DuST-aE38.hOMipAP371.Workers.Dev"
+                },
+                "path": "/AnDuvikVbdNaIFJY",
+                "type": "ws"
+            },
+            "tag": "www.zula.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "broken-dust-ae38.homipap371.workers.dev",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "bROkeN-dusT-aE38.hOmIpaP371.WORKeRS.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BROken-duST-aE38.HomIPAp371.wOrKErS.deV"
+                },
+                "path": "/Pi5apFgztwrKNjUR",
+                "type": "ws"
+            },
+            "tag": "broken-dust-ae38.homipap371.workers.dev-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3037::6815:4a9c]",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BrokEn-dusT-aE38.hOmipaP371.woRKerS.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BRoken-DuST-AE38.Homipap371.WoRKErs.dev"
+                },
+                "path": "/VkYIefzoAA3O91o1",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3037::6815:4a9c]-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3037::ac43:9fd9]",
+            "server_port": 8443,
+            "uuid": "c2f06f52-2024-4723-a1f8-87bc98440275",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "BROkEn-DuST-Ae38.hOmIpap371.woRkERs.dEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "BroKEN-Dust-aE38.hoMIPAP371.WOrKERS.dEv"
+                },
+                "path": "/0MCX6fVMtu0XfSF3",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3037::ac43:9fd9]-tls"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "rule_set": [
+            {
+                "tag": "geosite-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
+            },
+            {
+                "tag": "geoip-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
+            }
+        ],
+        "rules": [
+            {
+                "protocol": "dns",
+                "outbound": "dns-out"
+            },
+            {
+                "inbound": "dns-in",
+                "outbound": "dns-out"
+            },
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ]
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir",
+                    "geoip-ir"
+                ],
+                "outbound": "direct"
+            }
+        ]
+    }
+}
