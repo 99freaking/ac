@@ -53,10 +53,6 @@
     ],
     "rules": [
       {
-        "outbound": "any",
-        "server": "dns-direct"
-      },
-      {
         "domain_suffix": [
           ".ir"
         ],
@@ -67,6 +63,10 @@
           "geosite-ir"
         ],
         "server": "dns-local"
+      },
+      {
+        "outbound": "any",
+        "server": "dns-direct"
       },
       {
         "disable_cache": true,
