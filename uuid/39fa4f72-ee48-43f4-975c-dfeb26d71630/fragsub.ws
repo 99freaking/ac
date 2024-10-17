@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "WIthEreD-pAPer-9064.SiCoLEk510.WORKERS.dEv",
+                            "Host": "WIThEred-PapEr-9064.SIcoleK510.WorKeRS.Dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "witHEreD-PapER-9064.siColEk510.WOrKERS.Dev",
+                            "Host": "wItHeRED-papER-9064.sIcOleK510.wORkErs.deV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },

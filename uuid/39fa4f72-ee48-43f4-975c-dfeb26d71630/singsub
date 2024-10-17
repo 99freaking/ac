@@ -152,8 +152,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "withered-paper-9064.sicolek510.workers.dev",
-                "[2606:4700:3032::6815:4e59]",
-                "[2606:4700:3035::ac43:db12]",
+                "[2a06:98c1:3120::3]",
+                "[2a06:98c1:3121::3]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -178,8 +178,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "withered-paper-9064.sicolek510.workers.dev-tls",
-                "[2606:4700:3032::6815:4e59]-tls",
-                "[2606:4700:3035::ac43:db12]-tls"
+                "[2a06:98c1:3120::3]-tls",
+                "[2a06:98c1:3121::3]-tls"
             ]
         },
         {
@@ -210,8 +210,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "withered-paper-9064.sicolek510.workers.dev",
-                "[2606:4700:3032::6815:4e59]",
-                "[2606:4700:3035::ac43:db12]",
+                "[2a06:98c1:3120::3]",
+                "[2a06:98c1:3121::3]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -236,8 +236,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "withered-paper-9064.sicolek510.workers.dev-tls",
-                "[2606:4700:3032::6815:4e59]-tls",
-                "[2606:4700:3035::ac43:db12]-tls"
+                "[2a06:98c1:3120::3]-tls",
+                "[2a06:98c1:3121::3]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -265,10 +265,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiThErED-PAPER-9064.SIcOlEk510.wORKeRs.dev"
+                    "Host": "wiTHerED-papeR-9064.siColek510.WoRKers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/pf2yfPjxehhUaKKg",
+                "path": "/WldKm6XRX6tZYVfe",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -283,10 +283,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "witHeRed-pAPeR-9064.SICoLeK510.WoRKERS.DeV"
+                    "Host": "WiTHerED-PaPeR-9064.siCoLeK510.woRKeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/aR7oPZKptFUrW4QS",
+                "path": "/HPetIdRv8OR2IAge",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -301,10 +301,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTheRed-PapeR-9064.SICOLek510.WoRkerS.DEV"
+                    "Host": "wiTheREd-pApER-9064.sICOLEK510.Workers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/e3cUmPtR06tDgsI9",
+                "path": "/8WnfRgX8bHlrgJzq",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -319,10 +319,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wItheRed-pAPeR-9064.sIcOlEK510.wORkeRS.deV"
+                    "Host": "wItHErED-PaPeR-9064.siCoLEK510.worKeRS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/8asn55VPOQKtRmic",
+                "path": "/FV5C6q0asXH5q7Av",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -337,10 +337,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WithEReD-PApEr-9064.SicOlEk510.WORkeRS.deV"
+                    "Host": "witHerED-paPER-9064.SicoLeK510.WORkeRs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/BE3LVYrW6WoaxmLE",
+                "path": "/0Yi1lEmZjVWjWQbL",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -355,10 +355,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTHeRed-PaPER-9064.siCoLeK510.worKERs.dev"
+                    "Host": "WitHeRED-PAPeR-9064.sIcOLeK510.wORkeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/UmAJqP342udt7KGt",
+                "path": "/al8qjTIJw7Ws8jJr",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -373,10 +373,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHERed-pAper-9064.sICOleK510.WoRkErs.DeV"
+                    "Host": "witHERed-PapeR-9064.sICOLEk510.wORkERS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/3E7IRe3TpybLV9lv",
+                "path": "/lpnFAYHe8J2N8dob",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -391,10 +391,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wItheRed-PAPEr-9064.sicolEk510.WORkerS.deV"
+                    "Host": "WItheREd-PaPEr-9064.SicOleK510.WorKERS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/B7v0voIQlim3bO6U",
+                "path": "/uAlhOO4aRzm8SU97",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -409,10 +409,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTHERED-pAper-9064.SicOLEk510.WORKerS.dEv"
+                    "Host": "witHeRED-PaPER-9064.SICoLEK510.WOrkERS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/AIsPV0SGHbde37ya",
+                "path": "/jsRYO6alkqG9JNst",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -427,10 +427,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHered-paPEr-9064.SIcOLEk510.WoRkErs.dEV"
+                    "Host": "WitHeREd-PAper-9064.SicOlek510.woRKerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/bHwSUFS69Ym4SecL",
+                "path": "/w86P7R8i1XnS4a1b",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -445,10 +445,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wIthEreD-pAPeR-9064.SIColEK510.WORkeRs.DeV"
+                    "Host": "wIThEreD-paper-9064.siCOLek510.wORKERs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/AXSISN5uK7lcBEDx",
+                "path": "/4qkkJ9BEKEtS5sBg",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -463,10 +463,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "Withered-PAPeR-9064.SicoLeK510.WoRKErs.dev"
+                    "Host": "wITHerED-pAPEr-9064.SiColEk510.WoRKerS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/tNBlAc8EQZfeI4yO",
+                "path": "/ZqPsMVW8GBrqdXcH",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -481,10 +481,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHErED-pAPer-9064.SicOlEk510.WorKerS.Dev"
+                    "Host": "WIthErED-PapEr-9064.SiCoLeK510.WOrKERs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/K7W6lY9hUJlIiFOk",
+                "path": "/s1PaCp0hPGHeEm8O",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -499,10 +499,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wiThered-PAPEr-9064.SICOleK510.WorkErS.DEV"
+                    "Host": "witHereD-PaPeR-9064.SIcolEK510.workers.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/CkAV3vMBpWZ0KEZY",
+                "path": "/oYQYGqswVP6A5wk8",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -517,10 +517,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WIThered-paPer-9064.SIColeK510.WorKeRS.dEv"
+                    "Host": "WiTheRED-paPeR-9064.siCOLEk510.wOrKeRs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/wua13QQrTxHYRbBl",
+                "path": "/qG3zEmojaujkkN16",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -535,10 +535,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHered-PApER-9064.SIcolEK510.WorKeRS.DeV"
+                    "Host": "WITHered-PApeR-9064.SIColEk510.WoRKers.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/e6iAZwvSGgEcsH9G",
+                "path": "/ENnJ2LIYPZj7Umv3",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -553,10 +553,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "witHErED-PAPer-9064.sicoleK510.WoRkeRS.deV"
+                    "Host": "wITheRed-PApEr-9064.SicoleK510.workeRs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/R4wBSLbQcb4T3Y4R",
+                "path": "/xT38Gf9fIAWC7Qdv",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -571,10 +571,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WithEREd-pAPeR-9064.SICoLeK510.WORKERs.dEV"
+                    "Host": "WITheReD-paPER-9064.SicOLek510.WoRKeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/047e7ZEPTPcGTvkv",
+                "path": "/gJ9bqII5yuq3W1U3",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -589,10 +589,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wiThereD-pApeR-9064.SicoLek510.wORkeRS.DEV"
+                    "Host": "WitHErED-PaPEr-9064.SicOLEk510.WORkeRS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/EzSa3jTvibZI9fzX",
+                "path": "/qPm5E7zzE3Hl7KGz",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -607,10 +607,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wiTheRED-PAPEr-9064.SICoLeK510.WORKERs.dEV"
+                    "Host": "WitHERed-PAPEr-9064.sIcoLek510.WORKerS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/Pk9hMxLVhWGdiNEQ",
+                "path": "/4g80HHCakqd3eimJ",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -625,10 +625,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wiTHERed-pAper-9064.SicoLEk510.wORKERS.Dev"
+                    "Host": "wITHErED-paper-9064.sicOlEk510.WOrKERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/O2z2gGHO7ruQPO0g",
+                "path": "/3n503sBoBB1HmPl7",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -643,10 +643,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitHEREd-paPER-9064.SIColeK510.WoRkERS.Dev"
+                    "Host": "wIThErEd-PaPEr-9064.SiColeK510.woRKErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/AKgNuAeHzCJ0VqWR",
+                "path": "/xJLocNiljCZjBulg",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -661,10 +661,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WITHEREd-paper-9064.SIcOlEK510.wOrkeRs.Dev"
+                    "Host": "WItheReD-pApEr-9064.SICoLek510.Workers.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/xH6mGlNzMj47gMT3",
+                "path": "/BPLCNyuaqN3VLvak",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
@@ -679,17 +679,17 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WITherED-PApER-9064.siColEk510.WorKErS.DEV"
+                    "Host": "wIThErED-papER-9064.SICOLEK510.woRkERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/vifF2qI5U6An3X7v",
+                "path": "/DGWUQbC5gsXtNCGt",
                 "type": "ws"
             },
             "tag": "withered-paper-9064.sicolek510.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3032::6815:4e59]",
+            "server": "[2a06:98c1:3120::3]",
             "server_port": 8880,
             "uuid": "2d8edeb3-2b7d-4f85-8674-c8c25e36cb75",
             "domain_strategy": "prefer_ipv6",
@@ -697,17 +697,17 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wIthErEd-PaPER-9064.sicoLek510.WoRkERS.deV"
+                    "Host": "wIthERED-PApEr-9064.sicoleK510.woRKERs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/jYhxBofE3UQpK2to",
+                "path": "/x0Lh6Me3obmO029Q",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3032::6815:4e59]"
+            "tag": "[2a06:98c1:3120::3]"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3035::ac43:db12]",
+            "server": "[2a06:98c1:3121::3]",
             "server_port": 8880,
             "uuid": "2d8edeb3-2b7d-4f85-8674-c8c25e36cb75",
             "domain_strategy": "prefer_ipv6",
@@ -715,13 +715,13 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHeReD-PapEr-9064.SICoLEK510.WOrKerS.deV"
+                    "Host": "wiTHereD-PapeR-9064.sICOlEK510.wORkERS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/ilZYg5uwSvnTaqvL",
+                "path": "/5oOkxtlNYs3381if",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3035::ac43:db12]"
+            "tag": "[2a06:98c1:3121::3]"
         },
         {
             "type": "vless",
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIthEReD-papER-9064.SICOLek510.wOrkerS.dEV",
+                "server_name": "WITHEred-PaPEr-9064.sICOLeK510.WOrKerS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitheRED-papeR-9064.siCOLeK510.WOrkeRs.DEv"
+                    "Host": "WiTHered-pAPeR-9064.siCOLEk510.WoRKErs.DEV"
                 },
-                "path": "/DMJXiHAEUDXo86hV",
+                "path": "/N5arDAqK3IRciI64",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wiTHeREd-papER-9064.sicolek510.woRkerS.deV",
+                "server_name": "WitHereD-pApeR-9064.SICoLeK510.woRKeRs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitherEd-PaPER-9064.SIcoLeK510.WoRKers.dEV"
+                    "Host": "WiTHERed-PapEr-9064.sicOlek510.wOrKeRS.Dev"
                 },
-                "path": "/8hozboiiP4vX3Q1m",
+                "path": "/JAbjWQNCFgdZXNEc",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WiThERED-PApeR-9064.siCOLeK510.WorkeRs.dev",
+                "server_name": "WIThErEd-pAPeR-9064.sIcoLek510.WORkeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wItheRED-paPer-9064.sicOleK510.WORKers.DEV"
+                    "Host": "WiTherED-PAPeR-9064.SIcOleK510.WORKErs.DEV"
                 },
-                "path": "/FflDR5kh19hILZgb",
+                "path": "/f0WrLBUksKziPqrB",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WitHErED-papER-9064.sIcOLeK510.wOrkerS.dev",
+                "server_name": "witHeRED-PApER-9064.SicOleK510.WOrkeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WIthERed-papEr-9064.sICOLeK510.WorKERs.DEv"
+                    "Host": "WiThereD-PAPER-9064.sICoLEk510.wORkers.dev"
                 },
-                "path": "/4mYFTyqeoNjBNmu2",
+                "path": "/r17dPEZ7WkncCAi9",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WITheRED-PAPEr-9064.SiCOLek510.WoRKERS.dEv",
+                "server_name": "WIThEreD-PaPeR-9064.sIcOLeK510.workErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiTheRED-PApEr-9064.sICOLEK510.WORkerS.dEv"
+                    "Host": "wiThERed-PApER-9064.sIcOlEk510.wORkeRs.deV"
                 },
-                "path": "/RGw5GtYKvTV4Q1GB",
+                "path": "/Oc1CNxiUjf7oKbf3",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "witHeREd-pAPEr-9064.SIColek510.WoRkERS.DEV",
+                "server_name": "WitHeREd-PAper-9064.sicolek510.workErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wIthEreD-PapEr-9064.SICOleK510.WOrkERs.dEv"
+                    "Host": "Withered-papEr-9064.SicoleK510.workers.DEV"
                 },
-                "path": "/RLopEdO8yMVMTUUt",
+                "path": "/iNoTV4XrxTePTSgh",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wItheRED-pAPER-9064.sicOleK510.woRKERS.deV",
+                "server_name": "wiTHereD-PAPer-9064.SiCOleK510.WORkERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WIThErED-Paper-9064.SiColek510.WoRkers.DeV"
+                    "Host": "WitHeRED-pApER-9064.SIColEk510.WOrKErS.DEV"
                 },
-                "path": "/kuOw3o9dWEjpbMvV",
+                "path": "/T6j3Cnq1ArfIfc0H",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "witHERed-paPEr-9064.sicoLek510.WOrKerS.DeV",
+                "server_name": "wItheReD-PaPeR-9064.SIcolEk510.wOrkERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitheRed-paPEr-9064.sICOLEk510.WOrkERs.dEv"
+                    "Host": "wItHerED-pAPEr-9064.SicoleK510.workeRs.Dev"
                 },
-                "path": "/IKV4EgU6k4knIG3L",
+                "path": "/0qnK2q1CFOhB6Qcn",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITheREd-paPer-9064.siCoLEK510.wOrKERS.Dev",
+                "server_name": "WiTHEReD-PApeR-9064.SIcoLeK510.woRkerS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTHEReD-PapEr-9064.sicOlEk510.wORkERS.DeV"
+                    "Host": "withEReD-PAper-9064.sicOLEk510.WorKERS.DeV"
                 },
-                "path": "/qnw3HoWCSKDbgF20",
+                "path": "/KGXw1Jdliw7Rnppp",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WIthErEd-pAPer-9064.sIcOlEK510.worKeRs.DeV",
+                "server_name": "wIThEred-pAPEr-9064.SicOleK510.WoRKerS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WITHErEd-PapEr-9064.sicoLek510.WORKers.deV"
+                    "Host": "WITHeRed-Paper-9064.SIcOLEk510.WORKERS.dEV"
                 },
-                "path": "/Jj9VMALO54Zus5j5",
+                "path": "/07XYA6RUVcqJQP5C",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThErED-PapeR-9064.SicoLEK510.WORkERS.dEv",
+                "server_name": "witherED-PAper-9064.SIcOleK510.wOrkeRs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTHEred-PApeR-9064.siCOleK510.wOrKErS.dev"
+                    "Host": "WItHerEd-PapER-9064.sICOLEk510.woRkeRs.dEv"
                 },
-                "path": "/hFvIeWaD2UCnwNL6",
+                "path": "/2YgcdhVBz2msJFpm",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WItHeReD-PApeR-9064.siCOLeK510.WOrkers.DeV",
+                "server_name": "WiTherED-PApER-9064.SIcOleK510.WORKErs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiThereD-paPer-9064.SIcOlEk510.wOrKers.deV"
+                    "Host": "wITHeRED-PApEr-9064.SICOlEK510.worKeRs.dEV"
                 },
-                "path": "/krrGm1NIfHtX34Rh",
+                "path": "/5Et6HI9ilelt3Zj3",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WIThERed-PaPER-9064.SIcOLek510.wORKeRS.dEV",
+                "server_name": "wItHEreD-Paper-9064.sIcolEK510.WOrkERS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wIThEreD-paPeR-9064.SiCOlek510.WoRkErs.Dev"
+                    "Host": "WiTHerEd-pApeR-9064.sIColEk510.WORKers.dev"
                 },
-                "path": "/FNJyOoaLmgdWfA1P",
+                "path": "/7r0kR7olTrPqtKB3",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WItHeRed-pAPER-9064.siCoLEk510.worKERS.Dev",
+                "server_name": "WItheReD-PApER-9064.sicOLEk510.wOrKeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "witheReD-PAPER-9064.siCoLeK510.wOrkeRs.DeV"
+                    "Host": "wiTHerEd-papEr-9064.sicoLEk510.worKERs.Dev"
                 },
-                "path": "/mniavsY9OynTqJSv",
+                "path": "/IwxeShw3FjfhMmCE",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "witHEReD-PapER-9064.SICOlEK510.wOrkerS.DEv",
+                "server_name": "WitheREd-pApEr-9064.sICOLek510.wOrKErs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "witHeReD-PAPeR-9064.siCOLeK510.WorkErs.dEV"
+                    "Host": "WIthERed-PaPEr-9064.SIcoLEK510.wORkers.DEV"
                 },
-                "path": "/XGzf5gjFCiFaME0N",
+                "path": "/dUDvIj3UXZriJVpo",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "witHErEd-PAPer-9064.sicolEK510.wOrkerS.DEV",
+                "server_name": "wiThERed-PAPer-9064.SIcoLEk510.WoRKERS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitHeREd-pAper-9064.SicoLeK510.WoRKeRS.deV"
+                    "Host": "WiTHeReD-paper-9064.SIcOLEk510.WoRkERs.deV"
                 },
-                "path": "/VZtRwyvDnFHCl8c4",
+                "path": "/Hs0g1uco7HOrT5mL",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wiTHerED-papER-9064.sICOleK510.wOrkErs.deV",
+                "server_name": "wiThEreD-PapER-9064.SicoLEK510.woRKErS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wITHErED-PaPEr-9064.SICOLek510.worKerS.DEv"
+                    "Host": "wItHerED-PAPer-9064.sicOlEK510.wOrKers.dEv"
                 },
-                "path": "/wz1W8KSZRSt94asa",
+                "path": "/DkPVL9j9UuEzd3iR",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WitHEred-pAPEr-9064.Sicolek510.worKErS.Dev",
+                "server_name": "witHEreD-PaPer-9064.sicOLEk510.wOrkErs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitHEred-papER-9064.SICOLEK510.WOrKErs.DeV"
+                    "Host": "wiThEred-PaPER-9064.SiCOleK510.WorkErS.deV"
                 },
-                "path": "/5S7hHaNxoSYN769v",
+                "path": "/pjxsxXt7Lmnk4Yj7",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "withEReD-pApER-9064.sicoleK510.worKers.dEV",
+                "server_name": "WITHERED-pAPeR-9064.SiCOLeK510.WoRkERS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiTHEReD-PApEr-9064.SICoLeK510.WorkerS.DeV"
+                    "Host": "WitheRED-PaPER-9064.SicOLek510.WORkERS.Dev"
                 },
-                "path": "/Jr2jRC6LMTYoS1bO",
+                "path": "/9ArvpWgI1Hnu30xx",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHEREd-papeR-9064.SICOLeK510.wOrkErs.Dev",
+                "server_name": "WIthERed-paPer-9064.siCOLeK510.WoRkERS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTHEred-PapeR-9064.SicolEK510.woRKeRS.Dev"
+                    "Host": "WiThErEd-PAPEr-9064.sicolEK510.workers.DEV"
                 },
-                "path": "/0RoVS63vFZAF6ON4",
+                "path": "/YhkSB5ZyJYp1vKhp",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThERed-PaPER-9064.sIcOLEK510.woRKers.dEV",
+                "server_name": "WItHErEd-PAPer-9064.sICoLEk510.wORkErs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WITHered-PApeR-9064.SicoLEK510.WoRKeRS.dEv"
+                    "Host": "WItHERed-Paper-9064.SICOlEk510.worKers.dev"
                 },
-                "path": "/hK5pW5GKiKrprnAa",
+                "path": "/jWEaLWKVhzkShhZE",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThered-pApeR-9064.SicOLeK510.Workers.dEV",
+                "server_name": "wITheRED-pAPeR-9064.sIcOlEK510.WorKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "witHereD-PaPEr-9064.sicOleK510.woRkErS.Dev"
+                    "Host": "WITHErEd-PapEr-9064.sicoLeK510.WORKErs.Dev"
                 },
-                "path": "/cRgEDW5gpGBsVGQp",
+                "path": "/Z81YhN8z2OZDYzW2",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WItHerED-paper-9064.SICoLEK510.wOrKErS.DEv",
+                "server_name": "wiTHERed-PAPer-9064.sICOLek510.WorKErs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,9 +1406,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WithEREd-PAPeR-9064.siCoLEk510.wOrKerS.DEv"
+                    "Host": "WIthEREd-PAPEr-9064.sicOlEk510.WoRkeRS.DeV"
                 },
-                "path": "/EmJjVumo2bFFeYsh",
+                "path": "/6mBmidyD3dgwMu7J",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WithEreD-PAPER-9064.SIcOlek510.WOrkeRS.Dev",
+                "server_name": "WiTherEd-paPER-9064.sIcolek510.worKeRs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,16 +1436,16 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wItherEd-Paper-9064.SiCOLek510.WoRkerS.dEv"
+                    "Host": "wIThEred-PApeR-9064.siCoLeK510.worKerS.Dev"
                 },
-                "path": "/3OUrcApMJ85ZlasJ",
+                "path": "/pWnqJZJUnDfujmAe",
                 "type": "ws"
             },
             "tag": "withered-paper-9064.sicolek510.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3032::6815:4e59]",
+            "server": "[2a06:98c1:3120::3]",
             "server_port": 8443,
             "uuid": "2d8edeb3-2b7d-4f85-8674-c8c25e36cb75",
             "domain_strategy": "prefer_ipv6",
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITheREd-pApeR-9064.sIcolek510.WorkeRS.Dev",
+                "server_name": "wiTHeRED-PaPEr-9064.sicoLek510.WOrKerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,16 +1466,16 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "withErEd-PapeR-9064.sicOlEK510.worKErS.Dev"
+                    "Host": "witheREd-pAPeR-9064.sIcOleK510.WoRKeRs.dev"
                 },
-                "path": "/xvpNCcnOUBnq4QcD",
+                "path": "/kSp5tSXj48MHR4v9",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3032::6815:4e59]-tls"
+            "tag": "[2a06:98c1:3120::3]-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3035::ac43:db12]",
+            "server": "[2a06:98c1:3121::3]",
             "server_port": 8443,
             "uuid": "2d8edeb3-2b7d-4f85-8674-c8c25e36cb75",
             "domain_strategy": "prefer_ipv6",
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "withEREd-PAper-9064.sIcOlEK510.WoRkErS.dEV",
+                "server_name": "WithEreD-PaPer-9064.siCOLek510.wOrkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WItHeReD-pApEr-9064.sIcolek510.WorkERs.dev"
+                    "Host": "WithEREd-papER-9064.SiCOLEk510.WoRKerS.deV"
                 },
-                "path": "/uRAXR29Kwpbh5KPu",
+                "path": "/FWxHs9QEmxQ5Of2L",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3035::ac43:db12]-tls"
+            "tag": "[2a06:98c1:3121::3]-tls"
         }
     ],
     "route": {
