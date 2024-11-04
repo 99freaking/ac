@@ -151,9 +151,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "fancy-sea-d3ed.faniw65144.workers.dev",
-                "[2a06:98c1:3121::3]",
-                "[2a06:98c1:3120::3]",
+                "fancy-shape-a477.fimara4589.workers.dev",
+                "[2a06:98c1:3121::2]",
+                "[2a06:98c1:3120::2]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +177,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "fancy-sea-d3ed.faniw65144.workers.dev-tls",
-                "[2a06:98c1:3121::3]-tls",
-                "[2a06:98c1:3120::3]-tls"
+                "fancy-shape-a477.fimara4589.workers.dev-tls",
+                "[2a06:98c1:3121::2]-tls",
+                "[2a06:98c1:3120::2]-tls"
             ]
         },
         {
@@ -209,9 +209,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "fancy-sea-d3ed.faniw65144.workers.dev",
-                "[2a06:98c1:3121::3]",
-                "[2a06:98c1:3120::3]",
+                "fancy-shape-a477.fimara4589.workers.dev",
+                "[2a06:98c1:3121::2]",
+                "[2a06:98c1:3120::2]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +235,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "fancy-sea-d3ed.faniw65144.workers.dev-tls",
-                "[2a06:98c1:3121::3]-tls",
-                "[2a06:98c1:3120::3]-tls"
+                "fancy-shape-a477.fimara4589.workers.dev-tls",
+                "[2a06:98c1:3121::2]-tls",
+                "[2a06:98c1:3120::2]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +259,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANCY-sEA-D3ed.fanIW65144.WOrKeRS.deV"
+                    "Host": "FANcY-SHaPE-a477.FiMaRA4589.Workers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/CovYXfFGwqAor0kY",
+                "path": "/dJ5GOgxr4HDYZIn6",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +277,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FanCy-sea-D3Ed.FAnIW65144.WORKERs.DeV"
+                    "Host": "FAncY-shApe-a477.FIMArA4589.woRKers.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/1SSyhJeqzgup4fQU",
+                "path": "/S8CAGIN3jOwSBEHd",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +295,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FAnCy-seA-D3eD.FAniW65144.workeRs.dEv"
+                    "Host": "FAnCy-SHApe-A477.fimaRA4589.workErs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/s4DgxOJhw2zhfmVe",
+                "path": "/PTryz0GbQi0pQ4qo",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +313,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FAncY-Sea-D3ED.FaNIw65144.wOrkeRS.dEv"
+                    "Host": "FanCY-shApe-A477.fimAra4589.workErs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/cor5OntXIz5o3UUp",
+                "path": "/rvKDrrBvoGOwBdGX",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +331,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANCy-SEA-D3ed.fANiW65144.WorkErs.DEv"
+                    "Host": "FanCY-ShapE-a477.fimARa4589.wOrKErs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/CpOg8cx1ipywOxDT",
+                "path": "/XK84TCfp6FY8xnIG",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +349,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FancY-Sea-d3ed.fANiw65144.WorKERS.Dev"
+                    "Host": "FaNCy-ShaPe-A477.FIMaRa4589.worKerS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/Vo3VFHPjV6xgUfQB",
+                "path": "/6HCIcXtGfVzqlcHj",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +367,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANcY-Sea-D3ED.faNiw65144.wOrkErs.dev"
+                    "Host": "fanCy-sHAPe-A477.FiMarA4589.wOrKeRS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/SAhfRAwrSlYYDTl2",
+                "path": "/3siiIqpmzXsLa2hk",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +385,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FaNCY-seA-D3ED.FAniW65144.worKERs.dEv"
+                    "Host": "FaNcY-shApe-A477.fimara4589.WOrkERs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/iHMxlVZDZmBPWJFA",
+                "path": "/9D0OGmRqAK6CnRHq",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +403,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fancY-seA-d3Ed.FANIw65144.wOrKerS.dEv"
+                    "Host": "FaNCY-shapE-A477.FImaRa4589.WORKERs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/PGSjXyK7ZqekcQvP",
+                "path": "/i21fHZZwpTKRPaCk",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +421,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fAncy-SeA-D3eD.fanIw65144.WORKErS.dEv"
+                    "Host": "Fancy-SHAPe-A477.FIMARA4589.wOrKERs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/hFzdYkUezwzDsoFS",
+                "path": "/hmYS6lhgYS7uHnAC",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +439,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FaNCy-sea-D3eD.FAnIW65144.WORkers.Dev"
+                    "Host": "FancY-SHapE-a477.fImAra4589.wOrkErS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/Nset1gqI5u5X8vbf",
+                "path": "/10vjuaQIrs3qk9gd",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +457,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FAncY-SEA-D3eD.FaNiw65144.woRkeRS.Dev"
+                    "Host": "Fancy-sHApE-A477.fimArA4589.WoRkErS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/gW2aHkpFxEiEdHbL",
+                "path": "/1uvDBoWMH1jJmC5d",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +475,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANcY-sEa-d3Ed.fAnIw65144.WoRkErS.DeV"
+                    "Host": "fAnCy-shApE-a477.fIMARA4589.WorKerS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/lEWlfZUKVPAjI3NI",
+                "path": "/1lrUIBGo4JodJC74",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +493,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANcY-sea-D3ED.fAniw65144.wOrkeRs.DEv"
+                    "Host": "FANCY-sHaPe-a477.fIMarA4589.wORKeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/C6OzJVPgSHB3pBxs",
+                "path": "/tYFfndm1FiEqj0bI",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +511,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "faNcY-SeA-D3eD.fAnIW65144.wOrkErs.DeV"
+                    "Host": "FaNcy-ShApe-A477.FiMARa4589.WoRKers.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/jxuB8s9yvAZlukYR",
+                "path": "/RGChyUfSTjRXI2fi",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +529,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FANCy-SEA-d3Ed.FAnIW65144.woRkerS.dEV"
+                    "Host": "fANCY-Shape-a477.fimaRA4589.WOrkeRs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/sqO39znV12bLo6OB",
+                "path": "/rJWJ3uQg52GiF5q7",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +547,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FanCY-sEA-d3ed.fANIw65144.wOrKerS.dEV"
+                    "Host": "FAnCY-shApe-A477.FimArA4589.wOrkERS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/K3DDg15VHOeBAncH",
+                "path": "/szouhXwCk1OsEhlb",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +565,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fAncY-sEa-D3eD.faNiW65144.WorkeRs.dev"
+                    "Host": "fAnCy-ShaPE-A477.FIMAra4589.worKeRs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/9juYVJXwogOE88r6",
+                "path": "/gSGxKYYfGAh6OiwL",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +583,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fanCy-SEa-d3eD.faNiw65144.WORkeRs.dev"
+                    "Host": "FANCy-SHaPe-a477.fIMAra4589.WoRKERS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/TnQ23opLLIaN8LGL",
+                "path": "/Y12uqmJeAcFYCk0C",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +601,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FanCy-SeA-D3ED.FanIW65144.wORkeRS.DeV"
+                    "Host": "fANCy-ShaPe-A477.fiMarA4589.WorkeRs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/HPIUGvgKxwD1KYLf",
+                "path": "/8rFYFndg1Mz2vzqg",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +619,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fancy-SeA-d3ED.FAnIw65144.woRkeRS.DEV"
+                    "Host": "fANcy-ShApe-a477.fiMaRA4589.woRkerS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/h3aPKo4toUvmzo0H",
+                "path": "/beI4hnqrxxgac135",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +637,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fAnCY-sea-d3Ed.faNiw65144.WOrKErS.DEv"
+                    "Host": "fanCy-sHAPE-A477.fiMaRa4589.WorKers.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/5KsSCMCs4DCHfjH8",
+                "path": "/Ov8fB2V0PCnTCF9I",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +655,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fanCy-sea-D3ed.faNiW65144.woRKerS.dEv"
+                    "Host": "FAnCY-shapE-a477.fImArA4589.WoRKErS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/qdoyiHvQr02ZD3KG",
+                "path": "/qclerwV2dKgWQ0bH",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "fancy-sea-d3ed.faniw65144.workers.dev",
+            "server": "fancy-shape-a477.fimara4589.workers.dev",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FanCY-SEA-D3eD.FanIw65144.WORkers.dEv"
+                    "Host": "fancY-ShapE-A477.FImARa4589.WoRKERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/96my8uzWXrnsZ8iK",
+                "path": "/J50Cfa1ez907aNS0",
                 "type": "ws"
             },
-            "tag": "fancy-sea-d3ed.faniw65144.workers.dev"
+            "tag": "fancy-shape-a477.fimara4589.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2a06:98c1:3121::2]",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "FaNcy-Sea-d3ed.FaNIw65144.woRKers.dev"
+                    "Host": "FANcY-ShApE-a477.FimarA4589.worKeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/n0Q6Ju9I8NM96VHt",
+                "path": "/YUQbJbR5bnLepDyl",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]"
+            "tag": "[2a06:98c1:3121::2]"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2a06:98c1:3120::2]",
             "server_port": 8880,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "fANCY-seA-d3ed.FaNIW65144.woRKeRS.DEV"
+                    "Host": "FancY-ShAPE-A477.FImara4589.WorKERs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/9AXCyGis3Yi5b2Wf",
+                "path": "/6sCM0OKpO6Xf3rQ6",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]"
+            "tag": "[2a06:98c1:3120::2]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FanCy-sea-d3ed.FANiw65144.WORKERs.DeV",
+                "server_name": "FanCy-sHapE-A477.Fimara4589.WORkers.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fANCY-sEa-D3eD.faNIW65144.WoRkeRs.deV"
+                    "Host": "FAncY-ShApe-A477.fIMArA4589.Workers.dEV"
                 },
-                "path": "/98GHY4YodsTtt46b",
+                "path": "/5MypEaFildMLlkUD",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fANcy-sEa-D3eD.fAnIW65144.woRkERS.DEV",
+                "server_name": "FanCy-shApE-A477.fimara4589.WOrKeRS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fANcY-sEa-d3Ed.Faniw65144.WorkeRS.DeV"
+                    "Host": "fanCy-shApE-a477.FimARa4589.WOrkErS.dEv"
                 },
-                "path": "/e0dPykWFsx4qzsIN",
+                "path": "/1FUjyqkn9IC5NJci",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +787,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fANCy-seA-d3ed.faniw65144.WoRKErs.dEv",
+                "server_name": "FAncy-ShaPe-a477.fImAra4589.WOrKeRs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fANcy-sEa-D3Ed.Faniw65144.WoRKErs.dEv"
+                    "Host": "FanCy-shaPe-A477.FimarA4589.woRkers.dEv"
                 },
-                "path": "/HnOaT5b05D3fuVKp",
+                "path": "/cHPHpncBWShhJrAc",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +817,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "Fancy-SEA-d3ED.FANiW65144.wORKERS.dev",
+                "server_name": "fancy-SHapE-A477.FiMaRa4589.WorkErs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fAnCY-SEa-d3ed.fANIW65144.woRKeRS.DEV"
+                    "Host": "FanCy-SHApe-A477.FimAra4589.WOrkERS.dEv"
                 },
-                "path": "/ZrFuETlC6OgJ9rwn",
+                "path": "/AV2p7nL74klqjlgl",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +847,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FAncy-Sea-D3ed.FaNiw65144.WORKeRs.dEv",
+                "server_name": "fANCy-shAPe-A477.fImAra4589.WorkerS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FANCY-SeA-d3ed.FANIW65144.wOrkeRs.Dev"
+                    "Host": "FANCy-SHAPe-a477.fIMaRa4589.WorKErs.DEV"
                 },
-                "path": "/7Q05trqspz2fy9Ze",
+                "path": "/FW9KbJFXPeBno0Cy",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +877,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "Fancy-seA-d3Ed.FAniW65144.wOrkeRs.Dev",
+                "server_name": "FAnCy-shAPE-a477.FIMAra4589.wOrKeRs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FanCY-sea-d3ED.FaNIw65144.worKerS.dev"
+                    "Host": "FanCy-sHaPE-A477.fImarA4589.wOrKErS.Dev"
                 },
-                "path": "/YrqprVOjwqqWpKvZ",
+                "path": "/scxp8TxzOzZXftpO",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +907,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FAncY-SEA-D3eD.FANIW65144.woRKErS.Dev",
+                "server_name": "fANcY-sHapE-a477.FIMaRa4589.woRKeRs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fanCy-sEA-d3ed.faNIw65144.wORkers.Dev"
+                    "Host": "fAncy-shaPe-a477.fimARa4589.wOrkErS.DEv"
                 },
-                "path": "/Xk4RuA98F48p0tBh",
+                "path": "/PNz7NVUgcFxNU4oF",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +937,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fAnCY-sea-d3ED.fanIW65144.wOrKERS.deV",
+                "server_name": "fAnCY-SHaPE-a477.fiMaRA4589.wORKERS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "Fancy-sEA-D3Ed.FANiw65144.workERS.DEV"
+                    "Host": "fAncY-ShApe-A477.FiMaRa4589.WORkerS.deV"
                 },
-                "path": "/RJVICzfa3CejVd7A",
+                "path": "/gwPBSXqP05DCEMeB",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +967,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fancy-sEa-D3eD.FanIW65144.woRKeRs.dEv",
+                "server_name": "FANCY-sHapE-a477.FIMAra4589.woRKeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fANcy-sEA-D3Ed.faNiw65144.WOrKers.DEv"
+                    "Host": "fancY-shapE-a477.FimARA4589.wOrkeRs.DEv"
                 },
-                "path": "/baABFpp8AlPiIQ2A",
+                "path": "/xhervmDzpzUu93Qq",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +997,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fanCy-sEA-D3ed.fANIW65144.WoRkerS.dEv",
+                "server_name": "fAncy-sHApE-a477.FImARA4589.WoRkErs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FaNCY-SEa-D3Ed.fAnIw65144.WOrKERS.Dev"
+                    "Host": "FANcY-SHape-A477.FimarA4589.WOrkeRS.DEV"
                 },
-                "path": "/igbLAJADixhDHktM",
+                "path": "/VqNFyhDFoaQnWzkY",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FaNCy-sEA-D3eD.FanIw65144.WOrkERS.DeV",
+                "server_name": "FaNcY-ShaPE-A477.fImARa4589.woRkers.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FANcY-SEa-D3Ed.FANIw65144.WorKeRS.dEv"
+                    "Host": "fancY-SHapE-a477.fimArA4589.WorKErS.DEV"
                 },
-                "path": "/6vmic5zWI06mqDXT",
+                "path": "/L3p4xQLu42bt5ss9",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1057,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fAnCy-SEA-D3eD.FanIw65144.WORKErs.DEv",
+                "server_name": "FAnCy-SHaPe-a477.FimaRA4589.WOrkERs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fancy-SEa-d3Ed.FaNIW65144.woRKers.dEV"
+                    "Host": "FanCy-shApE-A477.fIMAra4589.WORKErS.dEv"
                 },
-                "path": "/Nj8l6xcOczGqQEvq",
+                "path": "/HXbsfRzfsmOgNr5Z",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "Fancy-sEA-D3ed.FaNIw65144.workErS.dev",
+                "server_name": "faNCY-shape-A477.FIMARA4589.wOrKERs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fAncy-SEa-d3Ed.FaniW65144.worKErS.DEV"
+                    "Host": "fANCY-sHAPe-A477.FIMARa4589.woRKErS.dEv"
                 },
-                "path": "/uRH30i7e6jfxi8mc",
+                "path": "/O1npUyJRb74VG1eb",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1117,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FANCy-sEa-d3Ed.FAnIw65144.wORKERs.Dev",
+                "server_name": "FanCY-ShapE-a477.FimARA4589.WOrkErs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FANCY-SEa-d3eD.FANiw65144.WorkeRS.dev"
+                    "Host": "FaNCy-shape-a477.FimAra4589.woRKeRs.DEV"
                 },
-                "path": "/Vz1BFqYutZOEN2Fl",
+                "path": "/DppqhmbjXJAeARDC",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1147,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "faNCY-sEa-d3eD.FAnIw65144.woRKeRs.DEV",
+                "server_name": "fancY-ShApE-A477.Fimara4589.WoRKERS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fanCy-SeA-d3eD.FaNiW65144.wOrKErS.DeV"
+                    "Host": "fanCY-ShAPE-a477.FIMARa4589.wORKers.deV"
                 },
-                "path": "/76j9WiOvYQ5MREGQ",
+                "path": "/e7bpqRt05koh7yU8",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1177,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fanCY-seA-d3ed.faNIW65144.woRKERS.DEV",
+                "server_name": "fANCy-sHape-a477.fimARa4589.WoRKeRS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FaNCy-SeA-d3eD.faniW65144.workeRS.DEV"
+                    "Host": "fANcy-sHApE-a477.fimarA4589.woRKers.DEV"
                 },
-                "path": "/53F2WzjVMwT3vI0g",
+                "path": "/fbtw8h4Cg28lvF9P",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1207,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fAnCy-sEA-D3ed.fANIw65144.woRkERs.DeV",
+                "server_name": "FAnCy-shApE-A477.FIMaRA4589.WORkERS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FANcy-seA-D3Ed.FaNIw65144.wOrkeRs.dev"
+                    "Host": "faNcY-ShaPE-a477.fImaRa4589.WoRKers.dev"
                 },
-                "path": "/xhsquHoutHmQbF12",
+                "path": "/vbke2jumgK6Vr63L",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1237,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fANCY-seA-d3Ed.FaNiW65144.WorkerS.dEv",
+                "server_name": "fANCY-ShAPe-A477.fimAra4589.WORKERs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FanCy-Sea-D3ED.faNiW65144.WorKerS.DeV"
+                    "Host": "FanCy-ShAPe-a477.fimaRa4589.wORkeRs.deV"
                 },
-                "path": "/TNE1erV1W210nsG2",
+                "path": "/PRAKsXpTZgMK1YMM",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1267,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fancY-sEa-D3ED.FAnIw65144.wORkErS.deV",
+                "server_name": "FAncY-sHapE-A477.fimArA4589.worKERs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fAncY-SeA-D3eD.faniW65144.wORKeRs.DEV"
+                    "Host": "FancY-ShaPE-a477.fImara4589.wORkerS.dEv"
                 },
-                "path": "/jxrdwJCt3uPMSThE",
+                "path": "/j577vuy678I9n2OW",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1297,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fAncY-SEa-d3Ed.FAniW65144.wORkErs.dEV",
+                "server_name": "faNcY-SHAPe-a477.fImarA4589.WOrKers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FAncy-Sea-D3ed.FaNiW65144.worKERs.Dev"
+                    "Host": "fAncY-SHAPe-a477.FImARA4589.worKErS.dev"
                 },
-                "path": "/a7lppPrDsehohN8c",
+                "path": "/hhfEqesKnWt2k6l0",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1327,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "FANCY-sEa-d3Ed.FANIW65144.WORkeRS.DEv",
+                "server_name": "fanCy-sHaPE-A477.FiMARA4589.WOrKErS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FANcY-seA-D3eD.faniw65144.wORKErS.DEv"
+                    "Host": "fANCY-ShApe-A477.FiMaRa4589.WOrkerS.DeV"
                 },
-                "path": "/kYVg44mEoKpyoaZA",
+                "path": "/d481F5JZtvOf7UWC",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1357,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fANcY-sEA-D3eD.FAniW65144.wOrKeRS.DEV",
+                "server_name": "fANCy-shApe-A477.fIMara4589.WorKerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FAnCy-SEA-d3ed.fANiw65144.WorKeRS.dev"
+                    "Host": "FaNcy-SHaPe-a477.fiMARA4589.wORkErs.Dev"
                 },
-                "path": "/zuqC7cGWvjTEnh5h",
+                "path": "/o7qf8aFkpYtLTsdV",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1387,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "faNcY-seA-d3eD.FanIW65144.wOrkErs.dEv",
+                "server_name": "FANCy-shapE-A477.fImaRa4589.WorKErs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1406,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "fanCy-Sea-D3eD.faniw65144.wOrKeRs.Dev"
+                    "Host": "fANcY-SHape-a477.FiMaRa4589.woRKeRs.DeV"
                 },
-                "path": "/FCRfiLqaqpoNwktX",
+                "path": "/lXXPDMztytRFcOwh",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "fancy-sea-d3ed.faniw65144.workers.dev",
+            "server": "fancy-shape-a477.fimara4589.workers.dev",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fancY-SEA-D3eD.Faniw65144.wORKerS.Dev",
+                "server_name": "FANCY-SHApe-A477.FImAra4589.workERs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1436,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "faNcy-SeA-D3ed.fANIw65144.workERS.DEV"
+                    "Host": "FAncy-shApe-a477.fIMAra4589.woRkeRS.DEv"
                 },
-                "path": "/qh74vwNRTVN5h8Hh",
+                "path": "/NQLmUmhho2o8uzWP",
                 "type": "ws"
             },
-            "tag": "fancy-sea-d3ed.faniw65144.workers.dev-tls"
+            "tag": "fancy-shape-a477.fimara4589.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2a06:98c1:3121::2]",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "faNcy-sea-d3ed.FaNIw65144.WoRkERS.dEv",
+                "server_name": "faNcy-shaPe-a477.fimara4589.worKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1466,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FAnCy-SeA-D3eD.FaNiW65144.woRkErS.dEV"
+                    "Host": "faNcy-ShAPe-a477.fimara4589.WorKErs.DEV"
                 },
-                "path": "/OLqvAWQe4SkAsYPD",
+                "path": "/5o049GZ4Hi7HqUsb",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]-tls"
+            "tag": "[2a06:98c1:3121::2]-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2a06:98c1:3120::2]",
             "server_port": 8443,
-            "uuid": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+            "uuid": "619965e2-da99-4770-baf7-e7e0f84d0276",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "fanCy-SeA-d3ed.fANIw65144.WorKeRS.dev",
+                "server_name": "faNCy-SHape-a477.FiMaRa4589.wOrKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "FancY-SEA-d3ED.FANiW65144.wORKerS.dEv"
+                    "Host": "fAncY-SHAPE-A477.FimaRA4589.workERS.DEV"
                 },
-                "path": "/mWZP0G9VgGzmEMdV",
+                "path": "/Oi9yXhJZkb0sHL5e",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]-tls"
+            "tag": "[2a06:98c1:3120::2]-tls"
         }
     ],
     "route": {
