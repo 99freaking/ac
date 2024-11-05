@@ -53,10 +53,6 @@
         ],
         "rules": [
             {
-                "outbound": "any",
-                "server": "dns-direct"
-            },
-            {
                 "domain_suffix": [
                     ".ir"
                 ],
@@ -67,6 +63,10 @@
                     "geosite-ir"
                 ],
                 "server": "dns-local"
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct"
             },
             {
                 "disable_cache": true,
@@ -151,9 +151,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "muddy-waterfall-c10b.tixid15058.workers.dev",
-                "[2606:4700:3033::ac43:d14d]",
-                "[2606:4700:3037::6815:4afd]",
+                "empty-base-5571.fifed36728.workers.dev",
+                "[2606:4700:3033::6815:554f]",
+                "[2606:4700:3034::ac43:cbd8]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +177,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "muddy-waterfall-c10b.tixid15058.workers.dev-tls",
-                "[2606:4700:3033::ac43:d14d]-tls",
-                "[2606:4700:3037::6815:4afd]-tls"
+                "empty-base-5571.fifed36728.workers.dev-tls",
+                "[2606:4700:3033::6815:554f]-tls",
+                "[2606:4700:3034::ac43:cbd8]-tls"
             ]
         },
         {
@@ -209,9 +209,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "muddy-waterfall-c10b.tixid15058.workers.dev",
-                "[2606:4700:3033::ac43:d14d]",
-                "[2606:4700:3037::6815:4afd]",
+                "empty-base-5571.fifed36728.workers.dev",
+                "[2606:4700:3033::6815:554f]",
+                "[2606:4700:3034::ac43:cbd8]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +235,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "muddy-waterfall-c10b.tixid15058.workers.dev-tls",
-                "[2606:4700:3033::ac43:d14d]-tls",
-                "[2606:4700:3037::6815:4afd]-tls"
+                "empty-base-5571.fifed36728.workers.dev-tls",
+                "[2606:4700:3033::6815:554f]-tls",
+                "[2606:4700:3034::ac43:cbd8]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +259,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUDdY-wateRfAll-c10b.tIXid15058.woRKErS.deV"
+                    "Host": "emptY-base-5571.fiFed36728.wORkErS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/LSENbuqiR47kIPFK",
+                "path": "/KRxHiqirqBiYLBKW",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +277,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mUdDY-WaTErfALl-c10b.tIXiD15058.wORkeRs.dEV"
+                    "Host": "eMPTY-BaSE-5571.FifEd36728.WorKeRS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/JpL3ESDRIvAK8kEi",
+                "path": "/nfOHAzVUF7DLyZT7",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +295,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mudDy-wATErfall-C10B.TixiD15058.WOrKeRs.dev"
+                    "Host": "EMpTy-basE-5571.fifED36728.WORKErS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/zmDeVUStKRRAd7Kh",
+                "path": "/fkLPFsSPrph8iEXw",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +313,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muDdy-WaTErfAll-c10B.TIxID15058.woRKers.DEV"
+                    "Host": "EmPty-bAse-5571.fiFeD36728.wORKers.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/08YpHhdwKAMqBhmO",
+                "path": "/t4FL3VfEis1cgitG",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +331,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mudDy-WATerFALL-c10B.tIxId15058.WOrkErs.DEv"
+                    "Host": "empTY-basE-5571.fiFED36728.workERS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/R2csogzdDew0zQNi",
+                "path": "/0Vrx9tmUSvGhWaJ0",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +349,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mUDDY-waTErfAll-c10B.tixID15058.workErS.DEV"
+                    "Host": "EMPTy-bAse-5571.fiFed36728.wOrkErS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/D9eoiiPC3mKxBjXN",
+                "path": "/PiAgSF4mksQn2OOb",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +367,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUDdY-waTeRFaLL-c10b.tIxid15058.WorKeRs.deV"
+                    "Host": "EMPTY-baSE-5571.fIfeD36728.wOrkERS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/IBsvaJFWzUdIO7Tc",
+                "path": "/oYz9IeoOySVF4vlS",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +385,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MuDDY-watErfall-C10B.TiXiD15058.WoRKErS.dEv"
+                    "Host": "eMPTY-BASe-5571.FIFeD36728.WorKers.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/qjBTRvoORPY3BSq3",
+                "path": "/4ziru8cdKhpkvRcT",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +403,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MuDDY-wAterFAll-C10b.tiXID15058.woRKErS.Dev"
+                    "Host": "eMPtY-bASE-5571.fIfEd36728.wOrKeRs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/sZfiLONwtrsvhhYl",
+                "path": "/AhwInH5pltilY7Ia",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +421,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muddy-WaTErFall-c10b.tIXiD15058.wOrKErs.deV"
+                    "Host": "EmpTY-bAsE-5571.fifEd36728.WoRkers.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/e9I7PdFGvA3wvJtF",
+                "path": "/V2F2JM6x43QGIfUU",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +439,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUDDY-WAterfAll-c10b.tIxiD15058.woRkERs.deV"
+                    "Host": "EMPty-baSE-5571.FIFeD36728.wOrkERS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/I6PXZ472dJIhcdyt",
+                "path": "/SML2DzfCTpvzu7oY",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +457,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muddy-WATERFALl-c10b.TIXiD15058.WoRKeRS.DEv"
+                    "Host": "EmpTY-BaSe-5571.fIfed36728.wORkerS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/NFfk79zpAPt2n4mA",
+                "path": "/3VSfFo7B7yn25BMu",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +475,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mudDY-WaTeRFall-C10b.tIxiD15058.WoRKeRS.Dev"
+                    "Host": "eMptY-bASE-5571.FiFEd36728.WOrkErs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/cWqhFgLVYzgPaheb",
+                "path": "/qiv41OHKCwKdQdsm",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +493,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUddy-WAterFall-c10B.TiXID15058.WORKErS.DeV"
+                    "Host": "eMpTy-baSe-5571.fiFeD36728.WorKers.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/JpuFyyzVFOU67Zwn",
+                "path": "/Drr0ZkkOBzAC3q2U",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +511,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MudDy-wateRfAlL-c10b.tiXiD15058.worKERs.DEV"
+                    "Host": "eMPty-base-5571.FiFeD36728.WoRKeRS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/yDR9FVseph386GME",
+                "path": "/y3mImGlBxP7HZ7po",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +529,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "Muddy-WATErfaLL-C10b.tixiD15058.wORkErS.dev"
+                    "Host": "eMPTy-baSe-5571.fIfed36728.wOrkErS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/F75lDoxrrTo2vSQC",
+                "path": "/ANA3SFBnb9MEWaNL",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +547,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muddY-WateRfALl-C10B.TIxId15058.WORKERs.deV"
+                    "Host": "EMpTY-Base-5571.FIfed36728.wORkErS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/wVtOuDzYLNf3JuLJ",
+                "path": "/BrXpQL4DWudV8erg",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +565,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mudDy-waTerfall-C10B.TIxID15058.WOrkERS.DEV"
+                    "Host": "EMPTY-base-5571.FiFED36728.wORkerS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/8fYviw43QI5iJQlK",
+                "path": "/JCR5119VUDxcBHtd",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +583,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUDdY-WATERFALL-c10b.TIxID15058.WOrKeRs.dEV"
+                    "Host": "EMPtY-Base-5571.FIFeD36728.wORkeRS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/Dfciq3HPBz7GkE6J",
+                "path": "/loEWWYsk9QtaEzWJ",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +601,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MuddY-WATERfaLL-C10B.TIxID15058.woRkerS.DEv"
+                    "Host": "empty-bASE-5571.fIfed36728.WORkeRS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/ZfthmttaCMMyVEDT",
+                "path": "/dNG1U9L5qUIguuMq",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +619,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muDDY-WateRfall-c10b.tIXId15058.workeRs.deV"
+                    "Host": "EMPTy-baSE-5571.fIfeD36728.wORKeRS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/FNNJrmMxsQHupDiA",
+                "path": "/LFJki61am0KHdTJu",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +637,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mUDDY-WAtErfALl-c10b.tIXID15058.worKeRs.dEv"
+                    "Host": "EmPTY-baSe-5571.FIFeD36728.workeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/xX3MwkWBZW5TAzxY",
+                "path": "/fP9zGOh3a6N6v0Kc",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +655,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "muddy-WatERfall-C10B.TiXID15058.worKerS.deV"
+                    "Host": "emPty-basE-5571.fIfeD36728.WorkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/wBTsLKhGsnEGPLVl",
+                "path": "/Q9t9rKRowV3PEFCq",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "muddy-waterfall-c10b.tixid15058.workers.dev",
+            "server": "empty-base-5571.fifed36728.workers.dev",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUDDy-waTeRfAll-c10B.tiXID15058.wOrKErs.DeV"
+                    "Host": "EMPTy-bAse-5571.FIfed36728.WORkers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/NBXCjvwtR1Qa70xL",
+                "path": "/CmGqu0soX4TXeSHb",
                 "type": "ws"
             },
-            "tag": "muddy-waterfall-c10b.tixid15058.workers.dev"
+            "tag": "empty-base-5571.fifed36728.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3033::ac43:d14d]",
+            "server": "[2606:4700:3033::6815:554f]",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "MUdDy-wATErfaLL-c10B.tixid15058.WoRkErS.DEV"
+                    "Host": "eMptY-BASE-5571.fifEd36728.wORKERs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/WijnQM5IXQ7IVWij",
+                "path": "/if5sMZt0PZgWlkAU",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3033::ac43:d14d]"
+            "tag": "[2606:4700:3033::6815:554f]"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3037::6815:4afd]",
+            "server": "[2606:4700:3034::ac43:cbd8]",
             "server_port": 8880,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "mUdDY-waterfAll-c10b.TIXid15058.worKeRs.dEV"
+                    "Host": "EmpTY-BASe-5571.FIfED36728.wOrkERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/Jw43xvkO3VyRbx9N",
+                "path": "/fpKgaxau1pd8EZWJ",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3037::6815:4afd]"
+            "tag": "[2606:4700:3034::ac43:cbd8]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUdDY-WaTeRfAll-C10B.TIXiD15058.workers.DEV",
+                "server_name": "eMPTy-base-5571.fiFED36728.worKERs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDDy-WAtErfALL-c10b.tixID15058.WOrKeRS.dEV"
+                    "Host": "EMpTy-base-5571.fIfed36728.WorkERS.dev"
                 },
-                "path": "/4Pc37VDH2Z0Kv5nP",
+                "path": "/U3AkbU5ru0Alv6Jb",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUddY-WAterFAll-c10b.TIxid15058.WorkERS.dEV",
+                "server_name": "eMptY-BASE-5571.fifEd36728.wORKERS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUDdY-wATeRfALL-c10b.TIxid15058.wORkERs.dEV"
+                    "Host": "eMPty-bAsE-5571.FIfeD36728.WoRKers.Dev"
                 },
-                "path": "/ZcYrsPIhc3xAgTvX",
+                "path": "/AcqYmHpU47Bhmqg7",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +787,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUDDy-wAterFaLL-C10B.tIXid15058.WOrkERs.dEv",
+                "server_name": "eMPTY-BASE-5571.FIFEd36728.wOrKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "Muddy-wAterfaLL-c10B.tiXId15058.woRkErs.deV"
+                    "Host": "eMPTY-bAsE-5571.fiFEd36728.wORkErs.Dev"
                 },
-                "path": "/3Mzc07uDm1t7lmxS",
+                "path": "/9tCUjqHc57CjwZCi",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +817,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MudDY-WaTErfaLl-c10b.tiXiD15058.WorKeRS.DeV",
+                "server_name": "EMpTY-BASE-5571.FIfed36728.WORkErS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "mudDy-WAtERfaLL-C10b.tixId15058.WoRkeRs.dEV"
+                    "Host": "EMPTY-BasE-5571.fifEd36728.worKErS.dEv"
                 },
-                "path": "/BLpJUHVFsZCzrLQw",
+                "path": "/UlJVUgW6kvEOB1s3",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +847,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mUddy-WatERFalL-c10b.TIXId15058.WOrKeRS.Dev",
+                "server_name": "emPTY-bAse-5571.FIfEd36728.WorKerS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MudDy-watErfAlL-C10b.tIxID15058.WorkeRS.dev"
+                    "Host": "EmPTY-BaSe-5571.fIFED36728.wORkERS.dev"
                 },
-                "path": "/NvnuJijg37cjTds4",
+                "path": "/kULBb9nVyyk7opN1",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +877,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mUddY-wAterfall-c10b.TixID15058.woRkERs.DEV",
+                "server_name": "Empty-bASe-5571.fifed36728.WorKErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDdY-wAterFaLl-c10B.TiXId15058.WoRkERs.DeV"
+                    "Host": "EmPty-Base-5571.FIfED36728.WoRKErs.DEV"
                 },
-                "path": "/fCyRXiFiEapcPp7z",
+                "path": "/P6NXpoBRxh4JzgNs",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +907,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUdDy-wATeRfALL-c10b.tIxId15058.WORkerS.dEv",
+                "server_name": "eMptY-baSe-5571.FiFEd36728.wOrKers.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDDY-WaTeRFall-C10B.TixiD15058.WORKERs.dev"
+                    "Host": "EMpty-base-5571.FifEd36728.wOrKERs.DEv"
                 },
-                "path": "/TnHaPziO6LGY4cn9",
+                "path": "/iKIXrLOdWXPBiyqy",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +937,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUDdy-waterfall-C10b.TIxID15058.WORkERS.deV",
+                "server_name": "EmPTy-BASe-5571.FIFEd36728.woRKERs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "mUDDY-wAterFaLL-c10B.TIXiD15058.WorkErs.dEV"
+                    "Host": "eMpty-bASE-5571.fiFeD36728.WorkeRS.DEv"
                 },
-                "path": "/SjcWT4B2G4yPo8Ob",
+                "path": "/fefqAbx4ycdcRPhA",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +967,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUdDY-wATerFALL-c10b.tIXId15058.woRKERs.dEV",
+                "server_name": "emPtY-BaSE-5571.FiFeD36728.WOrkeRs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MudDY-wATeRFAlL-C10b.tIXId15058.wOrkeRS.DEV"
+                    "Host": "EmPTy-baSE-5571.fiFeD36728.woRkeRS.dEV"
                 },
-                "path": "/b5bLSZaunEh6DBT6",
+                "path": "/A419ns1UDPDaIcEE",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +997,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MuDdY-WATErfALL-c10B.tiXid15058.WORKErS.DEV",
+                "server_name": "EMPTy-Base-5571.FIfed36728.WORkERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUddy-waTERfALl-C10b.tIxiD15058.WorKeRS.dEV"
+                    "Host": "eMPTY-BaSe-5571.fifeD36728.woRkeRS.dEv"
                 },
-                "path": "/T1hmpux5HDmwQDPN",
+                "path": "/AgyoWmh1rD3fJoNY",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mUDdy-waTErFALl-c10b.tiXID15058.wORKERS.dEv",
+                "server_name": "EMptY-basE-5571.fIFED36728.WOrKErS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDdy-waTeRfALl-C10B.tIXID15058.wOrkerS.dev"
+                    "Host": "Empty-BaSe-5571.fifeD36728.woRKErS.dev"
                 },
-                "path": "/byNwD9MQkmQsz32w",
+                "path": "/nqTWHAUZaEzurahf",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1057,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MuDdy-WATERfAlL-C10B.TiXiD15058.WorKeRS.dev",
+                "server_name": "EMPTY-bASe-5571.FifeD36728.WORKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDdY-WaTeRfaLL-C10B.TIXiD15058.worKErS.dEV"
+                    "Host": "EmpTy-bASe-5571.FIfed36728.WoRKers.dEv"
                 },
-                "path": "/Tmt2gjA2trJ1Q2l3",
+                "path": "/lonw5Gvsl8PUz8vy",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUddy-waterfAlL-C10B.TiXiD15058.WORKers.DEv",
+                "server_name": "emPtY-bAse-5571.FifeD36728.woRKerS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUdDY-WatErfaLL-c10B.TIXId15058.WorKerS.dEV"
+                    "Host": "EMpTY-bASe-5571.FIfed36728.wORkeRS.DEV"
                 },
-                "path": "/M7Ukw9j8xJFiVd1b",
+                "path": "/TKARdygpgmMVd4hA",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1117,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "muddy-WatErFaLl-C10B.tixId15058.WOrkERs.Dev",
+                "server_name": "eMptY-bAsE-5571.FiFED36728.wORKers.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDdy-WATERfAll-c10b.TixiD15058.worKers.DEV"
+                    "Host": "EMPTy-BasE-5571.fIFed36728.wOrkERs.dEv"
                 },
-                "path": "/OWUtKNrdEutUEN63",
+                "path": "/6yWg7D8U6mmY9N9m",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1147,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mUdDY-wAterfalL-C10B.TIxID15058.wOrKErs.deV",
+                "server_name": "EMPtY-bAse-5571.FiFed36728.worKERs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDDY-wAteRFaLl-C10b.tiXID15058.woRkerS.dEv"
+                    "Host": "emPTY-bAse-5571.FIfeD36728.WOrkERs.dev"
                 },
-                "path": "/i1iw6qsFwrCjwCWd",
+                "path": "/KasIhaSZFmjQw7jl",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1177,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUDDy-waTErfaLL-c10b.TIxid15058.woRkeRS.dev",
+                "server_name": "EmpTy-bASe-5571.FiFED36728.woRkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDdY-WaTerFALl-c10b.TIxID15058.WorKErs.DeV"
+                    "Host": "EmPtY-Base-5571.FIfEd36728.WorkERS.dEv"
                 },
-                "path": "/gIWYd40qgLfZgJrR",
+                "path": "/jIbKdJjItCP2PJau",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1207,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MuDDY-wATErfaLL-C10B.TiXiD15058.wORKERs.dEv",
+                "server_name": "empty-basE-5571.fiFEd36728.wORkers.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUdDy-WAtErfalL-C10b.tiXiD15058.woRKErS.DeV"
+                    "Host": "emPTy-BASe-5571.FIfeD36728.wORkErS.DeV"
                 },
-                "path": "/d7hXKPUX3xAPpcxh",
+                "path": "/uNUdrtPfNoO1YNxI",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1237,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mudDY-WaterFAll-C10B.TIXID15058.worKers.DEV",
+                "server_name": "eMPTy-baSE-5571.FiFeD36728.WorKErS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muddy-wateRFAlL-c10B.TiXid15058.WORKeRS.deV"
+                    "Host": "EmPTy-bAsE-5571.FiFEd36728.wOrkeRS.DEV"
                 },
-                "path": "/TxNd3QUO9p55ogn3",
+                "path": "/RgKvbNbSm95vuiIe",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1267,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "muddy-waTerfALl-c10b.TIxID15058.woRKerS.DEV",
+                "server_name": "emPTy-baSE-5571.fIfeD36728.wORKers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "mUddY-WaterFALl-C10B.tiXID15058.WorKErS.DeV"
+                    "Host": "emPty-bASE-5571.FiFEd36728.WOrkers.dEV"
                 },
-                "path": "/ZBUe63nnL60YOWYz",
+                "path": "/8Ov0AsTidbq5DHng",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1297,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "muDDY-WaterfAlL-c10b.tIxID15058.wOrkeRs.DEv",
+                "server_name": "emPTy-bASE-5571.FIfed36728.wOrKers.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "mudDY-WATERFAll-c10b.tIxiD15058.WORkeRS.deV"
+                    "Host": "emPtY-BaSe-5571.FifED36728.workErS.Dev"
                 },
-                "path": "/20hBdUTSXAySmZpx",
+                "path": "/pBCtxSl9HYQcNoLR",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1327,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "muDdy-WAtERFall-C10B.tiXid15058.wOrKers.DEv",
+                "server_name": "eMPTy-Base-5571.fifed36728.WorkErS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUDDy-WAteRfalL-c10B.tIXiD15058.woRKERS.Dev"
+                    "Host": "emPty-BASE-5571.fifed36728.wOrkErS.dEv"
                 },
-                "path": "/ERpXACTsKpme4AXU",
+                "path": "/9umLisMwfs38q55h",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1357,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "muDdY-WAtErFall-c10b.tiXid15058.WoRkers.DEV",
+                "server_name": "EmPTy-BAse-5571.fIfed36728.woRKERs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDDY-waterfalL-c10b.TIXiD15058.wORKErs.deV"
+                    "Host": "emPTY-bAsE-5571.fifeD36728.WorKErS.DEV"
                 },
-                "path": "/aW61iMmtkXqmcued",
+                "path": "/bIHISZIyNeXcYqnq",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1387,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUDDY-watErFALL-C10B.TixiD15058.WoRKerS.DeV",
+                "server_name": "empTY-BaSE-5571.FIfEd36728.WOrkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1406,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDDY-WateRFaLL-c10B.tiXId15058.wORKERs.Dev"
+                    "Host": "Empty-BAse-5571.FIfED36728.WorkERs.Dev"
                 },
-                "path": "/sqkRO8iTP9AGQbC4",
+                "path": "/XVeftxWQ7m3CrK2F",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "muddy-waterfall-c10b.tixid15058.workers.dev",
+            "server": "empty-base-5571.fifed36728.workers.dev",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MUDDy-waTeRfAlL-c10B.tiXiD15058.WORKErs.dev",
+                "server_name": "EMPTY-BaSE-5571.FIFed36728.WOrkerS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1436,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "muDdy-wateRFAlL-c10B.TixID15058.wORKers.DeV"
+                    "Host": "EMpTY-BASe-5571.fIFed36728.wORKeRS.DEv"
                 },
-                "path": "/ex2IlwBMF4DD2e41",
+                "path": "/GgYabZuPxZZOXxjn",
                 "type": "ws"
             },
-            "tag": "muddy-waterfall-c10b.tixid15058.workers.dev-tls"
+            "tag": "empty-base-5571.fifed36728.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3033::ac43:d14d]",
+            "server": "[2606:4700:3033::6815:554f]",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "MuDDY-wAtErFall-C10B.Tixid15058.WORKeRS.dEV",
+                "server_name": "EmPty-Base-5571.fifeD36728.WorKErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1466,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MuDdY-wAteRfall-C10b.tixID15058.workERS.DEv"
+                    "Host": "emPty-bASe-5571.fiFeD36728.WOrkErS.DEV"
                 },
-                "path": "/RG5BkVJXBGkUmhuJ",
+                "path": "/a3HIxVNiVmgLhKZ1",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3033::ac43:d14d]-tls"
+            "tag": "[2606:4700:3033::6815:554f]-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3037::6815:4afd]",
+            "server": "[2606:4700:3034::ac43:cbd8]",
             "server_port": 8443,
-            "uuid": "2fd9e7c6-d9ed-47ff-a8c4-994edd111267",
+            "uuid": "0ea263f3-ff03-4350-b7fa-4b17b857678e",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "mUdDy-WATERfaLL-C10b.TixiD15058.woRkers.dEV",
+                "server_name": "emptY-BASE-5571.FifEd36728.WORkERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "MUddy-WATerFall-c10B.TiXiD15058.WOrKERS.DEV"
+                    "Host": "EMPTY-BasE-5571.FiFED36728.woRKERS.DEv"
                 },
-                "path": "/ddURqq48dp7FjRAL",
+                "path": "/JikI5nLYplIEjV04",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3037::6815:4afd]-tls"
+            "tag": "[2606:4700:3034::ac43:cbd8]-tls"
         }
     ],
     "route": {
