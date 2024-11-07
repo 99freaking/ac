@@ -53,10 +53,6 @@
         ],
         "rules": [
             {
-                "outbound": "any",
-                "server": "dns-direct"
-            },
-            {
                 "domain_suffix": [
                     ".ir"
                 ],
@@ -67,6 +63,10 @@
                     "geosite-ir"
                 ],
                 "server": "dns-local"
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct"
             },
             {
                 "disable_cache": true,
@@ -151,9 +151,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "throbbing-voice-b532.laxasix948.workers.dev",
-                "[2606:4700:3031::6815:1d2b]",
-                "[2606:4700:3033::ac43:945e]",
+                "shiny-hall-94b8.fexepit800.workers.dev",
+                "[2606:4700:3035::6815:45a]",
+                "[2606:4700:3033::ac43:83e2]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +177,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "throbbing-voice-b532.laxasix948.workers.dev-tls",
-                "[2606:4700:3031::6815:1d2b]-tls",
-                "[2606:4700:3033::ac43:945e]-tls"
+                "shiny-hall-94b8.fexepit800.workers.dev-tls",
+                "[2606:4700:3035::6815:45a]-tls",
+                "[2606:4700:3033::ac43:83e2]-tls"
             ]
         },
         {
@@ -209,9 +209,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "throbbing-voice-b532.laxasix948.workers.dev",
-                "[2606:4700:3031::6815:1d2b]",
-                "[2606:4700:3033::ac43:945e]",
+                "shiny-hall-94b8.fexepit800.workers.dev",
+                "[2606:4700:3035::6815:45a]",
+                "[2606:4700:3033::ac43:83e2]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +235,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "throbbing-voice-b532.laxasix948.workers.dev-tls",
-                "[2606:4700:3031::6815:1d2b]-tls",
-                "[2606:4700:3033::ac43:945e]-tls"
+                "shiny-hall-94b8.fexepit800.workers.dev-tls",
+                "[2606:4700:3035::6815:45a]-tls",
+                "[2606:4700:3033::ac43:83e2]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +259,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thRobbing-vOIcE-B532.lAXAsIx948.WorkErs.deV"
+                    "Host": "shiNy-hALl-94B8.FEXePIt800.wOrKErS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/ERogVRjAZFY7WwCH",
+                "path": "/pKqNuhRWVuXp2mLf",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +277,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrObbiNG-vOiCe-B532.LAXASIx948.WoRkErs.deV"
+                    "Host": "ShInY-HALL-94b8.FexePIt800.WOrKeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/ZQXKlItENcXwCymO",
+                "path": "/xdOdhCKiN0LCt1kf",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +295,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHRObbiNg-VOiCE-b532.LAXasiX948.WORkerS.dEv"
+                    "Host": "ShiNy-hall-94b8.FeXEpit800.WOrKErs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/EtTbNNAqVobuWxss",
+                "path": "/og4hsSfVOCzh8386",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +313,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thRObbING-VoiCE-B532.laxASix948.wOrKERS.DeV"
+                    "Host": "SHINy-haLl-94b8.fEXEpIt800.wORKErS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/pYCZfNpqd2CvpR8g",
+                "path": "/b3EzNYLaBPvhiYIz",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +331,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHrObBINg-vOIce-B532.LAXasIx948.wOrKErS.DEv"
+                    "Host": "ShIny-hALL-94B8.FeXEpit800.wOrKeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/L1dRwRZcyDYbm4mu",
+                "path": "/ljrq32B6YntH2RWo",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +349,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHRObBing-VoIcE-B532.lAXAsIX948.wORkErS.DEv"
+                    "Host": "SHiNy-hall-94b8.FExEPIT800.wOrkERS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/IJOxC01XQZ58jyTb",
+                "path": "/gKpH8SsQ7IbTsEtZ",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +367,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHRobBING-VOIcE-B532.laxAsix948.WoRkErs.Dev"
+                    "Host": "ShINY-hAlL-94b8.fexepit800.wORkErS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/NvKONhrdTmYpwn5z",
+                "path": "/mURT05DH8VUsqUKh",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +385,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrObbiNG-voiCe-b532.lAxASiX948.Workers.DEV"
+                    "Host": "ShINy-hALl-94B8.FEXepiT800.WOrKers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/zJKrX2V6EA4hKBRW",
+                "path": "/HvYT096bpNQCpCN9",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +403,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "ThRoBbinG-voiCe-B532.laXasIx948.WorKERs.deV"
+                    "Host": "ShiNy-HALL-94B8.FeXepIt800.WOrkERs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/9CbCGHBpciSeElru",
+                "path": "/odoUygqtY1O2xOa7",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +421,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thRObbiNg-voICe-b532.laxaSIx948.wOrKERS.deV"
+                    "Host": "sHINy-hALL-94b8.FExEPIT800.wOrKErS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/B90lAn8hwHVqvZcA",
+                "path": "/91ugt4GewWfia9I3",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +439,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THRoBbInG-Voice-b532.laxAsIx948.wORkErS.dEV"
+                    "Host": "ShIny-Hall-94B8.FEXEpiT800.WorkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/0nnQCpMVZMckUSAR",
+                "path": "/AV5vF5R51m2qhenf",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +457,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHRObbING-vOiCE-b532.laXasIx948.wORKERs.dev"
+                    "Host": "shiny-HaLL-94B8.fEXEPIT800.woRKerS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/hmzv7L0f13ntJ8GI",
+                "path": "/zY2KHT8DPntxTXAM",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +475,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrOBbInG-VOIce-B532.lAXaSIx948.WoRkeRs.DEv"
+                    "Host": "SHInY-hALL-94b8.FExEPIt800.WORkERS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/Enk4XFCxEW1b1QkJ",
+                "path": "/iwjQqePpmHc4SheN",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +493,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrobBING-voIcE-B532.LAxaSiX948.worKERs.dEv"
+                    "Host": "SHiny-HaLL-94B8.fexepIT800.wOrKErs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/fpuvCNqJB2Zs198b",
+                "path": "/ZKNaufwjzX39WCde",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +511,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "ThRoBbing-VoICe-B532.lAXasiX948.wORKers.DEv"
+                    "Host": "ShINy-hall-94B8.FExEPit800.woRkERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/PLvt3PaSAjmEm0kU",
+                "path": "/r0zrTskORoyQmtIh",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +529,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrOBbiNg-VoicE-b532.lAXaSiX948.WorKeRS.deV"
+                    "Host": "shiNY-HalL-94B8.fexEpit800.woRKeRS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/xSz9e3zcBDfIqEQx",
+                "path": "/tfCVjLKWbY6Sh2So",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +547,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THRObbING-VOicE-B532.LAxaSiX948.wOrkERs.DEv"
+                    "Host": "shiny-hALl-94b8.FeXePit800.WorkERs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/IZcjc1YvCsTHJhED",
+                "path": "/7vdhgelXqU5z3sfk",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +565,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thRoBbIng-VOICE-B532.LAxAsIx948.worKers.DeV"
+                    "Host": "sHINy-hall-94b8.fexEPIt800.WORKERs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/Bi49uwWnyKgDGU14",
+                "path": "/FTh0YqSDb4xqXyN9",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +583,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thRobbING-voice-b532.laxASix948.WorkeRs.dEv"
+                    "Host": "sHIny-hAll-94B8.FExepiT800.woRKErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/1iwqXRXb2WG8vqnI",
+                "path": "/0cNbFHL8cXhBhg1b",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +601,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THrobbIng-VoiCe-B532.LaxAsIx948.workERS.DeV"
+                    "Host": "SHIny-hAlL-94B8.FexEpIT800.woRkeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/36WnoIme3Oz75ae5",
+                "path": "/AHNLBrAmTlCKxN6t",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +619,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "ThrOBBinG-voice-b532.lAXaSIx948.wOrkERS.DEv"
+                    "Host": "sHIny-haLl-94b8.fEXEpIt800.woRKeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/hbQFEI5KJwQmFyzl",
+                "path": "/clf4rTQV8Urk1Sy2",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +637,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHrobbING-VoIcE-b532.laXaSix948.WoRKeRs.Dev"
+                    "Host": "SHiNY-hAll-94B8.FexePIT800.woRKeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/6CJw9UxTswPgQKSz",
+                "path": "/lvcWLiHOPdPipH3S",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +655,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thrOBBinG-vOiCE-b532.lAXaSIx948.worKErs.deV"
+                    "Host": "SHINY-HAll-94B8.FEXePit800.WORKeRs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/5l1GerIAsgOmN26p",
+                "path": "/tgd29jzavrlzKaUp",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "throbbing-voice-b532.laxasix948.workers.dev",
+            "server": "shiny-hall-94b8.fexepit800.workers.dev",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "tHrObBING-voICE-b532.LaxASIX948.Workers.dev"
+                    "Host": "sHinY-hALL-94b8.FexepIt800.WORkers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/1sV9pgwl5CiIN6zQ",
+                "path": "/Zu7aqs0imUqYqs8f",
                 "type": "ws"
             },
-            "tag": "throbbing-voice-b532.laxasix948.workers.dev"
+            "tag": "shiny-hall-94b8.fexepit800.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3031::6815:1d2b]",
+            "server": "[2606:4700:3035::6815:45a]",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "thROBBiNG-Voice-b532.LaxaSIx948.woRKeRs.DEv"
+                    "Host": "sHinY-halL-94b8.FeXEPIt800.wORkeRS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/LvDSpC1MFCaeemlb",
+                "path": "/q5zjDMFnSIadQG2G",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3031::6815:1d2b]"
+            "tag": "[2606:4700:3035::6815:45a]"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3033::ac43:945e]",
+            "server": "[2606:4700:3033::ac43:83e2]",
             "server_port": 8880,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "THroBBinG-vOICE-b532.laxAsiX948.WOrkers.Dev"
+                    "Host": "SHiNY-HAll-94B8.fexepIT800.worKErs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/fTkta6YInwJEsueT",
+                "path": "/Jvd6YMafH9qTgbrX",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3033::ac43:945e]"
+            "tag": "[2606:4700:3033::ac43:83e2]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHrOBbING-VOiCE-b532.lAXASIX948.workerS.DEv",
+                "server_name": "shINy-hALl-94B8.FEXePIt800.WorKERs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "tHRObBiNg-VOicE-b532.LAXasix948.WORKERS.Dev"
+                    "Host": "SHiNY-HAll-94B8.fexEpIT800.WOrkers.DEv"
                 },
-                "path": "/peHkv4iZ9nERb3lB",
+                "path": "/6P9XbTQFRVxhmA4c",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "thRObbing-voiCE-B532.lAXAsIX948.WOrKeRS.dev",
+                "server_name": "SHiny-Hall-94B8.FeXEPiT800.worKErS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THrobbInG-voicE-b532.Laxasix948.WorkeRs.DEV"
+                    "Host": "SHiNy-HaLl-94B8.fEXEpiT800.WoRKeRS.DeV"
                 },
-                "path": "/kaRBzHnNYSasoTwx",
+                "path": "/8xM8eC0c9C4pA3Nz",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +787,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THrobBinG-vOiCE-b532.LaXaSIX948.WoRKERs.dEV",
+                "server_name": "shINy-haLl-94B8.fExepIT800.WOrkERs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THRObbING-VoICe-b532.LaXaSiX948.WORKeRS.Dev"
+                    "Host": "sHinY-HaLL-94b8.fEXEpit800.wOrkeRs.dev"
                 },
-                "path": "/lcKFmFitioGs1Ayv",
+                "path": "/efYFz91LBkJSE7ds",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +817,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThrobbING-vOICe-B532.LAxASIX948.WoRkerS.Dev",
+                "server_name": "ShiNy-Hall-94B8.fexePIt800.WORKERs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "tHroBbInG-VoIce-B532.LAxAsix948.WorKerS.Dev"
+                    "Host": "ShINy-halL-94b8.feXepiT800.WorKers.dEV"
                 },
-                "path": "/kifpOY5401v3AFYJ",
+                "path": "/hjljYludX3sx4nRP",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +847,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThROBbIng-voicE-b532.laXasIX948.woRKers.DeV",
+                "server_name": "sHiNY-HaLL-94B8.FExEPIT800.WOrKeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "throbbING-vOiCe-B532.lAxAsix948.WoRKErS.Dev"
+                    "Host": "sHIny-halL-94B8.FEXEpit800.WOrKErs.dev"
                 },
-                "path": "/RIF48ocdKpgIbWSg",
+                "path": "/Jk3xWl8MCFltW9Dv",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +877,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THRoBbING-voICe-b532.lAXasIx948.wOrkeRS.DEv",
+                "server_name": "ShiNy-HalL-94b8.fExepiT800.WORkeRs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thRoBbiNG-voice-b532.laXasIx948.WORkerS.dev"
+                    "Host": "ShinY-hALl-94b8.FexEpIT800.wOrKErs.DEv"
                 },
-                "path": "/vq3bgopblTH2eJTV",
+                "path": "/w3eyA7cW31AlyLNX",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +907,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "thrObBINg-VoiCe-B532.LAXAsIX948.WORkErS.DeV",
+                "server_name": "SHiNy-HAlL-94B8.fEXEpIT800.WoRkeRs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "tHROBBiNg-VOICE-B532.lAxasIX948.WORKERs.dev"
+                    "Host": "SHINy-HALl-94B8.fEXEPit800.woRkeRs.DeV"
                 },
-                "path": "/b8tlBOXhDlyeFN1n",
+                "path": "/XFOmJSfGeyUHxVKr",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +937,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHRoBbiNg-VoicE-b532.LaXaSIx948.WOrKErS.DEv",
+                "server_name": "shinY-haLl-94b8.FExepit800.WorKErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thRobbING-vOICe-B532.laXaSIX948.woRKeRs.DEv"
+                    "Host": "ShINy-Hall-94b8.FEXEPiT800.wOrkERs.dev"
                 },
-                "path": "/otyLjDnxmmtPCX6g",
+                "path": "/lMIjR5JRUCjzXURb",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +967,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThrOBBIng-VOiCE-B532.LAxaSiX948.WoRKers.DeV",
+                "server_name": "sHiNy-hall-94B8.FexEpIt800.WORKErs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thRObBIng-voiCe-b532.lAXAsIx948.WOrkeRS.DEV"
+                    "Host": "shinY-HaLl-94B8.fexEpit800.wOrkeRs.dev"
                 },
-                "path": "/7tFiYp0yn7ghGySo",
+                "path": "/aZwuyRSJTljoBW1n",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +997,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHroBbiNg-voicE-B532.laXaSix948.WorkERS.DEV",
+                "server_name": "ShiNY-hAlL-94b8.FExePiT800.wORkerS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thRoBBInG-voiCe-b532.lAxaSIx948.woRkERs.dev"
+                    "Host": "shiNy-hALl-94B8.FexEpiT800.wORkeRs.DeV"
                 },
-                "path": "/ujGJtk0VOGJh33dj",
+                "path": "/xkzwAFvAy1Ue7TYq",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThroBbINg-VOiCe-b532.LAXAsIx948.workerS.dev",
+                "server_name": "shIny-HALL-94b8.fEXepIt800.wOrkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "ThrOBbiNg-VoiCe-B532.lAXaSIX948.wOrkerS.DEv"
+                    "Host": "Shiny-HAlL-94B8.feXePIt800.WoRKers.Dev"
                 },
-                "path": "/LJ8y83ts8O3ausB5",
+                "path": "/XdgBLYzsE2jI3S1n",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1057,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THrobBinG-voICe-B532.laxasiX948.WOrKeRs.dev",
+                "server_name": "SHiNY-HaLL-94B8.feXepIT800.wOrKErs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THrobBINg-VoicE-b532.laxASix948.WORKErs.dEv"
+                    "Host": "SHINy-HalL-94b8.fExepIt800.woRkERs.dEV"
                 },
-                "path": "/HHwdEFgXePl9na2b",
+                "path": "/eIDycy6WC9ni7qrY",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "thROBBINg-VOICe-B532.LaXasIX948.WOrkERS.deV",
+                "server_name": "SHINY-HalL-94b8.FExEpIt800.woRKERs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "throbBiNG-vOICe-B532.lAxASiX948.WORkerS.DEv"
+                    "Host": "SHiNY-HAll-94B8.FeXepIT800.wORkerS.deV"
                 },
-                "path": "/jldE3ypMP5Z1gLre",
+                "path": "/sDXfpgRej1Iyh7Gr",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1117,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "thRoBBINg-VoiCE-b532.lAxasiX948.WorKERs.deV",
+                "server_name": "SHINy-hall-94B8.FExEPIt800.WORkeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THrobbING-VOICe-b532.LaxASix948.WORKErS.Dev"
+                    "Host": "ShiNY-HaLl-94b8.fExePIT800.woRKErs.dEV"
                 },
-                "path": "/hExALarM3Aru0MOg",
+                "path": "/SUkgRFa0Z4xt0UFa",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1147,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHRObBing-VOICE-b532.laxaSIX948.WOrKErs.dEV",
+                "server_name": "sHiNY-hAlL-94B8.FEXEPit800.workeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "throBBIng-VOice-B532.lAxASix948.WoRkErS.deV"
+                    "Host": "SHinY-HAlL-94B8.FeXEpit800.Workers.dEV"
                 },
-                "path": "/zCSCDEEIJo3v7yAb",
+                "path": "/kzQfMdpV3XDBN6vb",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1177,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHrObBING-VoIcE-b532.laxaSIx948.WOrKErs.dEv",
+                "server_name": "shiNY-hAlL-94b8.feXePit800.WORKERs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THRobbIng-vOIcE-B532.LaxasIX948.Workers.Dev"
+                    "Host": "shIny-HAll-94B8.feXePit800.wOrkers.deV"
                 },
-                "path": "/McERZ397qGOU6uZR",
+                "path": "/4j50dAwW6hGlBfor",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1207,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThrobbINg-voicE-b532.lAxAsIx948.wOrKErS.Dev",
+                "server_name": "sHiNy-haLL-94B8.FexePiT800.WorKErs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THrobbING-vOICE-B532.laxAsiX948.wOrKErs.Dev"
+                    "Host": "SHINy-haLL-94b8.fExEPIt800.WoRkErs.DEv"
                 },
-                "path": "/zmo2Uz4EMAF7d7qI",
+                "path": "/sEP2OZs446vdmTsN",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1237,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThRobbiNg-voice-b532.LaXasiX948.wORkers.dev",
+                "server_name": "shINY-HALl-94B8.FEXEpit800.WOrKErs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "ThRoBbINg-VoicE-B532.LAXAsiX948.WoRkERs.DEV"
+                    "Host": "SHINy-HAlL-94B8.FEXEPit800.worKErs.DEV"
                 },
-                "path": "/lmsevE1YizZ27bS9",
+                "path": "/gYUewiMrKXjJoJ9e",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1267,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThROBBINg-Voice-b532.LAXaSiX948.wORKErS.dEV",
+                "server_name": "shINY-hAll-94B8.fEXePiT800.woRKERs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thrOBBINg-VOice-b532.laxaSIX948.WORKErs.deV"
+                    "Host": "Shiny-HalL-94b8.FExEPiT800.wORKERs.deV"
                 },
-                "path": "/WkxXRGieB3jxCgaE",
+                "path": "/8Brc4Nq0FgSC3HrS",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1297,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "ThroBBING-vOiCE-b532.LAxASix948.WoRKErS.DEv",
+                "server_name": "ShinY-HAlL-94B8.FeXEpIT800.WoRkERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thrObbing-vOiCe-b532.LaXasix948.WorkeRS.Dev"
+                    "Host": "ShInY-hall-94B8.fexEPIt800.workErS.DeV"
                 },
-                "path": "/JfRruz0xelHsUcDw",
+                "path": "/zAxE61R7Owve93wa",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1327,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THrobbInG-VoIce-b532.lAxasIx948.wOrkErs.DeV",
+                "server_name": "ShINy-HALl-94b8.fexEpIt800.wORKErS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THrObbiNg-vOiCe-B532.LaxASix948.WoRkeRS.DEV"
+                    "Host": "sHINy-HALl-94B8.fEXEPit800.wOrKErS.dEv"
                 },
-                "path": "/M0BWFIvYpQHtYOlo",
+                "path": "/GI55BpGIitSIW19Z",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1357,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHroBBiNg-vOicE-b532.LaxAsix948.woRkERs.dEV",
+                "server_name": "SHiny-HAll-94b8.fexEpit800.WORKErS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "THROBBING-VoIce-B532.LAxASix948.WOrKErs.DeV"
+                    "Host": "shInY-HAlL-94B8.fExepIt800.WOrkErs.Dev"
                 },
-                "path": "/rSgQ5XhpQnToItrv",
+                "path": "/LWzCOUxcnYeWiQpt",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1387,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THrOBBINg-VOice-b532.LAxAsIX948.WOrkers.dEv",
+                "server_name": "SHINy-HaLl-94B8.FExEpIt800.WoRKeRS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1406,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "ThRObbINg-VOice-b532.LAXaSix948.WOrkERs.dev"
+                    "Host": "sHiNy-hALL-94B8.fExEpit800.wOrkerS.dEV"
                 },
-                "path": "/5vMIArHJipiUs0cL",
+                "path": "/xmUasxhsetiOUuiQ",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "throbbing-voice-b532.laxasix948.workers.dev",
+            "server": "shiny-hall-94b8.fexepit800.workers.dev",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHRObBInG-vOicE-B532.lAxAsiX948.WORKErs.DEv",
+                "server_name": "ShINy-Hall-94B8.fExePiT800.WorKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1436,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "thrOBBiNg-VoiCE-b532.lAXASIx948.WOrkErs.DeV"
+                    "Host": "ShiNY-haLl-94B8.FeXEpIT800.WorKERs.dEV"
                 },
-                "path": "/Wcx4aWyX72ltRW5Q",
+                "path": "/o8xFKAdugtOMv9sw",
                 "type": "ws"
             },
-            "tag": "throbbing-voice-b532.laxasix948.workers.dev-tls"
+            "tag": "shiny-hall-94b8.fexepit800.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3031::6815:1d2b]",
+            "server": "[2606:4700:3035::6815:45a]",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "THroBbING-voICe-b532.LAxAsIX948.wOrKeRs.Dev",
+                "server_name": "SHIny-HALl-94b8.fExEPIT800.wOrkerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1466,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "ThrobbIng-vOice-B532.lAXaSIX948.WoRKeRS.Dev"
+                    "Host": "ShIny-HaLL-94b8.FExePit800.WOrkers.DeV"
                 },
-                "path": "/dgSxwCyG9x0WD3Mp",
+                "path": "/vs7we3a9FEDSMY6Q",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3031::6815:1d2b]-tls"
+            "tag": "[2606:4700:3035::6815:45a]-tls"
         },
         {
             "type": "vless",
-            "server": "[2606:4700:3033::ac43:945e]",
+            "server": "[2606:4700:3033::ac43:83e2]",
             "server_port": 8443,
-            "uuid": "3d0c7ad1-c059-4305-9618-87921f8be6e4",
+            "uuid": "144bdeb8-0d0a-44d2-8499-848bec0cc5d0",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "tHroBbiNG-VoiCe-B532.lAXasIX948.wOrKers.dev",
+                "server_name": "ShINY-HAll-94B8.fExEpiT800.wORkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "tHROBbiNg-VOiCe-B532.LaxASIx948.wORKeRS.dev"
+                    "Host": "shinY-HAll-94B8.FeXEPiT800.WorkErs.Dev"
                 },
-                "path": "/8H0yTs5iTznHkxz9",
+                "path": "/TqQcQvQ2WdmXDrOG",
                 "type": "ws"
             },
-            "tag": "[2606:4700:3033::ac43:945e]-tls"
+            "tag": "[2606:4700:3033::ac43:83e2]-tls"
         }
     ],
     "route": {
