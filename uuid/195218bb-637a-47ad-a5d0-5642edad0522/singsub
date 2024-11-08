@@ -53,10 +53,6 @@
         ],
         "rules": [
             {
-                "outbound": "any",
-                "server": "dns-direct"
-            },
-            {
                 "domain_suffix": [
                     ".ir"
                 ],
@@ -67,6 +63,10 @@
                     "geosite-ir"
                 ],
                 "server": "dns-local"
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct"
             },
             {
                 "disable_cache": true,
@@ -151,9 +151,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "yellow-credit-cf64.ragiki7564.workers.dev",
-                "[2a06:98c1:3120::3]",
-                "[2a06:98c1:3121::3]",
+                "soft-fire-7ff4.yeliko7287.workers.dev",
+                "[2606:4700:3034::ac43:b774]",
+                "[2606:4700:3032::6815:53ee]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +177,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "yellow-credit-cf64.ragiki7564.workers.dev-tls",
-                "[2a06:98c1:3120::3]-tls",
-                "[2a06:98c1:3121::3]-tls"
+                "soft-fire-7ff4.yeliko7287.workers.dev-tls",
+                "[2606:4700:3034::ac43:b774]-tls",
+                "[2606:4700:3032::6815:53ee]-tls"
             ]
         },
         {
@@ -209,9 +209,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "yellow-credit-cf64.ragiki7564.workers.dev",
-                "[2a06:98c1:3120::3]",
-                "[2a06:98c1:3121::3]",
+                "soft-fire-7ff4.yeliko7287.workers.dev",
+                "[2606:4700:3034::ac43:b774]",
+                "[2606:4700:3032::6815:53ee]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +235,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "yellow-credit-cf64.ragiki7564.workers.dev-tls",
-                "[2a06:98c1:3120::3]-tls",
-                "[2a06:98c1:3121::3]-tls"
+                "soft-fire-7ff4.yeliko7287.workers.dev-tls",
+                "[2606:4700:3034::ac43:b774]-tls",
+                "[2606:4700:3032::6815:53ee]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +259,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELlOW-crEDit-CF64.RAgiKI7564.workers.Dev"
+                    "Host": "sofT-fIre-7fF4.yElIKo7287.WorKers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/RkIRi9zPbULTtlE0",
+                "path": "/0EXqIpJUJBaCE6x6",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +277,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YElLow-cREdIT-CF64.ragIki7564.WOrkeRS.DEV"
+                    "Host": "SOfT-fIrE-7fF4.yELIko7287.wORKERS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/nMLaDQwM1bomYlN5",
+                "path": "/Nvw0HiWH1AFWaDJU",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +295,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yELlOW-cREDiT-cF64.RagiKi7564.wORkeRs.deV"
+                    "Host": "sofT-FIRE-7Ff4.yelikO7287.worKErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/hDydUQMxO2SaGAVU",
+                "path": "/X44qubV4BWDCk84w",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +313,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YeLLOw-crEDIT-cf64.RAGiKi7564.WorkERS.Dev"
+                    "Host": "sOfT-fIRe-7fF4.yELiko7287.wORkErS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/2rzFV5iJYfooDMRu",
+                "path": "/JqHTU4Uu0NLbEDBQ",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +331,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLOw-cRedit-cF64.RaGIkI7564.WoRKerS.dEV"
+                    "Host": "SOfT-fIre-7FF4.yEliko7287.WOrkeRs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/5DJ72blgwH6KMtfI",
+                "path": "/Kyuiy1KqKp3OBINm",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +349,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YellOW-cREDIT-Cf64.rAGIKi7564.woRKERs.dEv"
+                    "Host": "SOFT-Fire-7fF4.YelikO7287.wORkerS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/rUQkdFePjkWL07BA",
+                "path": "/vEhtdQOM0TC0nZpl",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +367,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YEllOw-CrEdiT-Cf64.rAGIKI7564.WOrKeRs.DEv"
+                    "Host": "SoFT-fiRE-7fF4.yelIKo7287.wOrkErS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/cVjmhTS7eL0udPoe",
+                "path": "/Emfp184AWptXyrYt",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +385,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yellOW-Credit-cf64.RagIKI7564.workers.Dev"
+                    "Host": "sOft-FIre-7Ff4.YELIko7287.wOrkERs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/Exa8oAJXNFa0vqrM",
+                "path": "/Qt6eyYBdvyxoga2R",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +403,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YEllOw-CreDIT-cf64.RAgiKi7564.WOrkErs.DeV"
+                    "Host": "SOfT-fIRe-7FF4.yElIKO7287.WOrkErS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/AS0GYebEdml6qPAn",
+                "path": "/z0enGyKCksMffWjc",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +421,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLow-cRedit-cF64.rAGIki7564.WOrkeRs.dEV"
+                    "Host": "Soft-FirE-7ff4.YElIko7287.wOrkErs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/K496znLJ6We3ekNP",
+                "path": "/rFVkYjAcCAaLpCZa",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +439,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YEllow-CrEDIT-CF64.rAgiKi7564.WorKErS.dEV"
+                    "Host": "SoFT-Fire-7ff4.YelIkO7287.woRKERS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/ydxVrDiO7tOkYyO5",
+                "path": "/WwIZDrXAfrnJuHR5",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +457,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YeLLOw-CReDiT-CF64.RAGIki7564.WoRKERS.dEV"
+                    "Host": "SOfT-fIrE-7fF4.YelIKo7287.wORkers.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/goGOiaEJGZ2zZf4f",
+                "path": "/8qIyAkfxSUfs83e1",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +475,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YElLoW-creDIt-CF64.RAgIKi7564.wOrKERS.DeV"
+                    "Host": "SOFt-fIre-7fF4.YELIKO7287.wORKeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/PV28mzgo69Bt5jMn",
+                "path": "/Bk94SSgNWq3NQSdF",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +493,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLOW-CREdIt-CF64.RaGiki7564.woRkeRS.DEV"
+                    "Host": "SOft-FiRE-7Ff4.yeliKo7287.woRKeRS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/e8DcueIY2PVqxbRu",
+                "path": "/y1UzAJSIUIIAVDbS",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +511,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yELlOW-CREdit-cF64.rAgIkI7564.WOrKERs.deV"
+                    "Host": "sOft-FiRe-7fF4.YELiko7287.WORKers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/bebk6IM90iqyRxbd",
+                "path": "/b5e31yP6Jo02neoN",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +529,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLOW-crEDIT-CF64.ragiKI7564.WoRkeRS.DEV"
+                    "Host": "Soft-fIRe-7ff4.YeLIKO7287.WoRkers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/jKchuaNNROSnZS5o",
+                "path": "/f0dldRxZh63CrCNV",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +547,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLoW-CReDiT-cF64.rAgikI7564.wORKErS.Dev"
+                    "Host": "SOft-fIre-7ff4.YELIko7287.WORkerS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/kY1YrxfNdHwu87GK",
+                "path": "/nw7F2BGbVAh3ETgI",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +565,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yeLlOw-crEDiT-CF64.RaGikI7564.WorKeRs.DeV"
+                    "Host": "SoFT-fire-7fF4.YELIkO7287.woRKers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/YwF60k9pkgPlPyug",
+                "path": "/lADsIQeHTzot5OQJ",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +583,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YellOW-creDIT-cf64.RaGIKI7564.wORKErS.DEV"
+                    "Host": "sOFt-FIRe-7FF4.yeLIkO7287.workeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/I2vPqqvU39upGCmN",
+                "path": "/X12t7ngUrkfAqITp",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +601,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yellOW-cReDit-cf64.rAgiKi7564.woRkers.dEv"
+                    "Host": "soFt-FirE-7fF4.yeliKo7287.woRkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/0lHVcPgM8ksQsF9c",
+                "path": "/FeweD3czfCBrVVx6",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +619,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELlow-CreDit-cf64.ragIki7564.wOrkeRs.DeV"
+                    "Host": "SOFt-fiRE-7ff4.yelikO7287.WoRKErS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/ToUqtISBvVov1rAB",
+                "path": "/SocfoMiT1BhRknYX",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +637,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YellOW-CReDit-CF64.RAGIki7564.workErS.DeV"
+                    "Host": "sOfT-fire-7Ff4.YelIKo7287.wOrkeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/ZaB66GGaQSIfVrPg",
+                "path": "/9LpAJCCB7sc1hujz",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +655,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yellOW-CrEDIt-CF64.RaGikI7564.woRKeRS.dev"
+                    "Host": "soft-FiRe-7Ff4.yeLIKo7287.WorkeRS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/54nuMoHaOxwJy3lG",
+                "path": "/jb05txssXNYsb2IP",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "yellow-credit-cf64.ragiki7564.workers.dev",
+            "server": "soft-fire-7ff4.yeliko7287.workers.dev",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yeLlow-CreDIT-cf64.RaGIki7564.woRkeRS.DeV"
+                    "Host": "sofT-fiRE-7FF4.YeliKo7287.worKers.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/LPgdZz5iUyAwhgSV",
+                "path": "/kdaLxUSWO6Ovzx0V",
                 "type": "ws"
             },
-            "tag": "yellow-credit-cf64.ragiki7564.workers.dev"
+            "tag": "soft-fire-7ff4.yeliko7287.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3034::ac43:b774]",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "YELLow-CrEdiT-Cf64.RagIki7564.worKerS.DeV"
+                    "Host": "SofT-FIrE-7Ff4.yeLIKo7287.WorKeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/G9QyAoA8CWFbRRzU",
+                "path": "/nb4YZ6dkAHZDD9Y6",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]"
+            "tag": "[2606:4700:3034::ac43:b774]"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3032::6815:53ee]",
             "server_port": 8880,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "yELlOw-CReDIT-CF64.ragIKi7564.wORkErs.Dev"
+                    "Host": "SoFt-fIRe-7ff4.yElIko7287.WORkERs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/hm7QLfDrelSZjidO",
+                "path": "/ILyfF53ghKI9Rpry",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]"
+            "tag": "[2606:4700:3032::6815:53ee]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YeLLoW-CRedIt-cF64.rAgiki7564.WorKeRS.dev",
+                "server_name": "SOFT-fiRe-7ff4.yElIKO7287.workErs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YeLLoW-CREdiT-CF64.raGIkI7564.wORkerS.Dev"
+                    "Host": "soft-fire-7ff4.YeliKO7287.wORkERS.dEV"
                 },
-                "path": "/S5XGGtxAg9BRjIOy",
+                "path": "/AIrb6b82QxmP8QIO",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YEllOw-CReDit-cF64.RAgIkI7564.WoRkERS.deV",
+                "server_name": "SOFt-firE-7Ff4.YElIkO7287.woRKErs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yellOW-CredIT-cF64.raGIKI7564.WORkeRs.DEv"
+                    "Host": "SOft-fIRE-7FF4.yELIko7287.worKers.deV"
                 },
-                "path": "/X3raBjMBIF7kBdsG",
+                "path": "/pMs2HLlOKyg7RCBA",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +787,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yellOw-Credit-CF64.RaGIKI7564.WOrkeRs.deV",
+                "server_name": "soft-firE-7fF4.yeliKO7287.wORkeRS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yELLoW-crEDIt-Cf64.RAGIKI7564.WOrkeRS.DEV"
+                    "Host": "sOFt-fIrE-7FF4.YeLiKo7287.workeRs.Dev"
                 },
-                "path": "/6H6aUvleHQ9L5tUX",
+                "path": "/fEj2qJt4AEjlrGWT",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +817,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yELloW-cReDiT-cF64.RaGIKI7564.wORKeRs.dev",
+                "server_name": "SOft-FiRe-7Ff4.yELiKo7287.WoRkERs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YELLow-cREDiT-Cf64.RagIkI7564.WOrKERs.DeV"
+                    "Host": "SOft-fIRE-7ff4.yeLikO7287.WoRkers.DEV"
                 },
-                "path": "/Iich3cwmJ92zDz88",
+                "path": "/KzgDcL0GlKcPBwnq",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +847,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YELlOW-CReDIT-cF64.rAgiKI7564.WORkeRs.DeV",
+                "server_name": "Soft-fIRE-7fF4.yeliko7287.WorkeRS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yElLow-CrEDIT-Cf64.rAGIki7564.workeRS.Dev"
+                    "Host": "Soft-fIrE-7Ff4.YeLiko7287.woRkers.Dev"
                 },
-                "path": "/d8aqphHbjTKqZgHX",
+                "path": "/3DKD2zKMZ7f4EQuo",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +877,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yElLOW-CReDit-Cf64.RaGIKI7564.woRkErs.DEV",
+                "server_name": "SOft-FiRE-7Ff4.yElIKo7287.WoRkERs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yeLLOW-crEdiT-cF64.ragIKI7564.WOrKERs.dEV"
+                    "Host": "sOFt-FIre-7Ff4.YEliKO7287.wOrKeRs.DEv"
                 },
-                "path": "/C04OYQdkQKvBGxmm",
+                "path": "/oyYVlXMB0l6YKVZa",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +907,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yELloW-CRedit-Cf64.RAgiki7564.WORKeRs.deV",
+                "server_name": "SoFt-FiRE-7ff4.yELiKO7287.wORKERs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YEllOw-CREDIt-cf64.RAgIKI7564.wOrkeRS.deV"
+                    "Host": "sOfT-fiRE-7ff4.Yeliko7287.WorkErS.dEV"
                 },
-                "path": "/T4s2wH1aCEcZm715",
+                "path": "/Up5Zw45zttsnqNil",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +937,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YeLLOw-crEDit-Cf64.ragiki7564.woRKERS.dEV",
+                "server_name": "SOFT-FiRe-7FF4.YElIkO7287.WOrKErS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YeLLoW-cReDiT-CF64.RAgIki7564.WoRKErS.dev"
+                    "Host": "Soft-fiRE-7ff4.YELiko7287.worKeRs.DEV"
                 },
-                "path": "/SZsbmcxCpHkwVyQ5",
+                "path": "/laSQlAhNATmZlsFZ",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +967,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yELLOW-CReDIT-Cf64.RAgikI7564.wOrKERs.Dev",
+                "server_name": "SoFt-FIrE-7ff4.YElIko7287.WOrKERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YelLOw-cREdIT-CF64.RAGiKI7564.wOrKErs.DEv"
+                    "Host": "sOFt-fIRE-7FF4.yELIKO7287.WOrkERS.dev"
                 },
-                "path": "/gPTPpvtk3tjZGGGO",
+                "path": "/ykMqq2064VGIfkNg",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +997,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "Yellow-cReDIT-cF64.RAgIki7564.woRkErS.DEV",
+                "server_name": "SOFT-FIRE-7fF4.YeLIKo7287.worKERs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YEllow-creDit-Cf64.RAgIki7564.workeRs.dEV"
+                    "Host": "SOFt-fIrE-7FF4.yeliKo7287.woRkErs.DEv"
                 },
-                "path": "/70JBY84V5LY8vkl4",
+                "path": "/IYB5xmqlDIuuknuY",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yElLOW-CreDit-cF64.RAgiKI7564.worKErs.dEv",
+                "server_name": "soFt-fIre-7Ff4.YeLiKO7287.woRKeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YELLoW-CrEdit-cf64.Ragiki7564.woRkerS.DEV"
+                    "Host": "SoFt-fiRe-7FF4.yelIkO7287.woRkerS.deV"
                 },
-                "path": "/y6NfWkHHymHrr01Q",
+                "path": "/KNKe8PTMSEJgyQSh",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1057,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yELlow-cREdIt-cF64.RaGIkI7564.wOrkeRS.Dev",
+                "server_name": "SofT-fIRe-7fF4.yEliKo7287.workerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yelLoW-CreDIt-CF64.RagIki7564.worKERS.Dev"
+                    "Host": "sofT-FIRE-7FF4.yELiko7287.WoRKeRS.dev"
                 },
-                "path": "/eJH2L6ot2Wy6jOcN",
+                "path": "/eQAo42c0R3HqFdO3",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YeLlow-CreDiT-cf64.RAgiKI7564.wORKErS.DEV",
+                "server_name": "sOFT-Fire-7FF4.yELIKo7287.wOrkErs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YeLLoW-crEdIT-CF64.RaGikI7564.woRKers.dEv"
+                    "Host": "SofT-FIrE-7FF4.yelIkO7287.WorkeRS.Dev"
                 },
-                "path": "/Co58RQXAWPyrakqf",
+                "path": "/vQ4skRqfdyrzxbzF",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1117,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YElLOW-cREdIT-cF64.rAGiKi7564.WORkErs.deV",
+                "server_name": "SoFT-Fire-7ff4.YeLIko7287.WorKErS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yELLOW-crEdIt-cf64.RAGIkI7564.wORkERS.DEv"
+                    "Host": "SoFt-Fire-7FF4.yeliKo7287.WoRKers.dEV"
                 },
-                "path": "/Cu1WwXwOpuFwnN45",
+                "path": "/az5K6RGp1Lx3b955",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1147,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YeLlOw-cRedIT-cF64.RaGIki7564.wOrKErs.dEV",
+                "server_name": "sofT-FIrE-7Ff4.yEliko7287.wORKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yElloW-CREDIT-cf64.ragiKI7564.Workers.Dev"
+                    "Host": "sOft-fiRE-7ff4.YELiko7287.woRkErS.Dev"
                 },
-                "path": "/gJBOKvsSSKdDzjMA",
+                "path": "/CuWexuqSxrXNbMyb",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1177,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yelLOw-Credit-cF64.rAgIkI7564.wORkERS.DeV",
+                "server_name": "soFT-fire-7fF4.yElIko7287.WorKers.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YElLoW-CREDIT-Cf64.rAGIKI7564.WoRKeRs.DEv"
+                    "Host": "soFt-fire-7FF4.YEliKO7287.WOrKerS.Dev"
                 },
-                "path": "/o8ZPFvnF8BBuU6bM",
+                "path": "/GvVz0CQ6HqbsM8rN",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1207,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yelloW-CREDiT-cF64.RAGIKI7564.WORkERS.Dev",
+                "server_name": "sOft-FiRe-7fF4.yELIKo7287.WorkErs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yElLow-CrEDIt-cF64.raGIKI7564.WoRKERS.DEv"
+                    "Host": "SofT-FiRE-7Ff4.yEliKO7287.wOrkERs.dEV"
                 },
-                "path": "/OhN2lfzCMYliZBJk",
+                "path": "/W10Et2tnM1ktBNkv",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1237,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YeLLow-CrEdit-cF64.rAgikI7564.wORKERs.dev",
+                "server_name": "SOft-fiRE-7ff4.YeLIKO7287.wOrkErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YELLoW-crEdIT-cf64.RagIkI7564.wOrkerS.DeV"
+                    "Host": "SoFt-FIrE-7fF4.YelIKO7287.wORKERs.dEv"
                 },
-                "path": "/9es1ljshTNnCQuQm",
+                "path": "/dacXLQiGWBQyNZpm",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1267,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yelloW-cRedit-cF64.RagiKi7564.WORkeRS.dEv",
+                "server_name": "SofT-Fire-7ff4.yELIkO7287.wORkeRS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yeLLoW-CrEDiT-Cf64.rAGiki7564.woRKErS.dEV"
+                    "Host": "soFt-FiRe-7Ff4.yelIko7287.woRKERS.dEv"
                 },
-                "path": "/c486ZyXt13y0MZZy",
+                "path": "/7pKptqebUn6eudas",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1297,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YElLoW-CRediT-CF64.raGiki7564.WorkERs.dEV",
+                "server_name": "SOFt-fiRE-7fF4.YELIKO7287.wORKers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yELlow-CREDiT-CF64.raGIkI7564.WoRKERS.Dev"
+                    "Host": "soft-fIRe-7Ff4.YELIKo7287.wOrkERS.DEV"
                 },
-                "path": "/HvHShd6g3CZVIySg",
+                "path": "/idKHRJY2f6ZkcJsI",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1327,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YELLOw-CrEDIT-Cf64.ragIkI7564.wORKerS.dEv",
+                "server_name": "Soft-FIRe-7FF4.YeLIkO7287.WORKErs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YeLlOw-cReDIt-Cf64.raGikI7564.WORkers.dEv"
+                    "Host": "SOFT-fIRe-7fF4.YEliKO7287.worKERs.deV"
                 },
-                "path": "/it5lr9p3eqcqVjUw",
+                "path": "/IcqUxp9Z2HFx4vTu",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1357,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YellOw-creDIt-CF64.raGikI7564.WorKERS.Dev",
+                "server_name": "SofT-fIre-7fF4.yelIko7287.WOrKers.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yElLow-CREdIt-cf64.RagikI7564.WOrkErS.dEv"
+                    "Host": "sOfT-firE-7fF4.yeLIKO7287.woRkerS.dev"
                 },
-                "path": "/7LZqlPXzvvC2wYxW",
+                "path": "/6UVdU6iwnUQSc8Vu",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1387,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YElLOw-cREdit-cF64.raGIKI7564.WORKERS.deV",
+                "server_name": "sOFT-firE-7ff4.YelIko7287.WoRKERS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1406,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YELlOw-cREdIt-CF64.RAgIKi7564.wORKeRs.dEv"
+                    "Host": "sOFT-FIRE-7fF4.YeliKo7287.worKerS.DEv"
                 },
-                "path": "/MNUkNaR1NX8zNI73",
+                "path": "/C2lSs4oUaSMHGOaF",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "yellow-credit-cf64.ragiki7564.workers.dev",
+            "server": "soft-fire-7ff4.yeliko7287.workers.dev",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yELLOW-CreDit-cf64.rAGIki7564.wORKers.dEv",
+                "server_name": "SofT-FIrE-7FF4.Yeliko7287.woRkErs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1436,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YelLow-CREDiT-Cf64.RAgIkI7564.WorkERs.dev"
+                    "Host": "SoFt-fire-7FF4.YELiKo7287.WorKerS.dEv"
                 },
-                "path": "/3ulD8iHmskBS3tsh",
+                "path": "/O8uvHXmf1Lcwoij1",
                 "type": "ws"
             },
-            "tag": "yellow-credit-cf64.ragiki7564.workers.dev-tls"
+            "tag": "soft-fire-7ff4.yeliko7287.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3034::ac43:b774]",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "yElLoW-cREDiT-cF64.ragIkI7564.WOrkErS.DeV",
+                "server_name": "SofT-fiRe-7Ff4.YELiKO7287.wOrkERs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1466,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "yellOW-CREDIt-Cf64.RAGIKI7564.wOrkeRS.Dev"
+                    "Host": "SOft-FIre-7Ff4.YELIkO7287.Workers.DeV"
                 },
-                "path": "/y1eBGQ2qrxpTXHS2",
+                "path": "/1o6CzpR0l0truZwR",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]-tls"
+            "tag": "[2606:4700:3034::ac43:b774]-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3032::6815:53ee]",
             "server_port": 8443,
-            "uuid": "95afe4c7-b2a0-47ba-adda-d9ad88e6baa4",
+            "uuid": "c0f39ec2-b8e7-484d-a292-a3034193be50",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "YelLOW-creDiT-CF64.Ragiki7564.woRKERS.DEV",
+                "server_name": "sOfT-fiRe-7ff4.yeLikO7287.worKErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "YelLoW-cREdiT-CF64.RaGikI7564.WoRKERS.dEV"
+                    "Host": "SOFt-Fire-7ff4.YElikO7287.wOrkers.DeV"
                 },
-                "path": "/LL2MatAj59uT5Q3P",
+                "path": "/JLgEn4q8w55DrjVs",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]-tls"
+            "tag": "[2606:4700:3032::6815:53ee]-tls"
         }
     ],
     "route": {
