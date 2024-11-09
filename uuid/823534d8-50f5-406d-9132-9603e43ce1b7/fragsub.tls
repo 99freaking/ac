@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/7/10 [31days] FRAG TLS 0",
+        "remarks": "1403/8/19 [31days] FRAG TLS 0",
         "log": {
             "access": "",
             "error": "",
@@ -130,11 +130,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "www.zula.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c2f06f52-2024-4723-a1f8-87bc98440275",
+                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "bRoKEN-DusT-aE38.HOMIPap371.WoRkerS.dev",
+                        "serverName": "DivINe-moRniNG-6640.XoxId22463.wORkerS.dEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "bROkEN-DUst-aE38.HoMipAP371.woRkeRs.DEV"
+                            "Host": "dIVinE-mOrning-6640.xoxId22463.WOrkERS.dEV"
                         }
                     },
                     "sockopt": {
@@ -207,7 +207,7 @@
         }
     },
     {
-        "remarks": "1403/7/10 [31days] FRAG TLS 1",
+        "remarks": "1403/8/19 [31days] FRAG TLS 1",
         "log": {
             "access": "",
             "error": "",
@@ -337,11 +337,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "www.zula.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c2f06f52-2024-4723-a1f8-87bc98440275",
+                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "BRoKEn-Dust-AE38.hOmipaP371.wOrkERS.Dev",
+                        "serverName": "DiVINE-MORNING-6640.Xoxid22463.workErs.Dev",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "BroKen-dust-ae38.HOmIPAp371.wORkeRS.dev"
+                            "Host": "DivInE-MORNing-6640.XOxID22463.worKers.dEv"
                         }
                     },
                     "sockopt": {
@@ -414,7 +414,7 @@
         }
     },
     {
-        "remarks": "1403/7/10 [31days] FRAG TLS 2",
+        "remarks": "1403/8/19 [31days] FRAG TLS 2",
         "log": {
             "access": "",
             "error": "",
@@ -544,11 +544,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "www.zula.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c2f06f52-2024-4723-a1f8-87bc98440275",
+                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "BrOkEn-Dust-Ae38.HOMIPAP371.WoRKerS.deV",
+                        "serverName": "dIviNE-MorNING-6640.xoxID22463.WorKeRs.DEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "brokEN-dUST-Ae38.HOmIpap371.WORkERS.DeV"
+                            "Host": "diViNe-MoRNING-6640.XoxiD22463.wOrkers.Dev"
                         }
                     },
                     "sockopt": {
