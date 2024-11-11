@@ -152,8 +152,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "weathered-smoke-a384.jegakey970.workers.dev",
-                "[2606:4700:3033::ac43:c8c3]",
                 "[2606:4700:3037::6815:2c8d]",
+                "[2606:4700:3033::ac43:c8c3]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -178,8 +178,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "weathered-smoke-a384.jegakey970.workers.dev-tls",
-                "[2606:4700:3033::ac43:c8c3]-tls",
-                "[2606:4700:3037::6815:2c8d]-tls"
+                "[2606:4700:3037::6815:2c8d]-tls",
+                "[2606:4700:3033::ac43:c8c3]-tls"
             ]
         },
         {
@@ -210,8 +210,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "weathered-smoke-a384.jegakey970.workers.dev",
-                "[2606:4700:3033::ac43:c8c3]",
                 "[2606:4700:3037::6815:2c8d]",
+                "[2606:4700:3033::ac43:c8c3]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -236,8 +236,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "weathered-smoke-a384.jegakey970.workers.dev-tls",
-                "[2606:4700:3033::ac43:c8c3]-tls",
-                "[2606:4700:3037::6815:2c8d]-tls"
+                "[2606:4700:3037::6815:2c8d]-tls",
+                "[2606:4700:3033::ac43:c8c3]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -265,10 +265,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "weathERed-SMOKE-a384.JegAkey970.worKeRS.dEv"
+                    "Host": "weaTHeRed-smoKe-A384.jEgaKeY970.wOrKERs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/rUZdtyF9PTGeMG3e",
+                "path": "/FfRt88pRvP6oeI9k",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -283,10 +283,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WEaTHered-SmOKE-A384.jegAkeY970.WOrKErs.DEV"
+                    "Host": "WEAtHErEd-smoKE-A384.jegaKEy970.workerS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/zVopvJpnnKsGhkUT",
+                "path": "/J6w1EzPj7dSp6qJk",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -301,10 +301,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WEAtHered-SmOKe-a384.JeGAKey970.wOrKErs.Dev"
+                    "Host": "wEAtherEd-sMOKe-a384.JEgAkEY970.WORkers.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/s7Szd7wNIgXGm0Q7",
+                "path": "/MUunqd7L71XFPe9H",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -319,10 +319,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeAThErEd-SMOke-a384.JEgAkEY970.WorkeRS.dEV"
+                    "Host": "wEaTherEd-SmOke-A384.JEgaKeY970.WOrkeRS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/mznqsdR22S76ibQj",
+                "path": "/WelJrqHPTbFpTZhz",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -337,10 +337,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WEAthEred-sMOKE-a384.jeGakey970.WORKErs.dEv"
+                    "Host": "weatHEred-Smoke-A384.jEgAKEY970.woRKErs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/cCYMqiKODn8eBg85",
+                "path": "/839pyCOHNlkrCbMx",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -355,10 +355,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEaThERED-smoKe-A384.jeGaKey970.wORKErS.DEv"
+                    "Host": "weathEReD-SMOKE-a384.JEGAkey970.workErS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/ExNKqs5x0L9Tn46y",
+                "path": "/hZNTrIKAW58ZcVcJ",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -373,10 +373,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEATHERED-smoKe-a384.JegaKeY970.worKERS.Dev"
+                    "Host": "wEAtherEd-smOKe-A384.JegakEY970.worKERS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/9xtNne9iiKA7qzb7",
+                "path": "/S1pnB6sVgfNcaPFj",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -391,10 +391,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEAthered-sMOkE-A384.JEGaKEy970.wORKeRS.dEV"
+                    "Host": "WeAThered-SmOKE-a384.JEGakey970.WoRKerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/2qgcGmQBKuD6VdRi",
+                "path": "/FcRDLQ28KLsh7N5b",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -409,10 +409,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEAThereD-sMoKE-a384.JegAkey970.wORKErS.dEV"
+                    "Host": "weAtHerED-SmOKE-a384.JeGakEy970.WorkERS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/pbpADqvfXwMii4fS",
+                "path": "/1PdXdknwJ9Icg8YH",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -427,10 +427,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEATheREd-sMOkE-A384.JeGaKEY970.wORKErS.DEV"
+                    "Host": "WeatheRED-sMoke-A384.JEgaKey970.worKErs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/eYDBhOjv6puIwEjS",
+                "path": "/EtRbgH6Zva2xWzHr",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -445,10 +445,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "weatHerED-sMOke-A384.jEGakey970.WoRKeRs.dEV"
+                    "Host": "WeatHered-sMoKE-A384.JEgaKEY970.WorkErs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/vIBrZjFIwJRdI1Cx",
+                "path": "/aj16VYM2umyd54uW",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -463,10 +463,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "weATHErEd-SmokE-a384.jegakEy970.wORKeRS.dEv"
+                    "Host": "WeAThErED-SmOkE-A384.jEgAKey970.WORkERS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/nMNygfnESm3GaORL",
+                "path": "/v5NJjV9nTj98YIpC",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -481,10 +481,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeAtHeReD-SmOkE-a384.JEGAKey970.WorKeRs.dev"
+                    "Host": "wEAThEreD-smoKe-a384.JegAkEy970.wORKeRS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/M6gMStPwcg2W3Qyl",
+                "path": "/f3DFxAmngbYHW40L",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -499,10 +499,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEathereD-SmOke-a384.jEGAKEy970.wORkeRs.DEV"
+                    "Host": "wEAtHerEd-sMOKE-a384.jEgakeY970.WOrkERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/oLI4YS6k4uKDulCn",
+                "path": "/9ZxsLVjc09iXs5gJ",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -517,10 +517,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeATHERED-sMoKE-a384.JEgAkEY970.workerS.dEV"
+                    "Host": "wEaTHerEd-sMokE-A384.JeGaKEY970.woRkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/MnQobkYYAigMJu0s",
+                "path": "/EcNy3htjyFoSZ3YB",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -535,10 +535,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "weATHEReD-SmokE-a384.jEgakey970.WOrKErS.dEv"
+                    "Host": "WEaTHEReD-smoke-a384.jEGakEy970.WOrKerS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/CgNTIBzuCxgjuC3Z",
+                "path": "/xcjb2zhe083APz8O",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -553,10 +553,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEATHeREd-sMokE-a384.JeGaKey970.WORKeRs.DEv"
+                    "Host": "weaThErED-Smoke-a384.JeGAKEy970.WoRkeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/nD4SbYDJuDIdaMgR",
+                "path": "/sIGYBQSALBN6zgKI",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -571,10 +571,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeaTHered-sMoKe-A384.JegakeY970.WoRkErs.deV"
+                    "Host": "WEatherED-SMoke-a384.JEgAkEY970.woRkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/SlNIzvYDM5CUx0GX",
+                "path": "/rssbZ0Hgy4fL2MHb",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -589,10 +589,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEAtHErEd-SMoke-A384.JeGAKEy970.WORkerS.deV"
+                    "Host": "wEaTherED-sMoKE-a384.jegaKEy970.woRKERs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/h8sNny56guYNzC6r",
+                "path": "/CBz2jmTkiFpFq4NU",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -607,10 +607,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "weaThERed-SmOkE-A384.jegaKey970.woRKeRS.dEV"
+                    "Host": "WEAtheREd-SmOke-a384.JEGakEY970.workerS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/Qg2Ga8B7kRU9FoOd",
+                "path": "/oSExvzETfnFTe0Qq",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -625,10 +625,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeatHErED-smOKe-a384.jEGAKeY970.WorkErs.DEV"
+                    "Host": "WEAthEred-sMokE-A384.JegAkeY970.Workers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/zvCepHV57s9BFIJn",
+                "path": "/gf7YwxH5R89dvajO",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -643,10 +643,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeatHEreD-SMOke-a384.JeGAkey970.WoRkErS.Dev"
+                    "Host": "WEaTheRED-SMOkE-A384.jEGAkEY970.wOrkeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/NGHZGbYT88SVwRj4",
+                "path": "/LlCbYWYjWisSBeTO",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -661,10 +661,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEaThERed-SmoKE-A384.JEGAkeY970.wOrkErs.DEV"
+                    "Host": "weAtHErED-SmokE-A384.JEgAKey970.wORkers.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/SyVQSYfGDTJcAPRL",
+                "path": "/F3s1LpAIq8vKi8pP",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
@@ -679,31 +679,13 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WeATHErEd-smokE-a384.JEGaKEY970.WORkErS.Dev"
+                    "Host": "WEATheRed-SmOKe-A384.JegaKeY970.WoRkeRS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/FC3PJ9DmF8tEc4By",
+                "path": "/TBYTOvfChRbhdo3W",
                 "type": "ws"
             },
             "tag": "weathered-smoke-a384.jegakey970.workers.dev"
-        },
-        {
-            "type": "vless",
-            "server": "[2606:4700:3033::ac43:c8c3]",
-            "server_port": 8880,
-            "uuid": "8fa3763c-02b0-4231-86ff-f6f8d77e31a0",
-            "domain_strategy": "prefer_ipv6",
-            "packet_encoding": "",
-            "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "weaThErEd-SmOke-a384.jEgakEy970.woRKERS.DEV"
-                },
-                "max_early_data": 2560,
-                "path": "/IAN161fR7BCCWcES",
-                "type": "ws"
-            },
-            "tag": "[2606:4700:3033::ac43:c8c3]"
         },
         {
             "type": "vless",
@@ -715,13 +697,31 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wEATHeReD-smokE-A384.jegaKEY970.wORkERs.Dev"
+                    "Host": "WeaTHEReD-smokE-A384.JegAkEY970.WORKERs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/bZMLREpk2wdzpcMp",
+                "path": "/snLTgpaedk56Bjy8",
                 "type": "ws"
             },
             "tag": "[2606:4700:3037::6815:2c8d]"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:c8c3]",
+            "server_port": 8880,
+            "uuid": "8fa3763c-02b0-4231-86ff-f6f8d77e31a0",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "WEaTHeRED-sMOkE-a384.jegAkeY970.WorkerS.DEv"
+                },
+                "max_early_data": 2560,
+                "path": "/jJM4of5uE6d60jYa",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3033::ac43:c8c3]"
         },
         {
             "type": "vless",
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEAThEREd-sMOKE-a384.JeGAkEy970.wORkERS.Dev",
+                "server_name": "WeaTHErEd-smoke-a384.jegaKey970.workERS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeATherEd-smOkE-A384.JEGAkEy970.wORkerS.DEv"
+                    "Host": "WEAthereD-smoKE-a384.JEgaKEy970.workeRs.deV"
                 },
-                "path": "/cIQxt7t2uRWPqpOT",
+                "path": "/5GtN4aEy2fTbqXkQ",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WEaTHerEd-Smoke-A384.jegakEy970.woRkeRS.deV",
+                "server_name": "WeATHEred-smokE-A384.JEGaKey970.WOrKeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeaTheRED-smOKE-a384.jEGAkeY970.WOrkeRs.deV"
+                    "Host": "wEatHEReD-SMOKE-a384.JeGAKey970.WoRkErs.dEV"
                 },
-                "path": "/GuxFem1LymRUZjdc",
+                "path": "/u8cYJ2aVSSo6PmrB",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WEAthered-smoKe-a384.JegAKey970.worKeRS.dEv",
+                "server_name": "weAtHeREd-SMOKE-a384.JEGAkeY970.WOrkeRS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeaTHereD-sMoKe-A384.JegAkey970.WorKers.deV"
+                    "Host": "WeATHEreD-sMOKe-A384.jegaKey970.WORkerS.deV"
                 },
-                "path": "/IgL86xRB9QW4vR1u",
+                "path": "/98sY1vuq5GLYyEp4",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WeaThered-smOke-A384.jegAkEy970.WORkeRS.DEV",
+                "server_name": "WEaThErEd-SMOke-a384.jeGAkeY970.woRkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weATheReD-smokE-a384.JEGAkEy970.WOrkerS.DEv"
+                    "Host": "WeAtHeRed-Smoke-A384.jeGAkEy970.wORkeRs.dev"
                 },
-                "path": "/4rEViHUs9McfYPSL",
+                "path": "/hq1vbFXAoAcOzjcl",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WEaTherED-SmOke-A384.jEgakEY970.WORkerS.DEV",
+                "server_name": "wEATHERed-SmoKE-a384.jEGAKeY970.worKERs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WEatHeReD-SmOke-a384.JegakEY970.WorKers.Dev"
+                    "Host": "WEatHerED-SmOkE-a384.jeGakey970.WOrKERs.DEv"
                 },
-                "path": "/hkW69u0ZetqQkg4I",
+                "path": "/fWDCl0CEpUAfJEB1",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WeatHeRed-sMokE-A384.jEgAkEy970.workErS.DEV",
+                "server_name": "weatheReD-SmOKe-a384.jEGAKey970.WOrKers.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weatHEreD-Smoke-a384.JEgaKey970.woRKerS.Dev"
+                    "Host": "wEAthERed-SMOkE-A384.JEGakeY970.wORkeRS.dEV"
                 },
-                "path": "/pLe3WqMoqJ4PC7BK",
+                "path": "/rNq0sbWYTUm0zWS1",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weaTHeREd-SmOkE-A384.jEGakEY970.WorkeRs.Dev",
+                "server_name": "WEaTHerEd-smoke-A384.jEgAkey970.WOrkERs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeaThEREd-smOkE-a384.JEgakEY970.woRkers.dEv"
+                    "Host": "WeaThErED-smoKE-A384.JeGaKEY970.WORKERS.dev"
                 },
-                "path": "/XOQi9Lp3Pvytvxlt",
+                "path": "/YQadKeME5mUYVh3K",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WeaTHEREd-SMoke-a384.JeGAkey970.woRkErS.dEV",
+                "server_name": "weathEReD-SmoKE-a384.jeGaKEy970.WORKErs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weathERed-smOKE-a384.jeGAKeY970.WorKErS.DEV"
+                    "Host": "wEAtHEReD-SmOKE-a384.jEgaKEy970.WorKeRs.DEv"
                 },
-                "path": "/ur0I05Bs6glIX4lQ",
+                "path": "/a0tLu5EANfWY6qEs",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WeAtHEred-SmOKe-a384.jegakEy970.wOrKERS.Dev",
+                "server_name": "wEaThErEd-sMoKe-a384.jeGAKeY970.wOrKErs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WEATheReD-smokE-A384.JEGAKeY970.WoRkers.DEV"
+                    "Host": "WEaTHeRED-sMoke-A384.JegakeY970.wOrkeRs.deV"
                 },
-                "path": "/64SZ2hj6bVPWNA5o",
+                "path": "/NvhBvZRSsvR0KDgk",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weatHeRed-smoke-a384.JEGAKey970.WOrkerS.DEV",
+                "server_name": "wEATheRED-SmOke-A384.jEGakEy970.WORkErS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wEatHerED-sMoKE-A384.jEGakEY970.woRkErs.DEv"
+                    "Host": "wEaTheREd-smOke-a384.jeGAkEy970.WOrKErS.deV"
                 },
-                "path": "/kKVgkwAfXGtLrXvS",
+                "path": "/AdjLnxVPxvOTm2ar",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEATHeRed-sMOke-A384.JEgakey970.WorKErS.dEv",
+                "server_name": "WeATHereD-SMokE-a384.jeGaKEy970.WORKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeathEReD-smoKe-a384.jEGAkey970.WOrKERS.dEv"
+                    "Host": "WEathEreD-sMOke-A384.jeGakey970.wORKErS.Dev"
                 },
-                "path": "/6YzP1KIxBCxBJy0s",
+                "path": "/9gLN28vNSkxNQB6U",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEaTherED-SmokE-A384.JEgaKey970.workErS.DEV",
+                "server_name": "wEaThEReD-sMokE-a384.jegAKEy970.wORkErs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wEAThErED-sMokE-A384.JeGaKEy970.workeRS.DeV"
+                    "Host": "WeATHEreD-smOKE-a384.jEGAKEy970.WOrkeRs.Dev"
                 },
-                "path": "/5CFvS0ZAWpHMMMSi",
+                "path": "/jGIvObKCu3skHKEm",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weATHERed-sMoKe-A384.jEgaKeY970.WOrkErs.DeV",
+                "server_name": "WeATHered-smOke-a384.jeGaKeY970.WoRkERS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weaTHErED-sMoKE-a384.jegAKEy970.wOrkErS.dEv"
+                    "Host": "WeAthERed-SMoKe-a384.JEgAKey970.WorKeRS.dev"
                 },
-                "path": "/GbOif2Q4FZDCWfye",
+                "path": "/YV8LRrVgAxTJeCZY",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WEaTHEREd-SMokE-A384.JEGaKEY970.workERS.dev",
+                "server_name": "WEATherED-SMoKE-A384.jegAkEy970.Workers.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wEatHERed-smOke-a384.jegAkEY970.wOrkERS.DeV"
+                    "Host": "weaTheRed-sMoKE-A384.jEgAkEY970.WOrKerS.dev"
                 },
-                "path": "/eXyGpXHnt19WO4Au",
+                "path": "/Xc3O39YfwwbDYAe9",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEaTHerEd-sMOke-A384.JeGAKeY970.wOrKERS.DEv",
+                "server_name": "WEatheReD-SMokE-a384.JEGakEY970.wOrKErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeatHEreD-sMoKE-a384.JEgAkey970.wOrkeRS.DeV"
+                    "Host": "WeAtHErEd-smoke-A384.jEGAkEy970.worKeRS.DEv"
                 },
-                "path": "/kMHnpIMcCQt1zH3k",
+                "path": "/IfBLvF9qHfHQt2WN",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weatheREd-sMOKE-A384.JeGAKeY970.WorkErs.DeV",
+                "server_name": "weaTherED-sMokE-a384.JeGaKEy970.WorkerS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeathERed-sMokE-a384.jegakey970.woRkerS.DEv"
+                    "Host": "WeATHeReD-sMOKE-a384.jeGaKeY970.WOrKErS.DeV"
                 },
-                "path": "/y6DtJSgl0mRHCII3",
+                "path": "/1Urmio5mMmC1JFTG",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEAthErED-SMOke-A384.JeGAKey970.WORkErS.dEV",
+                "server_name": "WEaTHEreD-SmOKe-A384.JegaKEy970.wOrkerS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WEaTHeRed-SMOke-A384.jegAkEy970.wOrkerS.DeV"
+                    "Host": "wEatHEreD-smOKE-A384.jeGakey970.wORKERS.DeV"
                 },
-                "path": "/SHDQi8nfxJMnzj1y",
+                "path": "/RlxKyMSqLe7g1O1a",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WEathErEd-sMoKE-A384.jEgAKEy970.WoRKErS.dEV",
+                "server_name": "wEathered-SMokE-a384.JEgAKEy970.woRkeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weatheRED-smOke-a384.jegakeY970.wOrKERs.dev"
+                    "Host": "wEathEREd-SMoKe-A384.jeGAKeY970.WoRKeRS.DeV"
                 },
-                "path": "/nSIW2Ma5xAQo6Z6x",
+                "path": "/MAESZVAuo8PNGuAl",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weAtHERED-SMOKE-A384.JEGakey970.wORKeRS.deV",
+                "server_name": "wEaTHERed-sMokE-A384.jegakEY970.WoRKErS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weATHeRed-SmOkE-a384.JEgAKeY970.WoRKers.dEv"
+                    "Host": "wEATheRed-SMoke-A384.jeGaKeY970.WorkErs.DeV"
                 },
-                "path": "/53YlsyIow0yGu2Mz",
+                "path": "/nrw2GTt9trEVD2dR",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEAtHEREd-smOkE-A384.jEgaKEy970.woRkErs.DEV",
+                "server_name": "weATheRed-sMOKE-A384.JeGAkey970.WOrkErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wEaTheRED-SMoKE-A384.jEgakeY970.WorKerS.deV"
+                    "Host": "wEaTheRED-SmoKe-a384.jEgakEY970.worKErS.dev"
                 },
-                "path": "/rcLtq6dC4qaMRmI1",
+                "path": "/W1QnJ7zmPcViBIY7",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEAtHeRED-sMokE-A384.jegaKEy970.workErs.dEV",
+                "server_name": "wEATheRED-sMOkE-A384.jegaKey970.WOrkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weATHERed-SMOKe-A384.JEGaKEy970.workERs.DeV"
+                    "Host": "WEAthEred-SMokE-a384.jEgAKEy970.WorKERs.Dev"
                 },
-                "path": "/Pf6VJ7bR465LSkbX",
+                "path": "/kMnT0Qat6HZbCTVb",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weAtHerED-SmOkE-A384.jEgaKey970.WoRKers.dEV",
+                "server_name": "weatheReD-SmOKe-a384.JEgaKey970.wOrkErs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weATheRED-sMOkE-a384.jegAKEy970.wOrkeRs.dEv"
+                    "Host": "weaTherED-sMoKe-a384.jEgAKeY970.wORKers.DEv"
                 },
-                "path": "/TiBCgXX4Y6638cMf",
+                "path": "/uHSzw1eMJi5kgISw",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEAThERed-sMoKe-A384.JeGakey970.WORKeRS.DeV",
+                "server_name": "WEAtHereD-smoKE-a384.JEGakEY970.wOrkERS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,9 +1406,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "weAThErEd-sMoKe-A384.jEGaKEy970.woRKers.dev"
+                    "Host": "weatheReD-SMoKE-A384.jEGAkEy970.WORkErs.deV"
                 },
-                "path": "/r6kdbE1mcVcfKTB8",
+                "path": "/CYWedY6vsgqfW0ZI",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "weaTHErED-smoKe-A384.JegaKey970.Workers.deV",
+                "server_name": "WEAThereD-SMoke-a384.JegaKeY970.WOrkeRS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,42 +1436,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WEATheReD-SmOKe-A384.JEGAKeY970.wORkERs.Dev"
+                    "Host": "WeAtHerEd-sMOke-A384.JEGAKEy970.WorkeRs.deV"
                 },
-                "path": "/L3pLPIj7zjDJiEkB",
+                "path": "/ShAjxG9ZSP1etIPN",
                 "type": "ws"
             },
             "tag": "weathered-smoke-a384.jegakey970.workers.dev-tls"
-        },
-        {
-            "type": "vless",
-            "server": "[2606:4700:3033::ac43:c8c3]",
-            "server_port": 8443,
-            "uuid": "8fa3763c-02b0-4231-86ff-f6f8d77e31a0",
-            "domain_strategy": "prefer_ipv6",
-            "packet_encoding": "",
-            "tls": {
-                "alpn": [
-                    "http/1.1"
-                ],
-                "enabled": true,
-                "insecure": false,
-                "server_name": "wEaThered-sMoke-a384.JEgAKeY970.WorkeRS.DeV",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                }
-            },
-            "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560,
-                "headers": {
-                    "Host": "wEATHEREd-SmokE-A384.JeGaKey970.woRkErS.dEV"
-                },
-                "path": "/QgfHQvKUkPUlfM0Z",
-                "type": "ws"
-            },
-            "tag": "[2606:4700:3033::ac43:c8c3]-tls"
         },
         {
             "type": "vless",
@@ -1486,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wEatHered-SmOkE-A384.JegAkEY970.WoRKERs.deV",
+                "server_name": "WEatheReD-smoKE-a384.JegaKEy970.WOrkERS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1466,42 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WeAtHEred-SMOke-A384.jeGAkEy970.WORKErs.dEV"
+                    "Host": "WeatHereD-smoKE-a384.JEgAkEy970.WORkeRs.dEV"
                 },
-                "path": "/Mzy7GHlCFEbLTmIA",
+                "path": "/yAY6VESsLlxecJTn",
                 "type": "ws"
             },
             "tag": "[2606:4700:3037::6815:2c8d]-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:c8c3]",
+            "server_port": 8443,
+            "uuid": "8fa3763c-02b0-4231-86ff-f6f8d77e31a0",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "weaTHerED-SMoke-a384.JEGakeY970.woRkERS.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "WeaTHered-SMOKE-A384.jeGAKEy970.WORkeRs.dev"
+                },
+                "path": "/AJzH02Btq8G8vhSW",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3033::ac43:c8c3]-tls"
         }
     ],
     "route": {
