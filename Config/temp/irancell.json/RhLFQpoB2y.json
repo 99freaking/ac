@@ -2569,6 +2569,12 @@
         "enabled": false,
         "protocol": "smux",
         "max_streams": 0
+      },
+      "transport": {
+        "type": "httpupgrade",
+        "host": "1.www.speedtest.net.zula.ir.chanel97.online.",
+        "path": "TelegramChanel:t.me/HTTP_injector99",
+        "headers": {}
       }
     },
     {
