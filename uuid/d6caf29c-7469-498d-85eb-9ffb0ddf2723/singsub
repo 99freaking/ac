@@ -151,9 +151,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "long-bonus-716a.wimat94374.workers.dev",
-                "[2a06:98c1:3120::3]",
-                "[2a06:98c1:3121::3]",
+                "damp-fog-b33c.gemoxax771.workers.dev",
+                "[2606:4700:3035::ac43:8574]",
+                "[2606:4700:3035::6815:57e]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +177,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "long-bonus-716a.wimat94374.workers.dev-tls",
-                "[2a06:98c1:3120::3]-tls",
-                "[2a06:98c1:3121::3]-tls"
+                "damp-fog-b33c.gemoxax771.workers.dev-tls",
+                "[2606:4700:3035::ac43:8574]-tls",
+                "[2606:4700:3035::6815:57e]-tls"
             ]
         },
         {
@@ -209,9 +209,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "long-bonus-716a.wimat94374.workers.dev",
-                "[2a06:98c1:3120::3]",
-                "[2a06:98c1:3121::3]",
+                "damp-fog-b33c.gemoxax771.workers.dev",
+                "[2606:4700:3035::ac43:8574]",
+                "[2606:4700:3035::6815:57e]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +235,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "long-bonus-716a.wimat94374.workers.dev-tls",
-                "[2a06:98c1:3120::3]-tls",
-                "[2a06:98c1:3121::3]-tls"
+                "damp-fog-b33c.gemoxax771.workers.dev-tls",
+                "[2606:4700:3035::ac43:8574]-tls",
+                "[2606:4700:3035::6815:57e]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +259,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LoNg-bonuS-716A.WiMaT94374.woRkERS.dEV"
+                    "Host": "daMP-fOG-B33C.gEMoxax771.wOrKErS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/pqmlgGZXYv5gItne",
+                "path": "/fk18599SP0SfgotN",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +277,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "long-BoNUS-716A.wiMat94374.WORKErs.DEV"
+                    "Host": "DAmP-foG-B33C.GemOXaX771.WOrkErS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/rLVPJmFpYth3BK9U",
+                "path": "/H69XW7eFb2Dba5nb",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +295,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "loNG-boNUs-716a.WIMat94374.wORkErS.dev"
+                    "Host": "damP-FoG-b33C.GeMOxaX771.workerS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/f2SZiPIVtQTowNIh",
+                "path": "/xWDXUldCaBTPMda3",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +313,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LoNg-BONuS-716A.wiMat94374.WorkERS.dEV"
+                    "Host": "DaMp-foG-b33c.gemoXAX771.WorkeRS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/EZ4PYFsiq1Pe4lzX",
+                "path": "/ApJuG6yJZymZ1wRG",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +331,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lONg-BoNuS-716a.WIMAT94374.WoRKers.dEv"
+                    "Host": "daMp-fOG-b33c.GeMoxaX771.wOrKeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/Mwc7vNvtuPMYb0Or",
+                "path": "/vKCf2uuKkSlPOoGH",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +349,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lOnG-BOnuS-716a.wimat94374.WoRkerS.Dev"
+                    "Host": "DaMP-Fog-B33C.geMoXAx771.WorkERS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/rRf2MPtOy0tlN1s9",
+                "path": "/j195UIoaoVRpiWKW",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +367,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LonG-BonUs-716A.WImAt94374.wORKerS.DEV"
+                    "Host": "dAmp-FOg-B33C.GEmOXAX771.WoRKeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/OpQE0eQ2Wm4ZcNA9",
+                "path": "/RXCAPOinAF9MRHNt",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +385,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LoNg-BOnus-716A.wImat94374.woRkErS.dev"
+                    "Host": "dAMP-foG-B33c.GEMOXAx771.woRKeRs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/yVO3eDORKMkZp0Kz",
+                "path": "/oKkkB94WaPcB72Sj",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +403,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LONg-bonuS-716a.WiMat94374.wORKErS.dev"
+                    "Host": "daMP-FoG-b33c.gEMoxAX771.worKerS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/651HfwFD4YrLfkr1",
+                "path": "/PXPUo7CispmqM2ck",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +421,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lONG-BOnuS-716A.WimAT94374.WOrKErS.deV"
+                    "Host": "DaMp-FoG-B33C.GemOxax771.WoRKERs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/mnrx7GfnDlAdJF6A",
+                "path": "/AE3DW8Mag9bqmKmv",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +439,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LOng-BoNus-716a.wImAt94374.WorkeRS.DEv"
+                    "Host": "DAmp-fog-B33c.GEmOXAx771.woRKErs.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/R0ukJ34M5Sifh9bx",
+                "path": "/wGYDssxWqAmdCaBf",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +457,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lOnG-BONUS-716A.wimAT94374.woRkerS.dEv"
+                    "Host": "DAMp-FoG-b33C.GEMoXax771.woRkers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/TK6zRbzT54eIsXOI",
+                "path": "/BtqYuoMvDJzjT7xw",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +475,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lOnG-BONUs-716a.WIMAt94374.WORkeRS.dEV"
+                    "Host": "damP-foG-b33C.gEmOXAx771.woRkErs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/bMaCCNDmSlYh5oIT",
+                "path": "/k5g9Y2Ou4Gmq5IeB",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +493,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "loNg-BONUS-716a.WIMAT94374.WORkErs.dEV"
+                    "Host": "daMP-FOg-b33C.GemoxAX771.WORkeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/PVV9uRHUHq6oIua7",
+                "path": "/hpEm6raziRPNEaeW",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +511,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "Long-bOnuS-716A.wiMAT94374.worKeRs.DeV"
+                    "Host": "Damp-fOG-b33c.gEMoxax771.wOrkerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/oQA9QtWy91G6hZHi",
+                "path": "/MHm6sbaVTTnFAMuc",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +529,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LOng-bonuS-716a.wIMAt94374.WORKErs.deV"
+                    "Host": "DAMp-FoG-B33C.geMoXAx771.WOrkErS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/QetUyk1UNByv5p8v",
+                "path": "/o3KcXjxMyi1V5D3B",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +547,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LOnG-bOnUs-716a.wimaT94374.WoRKeRS.deV"
+                    "Host": "DaMP-fOG-b33c.GemoXax771.wOrkeRs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/UnUiBz4chthwXj0G",
+                "path": "/NrLDChiwgnbb4X1X",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +565,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "long-bONUS-716a.wiMAT94374.WORKerS.DeV"
+                    "Host": "damp-fog-b33C.geMOxaX771.WORKErS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/aon1kMiLCIguj67Q",
+                "path": "/sfwDO8rtbn3zFyhP",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +583,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LONG-BonUs-716a.WiMAt94374.woRKERS.DEv"
+                    "Host": "dAmp-foG-b33C.gEmoXAX771.woRkErs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/Xjj0ZMa5yI0dPUuS",
+                "path": "/S0MWrKmLTQH5VO2B",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +601,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lONG-BONUs-716A.wiMAt94374.woRKerS.DEv"
+                    "Host": "dAmp-FoG-B33C.gemOxaX771.WorKerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/UUwrWGFG0Ec52LnH",
+                "path": "/KKpVbvXP7YXiQNEf",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +619,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LOng-bonuS-716a.wiMaT94374.wORkeRS.DEv"
+                    "Host": "DaMp-fog-B33c.GEmOXax771.WORkeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/fyJxIgc4YpxI1e5o",
+                "path": "/KjJ0SHms6FCjrh4a",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +637,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LONG-bonUs-716a.Wimat94374.worKErs.DeV"
+                    "Host": "DaMp-fog-b33C.GEmOxaX771.workErS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/VcpXYcIVaJCC5TOc",
+                "path": "/E74Ey3pmpWQxRwsA",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +655,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lonG-bonUs-716A.WImat94374.WORKERs.dEv"
+                    "Host": "DaMp-fog-B33c.GEMOxax771.wORKERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/SBzsqnT1Yw7XT7O7",
+                "path": "/HiaFImONvbGwrOur",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "long-bonus-716a.wimat94374.workers.dev",
+            "server": "damp-fog-b33c.gemoxax771.workers.dev",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "loNG-boNuS-716A.wiMAt94374.WOrKERS.DEV"
+                    "Host": "DAmp-FOG-B33C.GeMOxAx771.wORKERs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/5lc6NZPpLTEqnUcu",
+                "path": "/63K31hBxr9wiEcw9",
                 "type": "ws"
             },
-            "tag": "long-bonus-716a.wimat94374.workers.dev"
+            "tag": "damp-fog-b33c.gemoxax771.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3035::ac43:8574]",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lONg-BONUs-716A.WImAt94374.WORkErS.dEv"
+                    "Host": "dAMP-FOG-b33C.GEmOxAx771.wOrkers.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/IsxJ5yjcT2AcufD2",
+                "path": "/bT5DriH0SiNH60ee",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]"
+            "tag": "[2606:4700:3035::ac43:8574]"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3035::6815:57e]",
             "server_port": 8880,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LoNG-BOnuS-716a.WIMat94374.WORKers.dEV"
+                    "Host": "dAmp-fOG-B33C.geMOXAx771.WOrkeRS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/7AoJ0AdyV610aLjy",
+                "path": "/r5B2SXWhQ6WdvEWJ",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]"
+            "tag": "[2606:4700:3035::6815:57e]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LOng-bonUs-716a.wimaT94374.wORKeRs.DeV",
+                "server_name": "DAmP-Fog-b33c.GEMoxAX771.wOrkeRS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lOng-BOnuS-716a.WiMAT94374.worKeRs.dEV"
+                    "Host": "DaMP-fOg-b33c.GEMoXax771.worKErs.dEV"
                 },
-                "path": "/sh3rhsgg22Pc67kQ",
+                "path": "/Yfi3CjKhENaSuppI",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +757,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lOng-BoNUS-716a.wImat94374.WORKErs.DEV",
+                "server_name": "DaMP-Fog-b33C.gemOxaX771.woRKerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "loNG-BOnus-716A.wimaT94374.woRkerS.Dev"
+                    "Host": "DamP-foG-b33c.GEMOxax771.WoRkerS.dEv"
                 },
-                "path": "/RNZrEAHxorVqEJOp",
+                "path": "/31LmYCGhfjy4bpM9",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +787,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "Long-BonUS-716a.WIMat94374.WOrKeRs.Dev",
+                "server_name": "DAMP-fOG-b33C.gemOxAx771.woRkers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lONg-boNuS-716A.wimAT94374.worKERS.Dev"
+                    "Host": "damP-FoG-B33C.gEmOxAX771.woRKeRs.dEV"
                 },
-                "path": "/LlDUYIoARSTXEfKU",
+                "path": "/ufNyuILDCwgmQQIX",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +817,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONG-boNus-716A.wimAT94374.WOrKerS.Dev",
+                "server_name": "Damp-fog-b33c.GEMoxAx771.WorkERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LoNg-bonus-716A.wimAt94374.wORkerS.Dev"
+                    "Host": "damp-Fog-b33C.GeMOXAX771.wORKERS.DEV"
                 },
-                "path": "/etP3vkCE714xfYFN",
+                "path": "/yMIUqfyIZw4ceyh8",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +847,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONG-BONUS-716a.wImat94374.WorKErS.DeV",
+                "server_name": "DaMP-fOg-b33c.GEMoXax771.WorkErS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lONg-bOnus-716A.wimaT94374.worKeRS.deV"
+                    "Host": "daMP-fOG-b33C.GEmOXaX771.woRKeRs.DeV"
                 },
-                "path": "/NGqjBdwx7GU2lb00",
+                "path": "/HTL5CRWPui2fdpPR",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +877,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lOnG-BOnuS-716a.wimAT94374.WORKErS.DeV",
+                "server_name": "damP-fOG-B33c.GEmoXAX771.wOrKERS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "Long-BoNuS-716A.WimaT94374.WORKErS.dEV"
+                    "Host": "DAMP-FOg-b33C.gemoXAx771.WorkeRs.deV"
                 },
-                "path": "/qRrAAbDfYwqIgigk",
+                "path": "/3dpdhW9lNQJR7nrR",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +907,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lonG-Bonus-716a.wimAT94374.wOrKErs.dEv",
+                "server_name": "damP-fOG-b33c.gEmOXAX771.wOrkERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "loNg-bonUs-716a.wiMAt94374.WoRKerS.DeV"
+                    "Host": "DAmp-fOG-b33C.gEMoXAx771.WORKers.dEv"
                 },
-                "path": "/29ykEsUR3plPJtV1",
+                "path": "/ml6AKnJsx2xw7Fii",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +937,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lONg-BOnus-716A.Wimat94374.worKERS.deV",
+                "server_name": "damP-FoG-B33c.GemOxAx771.WoRKeRs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LoNG-bonuS-716A.wiMaT94374.wOrKERS.dEv"
+                    "Host": "daMP-FoG-B33C.geMoXAX771.wORkErs.dev"
                 },
-                "path": "/yytDM45Lmk78UPKU",
+                "path": "/g2biyN9IPBU3dXE2",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +967,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONG-BOnus-716A.WimaT94374.WorKeRS.deV",
+                "server_name": "DAmP-FOg-b33C.GeMoXAx771.WOrkeRS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONg-bOnuS-716A.wimat94374.woRkERS.dEv"
+                    "Host": "DaMP-foG-b33c.geMoxaX771.WorKErs.DeV"
                 },
-                "path": "/r9Dtd9PAG2QS6zm1",
+                "path": "/XimoJaSUF2dFN3v7",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +997,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lOng-BonUs-716a.WImAt94374.WORkeRS.DEV",
+                "server_name": "DaMp-foG-B33C.geMoXAx771.WoRkeRS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lOnG-bONUS-716A.WimAT94374.worKErs.DeV"
+                    "Host": "damP-fOG-B33c.GemoxAX771.WorKERs.DEV"
                 },
-                "path": "/DGQkswyINNdzK8ev",
+                "path": "/QzQvEDGp6CmSs6Bs",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1027,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONg-bONus-716A.WimaT94374.WOrKERs.DEV",
+                "server_name": "daMP-FOG-b33C.geMoXAx771.WorKERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONg-BOnus-716A.WIMat94374.wORkeRS.DeV"
+                    "Host": "DAmp-fOg-B33C.gEMOXAx771.WOrkeRS.DEV"
                 },
-                "path": "/K5hZJZJd5IJ5GGyQ",
+                "path": "/q5WsLg3soxPARuO1",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1057,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "loNg-bONuS-716A.WiMat94374.WorKeRS.deV",
+                "server_name": "DaMp-FOg-B33c.gEmOXax771.wORkERs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONG-bONUS-716A.wiMAt94374.wOrKERs.DEv"
+                    "Host": "DaMp-FoG-b33c.GEMOXax771.WoRkERs.Dev"
                 },
-                "path": "/l8kUYK2SuEKNAT7A",
+                "path": "/xoZwed2hCug7IFyV",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1087,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LOnG-bONUS-716a.WImAT94374.wOrkERs.deV",
+                "server_name": "DAmp-Fog-B33c.GEmOxAx771.WORKeRs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lONG-bOnus-716A.WiMaT94374.WoRkErs.DEv"
+                    "Host": "dAMp-FoG-B33C.gEMOXAx771.WoRKERs.DEv"
                 },
-                "path": "/uDfNBirQDDfVPHL5",
+                "path": "/E33Niew0cbKEvNgX",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1117,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lonG-bOnUs-716a.wimAt94374.workeRS.dev",
+                "server_name": "dAMp-fOG-b33c.geMOxax771.worKERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lONG-bONUs-716a.wIMat94374.wOrkeRs.deV"
+                    "Host": "daMp-fOg-B33C.geMOXAx771.WorKerS.dEV"
                 },
-                "path": "/pHYIQtkNABPCbtmE",
+                "path": "/w5X2lIzW9Ko0ocTy",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1147,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONG-BoNuS-716A.WImaT94374.wORKers.dEv",
+                "server_name": "daMP-FoG-b33C.gemoXAx771.wOrKERs.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "long-BOnuS-716a.wIMat94374.WORKers.dEV"
+                    "Host": "DAMP-foG-b33c.GEMoxAX771.woRKeRs.Dev"
                 },
-                "path": "/jCrfvvxKmcayqHvo",
+                "path": "/9KUBg7DbT9r65NLC",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1177,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LoNG-bOnUS-716A.WiMAt94374.WORKErs.DEV",
+                "server_name": "daMP-fOG-b33C.gEmOxAX771.WorkErS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LonG-BOnuS-716A.Wimat94374.WoRkERS.dev"
+                    "Host": "DamP-fog-b33C.gEMOXAx771.woRKers.deV"
                 },
-                "path": "/SznNRkBZpxBwMPD4",
+                "path": "/mPfDFoEAQQXfbg6K",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1207,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONg-bonuS-716A.wimat94374.WORkErs.deV",
+                "server_name": "DAmp-FOg-B33c.gemOxaX771.wORkers.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONg-Bonus-716A.wIMaT94374.WorKerS.dEV"
+                    "Host": "DAmP-fog-b33C.gEmoxax771.WOrkeRs.DEV"
                 },
-                "path": "/l0NasMdLOB2akSYm",
+                "path": "/3CGXdYaYaSLqEe1N",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1237,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lonG-BonuS-716a.WimaT94374.wOrKERs.DEV",
+                "server_name": "dAmP-FOG-B33c.GeMOxax771.WorkerS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "loNg-BOnuS-716A.wimaT94374.workers.dEV"
+                    "Host": "daMp-foG-b33c.GemOxAX771.WORKERS.deV"
                 },
-                "path": "/I0xQaznOiVZzTVjE",
+                "path": "/VPC8HfopYOtXX2D0",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1267,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lonG-bONUS-716A.wimAt94374.WoRKERS.dEv",
+                "server_name": "dAmp-fOG-B33c.gEmOxaX771.WoRkErs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lONG-BOnus-716A.wiMaT94374.WoRkERS.DeV"
+                    "Host": "daMP-FOg-B33c.GEMOxAx771.woRKerS.DeV"
                 },
-                "path": "/3Wxn1end2RlXuBad",
+                "path": "/a2cBAEf1659qUZZh",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1297,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lOnG-BOnus-716A.WImAt94374.WoRKERS.dev",
+                "server_name": "DaMp-fOg-b33C.GEMOXAX771.WorKeRS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LoNG-Bonus-716A.wimAt94374.WorkerS.dEv"
+                    "Host": "Damp-foG-B33c.GemOXax771.woRKeRS.DEv"
                 },
-                "path": "/2btL4L9MhIHMG2LT",
+                "path": "/4i5xi6PTRljrBdjM",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1327,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LONg-BOnus-716a.WiMAT94374.WOrkErs.DEV",
+                "server_name": "daMp-FOg-B33C.geMoxAX771.WORKeRS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LonG-BONuS-716a.WIMaT94374.wORkERS.dEv"
+                    "Host": "damP-fOG-B33c.geMOXax771.woRKerS.DEv"
                 },
-                "path": "/AT151oUqzPJ1pPyl",
+                "path": "/RysIDbygksafseKJ",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1357,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LOng-bonUs-716a.wIMAt94374.WorKeRs.DEv",
+                "server_name": "dAMP-fog-b33C.GEmOxAX771.WoRKErs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lOnG-bOnUs-716A.WImaT94374.WorKerS.Dev"
+                    "Host": "dAmP-FOG-b33c.gEMOXAX771.wORkeRS.dEV"
                 },
-                "path": "/HwChtGNadcBM9Lf5",
+                "path": "/In2F1TVSRtWo11s9",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1387,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LOnG-BonUS-716A.wImat94374.WOrkErs.deV",
+                "server_name": "DAmP-foG-b33c.gemoxaX771.woRkeRs.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1406,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONg-bONus-716a.WiMAT94374.WoRKErS.dEv"
+                    "Host": "DaMP-FOG-B33c.gEMOXaX771.wOrKERS.DEv"
                 },
-                "path": "/FKvQLTocdCkwP8Wg",
+                "path": "/dIybjH1gF1Gcw7ok",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "long-bonus-716a.wimat94374.workers.dev",
+            "server": "damp-fog-b33c.gemoxax771.workers.dev",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LoNg-bonus-716A.WIMat94374.WorKERS.deV",
+                "server_name": "damp-FOG-B33C.GeMOXAX771.WoRKerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1436,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "long-BONUs-716A.WImaT94374.WORKErs.DEv"
+                    "Host": "daMp-fOG-b33c.gEMoxax771.WOrKErS.dev"
                 },
-                "path": "/59dOgUfnUeeomXSH",
+                "path": "/XWhFYC5e37Qzoj7U",
                 "type": "ws"
             },
-            "tag": "long-bonus-716a.wimat94374.workers.dev-tls"
+            "tag": "damp-fog-b33c.gemoxax771.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3035::ac43:8574]",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lOng-BONUS-716a.WImaT94374.worKerS.dev",
+                "server_name": "Damp-FoG-B33C.gEmOXax771.WOrkErs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1466,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LonG-bOnUS-716a.WiMaT94374.WoRKeRs.DeV"
+                    "Host": "dAmP-FOG-b33c.GEmoXAx771.WorkeRs.dEV"
                 },
-                "path": "/3TqtBKEFnCGonC5L",
+                "path": "/QkyL1Dn3DHwCnxfm",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]-tls"
+            "tag": "[2606:4700:3035::ac43:8574]-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3035::6815:57e]",
             "server_port": 8443,
-            "uuid": "67cdbfda-fd5d-433f-9334-ddc7fe1bd2f6",
+            "uuid": "cfaae3b7-39df-4e6e-9058-a247a71fecaf",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1486,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lONG-BONus-716A.WimaT94374.WorKers.Dev",
+                "server_name": "dAMp-FoG-B33C.geMoXax771.WOrKerS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1496,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LONG-boNuS-716a.wiMAt94374.wORkERS.dEV"
+                    "Host": "damP-foG-b33C.gEmoXAx771.workERs.dEv"
                 },
-                "path": "/FD7k7ZacTliMMUYx",
+                "path": "/rb6MJ2hUwOoJeXEP",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]-tls"
+            "tag": "[2606:4700:3035::6815:57e]-tls"
         }
     ],
     "route": {
