@@ -152,8 +152,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "withered-bar-bad8.jiyaho8345.workers.dev",
-                "[2606:4700:3030::6815:52e8]",
                 "[2606:4700:3031::ac43:d0ac]",
+                "[2606:4700:3030::6815:52e8]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -178,8 +178,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "withered-bar-bad8.jiyaho8345.workers.dev-tls",
-                "[2606:4700:3030::6815:52e8]-tls",
-                "[2606:4700:3031::ac43:d0ac]-tls"
+                "[2606:4700:3031::ac43:d0ac]-tls",
+                "[2606:4700:3030::6815:52e8]-tls"
             ]
         },
         {
@@ -210,8 +210,8 @@
                 "www.speedtest.net",
                 "www.zula.ir",
                 "withered-bar-bad8.jiyaho8345.workers.dev",
-                "[2606:4700:3030::6815:52e8]",
                 "[2606:4700:3031::ac43:d0ac]",
+                "[2606:4700:3030::6815:52e8]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -236,8 +236,8 @@
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
                 "withered-bar-bad8.jiyaho8345.workers.dev-tls",
-                "[2606:4700:3030::6815:52e8]-tls",
-                "[2606:4700:3031::ac43:d0ac]-tls"
+                "[2606:4700:3031::ac43:d0ac]-tls",
+                "[2606:4700:3030::6815:52e8]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -265,10 +265,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WITHerEd-bAr-bAd8.JiYaHo8345.WoRKERs.dEv"
+                    "Host": "wiTHered-Bar-Bad8.jiyaHo8345.WoRkERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/AhwTzKS52XPyYGIm",
+                "path": "/VBqPo5yN7N4smCun",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -283,10 +283,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTHERed-bAR-BAD8.jiyAho8345.WORKeRS.Dev"
+                    "Host": "WIThERed-BaR-BaD8.JiYaHO8345.WorkerS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/BBlSKhVU6w81l9TQ",
+                "path": "/Y7dERvniOeiK1eBk",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -301,10 +301,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTHerED-Bar-bad8.jiYaHO8345.wORkeRs.dEV"
+                    "Host": "WIthErEd-bAR-BaD8.jIyAHo8345.WoRKERs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/6softxGU3gfejygM",
+                "path": "/PuedG3sY7dAuwGdZ",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -319,10 +319,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHeReD-Bar-bAD8.jiYaHO8345.workers.deV"
+                    "Host": "WItHered-BAr-bad8.jiyahO8345.WORkerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/2ECJRAP70SRexw24",
+                "path": "/MNl4r03ABbFBPCzF",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -337,10 +337,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WITHered-BAr-bAD8.jIyahO8345.WOrKERS.dEv"
+                    "Host": "WITHErEd-bAR-bAd8.JIyAho8345.WORkeRs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/C24F1zz98TWORBAe",
+                "path": "/nO6ZmCfxRARZVQru",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -355,10 +355,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wIthereD-bar-BAd8.JiyaHO8345.workErs.DEV"
+                    "Host": "witHerEd-BAR-baD8.JIYAHo8345.woRkErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/BzG1200VAwdz0QbQ",
+                "path": "/Dpe37VpOrEuVU4sS",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -373,10 +373,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "withErEd-bar-baD8.JiyaHo8345.WOrkERs.DeV"
+                    "Host": "wIthEreD-BAr-Bad8.jiYAhO8345.wORkErs.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/DH4Gw3GmK9JkaHg7",
+                "path": "/NwwcwIiOvNdD4soD",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -391,10 +391,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WithERed-bAr-BAd8.JIYaho8345.WOrkeRS.deV"
+                    "Host": "wITherEd-Bar-BaD8.jIYaHo8345.WORKERs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/HayPIySF6cYz4HjM",
+                "path": "/M2SPQS9xU6Unnu2B",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -409,10 +409,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "witHerEd-BaR-bAd8.jIyAHO8345.woRkeRs.dEV"
+                    "Host": "wiTHEreD-Bar-BAd8.jIYaHO8345.wORkERS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/OQrnkLVBVCrRSOzX",
+                "path": "/P3r1s2ItMn0wX5ev",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -427,10 +427,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "witHEREd-bAR-BaD8.JiYAHo8345.WOrKeRS.deV"
+                    "Host": "wITHeRED-bAR-BAd8.jIyaho8345.WOrKeRS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/50YUKTTRqKfbF5He",
+                "path": "/zWUHY5shqbl354cF",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -445,10 +445,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wItHeRED-Bar-Bad8.JiyaHo8345.wORkerS.deV"
+                    "Host": "wITherEd-bAr-BAd8.jIyaho8345.wOrkerS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/4FGmvxeN7btbBIaT",
+                "path": "/EDP52u1iCXY4Xykw",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -463,10 +463,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitheReD-bar-BaD8.JiYahO8345.WORkERs.deV"
+                    "Host": "witHEREd-bar-Bad8.JIyaHO8345.woRkERs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/pPw9oQljX9IhTuTX",
+                "path": "/IulJwBoyoEujzI7Q",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -481,10 +481,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "withErEd-bAr-BAD8.JIYAho8345.WOrKERs.DeV"
+                    "Host": "wIthEReD-bAR-BAD8.JIYAHo8345.woRkERs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/6S9H5lX0sqJw1uQc",
+                "path": "/vYw2RPoEEhoqOgqm",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -499,10 +499,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WItHERed-bar-baD8.jIYahO8345.WOrKERS.DeV"
+                    "Host": "wITHeREd-BaR-BAd8.jiYaHO8345.WOrkERS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/nUUfo1z9wj9gylIl",
+                "path": "/w8WxoPkCJtRwPH9r",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -517,10 +517,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wItheRED-bAr-baD8.JiyAho8345.WorkErS.DeV"
+                    "Host": "withErEd-bAr-Bad8.JIYAHo8345.WORkErs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/NwNdMaFZACJISE5R",
+                "path": "/OsXBwCiGFyCRRRkI",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -535,10 +535,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WithereD-baR-BAd8.JiYaHo8345.WORkerS.dEv"
+                    "Host": "WiThEred-bar-bAd8.jIYAho8345.WORKeRs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/43xjNPjx1NCR39f7",
+                "path": "/JW7vqr9dBrDHo9s5",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -553,10 +553,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WiTHeREd-bar-BAd8.jIyAho8345.wOrKerS.DEv"
+                    "Host": "WiTHERed-bar-baD8.JiYAHo8345.WoRKers.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/KdHYQ5MBsiOYHw3j",
+                "path": "/R1St5bRlAAH4009i",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -571,10 +571,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitHEREd-baR-baD8.JiYaHo8345.WOrKerS.Dev"
+                    "Host": "WIThEreD-bAR-baD8.jIYaHo8345.worKERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/dr6H9xUexHlKvJgI",
+                "path": "/5QEkIrajkX9d03wo",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -589,10 +589,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WIThEREd-BAr-BAD8.jiYAhO8345.wOrkeRs.Dev"
+                    "Host": "witheRED-BAR-bad8.jIYAho8345.wORkErs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/2I5znNnFdZkvV0Og",
+                "path": "/7FHcTBzUSzLXNhq3",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -607,10 +607,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitHErEd-bAr-baD8.jiyahO8345.WORkErs.dEV"
+                    "Host": "WITHEreD-bAR-BaD8.JiYAHo8345.WORkErS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/MqRIP6bVUkCRYmgb",
+                "path": "/9tDOzRkGMlG5zYqM",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -625,10 +625,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitheRED-Bar-bAd8.JiyAho8345.wORKERS.deV"
+                    "Host": "WitHeRED-BAR-bAD8.JiYaho8345.WorKerS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/yEgnozxmRRs9Xfdl",
+                "path": "/lvSd4WKNwzvQqyHQ",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -643,10 +643,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WIthEreD-bAR-BAD8.jiYaho8345.WOrkeRS.deV"
+                    "Host": "WIthErEd-BAR-bAd8.jIyAHo8345.wOrkErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/4Ec2uvbEMasa7OL2",
+                "path": "/3y41Ef2LCg1a87Ds",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -661,10 +661,10 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "WitHeRed-BAr-baD8.jiYAHo8345.woRkeRs.dEv"
+                    "Host": "WITherEd-baR-Bad8.jIyaHO8345.WORKeRs.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/m6W5SPgrG0JzpwwY",
+                "path": "/svPcOmN8zYmAkr8N",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
@@ -679,31 +679,13 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wItHeRED-BAR-bAD8.jiYahO8345.wORkErS.dEV"
+                    "Host": "wiTHerEd-BAR-BaD8.JIyaho8345.WorKErs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/HDZrbmx10WrQ20oE",
+                "path": "/nBMoMeQPq87rhHvS",
                 "type": "ws"
             },
             "tag": "withered-bar-bad8.jiyaho8345.workers.dev"
-        },
-        {
-            "type": "vless",
-            "server": "[2606:4700:3030::6815:52e8]",
-            "server_port": 8880,
-            "uuid": "206b7080-47b7-4083-ac4a-ce56cb271fd4",
-            "domain_strategy": "prefer_ipv6",
-            "packet_encoding": "",
-            "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "headers": {
-                    "Host": "wIThERed-bAr-bAD8.JiyAHo8345.wOrkeRs.Dev"
-                },
-                "max_early_data": 2560,
-                "path": "/YoIlADhs3JoWBkwK",
-                "type": "ws"
-            },
-            "tag": "[2606:4700:3030::6815:52e8]"
         },
         {
             "type": "vless",
@@ -715,13 +697,31 @@
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "wIThERED-BaR-baD8.jiyAhO8345.WoRkeRs.DEV"
+                    "Host": "wITHEREd-BaR-baD8.JiYahO8345.wOrkERS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/xQGrFc7KjOwsT6Ix",
+                "path": "/DYZ0IH95HCmVbvnZ",
                 "type": "ws"
             },
             "tag": "[2606:4700:3031::ac43:d0ac]"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3030::6815:52e8]",
+            "server_port": 8880,
+            "uuid": "206b7080-47b7-4083-ac4a-ce56cb271fd4",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "WitHeRed-bAR-BAd8.jiyahO8345.wOrkeRs.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/Y31EPcsFHJTaznMj",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3030::6815:52e8]"
         },
         {
             "type": "vless",
@@ -736,7 +736,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHEREd-Bar-bad8.jIYAHo8345.WOrKeRs.deV",
+                "server_name": "wITHered-BAR-baD8.Jiyaho8345.woRkers.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +746,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiThErEd-BAr-bad8.JIYAhO8345.WorkeRS.deV"
+                    "Host": "WItHeRED-bAR-BAD8.jiyAHO8345.WorkERs.dEV"
                 },
-                "path": "/SdBJLml9PeIlmOdF",
+                "path": "/MTwedluJBVXPx2IO",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -766,7 +766,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHErEd-baR-BAd8.jIYaHO8345.WoRKErS.Dev",
+                "server_name": "WITHEreD-BaR-baD8.JiyAHo8345.WORKErs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +776,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WITHeRED-BAR-BaD8.jIYaho8345.worKeRs.DEv"
+                    "Host": "wiTHeREd-baR-bAd8.jiYaHo8345.WorKeRS.Dev"
                 },
-                "path": "/MZQ2KCu4BE0lq8di",
+                "path": "/XvgYrwP1heYXCgg5",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -796,7 +796,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wiTHeRED-BaR-BaD8.JiYAhO8345.WOrkErS.deV",
+                "server_name": "WiThEreD-baR-BaD8.jiYaHo8345.wOrkERs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +806,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wITHeREd-BAr-BaD8.JiyahO8345.worKERS.deV"
+                    "Host": "WIthereD-bAr-bAd8.JIYaHO8345.wORkErs.deV"
                 },
-                "path": "/jbaDZ9QaPU4WPTAy",
+                "path": "/CeWp299ktVfr9YHA",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -826,7 +826,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThEred-bAr-bad8.JiYaho8345.wOrKers.dev",
+                "server_name": "wIthered-BaR-bAd8.jIyaho8345.WorKERS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +836,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WItHEred-baR-BAd8.JIyahO8345.wOrkerS.DEv"
+                    "Host": "WItHerED-bar-BaD8.jiYahO8345.WOrKErS.DEV"
                 },
-                "path": "/dDk1jlqgk2Ovwmpe",
+                "path": "/q0jsWMUSe2yoyrqw",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -856,7 +856,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThERed-baR-BaD8.jiYaHo8345.WoRKeRs.DEV",
+                "server_name": "withEReD-BAR-BAd8.JIYaho8345.worKErS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +866,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wIthERed-Bar-baD8.JIyAHO8345.woRkERS.dEv"
+                    "Host": "WIThErEd-baR-bAd8.jIyAHo8345.WorKERs.DeV"
                 },
-                "path": "/ZHhh3gY1CvxfggSs",
+                "path": "/WdJc7BDv810TFJJx",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -886,7 +886,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WithEReD-BAR-BaD8.jiYaho8345.wOrKerS.dev",
+                "server_name": "WItheREd-BaR-Bad8.jiyAho8345.WOrkers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +896,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wIThERED-bAr-bad8.jIYAHO8345.wOrKERs.deV"
+                    "Host": "wiThErEd-bAR-Bad8.JIYAHo8345.WOrKeRS.Dev"
                 },
-                "path": "/Pxi5yRO6ZvwLJ4ZW",
+                "path": "/SzRB3q6y1GDB2Mz9",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -916,7 +916,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wiTHereD-BAR-bAd8.jiYahO8345.wOrkers.DEV",
+                "server_name": "witHERED-BAr-BAD8.jiYAhO8345.WoRKerS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +926,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WIThEReD-bAr-bAD8.jIyAHO8345.WorkERs.DEV"
+                    "Host": "withEreD-bar-bAD8.jiYAHo8345.WorkErS.dEV"
                 },
-                "path": "/ZAcPNMcvH6Y274Nm",
+                "path": "/nYfWWnSDeR3J7gVD",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -946,7 +946,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WiTHERed-Bar-BAD8.jIyaHo8345.WORkErs.DEv",
+                "server_name": "WITHerEd-BAr-BAd8.jiYaho8345.WOrKERs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +956,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitHereD-bAr-BAd8.JIYAHo8345.woRKerS.DEv"
+                    "Host": "wItHEReD-Bar-BaD8.jiyAhO8345.woRkERS.dEV"
                 },
-                "path": "/0JvBtIf5xv1dpTIO",
+                "path": "/G0vWmRvF5C62jveq",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -976,7 +976,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WithERED-bAR-BAD8.jIYahO8345.wOrkERS.dev",
+                "server_name": "wItHeReD-BaR-bAD8.jiyahO8345.WoRkeRs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +986,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "witHerED-bar-BAd8.jIyAHo8345.Workers.dev"
+                    "Host": "WitHEred-bAr-baD8.jiYAho8345.wOrKERS.DEV"
                 },
-                "path": "/sQ0RQxHwQzcgeNVl",
+                "path": "/FQhlmOCvVq7RyOJw",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -1006,7 +1006,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WITHereD-BAr-baD8.jiYAhO8345.woRkErs.DEv",
+                "server_name": "wiTHEreD-BAR-bAd8.jIYaHo8345.wORKers.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1016,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wITHEred-bAR-Bad8.JIyaHo8345.wOrkERs.DeV"
+                    "Host": "WItHeRED-bAR-bad8.JIYAHo8345.wOrkErS.dEv"
                 },
-                "path": "/Kp7pWkgZjlviU9fa",
+                "path": "/fw5UVzbAUOk5WQ5G",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1036,7 +1036,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wIThEred-bar-bAd8.JiyaHo8345.wORkerS.DEV",
+                "server_name": "wITHeReD-bAr-baD8.JiyAHo8345.WOrKERS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1046,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wITheReD-bAr-BAD8.jiyAHo8345.WoRKeRs.DEV"
+                    "Host": "wiTHERED-BaR-Bad8.jIyAhO8345.WorkERS.Dev"
                 },
-                "path": "/ZTOwaeOLQEnZKxRC",
+                "path": "/rfm5YNb2ZCY0sZKL",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1066,7 +1066,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wItHEREd-baR-bAD8.jIYaHO8345.WOrKerS.dEv",
+                "server_name": "WiThERed-BAr-BAd8.jIYaHO8345.worKErs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1076,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WIthErEd-BaR-BaD8.jIyahO8345.WORKers.dev"
+                    "Host": "withEReD-bAR-bad8.JiyAho8345.workERs.Dev"
                 },
-                "path": "/ZvMAFQTuArFPC7q0",
+                "path": "/0NjDBrvK4wWXgRMK",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1096,7 +1096,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WitHErEd-Bar-BaD8.JIYAhO8345.wOrkERs.DEV",
+                "server_name": "WITHErEd-BaR-BaD8.JIYaho8345.WoRKerS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1106,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTHerED-BAR-BAd8.JiYahO8345.wORKeRs.dev"
+                    "Host": "WIthErEd-BaR-Bad8.JiyAho8345.WorKErs.DeV"
                 },
-                "path": "/2lwVasQyZAK1jvlM",
+                "path": "/A12xyvjPRcHkpALd",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1126,7 +1126,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHErEd-bar-Bad8.JiyAho8345.WorKErs.DEV",
+                "server_name": "WiTHered-BaR-BaD8.JIYAHo8345.worKers.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1136,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiTHERED-BaR-bAd8.jiyahO8345.woRkERs.Dev"
+                    "Host": "wIThERed-Bar-baD8.jIYAhO8345.WORkErS.dEv"
                 },
-                "path": "/x0OpPnq2Mun1cvuG",
+                "path": "/4HhczaQBeUljSkD2",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1156,7 +1156,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WiThEreD-bar-bAD8.JiYAho8345.woRKErs.DEV",
+                "server_name": "WitHereD-bAR-BAD8.JIyAHO8345.wORKeRS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1166,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WIThEReD-baR-BAd8.JIyaHo8345.worKerS.dEv"
+                    "Host": "wiTHeReD-baR-Bad8.JIYaHO8345.workErS.DeV"
                 },
-                "path": "/ZjC6U8rII4zpUIRf",
+                "path": "/2FxNxJo8bihd8JYx",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1186,7 +1186,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "withErED-BAR-Bad8.JIyaHO8345.WOrkers.DeV",
+                "server_name": "WitHerEd-BaR-baD8.jIyAHO8345.wORKERs.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1196,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitHeReD-Bar-bAd8.JiYAho8345.WORKERs.dev"
+                    "Host": "wiTHereD-baR-BAD8.jiYAHo8345.WorKeRs.DeV"
                 },
-                "path": "/sNvi1nFkGGLr1uWn",
+                "path": "/MpN1w4lJ5M7UZQge",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1216,7 +1216,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "witHeReD-BAr-BaD8.JIYAhO8345.WoRkeRS.dEv",
+                "server_name": "wiTHereD-bar-baD8.JiyaHO8345.WorkErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1226,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wItHereD-Bar-Bad8.JIyAHO8345.wOrKERS.dEv"
+                    "Host": "WiTHerEd-bAR-bad8.JIyaho8345.WOrkerS.dEV"
                 },
-                "path": "/2bnBNKXO9RAe8e56",
+                "path": "/FVk4XuzcripAcyRv",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1246,7 +1246,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHEReD-BaR-baD8.JIyAhO8345.WOrkeRs.DEv",
+                "server_name": "wiTHereD-bar-Bad8.JiYAHo8345.wOrKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1256,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTHerEd-BAr-bAD8.jiYAHo8345.WOrKerS.Dev"
+                    "Host": "WitHERED-bar-bAD8.jiYAho8345.WORKERS.DeV"
                 },
-                "path": "/odtuAYwgRtTYwqn1",
+                "path": "/At8W5NIeISqJVFqs",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1276,7 +1276,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "WitHErEd-BaR-bAD8.JiYaho8345.woRKERs.Dev",
+                "server_name": "WITHErED-Bar-BAd8.jiYahO8345.worKErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1286,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiTheREd-bar-bAd8.jiyaho8345.WoRkErs.DEv"
+                    "Host": "wItHErED-bAr-bAD8.JIyaho8345.woRKERs.DEv"
                 },
-                "path": "/M0VPN46Cdferd2Av",
+                "path": "/kYdtTWYKtchjQYW4",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1306,7 +1306,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wItHERed-bAr-BAd8.jiyAho8345.wOrkErS.Dev",
+                "server_name": "witHerED-bAR-BAd8.jIYAHO8345.WoRKers.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1316,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wiThERED-BAR-Bad8.JIYaHO8345.woRkers.dEv"
+                    "Host": "WitHered-Bar-bAD8.jiYaHo8345.WOrkeRS.DeV"
                 },
-                "path": "/qNb1K374Lku5hvxa",
+                "path": "/jQhkdtbnRtCr0yLI",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1336,7 +1336,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHEreD-bar-Bad8.JIYAho8345.woRKERs.DEv",
+                "server_name": "WitHeREd-BaR-baD8.jIyAHO8345.WorkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1346,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "withEREd-bAr-BAd8.jIYAHO8345.wORKers.DEv"
+                    "Host": "wItHERED-bar-baD8.JIYAho8345.WOrKers.dEV"
                 },
-                "path": "/iPtvUVw72YL6NlbG",
+                "path": "/0Nv2dXYgIfViT5OW",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1366,7 +1366,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHereD-bAr-BAd8.JiYahO8345.WOrkErS.Dev",
+                "server_name": "WitHereD-BAr-baD8.jiyahO8345.WOrKeRs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1376,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WITHErEd-bAR-bad8.JIYAHO8345.woRkerS.dev"
+                    "Host": "WithErEd-BAR-bAd8.jiYaHO8345.WORKerS.dEv"
                 },
-                "path": "/aUb0Dk2nOfpX1ftX",
+                "path": "/FvbFi8skXEr2fU2P",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1396,7 +1396,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wiTHerED-bar-BAd8.JiyAho8345.WorkerS.dev",
+                "server_name": "WiTHeREd-BAr-bad8.jiyaho8345.wORKErS.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,9 +1406,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WiThEreD-bAR-bad8.JIyAho8345.WorkErS.dEv"
+                    "Host": "WithEREd-baR-bAD8.jiYaho8345.WoRkERS.DEV"
                 },
-                "path": "/zyTTIFUHEhb3yyLW",
+                "path": "/FmIyTI7ZuR5Cekhw",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
@@ -1426,7 +1426,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wItHeREd-Bar-baD8.jiYAHo8345.wORkers.DEv",
+                "server_name": "wITHerED-BAr-baD8.jiyAHo8345.WOrkerS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,42 +1436,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "WitherED-bar-baD8.JiYAHO8345.wOrkERS.dEv"
+                    "Host": "WitHERed-bar-bad8.jIyahO8345.WORKERS.deV"
                 },
-                "path": "/m91OsqscJIRdnDmb",
+                "path": "/rNxeU1qWbKthXxNm",
                 "type": "ws"
             },
             "tag": "withered-bar-bad8.jiyaho8345.workers.dev-tls"
-        },
-        {
-            "type": "vless",
-            "server": "[2606:4700:3030::6815:52e8]",
-            "server_port": 8443,
-            "uuid": "206b7080-47b7-4083-ac4a-ce56cb271fd4",
-            "domain_strategy": "prefer_ipv6",
-            "packet_encoding": "",
-            "tls": {
-                "alpn": [
-                    "http/1.1"
-                ],
-                "enabled": true,
-                "insecure": false,
-                "server_name": "WiTHErED-BaR-BAd8.JiyAhO8345.WoRkers.DEV",
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                }
-            },
-            "transport": {
-                "early_data_header_name": "Sec-WebSocket-Protocol",
-                "max_early_data": 2560,
-                "headers": {
-                    "Host": "WITHereD-bar-Bad8.jIyaHO8345.WoRkERS.DeV"
-                },
-                "path": "/U0zo6ZBe5cZXnlRp",
-                "type": "ws"
-            },
-            "tag": "[2606:4700:3030::6815:52e8]-tls"
         },
         {
             "type": "vless",
@@ -1486,7 +1456,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "wITHEReD-BAR-bad8.jiyaHO8345.WOrKerS.deV",
+                "server_name": "witHERed-bAr-baD8.jIyAHO8345.WORkERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1466,42 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "wItherEd-BaR-bAD8.JiYAho8345.WorKERs.dEV"
+                    "Host": "WitHeReD-baR-Bad8.jiyaho8345.wORkeRS.DEV"
                 },
-                "path": "/tlIuaiK17MH4W45E",
+                "path": "/m3u7JiDyIcO7gLp5",
                 "type": "ws"
             },
             "tag": "[2606:4700:3031::ac43:d0ac]-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3030::6815:52e8]",
+            "server_port": 8443,
+            "uuid": "206b7080-47b7-4083-ac4a-ce56cb271fd4",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "wiTheRed-BAr-baD8.JiyAhO8345.wOrkErs.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "wIThEREd-Bar-baD8.jIYAHo8345.wORKERS.DEV"
+                },
+                "path": "/2ycTMphveDrD4d7A",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3030::6815:52e8]-tls"
         }
     ],
     "route": {
