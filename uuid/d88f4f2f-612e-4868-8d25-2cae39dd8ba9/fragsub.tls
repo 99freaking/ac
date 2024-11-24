@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/7/23 [31days] FRAG TLS 0",
+        "remarks": "1403/9/4 [31days] FRAG TLS 0",
         "log": {
             "access": "",
             "error": "",
@@ -130,11 +130,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "b2n.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "0b65a570-93b8-4272-b5e0-155e91c9b303",
+                                    "id": "ea358de1-3ec3-4250-8399-cb051bef56bb",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "FGNfNNdTn.XiWeYa2647.WoRKERs.deV",
+                        "serverName": "SPRIng-MOUNTAiN-4c30.gAGiw15392.woRKErs.DEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "FGNfnNdtN.XIwEyA2647.wOrkErs.DEv"
+                            "Host": "SPrIng-MOunTaIN-4c30.gaGiw15392.woRKERS.DEv"
                         }
                     },
                     "sockopt": {
@@ -207,7 +207,7 @@
         }
     },
     {
-        "remarks": "1403/7/23 [31days] FRAG TLS 1",
+        "remarks": "1403/9/4 [31days] FRAG TLS 1",
         "log": {
             "access": "",
             "error": "",
@@ -337,11 +337,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "b2n.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "0b65a570-93b8-4272-b5e0-155e91c9b303",
+                                    "id": "ea358de1-3ec3-4250-8399-cb051bef56bb",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "FGnfnNdTN.xiWeYa2647.woRKerS.DEv",
+                        "serverName": "SPRiNG-MOuNTaiN-4C30.gAGiW15392.WorkErS.dEv",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "fGNfNndTn.XiWEyA2647.woRkERS.dEv"
+                            "Host": "SpRiNg-mouNTAin-4C30.GAgiW15392.WOrKERs.dEv"
                         }
                     },
                     "sockopt": {
@@ -414,7 +414,7 @@
         }
     },
     {
-        "remarks": "1403/7/23 [31days] FRAG TLS 2",
+        "remarks": "1403/9/4 [31days] FRAG TLS 2",
         "log": {
             "access": "",
             "error": "",
@@ -544,11 +544,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "b2n.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "0b65a570-93b8-4272-b5e0-155e91c9b303",
+                                    "id": "ea358de1-3ec3-4250-8399-cb051bef56bb",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "fgNFnNDTn.XIWeyA2647.workeRs.DEv",
+                        "serverName": "SPrinG-MoUnTAin-4C30.gagIw15392.wORkerS.DeV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "FgnfnnDtn.xIWEYa2647.woRkeRs.dev"
+                            "Host": "spRiNG-moUNTaIN-4C30.gAgiw15392.WOrKeRS.dEv"
                         }
                     },
                     "sockopt": {
