@@ -103,8 +103,10 @@
             "type": "tun",
             "tag": "tun-in",
             "interface_name": "tun0",
-            "inet4_address": "172.19.0.1/30",
-            "inet6_address": "fdfe:dcba:9876::1/126",
+            "address": [
+                "172.19.0.1/28",
+                "fdfe:dcba:9876::1/126"
+            ],
             "mtu": 1500,
             "auto_route": true,
             "strict_route": true,
@@ -151,9 +153,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "lively-bar-81ef.hadayem854.workers.dev",
-                "[2a06:98c1:3121::3]",
-                "[2a06:98c1:3120::3]",
+                "frosty-cloud-df1e.fijoneh763.workers.dev",
+                "[2606:4700:3033::6815:2485]",
+                "[2606:4700:3036::ac43:c26f]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -177,9 +179,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "lively-bar-81ef.hadayem854.workers.dev-tls",
-                "[2a06:98c1:3121::3]-tls",
-                "[2a06:98c1:3120::3]-tls"
+                "frosty-cloud-df1e.fijoneh763.workers.dev-tls",
+                "[2606:4700:3033::6815:2485]-tls",
+                "[2606:4700:3036::ac43:c26f]-tls"
             ]
         },
         {
@@ -209,9 +211,9 @@
                 "tgju.org",
                 "www.speedtest.net",
                 "www.zula.ir",
-                "lively-bar-81ef.hadayem854.workers.dev",
-                "[2a06:98c1:3121::3]",
-                "[2a06:98c1:3120::3]",
+                "frosty-cloud-df1e.fijoneh763.workers.dev",
+                "[2606:4700:3033::6815:2485]",
+                "[2606:4700:3036::ac43:c26f]",
                 "104.16.219.230-tls",
                 "104.16.250.250-tls",
                 "104.17.42.10-tls",
@@ -235,9 +237,9 @@
                 "tgju.org-tls",
                 "www.speedtest.net-tls",
                 "www.zula.ir-tls",
-                "lively-bar-81ef.hadayem854.workers.dev-tls",
-                "[2a06:98c1:3121::3]-tls",
-                "[2a06:98c1:3120::3]-tls"
+                "frosty-cloud-df1e.fijoneh763.workers.dev-tls",
+                "[2606:4700:3033::6815:2485]-tls",
+                "[2606:4700:3036::ac43:c26f]-tls"
             ],
             "url": "https://www.gstatic.com/generate_204",
             "interval": "30m",
@@ -259,16 +261,16 @@
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "livElY-BaR-81EF.hAdAYeM854.wOrKErs.dEv"
+                    "Host": "FroSTy-clOuD-Df1e.fIjoNeH763.WoRkErS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/zNfSsVytG1FJfheF",
+                "path": "/9PIyF2llbcl3cAg6",
                 "type": "ws"
             },
             "tag": "104.16.219.230"
@@ -277,16 +279,16 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "liVeLy-BaR-81eF.haDaYeM854.WorkErS.Dev"
+                    "Host": "frOSTY-cLOUD-dF1e.fIJONeH763.wORKers.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/yZWyObefwu1F87u1",
+                "path": "/wDTmEpjE81chiHUy",
                 "type": "ws"
             },
             "tag": "104.16.250.250"
@@ -295,16 +297,16 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIvEly-Bar-81EF.HadaYEM854.WORkERs.DEV"
+                    "Host": "FrOsty-clOud-DF1e.FiJoNeH763.wOrKeRs.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/VSDmQCz4v42h3egI",
+                "path": "/sYf70VUlSEbkyAVV",
                 "type": "ws"
             },
             "tag": "104.17.42.10"
@@ -313,16 +315,16 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LiVelY-BaR-81eF.hadaYeM854.worKErS.DEv"
+                    "Host": "fRoSty-CLOUd-dF1E.FiJoNeH763.WoRKERS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/F9WyOcMpZgXJtaKc",
+                "path": "/iHCHdivQdMkVyocT",
                 "type": "ws"
             },
             "tag": "104.17.88.212"
@@ -331,16 +333,16 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lIvELY-BAR-81Ef.hAdaYeM854.WorKerS.dEV"
+                    "Host": "FrOsTy-CloUD-Df1E.FijoNEH763.wORKERS.DEv"
                 },
                 "max_early_data": 2560,
-                "path": "/4NP6MuL4NpkABG3G",
+                "path": "/xVs8mEAH3kY2v8y1",
                 "type": "ws"
             },
             "tag": "104.17.147.22"
@@ -349,16 +351,16 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIvEly-baR-81eF.haDaYem854.wOrKers.deV"
+                    "Host": "froSTY-clOUd-Df1e.fijoNEH763.WoRKeRs.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/bo3wzIbe1v26QzKj",
+                "path": "/RqcjrSdLIr6PUI6y",
                 "type": "ws"
             },
             "tag": "104.18.10.128"
@@ -367,16 +369,16 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LivELY-BAr-81Ef.HAdayEm854.woRKeRs.DEv"
+                    "Host": "FroSTy-ClOUD-dF1e.FiJonEh763.WOrKeRS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/ISETMQYStpDvxgtt",
+                "path": "/QiRgsQ2hBmdAOlub",
                 "type": "ws"
             },
             "tag": "104.19.250.20"
@@ -385,16 +387,16 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIvely-baR-81ef.hAdaYEm854.wOrkerS.Dev"
+                    "Host": "frosTy-CLOUd-dF1e.fiJoNEh763.WorkErS.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/evB86HuEaGmB3zzQ",
+                "path": "/G8QeSbYSFwOJNABC",
                 "type": "ws"
             },
             "tag": "104.20.9.79"
@@ -403,16 +405,16 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIVEly-baR-81eF.hADaYeM854.WoRKErs.dEV"
+                    "Host": "FrostY-ClOuD-DF1E.FiJoNEH763.WOrKeRS.dEV"
                 },
                 "max_early_data": 2560,
-                "path": "/TfvnJfTKU0mTiZiy",
+                "path": "/m9RCBzstAfaEw80f",
                 "type": "ws"
             },
             "tag": "104.21.63.78"
@@ -421,16 +423,16 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "liVELY-BAR-81Ef.HaDaYeM854.workERS.dEV"
+                    "Host": "FROStY-ClOuD-Df1E.fijonEh763.WORkeRS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/Uf1f2x2r09H2j2U8",
+                "path": "/eOH6P67W6wQVGvvN",
                 "type": "ws"
             },
             "tag": "104.26.15.85"
@@ -439,16 +441,16 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lIVELy-BaR-81ef.hadaYeM854.wORkErS.Dev"
+                    "Host": "fROstY-clOUd-DF1E.Fijoneh763.workerS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/GKx4UmkU1mHPeOOZ",
+                "path": "/gpzao1XxfFVP0RDb",
                 "type": "ws"
             },
             "tag": "162.159.130.234"
@@ -457,16 +459,16 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LiVEly-bar-81ef.Hadayem854.WOrKErs.dev"
+                    "Host": "fROsty-CLoud-df1E.fiJoneH763.wORkErs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/ZsIOnF0pYH57oMQR",
+                "path": "/vmeH1aR0vkq14XM8",
                 "type": "ws"
             },
             "tag": "162.159.133.234"
@@ -475,16 +477,16 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "liVELY-BAR-81ef.HAdayEm854.WoRkERS.deV"
+                    "Host": "frOSTy-CLoud-dF1e.FijONEH763.wOrKeRs.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/Xew5ASQODv7YBErB",
+                "path": "/CV6tijyLUXPKeAr6",
                 "type": "ws"
             },
             "tag": "172.67.73.174"
@@ -493,16 +495,16 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lIVelY-BAr-81ef.hadAyEM854.wOrkERs.dEv"
+                    "Host": "fROSTY-CLoUD-Df1e.FiJONEH763.wORKers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/MWi24Inoy9l34sEe",
+                "path": "/b4wzebdNMMG6kifB",
                 "type": "ws"
             },
             "tag": "172.67.135.149"
@@ -511,16 +513,16 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "liVELY-baR-81ef.hADayeM854.WorKeRS.deV"
+                    "Host": "fRoSTy-ClouD-df1e.FIJOnEH763.WOrkERS.DeV"
                 },
                 "max_early_data": 2560,
-                "path": "/6QbEglXqqFDulbvE",
+                "path": "/sBU2BHNJcdNsEpuK",
                 "type": "ws"
             },
             "tag": "172.67.170.72"
@@ -529,16 +531,16 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lIvELY-BaR-81ef.HADaYem854.wOrKErs.dEv"
+                    "Host": "Frosty-CloUD-Df1e.FiJonEH763.WoRkERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/RWZWoujf7wQkZViP",
+                "path": "/esKtuY4iPDdPtyaV",
                 "type": "ws"
             },
             "tag": "188.114.96.6"
@@ -547,16 +549,16 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "livElY-baR-81Ef.hAdAyEm854.WOrkeRS.Dev"
+                    "Host": "frOSTY-CLoUD-dF1E.FIJONeH763.wOrkERS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/sJdj35WNFsjiL4c8",
+                "path": "/Jo2cFghZtlyKeZFE",
                 "type": "ws"
             },
             "tag": "188.114.97.3"
@@ -565,16 +567,16 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LiVEly-BAR-81eF.hadaYeM854.woRkErS.DEV"
+                    "Host": "FRosTY-ClouD-DF1E.FiJoNeH763.wORKerS.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/PVPMG8tE4x85DuDW",
+                "path": "/3Vrm5sw3kN30UoF9",
                 "type": "ws"
             },
             "tag": "188.114.98.0"
@@ -583,16 +585,16 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LiveLy-bar-81ef.HAdaYEm854.WORKERS.deV"
+                    "Host": "fROstY-clouD-dF1e.FiJonEH763.woRKErs.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/ncceDzPRta81z5Vn",
+                "path": "/uhN9AKPgyElc5OPQ",
                 "type": "ws"
             },
             "tag": "b2n.ir"
@@ -601,16 +603,16 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LivelY-bAr-81ef.hadAyeM854.WOrkers.dEv"
+                    "Host": "FRoSTY-CLOud-Df1E.FIjoNEH763.wOrkers.dev"
                 },
                 "max_early_data": 2560,
-                "path": "/b9wlZgOaP1eYstZl",
+                "path": "/Evdj1AM08IrDMsHi",
                 "type": "ws"
             },
             "tag": "bolej.ir"
@@ -619,16 +621,16 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "liveLy-bAR-81EF.HadAyem854.WORkErs.dEV"
+                    "Host": "FroSty-ClOuD-Df1E.fiJONEH763.wORKerS.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/YFASLpKkcyFoAohv",
+                "path": "/U6QiYVPa8Me1Xdar",
                 "type": "ws"
             },
             "tag": "tgju.org"
@@ -637,16 +639,16 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIvEly-bAr-81ef.haDayem854.WorkERS.DEv"
+                    "Host": "FRoSTY-cLoUd-df1E.fIJOneh763.wORKeRS.dEv"
                 },
                 "max_early_data": 2560,
-                "path": "/cGdm1c5GCETojLJ8",
+                "path": "/FeSZ6L4he5wLdmlm",
                 "type": "ws"
             },
             "tag": "www.speedtest.net"
@@ -655,79 +657,79 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "livELy-bAR-81EF.HADaYeM854.Workers.DEv"
+                    "Host": "FRoSTy-CLOUD-df1E.fijONEH763.wOrkERs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/YlaVTjogvj83gyDm",
+                "path": "/loMf7ubb5WWFtgnJ",
                 "type": "ws"
             },
             "tag": "www.zula.ir"
         },
         {
             "type": "vless",
-            "server": "lively-bar-81ef.hadayem854.workers.dev",
+            "server": "frosty-cloud-df1e.fijoneh763.workers.dev",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "lIVElY-bar-81EF.HaDaYEM854.WORkeRs.Dev"
+                    "Host": "FrOStY-clOUD-Df1e.FIjONeh763.WORkERS.DEV"
                 },
                 "max_early_data": 2560,
-                "path": "/Och1Ytzd2Fm99T6z",
+                "path": "/57skRzhB9vHST1Hg",
                 "type": "ws"
             },
-            "tag": "lively-bar-81ef.hadayem854.workers.dev"
+            "tag": "frosty-cloud-df1e.fijoneh763.workers.dev"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3033::6815:2485]",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIveLY-BAr-81Ef.HADayeM854.WoRkErs.dev"
+                    "Host": "FroSTy-cLOUd-DF1E.FIjoNeH763.WOrkers.Dev"
                 },
                 "max_early_data": 2560,
-                "path": "/exgrE3iPiOw8J0Pp",
+                "path": "/hr5AefpbgnmMoTKA",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]"
+            "tag": "[2606:4700:3033::6815:2485]"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3036::ac43:c26f]",
             "server_port": 8880,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "transport": {
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "headers": {
-                    "Host": "LIVeLy-bAR-81eF.haDAYem854.WORKerS.dev"
+                    "Host": "fRosTy-ClOUd-df1E.fijonEH763.wORkErs.deV"
                 },
                 "max_early_data": 2560,
-                "path": "/YDBJ57Iu2R0gAaEG",
+                "path": "/zLBA9ijPyxMS68Kh",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]"
+            "tag": "[2606:4700:3036::ac43:c26f]"
         },
         {
             "type": "vless",
             "server": "104.16.219.230",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -736,7 +738,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVELY-BaR-81ef.HADAyEM854.WOrkeRS.dEv",
+                "server_name": "FRosTy-CLOuD-dF1E.FIjONEH763.WoRkErS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -746,9 +748,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "liVeLy-BaR-81eF.haDaYeM854.woRKErS.DEv"
+                    "Host": "frOstY-CLOUD-Df1e.FIJoNeH763.WorkErS.DEV"
                 },
-                "path": "/9kwTkODJAb3Y3v5Q",
+                "path": "/OCngKMF9QIqFopKm",
                 "type": "ws"
             },
             "tag": "104.16.219.230-tls"
@@ -757,7 +759,7 @@
             "type": "vless",
             "server": "104.16.250.250",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -766,7 +768,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVely-Bar-81eF.haDAyEm854.WORkers.dev",
+                "server_name": "FROsty-CloUd-dF1E.FIJONEH763.WOrkERs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -776,9 +778,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LivElY-bAR-81EF.hadaYem854.wOrKErS.deV"
+                    "Host": "froStY-CloUD-df1E.fIJoneh763.WORkerS.dEv"
                 },
-                "path": "/5JhBu1lRNiCgzvmz",
+                "path": "/VxKtivcpztWve146",
                 "type": "ws"
             },
             "tag": "104.16.250.250-tls"
@@ -787,7 +789,7 @@
             "type": "vless",
             "server": "104.17.42.10",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -796,7 +798,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVely-bAR-81Ef.HAdAyeM854.WorKeRS.DEV",
+                "server_name": "fRoStY-clOUD-Df1E.fIjONEh763.WOrKErS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -806,9 +808,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIvElY-bAr-81Ef.HAdaYEM854.WOrkERs.dEV"
+                    "Host": "FROstY-CLouD-df1e.fiJONeH763.WorKErS.dev"
                 },
-                "path": "/RPSvRJX3CWyHHHcU",
+                "path": "/ZJzn9L1ks4vEkeh4",
                 "type": "ws"
             },
             "tag": "104.17.42.10-tls"
@@ -817,7 +819,7 @@
             "type": "vless",
             "server": "104.17.88.212",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -826,7 +828,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "liVELY-BAR-81Ef.hadAyEm854.WoRKeRS.dEV",
+                "server_name": "FrOsTY-CLOUd-Df1E.FIjoNeh763.wOrkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -836,9 +838,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LivELy-bar-81eF.haDayEm854.WoRKeRs.DEV"
+                    "Host": "frosty-cLoUd-DF1E.FIJonEH763.WORkeRs.DeV"
                 },
-                "path": "/auHPNm1OJnfQ9xxN",
+                "path": "/STrvDzhnPUhKggRW",
                 "type": "ws"
             },
             "tag": "104.17.88.212-tls"
@@ -847,7 +849,7 @@
             "type": "vless",
             "server": "104.17.147.22",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -856,7 +858,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVELY-BAr-81EF.HadAYem854.woRKErs.DEv",
+                "server_name": "frosTy-CLOud-DF1e.FIJOneh763.WOrkErS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -866,9 +868,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LIVEly-BaR-81ef.HAdAYEM854.woRkERs.Dev"
+                    "Host": "FRostY-ClOUD-DF1E.FIjOneH763.WorkErS.DEv"
                 },
-                "path": "/ZKHt0KXaAFtKnGCn",
+                "path": "/EjHe9kuF2ryLlyYk",
                 "type": "ws"
             },
             "tag": "104.17.147.22-tls"
@@ -877,7 +879,7 @@
             "type": "vless",
             "server": "104.18.10.128",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -886,7 +888,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "liveLy-bAr-81Ef.hadAyeM854.WORkers.Dev",
+                "server_name": "fRosTy-ClouD-Df1e.fIJOneH763.WorKerS.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -896,9 +898,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LIvELY-bar-81eF.hadAyEm854.woRkERs.deV"
+                    "Host": "frOstY-CLoUD-Df1E.FIjonEh763.worKeRS.DEv"
                 },
-                "path": "/Bj5AZg97NtAD1CGy",
+                "path": "/3NPG0hKCy6hCVX34",
                 "type": "ws"
             },
             "tag": "104.18.10.128-tls"
@@ -907,7 +909,7 @@
             "type": "vless",
             "server": "104.19.250.20",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -916,7 +918,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LivEly-Bar-81ef.HADAyem854.worKerS.Dev",
+                "server_name": "fROSTY-ClOUd-Df1E.fIjoNEh763.WoRkERs.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -926,9 +928,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIveLy-bAR-81eF.hADayem854.WoRkErS.DEV"
+                    "Host": "FrOSty-CloUD-DF1E.fijONeh763.WOrKeRS.Dev"
                 },
-                "path": "/nETel55rINvq7fY3",
+                "path": "/SfRbFWFkBGLhtglL",
                 "type": "ws"
             },
             "tag": "104.19.250.20-tls"
@@ -937,7 +939,7 @@
             "type": "vless",
             "server": "104.20.9.79",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -946,7 +948,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVeLY-BAr-81ef.haDAyeM854.workERs.Dev",
+                "server_name": "fRosty-CLOUd-Df1E.FijOneH763.WorkErS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -956,9 +958,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LivELy-bAr-81ef.HADaYEM854.workErs.dEV"
+                    "Host": "FROSty-clOud-dF1e.FIJoNEH763.wOrkErS.DEV"
                 },
-                "path": "/PCsB6GhGBLrF8i0n",
+                "path": "/M00EkUGcID5AxPWq",
                 "type": "ws"
             },
             "tag": "104.20.9.79-tls"
@@ -967,7 +969,7 @@
             "type": "vless",
             "server": "104.21.63.78",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -976,7 +978,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LIvELy-BAR-81Ef.hADAyem854.workeRS.dEV",
+                "server_name": "fROStY-ClOUd-dF1E.FIJOneh763.wORkErs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -986,9 +988,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LiVELy-Bar-81ef.hADaYeM854.WorKers.DEV"
+                    "Host": "frostY-CloUD-Df1E.FIJonEH763.wORkers.DEv"
                 },
-                "path": "/KAU2mohJieNcVrth",
+                "path": "/JRQuSMPFRv0PGcgC",
                 "type": "ws"
             },
             "tag": "104.21.63.78-tls"
@@ -997,7 +999,7 @@
             "type": "vless",
             "server": "104.26.15.85",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1006,7 +1008,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LIvely-baR-81eF.HAdAYEm854.WOrkerS.DEv",
+                "server_name": "FrOstY-clOUD-DF1e.fijOneH763.workeRS.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1016,9 +1018,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "livEly-BAr-81Ef.hadaYem854.WoRkERs.deV"
+                    "Host": "frostY-CloUd-Df1E.FiJONeh763.WOrkers.dEV"
                 },
-                "path": "/PAVglyRpsyAATtCz",
+                "path": "/T3U8hJDTsBGiZoZB",
                 "type": "ws"
             },
             "tag": "104.26.15.85-tls"
@@ -1027,7 +1029,7 @@
             "type": "vless",
             "server": "162.159.130.234",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1036,7 +1038,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "livELy-baR-81ef.HaDAYeM854.woRkeRs.dEv",
+                "server_name": "froStY-cloUd-df1e.FIJONEh763.wOrkeRs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1046,9 +1048,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIVeLy-bar-81eF.haDAYeM854.workErs.dEv"
+                    "Host": "FRosty-ClOud-DF1E.fiJONEH763.WORkerS.DEV"
                 },
-                "path": "/tz2jxNNSBrpjnkxX",
+                "path": "/x86c1S1scOKxVhQ6",
                 "type": "ws"
             },
             "tag": "162.159.130.234-tls"
@@ -1057,7 +1059,7 @@
             "type": "vless",
             "server": "162.159.133.234",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1066,7 +1068,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIvElY-Bar-81eF.HAdayem854.WORKErs.dev",
+                "server_name": "fROSTy-cLoud-DF1E.fiJoNEh763.wORKERs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1076,9 +1078,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "livELy-bAR-81ef.hAdaYEm854.wORKers.dEv"
+                    "Host": "FRosty-CLOUD-dF1e.FIjONeh763.worKErs.dev"
                 },
-                "path": "/6buASRkmpbpJa57y",
+                "path": "/8GLD8a8kTIqtwi2I",
                 "type": "ws"
             },
             "tag": "162.159.133.234-tls"
@@ -1087,7 +1089,7 @@
             "type": "vless",
             "server": "172.67.73.174",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1096,7 +1098,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "liVelY-BaR-81EF.HaDaYEM854.WorkerS.dEv",
+                "server_name": "FrOstY-ClOud-df1E.FijoneH763.worKErS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1106,9 +1108,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIveLY-BaR-81ef.haDAYEM854.wORkERS.DeV"
+                    "Host": "FRoSTY-cLOud-dF1E.fIJONeh763.wORkerS.dEV"
                 },
-                "path": "/zaaLuoVe18L3ZSf3",
+                "path": "/Vs23PsVLSEdEnyn0",
                 "type": "ws"
             },
             "tag": "172.67.73.174-tls"
@@ -1117,7 +1119,7 @@
             "type": "vless",
             "server": "172.67.135.149",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1126,7 +1128,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIvEly-bAr-81EF.haDayem854.wOrkeRs.dEv",
+                "server_name": "FROSty-cLOuD-Df1e.fIjonEh763.WoRKerS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1136,9 +1138,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "liveLY-BaR-81ef.hadAYEM854.workerS.DeV"
+                    "Host": "fRoSty-cLOuD-DF1E.fiJonEH763.WorkERS.DEV"
                 },
-                "path": "/R4cdJqLyWy2QWSQu",
+                "path": "/ZX7UfCvnzWHpA9lk",
                 "type": "ws"
             },
             "tag": "172.67.135.149-tls"
@@ -1147,7 +1149,7 @@
             "type": "vless",
             "server": "172.67.170.72",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1156,7 +1158,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIvELY-BAR-81Ef.HadAyEM854.WOrkERs.dev",
+                "server_name": "frosty-cLOuD-Df1e.FIjONeH763.woRkers.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1166,9 +1168,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LiVEly-bAR-81eF.HadayEM854.WoRkeRs.dev"
+                    "Host": "FRoSTy-ClOud-df1e.FiJONeH763.WORkeRs.deV"
                 },
-                "path": "/VwASgIztUCT0zWaB",
+                "path": "/kj6e7L9NP4PzJSZ9",
                 "type": "ws"
             },
             "tag": "172.67.170.72-tls"
@@ -1177,7 +1179,7 @@
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1186,7 +1188,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LivEly-BaR-81eF.haDAYeM854.wORKErs.dev",
+                "server_name": "frOstY-cloUd-df1e.fiJoNEH763.WOrKeRs.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1196,9 +1198,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LiVEly-BAr-81EF.hAdAYEm854.woRkeRs.dEV"
+                    "Host": "FRoSTy-cloUd-DF1e.FIjONEH763.WORKeRs.dev"
                 },
-                "path": "/JkEabpL0BRFp0y9S",
+                "path": "/yVtFjbsqQnzZjlHu",
                 "type": "ws"
             },
             "tag": "188.114.96.6-tls"
@@ -1207,7 +1209,7 @@
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1216,7 +1218,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LiVELY-bAr-81eF.HADAYeM854.worKERs.Dev",
+                "server_name": "fRosty-clOuD-DF1e.FijONeh763.WoRKerS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1226,9 +1228,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIVElY-bAr-81ef.hadaYEm854.WORkerS.deV"
+                    "Host": "FrOStY-CLouD-df1e.fijOneH763.wORkErs.deV"
                 },
-                "path": "/tfOAdQHZNSTCDQSy",
+                "path": "/J6dZUiNgRoo9CEhJ",
                 "type": "ws"
             },
             "tag": "188.114.97.3-tls"
@@ -1237,7 +1239,7 @@
             "type": "vless",
             "server": "188.114.98.0",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1246,7 +1248,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LIvELY-BaR-81eF.HAdaYem854.WORKers.dev",
+                "server_name": "fROSTY-cLOuD-dF1e.FiJOneH763.WorkErS.dEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1256,9 +1258,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIvELy-BAR-81eF.HaDayEm854.workerS.dev"
+                    "Host": "FRoSTy-cloUd-DF1E.fIJOneH763.WOrkeRS.dev"
                 },
-                "path": "/mwAQ8GlftSd50aLp",
+                "path": "/aYYkleqTVearSgqQ",
                 "type": "ws"
             },
             "tag": "188.114.98.0-tls"
@@ -1267,7 +1269,7 @@
             "type": "vless",
             "server": "b2n.ir",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1276,7 +1278,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVELY-BAr-81EF.HadayEM854.WOrkErs.dev",
+                "server_name": "FRoSTy-cloud-df1E.fiJOneH763.wORkERS.Dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1286,9 +1288,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "liveLY-baR-81Ef.HaDaYeM854.wOrkErs.Dev"
+                    "Host": "FROsty-clOUd-df1e.fIjOnEH763.woRKErS.dev"
                 },
-                "path": "/Gj4j8qcQPQrCMnk3",
+                "path": "/k7it2MIjzvmwrDPT",
                 "type": "ws"
             },
             "tag": "b2n.ir-tls"
@@ -1297,7 +1299,7 @@
             "type": "vless",
             "server": "bolej.ir",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1306,7 +1308,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIVEly-baR-81ef.HAdaYEm854.workERS.dev",
+                "server_name": "FROSTY-cloUD-df1e.FiJONeh763.WOrkeRs.DeV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1316,9 +1318,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LIvely-BaR-81Ef.haDAYem854.WoRKerS.Dev"
+                    "Host": "FrOStY-clOud-Df1e.FIjoNeH763.WorKErS.DeV"
                 },
-                "path": "/nJkER4hNTQ3mCb9Z",
+                "path": "/ZVO3p9CU6uyby9Un",
                 "type": "ws"
             },
             "tag": "bolej.ir-tls"
@@ -1327,7 +1329,7 @@
             "type": "vless",
             "server": "tgju.org",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1336,7 +1338,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LIvely-BAR-81Ef.HaDayeM854.wOrKers.DEV",
+                "server_name": "fROSTy-clOUD-df1e.fIjoNeh763.worKerS.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1346,9 +1348,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LIvELY-bar-81eF.HadaYeM854.worKerS.dEv"
+                    "Host": "froSty-cloUD-Df1e.fIJonEh763.wORKErS.deV"
                 },
-                "path": "/gOPg1rr9jCkYqvni",
+                "path": "/OY9eOMBYTNHZYQ4z",
                 "type": "ws"
             },
             "tag": "tgju.org-tls"
@@ -1357,7 +1359,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1366,7 +1368,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "lIveLy-baR-81ef.HaDayeM854.WoRkers.DEV",
+                "server_name": "frosty-cLouD-dF1E.fIJOneh763.WORKeRS.dEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1376,9 +1378,9 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIVelY-BaR-81eF.hAdAYeM854.WORkErS.DEV"
+                    "Host": "FrOSTy-CLOUd-dF1e.FIjonEH763.WoRkErs.deV"
                 },
-                "path": "/83C83fLjET4puqgw",
+                "path": "/hHZSpcRE02DaNkBI",
                 "type": "ws"
             },
             "tag": "www.speedtest.net-tls"
@@ -1387,7 +1389,7 @@
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1396,7 +1398,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LiVELy-bAR-81EF.HadAyEm854.WOrkErS.dEV",
+                "server_name": "FrostY-cLoud-df1e.fiJonEh763.WORKERs.DEV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1406,18 +1408,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIvelY-BAR-81ef.HaDAyem854.worKeRs.DeV"
+                    "Host": "fRoStY-cLouD-dF1e.fiJONeH763.WORKeRS.DeV"
                 },
-                "path": "/HHzgHG6wAGmlldgr",
+                "path": "/0VnbPBpOC03Mf74V",
                 "type": "ws"
             },
             "tag": "www.zula.ir-tls"
         },
         {
             "type": "vless",
-            "server": "lively-bar-81ef.hadayem854.workers.dev",
+            "server": "frosty-cloud-df1e.fijoneh763.workers.dev",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1426,7 +1428,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "LivelY-BAR-81Ef.HADAYem854.wOrkERS.DeV",
+                "server_name": "fROSty-cLoUD-dF1e.fijONeh763.WOrKERS.deV",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1436,18 +1438,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LivELy-BAr-81EF.HADayeM854.WORkers.DEv"
+                    "Host": "FRoSty-cloUD-dF1e.FIjOnEh763.wORkERS.dEv"
                 },
-                "path": "/RxGv0KFPrcmf5FmM",
+                "path": "/7qcAt3765qUmK6Pt",
                 "type": "ws"
             },
-            "tag": "lively-bar-81ef.hadayem854.workers.dev-tls"
+            "tag": "frosty-cloud-df1e.fijoneh763.workers.dev-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3121::3]",
+            "server": "[2606:4700:3033::6815:2485]",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1456,7 +1458,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "liveLY-BaR-81ef.HAdayeM854.workeRS.DEV",
+                "server_name": "FrOsTy-cLoUd-Df1E.FIJOnEH763.WOrkers.dev",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1466,18 +1468,18 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "lIvELy-BaR-81eF.hADayEM854.woRKERs.Dev"
+                    "Host": "frOSTY-cloUd-df1E.fiJoNeH763.woRKeRs.dEV"
                 },
-                "path": "/VGyxUYL7EulYRyW9",
+                "path": "/DTIsoYzglYmhJCpd",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3121::3]-tls"
+            "tag": "[2606:4700:3033::6815:2485]-tls"
         },
         {
             "type": "vless",
-            "server": "[2a06:98c1:3120::3]",
+            "server": "[2606:4700:3036::ac43:c26f]",
             "server_port": 8443,
-            "uuid": "a314bb1d-771c-4232-9906-7bf81f51927d",
+            "uuid": "a7fe22ab-df54-4a31-8ba8-de4cbec2c39f",
             "domain_strategy": "prefer_ipv6",
             "packet_encoding": "",
             "tls": {
@@ -1486,7 +1488,7 @@
                 ],
                 "enabled": true,
                 "insecure": false,
-                "server_name": "livEly-BaR-81eF.hADAyEM854.WorKeRs.Dev",
+                "server_name": "fRosTy-clouD-DF1E.FiJoneh763.WOrKErs.DEv",
                 "utls": {
                     "enabled": true,
                     "fingerprint": "randomized"
@@ -1496,12 +1498,12 @@
                 "early_data_header_name": "Sec-WebSocket-Protocol",
                 "max_early_data": 2560,
                 "headers": {
-                    "Host": "LiVEly-bAR-81eF.HadaYeM854.WORKeRS.dEv"
+                    "Host": "froSty-cLOud-df1E.FIJoNEh763.WorkeRs.Dev"
                 },
-                "path": "/COCItFxXuDbmMYbe",
+                "path": "/ZOxPw52ZQTjZPf55",
                 "type": "ws"
             },
-            "tag": "[2a06:98c1:3120::3]-tls"
+            "tag": "[2606:4700:3036::ac43:c26f]-tls"
         }
     ],
     "route": {
