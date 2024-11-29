@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/7 [31days] FRAG WS 0",
+        "remarks": "1403/9/6 [31days] FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,11 +132,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "bolej.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "d5d46597-7b9d-4a63-9d2a-a82e894e86a1",
+                                    "id": "7c38c822-077c-44dc-9006-a753ddf9c911",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "aNCieNt-SNow-703D.yEsanAC192.wOrKErS.dEv",
+                            "Host": "geNtlE-sUN-cAA7.cotEv27124.WorkERS.dEV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/7 [31days] FRAG WS 1",
+        "remarks": "1403/9/6 [31days] FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -313,8 +313,8 @@
                         "packets": "fakehost",
                         "length": "10-20",
                         "interval": "10-20",
-                        "host1_domain": "b2n.ir",
-                        "host2_domain": "b2n.ir"
+                        "host1_domain": "bolej.ir",
+                        "host2_domain": "bolej.ir"
                     }
                 },
                 "streamSettings": {
@@ -332,11 +332,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "bolej.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "d5d46597-7b9d-4a63-9d2a-a82e894e86a1",
+                                    "id": "7c38c822-077c-44dc-9006-a753ddf9c911",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "aNCIENT-snOW-703d.yESaNaC192.wORKeRS.deV",
+                            "Host": "geNTLE-sUN-CaA7.CoTEV27124.WOrkeRS.dEV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
