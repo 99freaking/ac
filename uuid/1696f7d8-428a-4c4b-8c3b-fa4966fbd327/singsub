@@ -1,0 +1,1570 @@
+{
+    "log": {
+        "disabled": false,
+        "level": "fatal",
+        "timestamp": true
+    },
+    "experimental": {
+        "clash_api": {
+            "external_controller": "0.0.0.0:9090",
+            "external_ui": "../files/yacd",
+            "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+            "secret": "",
+            "default_mode": "rule"
+        },
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        }
+    },
+    "dns": {
+        "servers": [
+            {
+                "address": "tls://8.8.8.8",
+                "address_resolver": "dns-direct",
+                "tag": "dns-remote"
+            },
+            {
+                "address": "https://dns.digitalsize.net/dns-query",
+                "address_resolver": "dns-plain",
+                "detour": "direct",
+                "tag": "dns-direct"
+            },
+            {
+                "address": "8.8.8.8",
+                "address_resolver": "dns-local",
+                "detour": "direct",
+                "tag": "dns-plain"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "dns-local"
+            },
+            {
+                "address": "rcode://success",
+                "tag": "dns-block"
+            },
+            {
+                "address": "fakeip",
+                "strategy": "ipv4_only",
+                "tag": "dns-fake"
+            }
+        ],
+        "rules": [
+            {
+                "domain_suffix": [
+                    ".ir"
+                ],
+                "server": "dns-local"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir"
+                ],
+                "server": "dns-local"
+            },
+            {
+                "outbound": "any",
+                "server": "dns-direct"
+            },
+            {
+                "disable_cache": true,
+                "inbound": [
+                    "tun-in"
+                ],
+                "query_type": [
+                    "A",
+                    "AAAA"
+                ],
+                "server": "dns-fake"
+            }
+        ],
+        "final": "dns-remote",
+        "reverse_mapping": true,
+        "strategy": "prefer_ipv4",
+        "independent_cache": true,
+        "fakeip": {
+            "enabled": true,
+            "inet4_range": "198.18.0.0/15",
+            "inet6_range": "fc00::/18"
+        }
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 6450,
+            "override_address": "8.8.8.8",
+            "override_port": 53,
+            "tag": "dns-in",
+            "type": "direct"
+        },
+        {
+            "type": "tun",
+            "tag": "tun-in",
+            "interface_name": "tun0",
+            "address": [
+                "172.19.0.1/28",
+                "fdfe:dcba:9876::1/126"
+            ],
+            "mtu": 1500,
+            "auto_route": true,
+            "strict_route": true,
+            "stack": "system",
+            "endpoint_independent_nat": true,
+            "sniff": true,
+            "sniff_override_destination": false
+        },
+        {
+            "listen": "0.0.0.0",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "outbounds": [
+        {
+            "tag": "proxy",
+            "type": "selector",
+            "outbounds": [
+                "URL-TEST",
+                "104.16.219.230",
+                "104.16.250.250",
+                "104.17.42.10",
+                "104.17.88.212",
+                "104.17.147.22",
+                "104.18.10.128",
+                "104.19.250.20",
+                "104.20.9.79",
+                "104.21.63.78",
+                "104.26.15.85",
+                "162.159.130.234",
+                "162.159.133.234",
+                "172.67.73.174",
+                "172.67.135.149",
+                "172.67.170.72",
+                "188.114.96.6",
+                "188.114.97.3",
+                "188.114.98.0",
+                "b2n.ir",
+                "bolej.ir",
+                "tgju.org",
+                "www.speedtest.net",
+                "www.zula.ir",
+                "frosty-meadow-a34e.wocayir177.workers.dev",
+                "[2606:4700:3033::ac43:dd0d]",
+                "[2606:4700:3034::6815:3e43]",
+                "104.16.219.230-tls",
+                "104.16.250.250-tls",
+                "104.17.42.10-tls",
+                "104.17.88.212-tls",
+                "104.17.147.22-tls",
+                "104.18.10.128-tls",
+                "104.19.250.20-tls",
+                "104.20.9.79-tls",
+                "104.21.63.78-tls",
+                "104.26.15.85-tls",
+                "162.159.130.234-tls",
+                "162.159.133.234-tls",
+                "172.67.73.174-tls",
+                "172.67.135.149-tls",
+                "172.67.170.72-tls",
+                "188.114.96.6-tls",
+                "188.114.97.3-tls",
+                "188.114.98.0-tls",
+                "b2n.ir-tls",
+                "bolej.ir-tls",
+                "tgju.org-tls",
+                "www.speedtest.net-tls",
+                "www.zula.ir-tls",
+                "frosty-meadow-a34e.wocayir177.workers.dev-tls",
+                "[2606:4700:3033::ac43:dd0d]-tls",
+                "[2606:4700:3034::6815:3e43]-tls"
+            ]
+        },
+        {
+            "tag": "URL-TEST",
+            "type": "urltest",
+            "outbounds": [
+                "104.16.219.230",
+                "104.16.250.250",
+                "104.17.42.10",
+                "104.17.88.212",
+                "104.17.147.22",
+                "104.18.10.128",
+                "104.19.250.20",
+                "104.20.9.79",
+                "104.21.63.78",
+                "104.26.15.85",
+                "162.159.130.234",
+                "162.159.133.234",
+                "172.67.73.174",
+                "172.67.135.149",
+                "172.67.170.72",
+                "188.114.96.6",
+                "188.114.97.3",
+                "188.114.98.0",
+                "b2n.ir",
+                "bolej.ir",
+                "tgju.org",
+                "www.speedtest.net",
+                "www.zula.ir",
+                "frosty-meadow-a34e.wocayir177.workers.dev",
+                "[2606:4700:3033::ac43:dd0d]",
+                "[2606:4700:3034::6815:3e43]",
+                "104.16.219.230-tls",
+                "104.16.250.250-tls",
+                "104.17.42.10-tls",
+                "104.17.88.212-tls",
+                "104.17.147.22-tls",
+                "104.18.10.128-tls",
+                "104.19.250.20-tls",
+                "104.20.9.79-tls",
+                "104.21.63.78-tls",
+                "104.26.15.85-tls",
+                "162.159.130.234-tls",
+                "162.159.133.234-tls",
+                "172.67.73.174-tls",
+                "172.67.135.149-tls",
+                "172.67.170.72-tls",
+                "188.114.96.6-tls",
+                "188.114.97.3-tls",
+                "188.114.98.0-tls",
+                "b2n.ir-tls",
+                "bolej.ir-tls",
+                "tgju.org-tls",
+                "www.speedtest.net-tls",
+                "www.zula.ir-tls",
+                "frosty-meadow-a34e.wocayir177.workers.dev-tls",
+                "[2606:4700:3033::ac43:dd0d]-tls",
+                "[2606:4700:3034::6815:3e43]-tls"
+            ],
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": "30m",
+            "tolerance": 50
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "block",
+            "type": "block"
+        },
+        {
+            "tag": "dns-out",
+            "type": "dns"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.219.230",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FrOSTy-meAdOW-a34e.WOcaYir177.WoRKERS.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/1xAMTKc6K5dZvSWd",
+                "type": "ws"
+            },
+            "tag": "104.16.219.230"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.250.250",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FroSTy-mEADOw-A34E.wOcaYIR177.WORKerS.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/QqirBUpGxycYTgNF",
+                "type": "ws"
+            },
+            "tag": "104.16.250.250"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRoStY-MEaDow-A34e.WocaYir177.WOrkErs.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/7K1iHwTRx4SS2ThE",
+                "type": "ws"
+            },
+            "tag": "104.17.42.10"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FROSty-mEaDOW-a34E.woCAyIr177.woRKerS.dev"
+                },
+                "max_early_data": 2560,
+                "path": "/EK7lzdSIFQLpQSif",
+                "type": "ws"
+            },
+            "tag": "104.17.88.212"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRosTy-meadOw-A34E.wocAyIr177.WoRkErS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/gSKPs8JEwqKpkd4F",
+                "type": "ws"
+            },
+            "tag": "104.17.147.22"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.10.128",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FROSTy-MeADow-a34e.wOcaYiR177.wORKErS.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/YewPqxGBeTqop3Vg",
+                "type": "ws"
+            },
+            "tag": "104.18.10.128"
+        },
+        {
+            "type": "vless",
+            "server": "104.19.250.20",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FrosTY-meAdow-A34E.WoCAyir177.Workers.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/EIbwOdfaM2C29dwj",
+                "type": "ws"
+            },
+            "tag": "104.19.250.20"
+        },
+        {
+            "type": "vless",
+            "server": "104.20.9.79",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "frOSTY-Meadow-a34e.woCaYIr177.woRKers.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/TMCt1MUdUwnMKyqo",
+                "type": "ws"
+            },
+            "tag": "104.20.9.79"
+        },
+        {
+            "type": "vless",
+            "server": "104.21.63.78",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "froSTY-mEADow-a34e.woCAYiR177.wOrKErS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/TnsFq9wNMFhYjGhv",
+                "type": "ws"
+            },
+            "tag": "104.21.63.78"
+        },
+        {
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FROsty-MeadOW-a34E.wocAyIr177.WOrkErs.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/U91SmNjSuURu2d4t",
+                "type": "ws"
+            },
+            "tag": "104.26.15.85"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.130.234",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FroSty-meadOw-A34e.woCAYIr177.WOrkeRs.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/Gdc5670XYhFZEpXV",
+                "type": "ws"
+            },
+            "tag": "162.159.130.234"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.133.234",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FROSty-meaDow-a34E.wocAyir177.worKERs.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/92Mz2L4uuIaD8pgg",
+                "type": "ws"
+            },
+            "tag": "162.159.133.234"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.73.174",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRoSTy-meaDOw-a34e.wocayIr177.WoRKErs.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/8PtSrp9UYCDwDu8N",
+                "type": "ws"
+            },
+            "tag": "172.67.73.174"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.135.149",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fROSTy-MeaDOW-A34e.WoCAyIR177.WORkeRS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/rONsi405llsmzq0C",
+                "type": "ws"
+            },
+            "tag": "172.67.135.149"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.170.72",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FrOSTy-mEAdow-A34E.WoCAYIr177.WoRKeRs.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/XkehFuJioVPwCX2L",
+                "type": "ws"
+            },
+            "tag": "172.67.170.72"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRoStY-MeaDOw-A34E.WOCAYIR177.WorkErS.DEv"
+                },
+                "max_early_data": 2560,
+                "path": "/mXARS9H9Bf350dFn",
+                "type": "ws"
+            },
+            "tag": "188.114.96.6"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FROSty-mEaDOW-A34E.WocaYir177.wORkErs.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/rEHb3hDGDUgRc2fX",
+                "type": "ws"
+            },
+            "tag": "188.114.97.3"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.98.0",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FrOsty-MeaDOw-a34e.wOcAYiR177.WoRkERS.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/GfmQyAjEfUl8yao9",
+                "type": "ws"
+            },
+            "tag": "188.114.98.0"
+        },
+        {
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRosTy-mEadow-A34E.WocAYIr177.wOrkErs.dev"
+                },
+                "max_early_data": 2560,
+                "path": "/QMQurSpj7ENDBzsE",
+                "type": "ws"
+            },
+            "tag": "b2n.ir"
+        },
+        {
+            "type": "vless",
+            "server": "bolej.ir",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRosty-meaDoW-a34e.WOcaYiR177.WorKErs.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/UUsyJ8JVDMkcOf9o",
+                "type": "ws"
+            },
+            "tag": "bolej.ir"
+        },
+        {
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FRoSTY-mEaDow-A34E.WoCaYIr177.WORKeRS.Dev"
+                },
+                "max_early_data": 2560,
+                "path": "/y0WTi6fF58kx4DpC",
+                "type": "ws"
+            },
+            "tag": "tgju.org"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "Frosty-meadOW-a34e.wOcayiR177.wORkeRs.DEV"
+                },
+                "max_early_data": 2560,
+                "path": "/5m5o9sa7S7vcwZUD",
+                "type": "ws"
+            },
+            "tag": "www.speedtest.net"
+        },
+        {
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "FrOStY-MeAdoW-a34E.WocayIr177.wOrKERS.DeV"
+                },
+                "max_early_data": 2560,
+                "path": "/GvvMsoE50INWxzu7",
+                "type": "ws"
+            },
+            "tag": "www.zula.ir"
+        },
+        {
+            "type": "vless",
+            "server": "frosty-meadow-a34e.wocayir177.workers.dev",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "frOsty-mEADow-A34E.WOcayir177.WORkERs.deV"
+                },
+                "max_early_data": 2560,
+                "path": "/wd0yFGuXZFVT071A",
+                "type": "ws"
+            },
+            "tag": "frosty-meadow-a34e.wocayir177.workers.dev"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:dd0d]",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fROstY-MeADow-A34e.wOcAYIr177.workerS.dEv"
+                },
+                "max_early_data": 2560,
+                "path": "/I71x7Kzcg2cglyng",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3033::ac43:dd0d]"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:3e43]",
+            "server_port": 8880,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "headers": {
+                    "Host": "fRoStY-MEadOW-a34e.WoCAYIR177.woRKeRs.dEV"
+                },
+                "max_early_data": 2560,
+                "path": "/fASo0Fo6yBgzfC2z",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3034::6815:3e43]"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.219.230",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FroSty-MEAdow-A34e.WocAyir177.wOrkers.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FROSty-MEaDOw-a34E.WOCAyIr177.WOrkErs.DeV"
+                },
+                "path": "/Tl6Qf526eg09BHC6",
+                "type": "ws"
+            },
+            "tag": "104.16.219.230-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.16.250.250",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROstY-MeADOW-A34e.wocAYir177.wORkers.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRoSty-MEaDOW-A34E.wOcAYir177.WorKerS.dEv"
+                },
+                "path": "/cECwYwd4NFhvijpI",
+                "type": "ws"
+            },
+            "tag": "104.16.250.250-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.42.10",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROStY-meadow-A34E.wOcAYir177.WORkERs.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FROStY-MEAdOw-A34e.WOCAYIR177.woRKErs.Dev"
+                },
+                "path": "/QBpCarrgtOQm5XAn",
+                "type": "ws"
+            },
+            "tag": "104.17.42.10-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.88.212",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROSTY-MeADOW-A34e.wOcaYIR177.WORKErS.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRostY-meADOW-A34E.WOCayiR177.worKERS.DEv"
+                },
+                "path": "/zDgMyxN5E9JSRjJk",
+                "type": "ws"
+            },
+            "tag": "104.17.88.212-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FrOSTy-meADoW-a34e.wOcAYir177.wORKERS.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRoSTy-mEADow-A34e.wOcaYir177.woRkeRs.dEv"
+                },
+                "path": "/j6OHaxST4Voi4kA4",
+                "type": "ws"
+            },
+            "tag": "104.17.147.22-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.18.10.128",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fRoStY-MEAdOW-a34e.wocaYIr177.woRKerS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRoStY-mEadOW-a34e.WocaYir177.workErs.DEV"
+                },
+                "path": "/CWOSl3oP853CZdXD",
+                "type": "ws"
+            },
+            "tag": "104.18.10.128-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.19.250.20",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "frOsTy-MEADOW-A34e.wOcaYiR177.WorkeRs.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOsty-MeaDOw-A34e.WoCaYiR177.woRKErs.dEv"
+                },
+                "path": "/oXmLE6FzTdCVgei4",
+                "type": "ws"
+            },
+            "tag": "104.19.250.20-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.20.9.79",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FRostY-meaDow-A34E.wOcayiR177.woRkerS.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FROsTY-meadoW-A34e.WocAYir177.WoRKeRS.dEV"
+                },
+                "path": "/gix63uMFA6LgpmqU",
+                "type": "ws"
+            },
+            "tag": "104.20.9.79-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.21.63.78",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "frOsTy-MEAdOw-A34e.woCAyir177.WORKERs.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRoSTy-MEaDow-a34E.WOCaYIr177.workers.dev"
+                },
+                "path": "/qkNjfO5WNu3RNx51",
+                "type": "ws"
+            },
+            "tag": "104.21.63.78-tls"
+        },
+        {
+            "type": "vless",
+            "server": "104.26.15.85",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FroSTy-mEadOW-A34E.woCAYiR177.WoRkERS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOStY-MeaDOW-A34e.wocaYir177.wOrkERs.DEv"
+                },
+                "path": "/TZrgHEDFNbep2LAu",
+                "type": "ws"
+            },
+            "tag": "104.26.15.85-tls"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.130.234",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fROSty-MeaDoW-a34e.wocayIR177.woRKErS.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "fRoSTy-MEaDoW-A34E.WOcAyIR177.wORKErs.DeV"
+                },
+                "path": "/bEjSPYsAzPj4b1SZ",
+                "type": "ws"
+            },
+            "tag": "162.159.130.234-tls"
+        },
+        {
+            "type": "vless",
+            "server": "162.159.133.234",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROsTy-mEaDOW-a34E.WocayiR177.WorkERs.dEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "fROSTY-MeaDow-a34E.WOCAyir177.workERs.dev"
+                },
+                "path": "/jf9T4KWw0JExS7wd",
+                "type": "ws"
+            },
+            "tag": "162.159.133.234-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.73.174",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fROStY-meADOw-A34E.woCAyIR177.woRkERS.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRosTY-MeaDOw-a34E.wOCAYir177.WORkerS.dEv"
+                },
+                "path": "/eBY1icTLtL1zSzFL",
+                "type": "ws"
+            },
+            "tag": "172.67.73.174-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.135.149",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FRoStY-meaDow-A34e.WOcayiR177.woRkErS.deV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "Frosty-MEadOW-A34e.WOCaYir177.WOrkerS.deV"
+                },
+                "path": "/U6kc4d0VM0rYuqdd",
+                "type": "ws"
+            },
+            "tag": "172.67.135.149-tls"
+        },
+        {
+            "type": "vless",
+            "server": "172.67.170.72",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fRoSTY-meadoW-A34E.WocAyiR177.WoRKErs.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOsTy-mEAdOW-a34e.WocAyir177.wOrkERs.deV"
+                },
+                "path": "/9UOPLDQXOUGedaty",
+                "type": "ws"
+            },
+            "tag": "172.67.170.72-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FRoSTY-MeadoW-a34e.woCAYIR177.woRkers.DEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "frOsty-mEadoW-a34e.WocaYiR177.WorKeRS.dEv"
+                },
+                "path": "/1M2BPA45fU54yd0M",
+                "type": "ws"
+            },
+            "tag": "188.114.96.6-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fROSTY-MEADOw-A34e.WocAyiR177.wORKErS.DEV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "fROStY-MeADoW-a34e.wOCayiR177.woRkErS.dEv"
+                },
+                "path": "/HIpcrjoBoW5XDjr9",
+                "type": "ws"
+            },
+            "tag": "188.114.97.3-tls"
+        },
+        {
+            "type": "vless",
+            "server": "188.114.98.0",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROsty-MEaDoW-a34E.WOCaYIr177.wOrkERS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOsTY-MeADoW-A34E.wOcAyir177.WorKErs.DeV"
+                },
+                "path": "/rpLocKGoEC80eVzy",
+                "type": "ws"
+            },
+            "tag": "188.114.98.0-tls"
+        },
+        {
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "froSTY-meadoW-a34e.woCaYIR177.wOrKErS.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "frOsty-MeADOW-A34e.WOCAyir177.workeRs.DEv"
+                },
+                "path": "/qzGk8MnTOZ5kUuQq",
+                "type": "ws"
+            },
+            "tag": "b2n.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "bolej.ir",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FRosTy-MeaDoW-A34e.WocayIr177.wORkERS.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRosTy-MEADow-a34e.WOCAyIR177.WORkErS.dEV"
+                },
+                "path": "/wVl0zDU5fYqrJLP7",
+                "type": "ws"
+            },
+            "tag": "bolej.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "tgju.org",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fROsTy-meaDOW-A34E.wOcayIR177.woRKERS.DEv",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FRosty-meadow-a34E.woCAyIr177.wORkeRs.dEV"
+                },
+                "path": "/T68vTkt0sXOWZcvY",
+                "type": "ws"
+            },
+            "tag": "tgju.org-tls"
+        },
+        {
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "fROsTy-meaDow-A34e.woCaYir177.WoRKerS.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FROSTY-MeADow-a34E.wOcayir177.WOrKeRs.dEV"
+                },
+                "path": "/dSI7h53tBBiDncys",
+                "type": "ws"
+            },
+            "tag": "www.speedtest.net-tls"
+        },
+        {
+            "type": "vless",
+            "server": "www.zula.ir",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "frOSTy-MeAdOw-a34E.WocaYIr177.workeRS.dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOSTy-MEAdow-a34e.WoCAYiR177.worKErS.dEv"
+                },
+                "path": "/ljRt88mxkwtcuJQo",
+                "type": "ws"
+            },
+            "tag": "www.zula.ir-tls"
+        },
+        {
+            "type": "vless",
+            "server": "frosty-meadow-a34e.wocayir177.workers.dev",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROSty-mEADoW-a34E.WoCAyIr177.WorkeRs.Dev",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FrOSTY-MEAdow-a34E.woCAyIr177.WorKeRS.dEv"
+                },
+                "path": "/M1L9nFek3ppAdeAZ",
+                "type": "ws"
+            },
+            "tag": "frosty-meadow-a34e.wocayir177.workers.dev-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3033::ac43:dd0d]",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "FROSTY-meADOW-A34e.WoCaYiR177.wORkErs.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FROSTY-MeaDoW-a34E.wOcayIR177.WorkerS.dEv"
+                },
+                "path": "/NwgoWoPaYkb3TIjc",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3033::ac43:dd0d]-tls"
+        },
+        {
+            "type": "vless",
+            "server": "[2606:4700:3034::6815:3e43]",
+            "server_port": 8443,
+            "uuid": "834b3a00-0973-48ec-9dd6-5ee24c9c217b",
+            "domain_strategy": "prefer_ipv6",
+            "packet_encoding": "",
+            "tls": {
+                "alpn": [
+                    "http/1.1"
+                ],
+                "enabled": true,
+                "insecure": false,
+                "server_name": "froSty-MeADOW-A34e.wocAYiR177.wORKERs.DeV",
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                }
+            },
+            "transport": {
+                "early_data_header_name": "Sec-WebSocket-Protocol",
+                "max_early_data": 2560,
+                "headers": {
+                    "Host": "FroStY-meAdoW-A34e.wocaYir177.WOrKers.DEV"
+                },
+                "path": "/NZQ7i05MJ54IuH6l",
+                "type": "ws"
+            },
+            "tag": "[2606:4700:3034::6815:3e43]-tls"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "override_android_vpn": true,
+        "final": "proxy",
+        "rule_set": [
+            {
+                "tag": "geosite-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
+            },
+            {
+                "tag": "geoip-ir",
+                "type": "remote",
+                "format": "binary",
+                "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
+            }
+        ],
+        "rules": [
+            {
+                "protocol": "dns",
+                "outbound": "dns-out"
+            },
+            {
+                "inbound": "dns-in",
+                "outbound": "dns-out"
+            },
+            {
+                "port": 53,
+                "outbound": "dns-out"
+            },
+            {
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "outbound": "block",
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ]
+            },
+            {
+                "domain_suffix": [
+                    "ir"
+                ],
+                "outbound": "direct"
+            },
+            {
+                "ip_is_private": true,
+                "outbound": "direct"
+            },
+            {
+                "rule_set": [
+                    "geosite-ir",
+                    "geoip-ir"
+                ],
+                "outbound": "direct"
+            }
+        ]
+    }
+}
