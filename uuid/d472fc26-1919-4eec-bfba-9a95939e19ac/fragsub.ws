@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/6 [31days] FRAG WS 0",
+        "remarks": "1403/9/8 [31days] FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,11 +132,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bolej.ir",
+                            "address": "www.zula.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "7c38c822-077c-44dc-9006-a753ddf9c911",
+                                    "id": "839e5314-c6e5-4201-9fc6-ef95a2b14a97",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "geNtlE-sUN-cAA7.cotEv27124.WorkERS.dEV",
+                            "Host": "stEep-lIMiT-c04b.WaMIYIX438.wOrKErs.DEV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/6 [31days] FRAG WS 1",
+        "remarks": "1403/9/8 [31days] FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -313,8 +313,8 @@
                         "packets": "fakehost",
                         "length": "10-20",
                         "interval": "10-20",
-                        "host1_domain": "bolej.ir",
-                        "host2_domain": "bolej.ir"
+                        "host1_domain": "www.zula.ir",
+                        "host2_domain": "www.zula.ir"
                     }
                 },
                 "streamSettings": {
@@ -332,11 +332,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "bolej.ir",
+                            "address": "www.zula.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "7c38c822-077c-44dc-9006-a753ddf9c911",
+                                    "id": "839e5314-c6e5-4201-9fc6-ef95a2b14a97",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "geNTLE-sUN-CaA7.CoTEV27124.WOrkeRS.dEV",
+                            "Host": "STeEp-lIMit-c04b.WaMiyIx438.workErS.deV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
