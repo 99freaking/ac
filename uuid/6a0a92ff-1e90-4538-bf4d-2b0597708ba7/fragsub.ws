@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/5 [31days] FRAG WS 0",
+        "remarks": "1403/9/8 [31days] FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,11 +132,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "b2n.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "bf2555c2-5eaa-4b6e-8939-e9fb85590271",
+                                    "id": "3b37ff76-3c3b-49f5-9d9c-5fbf46f88480",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "TiNy-bUsH-D39E.boMAVAF484.WorKers.Dev",
+                            "Host": "soliTArY-SnowFLaKE-2C4a.nosAr79516.workERs.Dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/5 [31days] FRAG WS 1",
+        "remarks": "1403/9/8 [31days] FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -313,8 +313,8 @@
                         "packets": "fakehost",
                         "length": "10-20",
                         "interval": "10-20",
-                        "host1_domain": "www.zula.ir",
-                        "host2_domain": "www.zula.ir"
+                        "host1_domain": "b2n.ir",
+                        "host2_domain": "b2n.ir"
                     }
                 },
                 "streamSettings": {
@@ -332,11 +332,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "b2n.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "bf2555c2-5eaa-4b6e-8939-e9fb85590271",
+                                    "id": "3b37ff76-3c3b-49f5-9d9c-5fbf46f88480",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "TINY-bUSH-D39E.BOMAvaf484.WORKers.deV",
+                            "Host": "soLitARy-snowflAKe-2c4a.NOsaR79516.woRkErs.Dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
