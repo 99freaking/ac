@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "DAwN-piNE-f122.Daleh43144.wOrkErs.DeV",
+                            "Host": "DAWn-pINe-f122.DaLEh43144.wORKERs.Dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "dAwn-pInE-f122.DaLEh43144.WorKeRs.dev",
+                            "Host": "DAWN-piNe-f122.DAleH43144.WoRKeRS.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
