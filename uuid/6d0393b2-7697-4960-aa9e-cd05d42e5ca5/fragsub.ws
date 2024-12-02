@@ -132,7 +132,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "tgju.org",
+                            "address": "www.speedtest.net",
                             "port": 8880,
                             "users": [
                                 {
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "DARk-DeW-a902.kilAfO1375.workErS.dEv",
+                            "Host": "DArK-dew-A902.kilafO1375.WorKERS.dEv",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -313,8 +313,8 @@
                         "packets": "fakehost",
                         "length": "10-20",
                         "interval": "10-20",
-                        "host1_domain": "tgju.org",
-                        "host2_domain": "tgju.org"
+                        "host1_domain": "www.speedtest.net",
+                        "host2_domain": "www.speedtest.net"
                     }
                 },
                 "streamSettings": {
@@ -332,7 +332,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "tgju.org",
+                            "address": "www.speedtest.net",
                             "port": 8880,
                             "users": [
                                 {
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "daRk-dEW-a902.kILAFO1375.worKers.DEv",
+                            "Host": "DarK-DEw-a902.KIlAfO1375.WOrKers.deV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
