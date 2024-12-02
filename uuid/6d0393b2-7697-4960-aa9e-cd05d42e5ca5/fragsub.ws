@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/11 [31days] FRAG WS 0",
+        "remarks": "1403/9/12 [31days] FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,11 +132,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.speedtest.net",
+                            "address": "www.zula.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "f080d8ba-2a49-4a4b-af4e-dd02a8b9b6ff",
+                                    "id": "5c04a7fb-d478-43ff-90b1-3ac43352135d",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "DArK-dew-A902.kilafO1375.WorKERS.dEv",
+                            "Host": "DAwN-piNE-f122.Daleh43144.wOrkErs.DeV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/11 [31days] FRAG WS 1",
+        "remarks": "1403/9/12 [31days] FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -313,8 +313,8 @@
                         "packets": "fakehost",
                         "length": "10-20",
                         "interval": "10-20",
-                        "host1_domain": "www.speedtest.net",
-                        "host2_domain": "www.speedtest.net"
+                        "host1_domain": "www.zula.ir",
+                        "host2_domain": "www.zula.ir"
                     }
                 },
                 "streamSettings": {
@@ -332,11 +332,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.speedtest.net",
+                            "address": "www.zula.ir",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "f080d8ba-2a49-4a4b-af4e-dd02a8b9b6ff",
+                                    "id": "5c04a7fb-d478-43ff-90b1-3ac43352135d",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "DarK-DEw-a902.KIlAfO1375.WOrKers.deV",
+                            "Host": "dAwn-pInE-f122.DaLEh43144.WorKeRs.dev",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
