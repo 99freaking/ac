@@ -59,12 +59,6 @@
         "server": "dns-local"
       },
       {
-        "rule_set": [
-          "geosite-ir"
-        ],
-        "server": "dns-local"
-      },
-      {
         "outbound": "any",
         "server": "dns-direct"
       },
