@@ -1,5 +1,5 @@
 {
-  "remarks": "1403/9/6 [365days] FRAG WS 0",
+  "remarks": "TMP 2024-12-06",
   "log": {
     "access": "",
     "error": "",
@@ -104,7 +104,51 @@
       "tag": "dns-out"
     },
     {
-      "tag": "fragment",
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "b2n.ir",
+            "port": 8880,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0e89c7e6-286d-47ae-9673-107757015fda",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "",
+        "wsSettings": {
+          "headers": {
+            "Host": "soft-term-878e.moveli8845.workers.dev",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragmentws0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "tag": "fragmentws0",
       "protocol": "freedom",
       "settings": {
         "domainStrategy": "AsIs",
@@ -122,46 +166,6 @@
         "sockopt": {
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100
-        }
-      }
-    },
-    {
-      "tag": "proxy",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "bolej.ir",
-            "port": 8880,
-            "users": [
-              {
-                "id": "1710ffac-42f9-4f55-9ab5-f52d39895c72",
-                "alterId": 0,
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none",
-                "flow": ""
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "none",
-        "wsSettings": {
-          "path": "/?ed=2560",
-          "headers": {
-            "Host": "wOrkEr-pOLiSHeD-biRD-F1BA.99FreAkInG.WOrKerS.dEv",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          }
-        },
-        "sockopt": {
-          "dialerProxy": "fragment",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       }
     }
@@ -190,10 +194,8 @@
         "type": "field"
       },
       {
-        "type": "field",
-        "port": "0-65535",
         "outboundTag": "proxy",
-        "enabled": true
+        "port": "0-65535"
       }
     ]
   }
