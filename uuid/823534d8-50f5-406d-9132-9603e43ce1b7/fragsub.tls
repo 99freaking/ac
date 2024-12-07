@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/8/19 [31days] FRAG TLS 0",
+        "remarks": "1403/9/17 FRAG TLS 0",
         "log": {
             "access": "",
             "error": "",
@@ -130,11 +130,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "bolej.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
+                                    "id": "28184fae-34b4-4e87-bea4-6cbf4302c295",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "DivINe-moRniNG-6640.XoxId22463.wORkerS.dEV",
+                        "serverName": "LUcky-POEtRy-Be87.veFibe8662.workers.DeV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "dIVinE-mOrning-6640.xoxId22463.WOrkERS.dEV"
+                            "Host": "LucKy-pOetRY-BE87.VeFIBe8662.WorkerS.Dev"
                         }
                     },
                     "sockopt": {
@@ -207,7 +207,7 @@
         }
     },
     {
-        "remarks": "1403/8/19 [31days] FRAG TLS 1",
+        "remarks": "1403/9/17 FRAG TLS 1",
         "log": {
             "access": "",
             "error": "",
@@ -337,11 +337,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "bolej.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
+                                    "id": "28184fae-34b4-4e87-bea4-6cbf4302c295",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "DiVINE-MORNING-6640.Xoxid22463.workErs.Dev",
+                        "serverName": "lUckY-poeTry-BE87.VeFiBe8662.WORKers.DeV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "DivInE-MORNing-6640.XOxID22463.worKers.dEv"
+                            "Host": "luCKY-POetRy-BE87.vEFibe8662.WORkers.dEV"
                         }
                     },
                     "sockopt": {
@@ -414,7 +414,7 @@
         }
     },
     {
-        "remarks": "1403/8/19 [31days] FRAG TLS 2",
+        "remarks": "1403/9/17 FRAG TLS 2",
         "log": {
             "access": "",
             "error": "",
@@ -544,11 +544,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "www.zula.ir",
+                            "address": "bolej.ir",
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "31d7307c-1f6c-4682-87d0-00fa5c23b185",
+                                    "id": "28184fae-34b4-4e87-bea4-6cbf4302c295",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "dIviNE-MorNING-6640.xoxID22463.WorKeRs.DEV",
+                        "serverName": "lUcKY-PoetRY-bE87.VeFiBE8662.workers.DeV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "diViNe-MoRNING-6640.XoxiD22463.wOrkers.Dev"
+                            "Host": "lUcKy-pOEtrY-bE87.veFibe8662.WORKers.DEv"
                         }
                     },
                     "sockopt": {
