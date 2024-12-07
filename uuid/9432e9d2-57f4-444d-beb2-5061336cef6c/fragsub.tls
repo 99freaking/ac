@@ -1,210 +1,623 @@
-{
-  "remarks": "TMP 2024-12-07",
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning"
-  },
-  "dns": {
-    "hosts": {
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ]
-    },
-    "servers": [
-      "fakedns",
-      "https://dns.google/dns-query"
-    ]
-  },
-  "fakedns": [
+[
     {
-      "ipPool": "198.20.0.0/15",
-      "poolSize": 512
-    },
-    {
-      "ipPool": "fc00::/64",
-      "poolSize": 512
-    }
-  ],
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ]
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ]
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "listen": "127.0.0.1",
-      "port": 10853,
-      "protocol": "dokodemo-door",
-      "settings": {
-        "address": "1.1.1.1",
-        "network": "tcp,udp",
-        "port": 53
-      },
-      "tag": "dns-in"
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      }
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    },
-    {
-      "protocol": "dns",
-      "tag": "dns-out"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "81b10a92-58ab-4356-8226-96de8e421d2b",
-                "level": 8
-              }
+        "remarks": "1403/9/17 FRAG TLS 0",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {
+                "dns.google": [
+                    "8.8.8.8",
+                    "8.8.4.4",
+                    "2001:4860:4860::8888",
+                    "2001:4860:4860::8844"
+                ]
+            },
+            "servers": [
+                "fakedns",
+                "https://dns.google/dns-query"
             ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "random",
-          "serverName": "autumn-shape-057e.najefe4898.workers.dev",
-          "show": false
         },
-        "wsSettings": {
-          "headers": {
-            "Host": "autumn-shape-057e.najefe4898.workers.dev",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
+        "fakedns": [
+            {
+                "ipPool": "198.20.0.0/15",
+                "poolSize": 512
+            },
+            {
+                "ipPool": "fc00::/64",
+                "poolSize": 512
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "listen": "127.0.0.1",
+                "port": 10853,
+                "protocol": "dokodemo-door",
+                "settings": {
+                    "address": "1.1.1.1",
+                    "network": "tcp,udp",
+                    "port": 53
+                },
+                "tag": "dns-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                }
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "AsIs",
+                    "fragment": {
+                        "packets": "tlshello",
+                        "length": "5-10",
+                        "interval": "0"
+                    }
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": "",
+                    "sockopt": {
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100
+                    }
+                }
+            },
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "www.speedtest.net",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "81b10a92-58ab-4356-8226-96de8e421d2b",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "serverName": "AUtumn-sHaPe-057e.NAJEFE4898.wORkers.DEv",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "fingerprint": "firefox",
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "path": "/?ed=2560",
+                        "headers": {
+                            "Host": "AuTumn-SHAPe-057e.NaJefe4898.wORKErS.dev"
+                        }
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100,
+                        "mark": 255,
+                        "tcpFastOpen": true
+                    }
+                }
+            }
+        ],
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": [
+                {
+                    "inboundTag": [
+                        "dns-in"
+                    ],
+                    "outboundTag": "dns-out"
+                },
+                {
+                    "domain": [
+                        "domain:.ir"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "type": "field",
+                    "port": "0-65535",
+                    "outboundTag": "proxy",
+                    "enabled": true
+                }
+            ]
         }
-      },
-      "tag": "proxy"
     },
     {
-      "tag": "fragment0",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "AsIs",
-        "fragment": {
-          "packets": "tlshello",
-          "length": "5-10",
-          "interval": "0"
+        "remarks": "1403/9/17 FRAG TLS 1",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {
+                "dns.google": [
+                    "8.8.8.8",
+                    "8.8.4.4",
+                    "2001:4860:4860::8888",
+                    "2001:4860:4860::8844"
+                ]
+            },
+            "servers": [
+                "fakedns",
+                "https://dns.google/dns-query"
+            ]
+        },
+        "fakedns": [
+            {
+                "ipPool": "198.20.0.0/15",
+                "poolSize": 512
+            },
+            {
+                "ipPool": "fc00::/64",
+                "poolSize": 512
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "listen": "127.0.0.1",
+                "port": 10853,
+                "protocol": "dokodemo-door",
+                "settings": {
+                    "address": "1.1.1.1",
+                    "network": "tcp,udp",
+                    "port": 53
+                },
+                "tag": "dns-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                }
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "AsIs",
+                    "fragment": {
+                        "packets": "1-1",
+                        "length": "1-3",
+                        "interval": "0"
+                    }
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": "",
+                    "sockopt": {
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100
+                    }
+                }
+            },
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "www.speedtest.net",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "81b10a92-58ab-4356-8226-96de8e421d2b",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "serverName": "AuTumN-ShapE-057e.NAJEFE4898.worKeRs.Dev",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "fingerprint": "firefox",
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "path": "/?ed=2560",
+                        "headers": {
+                            "Host": "aUtUmn-Shape-057E.nAJEfe4898.wORKeRS.DEV"
+                        }
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100,
+                        "mark": 255,
+                        "tcpFastOpen": true
+                    }
+                }
+            }
+        ],
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": [
+                {
+                    "inboundTag": [
+                        "dns-in"
+                    ],
+                    "outboundTag": "dns-out"
+                },
+                {
+                    "domain": [
+                        "domain:.ir"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "type": "field",
+                    "port": "0-65535",
+                    "outboundTag": "proxy",
+                    "enabled": true
+                }
+            ]
         }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
+    },
+    {
+        "remarks": "1403/9/17 FRAG TLS 2",
+        "log": {
+            "access": "",
+            "error": "",
+            "loglevel": "warning"
+        },
+        "dns": {
+            "hosts": {
+                "dns.google": [
+                    "8.8.8.8",
+                    "8.8.4.4",
+                    "2001:4860:4860::8888",
+                    "2001:4860:4860::8844"
+                ]
+            },
+            "servers": [
+                "fakedns",
+                "https://dns.google/dns-query"
+            ]
+        },
+        "fakedns": [
+            {
+                "ipPool": "198.20.0.0/15",
+                "poolSize": 512
+            },
+            {
+                "ipPool": "fc00::/64",
+                "poolSize": 512
+            }
+        ],
+        "inbounds": [
+            {
+                "tag": "socks",
+                "port": 10808,
+                "listen": "127.0.0.1",
+                "protocol": "socks",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "tag": "http",
+                "port": 10809,
+                "listen": "127.0.0.1",
+                "protocol": "http",
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [
+                        "http",
+                        "tls",
+                        "quic",
+                        "fakedns"
+                    ]
+                },
+                "settings": {
+                    "auth": "noauth",
+                    "udp": true,
+                    "allowTransparent": false
+                }
+            },
+            {
+                "listen": "127.0.0.1",
+                "port": 10853,
+                "protocol": "dokodemo-door",
+                "settings": {
+                    "address": "1.1.1.1",
+                    "network": "tcp,udp",
+                    "port": 53
+                },
+                "tag": "dns-in"
+            }
+        ],
+        "outbounds": [
+            {
+                "tag": "direct",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "UseIP"
+                }
+            },
+            {
+                "tag": "block",
+                "protocol": "blackhole",
+                "settings": {
+                    "response": {
+                        "type": "http"
+                    }
+                }
+            },
+            {
+                "protocol": "dns",
+                "tag": "dns-out"
+            },
+            {
+                "tag": "fragment",
+                "protocol": "freedom",
+                "settings": {
+                    "domainStrategy": "AsIs",
+                    "fragment": {
+                        "packets": "1-2",
+                        "length": "50-100",
+                        "interval": "10-20"
+                    }
+                },
+                "streamSettings": {
+                    "network": "tcp",
+                    "security": "",
+                    "sockopt": {
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100
+                    }
+                }
+            },
+            {
+                "tag": "proxy",
+                "protocol": "vless",
+                "settings": {
+                    "vnext": [
+                        {
+                            "address": "www.speedtest.net",
+                            "port": 8443,
+                            "users": [
+                                {
+                                    "id": "81b10a92-58ab-4356-8226-96de8e421d2b",
+                                    "alterId": 0,
+                                    "email": "t@t.tt",
+                                    "security": "auto",
+                                    "encryption": "none",
+                                    "flow": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "streamSettings": {
+                    "network": "ws",
+                    "security": "tls",
+                    "tlsSettings": {
+                        "allowInsecure": false,
+                        "serverName": "aUtuMN-shaPe-057e.NAJefe4898.WoRkers.dEV",
+                        "alpn": [
+                            "h2",
+                            "http/1.1"
+                        ],
+                        "fingerprint": "firefox",
+                        "show": false
+                    },
+                    "wsSettings": {
+                        "path": "/?ed=2560",
+                        "headers": {
+                            "Host": "AUtumN-sHApe-057e.NajEFe4898.woRKErs.DeV"
+                        }
+                    },
+                    "sockopt": {
+                        "dialerProxy": "fragment",
+                        "tcpNoDelay": true,
+                        "tcpKeepAliveIdle": 100,
+                        "mark": 255,
+                        "tcpFastOpen": true
+                    }
+                }
+            }
+        ],
+        "routing": {
+            "domainStrategy": "AsIs",
+            "rules": [
+                {
+                    "inboundTag": [
+                        "dns-in"
+                    ],
+                    "outboundTag": "dns-out"
+                },
+                {
+                    "domain": [
+                        "domain:.ir"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "ip": [
+                        "geoip:private"
+                    ],
+                    "outboundTag": "direct",
+                    "type": "field"
+                },
+                {
+                    "type": "field",
+                    "port": "0-65535",
+                    "outboundTag": "proxy",
+                    "enabled": true
+                }
+            ]
         }
-      }
     }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out"
-      },
-      {
-        "domain": [
-          "domain:.ir"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "outboundTag": "proxy",
-        "port": "0-65535"
-      }
-    ]
-  }
-}
+]
