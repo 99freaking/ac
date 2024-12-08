@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/8 [31days] FRAG WS 0",
+        "remarks": "1403/9/18 FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,11 +132,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "172.67.73.174",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "3b37ff76-3c3b-49f5-9d9c-5fbf46f88480",
+                                    "id": "7344d0b4-b50f-4312-b68f-3e894550c05d",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "soliTArY-SnowFLaKE-2C4a.nosAr79516.workERs.Dev",
+                            "Host": "TiNY-BUSH-D39e.BomAvAf484.wOrkErS.DeV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/8 [31days] FRAG WS 1",
+        "remarks": "1403/9/18 FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -332,11 +332,11 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "172.67.73.174",
                             "port": 8880,
                             "users": [
                                 {
-                                    "id": "3b37ff76-3c3b-49f5-9d9c-5fbf46f88480",
+                                    "id": "7344d0b4-b50f-4312-b68f-3e894550c05d",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "soLitARy-snowflAKe-2c4a.NOsaR79516.woRkErs.Dev",
+                            "Host": "tiNy-bUSh-d39E.BOMAvAF484.WoRKERS.DEv",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
