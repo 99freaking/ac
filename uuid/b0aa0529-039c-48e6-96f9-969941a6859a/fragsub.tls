@@ -130,7 +130,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "162.159.130.234",
+                            "address": "www.speedtest.net",
                             "port": 8443,
                             "users": [
                                 {
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "lIttLE-DIsK-aC5A.FARIfe3383.WOrKERS.dev",
+                        "serverName": "LiTTlE-disk-AC5a.FarIfE3383.woRKerS.dEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "liTtLE-dISK-AC5a.fARiFE3383.woRkErs.deV"
+                            "Host": "lIttLE-DISK-ac5a.fArIfE3383.WOrKerS.DEV"
                         }
                     },
                     "sockopt": {
@@ -337,7 +337,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "162.159.130.234",
+                            "address": "www.speedtest.net",
                             "port": 8443,
                             "users": [
                                 {
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "litTle-DiSK-Ac5A.fArIFE3383.wORkers.dev",
+                        "serverName": "LiTTLe-DISK-AC5a.FaRiFe3383.WoRkerS.dEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "litTLE-dIsk-ac5a.FAriFe3383.wOrkeRS.DeV"
+                            "Host": "lITTLE-Disk-AC5a.FariFe3383.wORkERs.DeV"
                         }
                     },
                     "sockopt": {
@@ -544,7 +544,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "162.159.130.234",
+                            "address": "www.speedtest.net",
                             "port": 8443,
                             "users": [
                                 {
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "LittLE-DiSk-Ac5a.fARiFe3383.WoRkErS.dev",
+                        "serverName": "lITTle-DISk-ac5A.fARIfe3383.worKeRS.DEv",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "LIttlE-dIsk-Ac5A.fariFE3383.wOrKerS.dev"
+                            "Host": "lITtlE-DISK-Ac5a.faRIFE3383.worKErs.Dev"
                         }
                     },
                     "sockopt": {
