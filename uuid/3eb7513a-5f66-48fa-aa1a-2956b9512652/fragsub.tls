@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/6 [31days] FRAG TLS 0",
+        "remarks": "1403/9/18 FRAG TLS 0",
         "log": {
             "access": "",
             "error": "",
@@ -130,7 +130,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "104.16.219.230",
                             "port": 8443,
                             "users": [
                                 {
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "genTLe-sUn-CAA7.COtEV27124.wORkErS.DeV",
+                        "serverName": "gEntLE-SUN-caa7.coTEv27124.wORkErs.dEV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "GEntLE-sUN-CAA7.cOTeV27124.workers.deV"
+                            "Host": "GEntLE-Sun-CaA7.cOTeV27124.WorkeRS.dev"
                         }
                     },
                     "sockopt": {
@@ -207,7 +207,7 @@
         }
     },
     {
-        "remarks": "1403/9/6 [31days] FRAG TLS 1",
+        "remarks": "1403/9/18 FRAG TLS 1",
         "log": {
             "access": "",
             "error": "",
@@ -337,7 +337,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "104.16.219.230",
                             "port": 8443,
                             "users": [
                                 {
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "GEntle-sUn-caa7.COtEv27124.WOrkeRS.dEV",
+                        "serverName": "GenTLE-Sun-CAa7.coTev27124.wOrkErS.Dev",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "GENTLE-sUN-caa7.cOTev27124.wORkErS.DEv"
+                            "Host": "genTLE-SuN-Caa7.coteV27124.wOrKeRs.dEv"
                         }
                     },
                     "sockopt": {
@@ -414,7 +414,7 @@
         }
     },
     {
-        "remarks": "1403/9/6 [31days] FRAG TLS 2",
+        "remarks": "1403/9/18 FRAG TLS 2",
         "log": {
             "access": "",
             "error": "",
@@ -544,7 +544,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "104.16.219.230",
                             "port": 8443,
                             "users": [
                                 {
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "geNTLE-SuN-cAA7.coTEV27124.WORKErS.dev",
+                        "serverName": "gENTLE-suN-caa7.CoteV27124.WORKERS.deV",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "gENtlE-sUn-cAA7.COTev27124.worKeRS.deV"
+                            "Host": "geNTLe-SUn-CaA7.cotev27124.WORKers.dev"
                         }
                     },
                     "sockopt": {

@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/9/6 [31days] FRAG WS 0",
+        "remarks": "1403/9/18 FRAG WS 0",
         "log": {
             "access": "",
             "error": "",
@@ -132,7 +132,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "104.17.88.212",
                             "port": 8880,
                             "users": [
                                 {
@@ -153,7 +153,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "geNtlE-sun-cAA7.coteV27124.WORkeRs.Dev",
+                            "Host": "gEnTLE-Sun-cAa7.cotev27124.woRkErs.dEv",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
@@ -200,7 +200,7 @@
         }
     },
     {
-        "remarks": "1403/9/6 [31days] FRAG WS 1",
+        "remarks": "1403/9/18 FRAG WS 1",
         "log": {
             "access": "",
             "error": "",
@@ -332,7 +332,7 @@
                 "settings": {
                     "vnext": [
                         {
-                            "address": "b2n.ir",
+                            "address": "104.17.88.212",
                             "port": 8880,
                             "users": [
                                 {
@@ -353,7 +353,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "GENtle-Sun-caA7.cOTEv27124.wORkeRs.DEV",
+                            "Host": "gENtLe-SuN-Caa7.COteV27124.worKers.dEV",
                             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
                         }
                     },
