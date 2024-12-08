@@ -1,5 +1,5 @@
 {
-  "remarks": "MCI.CF 2024-12-04",
+  "remarks": "MCI.CF 2024-12-08",
   "log": {
     "access": "",
     "error": "",
@@ -642,13 +642,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.135.149",
+            "address": "104.16.219.230",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
+                "id": "1ef034ba-20d5-41b0-a922-d7e6def1a706",
                 "level": 8
               }
             ]
@@ -665,12 +665,12 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "bb.limoo.online",
+          "serverName": "dd.limoo.online",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "bb.limoo.online",
+            "Host": "dd.limoo.online",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/?ed=2048"
@@ -746,6 +746,60 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.133.234",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "bb.limoo.online",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "bb.limoo.online",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2048"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy13_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
       "protocol": "vmess",
       "settings": {
         "vnext": [
@@ -793,115 +847,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.133.234",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "bb.limoo.online",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "bb.limoo.online",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
       "tag": "proxy14_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.219.230",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1ef034ba-20d5-41b0-a922-d7e6def1a706",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "dd.limoo.online",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "dd.limoo.online",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/?ed=2048"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy15_frag0"
     },
     {
       "mux": {
@@ -957,7 +903,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_frag0"
+      "tag": "proxy15_frag0"
     },
     {
       "mux": {
@@ -970,14 +916,14 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
-            "port": 8443,
+            "address": "104.16.219.230",
+            "port": 443,
             "users": [
               {
                 "alterId": 0,
                 "encryption": "",
                 "flow": "",
-                "id": "a617b227-028b-420f-928f-e8c9ca551346",
+                "id": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
                 "level": 8,
                 "security": "auto"
               }
@@ -995,15 +941,65 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "recordemailprevent.tickespace.ir",
+          "serverName": "az05.beyondy.cfd",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "recordemailprevent.tickespace.ir",
+            "Host": "az05.beyondy.cfd",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ordemailpr"
+          "path": "/link"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy16_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "188.114.98.0",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "b4e8771997c94732acbc9ec4d19c2589",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "bangladeshipatri.com",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "bangladeshipatri.com",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/6b777a91"
         },
         "sockopt": {
           "dialerProxy": "fragment0",
@@ -1014,6 +1010,56 @@
         }
       },
       "tag": "proxy17_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "104.16.219.230",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "b4e8771997c94732acbc9ec4d19c2589",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
+          "serverName": "bangladeshipatri.com",
+          "show": false
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "bangladeshipatri.com",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/6b777a91"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy18_frag0"
     },
     {
       "mux": {
@@ -1067,60 +1113,6 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy18_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.26.10.137",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "8a7e02f7-d621-11ee-aaa8-00505603e70d",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "fingerprint": "randomized",
-          "serverName": "st-pl-1.brocdn.com",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "Host": "st-pl-1.brocdn.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/websocket"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
       "tag": "proxy19_frag0"
     },
     {
@@ -1134,13 +1126,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.88.212",
+            "address": "172.67.135.149",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f5a5b033-d600-11ee-aaa8-00505603e70d",
+                "id": "2dafa27b-898b-4eb2-bbc4-6a1bbc27639b",
                 "level": 8
               }
             ]
@@ -1157,15 +1149,15 @@
             "http/1.1"
           ],
           "fingerprint": "randomized",
-          "serverName": "st-gb-1.brocdn.com",
+          "serverName": "bb.limoo.online",
           "show": false
         },
         "wsSettings": {
           "headers": {
-            "Host": "st-gb-1.brocdn.com",
+            "Host": "bb.limoo.online",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/websocket"
+          "path": "/?ed=2048"
         },
         "sockopt": {
           "dialerProxy": "fragment0",
