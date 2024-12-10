@@ -1,6 +1,6 @@
 [
     {
-        "remarks": "1403/8/14 [31days] FRAG TLS 0",
+        "remarks": "01-00-1900 FRAG TLS 0",
         "log": {
             "access": "",
             "error": "",
@@ -134,7 +134,7 @@
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+                                    "id": "8ae2d190-1762-45bd-9cd4-caf2e758b13b",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -150,7 +150,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "faNCY-SeA-D3eD.FANIW65144.WoRKERs.dev",
+                        "serverName": "SOFt-ScENe-8B62.GIGAK25604.worKeRS.Dev",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -161,7 +161,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "FANcY-SeA-d3ed.FAniW65144.workeRs.DeV"
+                            "Host": "SoFT-SCeNE-8B62.GigAk25604.wOrKErS.Dev"
                         }
                     },
                     "sockopt": {
@@ -207,7 +207,7 @@
         }
     },
     {
-        "remarks": "1403/8/14 [31days] FRAG TLS 1",
+        "remarks": "01-00-1900 FRAG TLS 1",
         "log": {
             "access": "",
             "error": "",
@@ -341,7 +341,7 @@
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+                                    "id": "8ae2d190-1762-45bd-9cd4-caf2e758b13b",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -357,7 +357,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "fANcy-seA-d3ED.faNiw65144.WorkERS.Dev",
+                        "serverName": "soFT-sCenE-8b62.GIGak25604.wOrKERS.dEv",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -368,7 +368,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "FANCy-sea-d3eD.FaNIW65144.wORkerS.dEV"
+                            "Host": "Soft-ScenE-8B62.GIgAk25604.WoRKeRs.Dev"
                         }
                     },
                     "sockopt": {
@@ -414,7 +414,7 @@
         }
     },
     {
-        "remarks": "1403/8/14 [31days] FRAG TLS 2",
+        "remarks": "01-00-1900 FRAG TLS 2",
         "log": {
             "access": "",
             "error": "",
@@ -548,7 +548,7 @@
                             "port": 8443,
                             "users": [
                                 {
-                                    "id": "c25b876f-3859-4e70-a9fe-30ef0bf4eca5",
+                                    "id": "8ae2d190-1762-45bd-9cd4-caf2e758b13b",
                                     "alterId": 0,
                                     "email": "t@t.tt",
                                     "security": "auto",
@@ -564,7 +564,7 @@
                     "security": "tls",
                     "tlsSettings": {
                         "allowInsecure": false,
-                        "serverName": "FANcy-SeA-D3ed.faNiW65144.WORKErS.deV",
+                        "serverName": "soft-sceNe-8B62.gigak25604.WorKers.DEv",
                         "alpn": [
                             "h2",
                             "http/1.1"
@@ -575,7 +575,7 @@
                     "wsSettings": {
                         "path": "/?ed=2560",
                         "headers": {
-                            "Host": "fANcY-SeA-d3Ed.faNiW65144.WoRKERS.dev"
+                            "Host": "sofT-ScEne-8b62.giGAK25604.WoRKeRs.dEv"
                         }
                     },
                     "sockopt": {
