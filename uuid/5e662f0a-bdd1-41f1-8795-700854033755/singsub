@@ -4503,12 +4503,14 @@
         "tag": "geosite-ir",
         "type": "remote",
         "format": "binary",
+        "detour": "proxy",   
         "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
       },
       {
         "tag": "geoip-ir",
         "type": "remote",
         "format": "binary",
+        "detour": "proxy",        
         "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
       }
     ],
