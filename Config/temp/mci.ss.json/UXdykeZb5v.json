@@ -59,6 +59,12 @@
         "server": "dns-local"
       },
       {
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "dns-local"
+      },
+      {
         "outbound": "any",
         "server": "dns-direct"
       },
@@ -4952,6 +4958,22 @@
     "auto_detect_interface": true,
     "override_android_vpn": true,
     "final": "proxy",
+    "rule_set": [
+      {
+        "tag": "geosite-ir",
+        "type": "remote",
+        "format": "binary",
+        "download_detour": "direct",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
+      },
+      {
+        "tag": "geoip-ir",
+        "type": "remote",
+        "format": "binary",
+        "download_detour": "direct",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
+      }
+    ],
     "rules": [
       {
         "protocol": "dns",
@@ -4984,6 +5006,13 @@
       },
       {
         "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-ir",
+          "geoip-ir"
+        ],
         "outbound": "direct"
       }
     ]
