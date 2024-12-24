@@ -133,7 +133,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "subhiddify.mmdv2.host",
           "show": false
         },
@@ -179,6 +183,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -231,7 +239,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -277,7 +289,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "torjan.xn--xhq44j.eu.org",
           "show": false
         },
@@ -327,12 +343,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpionline.co",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpionline.co",
+          "show": false
         },
         "grpcSettings": {
           "authority": "",
@@ -378,12 +394,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpi1.eu.org",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpi1.eu.org",
+          "show": false
         },
         "grpcSettings": {
           "authority": "",
@@ -425,7 +441,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "torjan.xn--xhq44j.eu.org",
           "show": false
         },
@@ -475,6 +495,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "hdfy8d1.cpi1.eu.org",
           "show": false
@@ -527,7 +551,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
           "show": false
         },
@@ -577,12 +605,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpi2hidd.eu.org",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpi2hidd.eu.org",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -632,6 +660,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "foxlux.fovi.tk",
           "show": false
@@ -684,6 +716,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "foxlux.fovi.tk",
           "show": false
@@ -736,7 +772,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -788,6 +828,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "3.clarity168.com",
           "show": false
@@ -840,7 +884,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -892,7 +940,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "lax1.ibgfw.top",
           "show": false
         },
@@ -944,7 +996,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -996,7 +1052,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
           "show": false
         },
@@ -1048,7 +1108,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -1100,7 +1164,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "lax2.ibgfw.top",
           "show": false
         },
@@ -1150,13 +1218,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ftp.arashiphone.com.",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "ftp.arashiphone.com.",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -1204,7 +1272,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "abc.vpneee.top",
           "show": false
         },
@@ -1254,6 +1326,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "hdfy8d1.cpi2hidd.eu.org",
           "show": false
@@ -1302,6 +1378,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "p1us2.globals-download.com",
           "show": false
@@ -1352,6 +1432,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us3.globals-download.com",
           "show": false
@@ -1402,6 +1486,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "1p1us1.globals-download.com",
           "show": false
@@ -1452,6 +1540,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1us4.globals-download.com",
           "show": false
@@ -1502,6 +1594,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1in3.globals-download.com",
           "show": false
@@ -1552,6 +1648,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "pus4.globals-download.com",
           "show": false
@@ -1602,6 +1702,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1in1.globals-download.com",
           "show": false
@@ -1648,6 +1752,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -1694,6 +1802,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -1746,13 +1858,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "foxlux.fovi.tk",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "foxlux.fovi.tk",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -1800,6 +1912,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us3.globals-download.com",
           "show": false
@@ -1850,6 +1966,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us1.globals-download.com",
           "show": false
@@ -1902,13 +2022,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "foxlux.fovi.tk",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "foxlux.fovi.tk",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -1956,13 +2076,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "1p1us1.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "1p1us1.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -2010,6 +2130,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "p1us2.globals-download.com",
           "show": false
@@ -2060,13 +2184,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "p1us2.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "p1us2.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -2114,13 +2238,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "1p1us3.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "1p1us3.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -2345,7 +2469,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "subhiddify.mmdv2.host",
           "show": false
         },
@@ -2384,6 +2512,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -2429,7 +2561,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -2468,7 +2604,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "torjan.xn--xhq44j.eu.org",
           "show": false
         },
@@ -2511,12 +2651,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpionline.co",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpionline.co",
+          "show": false
         },
         "grpcSettings": {
           "authority": "",
@@ -2555,12 +2695,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpi1.eu.org",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpi1.eu.org",
+          "show": false
         },
         "grpcSettings": {
           "authority": "",
@@ -2595,7 +2735,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "torjan.xn--xhq44j.eu.org",
           "show": false
         },
@@ -2638,6 +2782,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "hdfy8d1.cpi1.eu.org",
           "show": false
@@ -2683,7 +2831,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top",
           "show": false
         },
@@ -2726,12 +2878,12 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "hdfy8d1.cpi2hidd.eu.org",
-          "show": false,
           "alpn": [
             "h2"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "hdfy8d1.cpi2hidd.eu.org",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -2774,6 +2926,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "foxlux.fovi.tk",
           "show": false
@@ -2819,6 +2975,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "foxlux.fovi.tk",
           "show": false
@@ -2864,7 +3024,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -2909,6 +3073,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "3.clarity168.com",
           "show": false
@@ -2954,7 +3122,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -2999,7 +3171,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "lax1.ibgfw.top",
           "show": false
         },
@@ -3044,7 +3220,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -3089,7 +3269,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
           "show": false
         },
@@ -3134,7 +3318,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "nl1.tRojANVpN.xYZ",
           "show": false
         },
@@ -3179,7 +3367,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "lax2.ibgfw.top",
           "show": false
         },
@@ -3222,13 +3414,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ftp.arashiphone.com.",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "chrome",
+          "serverName": "ftp.arashiphone.com.",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -3269,7 +3461,11 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "fingerprint": "randomized",
           "serverName": "abc.vpneee.top",
           "show": false
         },
@@ -3312,6 +3508,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "hdfy8d1.cpi2hidd.eu.org",
           "show": false
@@ -3353,6 +3553,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "p1us2.globals-download.com",
           "show": false
@@ -3396,6 +3600,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us3.globals-download.com",
           "show": false
@@ -3439,6 +3647,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "1p1us1.globals-download.com",
           "show": false
@@ -3482,6 +3694,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1us4.globals-download.com",
           "show": false
@@ -3525,6 +3741,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1in3.globals-download.com",
           "show": false
@@ -3568,6 +3788,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "pus4.globals-download.com",
           "show": false
@@ -3611,6 +3835,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "randomized",
           "serverName": "p1in1.globals-download.com",
           "show": false
@@ -3650,6 +3878,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -3689,6 +3921,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "yaml7.ggff.net",
           "show": false
@@ -3734,13 +3970,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "foxlux.fovi.tk",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "foxlux.fovi.tk",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -3781,6 +4017,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us3.globals-download.com",
           "show": false
@@ -3824,6 +4064,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "1p1us1.globals-download.com",
           "show": false
@@ -3869,13 +4113,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "foxlux.fovi.tk",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "foxlux.fovi.tk",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -3916,13 +4160,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "1p1us1.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "1p1us1.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -3963,6 +4207,10 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
           "fingerprint": "chrome",
           "serverName": "p1us2.globals-download.com",
           "show": false
@@ -4006,13 +4254,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "p1us2.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "p1us2.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
@@ -4053,13 +4301,13 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "1p1us3.globals-download.com",
-          "show": false,
           "alpn": [
             "h2",
             "http/1.1"
-          ]
+          ],
+          "fingerprint": "randomized",
+          "serverName": "1p1us3.globals-download.com",
+          "show": false
         },
         "wsSettings": {
           "headers": {
