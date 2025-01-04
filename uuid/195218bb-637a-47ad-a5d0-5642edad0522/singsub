@@ -130,238 +130,292 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.WS_worker-jolly-glitter-4026.behebo3543.workers.dev",
-        "2.WS_worker-fancy-dawn-95ce.delelac408.workers.dev",
-        "3.WS_worker-patient-feather-008f.nigiv19673488.workers.dev",
-        "4.WS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
-        "5.WS_hello-world-summer.ciyapo89104656.workers.dev",
-        "6.WS_worker-royal-dream-abe4.nelemit482.workers.dev",
-        "7.WS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
-        "8.WS_worker-white-violet-4932.conos72495.workers.dev",
-        "9.WS_worker-ancient-credit-e712.cakaxis510.workers.dev",
-        "10.WS_worker-shy-shadow-16be.lanihi8359.workers.dev",
-        "11.WS_worker-cold-base-8d04.xexer3509625.workers.dev",
-        "12.WS_worker-green-lab-ec7d.kifol7170846.workers.dev",
-        "13.WS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-        "14.WS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-        "15.WS_hello-world-wispy.rewah709861910.workers.dev",
-        "16.WS_hello-world-purple.vivecil650202.workers.dev",
-        "17.WS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-        "18.WS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-        "19.WS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-        "20.WS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-        "21.WS_worker-polished-thunder-b76.vabex76694.workers.dev",
-        "22.WS_flat-scene-697d.vebiyo9904.workers.dev",
-        "23.WS_hello-world1.yofigey7761658.workers.dev",
-        "24.WS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-        "25.WS_worker-calm-snow-a135.jivep17561.workers.dev",
-        "26.WS_worker-wandering-breeze-558f.libit96375.workers.dev",
-        "27.WS_worker-restless-hat-a207.horini5085.workers.dev",
-        "28.WS_worker-muddy-mud-80b0.yasad98332.workers.dev",
-        "29.WS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-        "30.WS_worker-square-credit-266.voregi30768721.workers.dev",
-        "31.WS_worker-still-bread-58a5.wopase7569.workers.dev",
-        "32.WS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-        "33.WS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-        "34.WS_hello-world-fancy.fodimet674395.workers.dev",
-        "35.WS_worker-damp-mud-2037.vepoki35667904.workers.dev",
-        "36.WS_hello-world-restless3.lelibe23561755.workers.dev",
-        "37.WS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-        "38.WS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-        "39.WS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-        "40.WS_hello-world1.neroda58356546.workers.dev",
-        "41.WS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-        "42.WS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-        "43.WS_heheh.doxivi75166473.workers.dev",
-        "44.WS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-        "45.WS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-        "46.TLS_worker-patient-feather-008f.nigiv19673488.workers.dev",
-        "47.TLS_corafap622.pages.dev",
-        "48.TLS_ritexo4940.pages.dev",
-        "49.TLS_69901ae8.dorefa9190.pages.dev",
-        "50.TLS_worker-fancy-dawn-95ce.delelac408.workers.dev",
-        "51.TLS_renesok574.pages.dev",
-        "52.TLS_mitid53210.pages.dev",
-        "53.TLS_nigiv19673.pages.dev",
-        "54.TLS_heheh.doxivi75166473.workers.dev",
-        "55.TLS_hello-world-purple.vivecil650202.workers.dev",
-        "56.TLS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-        "57.TLS_potiv98445.pages.dev",
-        "58.TLS_pahose8240.pages.dev",
-        "59.TLS_worker-calm-snow-a135.jivep17561.workers.dev",
-        "60.TLS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-        "61.TLS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-        "62.TLS_hello-world-summer.ciyapo89104656.workers.dev",
-        "63.TLS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-        "64.TLS_gicih84774.pages.dev",
-        "65.TLS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-        "66.TLS_hejaw18456.pages.dev",
-        "67.TLS_worker-white-violet-4932.conos72495.workers.dev",
-        "68.TLS_pojihe2933.pages.dev",
-        "69.TLS_hello-world-wispy.rewah709861910.workers.dev",
-        "70.TLS_diyovo3977.pages.dev",
-        "71.TLS_jotic55393.pages.dev",
-        "72.TLS_wenise9964.pages.dev",
-        "73.TLS_balitac173.pages.dev",
-        "74.TLS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
-        "75.TLS_worker-green-lab-ec7d.kifol7170846.workers.dev",
-        "76.TLS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-        "77.TLS_worker-still-bread-58a5.wopase7569.workers.dev",
-        "78.TLS_worker-wandering-breeze-558f.libit96375.workers.dev",
-        "79.TLS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-        "80.TLS_pomot26332.pages.dev",
-        "81.TLS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-        "82.TLS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
-        "83.TLS_worker-square-credit-266.voregi30768721.workers.dev",
-        "84.TLS_hokibog915.pages.dev",
-        "85.TLS_worker-polished-thunder-b76.vabex76694.workers.dev",
-        "86.TLS_vodoyo1710.pages.dev",
-        "87.TLS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-        "88.TLS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-        "89.TLS_hello-world-restless3.lelibe23561755.workers.dev",
-        "90.TLS_wonoke5503.pages.dev",
-        "91.TLS_mowirix651.pages.dev",
-        "92.TLS_lokocad452.pages.dev",
-        "93.TLS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-        "94.TLS_worker-ancient-credit-e712.cakaxis510.workers.dev",
-        "95.TLS_worker-shy-shadow-16be.lanihi8359.workers.dev",
-        "96.TLS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-        "97.TLS_cakaxis510.pages.dev",
-        "98.TLS_hello-world1.neroda58356546.workers.dev",
-        "99.TLS_hello-world-fancy.fodimet674395.workers.dev",
-        "100.TLS_worker-jolly-glitter-4026.behebo3543.workers.dev",
-        "101.TLS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-        "102.TLS_worker-royal-dream-abe4.nelemit482.workers.dev",
-        "103.TLS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-        "104.TLS_worker-cold-base-8d04.xexer3509625.workers.dev",
-        "105.TLS_flat-scene-697d.vebiyo9904.workers.dev",
-        "106.TLS_hello-world1.yofigey7761658.workers.dev",
-        "107.TLS_worker-muddy-mud-80b0.yasad98332.workers.dev",
-        "108.TLS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-        "109.TLS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-        "110.TLS_nihenab866.pages.dev",
-        "111.TLS_worker-restless-hat-a207.horini5085.workers.dev",
-        "112.TLS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-        "113.TLS_worker-damp-mud-2037.vepoki35667904.workers.dev"
+        "1.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "2.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "3.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "4.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "5.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "6.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "7.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "8.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "9.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "10.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "11.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "12.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "13.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "14.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "15.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "16.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "17.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "18.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "19.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "20.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "21.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "22.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "23.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "24.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "25.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "26.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "27.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "28.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "29.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "30.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "31.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "32.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "33.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "34.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "35.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "36.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "37.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "38.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "39.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "40.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "41.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "42.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "43.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "44.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "45.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "46.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "47.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "48.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "49.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "50.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "51.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "52.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "53.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "54.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "55.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "56.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "57.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "58.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "59.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "60.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "61.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "62.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "63.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "64.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "65.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "66.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "67.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "68.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "69.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "70.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "71.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "72.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "73.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "74.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "75.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "76.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "77.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "78.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "79.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "80.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "81.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "82.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "83.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "84.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "85.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "86.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "87.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "88.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "89.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "90.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "91.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "92.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "93.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "94.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "95.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "96.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "97.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "98.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "99.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "100.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "101.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "102.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "103.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "104.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "105.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "106.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "107.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "108.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "109.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "110.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "111.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "112.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "113.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "114.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "115.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "116.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "117.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "118.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "119.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "120.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "121.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "122.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "123.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "124.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "125.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "126.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "127.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "128.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "129.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "130.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "131.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "132.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "133.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "134.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "135.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "136.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "137.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "138.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "139.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "140.TLS.misty-rain-9243.nojisoj4574.workers.dev"
       ]
     },
     {
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.WS_worker-jolly-glitter-4026.behebo3543.workers.dev",
-        "2.WS_worker-fancy-dawn-95ce.delelac408.workers.dev",
-        "3.WS_worker-patient-feather-008f.nigiv19673488.workers.dev",
-        "4.WS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
-        "5.WS_hello-world-summer.ciyapo89104656.workers.dev",
-        "6.WS_worker-royal-dream-abe4.nelemit482.workers.dev",
-        "7.WS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
-        "8.WS_worker-white-violet-4932.conos72495.workers.dev",
-        "9.WS_worker-ancient-credit-e712.cakaxis510.workers.dev",
-        "10.WS_worker-shy-shadow-16be.lanihi8359.workers.dev",
-        "11.WS_worker-cold-base-8d04.xexer3509625.workers.dev",
-        "12.WS_worker-green-lab-ec7d.kifol7170846.workers.dev",
-        "13.WS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-        "14.WS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-        "15.WS_hello-world-wispy.rewah709861910.workers.dev",
-        "16.WS_hello-world-purple.vivecil650202.workers.dev",
-        "17.WS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-        "18.WS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-        "19.WS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-        "20.WS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-        "21.WS_worker-polished-thunder-b76.vabex76694.workers.dev",
-        "22.WS_flat-scene-697d.vebiyo9904.workers.dev",
-        "23.WS_hello-world1.yofigey7761658.workers.dev",
-        "24.WS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-        "25.WS_worker-calm-snow-a135.jivep17561.workers.dev",
-        "26.WS_worker-wandering-breeze-558f.libit96375.workers.dev",
-        "27.WS_worker-restless-hat-a207.horini5085.workers.dev",
-        "28.WS_worker-muddy-mud-80b0.yasad98332.workers.dev",
-        "29.WS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-        "30.WS_worker-square-credit-266.voregi30768721.workers.dev",
-        "31.WS_worker-still-bread-58a5.wopase7569.workers.dev",
-        "32.WS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-        "33.WS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-        "34.WS_hello-world-fancy.fodimet674395.workers.dev",
-        "35.WS_worker-damp-mud-2037.vepoki35667904.workers.dev",
-        "36.WS_hello-world-restless3.lelibe23561755.workers.dev",
-        "37.WS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-        "38.WS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-        "39.WS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-        "40.WS_hello-world1.neroda58356546.workers.dev",
-        "41.WS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-        "42.WS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-        "43.WS_heheh.doxivi75166473.workers.dev",
-        "44.WS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-        "45.WS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-        "46.TLS_worker-patient-feather-008f.nigiv19673488.workers.dev",
-        "47.TLS_corafap622.pages.dev",
-        "48.TLS_ritexo4940.pages.dev",
-        "49.TLS_69901ae8.dorefa9190.pages.dev",
-        "50.TLS_worker-fancy-dawn-95ce.delelac408.workers.dev",
-        "51.TLS_renesok574.pages.dev",
-        "52.TLS_mitid53210.pages.dev",
-        "53.TLS_nigiv19673.pages.dev",
-        "54.TLS_heheh.doxivi75166473.workers.dev",
-        "55.TLS_hello-world-purple.vivecil650202.workers.dev",
-        "56.TLS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-        "57.TLS_potiv98445.pages.dev",
-        "58.TLS_pahose8240.pages.dev",
-        "59.TLS_worker-calm-snow-a135.jivep17561.workers.dev",
-        "60.TLS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-        "61.TLS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-        "62.TLS_hello-world-summer.ciyapo89104656.workers.dev",
-        "63.TLS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-        "64.TLS_gicih84774.pages.dev",
-        "65.TLS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-        "66.TLS_hejaw18456.pages.dev",
-        "67.TLS_worker-white-violet-4932.conos72495.workers.dev",
-        "68.TLS_pojihe2933.pages.dev",
-        "69.TLS_hello-world-wispy.rewah709861910.workers.dev",
-        "70.TLS_diyovo3977.pages.dev",
-        "71.TLS_jotic55393.pages.dev",
-        "72.TLS_wenise9964.pages.dev",
-        "73.TLS_balitac173.pages.dev",
-        "74.TLS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
-        "75.TLS_worker-green-lab-ec7d.kifol7170846.workers.dev",
-        "76.TLS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-        "77.TLS_worker-still-bread-58a5.wopase7569.workers.dev",
-        "78.TLS_worker-wandering-breeze-558f.libit96375.workers.dev",
-        "79.TLS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-        "80.TLS_pomot26332.pages.dev",
-        "81.TLS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-        "82.TLS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
-        "83.TLS_worker-square-credit-266.voregi30768721.workers.dev",
-        "84.TLS_hokibog915.pages.dev",
-        "85.TLS_worker-polished-thunder-b76.vabex76694.workers.dev",
-        "86.TLS_vodoyo1710.pages.dev",
-        "87.TLS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-        "88.TLS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-        "89.TLS_hello-world-restless3.lelibe23561755.workers.dev",
-        "90.TLS_wonoke5503.pages.dev",
-        "91.TLS_mowirix651.pages.dev",
-        "92.TLS_lokocad452.pages.dev",
-        "93.TLS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-        "94.TLS_worker-ancient-credit-e712.cakaxis510.workers.dev",
-        "95.TLS_worker-shy-shadow-16be.lanihi8359.workers.dev",
-        "96.TLS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-        "97.TLS_cakaxis510.pages.dev",
-        "98.TLS_hello-world1.neroda58356546.workers.dev",
-        "99.TLS_hello-world-fancy.fodimet674395.workers.dev",
-        "100.TLS_worker-jolly-glitter-4026.behebo3543.workers.dev",
-        "101.TLS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-        "102.TLS_worker-royal-dream-abe4.nelemit482.workers.dev",
-        "103.TLS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-        "104.TLS_worker-cold-base-8d04.xexer3509625.workers.dev",
-        "105.TLS_flat-scene-697d.vebiyo9904.workers.dev",
-        "106.TLS_hello-world1.yofigey7761658.workers.dev",
-        "107.TLS_worker-muddy-mud-80b0.yasad98332.workers.dev",
-        "108.TLS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-        "109.TLS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-        "110.TLS_nihenab866.pages.dev",
-        "111.TLS_worker-restless-hat-a207.horini5085.workers.dev",
-        "112.TLS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-        "113.TLS_worker-damp-mud-2037.vepoki35667904.workers.dev"
+        "1.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "2.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "3.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "4.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "5.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "6.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "7.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "8.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "9.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "10.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "11.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "12.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "13.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "14.WS.purple-term-e1bd.mocica6884.workers.dev",
+        "15.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "16.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "17.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "18.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "19.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "20.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "21.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "22.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "23.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "24.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "25.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "26.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "27.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "28.WS.falling-thunder-9805.cidayo573832.workers.dev",
+        "29.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "30.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "31.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "32.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "33.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "34.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "35.WS.misty-glitter-236a.hemecap538.workers.dev",
+        "36.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "37.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "38.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "39.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "40.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "41.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "42.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "43.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "44.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "45.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "46.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "47.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "48.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "49.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "50.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "51.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "52.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "53.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "54.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "55.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "56.WS.sweet-night-7b32.najefe48575.workers.dev",
+        "57.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "58.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "59.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "60.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "61.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "62.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "63.WS.wispy-flower-83f2.daleh43175.workers.dev",
+        "64.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "65.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "66.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "67.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "68.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "69.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "70.WS.misty-rain-9243.nojisoj4574.workers.dev",
+        "71.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "72.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "73.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "74.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "75.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "76.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "77.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+        "78.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "79.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "80.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "81.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "82.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "83.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "84.TLS.purple-term-e1bd.mocica6884.workers.dev",
+        "85.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "86.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "87.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "88.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "89.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "90.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "91.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+        "92.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "93.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "94.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "95.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "96.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "97.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "98.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+        "99.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "100.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "101.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "102.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "103.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "104.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "105.TLS.misty-glitter-236a.hemecap538.workers.dev",
+        "106.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "107.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "108.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "109.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "110.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "111.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "112.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+        "113.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "114.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "115.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "116.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "117.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "118.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "119.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+        "120.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "121.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "122.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "123.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "124.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "125.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "126.TLS.sweet-night-7b32.najefe48575.workers.dev",
+        "127.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "128.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "129.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "130.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "131.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "132.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "133.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+        "134.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "135.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "136.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "137.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "138.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "139.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+        "140.TLS.misty-rain-9243.nojisoj4574.workers.dev"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30m",
@@ -381,10 +435,125 @@
     },
     {
       "type": "vless",
-      "tag": "1.WS_worker-jolly-glitter-4026.behebo3543.workers.dev",
+      "tag": "1.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "2.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "3.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "4.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "5.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "6.WS.orange-disk-5856.sgerhryjyj.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "e2120410-485f-40be-8b65-9ef619a950bc",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -394,9 +563,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/aNkJWhN0nv7la9SP",
         "headers": {
-          "Host": "worker-jolly-glitter-4026.behebo3543.workers.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -404,10 +573,79 @@
     },
     {
       "type": "vless",
-      "tag": "2.WS_worker-fancy-dawn-95ce.delelac408.workers.dev",
+      "tag": "7.WS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aNkJWhN0nv7la9SP",
+        "headers": {
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "8.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "9.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "10.WS.purple-term-e1bd.mocica6884.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "53c3289b-efde-4185-92ce-4ebe486aa534",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -417,9 +655,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/nTnqRnSu484gf1Cq",
         "headers": {
-          "Host": "worker-fancy-dawn-95ce.delelac408.workers.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -427,10 +665,102 @@
     },
     {
       "type": "vless",
-      "tag": "3.WS_worker-patient-feather-008f.nigiv19673488.workers.dev",
+      "tag": "11.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "12.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "13.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "14.WS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nTnqRnSu484gf1Cq",
+        "headers": {
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "15.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "1722aa12-28eb-421c-a0cb-b16328b51e46",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -440,9 +770,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/GZwpwS65GaCkLjCA",
         "headers": {
-          "Host": "worker-patient-feather-008f.nigiv19673488.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -450,10 +780,171 @@
     },
     {
       "type": "vless",
-      "tag": "4.WS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
+      "tag": "16.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "17.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "18.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "19.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "20.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "21.WS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/GZwpwS65GaCkLjCA",
+        "headers": {
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "22.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "23.WS.falling-thunder-9805.cidayo573832.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "40f89f30-89f3-4848-9e32-c16d8adfcd43",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -463,9 +954,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/joz6ZOXm6D0yhXEv",
         "headers": {
-          "Host": "worker-jolly-wind-9900.loyeg208429244.workers.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -473,10 +964,217 @@
     },
     {
       "type": "vless",
-      "tag": "5.WS_hello-world-summer.ciyapo89104656.workers.dev",
+      "tag": "24.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "25.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "26.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "27.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "28.WS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/joz6ZOXm6D0yhXEv",
+        "headers": {
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "29.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "30.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "31.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "32.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "33.WS.misty-glitter-236a.hemecap538.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "9ace2ba2-a445-4529-b5d9-a33e520e43c0",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -486,9 +1184,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/NAeDGVd1aifbjsGM",
         "headers": {
-          "Host": "hello-world-summer.ciyapo89104656.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -496,10 +1194,148 @@
     },
     {
       "type": "vless",
-      "tag": "6.WS_worker-royal-dream-abe4.nelemit482.workers.dev",
+      "tag": "34.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "35.WS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/NAeDGVd1aifbjsGM",
+        "headers": {
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "36.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "37.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "38.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "39.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "40.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "702c1740-8d68-4a67-9de6-7e70b91ef255",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -509,9 +1345,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/LtFBHmYDcN0M4cZh",
         "headers": {
-          "Host": "worker-royal-dream-abe4.nelemit482.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -519,10 +1355,56 @@
     },
     {
       "type": "vless",
-      "tag": "7.WS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
+      "tag": "41.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "42.WS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/LtFBHmYDcN0M4cZh",
+        "headers": {
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "43.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "dec47465-17aa-4f00-823e-e407d5329b7f",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -532,9 +1414,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/oMHAuLQH8x6uvYpA",
         "headers": {
-          "Host": "worker-patient-poetry-2664.xaviyi79713307.workers.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -542,10 +1424,286 @@
     },
     {
       "type": "vless",
-      "tag": "8.WS_worker-white-violet-4932.conos72495.workers.dev",
+      "tag": "44.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "45.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "46.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "47.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "48.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "49.WS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oMHAuLQH8x6uvYpA",
+        "headers": {
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "50.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "51.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "52.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "53.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "54.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "55.WS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/3GsSbdyyoeWGyfEs",
+        "headers": {
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "56.WS.sweet-night-7b32.najefe48575.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "0f9190e0-3b43-4034-9f10-0d1459d7d4da",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -555,9 +1713,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/3GsSbdyyoeWGyfEs",
         "headers": {
-          "Host": "worker-white-violet-4932.conos72495.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -565,10 +1723,79 @@
     },
     {
       "type": "vless",
-      "tag": "9.WS_worker-ancient-credit-e712.cakaxis510.workers.dev",
+      "tag": "57.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "104.17.88.212",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "58.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "www.zula.ir",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "59.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "60.WS.wispy-flower-83f2.daleh43175.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "05df98ba-7566-4418-99bf-12dafed17871",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -578,9 +1805,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/fSy5vgQQnRhpDhh8",
         "headers": {
-          "Host": "worker-ancient-credit-e712.cakaxis510.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -588,10 +1815,102 @@
     },
     {
       "type": "vless",
-      "tag": "10.WS_worker-shy-shadow-16be.lanihi8359.workers.dev",
+      "tag": "61.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "62.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "63.WS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/fSy5vgQQnRhpDhh8",
+        "headers": {
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "64.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "172.67.135.149",
+      "server_port": 8880,
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/w5YUPafY5S0qnhJ1",
+        "headers": {
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "65.WS.misty-rain-9243.nojisoj4574.workers.dev",
       "server": "b2n.ir",
       "server_port": 8880,
-      "uuid": "de6fc376-0303-4fce-b6ae-add6304706b8",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -601,9 +1920,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-shy-shadow-16be.lanihi8359.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -611,10 +1930,10 @@
     },
     {
       "type": "vless",
-      "tag": "11.WS_worker-cold-base-8d04.xexer3509625.workers.dev",
-      "server": "b2n.ir",
+      "tag": "66.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8880,
-      "uuid": "a7515847-f8ef-405a-92ff-3403651c1e9e",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -624,9 +1943,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-cold-base-8d04.xexer3509625.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -634,10 +1953,10 @@
     },
     {
       "type": "vless",
-      "tag": "12.WS_worker-green-lab-ec7d.kifol7170846.workers.dev",
-      "server": "b2n.ir",
+      "tag": "67.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8880,
-      "uuid": "c7a832e5-68fa-459d-8419-db849695f84e",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -647,9 +1966,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-green-lab-ec7d.kifol7170846.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -657,10 +1976,10 @@
     },
     {
       "type": "vless",
-      "tag": "13.WS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-      "server": "b2n.ir",
+      "tag": "68.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8880,
-      "uuid": "58940e19-7510-4660-9555-359bad737de2",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -670,9 +1989,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-cold-hat-ac26.vosira42314853.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -680,10 +1999,10 @@
     },
     {
       "type": "vless",
-      "tag": "14.WS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-      "server": "b2n.ir",
+      "tag": "69.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8880,
-      "uuid": "cbaf244e-eaaf-4747-ba7e-2a90f9454835",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -693,9 +2012,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-sweet-sky-65fa.xawoc843846295.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -703,10 +2022,10 @@
     },
     {
       "type": "vless",
-      "tag": "15.WS_hello-world-wispy.rewah709861910.workers.dev",
-      "server": "b2n.ir",
+      "tag": "70.WS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8880,
-      "uuid": "c31e4148-cb69-44a4-a4bb-f88a78396efd",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -716,607 +2035,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-wispy.rewah709861910.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "16.WS_hello-world-purple.vivecil650202.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "676972be-d068-41f0-a296-2ee1c326bed5",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-purple.vivecil650202.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "17.WS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "d7d590a8-783f-448a-9d42-fe3513d4d248",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-royal-mode-7f2.xexer3509625.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "18.WS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "559a3313-a160-46c6-8064-bc56cdfae42c",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-floral-snow-8ad7.topah684115784.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "19.WS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "da943b90-bb03-4b9d-ab97-f3cdc3817209",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-aged-credit-ab62.kegag40987.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "20.WS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "6ce42949-4d5d-4e49-84e1-6d9052d711a3",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-sweet-grass-c13d.jameb91780.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "21.WS_worker-polished-thunder-b76.vabex76694.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "f3f4f193-64ad-4cb5-801f-cc18e112504e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-polished-thunder-b76.vabex76694.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "22.WS_flat-scene-697d.vebiyo9904.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "246df9ee-2bce-42f0-b1ec-f988c5a99550",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "flat-scene-697d.vebiyo9904.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "23.WS_hello-world1.yofigey7761658.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "3ff177f9-41d9-4459-9fe4-d0e26cd19205",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world1.yofigey7761658.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "24.WS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "ece65da6-ecef-4193-92e5-856559bb8d39",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-mute-sky-6cdc.renesok5743819.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "25.WS_worker-calm-snow-a135.jivep17561.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "fb5b5db7-3384-4ee8-b103-90158a50847b",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-calm-snow-a135.jivep17561.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "26.WS_worker-wandering-breeze-558f.libit96375.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "6b7b95fa-573e-47ca-abf8-d19afcc9eee7",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-wandering-breeze-558f.libit96375.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27.WS_worker-restless-hat-a207.horini5085.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "2abd9b82-8fdd-4f14-87a0-7f7c046a4d96",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-restless-hat-a207.horini5085.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "28.WS_worker-muddy-mud-80b0.yasad98332.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "7da2bcb6-4b8a-4bd9-8c5a-167c625a8fec",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-muddy-mud-80b0.yasad98332.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "29.WS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "7a9e4417-f2f8-45de-80dc-db0fbdc64052",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-broken-limit-3fdd.ritexo49405047.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "30.WS_worker-square-credit-266.voregi30768721.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "e7c89a9a-7295-436e-b8f1-2d26f0115ddb",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-square-credit-266.voregi30768721.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "31.WS_worker-still-bread-58a5.wopase7569.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "1892dd81-2753-47e0-82f0-df4d75a0723c",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-still-bread-58a5.wopase7569.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "32.WS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "babc91b1-5783-4911-98ce-7174219cb53e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-autumn-limit-cda8.wonoke5503.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "33.WS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "32c0c23a-e61c-4862-ad0e-358b09efb29c",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-lively-dawn-7758.kepete84026434.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "34.WS_hello-world-fancy.fodimet674395.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "1819783d-54f8-4fd8-93a1-76208b12ae6b",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-fancy.fodimet674395.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "35.WS_worker-damp-mud-2037.vepoki35667904.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "46fdc5e5-4e43-4500-8c44-ca4318a0cc87",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-damp-mud-2037.vepoki35667904.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "36.WS_hello-world-restless3.lelibe23561755.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "42adae60-e75c-4974-babf-4ecb7683d3f4",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-restless3.lelibe23561755.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "37.WS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "eaab1f71-8482-49bb-9c5c-0694ca7ce0b1",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-cold-firefly-2f0.xawatit7388876.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "38.WS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "86852ac8-d00b-4f4e-80af-263cb5d8acc2",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-tiny-sky-185b.jowihe66665102.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "39.WS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "a6f6b48f-8743-4d28-8137-2a5d96397ec8",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-muddy-smoke-8ab.xaxom25638790.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "40.WS_hello-world1.neroda58356546.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "f8644e01-da8e-464f-b11c-fbf94d731581",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world1.neroda58356546.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "41.WS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "449a0b78-4411-4bdf-b482-a717495e4869",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
+        "path": "/w5YUPafY5S0qnhJ1",
         "headers": {
-          "Host": "worker-yellow-band-d54b.pomot263322431.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1324,10 +2045,10 @@
     },
     {
       "type": "vless",
-      "tag": "42.WS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "ed35c3b2-3824-425f-a81b-eea3aee07b59",
+      "tag": "71.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "188.114.97.3",
+      "server_port": 8443,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1335,34 +2056,23 @@
         "protocol": "smux",
         "max_streams": 0
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hello-world-icy-firefly-047e.kagigal9105857.workers.dev"
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
         },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "43.WS_heheh.doxivi75166473.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "9d8e7ed4-a88a-40da-a143-aae4cbb7a6a3",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "heheh.doxivi75166473.workers.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1370,10 +2080,10 @@
     },
     {
       "type": "vless",
-      "tag": "44.WS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "a5e2f39f-333c-4b13-bcbf-1d0e1ea83680",
+      "tag": "72.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "162.159.130.234",
+      "server_port": 8443,
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1381,34 +2091,23 @@
         "protocol": "smux",
         "max_streams": 0
       },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "worker-aged-firefly-f12f.jisirof4606348.workers.dev"
+      "tls": {
+        "enabled": true,
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
         },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "45.WS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-      "server": "b2n.ir",
-      "server_port": 8880,
-      "uuid": "88c6ed22-4ae2-46fd-965f-b72d7bcdf449",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
+        "alpn": [
+          "http/1.1"
+        ]
       },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-rapid-wood-2a3.voxigi99841388.workers.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1416,10 +2115,10 @@
     },
     {
       "type": "vless",
-      "tag": "46.TLS_worker-patient-feather-008f.nigiv19673488.workers.dev",
-      "server": "b2n.ir",
+      "tag": "73.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "1722aa12-28eb-421c-a0cb-b16328b51e46",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1429,14 +2128,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-patient-feather-008f.nigiv19673488.workers.dev",
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1444,7 +2142,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-patient-feather-008f.nigiv19673488.workers.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1452,10 +2150,10 @@
     },
     {
       "type": "vless",
-      "tag": "47.TLS_corafap622.pages.dev",
+      "tag": "74.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "3e77511c-c70b-4ce5-ab40-ef0ac7663831",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1465,14 +2163,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "corafap622.pages.dev",
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1480,7 +2177,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "corafap622.pages.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1488,10 +2185,10 @@
     },
     {
       "type": "vless",
-      "tag": "48.TLS_ritexo4940.pages.dev",
-      "server": "b2n.ir",
+      "tag": "75.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "b0a3a688-fbdd-4b75-8d51-61709187fbbf",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1501,14 +2198,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "ritexo4940.pages.dev",
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1516,7 +2212,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "ritexo4940.pages.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1524,10 +2220,10 @@
     },
     {
       "type": "vless",
-      "tag": "49.TLS_69901ae8.dorefa9190.pages.dev",
-      "server": "b2n.ir",
+      "tag": "76.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "38d6cc55-bd54-4363-a677-79802d6ca8d6",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1537,14 +2233,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "69901ae8.dorefa9190.pages.dev",
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1552,7 +2247,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "69901ae8.dorefa9190.pages.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1560,10 +2255,10 @@
     },
     {
       "type": "vless",
-      "tag": "50.TLS_worker-fancy-dawn-95ce.delelac408.workers.dev",
-      "server": "b2n.ir",
+      "tag": "77.TLS.orange-disk-5856.sgerhryjyj.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "53c3289b-efde-4185-92ce-4ebe486aa534",
+      "uuid": "0d28c40e-441d-406e-b9c4-6bb751419f69",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1573,14 +2268,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-fancy-dawn-95ce.delelac408.workers.dev",
+        "server_name": "orange-disk-5856.sgerhryjyj.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1588,7 +2282,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-fancy-dawn-95ce.delelac408.workers.dev"
+          "Host": "orange-disk-5856.sgerhryjyj.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1596,10 +2290,10 @@
     },
     {
       "type": "vless",
-      "tag": "51.TLS_renesok574.pages.dev",
-      "server": "b2n.ir",
+      "tag": "78.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "355c9233-97c5-4456-95f0-9eaf1bdab3ab",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1609,14 +2303,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "renesok574.pages.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1624,7 +2317,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "renesok574.pages.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1632,10 +2325,10 @@
     },
     {
       "type": "vless",
-      "tag": "52.TLS_mitid53210.pages.dev",
-      "server": "b2n.ir",
+      "tag": "79.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "ae76663f-012b-4279-a640-f189bc2c7652",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1645,14 +2338,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "mitid53210.pages.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1660,7 +2352,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "mitid53210.pages.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1668,10 +2360,10 @@
     },
     {
       "type": "vless",
-      "tag": "53.TLS_nigiv19673.pages.dev",
+      "tag": "80.TLS.purple-term-e1bd.mocica6884.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "bd34082f-cbff-4904-bc98-2c9c412e36f0",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1681,14 +2373,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "nigiv19673.pages.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1696,7 +2387,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "nigiv19673.pages.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1704,10 +2395,10 @@
     },
     {
       "type": "vless",
-      "tag": "54.TLS_heheh.doxivi75166473.workers.dev",
-      "server": "b2n.ir",
+      "tag": "81.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "9d8e7ed4-a88a-40da-a143-aae4cbb7a6a3",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1717,14 +2408,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "heheh.doxivi75166473.workers.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1732,7 +2422,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "heheh.doxivi75166473.workers.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1740,10 +2430,10 @@
     },
     {
       "type": "vless",
-      "tag": "55.TLS_hello-world-purple.vivecil650202.workers.dev",
-      "server": "b2n.ir",
+      "tag": "82.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "676972be-d068-41f0-a296-2ee1c326bed5",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1753,14 +2443,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-purple.vivecil650202.workers.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1768,7 +2457,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-purple.vivecil650202.workers.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1776,10 +2465,10 @@
     },
     {
       "type": "vless",
-      "tag": "56.TLS_worker-cold-hat-ac26.vosira42314853.workers.dev",
-      "server": "b2n.ir",
+      "tag": "83.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "58940e19-7510-4660-9555-359bad737de2",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1789,14 +2478,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-cold-hat-ac26.vosira42314853.workers.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1804,7 +2492,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-cold-hat-ac26.vosira42314853.workers.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1812,10 +2500,10 @@
     },
     {
       "type": "vless",
-      "tag": "57.TLS_potiv98445.pages.dev",
-      "server": "b2n.ir",
+      "tag": "84.TLS.purple-term-e1bd.mocica6884.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "6d1c2fa2-09dc-43e4-b4fa-7cd67b09e400",
+      "uuid": "dbabfcfc-ca10-41eb-928c-e3e8170b7e30",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1825,14 +2513,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "potiv98445.pages.dev",
+        "server_name": "purple-term-e1bd.mocica6884.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1840,7 +2527,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "potiv98445.pages.dev"
+          "Host": "purple-term-e1bd.mocica6884.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1848,10 +2535,10 @@
     },
     {
       "type": "vless",
-      "tag": "58.TLS_pahose8240.pages.dev",
-      "server": "b2n.ir",
+      "tag": "85.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "10a66660-da1f-42a2-b5b1-7ac2be2c09b3",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1861,14 +2548,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "pahose8240.pages.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1876,7 +2562,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "pahose8240.pages.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1884,10 +2570,10 @@
     },
     {
       "type": "vless",
-      "tag": "59.TLS_worker-calm-snow-a135.jivep17561.workers.dev",
-      "server": "b2n.ir",
+      "tag": "86.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "fb5b5db7-3384-4ee8-b103-90158a50847b",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1897,14 +2583,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-calm-snow-a135.jivep17561.workers.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1912,7 +2597,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-calm-snow-a135.jivep17561.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1920,10 +2605,10 @@
     },
     {
       "type": "vless",
-      "tag": "60.TLS_hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
-      "server": "b2n.ir",
+      "tag": "87.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "ed35c3b2-3824-425f-a81b-eea3aee07b59",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1933,14 +2618,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-icy-firefly-047e.kagigal9105857.workers.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1948,7 +2632,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-icy-firefly-047e.kagigal9105857.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1956,10 +2640,10 @@
     },
     {
       "type": "vless",
-      "tag": "61.TLS_worker-rapid-wood-2a3.voxigi99841388.workers.dev",
-      "server": "b2n.ir",
+      "tag": "88.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "88c6ed22-4ae2-46fd-965f-b72d7bcdf449",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -1969,14 +2653,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-rapid-wood-2a3.voxigi99841388.workers.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -1984,7 +2667,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-rapid-wood-2a3.voxigi99841388.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1992,10 +2675,10 @@
     },
     {
       "type": "vless",
-      "tag": "62.TLS_hello-world-summer.ciyapo89104656.workers.dev",
+      "tag": "89.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "9ace2ba2-a445-4529-b5d9-a33e520e43c0",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2005,14 +2688,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-summer.ciyapo89104656.workers.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2020,7 +2702,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-summer.ciyapo89104656.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2028,10 +2710,10 @@
     },
     {
       "type": "vless",
-      "tag": "63.TLS_worker-sweet-grass-c13d.jameb91780.workers.dev",
-      "server": "b2n.ir",
+      "tag": "90.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "6ce42949-4d5d-4e49-84e1-6d9052d711a3",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2041,14 +2723,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-sweet-grass-c13d.jameb91780.workers.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2056,7 +2737,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-sweet-grass-c13d.jameb91780.workers.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2064,10 +2745,10 @@
     },
     {
       "type": "vless",
-      "tag": "64.TLS_gicih84774.pages.dev",
-      "server": "b2n.ir",
+      "tag": "91.TLS.plain-voice-bf26.jhlfdgrvsc.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "b13fc331-e74f-4c19-a965-6ec57e63defa",
+      "uuid": "7e95f665-4e74-4031-943d-76788786a100",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2077,14 +2758,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "gicih84774.pages.dev",
+        "server_name": "plain-voice-bf26.jhlfdgrvsc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2092,7 +2772,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "gicih84774.pages.dev"
+          "Host": "plain-voice-bf26.jhlfdgrvsc.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2100,10 +2780,10 @@
     },
     {
       "type": "vless",
-      "tag": "65.TLS_worker-autumn-limit-cda8.wonoke5503.workers.dev",
-      "server": "b2n.ir",
+      "tag": "92.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "babc91b1-5783-4911-98ce-7174219cb53e",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2113,14 +2793,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-autumn-limit-cda8.wonoke5503.workers.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2128,7 +2807,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-autumn-limit-cda8.wonoke5503.workers.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2136,10 +2815,10 @@
     },
     {
       "type": "vless",
-      "tag": "66.TLS_hejaw18456.pages.dev",
+      "tag": "93.TLS.falling-thunder-9805.cidayo573832.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "740ac28a-e1bd-4409-8016-52dcfb9cad3c",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2149,14 +2828,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hejaw18456.pages.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2164,7 +2842,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hejaw18456.pages.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2172,10 +2850,10 @@
     },
     {
       "type": "vless",
-      "tag": "67.TLS_worker-white-violet-4932.conos72495.workers.dev",
-      "server": "b2n.ir",
+      "tag": "94.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "0f9190e0-3b43-4034-9f10-0d1459d7d4da",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2185,14 +2863,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-white-violet-4932.conos72495.workers.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2200,7 +2877,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-white-violet-4932.conos72495.workers.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2208,10 +2885,10 @@
     },
     {
       "type": "vless",
-      "tag": "68.TLS_pojihe2933.pages.dev",
-      "server": "b2n.ir",
+      "tag": "95.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "df1055ff-576f-4f47-a57e-4a1270b230f3",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2221,14 +2898,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "pojihe2933.pages.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2236,7 +2912,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "pojihe2933.pages.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2244,10 +2920,10 @@
     },
     {
       "type": "vless",
-      "tag": "69.TLS_hello-world-wispy.rewah709861910.workers.dev",
-      "server": "b2n.ir",
+      "tag": "96.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "c31e4148-cb69-44a4-a4bb-f88a78396efd",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2257,14 +2933,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-wispy.rewah709861910.workers.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2272,7 +2947,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-wispy.rewah709861910.workers.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2280,10 +2955,10 @@
     },
     {
       "type": "vless",
-      "tag": "70.TLS_diyovo3977.pages.dev",
-      "server": "b2n.ir",
+      "tag": "97.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "e9bce215-25ad-4566-8d2b-a69dcc60406b",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2293,14 +2968,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "diyovo3977.pages.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2308,7 +2982,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "diyovo3977.pages.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2316,10 +2990,10 @@
     },
     {
       "type": "vless",
-      "tag": "71.TLS_jotic55393.pages.dev",
-      "server": "b2n.ir",
+      "tag": "98.TLS.falling-thunder-9805.cidayo573832.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "f6751daa-8c21-4d3e-bf50-80743c467ca7",
+      "uuid": "4af584c7-9f91-46f6-8685-60e8635fb49f",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2329,14 +3003,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "jotic55393.pages.dev",
+        "server_name": "falling-thunder-9805.cidayo573832.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2344,7 +3017,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "jotic55393.pages.dev"
+          "Host": "falling-thunder-9805.cidayo573832.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2352,10 +3025,10 @@
     },
     {
       "type": "vless",
-      "tag": "72.TLS_wenise9964.pages.dev",
-      "server": "b2n.ir",
+      "tag": "99.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "3f89040c-8dec-4e48-9cd7-268fd1cf0f63",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2365,14 +3038,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "wenise9964.pages.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2380,7 +3052,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "wenise9964.pages.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2388,10 +3060,10 @@
     },
     {
       "type": "vless",
-      "tag": "73.TLS_balitac173.pages.dev",
-      "server": "b2n.ir",
+      "tag": "100.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "b0f8c04d-8102-42a9-bf37-21863d80f9bf",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2401,14 +3073,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "balitac173.pages.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2416,7 +3087,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "balitac173.pages.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2424,10 +3095,10 @@
     },
     {
       "type": "vless",
-      "tag": "74.TLS_worker-patient-poetry-2664.xaviyi79713307.workers.dev",
-      "server": "b2n.ir",
+      "tag": "101.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "dec47465-17aa-4f00-823e-e407d5329b7f",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2437,14 +3108,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-patient-poetry-2664.xaviyi79713307.workers.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2452,7 +3122,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-patient-poetry-2664.xaviyi79713307.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2460,10 +3130,10 @@
     },
     {
       "type": "vless",
-      "tag": "75.TLS_worker-green-lab-ec7d.kifol7170846.workers.dev",
+      "tag": "102.TLS.misty-glitter-236a.hemecap538.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "c7a832e5-68fa-459d-8419-db849695f84e",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2473,14 +3143,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-green-lab-ec7d.kifol7170846.workers.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2488,7 +3157,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-green-lab-ec7d.kifol7170846.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2496,10 +3165,10 @@
     },
     {
       "type": "vless",
-      "tag": "76.TLS_worker-broken-limit-3fdd.ritexo49405047.workers.dev",
-      "server": "b2n.ir",
+      "tag": "103.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "7a9e4417-f2f8-45de-80dc-db0fbdc64052",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2509,14 +3178,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-broken-limit-3fdd.ritexo49405047.workers.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2524,7 +3192,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-broken-limit-3fdd.ritexo49405047.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2532,10 +3200,10 @@
     },
     {
       "type": "vless",
-      "tag": "77.TLS_worker-still-bread-58a5.wopase7569.workers.dev",
-      "server": "b2n.ir",
+      "tag": "104.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "1892dd81-2753-47e0-82f0-df4d75a0723c",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2545,14 +3213,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-still-bread-58a5.wopase7569.workers.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2560,7 +3227,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-still-bread-58a5.wopase7569.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2568,10 +3235,10 @@
     },
     {
       "type": "vless",
-      "tag": "78.TLS_worker-wandering-breeze-558f.libit96375.workers.dev",
-      "server": "b2n.ir",
+      "tag": "105.TLS.misty-glitter-236a.hemecap538.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "6b7b95fa-573e-47ca-abf8-d19afcc9eee7",
+      "uuid": "0046b305-34da-45b9-9ac7-21ccec70e186",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2581,14 +3248,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-wandering-breeze-558f.libit96375.workers.dev",
+        "server_name": "misty-glitter-236a.hemecap538.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2596,7 +3262,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-wandering-breeze-558f.libit96375.workers.dev"
+          "Host": "misty-glitter-236a.hemecap538.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2604,10 +3270,10 @@
     },
     {
       "type": "vless",
-      "tag": "79.TLS_worker-aged-firefly-f12f.jisirof4606348.workers.dev",
-      "server": "b2n.ir",
+      "tag": "106.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "a5e2f39f-333c-4b13-bcbf-1d0e1ea83680",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2617,14 +3283,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-aged-firefly-f12f.jisirof4606348.workers.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2632,7 +3297,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-aged-firefly-f12f.jisirof4606348.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2640,10 +3305,10 @@
     },
     {
       "type": "vless",
-      "tag": "80.TLS_pomot26332.pages.dev",
+      "tag": "107.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "3ba3bc59-4d7f-4136-b9af-3f22af869f10",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2653,14 +3318,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "pomot26332.pages.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2668,7 +3332,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "pomot26332.pages.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2676,10 +3340,10 @@
     },
     {
       "type": "vless",
-      "tag": "81.TLS_worker-sweet-sky-65fa.xawoc843846295.workers.dev",
-      "server": "b2n.ir",
+      "tag": "108.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "cbaf244e-eaaf-4747-ba7e-2a90f9454835",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2689,14 +3353,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-sweet-sky-65fa.xawoc843846295.workers.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2704,7 +3367,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-sweet-sky-65fa.xawoc843846295.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2712,10 +3375,10 @@
     },
     {
       "type": "vless",
-      "tag": "82.TLS_worker-jolly-wind-9900.loyeg208429244.workers.dev",
-      "server": "b2n.ir",
+      "tag": "109.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "40f89f30-89f3-4848-9e32-c16d8adfcd43",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2725,14 +3388,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-jolly-wind-9900.loyeg208429244.workers.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2740,7 +3402,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-jolly-wind-9900.loyeg208429244.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2748,10 +3410,10 @@
     },
     {
       "type": "vless",
-      "tag": "83.TLS_worker-square-credit-266.voregi30768721.workers.dev",
-      "server": "b2n.ir",
+      "tag": "110.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "e7c89a9a-7295-436e-b8f1-2d26f0115ddb",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2761,14 +3423,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-square-credit-266.voregi30768721.workers.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2776,7 +3437,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-square-credit-266.voregi30768721.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2784,10 +3445,10 @@
     },
     {
       "type": "vless",
-      "tag": "84.TLS_hokibog915.pages.dev",
-      "server": "b2n.ir",
+      "tag": "111.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "e960d2c8-e1b0-4c7d-b8d5-21f4cfaf61c9",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2797,14 +3458,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hokibog915.pages.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2812,7 +3472,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hokibog915.pages.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2820,10 +3480,10 @@
     },
     {
       "type": "vless",
-      "tag": "85.TLS_worker-polished-thunder-b76.vabex76694.workers.dev",
-      "server": "b2n.ir",
+      "tag": "112.TLS.twilight-bush-bfe8.fotatoc62553.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "f3f4f193-64ad-4cb5-801f-cc18e112504e",
+      "uuid": "b669017e-bd8a-4704-97b0-ec420fd053d8",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2833,14 +3493,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-polished-thunder-b76.vabex76694.workers.dev",
+        "server_name": "twilight-bush-bfe8.fotatoc62553.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2848,7 +3507,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-polished-thunder-b76.vabex76694.workers.dev"
+          "Host": "twilight-bush-bfe8.fotatoc62553.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2856,10 +3515,10 @@
     },
     {
       "type": "vless",
-      "tag": "86.TLS_vodoyo1710.pages.dev",
-      "server": "b2n.ir",
+      "tag": "113.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "dcfed073-0f34-487f-b05f-44117478c4a1",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2869,14 +3528,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "vodoyo1710.pages.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2884,7 +3542,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "vodoyo1710.pages.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2892,10 +3550,10 @@
     },
     {
       "type": "vless",
-      "tag": "87.TLS_worker-mute-sky-6cdc.renesok5743819.workers.dev",
-      "server": "b2n.ir",
+      "tag": "114.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "ece65da6-ecef-4193-92e5-856559bb8d39",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2905,14 +3563,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-mute-sky-6cdc.renesok5743819.workers.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2920,7 +3577,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-mute-sky-6cdc.renesok5743819.workers.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2928,10 +3585,10 @@
     },
     {
       "type": "vless",
-      "tag": "88.TLS_worker-lively-dawn-7758.kepete84026434.workers.dev",
-      "server": "b2n.ir",
+      "tag": "115.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "32c0c23a-e61c-4862-ad0e-358b09efb29c",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2941,14 +3598,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-lively-dawn-7758.kepete84026434.workers.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2956,7 +3612,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-lively-dawn-7758.kepete84026434.workers.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2964,10 +3620,10 @@
     },
     {
       "type": "vless",
-      "tag": "89.TLS_hello-world-restless3.lelibe23561755.workers.dev",
+      "tag": "116.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "42adae60-e75c-4974-babf-4ecb7683d3f4",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -2977,14 +3633,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-restless3.lelibe23561755.workers.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -2992,7 +3647,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-restless3.lelibe23561755.workers.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3000,10 +3655,10 @@
     },
     {
       "type": "vless",
-      "tag": "90.TLS_wonoke5503.pages.dev",
-      "server": "b2n.ir",
+      "tag": "117.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "b1c8f5de-1b05-4a3e-a6c5-ef46c6c043f4",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3013,14 +3668,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "wonoke5503.pages.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3028,7 +3682,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "wonoke5503.pages.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3036,10 +3690,10 @@
     },
     {
       "type": "vless",
-      "tag": "91.TLS_mowirix651.pages.dev",
-      "server": "b2n.ir",
+      "tag": "118.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "587eca68-17d5-4ce8-954d-1944e475ffb7",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3049,14 +3703,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "mowirix651.pages.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3064,7 +3717,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "mowirix651.pages.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3072,10 +3725,10 @@
     },
     {
       "type": "vless",
-      "tag": "92.TLS_lokocad452.pages.dev",
-      "server": "b2n.ir",
+      "tag": "119.TLS.sparkling-smoke-f623.bomavaf5785.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "a76ea0d2-6eab-4a17-ab98-5952e9b60dd8",
+      "uuid": "457a474c-722f-4d64-9069-10feb9c51330",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3085,14 +3738,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "lokocad452.pages.dev",
+        "server_name": "sparkling-smoke-f623.bomavaf5785.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3100,7 +3752,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "lokocad452.pages.dev"
+          "Host": "sparkling-smoke-f623.bomavaf5785.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3108,10 +3760,10 @@
     },
     {
       "type": "vless",
-      "tag": "93.TLS_worker-royal-mode-7f2.xexer3509625.workers.dev",
-      "server": "b2n.ir",
+      "tag": "120.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "d7d590a8-783f-448a-9d42-fe3513d4d248",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3121,14 +3773,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-royal-mode-7f2.xexer3509625.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3136,7 +3787,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-royal-mode-7f2.xexer3509625.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3144,10 +3795,10 @@
     },
     {
       "type": "vless",
-      "tag": "94.TLS_worker-ancient-credit-e712.cakaxis510.workers.dev",
-      "server": "b2n.ir",
+      "tag": "121.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "05df98ba-7566-4418-99bf-12dafed17871",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3157,14 +3808,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-ancient-credit-e712.cakaxis510.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3172,7 +3822,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-ancient-credit-e712.cakaxis510.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3180,10 +3830,10 @@
     },
     {
       "type": "vless",
-      "tag": "95.TLS_worker-shy-shadow-16be.lanihi8359.workers.dev",
+      "tag": "122.TLS.sweet-night-7b32.najefe48575.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "de6fc376-0303-4fce-b6ae-add6304706b8",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3193,14 +3843,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-shy-shadow-16be.lanihi8359.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3208,7 +3857,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-shy-shadow-16be.lanihi8359.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3216,10 +3865,10 @@
     },
     {
       "type": "vless",
-      "tag": "96.TLS_worker-floral-snow-8ad7.topah684115784.workers.dev",
-      "server": "b2n.ir",
+      "tag": "123.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "559a3313-a160-46c6-8064-bc56cdfae42c",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3229,14 +3878,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-floral-snow-8ad7.topah684115784.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3244,7 +3892,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-floral-snow-8ad7.topah684115784.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3252,10 +3900,10 @@
     },
     {
       "type": "vless",
-      "tag": "97.TLS_cakaxis510.pages.dev",
-      "server": "b2n.ir",
+      "tag": "124.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "4f05460c-4150-4c7f-9d78-8d54de371d56",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3265,14 +3913,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "cakaxis510.pages.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3280,7 +3927,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "cakaxis510.pages.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3288,10 +3935,10 @@
     },
     {
       "type": "vless",
-      "tag": "98.TLS_hello-world1.neroda58356546.workers.dev",
-      "server": "b2n.ir",
+      "tag": "125.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "f8644e01-da8e-464f-b11c-fbf94d731581",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3301,14 +3948,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world1.neroda58356546.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3316,7 +3962,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world1.neroda58356546.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3324,10 +3970,10 @@
     },
     {
       "type": "vless",
-      "tag": "99.TLS_hello-world-fancy.fodimet674395.workers.dev",
-      "server": "b2n.ir",
+      "tag": "126.TLS.sweet-night-7b32.najefe48575.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "1819783d-54f8-4fd8-93a1-76208b12ae6b",
+      "uuid": "b672ca85-4237-46b3-b42e-82a7e50c8776",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3337,14 +3983,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-fancy.fodimet674395.workers.dev",
+        "server_name": "sweet-night-7b32.najefe48575.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3352,7 +3997,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-fancy.fodimet674395.workers.dev"
+          "Host": "sweet-night-7b32.najefe48575.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3360,10 +4005,10 @@
     },
     {
       "type": "vless",
-      "tag": "100.TLS_worker-jolly-glitter-4026.behebo3543.workers.dev",
+      "tag": "127.TLS.wispy-flower-83f2.daleh43175.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "e2120410-485f-40be-8b65-9ef619a950bc",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3373,14 +4018,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-jolly-glitter-4026.behebo3543.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3388,7 +4032,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-jolly-glitter-4026.behebo3543.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3396,10 +4040,10 @@
     },
     {
       "type": "vless",
-      "tag": "101.TLS_hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
-      "server": "b2n.ir",
+      "tag": "128.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "eaab1f71-8482-49bb-9c5c-0694ca7ce0b1",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3409,14 +4053,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-cold-firefly-2f0.xawatit7388876.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3424,7 +4067,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-cold-firefly-2f0.xawatit7388876.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3432,10 +4075,10 @@
     },
     {
       "type": "vless",
-      "tag": "102.TLS_worker-royal-dream-abe4.nelemit482.workers.dev",
-      "server": "b2n.ir",
+      "tag": "129.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "702c1740-8d68-4a67-9de6-7e70b91ef255",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3445,14 +4088,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-royal-dream-abe4.nelemit482.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3460,7 +4102,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-royal-dream-abe4.nelemit482.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3468,10 +4110,10 @@
     },
     {
       "type": "vless",
-      "tag": "103.TLS_hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
-      "server": "b2n.ir",
+      "tag": "130.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "86852ac8-d00b-4f4e-80af-263cb5d8acc2",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3481,14 +4123,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-tiny-sky-185b.jowihe66665102.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3496,7 +4137,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-tiny-sky-185b.jowihe66665102.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3504,10 +4145,10 @@
     },
     {
       "type": "vless",
-      "tag": "104.TLS_worker-cold-base-8d04.xexer3509625.workers.dev",
-      "server": "b2n.ir",
+      "tag": "131.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "a7515847-f8ef-405a-92ff-3403651c1e9e",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3517,14 +4158,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-cold-base-8d04.xexer3509625.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3532,7 +4172,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-cold-base-8d04.xexer3509625.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3540,10 +4180,10 @@
     },
     {
       "type": "vless",
-      "tag": "105.TLS_flat-scene-697d.vebiyo9904.workers.dev",
-      "server": "b2n.ir",
+      "tag": "132.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "246df9ee-2bce-42f0-b1ec-f988c5a99550",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3553,14 +4193,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "flat-scene-697d.vebiyo9904.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3568,7 +4207,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "flat-scene-697d.vebiyo9904.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3576,10 +4215,10 @@
     },
     {
       "type": "vless",
-      "tag": "106.TLS_hello-world1.yofigey7761658.workers.dev",
-      "server": "b2n.ir",
+      "tag": "133.TLS.wispy-flower-83f2.daleh43175.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "3ff177f9-41d9-4459-9fe4-d0e26cd19205",
+      "uuid": "77c0873b-c1b1-4c93-bb95-f913daa655cc",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3589,14 +4228,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world1.yofigey7761658.workers.dev",
+        "server_name": "wispy-flower-83f2.daleh43175.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3604,7 +4242,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world1.yofigey7761658.workers.dev"
+          "Host": "wispy-flower-83f2.daleh43175.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3612,10 +4250,10 @@
     },
     {
       "type": "vless",
-      "tag": "107.TLS_worker-muddy-mud-80b0.yasad98332.workers.dev",
+      "tag": "134.TLS.misty-rain-9243.nojisoj4574.workers.dev",
       "server": "b2n.ir",
       "server_port": 8443,
-      "uuid": "7da2bcb6-4b8a-4bd9-8c5a-167c625a8fec",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3625,14 +4263,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-muddy-mud-80b0.yasad98332.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3640,7 +4277,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-muddy-mud-80b0.yasad98332.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3648,10 +4285,10 @@
     },
     {
       "type": "vless",
-      "tag": "108.TLS_worker-yellow-band-d54b.pomot263322431.workers.dev",
-      "server": "b2n.ir",
+      "tag": "135.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "172.67.135.149",
       "server_port": 8443,
-      "uuid": "449a0b78-4411-4bdf-b482-a717495e4869",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3661,14 +4298,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-yellow-band-d54b.pomot263322431.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3676,7 +4312,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-yellow-band-d54b.pomot263322431.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3684,10 +4320,10 @@
     },
     {
       "type": "vless",
-      "tag": "109.TLS_hello-world-aged-credit-ab62.kegag40987.workers.dev",
-      "server": "b2n.ir",
+      "tag": "136.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "www.zula.ir",
       "server_port": 8443,
-      "uuid": "da943b90-bb03-4b9d-ab97-f3cdc3817209",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3697,14 +4333,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "hello-world-aged-credit-ab62.kegag40987.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3712,7 +4347,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "hello-world-aged-credit-ab62.kegag40987.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3720,10 +4355,10 @@
     },
     {
       "type": "vless",
-      "tag": "110.TLS_nihenab866.pages.dev",
-      "server": "b2n.ir",
+      "tag": "137.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "162.159.130.234",
       "server_port": 8443,
-      "uuid": "9c897791-9c74-4c8a-97f7-a06ebcdba669",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3733,14 +4368,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "nihenab866.pages.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3748,7 +4382,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "nihenab866.pages.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3756,10 +4390,10 @@
     },
     {
       "type": "vless",
-      "tag": "111.TLS_worker-restless-hat-a207.horini5085.workers.dev",
-      "server": "b2n.ir",
+      "tag": "138.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "104.17.88.212",
       "server_port": 8443,
-      "uuid": "2abd9b82-8fdd-4f14-87a0-7f7c046a4d96",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3769,14 +4403,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-restless-hat-a207.horini5085.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3784,7 +4417,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-restless-hat-a207.horini5085.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3792,10 +4425,10 @@
     },
     {
       "type": "vless",
-      "tag": "112.TLS_worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
-      "server": "b2n.ir",
+      "tag": "139.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "188.114.97.3",
       "server_port": 8443,
-      "uuid": "a6f6b48f-8743-4d28-8137-2a5d96397ec8",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3805,14 +4438,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-muddy-smoke-8ab.xaxom25638790.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3820,7 +4452,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-muddy-smoke-8ab.xaxom25638790.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3828,10 +4460,10 @@
     },
     {
       "type": "vless",
-      "tag": "113.TLS_worker-damp-mud-2037.vepoki35667904.workers.dev",
-      "server": "b2n.ir",
+      "tag": "140.TLS.misty-rain-9243.nojisoj4574.workers.dev",
+      "server": "[2606:4700:3031::ac43:d550]",
       "server_port": 8443,
-      "uuid": "46fdc5e5-4e43-4500-8c44-ca4318a0cc87",
+      "uuid": "641eeafb-b1c3-43d5-80e8-6bf8c8a208e2",
       "flow": "",
       "packet_encoding": "xudp",
       "multiplex": {
@@ -3841,14 +4473,13 @@
       },
       "tls": {
         "enabled": true,
-        "server_name": "worker-damp-mud-2037.vepoki35667904.workers.dev",
+        "server_name": "misty-rain-9243.nojisoj4574.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
         },
         "alpn": [
-          "h2",
           "http/1.1"
         ]
       },
@@ -3856,7 +4487,7 @@
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "worker-damp-mud-2037.vepoki35667904.workers.dev"
+          "Host": "misty-rain-9243.nojisoj4574.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -3872,12 +4503,14 @@
         "tag": "geosite-ir",
         "type": "remote",
         "format": "binary",
+        "download_detour": "direct",
         "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs"
       },
       {
         "tag": "geoip-ir",
         "type": "remote",
         "format": "binary",
+        "download_detour": "direct",
         "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs"
       }
     ],
