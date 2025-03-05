@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "#0 WORKER6.TLS 2025-01-06",
+  "remarks": "#0 WORKER6.TLS 2025-03-05",
   "log": {
     "access": "",
     "error": "",
@@ -115,7 +115,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -168,7 +168,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -221,7 +221,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -274,7 +274,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -327,7 +327,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "b2n.ir",
             "port": 8443,
             "users": [
               {
@@ -380,7 +380,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "www.zula.ir",
             "port": 8443,
             "users": [
               {
@@ -433,7 +433,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -486,7 +486,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -645,7 +645,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
+            "address": "www.speedtest.net",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "82729eaa-5ba6-4c3f-88c8-8a8f28c5bbc0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "restless-leaf-82b6.laton16859.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "restless-leaf-82b6.laton16859.workers.dev",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy11_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -685,7 +738,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy11_frag0"
+      "tag": "proxy12_frag0"
     },
     {
       "mux": {
@@ -698,7 +751,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
+            "address": "172.67.170.72",
             "port": 8443,
             "users": [
               {
@@ -738,7 +791,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy12_frag0"
+      "tag": "proxy13_frag0"
     },
     {
       "mux": {
@@ -751,7 +804,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.1.91",
+            "address": "188.114.98.182",
             "port": 8443,
             "users": [
               {
@@ -791,7 +844,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_frag0"
+      "tag": "proxy14_frag0"
     },
     {
       "mux": {
@@ -804,7 +857,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "188.114.96.3",
             "port": 8443,
             "users": [
               {
@@ -844,7 +897,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_frag0"
+      "tag": "proxy15_frag0"
     },
     {
       "mux": {
@@ -857,7 +910,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.207",
             "port": 8443,
             "users": [
               {
@@ -897,7 +950,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy15_frag0"
+      "tag": "proxy16_frag0"
     },
     {
       "mux": {
@@ -910,7 +963,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.250.20",
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -950,7 +1003,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_frag0"
+      "tag": "proxy17_frag0"
     },
     {
       "mux": {
@@ -963,7 +1016,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.3",
+            "address": "160.153.0.179",
             "port": 8443,
             "users": [
               {
@@ -1003,7 +1056,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy17_frag0"
+      "tag": "proxy18_frag0"
     },
     {
       "mux": {
@@ -1056,7 +1109,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy18_frag0"
+      "tag": "proxy19_frag0"
     },
     {
       "mux": {
@@ -1069,7 +1122,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.147",
+            "address": "104.16.250.250",
             "port": 8443,
             "users": [
               {
@@ -1109,7 +1162,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy19_frag0"
+      "tag": "proxy20_frag0"
     },
     {
       "mux": {
@@ -1162,7 +1215,60 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy20_frag0"
+      "tag": "proxy21_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.10.128",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "82729eaa-5ba6-4c3f-88c8-8a8f28c5bbc0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "restless-leaf-82b6.laton16859.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "restless-leaf-82b6.laton16859.workers.dev",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy22_frag0"
     },
     {
       "tag": "fragment0",
@@ -1237,7 +1343,7 @@
 }
 ,
 {
-  "remarks": "#1 WORKER6.TLS 2025-01-06",
+  "remarks": "#1 WORKER6.TLS 2025-03-05",
   "log": {
     "access": "",
     "error": "",
@@ -1352,7 +1458,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -1405,7 +1511,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1458,7 +1564,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -1511,7 +1617,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1564,7 +1670,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "b2n.ir",
             "port": 8443,
             "users": [
               {
@@ -1617,7 +1723,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "www.zula.ir",
             "port": 8443,
             "users": [
               {
@@ -1670,7 +1776,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.zula.ir",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1723,7 +1829,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -1882,7 +1988,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
+            "address": "www.speedtest.net",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "82729eaa-5ba6-4c3f-88c8-8a8f28c5bbc0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "restless-leaf-82b6.laton16859.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "restless-leaf-82b6.laton16859.workers.dev",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy11_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -1922,7 +2081,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy11_frag1"
+      "tag": "proxy12_frag1"
     },
     {
       "mux": {
@@ -1935,7 +2094,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
+            "address": "172.67.170.72",
             "port": 8443,
             "users": [
               {
@@ -1975,7 +2134,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy12_frag1"
+      "tag": "proxy13_frag1"
     },
     {
       "mux": {
@@ -1988,7 +2147,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.1.91",
+            "address": "188.114.98.182",
             "port": 8443,
             "users": [
               {
@@ -2028,7 +2187,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_frag1"
+      "tag": "proxy14_frag1"
     },
     {
       "mux": {
@@ -2041,7 +2200,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "188.114.96.3",
             "port": 8443,
             "users": [
               {
@@ -2081,7 +2240,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_frag1"
+      "tag": "proxy15_frag1"
     },
     {
       "mux": {
@@ -2094,7 +2253,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.207",
             "port": 8443,
             "users": [
               {
@@ -2134,7 +2293,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy15_frag1"
+      "tag": "proxy16_frag1"
     },
     {
       "mux": {
@@ -2147,7 +2306,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.250.20",
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -2187,7 +2346,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_frag1"
+      "tag": "proxy17_frag1"
     },
     {
       "mux": {
@@ -2200,7 +2359,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.3",
+            "address": "160.153.0.179",
             "port": 8443,
             "users": [
               {
@@ -2240,7 +2399,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy17_frag1"
+      "tag": "proxy18_frag1"
     },
     {
       "mux": {
@@ -2293,7 +2452,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy18_frag1"
+      "tag": "proxy19_frag1"
     },
     {
       "mux": {
@@ -2306,7 +2465,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.147",
+            "address": "104.16.250.250",
             "port": 8443,
             "users": [
               {
@@ -2346,7 +2505,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy19_frag1"
+      "tag": "proxy20_frag1"
     },
     {
       "mux": {
@@ -2399,7 +2558,60 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy20_frag1"
+      "tag": "proxy21_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.18.10.128",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "82729eaa-5ba6-4c3f-88c8-8a8f28c5bbc0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "restless-leaf-82b6.laton16859.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "Host": "restless-leaf-82b6.laton16859.workers.dev",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy22_frag1"
     },
     {
       "tag": "fragment1",
