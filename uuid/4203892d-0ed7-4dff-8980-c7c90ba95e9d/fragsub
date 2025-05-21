@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "#0 WORKER1.WS 2025-03-13",
+  "remarks": "#0 WORKER1.TLS 2025-03-13",
   "log": {
     "access": "",
     "error": "",
@@ -116,7 +116,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -130,16 +130,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "wandering-fire-c597.toxev546455.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "wandering-fire-c597.toxev546455.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/eFOPD0nCZCPxbXL4?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -160,7 +169,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -174,16 +183,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "broken-glade-6ae5.tigowow25.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "broken-glade-6ae5.tigowow25.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SNYYLBvnknuVMLGT?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -204,7 +222,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -218,16 +236,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "dark-credit-85a1.hiyere5918.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "dark-credit-85a1.hiyere5918.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/m7o8lp402kH3l1O6?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -248,7 +275,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -262,16 +289,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "weathered-haze-bae3.hevoy51368.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "weathered-haze-bae3.hevoy51368.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SWlXGeB4kTMOfVVt?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -291,8 +327,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 8880,
+            "address": "tgju.org",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -306,16 +342,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "noisy-cherry-1425.hemip3555.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "noisy-cherry-1425.hemip3555.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ipB14drvHT4N0zwb?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -336,7 +381,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -350,16 +395,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "steep-thunder-3bc6.biwir20896.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "steep-thunder-3bc6.biwir20896.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/16hY80qhuJDN2gVn?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -380,7 +434,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -394,16 +448,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "bitter-bread-8a16.yoyey30778.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "bitter-bread-8a16.yoyey30778.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ojuBFWjgGns4RuOJ?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -424,7 +487,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -438,16 +501,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "frosty-lake-2f6b.xomoh98816.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "frosty-lake-2f6b.xomoh98816.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/PwFqgnR7qotxkp4b?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -467,8 +539,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 8880,
+            "address": "tgju.org",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -482,16 +554,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "lucky-lake-235c.jeyomi8188.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "lucky-lake-235c.jeyomi8188.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/3ahLU5GutcRYflJv?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -512,7 +593,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -526,16 +607,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "muddy-sun-e2ef.helef33553.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "muddy-sun-e2ef.helef33553.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/5UuwPQ0wl7w8Z1Nl?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -555,8 +645,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.250.250",
-            "port": 8880,
+            "address": "104.17.88.212",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -570,16 +660,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "wandering-fire-c597.toxev546455.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "wandering-fire-c597.toxev546455.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/eFOPD0nCZCPxbXL4?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -599,8 +698,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.1.91",
-            "port": 8880,
+            "address": "104.18.10.128",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -614,16 +713,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "broken-glade-6ae5.tigowow25.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "broken-glade-6ae5.tigowow25.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SNYYLBvnknuVMLGT?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -643,8 +751,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.133.234",
-            "port": 8880,
+            "address": "172.67.73.174",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -658,16 +766,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "dark-credit-85a1.hiyere5918.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "dark-credit-85a1.hiyere5918.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/m7o8lp402kH3l1O6?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -687,8 +804,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
-            "port": 8880,
+            "address": "172.67.170.72",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -702,16 +819,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "weathered-haze-bae3.hevoy51368.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "weathered-haze-bae3.hevoy51368.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SWlXGeB4kTMOfVVt?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -731,8 +857,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
-            "port": 8880,
+            "address": "104.16.0.147",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -746,16 +872,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "noisy-cherry-1425.hemip3555.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "noisy-cherry-1425.hemip3555.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ipB14drvHT4N0zwb?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -775,8 +910,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.135.149",
-            "port": 8880,
+            "address": "104.16.3.57",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -790,16 +925,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "steep-thunder-3bc6.biwir20896.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "steep-thunder-3bc6.biwir20896.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/16hY80qhuJDN2gVn?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -820,7 +964,7 @@
         "vnext": [
           {
             "address": "104.16.219.230",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -834,16 +978,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "bitter-bread-8a16.yoyey30778.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "bitter-bread-8a16.yoyey30778.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ojuBFWjgGns4RuOJ?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -863,8 +1016,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
-            "port": 8880,
+            "address": "104.19.250.20",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -878,16 +1031,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "frosty-lake-2f6b.xomoh98816.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "frosty-lake-2f6b.xomoh98816.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/PwFqgnR7qotxkp4b?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -907,8 +1069,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
-            "port": 8880,
+            "address": "188.114.97.207",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -922,16 +1084,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "lucky-lake-235c.jeyomi8188.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "lucky-lake-235c.jeyomi8188.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/3ahLU5GutcRYflJv?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -951,8 +1122,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.182",
-            "port": 8880,
+            "address": "172.67.170.72",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -966,16 +1137,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "muddy-sun-e2ef.helef33553.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "muddy-sun-e2ef.helef33553.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/5UuwPQ0wl7w8Z1Nl?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws0",
+          "dialerProxy": "fragment0",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -985,16 +1165,14 @@
       "tag": "proxy20_frag0"
     },
     {
-      "tag": "fragmentws0",
+      "tag": "fragment0",
       "protocol": "freedom",
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "fakehost",
-          "length": "10-20",
-          "interval": "10-20",
-          "host1_domain": "cloudflare.com",
-          "host2_domain": "cloudflare.com"
+          "packets": "tlshello",
+          "length": "5-10",
+          "interval": "0"
         }
       },
       "streamSettings": {
@@ -1059,7 +1237,7 @@
 }
 ,
 {
-  "remarks": "#1 WORKER1.WS 2025-03-13",
+  "remarks": "#1 WORKER1.TLS 2025-03-13",
   "log": {
     "access": "",
     "error": "",
@@ -1175,7 +1353,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1189,16 +1367,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "wandering-fire-c597.toxev546455.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "wandering-fire-c597.toxev546455.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/eFOPD0nCZCPxbXL4?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1219,7 +1406,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1233,16 +1420,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "broken-glade-6ae5.tigowow25.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "broken-glade-6ae5.tigowow25.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SNYYLBvnknuVMLGT?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1263,7 +1459,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1277,16 +1473,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "dark-credit-85a1.hiyere5918.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "dark-credit-85a1.hiyere5918.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/m7o8lp402kH3l1O6?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1307,7 +1512,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1321,16 +1526,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "weathered-haze-bae3.hevoy51368.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "weathered-haze-bae3.hevoy51368.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SWlXGeB4kTMOfVVt?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1350,8 +1564,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 8880,
+            "address": "tgju.org",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1365,16 +1579,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "noisy-cherry-1425.hemip3555.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "noisy-cherry-1425.hemip3555.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ipB14drvHT4N0zwb?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1395,7 +1618,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1409,16 +1632,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "steep-thunder-3bc6.biwir20896.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "steep-thunder-3bc6.biwir20896.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/16hY80qhuJDN2gVn?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1439,7 +1671,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1453,16 +1685,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "bitter-bread-8a16.yoyey30778.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "bitter-bread-8a16.yoyey30778.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ojuBFWjgGns4RuOJ?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1483,7 +1724,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1497,16 +1738,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "frosty-lake-2f6b.xomoh98816.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "frosty-lake-2f6b.xomoh98816.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/PwFqgnR7qotxkp4b?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1526,8 +1776,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
-            "port": 8880,
+            "address": "tgju.org",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1541,16 +1791,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "lucky-lake-235c.jeyomi8188.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "lucky-lake-235c.jeyomi8188.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/3ahLU5GutcRYflJv?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1571,7 +1830,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1585,16 +1844,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "muddy-sun-e2ef.helef33553.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "muddy-sun-e2ef.helef33553.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/5UuwPQ0wl7w8Z1Nl?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1614,8 +1882,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.250.250",
-            "port": 8880,
+            "address": "104.17.88.212",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1629,16 +1897,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "wandering-fire-c597.toxev546455.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "wandering-fire-c597.toxev546455.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/eFOPD0nCZCPxbXL4?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1658,8 +1935,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.1.91",
-            "port": 8880,
+            "address": "104.18.10.128",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1673,16 +1950,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "broken-glade-6ae5.tigowow25.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "broken-glade-6ae5.tigowow25.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SNYYLBvnknuVMLGT?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1702,8 +1988,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.133.234",
-            "port": 8880,
+            "address": "172.67.73.174",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1717,16 +2003,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "dark-credit-85a1.hiyere5918.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "dark-credit-85a1.hiyere5918.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/m7o8lp402kH3l1O6?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1746,8 +2041,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
-            "port": 8880,
+            "address": "172.67.170.72",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1761,16 +2056,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "weathered-haze-bae3.hevoy51368.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "weathered-haze-bae3.hevoy51368.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/SWlXGeB4kTMOfVVt?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1790,8 +2094,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.3",
-            "port": 8880,
+            "address": "104.16.0.147",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1805,16 +2109,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "noisy-cherry-1425.hemip3555.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "noisy-cherry-1425.hemip3555.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ipB14drvHT4N0zwb?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1834,8 +2147,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.135.149",
-            "port": 8880,
+            "address": "104.16.3.57",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1849,16 +2162,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "steep-thunder-3bc6.biwir20896.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "steep-thunder-3bc6.biwir20896.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/16hY80qhuJDN2gVn?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1879,7 +2201,7 @@
         "vnext": [
           {
             "address": "104.16.219.230",
-            "port": 8880,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1893,16 +2215,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "bitter-bread-8a16.yoyey30778.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "bitter-bread-8a16.yoyey30778.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/ojuBFWjgGns4RuOJ?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1922,8 +2253,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
-            "port": 8880,
+            "address": "104.19.250.20",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1937,16 +2268,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "frosty-lake-2f6b.xomoh98816.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "frosty-lake-2f6b.xomoh98816.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/PwFqgnR7qotxkp4b?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -1966,8 +2306,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
-            "port": 8880,
+            "address": "188.114.97.207",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1981,16 +2321,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "lucky-lake-235c.jeyomi8188.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "lucky-lake-235c.jeyomi8188.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/3ahLU5GutcRYflJv?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -2010,8 +2359,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.182",
-            "port": 8880,
+            "address": "172.67.170.72",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -2025,16 +2374,25 @@
       },
       "streamSettings": {
         "network": "ws",
-        "security": "",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "muddy-sun-e2ef.helef33553.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
         "wsSettings": {
           "headers": {
             "Host": "muddy-sun-e2ef.helef33553.workers.dev",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/5UuwPQ0wl7w8Z1Nl?ed=2560"
+          "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentws1",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
@@ -2044,16 +2402,14 @@
       "tag": "proxy20_frag1"
     },
     {
-      "tag": "fragmentws1",
+      "tag": "fragment1",
       "protocol": "freedom",
       "settings": {
         "domainStrategy": "AsIs",
         "fragment": {
-          "packets": "fakehost",
-          "length": "10-20",
-          "interval": "10-20",
-          "host1_domain": "b2n.ir",
-          "host2_domain": "b2n.ir"
+          "packets": "1-1",
+          "length": "1-3",
+          "interval": "0"
         }
       },
       "streamSettings": {
