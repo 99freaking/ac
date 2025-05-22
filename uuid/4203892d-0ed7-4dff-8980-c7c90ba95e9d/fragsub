@@ -1,6 +1,6 @@
 [
 {
-  "remarks": "#0 WORKER1.TLS 2025-05-21",
+  "remarks": "#0 WORKER1.TLS 2025-05-22",
   "log": {
     "access": "",
     "error": "",
@@ -96,7 +96,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -149,7 +149,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -202,7 +202,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -255,7 +255,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -414,7 +414,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -626,7 +626,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.3.135",
+            "address": "104.17.42.10",
             "port": 8443,
             "users": [
               {
@@ -679,7 +679,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.26.15.85",
             "port": 8443,
             "users": [
               {
@@ -732,7 +732,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
+            "address": "104.21.51.208",
             "port": 8443,
             "users": [
               {
@@ -785,7 +785,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.19.250.20",
             "port": 8443,
             "users": [
               {
@@ -838,7 +838,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "188.114.97.209",
             "port": 8443,
             "users": [
               {
@@ -891,7 +891,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.207",
             "port": 8443,
             "users": [
               {
@@ -944,7 +944,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.3.57",
+            "address": "104.16.219.230",
             "port": 8443,
             "users": [
               {
@@ -997,7 +997,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
@@ -1050,7 +1050,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.88.212",
+            "address": "104.24.3.174",
             "port": 8443,
             "users": [
               {
@@ -1103,7 +1103,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.16.219.230",
             "port": 8443,
             "users": [
               {
@@ -1225,7 +1225,7 @@
 }
 ,
 {
-  "remarks": "#1 WORKER1.TLS 2025-05-21",
+  "remarks": "#1 WORKER1.TLS 2025-05-22",
   "log": {
     "access": "",
     "error": "",
@@ -1321,7 +1321,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -1374,7 +1374,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1427,7 +1427,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1480,7 +1480,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1639,7 +1639,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1851,7 +1851,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.3.135",
+            "address": "104.17.42.10",
             "port": 8443,
             "users": [
               {
@@ -1904,7 +1904,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.26.15.85",
             "port": 8443,
             "users": [
               {
@@ -1957,7 +1957,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.130.234",
+            "address": "104.21.51.208",
             "port": 8443,
             "users": [
               {
@@ -2010,7 +2010,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.19.250.20",
             "port": 8443,
             "users": [
               {
@@ -2063,7 +2063,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "188.114.97.209",
             "port": 8443,
             "users": [
               {
@@ -2116,7 +2116,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.207",
             "port": 8443,
             "users": [
               {
@@ -2169,7 +2169,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.3.57",
+            "address": "104.16.219.230",
             "port": 8443,
             "users": [
               {
@@ -2222,7 +2222,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
@@ -2275,7 +2275,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.88.212",
+            "address": "104.24.3.174",
             "port": 8443,
             "users": [
               {
@@ -2328,7 +2328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.1.199",
+            "address": "104.16.219.230",
             "port": 8443,
             "users": [
               {
