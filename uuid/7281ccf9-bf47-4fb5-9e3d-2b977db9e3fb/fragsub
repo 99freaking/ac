@@ -96,13 +96,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f3228eca-df49-425b-bb3d-c594fc36fd82",
+                "id": "75a4e727-f6a7-4048-8601-e86beb196073",
                 "level": 8
               }
             ]
@@ -115,7 +115,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "floral-bird-58c3.bigig19251.workers.dev",
+          "serverName": "worker36.bigig19251.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -124,7 +124,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "floral-bird-58c3.bigig19251.workers.dev"
+            "Host": "worker36.bigig19251.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -149,13 +149,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7dbee52-9754-4dd5-b30e-897eb8d6df43",
+                "id": "1f25b207-2f43-4fbb-a5fb-c99c97d7ba50",
                 "level": 8
               }
             ]
@@ -168,7 +168,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "noisy-poetry-46e4.fonep7558.workers.dev",
+          "serverName": "worker6.fonep7558.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -177,7 +177,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "noisy-poetry-46e4.fonep7558.workers.dev"
+            "Host": "worker6.fonep7558.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -202,13 +202,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "35ba63bc-34e0-48d6-b50d-ce5b0e792509",
+                "id": "25f7c36f-1666-441f-ae32-6471b0565c90",
                 "level": 8
               }
             ]
@@ -221,7 +221,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "lively-bar-81ef.hadayem855.workers.dev",
+          "serverName": "worker0.hadayem855.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -230,7 +230,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "lively-bar-81ef.hadayem855.workers.dev"
+            "Host": "worker0.hadayem855.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -243,6 +243,59 @@
         }
       },
       "tag": "proxy3_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0add294a-813e-41dc-a14e-4aece4dae212",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "worker0668.kotetiy243.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "worker0668.kotetiy243.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy4_frag0"
     },
     {
       "mux": {
@@ -284,59 +337,6 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "old-silence-fbb4.hefil40378.workers.dev"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy4_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5455864f-9e3e-444a-ae02-e2ba60d0668e",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "tiny-disk-cdc5.kotetiy243.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "tiny-disk-cdc5.kotetiy243.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -467,7 +467,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -573,7 +573,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -626,13 +626,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.88.212",
+            "address": "172.67.73.174",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f3228eca-df49-425b-bb3d-c594fc36fd82",
+                "id": "75a4e727-f6a7-4048-8601-e86beb196073",
                 "level": 8
               }
             ]
@@ -645,7 +645,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "floral-bird-58c3.bigig19251.workers.dev",
+          "serverName": "worker36.bigig19251.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -654,7 +654,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "floral-bird-58c3.bigig19251.workers.dev"
+            "Host": "worker36.bigig19251.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -679,13 +679,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "172.67.73.174",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7dbee52-9754-4dd5-b30e-897eb8d6df43",
+                "id": "1f25b207-2f43-4fbb-a5fb-c99c97d7ba50",
                 "level": 8
               }
             ]
@@ -698,7 +698,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "noisy-poetry-46e4.fonep7558.workers.dev",
+          "serverName": "worker6.fonep7558.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -707,7 +707,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "noisy-poetry-46e4.fonep7558.workers.dev"
+            "Host": "worker6.fonep7558.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -732,13 +732,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.147",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "35ba63bc-34e0-48d6-b50d-ce5b0e792509",
+                "id": "25f7c36f-1666-441f-ae32-6471b0565c90",
                 "level": 8
               }
             ]
@@ -751,7 +751,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "lively-bar-81ef.hadayem855.workers.dev",
+          "serverName": "worker0.hadayem855.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -760,7 +760,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "lively-bar-81ef.hadayem855.workers.dev"
+            "Host": "worker0.hadayem855.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -785,7 +785,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.51.208",
+            "address": "104.16.219.230",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0add294a-813e-41dc-a14e-4aece4dae212",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "worker0668.kotetiy243.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "worker0668.kotetiy243.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy14_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -825,59 +878,6 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.133.234",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5455864f-9e3e-444a-ae02-e2ba60d0668e",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "tiny-disk-cdc5.kotetiy243.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "tiny-disk-cdc5.kotetiy243.workers.dev"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
       "tag": "proxy15_frag0"
     },
     {
@@ -891,7 +891,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.3.57",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
@@ -944,7 +944,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.209",
             "port": 8443,
             "users": [
               {
@@ -997,7 +997,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "104.16.250.250",
             "port": 8443,
             "users": [
               {
@@ -1050,7 +1050,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.170.72",
+            "address": "104.18.10.128",
             "port": 8443,
             "users": [
               {
@@ -1103,7 +1103,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.250.250",
+            "address": "104.16.1.199",
             "port": 8443,
             "users": [
               {
@@ -1321,13 +1321,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f3228eca-df49-425b-bb3d-c594fc36fd82",
+                "id": "75a4e727-f6a7-4048-8601-e86beb196073",
                 "level": 8
               }
             ]
@@ -1340,7 +1340,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "floral-bird-58c3.bigig19251.workers.dev",
+          "serverName": "worker36.bigig19251.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1349,7 +1349,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "floral-bird-58c3.bigig19251.workers.dev"
+            "Host": "worker36.bigig19251.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1374,13 +1374,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7dbee52-9754-4dd5-b30e-897eb8d6df43",
+                "id": "1f25b207-2f43-4fbb-a5fb-c99c97d7ba50",
                 "level": 8
               }
             ]
@@ -1393,7 +1393,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "noisy-poetry-46e4.fonep7558.workers.dev",
+          "serverName": "worker6.fonep7558.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1402,7 +1402,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "noisy-poetry-46e4.fonep7558.workers.dev"
+            "Host": "worker6.fonep7558.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1427,13 +1427,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "35ba63bc-34e0-48d6-b50d-ce5b0e792509",
+                "id": "25f7c36f-1666-441f-ae32-6471b0565c90",
                 "level": 8
               }
             ]
@@ -1446,7 +1446,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "lively-bar-81ef.hadayem855.workers.dev",
+          "serverName": "worker0.hadayem855.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1455,7 +1455,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "lively-bar-81ef.hadayem855.workers.dev"
+            "Host": "worker0.hadayem855.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1468,6 +1468,59 @@
         }
       },
       "tag": "proxy3_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.speedtest.net",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0add294a-813e-41dc-a14e-4aece4dae212",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "worker0668.kotetiy243.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "worker0668.kotetiy243.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy4_frag1"
     },
     {
       "mux": {
@@ -1509,59 +1562,6 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "old-silence-fbb4.hefil40378.workers.dev"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy4_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5455864f-9e3e-444a-ae02-e2ba60d0668e",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "tiny-disk-cdc5.kotetiy243.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "tiny-disk-cdc5.kotetiy243.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1692,7 +1692,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -1798,7 +1798,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -1851,13 +1851,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.88.212",
+            "address": "172.67.73.174",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "f3228eca-df49-425b-bb3d-c594fc36fd82",
+                "id": "75a4e727-f6a7-4048-8601-e86beb196073",
                 "level": 8
               }
             ]
@@ -1870,7 +1870,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "floral-bird-58c3.bigig19251.workers.dev",
+          "serverName": "worker36.bigig19251.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1879,7 +1879,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "floral-bird-58c3.bigig19251.workers.dev"
+            "Host": "worker36.bigig19251.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1904,13 +1904,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "172.67.73.174",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d7dbee52-9754-4dd5-b30e-897eb8d6df43",
+                "id": "1f25b207-2f43-4fbb-a5fb-c99c97d7ba50",
                 "level": 8
               }
             ]
@@ -1923,7 +1923,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "noisy-poetry-46e4.fonep7558.workers.dev",
+          "serverName": "worker6.fonep7558.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1932,7 +1932,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "noisy-poetry-46e4.fonep7558.workers.dev"
+            "Host": "worker6.fonep7558.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1957,13 +1957,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.147",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "35ba63bc-34e0-48d6-b50d-ce5b0e792509",
+                "id": "25f7c36f-1666-441f-ae32-6471b0565c90",
                 "level": 8
               }
             ]
@@ -1976,7 +1976,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "randomized",
-          "serverName": "lively-bar-81ef.hadayem855.workers.dev",
+          "serverName": "worker0.hadayem855.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1985,7 +1985,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "lively-bar-81ef.hadayem855.workers.dev"
+            "Host": "worker0.hadayem855.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2010,7 +2010,60 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.51.208",
+            "address": "104.16.219.230",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0add294a-813e-41dc-a14e-4aece4dae212",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "worker0668.kotetiy243.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "worker0668.kotetiy243.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy14_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.130.234",
             "port": 8443,
             "users": [
               {
@@ -2050,59 +2103,6 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.133.234",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5455864f-9e3e-444a-ae02-e2ba60d0668e",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "tiny-disk-cdc5.kotetiy243.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "tiny-disk-cdc5.kotetiy243.workers.dev"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
       "tag": "proxy15_frag1"
     },
     {
@@ -2116,7 +2116,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.3.57",
+            "address": "172.67.135.149",
             "port": 8443,
             "users": [
               {
@@ -2169,7 +2169,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.219.230",
+            "address": "188.114.97.209",
             "port": 8443,
             "users": [
               {
@@ -2222,7 +2222,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "104.16.250.250",
             "port": 8443,
             "users": [
               {
@@ -2275,7 +2275,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.170.72",
+            "address": "104.18.10.128",
             "port": 8443,
             "users": [
               {
@@ -2328,7 +2328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.250.250",
+            "address": "104.16.1.199",
             "port": 8443,
             "users": [
               {
