@@ -1,5 +1,5 @@
 {
-  "remarks": "MCI.CF 2025-05-17",
+  "remarks": "MCI.CF 2025-05-22",
   "log": {
     "access": "",
     "error": "",
@@ -17,7 +17,8 @@
     "servers": [
       "fakedns",
       "https://dns.google/dns-query"
-    ]
+    ],
+    "queryStrategy": "UseIP"
   },
   "fakedns": [
     {
@@ -35,26 +36,6 @@
       "port": 10808,
       "listen": "127.0.0.1",
       "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ]
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "allowTransparent": false
-      }
-    },
-    {
-      "tag": "http",
-      "port": 10809,
-      "listen": "127.0.0.1",
-      "protocol": "http",
       "sniffing": {
         "enabled": true,
         "destOverride": [
@@ -185,8 +166,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "TySpSgQg.rIcKtMoUsE.InFo",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "TySpSgQg.rIcKtMoUsE.InFo"
           },
           "path": "/"
         },
@@ -237,8 +218,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "de01.sh-cloudflare.sbs",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "de01.sh-cloudflare.sbs"
           },
           "path": "/"
         },
@@ -287,8 +268,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "e.exedu.ip-ddns.com",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "e.exedu.ip-ddns.com"
           },
           "path": "/?ed=2048"
         },
@@ -337,8 +318,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "bpb.64kb.cc",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "bpb.64kb.cc"
           },
           "path": "?ed=5108"
         },
@@ -387,8 +368,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "ipsycho.suex12.ir",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "ipsycho.suex12.ir"
           },
           "path": "/trre5IzbZ9IZZMddtw?ed=2560"
         },
@@ -433,8 +414,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "c2.validbv3528.eu.org",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "c2.validbv3528.eu.org"
           },
           "path": "/?ed=2560"
         },
@@ -483,8 +464,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "d5.medicaltreatment.ir",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "d5.medicaltreatment.ir"
           },
           "path": "%2F"
         },
@@ -529,8 +510,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "yaml7.ggff.net",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "yaml7.ggff.net"
           },
           "path": "/"
         },
@@ -583,8 +564,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "ipsycho.suex12.ir",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "ipsycho.suex12.ir"
           },
           "path": "/re5IzbZ9IZZMddtw?ed=2560"
         },
@@ -629,8 +610,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "zamim340.ggff.net",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "zamim340.ggff.net"
           },
           "path": "/tr?ed=2560"
         },
@@ -679,8 +660,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "d4.medicaldream.ir",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "d4.medicaldream.ir"
           },
           "path": "%2F"
         },
@@ -731,8 +712,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "xmivideo.cfd",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "xmivideo.cfd"
           },
           "path": "/linkws"
         },
@@ -781,8 +762,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "d1.medicaldream.ir",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "d1.medicaldream.ir"
           },
           "path": "%2F"
         },
@@ -831,8 +812,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "ex.sue.x10.mx",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "ex.sue.x10.mx"
           },
           "path": "/?ed=2560"
         },
@@ -884,8 +865,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "ScKzAhYz14.qUiCkOrA.OrG",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "ScKzAhYz14.qUiCkOrA.OrG"
           },
           "path": "/"
         },
@@ -937,8 +918,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "RwQfYqAh14.tRaViQo.oRg",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "RwQfYqAh14.tRaViQo.oRg"
           },
           "path": "/"
         },
@@ -989,8 +970,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "glweidf.sbs",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "glweidf.sbs"
           },
           "path": "/linkws"
         },
@@ -1039,8 +1020,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "cr77.hedieh.dpdns.org",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "cr77.hedieh.dpdns.org"
           },
           "path": "%2F"
         },
@@ -1091,8 +1072,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "de01.sh-cloudflare.sbs",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "de01.sh-cloudflare.sbs"
           },
           "path": "/"
         },
@@ -1141,8 +1122,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "LgUoZjGr14.hAmEcHiRuHaVaSt.cOm"
           },
           "path": "/"
         },
@@ -1194,8 +1175,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "GxVpOnLl12.pRiMeXaD.OrG",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "GxVpOnLl12.pRiMeXaD.OrG"
           },
           "path": "/"
         },
@@ -1246,8 +1227,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top"
           },
           "path": "/azumase.ren"
         },
@@ -1299,8 +1280,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "gpt.smatiz.info",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "gpt.smatiz.info"
           },
           "path": "salaam"
         },
@@ -1349,8 +1330,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "masaleini.mahsaamini.dpdns.org",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "masaleini.mahsaamini.dpdns.org"
           },
           "path": "%2F"
         },
@@ -1402,8 +1383,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "NuWoLcZn12.qUiCkOrA.OrG",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "NuWoLcZn12.qUiCkOrA.OrG"
           },
           "path": "/"
         },
@@ -1455,8 +1436,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "YqDaWy48R5.mAkEfOrLeSs.InFo",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "YqDaWy48R5.mAkEfOrLeSs.InFo"
           },
           "path": "/"
         },
@@ -1469,6 +1450,56 @@
         }
       },
       "tag": "proxy27_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "141.101.120.73",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8494f144-0512-4f94-8358-aac140b61ff4",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "httpupgrade",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "pnm.cartononlinemigmig.xyz",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "httpupgradeSettings": {
+          "host": "pnm.cartononlinemigmig.xyz",
+          "path": "/LpICfNpuXFhbLfADADBO"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy28_frag0"
     },
     {
       "mux": {
@@ -1507,8 +1538,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "irvideo.cfd",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "irvideo.cfd"
           },
           "path": "/linkws"
         },
@@ -1560,8 +1591,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "BuLoQjCx13.nExOpOiNt.oRg",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "BuLoQjCx13.nExOpOiNt.oRg"
           },
           "path": "/"
         },
@@ -1610,8 +1641,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "rakhsh.4972616e.xyz",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "rakhsh.4972616e.xyz"
           },
           "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443"
         },
@@ -1663,8 +1694,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "e6422f63-7b49-4b50-b862-9f38.2031.pp.ua",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "e6422f63-7b49-4b50-b862-9f38.2031.pp.ua"
           },
           "path": "/ok1UBnf7txQ8YJFJxz"
         },
@@ -1713,8 +1744,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "maxnetvipaP-us4.NetKh3.sItE",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "maxnetvipaP-us4.NetKh3.sItE"
           },
           "path": "/linkws?ed=2560"
         },
@@ -1766,8 +1797,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "CoKrChAs3.RoCkStOnEy.iNfO",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "CoKrChAs3.RoCkStOnEy.iNfO"
           },
           "path": "/"
         },
@@ -1815,8 +1846,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "8fg.191268.xyz",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "8fg.191268.xyz"
           },
           "path": "/tvowuLtlha3zxRV9PS"
         },
@@ -1867,8 +1898,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "uswuxian.pai50288.uk",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "uswuxian.pai50288.uk"
           },
           "path": "/"
         },
@@ -1920,8 +1951,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "10e.191268.xyz",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "10e.191268.xyz"
           },
           "path": "/uDLWPKXENxF2ulPWRIwOavJd"
         },
@@ -1972,8 +2003,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "mAxNEtVip-uSA-Vp4.nETKh3.sItE",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "mAxNEtVip-uSA-Vp4.nETKh3.sItE"
           },
           "path": "/linkws?ed=2560"
         },
@@ -2021,8 +2052,8 @@
         },
         "wsSettings": {
           "headers": {
-            "Host": "7bhui.191262.xyz",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "7bhui.191262.xyz"
           },
           "path": "/wGgR8FyAGgRCKSiyxgvJgLl"
         },
@@ -2119,6 +2150,13 @@
       {
         "ip": [
           "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
         ],
         "outboundTag": "direct",
         "type": "field"
