@@ -1225,56 +1225,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.221.222.153",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "3b2eb5e5-ec54-4db4-aece-297faf81d926",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "xuy.cyberkotakbas.ru",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "host": "x1.cyberkotakbas.ru",
-          "path": "/"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy24_frag0"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "104.21.3.219",
             "port": 8443,
             "users": [
@@ -1312,7 +1262,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy25_frag0"
+      "tag": "proxy24_frag0"
     },
     {
       "mux": {
@@ -1367,7 +1317,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy26_frag0"
+      "tag": "proxy25_frag0"
     },
     {
       "mux": {
@@ -1417,7 +1367,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy27_frag0"
+      "tag": "proxy26_frag0"
     },
     {
       "mux": {
@@ -1467,7 +1417,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy28_frag0"
+      "tag": "proxy27_frag0"
     },
     {
       "mux": {
@@ -1517,7 +1467,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy29_frag0"
+      "tag": "proxy28_frag0"
     },
     {
       "mux": {
@@ -1567,7 +1517,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy30_frag0"
+      "tag": "proxy29_frag0"
     },
     {
       "mux": {
@@ -1617,7 +1567,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy31_frag0"
+      "tag": "proxy30_frag0"
     },
     {
       "mux": {
@@ -1667,7 +1617,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy32_frag0"
+      "tag": "proxy31_frag0"
     },
     {
       "mux": {
@@ -1719,7 +1669,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy33_frag0"
+      "tag": "proxy32_frag0"
     },
     {
       "mux": {
@@ -1769,7 +1719,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy34_frag0"
+      "tag": "proxy33_frag0"
     },
     {
       "mux": {
@@ -1819,7 +1769,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy35_frag0"
+      "tag": "proxy34_frag0"
     },
     {
       "mux": {
@@ -1869,7 +1819,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy36_frag0"
+      "tag": "proxy35_frag0"
     },
     {
       "mux": {
@@ -1912,7 +1862,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy37_frag0"
+      "tag": "proxy36_frag0"
     },
     {
       "mux": {
@@ -1962,7 +1912,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy38_frag0"
+      "tag": "proxy37_frag0"
     },
     {
       "mux": {
@@ -2005,7 +1955,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy39_frag0"
+      "tag": "proxy38_frag0"
     },
     {
       "mux": {
@@ -2048,6 +1998,55 @@
             "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top"
           },
           "path": "/azumase.ren"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy39_frag0"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "172.67.138.187",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "3d4ad187-b554-4300-bf71-d26c71962504",
+            "port": 443
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "chrome",
+          "serverName": "FFfgtyy.7282728.XYZ",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "fffgtyy.7282728.xyz"
+          },
+          "path": "/WaHA3RC540rQ8PWqRcOEICAwmfH7"
         },
         "sockopt": {
           "dialerProxy": "fragment0",
