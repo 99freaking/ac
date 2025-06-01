@@ -1,5 +1,5 @@
 {
-  "remarks": "MCI.CF 2025-05-29",
+  "remarks": "MCI.CF 2025-06-01",
   "log": {
     "access": "",
     "error": "",
@@ -2099,6 +2099,15 @@
         ],
         "port": "53",
         "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "10.10.34.34",
+          "10.10.34.35",
+          "10.10.34.36"
+        ],
+        "outboundTag": "block",
         "type": "field"
       },
       {
