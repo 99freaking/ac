@@ -9,7 +9,6 @@
       "dns.cloudflare.com": "cloudflare.com"
     },
     "servers": [
-      "fakedns",
       {
         "address": "localhost",
         "domains": [
@@ -18,21 +17,12 @@
         ],
         "skipFallback": true
       },
-      "https://dns.cloudflare.com/dns-query"
+      "https://dns.cloudflare.com/dns-query",
+      "https+local://dns.digitalsize.net/dns-query"
     ],
     "queryStrategy": "UseIP",
     "tag": "dns-query"
   },
-  "fakedns": [
-    {
-      "ipPool": "198.20.0.0/15",
-      "poolSize": 512
-    },
-    {
-      "ipPool": "fc00::/64",
-      "poolSize": 512
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -41,11 +31,10 @@
       "protocol": "socks",
       "sniffing": {
         "enabled": true,
+        "routeOnly": true,
         "destOverride": [
           "http",
-          "tls",
-          "quic",
-          "fakedns"
+          "tls"
         ]
       },
       "settings": {
