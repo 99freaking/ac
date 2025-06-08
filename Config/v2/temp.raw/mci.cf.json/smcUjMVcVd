@@ -2,11 +2,18 @@
   "log": {
     "access": "",
     "error": "",
-    "loglevel": "warning"
+    "loglevel": "warning",
+    "dnsLog": false
   },
   "dns": {
     "hosts": {
-      "dns.cloudflare.com": "cloudflare.com"
+      "dns.cloudflare.com": "cloudflare.com",
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ]
     },
     "servers": [
       {
@@ -17,8 +24,9 @@
         ],
         "skipFallback": true
       },
-      "https://dns.cloudflare.com/dns-query",
-      "https+local://dns.digitalsize.net/dns-query"
+      "https://dns.google/dns-query",
+      "https+local://dns.digitalsize.net/dns-query",
+      "https://dns.cloudflare.com/dns-query"
     ],
     "queryStrategy": "UseIP",
     "tag": "dns-query"
@@ -2100,7 +2108,14 @@
         "type": "field"
       },
       {
-        "outboundTag": "fragment1",
+        "type": "field",
+        "domain": [
+          "domain:dns.cloudflare.com"
+        ],
+        "outboundTag": "fragment1"
+      },
+      {
+        "balancerTag": "all",
         "inboundTag": [
           "dns-query"
         ]
@@ -2161,5 +2176,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "MCI.CF 2025-06-07"
+  "remarks": "MCI.CF 2025-06-08"
 }
