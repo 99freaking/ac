@@ -30,7 +30,9 @@
       },
       {
         "address": "tls://8.8.8.8",
-        "tag": "dns-remote"
+        "tag": "dns-remote",
+        "address_resolver": "dns-direct",
+        "detour": "proxy"
       },
       {
         "address": "https://dns.digitalsize.net/dns-query",
@@ -72,8 +74,7 @@
       }
     ],
     "final": "dns-remote",
-    "reverse_mapping": true,
-    "strategy": "prefer_ipv4",
+    "strategy": "ipv4_only",
     "independent_cache": true
   },
   "inbounds": [
