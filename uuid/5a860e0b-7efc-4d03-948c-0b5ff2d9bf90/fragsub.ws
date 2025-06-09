@@ -99,7 +99,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8880,
             "users": [
               {
@@ -120,7 +120,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
-          "path": "/PEbUhFWxizv0UBaf?ed=2560"
+          "path": "/qQGN1l0pjDu2B5qa?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -164,7 +164,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
-          "path": "/l8BSH396XyRK0Rys?ed=2560"
+          "path": "/bKonS51rSrFr74GX?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -187,7 +187,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -208,7 +208,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
-          "path": "/U6W90G4IxVonO5Od?ed=2560"
+          "path": "/YuPzGXLPDYmNKvRt?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -231,7 +231,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -252,7 +252,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
-          "path": "/IJqSoCIyvYxnxOiP?ed=2560"
+          "path": "/7NxGJiGgyKxLXB5I?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -296,7 +296,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.kogefed644.workers.dev"
           },
-          "path": "/wKQ0tPs2SKDnBQ5S?ed=2560"
+          "path": "/u76XL5lJoTdK57Rk?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -340,7 +340,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.laxasix948.workers.dev"
           },
-          "path": "/piCjYb2fQAELcP8S?ed=2560"
+          "path": "/AHslKftCHReISQEg?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -363,7 +363,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8880,
             "users": [
               {
@@ -384,7 +384,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.tixid15058.workers.dev"
           },
-          "path": "/UWd0xRR3xhlMpv5P?ed=2560"
+          "path": "/hGisgS8Gg8gThmTj?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -407,7 +407,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -428,7 +428,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.bowixa2615.workers.dev"
           },
-          "path": "/QOMe6pQsALRfhf4a?ed=2560"
+          "path": "/McKRrC2ydUKbLuoz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -451,7 +451,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -472,7 +472,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gemoxax771.workers.dev"
           },
-          "path": "/neNNsb90TNnwaoDQ?ed=2560"
+          "path": "/VDLxABuu3RjSSD8g?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -495,7 +495,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -516,7 +516,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gogimi1942.workers.dev"
           },
-          "path": "/9DSPZ5ZROqu30rUs?ed=2560"
+          "path": "/sh8CL6LqTk8lP8Yq?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -539,7 +539,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "172.67.170.72",
             "port": 8880,
             "users": [
               {
@@ -560,7 +560,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
-          "path": "/PEbUhFWxizv0UBaf?ed=2560"
+          "path": "/qQGN1l0pjDu2B5qa?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -583,7 +583,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.63.78",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -604,7 +604,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
-          "path": "/l8BSH396XyRK0Rys?ed=2560"
+          "path": "/bKonS51rSrFr74GX?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -627,7 +627,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "104.19.250.20",
             "port": 8880,
             "users": [
               {
@@ -648,7 +648,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
-          "path": "/U6W90G4IxVonO5Od?ed=2560"
+          "path": "/YuPzGXLPDYmNKvRt?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -671,7 +671,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -692,7 +692,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
-          "path": "/IJqSoCIyvYxnxOiP?ed=2560"
+          "path": "/7NxGJiGgyKxLXB5I?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -736,7 +736,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.kogefed644.workers.dev"
           },
-          "path": "/wKQ0tPs2SKDnBQ5S?ed=2560"
+          "path": "/u76XL5lJoTdK57Rk?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -759,7 +759,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "104.17.88.212",
             "port": 8880,
             "users": [
               {
@@ -780,7 +780,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.laxasix948.workers.dev"
           },
-          "path": "/piCjYb2fQAELcP8S?ed=2560"
+          "path": "/AHslKftCHReISQEg?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -803,7 +803,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "172.67.73.174",
             "port": 8880,
             "users": [
               {
@@ -824,7 +824,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.tixid15058.workers.dev"
           },
-          "path": "/UWd0xRR3xhlMpv5P?ed=2560"
+          "path": "/hGisgS8Gg8gThmTj?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -847,7 +847,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.133.234",
+            "address": "172.67.73.174",
             "port": 8880,
             "users": [
               {
@@ -868,7 +868,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.bowixa2615.workers.dev"
           },
-          "path": "/QOMe6pQsALRfhf4a?ed=2560"
+          "path": "/McKRrC2ydUKbLuoz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -891,7 +891,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.250.20",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -912,7 +912,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gemoxax771.workers.dev"
           },
-          "path": "/neNNsb90TNnwaoDQ?ed=2560"
+          "path": "/VDLxABuu3RjSSD8g?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -935,7 +935,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.42.10",
+            "address": "104.17.88.212",
             "port": 8880,
             "users": [
               {
@@ -956,7 +956,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gogimi1942.workers.dev"
           },
-          "path": "/9DSPZ5ZROqu30rUs?ed=2560"
+          "path": "/sh8CL6LqTk8lP8Yq?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -1071,7 +1071,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER7.WS 2025-06-08"
+  "remarks": "#1 WORKER7.WS 2025-06-09"
 }
 ,
 {
@@ -1174,7 +1174,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8880,
             "users": [
               {
@@ -1195,7 +1195,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
-          "path": "/PEbUhFWxizv0UBaf?ed=2560"
+          "path": "/qQGN1l0pjDu2B5qa?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1239,7 +1239,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
-          "path": "/l8BSH396XyRK0Rys?ed=2560"
+          "path": "/bKonS51rSrFr74GX?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1262,7 +1262,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -1283,7 +1283,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
-          "path": "/U6W90G4IxVonO5Od?ed=2560"
+          "path": "/YuPzGXLPDYmNKvRt?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1306,7 +1306,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -1327,7 +1327,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
-          "path": "/IJqSoCIyvYxnxOiP?ed=2560"
+          "path": "/7NxGJiGgyKxLXB5I?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1371,7 +1371,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.kogefed644.workers.dev"
           },
-          "path": "/wKQ0tPs2SKDnBQ5S?ed=2560"
+          "path": "/u76XL5lJoTdK57Rk?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1415,7 +1415,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.laxasix948.workers.dev"
           },
-          "path": "/piCjYb2fQAELcP8S?ed=2560"
+          "path": "/AHslKftCHReISQEg?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1438,7 +1438,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8880,
             "users": [
               {
@@ -1459,7 +1459,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.tixid15058.workers.dev"
           },
-          "path": "/UWd0xRR3xhlMpv5P?ed=2560"
+          "path": "/hGisgS8Gg8gThmTj?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1482,7 +1482,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -1503,7 +1503,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.bowixa2615.workers.dev"
           },
-          "path": "/QOMe6pQsALRfhf4a?ed=2560"
+          "path": "/McKRrC2ydUKbLuoz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1526,7 +1526,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -1547,7 +1547,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gemoxax771.workers.dev"
           },
-          "path": "/neNNsb90TNnwaoDQ?ed=2560"
+          "path": "/VDLxABuu3RjSSD8g?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1570,7 +1570,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8880,
             "users": [
               {
@@ -1591,7 +1591,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gogimi1942.workers.dev"
           },
-          "path": "/9DSPZ5ZROqu30rUs?ed=2560"
+          "path": "/sh8CL6LqTk8lP8Yq?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1614,7 +1614,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "172.67.170.72",
             "port": 8880,
             "users": [
               {
@@ -1635,7 +1635,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
-          "path": "/PEbUhFWxizv0UBaf?ed=2560"
+          "path": "/qQGN1l0pjDu2B5qa?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1658,7 +1658,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.63.78",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -1679,7 +1679,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
-          "path": "/l8BSH396XyRK0Rys?ed=2560"
+          "path": "/bKonS51rSrFr74GX?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1702,7 +1702,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "104.19.250.20",
             "port": 8880,
             "users": [
               {
@@ -1723,7 +1723,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
-          "path": "/U6W90G4IxVonO5Od?ed=2560"
+          "path": "/YuPzGXLPDYmNKvRt?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1746,7 +1746,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.9.79",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -1767,7 +1767,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
-          "path": "/IJqSoCIyvYxnxOiP?ed=2560"
+          "path": "/7NxGJiGgyKxLXB5I?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1811,7 +1811,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.kogefed644.workers.dev"
           },
-          "path": "/wKQ0tPs2SKDnBQ5S?ed=2560"
+          "path": "/u76XL5lJoTdK57Rk?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1834,7 +1834,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "104.17.88.212",
             "port": 8880,
             "users": [
               {
@@ -1855,7 +1855,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.laxasix948.workers.dev"
           },
-          "path": "/piCjYb2fQAELcP8S?ed=2560"
+          "path": "/AHslKftCHReISQEg?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1878,7 +1878,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.10.128",
+            "address": "172.67.73.174",
             "port": 8880,
             "users": [
               {
@@ -1899,7 +1899,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.tixid15058.workers.dev"
           },
-          "path": "/UWd0xRR3xhlMpv5P?ed=2560"
+          "path": "/hGisgS8Gg8gThmTj?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1922,7 +1922,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.133.234",
+            "address": "172.67.73.174",
             "port": 8880,
             "users": [
               {
@@ -1943,7 +1943,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.bowixa2615.workers.dev"
           },
-          "path": "/QOMe6pQsALRfhf4a?ed=2560"
+          "path": "/McKRrC2ydUKbLuoz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -1966,7 +1966,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.250.20",
+            "address": "104.16.219.230",
             "port": 8880,
             "users": [
               {
@@ -1987,7 +1987,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gemoxax771.workers.dev"
           },
-          "path": "/neNNsb90TNnwaoDQ?ed=2560"
+          "path": "/VDLxABuu3RjSSD8g?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -2010,7 +2010,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.42.10",
+            "address": "104.17.88.212",
             "port": 8880,
             "users": [
               {
@@ -2031,7 +2031,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker1.gogimi1942.workers.dev"
           },
-          "path": "/9DSPZ5ZROqu30rUs?ed=2560"
+          "path": "/sh8CL6LqTk8lP8Yq?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws2",
@@ -2146,6 +2146,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#2 WORKER7.WS 2025-06-08"
+  "remarks": "#2 WORKER7.WS 2025-06-09"
 }
 ]
