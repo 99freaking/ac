@@ -2072,7 +2072,7 @@
       "tag": "fragment1",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
+        "domainStrategy": "UseIP",
         "fragment": {
           "packets": "tlshello",
           "length": "5-10",
@@ -2176,5 +2176,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "MCI.CF 2025-06-08"
+  "remarks": "MCI.CF 2025-06-10"
 }
