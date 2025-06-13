@@ -48,6 +48,13 @@
     ],
     "rules": [
       {
+        "domain": [
+          "tgju.org",
+          "www.speedtest.net"
+        ],
+        "server": "dns-local"
+      },
+      {
         "domain_suffix": [
           ".ir"
         ],
@@ -91,10 +98,10 @@
         "172.19.0.1/28",
         "fdfe:dcba:9876::1/126"
       ],
-      "mtu": 1500,
+      "mtu": 9000,
       "auto_route": true,
       "strict_route": true,
-      "stack": "system",
+      "stack": "mixed",
       "endpoint_independent_nat": true
     },
     {
@@ -718,7 +725,7 @@
         "300.🔒 (1269)"
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "30m",
+      "interval": "20m",
       "tolerance": 50
     },
     {

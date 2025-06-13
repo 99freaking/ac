@@ -20,7 +20,10 @@
         "address": "localhost",
         "domains": [
           "geosite:private",
-          "full:cloudflare.com"
+          "full:cloudflare.com",
+          "domain:.ir",
+          "full:www.speedtest.net",
+          "domain:tgju.org"
         ],
         "skipFallback": true
       },
@@ -101,13 +104,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.169",
-            "port": 2083,
+            "address": "5.10.245.68",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "8f320d6a-9953-4065-b61c-d62f89a6767f",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -115,20 +118,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "e.exedu.ip-ddns.com",
-          "show": false
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "e.exedu.ip-ddns.com"
-          },
-          "path": "/?ed=2048"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -151,13 +155,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.75.193",
+            "address": "154.206.12.140",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -165,20 +169,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "bpb.64kb.cc",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "bpb.64kb.cc"
-          },
-          "path": "?ed=5108"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -201,13 +206,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.180.66",
-            "port": 2083,
+            "address": "92.53.191.208",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1ccc1dd8-d8ed-4b69-b0c2-27f6282f9755",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -215,20 +220,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "vl.bujidao.cc",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "vl.bujidao.cc"
-          },
-          "path": "/?ed=2048"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -251,13 +257,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.142.12",
+            "address": "86.38.214.158",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "d6b8011a-c725-435a-9fec-bf6d3530392c",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -265,20 +271,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "vle.amclubsapp.dpdns.org",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "vle.amclubsapp.dpdns.org"
-          },
-          "path": "/?ed"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -297,34 +304,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.16.83.176",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "Ng35283528",
-            "port": 443
+            "address": "167.68.42.18",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "c2.validbv3528.eu.org",
-          "show": false
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "c2.validbv3528.eu.org"
-          },
-          "path": "/?ed=2560"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -343,34 +355,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.26.5.60",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "bpb-trojan",
-            "port": 443
+            "address": "104.129.167.253",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "zamim340.ggff.net",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "zamim340.ggff.net"
-          },
-          "path": "/tr?ed=2560"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -393,13 +410,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.153.156",
-            "port": 8443,
+            "address": "5.10.246.60",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -407,20 +424,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "ovhwuxian.pai50288.uk",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "ovhwuxian.pai50288.uk"
-          },
-          "path": "/57ba2ab1"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -443,13 +461,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.190.41",
+            "address": "88.216.66.30",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "102e5f34-1913-4dd3-a1f2-f831d891a490",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -457,20 +475,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "cr7.traneh.dpdns.org",
-          "show": false
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "cr7.traneh.dpdns.org"
-          },
-          "path": "/"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -489,38 +508,36 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "104.24.152.190",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f055d270-0e76-4a41-a53f-871bbb51b003",
-                "level": 8
-              }
-            ]
+            "address": "195.133.52.153",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
-          "serverName": "what.zhonghuoxing.top",
-          "show": false
+          "serverName": "ru2.asc-sam.ir",
+          "show": false,
+          "alpn": [
+            "h3",
+            "h2",
+            "http/1.1"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "what.zhonghuoxing.top"
-          },
-          "path": "/"
+        "xhttpSettings": {
+          "host": "nufillter.jtip.sbs.",
+          "path": "/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -543,13 +560,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.64.1",
-            "port": 443,
+            "address": "86.38.156.247",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "4971ac7d-376d-47b9-9b86-83a21adcedc4",
+                "id": "1a79d43f-b41c-496b-a241-dcbeefa81f0e",
                 "level": 8
               }
             ]
@@ -562,18 +579,15 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
-          "serverName": "Et3ch-007.Zed23.wEB1337.net",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
+          "serverName": "0926.qiang2000.link",
+          "show": false
         },
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "et3ch-007.zed23.web1337.net"
+            "Host": "0926.qiang2000.link"
           },
-          "path": "/wlbywy8cCxbWMJZI"
+          "path": "/Telegram@mtmvpn/?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -592,39 +606,34 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vless",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "66.225.252.198",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "401374e6-df77-41fb-f638-dad8184f175b",
-                "level": 8
-              }
-            ]
+            "address": "103.116.7.21",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6884d714-d3c4-4b49-aa20-767ea92837d6",
+            "port": 443
           }
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "pqh44v2.hiddendom.shop",
-          "show": false,
-          "alpn": [
-            "h2"
-          ]
+          "serverName": "icecream.955850.xyz",
+          "show": false
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "icecream.955850.xyz"
+          },
+          "path": "%2F"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -647,13 +656,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "104.19.196.57",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "96a1b724-68d2-4f4d-ab25-38ecd83577bc",
+                "id": "0dbad6ba-be87-46e1-ab90-30c53ef1878d",
                 "level": 8
               }
             ]
@@ -661,20 +670,20 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "xhttp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "Wv2NhB0hVh.SoLiJoNiTo.CoM",
-          "show": false
+          "fingerprint": "chrome",
+          "serverName": "drive.speegy.club",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "Wv2NhB0hVh.SoLiJoNiTo.CoM"
-          },
-          "path": "/"
+        "xhttpSettings": {
+          "host": "nufillter.jtip.sbs.",
+          "path": "/sreztjsterw4j"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -693,34 +702,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.21.22.11",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "trojan",
-            "port": 8443
+            "address": "92.53.188.36",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "random",
-          "serverName": "betashop.foz.rf.gd",
-          "show": false
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "betashop.foz.rf.gd"
-          },
-          "path": "/?ed=2560"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -739,22 +753,16 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vmess",
+      "protocol": "trojan",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "172.67.170.13",
-            "port": 443,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
+            "address": "185.16.110.113",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6884d714-d3c4-4b49-aa20-767ea92837d6",
+            "port": 443
           }
         ]
       },
@@ -764,15 +772,15 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "glweidf.sbs",
+          "serverName": "icecream.955850.xyz",
           "show": false
         },
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "glweidf.sbs"
+            "Host": "icecream.955850.xyz"
           },
-          "path": "/linkws"
+          "path": "/Telegram@V2ray_Alpha"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -795,13 +803,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.48.129",
+            "address": "154.92.9.26",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "0c27902d-c232-4044-ba68-b808c8ad8231",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -809,20 +817,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "vpn.6662221.xyz",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "vpn.6662221.xyz"
-          },
-          "path": "/?ed"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -841,40 +850,31 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.32.1",
-            "port": 2096,
+            "address": "135.148.152.101",
+            "port": 443,
             "users": [
               {
-                "alterId": 0,
-                "encryption": "",
+                "encryption": "none",
                 "flow": "",
-                "id": "b3928f8d-ea81-4d75-bcec-4016a072adff",
-                "level": 8,
-                "security": "auto"
+                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "de01.sh-cloudflare.sbs",
+          "serverName": "147135001195.sec22org.com",
           "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "de01.sh-cloudflare.sbs"
-          },
-          "path": "/"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -897,13 +897,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "198.41.209.70",
+            "address": "15.204.151.74",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "753fa8e8-a3e8-442e-abf7-875ed776eacb",
+                "id": "c4fa89d4-fcb9-48ba-adbc-665181cc817f",
                 "level": 8
               }
             ]
@@ -911,20 +911,13 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "is.oldcloud.online",
+          "serverName": "147135010072.sec21org.com",
           "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "is.oldcloud.online"
-          },
-          "path": "/"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -935,157 +928,6 @@
         }
       },
       "tag": "proxy17_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.26.2.186",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "401374e6-df77-41fb-f638-dad8184f175b",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "pqh23v2.hiddendom.shop",
-          "show": false,
-          "alpn": [
-            "h2"
-          ]
-        },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy18_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.156.225",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f40b19a1-5515-4c93-804c-334873d38449",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "autumn.norjson.top",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "autumn.norjson.top"
-          },
-          "path": "%2F"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy19_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.153.74",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "91eae8ca-4e28-4fb3-b732-05373d4403c2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "agstick.eu.org",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "agstick.eu.org"
-          },
-          "path": "/?ed"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy20_frag1"
     },
     {
       "mux": {
@@ -1118,7 +960,11 @@
           "allowInsecure": false,
           "fingerprint": "firefox",
           "serverName": "147135001195.sec22org.com",
-          "show": false
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1128,7 +974,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy21_frag1"
+      "tag": "proxy18_frag1"
     },
     {
       "mux": {
@@ -1141,56 +987,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.148.174.211",
+            "address": "135.148.74.153",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "0a44145f-59dc-4e5b-a233-677b97f5114c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "147135011033.sec21org.com",
-          "show": false
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy22_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "135.148.157.112",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "c4fa89d4-fcb9-48ba-adbc-665181cc817f",
+                "id": "54694a33-a8dc-47dd-bc38-acd3971e0055",
                 "level": 8
               }
             ]
@@ -1203,7 +1006,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "147135010072.sec21org.com",
+          "serverName": "147135004002.sec20org.com",
           "show": false
         },
         "sockopt": {
@@ -1214,7 +1017,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy23_frag1"
+      "tag": "proxy19_frag1"
     },
     {
       "mux": {
@@ -1227,157 +1030,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.1.12",
-            "port": 2083,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "d60fc3c5-9f07-4cdb-b81f-70af27936bdc",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "ex.sue.x10.mx",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "ex.sue.x10.mx"
-          },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy24_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.31.16.95",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "39a91eaf-a379-4fff-a9c8-1cb01442b76f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "ir.akcovufun.ir",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "ir.akcovufun.ir"
-          },
-          "path": "/"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy25_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "172.67.224.246",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "f4f67bdc-227c-4302-a478-28327583b79c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "2574.papala.filegear-sg.me",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "2574.papala.filegear-sg.me"
-          },
-          "path": "%2F"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy26_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.26.2.186",
+            "address": "104.129.165.101",
             "port": 443,
             "users": [
               {
@@ -1396,8 +1049,11 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "pqh31v7.hiddendom.shop",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
         "grpcSettings": {
           "authority": "",
@@ -1412,57 +1068,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy27_frag1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.16.95.143",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b5441b0d-2147-4898-8a6a-9b2c87f58382",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "bitget1.asdasd.click",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "bitget1.asdasd.click"
-          },
-          "path": "/?ed=2560security=tls"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy28_frag1"
+      "tag": "proxy20_frag1"
     },
     {
       "mux": {
@@ -1512,7 +1118,7 @@
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy29_frag1"
+      "tag": "proxy21_frag1"
     },
     {
       "mux": {
@@ -1525,16 +1131,420 @@
       "settings": {
         "vnext": [
           {
-            "address": "135.148.162.133",
+            "address": "5.182.85.92",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "54694a33-a8dc-47dd-bc38-acd3971e0055",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy22_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.129.166.207",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy23_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.53.191.80",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy24_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.53.189.161",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy25_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "77.75.199.71",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy26_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "92.60.74.149",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy27_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "103.133.1.171",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy28_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.10.245.70",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy29_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "209.209.48.19",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "faee6828-82e8-4716-934e-d9949caead07",
+            "port": 38032
           }
         ]
       },
@@ -1544,12 +1554,8 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "147135004002.sec20org.com",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
+          "serverName": "aliyun.com",
+          "show": false
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1568,34 +1574,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "104.21.61.73",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "yaml777",
-            "port": 443
+            "address": "62.72.166.15",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "yaml7.ggff.net",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "yaml7.ggff.net"
-          },
-          "path": "/"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1618,13 +1629,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.83.155",
+            "address": "www.speedtest.net",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "32561a76-b738-48b9-b3f2-37856346fbd8",
+                "id": "3058e698-61fd-4d12-95bc-f1fe4c071713",
                 "level": 8
               }
             ]
@@ -1636,21 +1647,19 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "mo.4056860.xyz",
+          "fingerprint": "randomized",
+          "serverName": "hOZori.iR",
           "show": false,
           "alpn": [
-            "h3",
-            "h2",
             "http/1.1"
           ]
         },
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "mo.4056860.xyz"
+            "Host": "hozori.ir"
           },
-          "path": "%2F"
+          "path": "/RklUHeautH5uvnSB/NTQuMTY5LjIyOS4xODg"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1669,40 +1678,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.21.69.38",
+            "address": "141.11.202.193",
             "port": 443,
             "users": [
               {
-                "alterId": 0,
-                "encryption": "",
+                "encryption": "none",
                 "flow": "",
-                "id": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
-                "level": 8,
-                "security": "auto"
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top"
-          },
-          "path": "/azumase.ren"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1725,13 +1733,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "2.56.178.47",
+            "address": "135.148.152.106",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "588f094b-431b-422c-b80b-007945037072",
+                "id": "ea286109-d20f-415e-849e-4af20ab04b65",
                 "level": 8
               }
             ]
@@ -1739,20 +1747,17 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "ru05.abvpn.ru",
-          "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "ru05.abvpn.ru"
-          },
-          "path": "/websocket"
+          "serverName": "147135001195.sec22org.com",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1775,13 +1780,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.246.175",
+            "address": "45.205.0.142",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "05fc66e3-c445-4ebd-9eea-ed7bc95b204b",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -1789,20 +1794,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "hfhahfahff.38xf.top",
-          "show": false
+          "serverName": "pqh36v4.hiddendom.shop",
+          "show": false,
+          "alpn": [
+            "h2"
+          ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "hfhahfahff.38xf.top"
-          },
-          "path": "%2F"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1821,37 +1827,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "172.67.216.240",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "70776bb4-d791-4cbd-9c9b-c76e937f9e60",
-            "port": 443
+            "address": "154.211.8.242",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "Xxs345rf.857856.xYZ",
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
           "show": false,
           "alpn": [
-            "http/1.1"
+            "h2"
           ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "xxs345rf.857856.xyz"
-          },
-          "path": "/71M8Ov1I5Gk9247fHC0XGZG6"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1870,40 +1878,31 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "icook.hk",
+            "address": "15.235.202.79",
             "port": 443,
             "users": [
               {
-                "alterId": 0,
-                "encryption": "",
+                "encryption": "none",
                 "flow": "",
-                "id": "2faaf996-d2b0-440d-8258-81f2b05dd0e4",
-                "level": 8,
-                "security": "auto"
+                "id": "34f69418-0d46-498e-a1a5-4d1e157ff3cc",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "tcp",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "nl1.tRojANVpN.xYZ",
+          "serverName": "fonts.googleapis.com",
           "show": false
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "glitch.nnuu.nyc.mn"
-          },
-          "path": "/vmess-argo?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1922,37 +1921,39 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
-        "servers": [
+        "vnext": [
           {
-            "address": "172.67.175.139",
-            "flow": "",
-            "level": 8,
-            "ota": false,
-            "password": "4a3ee276-f50f-46f6-ba4d-13571732ab70",
-            "port": 443
+            "address": "108.165.152.205",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
+                "level": 8
+              }
+            ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "X3W4.859886.XYz",
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
           "show": false,
           "alpn": [
-            "http/1.1"
+            "h2"
           ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "x3w4.859886.xyz"
-          },
-          "path": "/COp52Dbu3dvwvDWUxOqxq"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1975,13 +1976,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.219.196",
+            "address": "45.80.110.128",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "9e7caa3b-ca9c-40ba-9ea0-f0c992359239",
+                "id": "401374e6-df77-41fb-f638-dad8184f175b",
                 "level": 8
               }
             ]
@@ -1989,23 +1990,21 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
+        "network": "grpc",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "chrome",
-          "serverName": "4.852224.dpdns.org",
+          "fingerprint": "firefox",
+          "serverName": "pqh36v4.hiddendom.shop",
           "show": false,
           "alpn": [
-            "http/1.1"
+            "h2"
           ]
         },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "4.852224.dpdns.org"
-          },
-          "path": "/VHDGmboDYeMcCs9"
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -2028,7 +2027,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.11.203.139",
+            "address": "14.102.228.18",
             "port": 443,
             "users": [
               {
@@ -2047,7 +2046,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "pqh23v5.hiddendom.shop",
+          "serverName": "pqh36v4.hiddendom.shop",
           "show": false,
           "alpn": [
             "h2"
@@ -2176,5 +2175,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "MCI.CF 2025-06-10"
+  "remarks": "MCI.CF 2025-06-14"
 }
