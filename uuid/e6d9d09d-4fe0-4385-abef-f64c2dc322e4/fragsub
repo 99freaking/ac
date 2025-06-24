@@ -1395,7 +1395,7 @@
       },
       "streamSettings": {
         "sockopt": {
-          "dialerProxy": "iran_direct"
+          "dialerProxy": "iran-direct"
         }
       }
     },
