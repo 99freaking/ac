@@ -23,7 +23,8 @@
           "full:cloudflare.com",
           "domain:.ir",
           "full:www.speedtest.net",
-          "domain:tgju.org"
+          "domain:tgju.org",
+          "domain:b2n.ir"
         ],
         "skipFallback": true
       },
@@ -85,13 +86,7 @@
     },
     {
       "protocol": "dns",
-      "tag": "dns-out",
-      "settings": {
-        "nonIPQuery": "skip",
-        "network": "tcp",
-        "address": "1.1.1.1",
-        "port": 53
-      }
+      "tag": "dns-out"
     },
     {
       "mux": {
@@ -120,6 +115,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -133,13 +136,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy1_frag1"
@@ -171,6 +167,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -184,13 +188,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy2_frag1"
@@ -222,6 +219,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -235,13 +240,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy3_frag1"
@@ -273,6 +271,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -286,13 +292,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy4_frag1"
@@ -324,6 +323,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -337,13 +344,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy5_frag1"
@@ -375,6 +375,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -388,13 +396,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy6_frag1"
@@ -426,6 +427,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -439,13 +448,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy7_frag1"
@@ -477,6 +479,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -490,13 +500,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy8_frag1"
@@ -528,6 +531,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -541,13 +552,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy9_frag1"
@@ -579,6 +583,14 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -591,13 +603,6 @@
             "Host": "rakhsh.4972616e.xyz"
           },
           "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy10_frag1"
@@ -629,6 +634,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -642,13 +655,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy11_frag1"
@@ -680,6 +686,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -693,13 +707,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy12_frag1"
@@ -731,6 +738,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -744,13 +759,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy13_frag1"
@@ -782,6 +790,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -795,13 +811,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy14_frag1"
@@ -833,6 +842,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -846,13 +863,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy15_frag1"
@@ -884,6 +894,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -897,13 +915,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy16_frag1"
@@ -935,6 +946,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -948,13 +967,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy17_frag1"
@@ -986,6 +998,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -999,13 +1019,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy18_frag1"
@@ -1037,6 +1050,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1050,13 +1071,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy19_frag1"
@@ -1088,6 +1102,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1101,13 +1123,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy20_frag1"
@@ -1139,6 +1154,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1152,13 +1175,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy21_frag1"
@@ -1190,6 +1206,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1203,13 +1227,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy22_frag1"
@@ -1241,6 +1258,14 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1253,13 +1278,6 @@
             "Host": "rakhsh.4972616e.xyz"
           },
           "path": "/Javid-SHAH-KingRezaPahlavi/?ed=2560flow=-udp443flow=-udp443flow=-udp443"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy23_frag1"
@@ -1291,6 +1309,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1304,13 +1330,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy24_frag1"
@@ -1342,6 +1361,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1355,13 +1382,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy25_frag1"
@@ -1393,6 +1413,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1406,13 +1434,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy26_frag1"
@@ -1444,6 +1465,14 @@
       "streamSettings": {
         "network": "tcp",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1453,13 +1482,6 @@
             "h2",
             "http/1.1"
           ]
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy27_frag1"
@@ -1491,6 +1513,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1504,13 +1534,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy28_frag1"
@@ -1542,6 +1565,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1555,13 +1586,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy29_frag1"
@@ -1593,6 +1617,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1606,13 +1638,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy30_frag1"
@@ -1644,6 +1669,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1657,13 +1690,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy31_frag1"
@@ -1695,6 +1721,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1708,13 +1742,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy32_frag1"
@@ -1746,6 +1773,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1759,13 +1794,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy33_frag1"
@@ -1797,6 +1825,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1810,13 +1846,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy34_frag1"
@@ -1848,6 +1877,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1861,13 +1898,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy35_frag1"
@@ -1899,6 +1929,14 @@
       "streamSettings": {
         "network": "grpc",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -1912,13 +1950,6 @@
           "authority": "",
           "multiMode": false,
           "serviceName": ""
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy36_frag1"
@@ -1946,6 +1977,14 @@
       "streamSettings": {
         "network": "xhttp",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
@@ -1960,13 +1999,6 @@
         "xhttpSettings": {
           "host": "nufillter.jtip.sbs.",
           "path": "/@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy37_frag1"
@@ -1998,6 +2030,14 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
@@ -2010,13 +2050,6 @@
             "Host": "0926.qiang2000.link"
           },
           "path": "/Telegram@mtmvpn/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy38_frag1"
@@ -2044,6 +2077,14 @@
       "streamSettings": {
         "network": "ws",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
@@ -2056,13 +2097,6 @@
             "Host": "icecream.955850.xyz"
           },
           "path": "%2F"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy39_frag1"
@@ -2094,6 +2128,14 @@
       "streamSettings": {
         "network": "xhttp",
         "security": "tls",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6",
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        },
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "chrome",
@@ -2106,13 +2148,6 @@
         "xhttpSettings": {
           "host": "nufillter.jtip.sbs.",
           "path": "/sreztjsterw4j"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
       "tag": "proxy40_frag1"
@@ -2150,7 +2185,7 @@
       },
       {
         "inboundTag": [
-          "socks-in"
+          "socks"
         ],
         "port": "53",
         "outboundTag": "dns-out",
@@ -2225,5 +2260,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "MCI.CF 2025-06-14"
+  "remarks": "MCI.CF 2025-06-24"
 }
