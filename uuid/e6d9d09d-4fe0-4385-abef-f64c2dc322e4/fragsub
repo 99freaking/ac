@@ -630,7 +630,12 @@
       "tag": "proxy10_fragc1"
     },
     {
-      "tag": "fragmentc1",
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -639,22 +644,23 @@
             "port": 58182,
             "users": [
               {
-                "id": "db42e502-b191-46ab-b943-25e11658d3a1",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "encryption": "none",
+                "flow": "",
+                "id": "a0e4336b-1920-4cc2-b500-3714aa3db86a",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6"
+        }
       },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
+      "tag": "fragmentc1"
     }
   ],
   "routing": {
@@ -1389,12 +1395,17 @@
       },
       "streamSettings": {
         "sockopt": {
-          "dialerProxy": "chain1-fragment"
+          "dialerProxy": "iran_direct"
         }
       }
     },
     {
-      "tag": "chain1-fragment",
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1403,22 +1414,23 @@
             "port": 58182,
             "users": [
               {
-                "id": "db42e502-b191-46ab-b943-25e11658d3a1",
-                "email": "t@t.tt",
-                "security": "auto",
-                "encryption": "none"
+                "encryption": "none",
+                "flow": "",
+                "id": "a0e4336b-1920-4cc2-b500-3714aa3db86a",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "",
+        "sockopt": {
+          "domainStrategy": "UseIPv4v6"
+        }
       },
-      "mux": {
-        "enabled": false,
-        "concurrency": -1
-      }
+      "tag": "iran-direct"
     }
   ],
   "routing": {
