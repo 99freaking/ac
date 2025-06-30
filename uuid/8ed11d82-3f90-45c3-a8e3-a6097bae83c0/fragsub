@@ -623,6 +623,36 @@
         }
       },
       "tag": "proxy10_fragc1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.198.22.51",
+            "port": 58182,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8ed11d82-3f90-45c3-a8e3-a6097bae83c0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "fragmentc1"
     }
   ],
   "routing": {
@@ -1354,6 +1384,36 @@
           "dialerProxy": "detour_proxy"
         }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.198.22.51",
+            "port": 58182,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "8ed11d82-3f90-45c3-a8e3-a6097bae83c0",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
