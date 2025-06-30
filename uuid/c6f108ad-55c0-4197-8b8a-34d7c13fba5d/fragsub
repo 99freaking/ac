@@ -623,6 +623,36 @@
         }
       },
       "tag": "proxy10_fragc1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "85.198.22.51",
+            "port": 41130,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "c6f108ad-55c0-4197-8b8a-34d7c13fba5d",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "fragmentc1"
     }
   ],
   "routing": {
