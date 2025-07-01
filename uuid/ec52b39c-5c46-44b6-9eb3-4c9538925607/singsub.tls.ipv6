@@ -63,11 +63,11 @@
       },
       {
         "outbound": "any",
-        "server": "dns-plain"
+        "server": "dns-direct"
       },
       {
         "clash_mode": "direct",
-        "server": "dns-plain"
+        "server": "dns-direct"
       },
       {
         "clash_mode": "tahrim",
@@ -230,12 +230,11 @@
     {
       "type": "vless",
       "tag": "1.TLS.broken-dust-ae38.homipap3587.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "816562d2-ea82-441f-a822-3782393ce57a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -267,12 +266,11 @@
     {
       "type": "vless",
       "tag": "2.TLS.broken-dust-ae38.homipap3587.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "816562d2-ea82-441f-a822-3782393ce57a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -304,12 +302,11 @@
     {
       "type": "vless",
       "tag": "3.TLS.broken-dust-ae38.homipap3587.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "816562d2-ea82-441f-a822-3782393ce57a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -341,12 +338,11 @@
     {
       "type": "vless",
       "tag": "4.TLS.broken-dust-ae38.homipap3587.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "816562d2-ea82-441f-a822-3782393ce57a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -378,12 +374,11 @@
     {
       "type": "vless",
       "tag": "5.TLS.broken-dust-ae38.homipap3587.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "816562d2-ea82-441f-a822-3782393ce57a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -420,7 +415,6 @@
       "uuid": "bd9c7ff7-5de5-40a1-8ba0-65956a46b09a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -452,12 +446,11 @@
     {
       "type": "vless",
       "tag": "7.TLS.frosty-hat-8dc6.xicara9148.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "bd9c7ff7-5de5-40a1-8ba0-65956a46b09a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -489,12 +482,11 @@
     {
       "type": "vless",
       "tag": "8.TLS.frosty-hat-8dc6.xicara9148.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "bd9c7ff7-5de5-40a1-8ba0-65956a46b09a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -526,12 +518,11 @@
     {
       "type": "vless",
       "tag": "9.TLS.frosty-hat-8dc6.xicara9148.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "bd9c7ff7-5de5-40a1-8ba0-65956a46b09a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -568,7 +559,6 @@
       "uuid": "bd9c7ff7-5de5-40a1-8ba0-65956a46b09a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -605,7 +595,6 @@
       "uuid": "eb8eb598-9109-4c66-b74e-6accce2f74f8",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -637,12 +626,11 @@
     {
       "type": "vless",
       "tag": "12.TLS.snowy-tree-4c0f.cavow47338.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "eb8eb598-9109-4c66-b74e-6accce2f74f8",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -674,12 +662,11 @@
     {
       "type": "vless",
       "tag": "13.TLS.snowy-tree-4c0f.cavow47338.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "eb8eb598-9109-4c66-b74e-6accce2f74f8",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -711,12 +698,11 @@
     {
       "type": "vless",
       "tag": "14.TLS.snowy-tree-4c0f.cavow47338.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "eb8eb598-9109-4c66-b74e-6accce2f74f8",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -748,12 +734,11 @@
     {
       "type": "vless",
       "tag": "15.TLS.snowy-tree-4c0f.cavow47338.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "eb8eb598-9109-4c66-b74e-6accce2f74f8",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -785,12 +770,11 @@
     {
       "type": "vless",
       "tag": "16.TLS.withered-bar-bad8.jiyaho8345.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "de976c54-4a82-4cf4-859f-6e725321a83a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -822,12 +806,11 @@
     {
       "type": "vless",
       "tag": "17.TLS.withered-bar-bad8.jiyaho8345.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "de976c54-4a82-4cf4-859f-6e725321a83a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -859,12 +842,11 @@
     {
       "type": "vless",
       "tag": "18.TLS.withered-bar-bad8.jiyaho8345.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "de976c54-4a82-4cf4-859f-6e725321a83a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -896,12 +878,11 @@
     {
       "type": "vless",
       "tag": "19.TLS.withered-bar-bad8.jiyaho8345.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "de976c54-4a82-4cf4-859f-6e725321a83a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -933,12 +914,11 @@
     {
       "type": "vless",
       "tag": "20.TLS.withered-bar-bad8.jiyaho8345.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "de976c54-4a82-4cf4-859f-6e725321a83a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -970,12 +950,11 @@
     {
       "type": "vless",
       "tag": "21.TLS.worker1.kogefed644.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "3a368adf-8359-4522-80cf-31b829ed31ff",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1007,12 +986,11 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker1.kogefed644.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "3a368adf-8359-4522-80cf-31b829ed31ff",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1044,12 +1022,11 @@
     {
       "type": "vless",
       "tag": "23.TLS.worker1.kogefed644.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "3a368adf-8359-4522-80cf-31b829ed31ff",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1081,12 +1058,11 @@
     {
       "type": "vless",
       "tag": "24.TLS.worker1.kogefed644.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "3a368adf-8359-4522-80cf-31b829ed31ff",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1118,12 +1094,11 @@
     {
       "type": "vless",
       "tag": "25.TLS.worker1.kogefed644.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "3a368adf-8359-4522-80cf-31b829ed31ff",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1155,12 +1130,11 @@
     {
       "type": "vless",
       "tag": "26.TLS.worker1.laxasix948.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "92190f74-57d3-4a16-8768-5b258f2e445a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1192,12 +1166,11 @@
     {
       "type": "vless",
       "tag": "27.TLS.worker1.laxasix948.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "92190f74-57d3-4a16-8768-5b258f2e445a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1234,7 +1207,6 @@
       "uuid": "92190f74-57d3-4a16-8768-5b258f2e445a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1266,12 +1238,11 @@
     {
       "type": "vless",
       "tag": "29.TLS.worker1.laxasix948.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "92190f74-57d3-4a16-8768-5b258f2e445a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1303,12 +1274,11 @@
     {
       "type": "vless",
       "tag": "30.TLS.worker1.laxasix948.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "92190f74-57d3-4a16-8768-5b258f2e445a",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1340,12 +1310,11 @@
     {
       "type": "vless",
       "tag": "31.TLS.worker1.tixid15058.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "4cf937e9-3a22-43ed-a2bb-861c6bbc46b1",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1377,12 +1346,11 @@
     {
       "type": "vless",
       "tag": "32.TLS.worker1.tixid15058.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "4cf937e9-3a22-43ed-a2bb-861c6bbc46b1",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1414,12 +1382,11 @@
     {
       "type": "vless",
       "tag": "33.TLS.worker1.tixid15058.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "4cf937e9-3a22-43ed-a2bb-861c6bbc46b1",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1456,7 +1423,6 @@
       "uuid": "4cf937e9-3a22-43ed-a2bb-861c6bbc46b1",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1488,12 +1454,11 @@
     {
       "type": "vless",
       "tag": "35.TLS.worker1.tixid15058.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "4cf937e9-3a22-43ed-a2bb-861c6bbc46b1",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1530,7 +1495,6 @@
       "uuid": "d3d85911-0b55-456c-a1d4-9fa728f67f25",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1562,12 +1526,11 @@
     {
       "type": "vless",
       "tag": "37.TLS.worker1.bowixa2615.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "d3d85911-0b55-456c-a1d4-9fa728f67f25",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1599,12 +1562,11 @@
     {
       "type": "vless",
       "tag": "38.TLS.worker1.bowixa2615.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "d3d85911-0b55-456c-a1d4-9fa728f67f25",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1636,12 +1598,11 @@
     {
       "type": "vless",
       "tag": "39.TLS.worker1.bowixa2615.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "d3d85911-0b55-456c-a1d4-9fa728f67f25",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1678,7 +1639,6 @@
       "uuid": "d3d85911-0b55-456c-a1d4-9fa728f67f25",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1710,12 +1670,11 @@
     {
       "type": "vless",
       "tag": "41.TLS.worker1.gemoxax771.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "f84ec26e-5f0c-49e6-b3d5-8138161eff10",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1747,12 +1706,11 @@
     {
       "type": "vless",
       "tag": "42.TLS.worker1.gemoxax771.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "f84ec26e-5f0c-49e6-b3d5-8138161eff10",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1784,12 +1742,11 @@
     {
       "type": "vless",
       "tag": "43.TLS.worker1.gemoxax771.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "f84ec26e-5f0c-49e6-b3d5-8138161eff10",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1821,12 +1778,11 @@
     {
       "type": "vless",
       "tag": "44.TLS.worker1.gemoxax771.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "f84ec26e-5f0c-49e6-b3d5-8138161eff10",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1863,7 +1819,6 @@
       "uuid": "f84ec26e-5f0c-49e6-b3d5-8138161eff10",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1895,12 +1850,11 @@
     {
       "type": "vless",
       "tag": "46.TLS.worker1.gogimi1942.workers.dev",
-      "server": "[2a06:98c1:3120::6]",
+      "server": "[2a06:98c1:3120::5d08]",
       "server_port": 8443,
       "uuid": "874d2911-e088-452e-8f2b-d85419a3e107",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1932,12 +1886,11 @@
     {
       "type": "vless",
       "tag": "47.TLS.worker1.gogimi1942.workers.dev",
-      "server": "[2a06:98c1:3121::3]",
+      "server": "[2a06:98c1:3120::6]",
       "server_port": 8443,
       "uuid": "874d2911-e088-452e-8f2b-d85419a3e107",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -1969,12 +1922,11 @@
     {
       "type": "vless",
       "tag": "48.TLS.worker1.gogimi1942.workers.dev",
-      "server": "[2a06:98c1:3120::5d08]",
+      "server": "[2a06:98c1:3120::aa]",
       "server_port": 8443,
       "uuid": "874d2911-e088-452e-8f2b-d85419a3e107",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -2006,12 +1958,11 @@
     {
       "type": "vless",
       "tag": "49.TLS.worker1.gogimi1942.workers.dev",
-      "server": "[2a06:98c1:3120::aa]",
+      "server": "[2a06:98c1:3120::3]",
       "server_port": 8443,
       "uuid": "874d2911-e088-452e-8f2b-d85419a3e107",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
@@ -2043,12 +1994,11 @@
     {
       "type": "vless",
       "tag": "50.TLS.worker1.gogimi1942.workers.dev",
-      "server": "[2a06:98c1:3120::3]",
+      "server": "[2a06:98c1:3121::3]",
       "server_port": 8443,
       "uuid": "874d2911-e088-452e-8f2b-d85419a3e107",
       "flow": "",
       "packet_encoding": "xudp",
-      "tcp_fast_open": true,
       "multiplex": {
         "enabled": false,
         "protocol": "smux",
