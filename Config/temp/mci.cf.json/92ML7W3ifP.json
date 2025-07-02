@@ -119,12 +119,9 @@
       {
         "clash_mode": "tahrim",
         "server": "dns-shecan"
-      },
-      {
-        "server": "dns-remote"
       }
     ],
-    "final": "dns-frag",
+    "final": "dns-remote",
     "strategy": "ipv4_only",
     "independent_cache": true
   },
@@ -9255,7 +9252,7 @@
   ],
   "route": {
     "default_domain_resolver": {
-      "server": "dns-frag",
+      "server": "dns-plain",
       "rewrite_ttl": 60
     },
     "auto_detect_interface": true,
