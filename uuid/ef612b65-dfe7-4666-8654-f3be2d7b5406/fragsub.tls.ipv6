@@ -17,6 +17,7 @@
       ]
     },
     "servers": [
+      "fakedns",
       {
         "address": "localhost",
         "domains": [
@@ -41,6 +42,16 @@
     ],
     "queryStrategy": "UseIP"
   },
+  "fakedns": [
+    {
+      "ipPool": "198.18.0.0/15",
+      "poolSize": 10000
+    },
+    {
+      "ipPool": "fc00::/18",
+      "poolSize": 10000
+    }
+  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -52,7 +63,8 @@
         "routeOnly": true,
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ]
       },
       "settings": {
@@ -105,7 +117,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -158,7 +170,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -264,7 +276,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 8443,
             "users": [
               {
@@ -317,7 +329,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -370,7 +382,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -423,7 +435,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -476,7 +488,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -529,7 +541,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -582,7 +594,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -731,6 +743,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER2.TLS.IPV6 2025-07-02"
+  "remarks": "#1 WORKER2.TLS.IPV6 2025-07-04"
 }
 ]
