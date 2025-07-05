@@ -17,6 +17,7 @@
       ]
     },
     "servers": [
+      "fakedns",
       {
         "address": "localhost",
         "domains": [
@@ -41,6 +42,16 @@
     ],
     "queryStrategy": "UseIP"
   },
+  "fakedns": [
+    {
+      "ipPool": "198.18.0.0/15",
+      "poolSize": 10000
+    },
+    {
+      "ipPool": "fc00::/18",
+      "poolSize": 10000
+    }
+  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -52,7 +63,8 @@
         "routeOnly": true,
         "destOverride": [
           "http",
-          "tls"
+          "tls",
+          "fakedns"
         ]
       },
       "settings": {
@@ -284,7 +296,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -337,7 +349,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -496,7 +508,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -655,7 +667,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.15.85",
+            "address": "63.141.128.17",
             "port": 8443,
             "users": [
               {
@@ -708,7 +720,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.250.20",
+            "address": "45.67.215.118",
             "port": 8443,
             "users": [
               {
@@ -761,7 +773,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.174",
+            "address": "45.67.215.43",
             "port": 8443,
             "users": [
               {
@@ -814,7 +826,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.135.149",
+            "address": "45.67.215.43",
             "port": 8443,
             "users": [
               {
@@ -867,7 +879,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.133.234",
+            "address": "63.141.128.37",
             "port": 8443,
             "users": [
               {
@@ -920,7 +932,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.42.10",
+            "address": "63.141.128.17",
             "port": 8443,
             "users": [
               {
@@ -973,7 +985,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.15.85",
+            "address": "45.67.215.168",
             "port": 8443,
             "users": [
               {
@@ -1026,7 +1038,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.42.10",
+            "address": "63.141.128.17",
             "port": 8443,
             "users": [
               {
@@ -1079,7 +1091,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.170.72",
+            "address": "45.67.215.118",
             "port": 8443,
             "users": [
               {
@@ -1132,7 +1144,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.21.63.78",
+            "address": "141.193.213.11",
             "port": 8443,
             "users": [
               {
@@ -1291,6 +1303,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANFRAGWORKER 2025-07-03"
+  "remarks": "#C1 IRANFRAGWORKER 2025-07-05"
 }
 ]
