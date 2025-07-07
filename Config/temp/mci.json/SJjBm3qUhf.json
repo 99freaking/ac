@@ -46,7 +46,7 @@
           "record_fragment": true,
           "utls": {
             "enabled": true,
-            "fingerprint": "randomized"
+            "fingerprint": "chrome"
           }
         }
       },
@@ -4618,8 +4618,11 @@
         "record_fragment": true
       },
       "transport": {
-        "type": "http",
-        "path": "/@NEKO_Za"
+        "headers": {},
+        "host": [],
+        "method": "GET",
+        "path": "/@NEKO_Za",
+        "type": "http"
       }
     },
     {
@@ -6472,8 +6475,11 @@
         "record_fragment": true
       },
       "transport": {
-        "type": "http",
-        "path": "/8b99ec2f/"
+        "headers": {},
+        "host": [],
+        "method": "GET",
+        "path": "/8b99ec2f/",
+        "type": "http"
       }
     },
     {
@@ -6551,11 +6557,13 @@
         "max_streams": 0
       },
       "transport": {
-        "type": "http",
-        "path": "/",
+        "headers": {},
         "host": [
           "www.speedtest.net"
-        ]
+        ],
+        "method": "GET",
+        "path": "/",
+        "type": "http"
       }
     },
     {
@@ -6686,11 +6694,13 @@
         "max_streams": 0
       },
       "transport": {
-        "type": "http",
-        "path": "/",
+        "headers": {},
         "host": [
           "Zara.com"
-        ]
+        ],
+        "method": "GET",
+        "path": "/",
+        "type": "http"
       }
     },
     {
