@@ -137,7 +137,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -190,7 +190,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -243,7 +243,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.speedtest.net",
+            "address": "tgju.org",
             "port": 8443,
             "users": [
               {
@@ -296,7 +296,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -402,7 +402,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -614,7 +614,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.speedtest.net",
             "port": 8443,
             "users": [
               {
@@ -667,7 +667,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.122",
+            "address": "141.193.213.11",
             "port": 8443,
             "users": [
               {
@@ -720,7 +720,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.122",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -773,7 +773,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.118",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -826,7 +826,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.251",
+            "address": "63.141.128.17",
             "port": 8443,
             "users": [
               {
@@ -879,7 +879,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.118",
+            "address": "104.18.26.90",
             "port": 8443,
             "users": [
               {
@@ -985,7 +985,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.193.213.10",
+            "address": "63.141.128.17",
             "port": 8443,
             "users": [
               {
@@ -1091,7 +1091,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.118",
+            "address": "104.18.26.90",
             "port": 8443,
             "users": [
               {
@@ -1144,7 +1144,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.122",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -1303,6 +1303,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANFRAGWORKER 2025-07-05"
+  "remarks": "#C1 IRANFRAGWORKER 2025-07-07"
 }
 ]
