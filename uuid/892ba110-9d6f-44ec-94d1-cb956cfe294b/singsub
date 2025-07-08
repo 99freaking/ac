@@ -1,0 +1,213 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "fatal",
+    "timestamp": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "0.0.0.0:9090",
+      "external_ui": "../files/yacd",
+      "external_ui_download_url": "https://github.com/MetaCubeX/Yacd-meta/archive/gh-pages.zip",
+      "secret": "",
+      "default_mode": "rule"
+    },
+    "cache_file": {
+      "enabled": true
+    }
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "dns-local"
+      },
+      {
+        "address": "8.8.8.8",
+        "detour": "direct",
+        "tag": "dns-plain"
+      },
+      {
+        "address": "tls://8.8.8.8",
+        "detour": "proxy",
+        "tag": "dns-remote"
+      },
+      {
+        "address": "https://dns.digitalsize.net/dns-query",
+        "address_resolver": "dns-plain",
+        "detour": "direct",
+        "tag": "dns-direct"
+      },
+      {
+        "address": "https://free.shecan.ir/dns-query",
+        "address_resolver": "dns-plain",
+        "detour": "direct",
+        "tag": "dns-shecan"
+      }
+    ],
+    "rules": [
+      {
+        "domain": [
+          "tgju.org",
+          "www.speedtest.net",
+          "b2n.ir"
+        ],
+        "server": "dns-local"
+      },
+      {
+        "domain_suffix": [
+          ".ir"
+        ],
+        "server": "dns-local"
+      },
+      {
+        "outbound": "any",
+        "server": "dns-plain"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "dns-plain"
+      },
+      {
+        "clash_mode": "tahrim",
+        "server": "dns-shecan"
+      }
+    ],
+    "final": "dns-remote",
+    "strategy": "ipv4_only",
+    "independent_cache": true
+  },
+  "inbounds": [
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "0.0.0.0",
+      "listen_port": 6450
+    },
+    {
+      "type": "tun",
+      "tag": "tun-in",
+      "interface_name": "tun0",
+      "address": [
+        "172.19.0.1/28",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "mtu": 9000,
+      "auto_route": true,
+      "strict_route": true,
+      "stack": "mixed",
+      "endpoint_independent_nat": true
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "0.0.0.0",
+      "listen_port": 2080
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "URL-TEST",
+        "1.tor-inifinite_tor"
+      ]
+    },
+    {
+      "tag": "URL-TEST",
+      "type": "urltest",
+      "outbounds": [
+        "1.tor-inifinite_tor"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "20m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "type": "vless",
+      "tag": "1.tor-inifinite_tor",
+      "server": "85.198.22.51",
+      "server_port": 51813,
+      "uuid": "892ba110-9d6f-44ec-94d1-cb956cfe294b",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "multiplex": {
+        "enabled": false,
+        "protocol": "smux",
+        "max_streams": 0
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "override_android_vpn": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "action": "sniff"
+      },
+      {
+        "action": "hijack-dns",
+        "mode": "or",
+        "rules": [
+          {
+            "inbound": "dns-in"
+          },
+          {
+            "protocol": "dns"
+          },
+          {
+            "port": [
+              53
+            ]
+          }
+        ],
+        "type": "logical"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "action": "reject"
+      },
+      {
+        "ip_cidr": [
+          "10.10.34.34",
+          "10.10.34.35",
+          "10.10.34.36"
+        ],
+        "action": "reject"
+      },
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "domain_suffix": [
+          "ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "tahrim",
+        "outbound": "direct"
+      }
+    ]
+  }
+}
