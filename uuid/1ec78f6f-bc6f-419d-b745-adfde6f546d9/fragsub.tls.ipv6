@@ -112,7 +112,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -204,7 +204,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -342,7 +342,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -388,7 +388,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -434,7 +434,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -480,7 +480,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 8443,
             "users": [
               {
@@ -572,7 +572,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -618,7 +618,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -664,7 +664,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -756,7 +756,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -802,7 +802,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -848,7 +848,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -986,7 +986,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -1102,7 +1102,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER11.TLS.IPV6 2025-07-10"
+  "remarks": "#0 WORKER11.TLS.IPV6 2025-07-12"
 }
 ,
 {
@@ -1223,7 +1223,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -1329,7 +1329,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -1488,7 +1488,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -1541,7 +1541,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -1594,7 +1594,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -1647,7 +1647,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 8443,
             "users": [
               {
@@ -1753,7 +1753,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -1806,7 +1806,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -1859,7 +1859,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -1965,7 +1965,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -2018,7 +2018,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -2071,7 +2071,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -2230,7 +2230,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -2379,7 +2379,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER11.TLS.IPV6 2025-07-10"
+  "remarks": "#1 WORKER11.TLS.IPV6 2025-07-12"
 }
 ,
 {
@@ -2500,7 +2500,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -2606,7 +2606,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -2765,7 +2765,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -2818,7 +2818,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -2871,7 +2871,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -2924,7 +2924,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 8443,
             "users": [
               {
@@ -3030,7 +3030,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 8443,
             "users": [
               {
@@ -3083,7 +3083,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -3136,7 +3136,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -3242,7 +3242,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 8443,
             "users": [
               {
@@ -3295,7 +3295,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -3348,7 +3348,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 8443,
             "users": [
               {
@@ -3507,7 +3507,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 8443,
             "users": [
               {
@@ -3656,6 +3656,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#2 WORKER11.TLS.IPV6 2025-07-10"
+  "remarks": "#2 WORKER11.TLS.IPV6 2025-07-12"
 }
 ]
