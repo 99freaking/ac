@@ -65,7 +65,7 @@
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
+        "userLevel": 8
       }
     },
     {
@@ -102,50 +102,262 @@
       "tag": "dns-out"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
+      "tag": "udp-noisesv4",
+      "protocol": "freedom",
       "settings": {
-        "vnext": [
+        "domainStrategy": "ForceIPv4",
+        "noises": [
           {
-            "address": "172.66.43.157",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
-                "level": 8
-              }
-            ]
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
           }
         ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+      }
+    },
+    {
+      "tag": "udp-noisesv6",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv6",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
           },
-          "path": "/?ed=2560"
-        }
-      },
-      "tag": "proxy1"
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          }
+        ]
+      }
     },
     {
       "mux": {
@@ -191,6 +403,52 @@
           "path": "/?ed=2560"
         }
       },
+      "tag": "proxy1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.73.216",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+          },
+          "path": "/?ed=2560"
+        }
+      },
       "tag": "proxy2"
     },
     {
@@ -204,7 +462,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -296,7 +554,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -388,7 +646,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -434,7 +692,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "216.24.57.250",
             "port": 8443,
             "users": [
               {
@@ -480,7 +738,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -526,7 +784,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -572,7 +830,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -664,7 +922,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -710,7 +968,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -756,7 +1014,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -848,7 +1106,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -894,7 +1152,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -940,7 +1198,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -986,7 +1244,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -1032,7 +1290,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.84.182.136",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -1078,7 +1336,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -1124,7 +1382,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -1170,7 +1428,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -1216,7 +1474,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -1262,7 +1520,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -1308,7 +1566,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -1400,7 +1658,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -1446,7 +1704,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -1504,7 +1762,8 @@
         "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
-        ]
+        ],
+        "type": "field"
       },
       {
         "ip": [
@@ -1537,9 +1796,32 @@
         "type": "field"
       },
       {
+        "outboundTag": "udp-noisesv4",
+        "network": "udp",
+        "ip": [
+          "0.0.0.0/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "udp-noisesv6",
+        "network": "udp",
+        "ip": [
+          "::/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "network": "udp",
+        "type": "field"
+      },
+      {
         "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
+        "network": "tcp"
       }
     ],
     "balancers": [
@@ -1562,7 +1844,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER9.TLS 2025-07-12"
+  "remarks": "#0 WORKER9.TLS 2025-07-15"
 }
 ,
 {
@@ -1636,7 +1918,7 @@
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
+        "userLevel": 8
       }
     },
     {
@@ -1673,57 +1955,262 @@
       "tag": "dns-out"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
+      "tag": "udp-noisesv4",
+      "protocol": "freedom",
       "settings": {
-        "vnext": [
+        "domainStrategy": "ForceIPv4",
+        "noises": [
           {
-            "address": "172.66.43.157",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
-                "level": 8
-              }
-            ]
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
           }
         ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+      }
+    },
+    {
+      "tag": "udp-noisesv6",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv6",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
           },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy1_frag1"
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          }
+        ]
+      }
     },
     {
       "mux": {
@@ -1776,6 +2263,59 @@
           "tcpFastOpen": true
         }
       },
+      "tag": "proxy1_frag1"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.73.216",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
       "tag": "proxy2_frag1"
     },
     {
@@ -1789,7 +2329,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -1895,7 +2435,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -2001,7 +2541,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -2054,7 +2594,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "216.24.57.250",
             "port": 8443,
             "users": [
               {
@@ -2107,7 +2647,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -2160,7 +2700,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -2213,7 +2753,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -2319,7 +2859,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -2372,7 +2912,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -2425,7 +2965,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -2531,7 +3071,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -2584,7 +3124,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -2637,7 +3177,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -2690,7 +3230,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -2743,7 +3283,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.84.182.136",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -2796,7 +3336,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -2849,7 +3389,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -2902,7 +3442,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -2955,7 +3495,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -3008,7 +3548,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -3061,7 +3601,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -3167,7 +3707,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -3220,7 +3760,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -3305,13 +3845,15 @@
         "inboundTag": [
           "frag-dns"
         ],
-        "outboundTag": "fragment1"
+        "outboundTag": "fragment1",
+        "type": "field"
       },
       {
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all"
+        "balancerTag": "all",
+        "type": "field"
       },
       {
         "ip": [
@@ -3344,9 +3886,32 @@
         "type": "field"
       },
       {
+        "outboundTag": "udp-noisesv4",
+        "network": "udp",
+        "ip": [
+          "0.0.0.0/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "udp-noisesv6",
+        "network": "udp",
+        "ip": [
+          "::/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "network": "udp",
+        "type": "field"
+      },
+      {
         "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
+        "network": "tcp"
       }
     ],
     "balancers": [
@@ -3369,7 +3934,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER9.TLS 2025-07-12"
+  "remarks": "#1 WORKER9.TLS 2025-07-15"
 }
 ,
 {
@@ -3443,7 +4008,7 @@
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
+        "userLevel": 8
       }
     },
     {
@@ -3480,57 +4045,262 @@
       "tag": "dns-out"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
+      "tag": "udp-noisesv4",
+      "protocol": "freedom",
       "settings": {
-        "vnext": [
+        "domainStrategy": "ForceIPv4",
+        "noises": [
           {
-            "address": "172.66.43.157",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
-                "level": 8
-              }
-            ]
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
           }
         ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "randomized",
-          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+      }
+    },
+    {
+      "tag": "udp-noisesv6",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv6",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
           },
-          "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment2",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
-        }
-      },
-      "tag": "proxy1_frag2"
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          }
+        ]
+      }
     },
     {
       "mux": {
@@ -3583,6 +4353,59 @@
           "tcpFastOpen": true
         }
       },
+      "tag": "proxy1_frag2"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "172.67.73.216",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b01b2b78-aa0d-44a3-a9fa-a09c3533df4f",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "randomized",
+          "serverName": "damp-water-7f0f.reviso4655.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "damp-water-7f0f.reviso4655.workers.dev"
+          },
+          "path": "/?ed=2560"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment2",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
       "tag": "proxy2_frag2"
     },
     {
@@ -3596,7 +4419,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -3702,7 +4525,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -3808,7 +4631,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -3861,7 +4684,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "216.24.57.250",
             "port": 8443,
             "users": [
               {
@@ -3914,7 +4737,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -3967,7 +4790,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -4020,7 +4843,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -4126,7 +4949,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -4179,7 +5002,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.67.73.216",
             "port": 8443,
             "users": [
               {
@@ -4232,7 +5055,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "188.114.96.7",
             "port": 8443,
             "users": [
               {
@@ -4338,7 +5161,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -4391,7 +5214,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -4444,7 +5267,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -4497,7 +5320,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -4550,7 +5373,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "69.84.182.136",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -4603,7 +5426,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "69.84.182.136",
             "port": 8443,
             "users": [
               {
@@ -4656,7 +5479,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -4709,7 +5532,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.67.215.153",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -4762,7 +5585,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "45.67.215.153",
             "port": 8443,
             "users": [
               {
@@ -4815,7 +5638,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -4868,7 +5691,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -4974,7 +5797,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
+            "address": "172.66.43.157",
             "port": 8443,
             "users": [
               {
@@ -5027,7 +5850,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "8.6.112.64",
             "port": 8443,
             "users": [
               {
@@ -5112,13 +5935,15 @@
         "inboundTag": [
           "frag-dns"
         ],
-        "outboundTag": "fragment2"
+        "outboundTag": "fragment2",
+        "type": "field"
       },
       {
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all"
+        "balancerTag": "all",
+        "type": "field"
       },
       {
         "ip": [
@@ -5151,9 +5976,32 @@
         "type": "field"
       },
       {
+        "outboundTag": "udp-noisesv4",
+        "network": "udp",
+        "ip": [
+          "0.0.0.0/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "udp-noisesv6",
+        "network": "udp",
+        "ip": [
+          "::/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "network": "udp",
+        "type": "field"
+      },
+      {
         "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
+        "network": "tcp"
       }
     ],
     "balancers": [
@@ -5176,6 +6024,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#2 WORKER9.TLS 2025-07-12"
+  "remarks": "#2 WORKER9.TLS 2025-07-15"
 }
 ]
