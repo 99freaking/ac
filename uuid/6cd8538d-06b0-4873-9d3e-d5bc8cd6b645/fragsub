@@ -125,20 +125,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.142:859",
+            "endpoint": "188.114.97.197:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "proxy",
@@ -275,7 +275,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
@@ -468,20 +499,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
+            "endpoint": "[2606:4700:d0::2b11:44e7:c0fd:92f9]:894",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "proxy",
@@ -618,7 +649,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
@@ -811,20 +873,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a88:30e3:afb7:ba33:1241/128"
+          "2606:4700:110:8a4d:7cca:a76a:737d:647/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.142:859",
+            "endpoint": "188.114.97.197:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          79,
-          45,
-          48
+          208,
+          81,
+          168
         ],
-        "secretKey": "CMKsW8CcHQGtALQRxUpaiUzweo7ISvGWLt8DSKP5y2w="
+        "secretKey": "SKQQ6XBzLSmSRU5BR6ZRfExyJagU6S+2VHWy9QW423k="
       },
       "tag": "proxy",
       "streamSettings": {
@@ -844,20 +906,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.142:859",
+            "endpoint": "188.114.97.197:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -994,7 +1056,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
@@ -1187,20 +1280,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a88:30e3:afb7:ba33:1241/128"
+          "2606:4700:110:8a4d:7cca:a76a:737d:647/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.142:859",
+            "endpoint": "188.114.97.197:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          79,
-          45,
-          48
+          208,
+          81,
+          168
         ],
-        "secretKey": "CMKsW8CcHQGtALQRxUpaiUzweo7ISvGWLt8DSKP5y2w="
+        "secretKey": "SKQQ6XBzLSmSRU5BR6ZRfExyJagU6S+2VHWy9QW423k="
       },
       "tag": "proxy",
       "streamSettings": {
@@ -1220,20 +1313,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
+            "endpoint": "[2606:4700:d0::2b11:44e7:c0fd:92f9]:894",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -1370,7 +1463,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
@@ -1563,20 +1687,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a88:30e3:afb7:ba33:1241/128"
+          "2606:4700:110:8a4d:7cca:a76a:737d:647/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
+            "endpoint": "[2606:4700:d0::2b11:44e7:c0fd:92f9]:894",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          79,
-          45,
-          48
+          208,
+          81,
+          168
         ],
-        "secretKey": "CMKsW8CcHQGtALQRxUpaiUzweo7ISvGWLt8DSKP5y2w="
+        "secretKey": "SKQQ6XBzLSmSRU5BR6ZRfExyJagU6S+2VHWy9QW423k="
       },
       "tag": "proxy",
       "streamSettings": {
@@ -1596,20 +1720,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.142:859",
+            "endpoint": "188.114.97.197:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -1746,7 +1870,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
@@ -1939,20 +2094,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a88:30e3:afb7:ba33:1241/128"
+          "2606:4700:110:8a4d:7cca:a76a:737d:647/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
+            "endpoint": "[2606:4700:d0::2b11:44e7:c0fd:92f9]:894",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          79,
-          45,
-          48
+          208,
+          81,
+          168
         ],
-        "secretKey": "CMKsW8CcHQGtALQRxUpaiUzweo7ISvGWLt8DSKP5y2w="
+        "secretKey": "SKQQ6XBzLSmSRU5BR6ZRfExyJagU6S+2VHWy9QW423k="
       },
       "tag": "proxy",
       "streamSettings": {
@@ -1972,20 +2127,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8863:7eaa:93a2:b060:e6e7/128"
+          "2606:4700:110:8637:7c41:3ae1:3e79:926b/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
+            "endpoint": "[2606:4700:d0::2b11:44e7:c0fd:92f9]:894",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          136,
-          142,
-          44
+          204,
+          113,
+          203
         ],
-        "secretKey": "KLDminAv0ZW+XEj4qgw+1t+tl5Y+ys0/rwguPgDK42U=",
+        "secretKey": "IJiQXfauTzjsLU90JxAr4vXmW+Y/NmManCexWpqeYEE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -2122,7 +2277,38 @@
             "delay": "10"
           }
         ]
+      },
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "detour_proxy"
+        }
       }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "193.151.141.37",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "6cd8538d-06b0-4873-9d3e-d5bc8cd6b645",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "detour_proxy"
     }
   ],
   "routing": {
