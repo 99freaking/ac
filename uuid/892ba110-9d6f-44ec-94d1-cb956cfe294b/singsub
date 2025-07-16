@@ -112,14 +112,14 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.tor-inifinite_tor"
+        "1.IRAN-TOR"
       ]
     },
     {
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.tor-inifinite_tor"
+        "1.IRAN-TOR"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "20m",
@@ -131,8 +131,8 @@
     },
     {
       "type": "vless",
-      "tag": "1.tor-inifinite_tor",
-      "server": "85.198.22.51",
+      "tag": "1.IRAN-TOR",
+      "server": "193.151.141.37",
       "server_port": 51813,
       "uuid": "892ba110-9d6f-44ec-94d1-cb956cfe294b",
       "flow": "",
