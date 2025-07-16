@@ -70,7 +70,7 @@
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
+        "userLevel": 8
       }
     },
     {
@@ -2665,13 +2665,15 @@
         "inboundTag": [
           "frag-dns"
         ],
-        "outboundTag": "fragment1"
+        "outboundTag": "fragment1",
+        "type": "field"
       },
       {
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all"
+        "balancerTag": "all",
+        "type": "field"
       },
       {
         "ip": [
@@ -2729,7 +2731,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2025-07-14"
+  "remarks": "#1 MCI.CF 2025-07-16"
 }
 ,
 {
@@ -2803,7 +2805,7 @@
       "settings": {
         "auth": "noauth",
         "udp": true,
-        "allowTransparent": false
+        "userLevel": 8
       }
     },
     {
@@ -5398,13 +5400,15 @@
         "inboundTag": [
           "frag-dns"
         ],
-        "outboundTag": "fragment2"
+        "outboundTag": "fragment2",
+        "type": "field"
       },
       {
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all"
+        "balancerTag": "all",
+        "type": "field"
       },
       {
         "ip": [
@@ -5462,6 +5466,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#2 MCI.CF 2025-07-14"
+  "remarks": "#2 MCI.CF 2025-07-16"
 }
 ]
