@@ -125,20 +125,20 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8d1e:5430:5046:432d:55be/128"
+          "2606:4700:110:83fe:577a:8793:303e:3fc3/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.69:859",
+            "endpoint": "188.114.97.196:1002",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          95,
-          205,
-          165
+          125,
+          47,
+          129
         ],
-        "secretKey": "aOIRdGtvQHm2FgsuNaPyTAcPJilTM1Cw8soh5cH8qEg=",
+        "secretKey": "+FkvQ7NiKv53ig1q44dzjRJMWiOrkggIEYqOO5vFp1A=",
         "mtu": 1280
       },
       "tag": "proxy",
@@ -173,8 +173,15 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
-        "security": ""
+        "network": "ws",
+        "security": "",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "xray.com"
+          },
+          "path": "/"
+        }
       },
       "tag": "fragment0c1"
     }
