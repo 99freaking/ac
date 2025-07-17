@@ -125,22 +125,57 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8b8a:1e48:c45b:71d2:ebce/128"
+          "2606:4700:110:80af:815d:411d:ec10:1f02/128"
         ],
         "peers": [
           {
-            "endpoint": "188.114.97.69:859",
+            "endpoint": "188.114.96.199:859",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
           }
         ],
         "reserved": [
-          76,
-          15,
-          182
+          37,
+          193,
+          169
         ],
-        "secretKey": "+AXT4DsIj6QEE1YOBN3cIdf+FMIyJrJXytIhsgWvWUI="
+        "secretKey": "mNZ0EBYUoUAxZnHWiQxOoM585EYHqCD0GNE2gks7cEs="
       },
-      "tag": "proxy"
+      "tag": "proxy",
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "fragment0c1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "85.198.22.51",
+            "flow": "",
+            "level": 8,
+            "ota": false,
+            "password": "045d025e-f351-440a-af00-98d0773d2409",
+            "port": 51394
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": ""
+      },
+      "tag": "fragment0c1"
     }
   ],
   "routing": {
@@ -212,6 +247,6 @@
       }
     ]
   },
-  "remarks": "#0 IRANWARP 2025-07-17"
+  "remarks": "#0C1 IRANWARP 2025-07-17"
 }
 ]
