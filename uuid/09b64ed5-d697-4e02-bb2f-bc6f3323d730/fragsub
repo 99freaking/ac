@@ -1727,7 +1727,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.141.37",
+            "address": "85.198.22.51",
             "port": 41130,
             "users": [
               {
@@ -1835,7 +1835,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANWORKER 2025-07-16"
+  "remarks": "#C1 IRANWORKER 2025-07-17"
 }
 ,
 {
@@ -3582,7 +3582,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.141.37",
+            "address": "85.198.22.51",
             "port": 41130,
             "users": [
               {
@@ -3690,6 +3690,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C2 IRANWORKER 2025-07-16"
+  "remarks": "#C2 IRANWORKER 2025-07-17"
 }
 ]
