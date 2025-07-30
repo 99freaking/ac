@@ -517,6 +517,41 @@
         "xudpConcurrency": 8,
         "xudpProxyUDP443": ""
       },
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8453:c02b:6c4a:3c4c:d17/128"
+        ],
+        "peers": [
+          {
+            "endpoint": "188.114.97.3:943",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
+          }
+        ],
+        "reserved": [
+          50,
+          130,
+          97
+        ],
+        "secretKey": "QDnaFhY8GoCaPNWWNxposZlIHu+xQyCp4FiwaZK9PWQ=",
+        "mtu": 1308
+      },
+      "tag": "warpir",
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "noise"
+        }
+      }
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -1123,6 +1158,41 @@
         }
       },
       "tag": "proxy13"
+    },
+    {
+      "mux": {
+        "concurrency": -1,
+        "enabled": false,
+        "xudpConcurrency": 8,
+        "xudpProxyUDP443": ""
+      },
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8453:c02b:6c4a:3c4c:d17/128"
+        ],
+        "peers": [
+          {
+            "endpoint": "[2606:4700:d0::33e1:88ec:8c91:a3c4]:1014",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
+          }
+        ],
+        "reserved": [
+          50,
+          130,
+          97
+        ],
+        "secretKey": "QDnaFhY8GoCaPNWWNxposZlIHu+xQyCp4FiwaZK9PWQ=",
+        "mtu": 1308
+      },
+      "tag": "warpir",
+      "streamSettings": {
+        "sockopt": {
+          "dialerProxy": "noise"
+        }
+      }
     },
     {
       "mux": {
