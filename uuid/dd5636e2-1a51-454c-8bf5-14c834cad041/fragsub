@@ -521,7 +521,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8453:c02b:6c4a:3c4c:d17/128"
+          "2606:4700:110:8bfa:fcce:a14b:7273:6ced/128"
         ],
         "peers": [
           {
@@ -531,11 +531,11 @@
           }
         ],
         "reserved": [
-          50,
-          130,
-          97
+          134,
+          93,
+          176
         ],
-        "secretKey": "QDnaFhY8GoCaPNWWNxposZlIHu+xQyCp4FiwaZK9PWQ=",
+        "secretKey": "QBIthta7y7wgyEI7DwAeE4Yj/zDvi6ZH8/BPoOM5zlE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -639,11 +639,30 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
+  },
+  "observatory": {
+    "probeInterval": "30m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
   },
   "remarks": "#WARP_4 US 2025-07-30"
 }
@@ -1170,7 +1189,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8453:c02b:6c4a:3c4c:d17/128"
+          "2606:4700:110:8bfa:fcce:a14b:7273:6ced/128"
         ],
         "peers": [
           {
@@ -1180,11 +1199,11 @@
           }
         ],
         "reserved": [
-          50,
-          130,
-          97
+          134,
+          93,
+          176
         ],
-        "secretKey": "QDnaFhY8GoCaPNWWNxposZlIHu+xQyCp4FiwaZK9PWQ=",
+        "secretKey": "QBIthta7y7wgyEI7DwAeE4Yj/zDvi6ZH8/BPoOM5zlE=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -1288,11 +1307,30 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "port": "0-65535",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
+  },
+  "observatory": {
+    "probeInterval": "30m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
   },
   "remarks": "#WARP_6 US 2025-07-30"
 }
