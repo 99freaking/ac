@@ -128,7 +128,7 @@
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy1"
@@ -175,7 +175,7 @@
           "serviceName": ""
         },
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy3"
@@ -215,7 +215,7 @@
           "path": "/vless/"
         },
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy2"
@@ -244,7 +244,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy4"
@@ -273,7 +273,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy5"
@@ -302,7 +302,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy6"
@@ -331,7 +331,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy7"
@@ -360,7 +360,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy8"
@@ -389,7 +389,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy9"
@@ -418,7 +418,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy10"
@@ -447,7 +447,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy11"
@@ -476,7 +476,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy12"
@@ -505,7 +505,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_4"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy13"
@@ -521,7 +521,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8bfa:fcce:a14b:7273:6ced/128"
+          "2606:4700:110:8c8e:4a38:31ca:c2a5:e709/128"
         ],
         "peers": [
           {
@@ -531,11 +531,11 @@
           }
         ],
         "reserved": [
-          134,
-          93,
-          176
+          74,
+          25,
+          117
         ],
-        "secretKey": "QBIthta7y7wgyEI7DwAeE4Yj/zDvi6ZH8/BPoOM5zlE=",
+        "secretKey": "IBnZ2e4dRYb3ejFC807KWy0ZVRQ4vx06QAwaJzgOzmA=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -796,7 +796,7 @@
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy1"
@@ -843,7 +843,7 @@
           "serviceName": ""
         },
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy3"
@@ -883,7 +883,7 @@
           "path": "/vless/"
         },
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy2"
@@ -912,7 +912,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy4"
@@ -941,7 +941,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy5"
@@ -970,7 +970,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy6"
@@ -999,7 +999,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy7"
@@ -1028,7 +1028,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy8"
@@ -1057,7 +1057,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy9"
@@ -1086,7 +1086,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy10"
@@ -1115,7 +1115,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy11"
@@ -1144,7 +1144,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy12"
@@ -1173,7 +1173,7 @@
         "network": "tcp",
         "security": "",
         "sockopt": {
-          "dialerProxy": "warp_6"
+          "dialerProxy": "warpir"
         }
       },
       "tag": "proxy13"
@@ -1189,21 +1189,21 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8bfa:fcce:a14b:7273:6ced/128"
+          "2606:4700:110:8c8e:4a38:31ca:c2a5:e709/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::33e1:88ec:8c91:a3c4]:1014",
+            "endpoint": "[2606:4700:d0::6d67:5664:8b45:6e75]:1014",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "keepAlive": 5
           }
         ],
         "reserved": [
-          134,
-          93,
-          176
+          74,
+          25,
+          117
         ],
-        "secretKey": "QBIthta7y7wgyEI7DwAeE4Yj/zDvi6ZH8/BPoOM5zlE=",
+        "secretKey": "IBnZ2e4dRYb3ejFC807KWy0ZVRQ4vx06QAwaJzgOzmA=",
         "mtu": 1308
       },
       "tag": "warpir",
