@@ -102,7 +102,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8ada:47db:6e29:4754:4486/128"
+          "2606:4700:110:8682:2c21:7456:ebe7:3a7a/128"
         ],
         "peers": [
           {
@@ -111,11 +111,11 @@
           }
         ],
         "reserved": [
-          111,
-          96,
-          105
+          53,
+          57,
+          103
         ],
-        "secretKey": "qIriPvbw7ufXVKhYKA9eNYGEZBrZJKXGOOqjwvK54kc=",
+        "secretKey": "cPbVixQDX3Wr0ZJiAiPkmXxRAs9YtL35VPqm+uGCwU4=",
         "mtu": 1308
       },
       "tag": "proxy",
@@ -331,7 +331,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:888a:3243:ac56:bc29:24f8/128"
+          "2606:4700:110:8476:eaf5:bbbc:dc75:383a/128"
         ],
         "peers": [
           {
@@ -340,11 +340,11 @@
           }
         ],
         "reserved": [
-          61,
-          65,
-          182
+          237,
+          53,
+          255
         ],
-        "secretKey": "+A0MEF/2rnH0WqsPE0hgTElTe98OEIT9xgxihX/vCVk=",
+        "secretKey": "iCC1ZzmYcQZIKPK+kd04OIXWqF21fYv2sklflJOHWmI=",
         "mtu": 1280
       },
       "tag": "proxy",
@@ -365,7 +365,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8ada:47db:6e29:4754:4486/128"
+          "2606:4700:110:8682:2c21:7456:ebe7:3a7a/128"
         ],
         "peers": [
           {
@@ -374,11 +374,11 @@
           }
         ],
         "reserved": [
-          111,
-          96,
-          105
+          53,
+          57,
+          103
         ],
-        "secretKey": "qIriPvbw7ufXVKhYKA9eNYGEZBrZJKXGOOqjwvK54kc=",
+        "secretKey": "cPbVixQDX3Wr0ZJiAiPkmXxRAs9YtL35VPqm+uGCwU4=",
         "mtu": 1308
       },
       "tag": "warpir",
