@@ -87,26 +87,6 @@
   ],
   "outbounds": [
     {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      }
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    },
-    {
-      "protocol": "dns",
-      "tag": "dns-out"
-    },
-    {
       "mux": {
         "concurrency": -1,
         "enabled": false,
@@ -2641,6 +2621,26 @@
           "tcpKeepAliveIdle": 100
         }
       }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
     }
   ],
   "routing": {
@@ -2724,13 +2724,13 @@
     ]
   },
   "observatory": {
-    "probeInterval": "30m",
+    "probeInterval": "5m",
     "probeURL": "https://www.gstatic.com/generate_204",
     "subjectSelector": [
       "prox"
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2025-07-31"
+  "remarks": "#1 MCI.CF 2025-08-05"
 }
 ]
