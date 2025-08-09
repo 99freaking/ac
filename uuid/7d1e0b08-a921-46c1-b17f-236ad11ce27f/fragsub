@@ -8,7 +8,6 @@
   },
   "dns": {
     "hosts": {
-      "dns.cloudflare.com": "cloudflare.com",
       "dns.google": [
         "8.8.8.8",
         "8.8.4.4",
@@ -33,10 +32,6 @@
       {
         "address": "https://dns.google/dns-query",
         "tag": "remote-dns"
-      },
-      {
-        "address": "https://dns.google/dns-query",
-        "tag": "frag-dns"
       },
       "https+local://dns.digitalsize.net/dns-query"
     ],
@@ -128,16 +123,9 @@
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy1_fragc1"
+      "tag": "proxy1"
     },
     {
       "mux": {
@@ -181,16 +169,9 @@
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy2_fragc1"
+      "tag": "proxy2"
     },
     {
       "mux": {
@@ -234,16 +215,9 @@
             "Host": "broken-dust-ae38.homipap3587.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy3_fragc1"
+      "tag": "proxy3"
     },
     {
       "mux": {
@@ -287,16 +261,9 @@
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy4_fragc1"
+      "tag": "proxy4"
     },
     {
       "mux": {
@@ -340,16 +307,9 @@
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy5_fragc1"
+      "tag": "proxy5"
     },
     {
       "mux": {
@@ -393,16 +353,9 @@
             "Host": "frosty-hat-8dc6.xicara9148.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy6_fragc1"
+      "tag": "proxy6"
     },
     {
       "mux": {
@@ -446,16 +399,9 @@
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy7_fragc1"
+      "tag": "proxy7"
     },
     {
       "mux": {
@@ -499,16 +445,9 @@
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy8_fragc1"
+      "tag": "proxy8"
     },
     {
       "mux": {
@@ -552,16 +491,9 @@
             "Host": "snowy-tree-4c0f.cavow47338.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy9_fragc1"
+      "tag": "proxy9"
     },
     {
       "mux": {
@@ -605,16 +537,9 @@
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy10_fragc1"
+      "tag": "proxy10"
     },
     {
       "mux": {
@@ -658,16 +583,9 @@
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy11_fragc1"
+      "tag": "proxy11"
     },
     {
       "mux": {
@@ -711,16 +629,9 @@
             "Host": "withered-bar-bad8.jiyaho8345.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy12_fragc1"
+      "tag": "proxy12"
     },
     {
       "mux": {
@@ -764,16 +675,9 @@
             "Host": "worker1.kogefed644.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_fragc1"
+      "tag": "proxy13"
     },
     {
       "mux": {
@@ -817,16 +721,9 @@
             "Host": "worker1.kogefed644.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_fragc1"
+      "tag": "proxy14"
     },
     {
       "mux": {
@@ -870,16 +767,9 @@
             "Host": "worker1.kogefed644.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy15_fragc1"
+      "tag": "proxy15"
     },
     {
       "mux": {
@@ -923,16 +813,9 @@
             "Host": "worker1.laxasix948.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_fragc1"
+      "tag": "proxy16"
     },
     {
       "mux": {
@@ -976,16 +859,9 @@
             "Host": "worker1.laxasix948.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy17_fragc1"
+      "tag": "proxy17"
     },
     {
       "mux": {
@@ -1029,16 +905,9 @@
             "Host": "worker1.laxasix948.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy18_fragc1"
+      "tag": "proxy18"
     },
     {
       "mux": {
@@ -1082,16 +951,9 @@
             "Host": "worker1.tixid15058.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy19_fragc1"
+      "tag": "proxy19"
     },
     {
       "mux": {
@@ -1135,16 +997,9 @@
             "Host": "worker1.tixid15058.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy20_fragc1"
+      "tag": "proxy20"
     },
     {
       "mux": {
@@ -1188,16 +1043,9 @@
             "Host": "worker1.tixid15058.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy21_fragc1"
+      "tag": "proxy21"
     },
     {
       "mux": {
@@ -1241,16 +1089,9 @@
             "Host": "worker1.bowixa2615.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy22_fragc1"
+      "tag": "proxy22"
     },
     {
       "mux": {
@@ -1294,16 +1135,9 @@
             "Host": "worker1.bowixa2615.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy23_fragc1"
+      "tag": "proxy23"
     },
     {
       "mux": {
@@ -1347,16 +1181,9 @@
             "Host": "worker1.bowixa2615.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy24_fragc1"
+      "tag": "proxy24"
     },
     {
       "mux": {
@@ -1400,16 +1227,9 @@
             "Host": "worker1.gemoxax771.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy25_fragc1"
+      "tag": "proxy25"
     },
     {
       "mux": {
@@ -1453,16 +1273,9 @@
             "Host": "worker1.gemoxax771.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy26_fragc1"
+      "tag": "proxy26"
     },
     {
       "mux": {
@@ -1506,16 +1319,9 @@
             "Host": "worker1.gemoxax771.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy27_fragc1"
+      "tag": "proxy27"
     },
     {
       "mux": {
@@ -1559,16 +1365,9 @@
             "Host": "worker1.gogimi1942.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy28_fragc1"
+      "tag": "proxy28"
     },
     {
       "mux": {
@@ -1612,16 +1411,9 @@
             "Host": "worker1.gogimi1942.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy29_fragc1"
+      "tag": "proxy29"
     },
     {
       "mux": {
@@ -1665,53 +1457,9 @@
             "Host": "worker1.gogimi1942.workers.dev"
           },
           "path": "/?ed=2560"
-        },
-        "sockopt": {
-          "dialerProxy": "fragmentc1",
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100,
-          "mark": 255,
-          "tcpFastOpen": true
         }
       },
-      "tag": "proxy30_fragc1"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.151.143.141",
-            "port": 56846,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7d1e0b08-a921-46c1-b17f-236ad11ce27f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "soft98.ir"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "fragmentc1"
+      "tag": "proxy30"
     },
     {
       "tag": "direct",
@@ -1734,23 +1482,261 @@
       "tag": "dns-out"
     },
     {
-      "tag": "fragment-dns",
+      "tag": "udp-noisesv4",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "UseIPv4v6",
-        "fragment": {
-          "packets": "tlshello",
-          "length": "5-10",
-          "interval": "0"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
+        "domainStrategy": "ForceIPv4",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "udp-noisesv6",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv6",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          }
+        ]
       }
     }
   ],
@@ -1773,17 +1759,10 @@
         "type": "field"
       },
       {
-        "inboundTag": [
-          "frag-dns"
-        ],
-        "outboundTag": "fragment-dns",
-        "type": "field"
-      },
-      {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "balancerTag": "all",
         "type": "field"
       },
       {
@@ -1817,9 +1796,32 @@
         "type": "field"
       },
       {
+        "outboundTag": "udp-noisesv4",
+        "network": "udp",
+        "ip": [
+          "0.0.0.0/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "udp-noisesv6",
+        "network": "udp",
+        "ip": [
+          "::/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "network": "udp",
+        "type": "field"
+      },
+      {
         "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
+        "network": "tcp"
       }
     ],
     "balancers": [
@@ -1842,7 +1844,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANWORKER 2025-08-09"
+  "remarks": "#0 WORKER7.TLS 2025-08-05"
 }
 ,
 {
@@ -1976,14 +1978,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy1_fragc2"
+      "tag": "proxy1_frag1"
     },
     {
       "mux": {
@@ -2029,14 +2031,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy2_fragc2"
+      "tag": "proxy2_frag1"
     },
     {
       "mux": {
@@ -2082,14 +2084,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy3_fragc2"
+      "tag": "proxy3_frag1"
     },
     {
       "mux": {
@@ -2135,14 +2137,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy4_fragc2"
+      "tag": "proxy4_frag1"
     },
     {
       "mux": {
@@ -2188,14 +2190,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy5_fragc2"
+      "tag": "proxy5_frag1"
     },
     {
       "mux": {
@@ -2241,14 +2243,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy6_fragc2"
+      "tag": "proxy6_frag1"
     },
     {
       "mux": {
@@ -2294,14 +2296,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy7_fragc2"
+      "tag": "proxy7_frag1"
     },
     {
       "mux": {
@@ -2347,14 +2349,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy8_fragc2"
+      "tag": "proxy8_frag1"
     },
     {
       "mux": {
@@ -2400,14 +2402,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy9_fragc2"
+      "tag": "proxy9_frag1"
     },
     {
       "mux": {
@@ -2453,14 +2455,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy10_fragc2"
+      "tag": "proxy10_frag1"
     },
     {
       "mux": {
@@ -2506,14 +2508,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy11_fragc2"
+      "tag": "proxy11_frag1"
     },
     {
       "mux": {
@@ -2559,14 +2561,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy12_fragc2"
+      "tag": "proxy12_frag1"
     },
     {
       "mux": {
@@ -2612,14 +2614,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_fragc2"
+      "tag": "proxy13_frag1"
     },
     {
       "mux": {
@@ -2665,14 +2667,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_fragc2"
+      "tag": "proxy14_frag1"
     },
     {
       "mux": {
@@ -2718,14 +2720,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy15_fragc2"
+      "tag": "proxy15_frag1"
     },
     {
       "mux": {
@@ -2771,14 +2773,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy16_fragc2"
+      "tag": "proxy16_frag1"
     },
     {
       "mux": {
@@ -2824,14 +2826,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy17_fragc2"
+      "tag": "proxy17_frag1"
     },
     {
       "mux": {
@@ -2877,14 +2879,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy18_fragc2"
+      "tag": "proxy18_frag1"
     },
     {
       "mux": {
@@ -2930,14 +2932,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy19_fragc2"
+      "tag": "proxy19_frag1"
     },
     {
       "mux": {
@@ -2983,14 +2985,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy20_fragc2"
+      "tag": "proxy20_frag1"
     },
     {
       "mux": {
@@ -3036,14 +3038,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy21_fragc2"
+      "tag": "proxy21_frag1"
     },
     {
       "mux": {
@@ -3089,14 +3091,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy22_fragc2"
+      "tag": "proxy22_frag1"
     },
     {
       "mux": {
@@ -3142,14 +3144,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy23_fragc2"
+      "tag": "proxy23_frag1"
     },
     {
       "mux": {
@@ -3195,14 +3197,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy24_fragc2"
+      "tag": "proxy24_frag1"
     },
     {
       "mux": {
@@ -3248,14 +3250,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy25_fragc2"
+      "tag": "proxy25_frag1"
     },
     {
       "mux": {
@@ -3301,14 +3303,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy26_fragc2"
+      "tag": "proxy26_frag1"
     },
     {
       "mux": {
@@ -3354,14 +3356,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy27_fragc2"
+      "tag": "proxy27_frag1"
     },
     {
       "mux": {
@@ -3407,14 +3409,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy28_fragc2"
+      "tag": "proxy28_frag1"
     },
     {
       "mux": {
@@ -3460,14 +3462,14 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy29_fragc2"
+      "tag": "proxy29_frag1"
     },
     {
       "mux": {
@@ -3513,67 +3515,34 @@
           "path": "/?ed=2560"
         },
         "sockopt": {
-          "dialerProxy": "fragmentc2",
+          "dialerProxy": "fragment1",
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 100,
           "mark": 255,
           "tcpFastOpen": true
         }
       },
-      "tag": "proxy30_fragc2"
+      "tag": "proxy30_frag1"
     },
     {
-      "tag": "fragmentc2",
+      "tag": "fragment1",
       "protocol": "freedom",
       "settings": {
+        "domainStrategy": "UseIPv4v6",
         "fragment": {
           "packets": "tlshello",
-          "length": "5-10",
+          "length": "1",
           "interval": "0"
         }
       },
       "streamSettings": {
+        "network": "tcp",
+        "security": "",
         "sockopt": {
-          "dialerProxy": "detour_proxy"
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
         }
       }
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.151.143.141",
-            "port": 56846,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "7d1e0b08-a921-46c1-b17f-236ad11ce27f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "soft98.ir"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "detour_proxy"
     },
     {
       "tag": "direct",
@@ -3596,23 +3565,261 @@
       "tag": "dns-out"
     },
     {
-      "tag": "fragment-dns",
+      "tag": "udp-noisesv4",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "UseIPv4v6",
-        "fragment": {
-          "packets": "tlshello",
-          "length": "5-10",
-          "interval": "0"
-        }
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "",
-        "sockopt": {
-          "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
-        }
+        "domainStrategy": "ForceIPv4",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1250",
+            "delay": "10"
+          }
+        ]
+      }
+    },
+    {
+      "tag": "udp-noisesv6",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv6",
+        "noises": [
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          },
+          {
+            "type": "rand",
+            "packet": "1230",
+            "delay": "10"
+          }
+        ]
       }
     }
   ],
@@ -3638,7 +3845,7 @@
         "inboundTag": [
           "frag-dns"
         ],
-        "outboundTag": "fragment-dns",
+        "outboundTag": "fragment1",
         "type": "field"
       },
       {
@@ -3679,9 +3886,32 @@
         "type": "field"
       },
       {
+        "outboundTag": "udp-noisesv4",
+        "network": "udp",
+        "ip": [
+          "0.0.0.0/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "udp-noisesv6",
+        "network": "udp",
+        "ip": [
+          "::/0"
+        ],
+        "port": 443,
+        "type": "field"
+      },
+      {
+        "outboundTag": "direct",
+        "network": "udp",
+        "type": "field"
+      },
+      {
         "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
+        "network": "tcp"
       }
     ],
     "balancers": [
@@ -3704,6 +3934,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C2 IRANWORKER 2025-08-09"
+  "remarks": "#1 WORKER7.TLS 2025-08-05"
 }
 ]
