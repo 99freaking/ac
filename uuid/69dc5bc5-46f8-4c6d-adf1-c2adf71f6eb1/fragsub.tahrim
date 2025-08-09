@@ -1,0 +1,146 @@
+{
+	"remarks": "Tahrim Shekan",
+	"log": {
+	  "access": "",
+	  "error": "",
+	  "loglevel": "warning"
+	},
+	"dns" : {
+		"hosts" : {
+        "free.shecan.ir": [
+          "185.51.200.2",
+          "178.22.122.100"
+        ]
+		},
+		"servers" : [
+			"https://free.shecan.ir/dns-query"
+		],
+		"queryStrategy": "UseIP"
+	  },
+	"inbounds": [
+	  {
+		"tag": "socks",
+		"port": 10808,
+		"listen": "127.0.0.1",
+		"protocol": "socks",
+		"sniffing": {
+		  "enabled": true,
+		  "routeOnly": true,
+		  "destOverride": [
+			"http",
+			"tls"
+		  ]
+		},
+		"settings": {
+		  "auth": "noauth",
+		  "udp": true,
+		  "allowTransparent": false
+		}
+	  },
+	  {
+		"listen": "127.0.0.1",
+		"port": 10853,
+		"protocol": "dokodemo-door",
+		"settings": {
+		  "address": "1.1.1.1",
+		  "network": "tcp,udp",
+		  "port": 53
+		},
+		"tag": "dns-in"
+	  }
+	],
+	"outbounds": [
+	  {
+		"tag": "direct",
+		"protocol": "freedom",
+		"settings": {
+        "domainStrategy": "UseIP"
+      	}
+	  },
+	  {
+		"tag": "block",
+		"protocol": "blackhole",
+		"settings": {
+		  "response": {
+			"type": "http"
+		  }
+		}
+	  },
+	  {
+		"protocol": "dns",
+		"tag": "dns-out"
+	  },
+      {
+        "protocol": "vless",
+        "tag": "fakeproxy-out",
+        "domainStrategy": "",
+        "settings": {
+          "vnext": [
+            {
+              "address": "google.com",
+              "port": 443,
+              "users": [
+                {
+                  "encryption": "none",
+                  "flow": "",
+                  "id": "UUID",
+                  "level": 8,
+                  "security": "auto"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "allowInsecure": false,
+            "alpn": ["h2", "http/1.1"],
+            "fingerprint": "randomized",
+            "publicKey": "",
+            "serverName": "google.com",
+            "shortId": "",
+            "show": false,
+            "spiderX": ""
+          },
+          "wsSettings": {
+            "headers": {
+              "Host": "google.com"
+            },
+            "path": "/"
+          }
+        },
+        "mux": {
+          "concurrency": 8,
+          "enabled": false
+        }
+        }
+	],
+	"routing": {
+	  "domainStrategy": "AsIs",
+	  "rules": [
+		{
+			"inboundTag": [
+			  "dns-in"
+			],
+			"outboundTag": "dns-out",
+			"type": "field"
+		},
+		{
+			"inboundTag": [
+				"socks"
+			],
+			"port": "53",
+			"outboundTag": "dns-out",
+			"type": "field"
+		},
+        {
+            "outboundTag": "direct",
+            "port": "0-65535",
+            "type": "field"
+        }
+	  ]
+	}
+  }
+  
