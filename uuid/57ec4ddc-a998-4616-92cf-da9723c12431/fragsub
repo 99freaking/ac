@@ -1687,7 +1687,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.143.141",
+            "address": "193.151.150.227",
             "port": 41130,
             "users": [
               {
@@ -1835,6 +1835,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANFRAGWORKER 2025-08-05"
+  "remarks": "#C1 IRANFRAGWORKER 2025-08-09"
 }
 ]

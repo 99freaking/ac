@@ -1687,7 +1687,7 @@
       "settings": {
         "servers": [
           {
-            "address": "193.151.143.141",
+            "address": "193.151.150.227",
             "flow": "",
             "level": 8,
             "ota": false,
@@ -1831,7 +1831,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANWORKER 2025-08-05"
+  "remarks": "#C1 IRANWORKER 2025-08-09"
 }
 ,
 {
@@ -3538,7 +3538,7 @@
       "settings": {
         "servers": [
           {
-            "address": "193.151.143.141",
+            "address": "193.151.150.227",
             "flow": "",
             "level": 8,
             "ota": false,
@@ -3682,6 +3682,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C2 IRANWORKER 2025-08-05"
+  "remarks": "#C2 IRANWORKER 2025-08-09"
 }
 ]
