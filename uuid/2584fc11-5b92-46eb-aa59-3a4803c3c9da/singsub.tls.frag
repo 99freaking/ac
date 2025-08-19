@@ -88,7 +88,7 @@
             "172.67.135.149",
             "172.67.170.72",
             "172.67.73.174",
-            "188.114.98.0"
+            "188.114.96.7"
           ]
         }
       },
@@ -334,24 +334,19 @@
     {
       "type": "vless",
       "tag": "1.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -372,24 +367,19 @@
     {
       "type": "vless",
       "tag": "2.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -410,24 +400,19 @@
     {
       "type": "vless",
       "tag": "3.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -448,24 +433,19 @@
     {
       "type": "vless",
       "tag": "4.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -486,24 +466,19 @@
     {
       "type": "vless",
       "tag": "5.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -524,24 +499,19 @@
     {
       "type": "vless",
       "tag": "6.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -562,24 +532,19 @@
     {
       "type": "vless",
       "tag": "7.TLS.bitter-term-e496.sabotat455.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "a61a999c-a380-4da4-b6ca-3620eb702973",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitter-term-e496.sabotat455.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -600,24 +565,19 @@
     {
       "type": "vless",
       "tag": "8.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -638,24 +598,19 @@
     {
       "type": "vless",
       "tag": "9.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -676,24 +631,19 @@
     {
       "type": "vless",
       "tag": "10.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -714,24 +664,19 @@
     {
       "type": "vless",
       "tag": "11.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -752,24 +697,19 @@
     {
       "type": "vless",
       "tag": "12.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -790,24 +730,19 @@
     {
       "type": "vless",
       "tag": "13.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -828,24 +763,19 @@
     {
       "type": "vless",
       "tag": "14.TLS.dark-wave-2be9.fosexej7666.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "6676f435-ac23-4431-8507-d6839dba5872",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dark-wave-2be9.fosexej7666.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -866,24 +796,19 @@
     {
       "type": "vless",
       "tag": "15.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -904,24 +829,19 @@
     {
       "type": "vless",
       "tag": "16.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -942,24 +862,19 @@
     {
       "type": "vless",
       "tag": "17.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -980,24 +895,19 @@
     {
       "type": "vless",
       "tag": "18.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1018,24 +928,19 @@
     {
       "type": "vless",
       "tag": "19.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1056,24 +961,19 @@
     {
       "type": "vless",
       "tag": "20.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1094,24 +994,19 @@
     {
       "type": "vless",
       "tag": "21.TLS.empty-base-5571.fifed36752.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "098f2f20-6825-4db4-a111-6fdaa2b20fd7",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "empty-base-5571.fifed36752.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1132,24 +1027,19 @@
     {
       "type": "vless",
       "tag": "22.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1170,24 +1060,19 @@
     {
       "type": "vless",
       "tag": "23.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1208,24 +1093,19 @@
     {
       "type": "vless",
       "tag": "24.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1246,24 +1126,19 @@
     {
       "type": "vless",
       "tag": "25.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1284,24 +1159,19 @@
     {
       "type": "vless",
       "tag": "26.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1322,24 +1192,19 @@
     {
       "type": "vless",
       "tag": "27.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1360,24 +1225,19 @@
     {
       "type": "vless",
       "tag": "28.TLS.fancy-shape-a477.fimara4589.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "5f63ed52-6bca-4b8f-aab2-2549b7505241",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fancy-shape-a477.fimara4589.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1398,24 +1258,19 @@
     {
       "type": "vless",
       "tag": "29.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1436,24 +1291,19 @@
     {
       "type": "vless",
       "tag": "30.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1474,24 +1324,19 @@
     {
       "type": "vless",
       "tag": "31.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1512,24 +1357,19 @@
     {
       "type": "vless",
       "tag": "32.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1550,24 +1390,19 @@
     {
       "type": "vless",
       "tag": "33.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1588,24 +1423,19 @@
     {
       "type": "vless",
       "tag": "34.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1626,24 +1456,19 @@
     {
       "type": "vless",
       "tag": "35.TLS.holy-mud-57e1.daticah6555.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "9398d8b7-b48f-4f39-afaf-a6e10ca62f36",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "holy-mud-57e1.daticah6555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1664,24 +1489,19 @@
     {
       "type": "vless",
       "tag": "36.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1702,24 +1522,19 @@
     {
       "type": "vless",
       "tag": "37.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1740,24 +1555,19 @@
     {
       "type": "vless",
       "tag": "38.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1778,24 +1588,19 @@
     {
       "type": "vless",
       "tag": "39.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1816,24 +1621,19 @@
     {
       "type": "vless",
       "tag": "40.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1854,24 +1654,19 @@
     {
       "type": "vless",
       "tag": "41.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1892,24 +1687,19 @@
     {
       "type": "vless",
       "tag": "42.TLS.nameless-band-af9e.wawey55881.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "c14b35b0-0a10-4bd4-9b80-c32108d1076c",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-band-af9e.wawey55881.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1930,24 +1720,19 @@
     {
       "type": "vless",
       "tag": "43.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -1968,24 +1753,19 @@
     {
       "type": "vless",
       "tag": "44.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2006,24 +1786,19 @@
     {
       "type": "vless",
       "tag": "45.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2044,24 +1819,19 @@
     {
       "type": "vless",
       "tag": "46.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2082,24 +1852,19 @@
     {
       "type": "vless",
       "tag": "47.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2120,24 +1885,19 @@
     {
       "type": "vless",
       "tag": "48.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2158,24 +1918,19 @@
     {
       "type": "vless",
       "tag": "49.TLS.snowy-boat-829a.dawejoy4544.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "9f23e45d-7a02-4350-86e2-f89847612611",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "snowy-boat-829a.dawejoy4544.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2196,24 +1951,19 @@
     {
       "type": "vless",
       "tag": "50.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2234,24 +1984,19 @@
     {
       "type": "vless",
       "tag": "51.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2272,24 +2017,19 @@
     {
       "type": "vless",
       "tag": "52.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2310,24 +2050,19 @@
     {
       "type": "vless",
       "tag": "53.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2348,24 +2083,19 @@
     {
       "type": "vless",
       "tag": "54.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2386,24 +2116,19 @@
     {
       "type": "vless",
       "tag": "55.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2424,24 +2149,19 @@
     {
       "type": "vless",
       "tag": "56.TLS.still-disk-08fb.cipek2755.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "0f855166-198f-4ce0-8114-62cc1ffdef8e",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "still-disk-08fb.cipek2755.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2462,24 +2182,19 @@
     {
       "type": "vless",
       "tag": "57.TLS.worker1.gojipe5906.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2500,24 +2215,19 @@
     {
       "type": "vless",
       "tag": "58.TLS.worker1.gojipe5906.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2538,24 +2248,19 @@
     {
       "type": "vless",
       "tag": "59.TLS.worker1.gojipe5906.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2576,24 +2281,19 @@
     {
       "type": "vless",
       "tag": "60.TLS.worker1.gojipe5906.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2614,24 +2314,19 @@
     {
       "type": "vless",
       "tag": "61.TLS.worker1.gojipe5906.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2652,24 +2347,19 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker1.gojipe5906.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2690,24 +2380,19 @@
     {
       "type": "vless",
       "tag": "63.TLS.worker1.gojipe5906.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "9befeffd-08a8-4f8f-a101-17febfec4767",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.gojipe5906.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2728,24 +2413,19 @@
     {
       "type": "vless",
       "tag": "64.TLS.worker1.notoj58234.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 8443,
+      "server": "188.114.96.7",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2766,24 +2446,19 @@
     {
       "type": "vless",
       "tag": "65.TLS.worker1.notoj58234.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 8443,
+      "server": "216.24.57.250",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2804,24 +2479,19 @@
     {
       "type": "vless",
       "tag": "66.TLS.worker1.notoj58234.workers.dev",
-      "server": "104.18.12.15",
-      "server_port": 8443,
+      "server": "104.16.170.9",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2842,24 +2512,19 @@
     {
       "type": "vless",
       "tag": "67.TLS.worker1.notoj58234.workers.dev",
-      "server": "104.17.148.22",
-      "server_port": 8443,
+      "server": "104.25.150.10",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2880,24 +2545,19 @@
     {
       "type": "vless",
       "tag": "68.TLS.worker1.notoj58234.workers.dev",
-      "server": "172.64.155.209",
-      "server_port": 8443,
+      "server": "104.18.89.237",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2918,24 +2578,19 @@
     {
       "type": "vless",
       "tag": "69.TLS.worker1.notoj58234.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 8443,
+      "server": "104.24.197.20",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"
@@ -2956,24 +2611,19 @@
     {
       "type": "vless",
       "tag": "70.TLS.worker1.notoj58234.workers.dev",
-      "server": "104.18.90.237",
-      "server_port": 8443,
+      "server": "172.66.43.157",
+      "server_port": 433,
       "uuid": "fffd71ee-53c5-4b3f-a1a9-3e229da9f816",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "worker1.notoj58234.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "alpn": [
           "http/1.1"

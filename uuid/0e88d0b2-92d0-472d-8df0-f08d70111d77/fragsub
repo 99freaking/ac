@@ -97,8 +97,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -115,7 +115,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -151,7 +151,7 @@
         "vnext": [
           {
             "address": "104.16.170.9",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -168,7 +168,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -203,8 +203,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -221,7 +221,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -256,8 +256,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "172.67.199.190",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -274,7 +274,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -309,8 +309,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "172.64.155.209",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -327,7 +327,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -362,8 +362,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.197.20",
-            "port": 8443,
+            "address": "104.20.0.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -380,7 +380,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -415,8 +415,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -433,7 +433,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -468,8 +468,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
-            "port": 8443,
+            "address": "104.18.3.81",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -486,7 +486,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -521,8 +521,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
-            "port": 8443,
+            "address": "104.16.170.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -539,7 +539,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -574,8 +574,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -592,7 +592,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -627,8 +627,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -645,7 +645,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -680,8 +680,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -698,7 +698,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -733,8 +733,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.25.151.10",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -751,7 +751,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -787,7 +787,7 @@
         "vnext": [
           {
             "address": "172.64.155.209",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -804,7 +804,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -839,8 +839,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -857,7 +857,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -892,8 +892,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -910,7 +910,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -945,8 +945,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -963,7 +963,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -998,8 +998,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1016,7 +1016,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -1051,8 +1051,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1069,7 +1069,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -1104,8 +1104,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1122,7 +1122,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -1157,8 +1157,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "172.66.43.157",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1175,7 +1175,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -1210,8 +1210,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1228,7 +1228,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -1263,8 +1263,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1281,7 +1281,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -1316,8 +1316,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1334,7 +1334,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -1369,8 +1369,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.18.89.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1387,7 +1387,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -1422,8 +1422,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "8.6.112.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1440,7 +1440,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -1475,8 +1475,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "216.24.57.250",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1493,7 +1493,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -1528,8 +1528,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1546,7 +1546,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -1581,8 +1581,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "104.18.12.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1599,7 +1599,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -1634,8 +1634,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1652,7 +1652,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -1825,7 +1825,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 IRANWORKER 2025-08-10"
+  "remarks": "#1 IRANWORKER 2025-08-19"
 }
 ,
 {
@@ -1926,8 +1926,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1944,7 +1944,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -1980,7 +1980,7 @@
         "vnext": [
           {
             "address": "104.16.170.9",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -1997,7 +1997,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -2032,8 +2032,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2050,7 +2050,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -2085,8 +2085,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "172.67.199.190",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2103,7 +2103,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -2138,8 +2138,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "172.64.155.209",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2156,7 +2156,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -2191,8 +2191,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.197.20",
-            "port": 8443,
+            "address": "104.20.0.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2209,7 +2209,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -2244,8 +2244,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2262,7 +2262,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -2297,8 +2297,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
-            "port": 8443,
+            "address": "104.18.3.81",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2315,7 +2315,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -2350,8 +2350,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
-            "port": 8443,
+            "address": "104.16.170.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2368,7 +2368,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -2403,8 +2403,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2421,7 +2421,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -2456,8 +2456,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2474,7 +2474,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -2509,8 +2509,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2527,7 +2527,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -2562,8 +2562,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.25.151.10",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2580,7 +2580,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -2616,7 +2616,7 @@
         "vnext": [
           {
             "address": "172.64.155.209",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2633,7 +2633,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -2668,8 +2668,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2686,7 +2686,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -2721,8 +2721,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2739,7 +2739,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -2774,8 +2774,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2792,7 +2792,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -2827,8 +2827,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2845,7 +2845,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -2880,8 +2880,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2898,7 +2898,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -2933,8 +2933,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -2951,7 +2951,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -2986,8 +2986,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "172.66.43.157",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3004,7 +3004,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -3039,8 +3039,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3057,7 +3057,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -3092,8 +3092,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3110,7 +3110,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -3145,8 +3145,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3163,7 +3163,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -3198,8 +3198,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.18.89.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3216,7 +3216,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -3251,8 +3251,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "8.6.112.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3269,7 +3269,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -3304,8 +3304,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "216.24.57.250",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3322,7 +3322,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -3357,8 +3357,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3375,7 +3375,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -3410,8 +3410,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "104.18.12.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3428,7 +3428,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -3463,8 +3463,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3481,7 +3481,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -3660,7 +3660,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANWORKER 2025-08-10"
+  "remarks": "#C1 IRANWORKER 2025-08-19"
 }
 ,
 {
@@ -3761,8 +3761,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3779,7 +3779,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -3815,7 +3815,7 @@
         "vnext": [
           {
             "address": "104.16.170.9",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3832,7 +3832,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -3867,8 +3867,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3885,7 +3885,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "frosty-surf-d6b2.yobagov334.workers.dev",
           "show": false,
           "alpn": [
@@ -3920,8 +3920,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "172.67.199.190",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3938,7 +3938,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -3973,8 +3973,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "172.64.155.209",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -3991,7 +3991,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -4026,8 +4026,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.197.20",
-            "port": 8443,
+            "address": "104.20.0.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4044,7 +4044,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "late-resonance-102f.tefos24410.workers.dev",
           "show": false,
           "alpn": [
@@ -4079,8 +4079,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4097,7 +4097,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -4132,8 +4132,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
-            "port": 8443,
+            "address": "104.18.3.81",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4150,7 +4150,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -4185,8 +4185,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
-            "port": 8443,
+            "address": "104.16.170.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4203,7 +4203,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "small-dew-db2e.wateci1156.workers.dev",
           "show": false,
           "alpn": [
@@ -4238,8 +4238,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4256,7 +4256,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -4291,8 +4291,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4309,7 +4309,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -4344,8 +4344,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4362,7 +4362,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.xoxid22463.workers.dev",
           "show": false,
           "alpn": [
@@ -4397,8 +4397,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.25.151.10",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4415,7 +4415,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -4451,7 +4451,7 @@
         "vnext": [
           {
             "address": "172.64.155.209",
-            "port": 8443,
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4468,7 +4468,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -4503,8 +4503,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4521,7 +4521,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.yahoya44555.workers.dev",
           "show": false,
           "alpn": [
@@ -4556,8 +4556,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4574,7 +4574,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -4609,8 +4609,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4627,7 +4627,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -4662,8 +4662,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.24.197.20",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4680,7 +4680,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.ditib3776666.workers.dev",
           "show": false,
           "alpn": [
@@ -4715,8 +4715,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.18.32.47",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4733,7 +4733,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -4768,8 +4768,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4786,7 +4786,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -4821,8 +4821,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "172.66.43.157",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4839,7 +4839,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.fexepit851.workers.dev",
           "show": false,
           "alpn": [
@@ -4874,8 +4874,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4892,7 +4892,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -4927,8 +4927,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 8443,
+            "address": "104.18.13.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4945,7 +4945,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -4980,8 +4980,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
-            "port": 8443,
+            "address": "104.18.90.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -4998,7 +4998,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.gahekif304.workers.dev",
           "show": false,
           "alpn": [
@@ -5033,8 +5033,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
-            "port": 8443,
+            "address": "104.18.89.237",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5051,7 +5051,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -5086,8 +5086,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "8.6.112.64",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5104,7 +5104,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -5139,8 +5139,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
-            "port": 8443,
+            "address": "216.24.57.250",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5157,7 +5157,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.hevebam556.workers.dev",
           "show": false,
           "alpn": [
@@ -5192,8 +5192,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "104.16.171.9",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5210,7 +5210,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -5245,8 +5245,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
-            "port": 8443,
+            "address": "104.18.12.15",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5263,7 +5263,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -5298,8 +5298,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "104.18.26.90",
+            "port": 433,
             "users": [
               {
                 "encryption": "none",
@@ -5316,7 +5316,7 @@
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
-          "fingerprint": "randomized",
+          "fingerprint": "firefox",
           "serverName": "worker1.tacemor185.workers.dev",
           "show": false,
           "alpn": [
@@ -5511,6 +5511,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C2 IRANWORKER 2025-08-10"
+  "remarks": "#C2 IRANWORKER 2025-08-19"
 }
 ]
