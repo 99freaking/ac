@@ -700,11 +700,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vle.amclubsapp.dpdns.org",
@@ -733,11 +728,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "add.lobia.sbs",
@@ -768,11 +758,6 @@
       "server_port": 2083,
       "password": "d6b8011a-c725-435a-9fec-bf6d3530392c",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vle.amclubsvip.dpdns.org",
@@ -801,11 +786,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bitget1.asdasd.click",
@@ -836,11 +816,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-root.parmis.dpdns.org",
@@ -871,11 +846,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "r2.saman.dpdns.org",
@@ -909,11 +879,6 @@
       "server_port": 443,
       "password": "f282b878-8711-45a1-8c69-5564172123c1",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vpn.stupidworld.web.id",
@@ -942,11 +907,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vle.amclubsvip.dpdns.org",
@@ -975,11 +935,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ex.sue.x10.mx",
@@ -1010,11 +965,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-sun.parsa.dpdns.org",
@@ -1045,11 +995,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "privasi.turah.my.id",
@@ -1078,11 +1023,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pnm.cartononlinemigmig.xyz",
@@ -1112,11 +1052,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "E4aRpUi7Xe.GiTi4.OrG",
@@ -1143,11 +1078,6 @@
       "server_port": 8443,
       "password": "trojan",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "betashop.foz.rf.gd",
@@ -1176,11 +1106,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rangikumatsumoto.retsuunohana.ip-ddns.com",
@@ -1212,11 +1137,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xbox.fastnetpro.xyz",
@@ -1247,11 +1167,6 @@
       "server_port": 443,
       "password": "tg-fq521free",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "torjan.xn--xhq44j.eu.org",
@@ -1280,11 +1195,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "jAEGBSEM36.CFD",
@@ -1317,11 +1227,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "F1.paRsa.fiLegEar-Sg.Me",
@@ -1350,11 +1255,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "www.speedtest.net.google.com.bing.com.yahoo.com.pubgmobile.dns-dynamic.net",
@@ -1385,11 +1285,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "JdYq2881Un.GhEiChI.oRg",
@@ -1420,11 +1315,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "frieren.albedo.ddns-ip.net",
@@ -1459,11 +1349,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1495,11 +1380,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top",
@@ -1528,11 +1408,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "RcIhRfOgXf.GiTi3.OrG",
@@ -1561,11 +1436,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "orange.fullmargintraders.com",
@@ -1594,11 +1464,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "cPo.SpEeDtEsT2029.CoM",
@@ -1633,11 +1498,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "LzHeTzMuDm.GiTi3.OrG",
@@ -1666,11 +1526,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh31v6.hiddendom.shop",
@@ -1704,11 +1559,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "cc2d4.89060004.xyz",
@@ -1737,11 +1587,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh23v5.hiddendom.shop",
@@ -1772,11 +1617,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "black.fullmargintraders.com",
@@ -1805,11 +1645,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "r6.sanam.dpdns.org",
@@ -1839,11 +1674,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "yx.yushan.dpdns.org",
@@ -1872,11 +1702,6 @@
       "server_port": 443,
       "password": "yaml777",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "yaml7.ggff.net",
@@ -1905,11 +1730,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "InVinCIble.faFA20.sHop",
@@ -1941,11 +1761,6 @@
       "server_port": 443,
       "password": "slch2024",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ocost-dy.wmlefl.cc",
@@ -1977,11 +1792,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2010,11 +1820,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh31v7.hiddendom.shop",
@@ -2040,11 +1845,6 @@
       "server_port": 443,
       "password": "bpb-trojan",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "zamim340.ggff.net",
@@ -2075,11 +1875,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ovhwuxian.pai50288.uk",
@@ -2108,11 +1903,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh24v3.hiddendom.shop",
@@ -2141,11 +1931,6 @@
       "server_port": 8443,
       "password": "13253e6e-a1f7-4090-801f-a8dc2b083bef",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "inVinciBLe.fafa20.sHop",
@@ -2179,11 +1964,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "barayeiranmahsang.mahmoodchitooz.dpdns.org",
@@ -2214,11 +1994,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh23v4.hiddendom.shop",
@@ -2249,11 +2024,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "abc.vpneee.top",
@@ -2282,11 +2052,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "lease-15.access.name.ng",
@@ -2315,11 +2080,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mirror.fullmargintraders.com",
@@ -2351,11 +2111,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "foxlux.fovi.tk",
@@ -2384,11 +2139,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "KdTtBsWgDe.GiTi3.OrG",
@@ -2417,11 +2167,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rnca.majiang.pp.ua",
@@ -2450,11 +2195,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh23v2.hiddendom.shop",
@@ -2488,11 +2228,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2521,11 +2256,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2554,11 +2284,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "escoffier.changli.ddns-ip.net",
@@ -2590,11 +2315,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "banana.fullmargintraders.com",
@@ -2623,11 +2343,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "faruzan.changli.ddns-ip.net",
@@ -2659,11 +2374,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "drive.speegy.club",
@@ -2687,11 +2397,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "aZ88.MoToRbaZan.CoM",
@@ -2726,11 +2431,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750120447146.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -2761,11 +2461,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750926573911.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -2796,11 +2491,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750120514574.a1.a2.a3.a4.a5.a6.a7.a8.a9.a10.a11.a12.a13.a14.a15.a16.a17.a18.a19.a20.a21.a22.a23.a24.a25.a26.a27.a28.a29.a30.a31.a32.a33.a34.a35.a36.a37.a38.a39.a40.a41.a42.a43.a44.a45.a46.a47.a48.a49.a50.a51.a52.cdnktff.pp.ua",
@@ -2831,11 +2521,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "bpb.64kb.cc",
@@ -2866,11 +2551,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750926563683.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -2901,11 +2581,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "e.exedu.ip-ddns.com",
@@ -2936,11 +2611,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "FReedOm.paNotosU.StORe",
@@ -2972,11 +2642,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "Et3ch-007.Zed23.wEB1337.net",
@@ -3008,11 +2673,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "25700.lanpinguo.cloud-ip.biz",
@@ -3043,11 +2703,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fREE.CFDNs.oNLiNE",
@@ -3079,11 +2734,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-11.leila.dpdns.org",
@@ -3112,11 +2762,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "crolindd.dearcarlotta.cloudns.org",
@@ -3148,11 +2793,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua",
@@ -3181,11 +2821,6 @@
       "server_port": 2053,
       "password": "c4f42f64-a7cb-4bcb-874e-5088eac28576",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mAHsA.965871a.stORe",
@@ -3217,11 +2852,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vmess.yxxc.cn",
@@ -3252,11 +2882,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "MahsA2.cfFORm.sIte",
@@ -3288,11 +2913,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-08.leila.dpdns.org",
@@ -3321,11 +2941,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-10.leila.dpdns.org",
@@ -3354,11 +2969,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mAhSA.965871a.STORe",
@@ -3387,11 +2997,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "2576.papala.filegear-sg.me",
@@ -3422,11 +3027,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-09.parastoo.dpdns.org",
@@ -3455,11 +3055,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "carlotta.shoorekeeper.cloudns.org",
@@ -3489,11 +3084,6 @@
       "server_port": 443,
       "password": "Ng35283528",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "c2.validbv3528.eu.org",
@@ -3524,11 +3114,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-08.parastoo.dpdns.org",
@@ -3557,11 +3142,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-07.leila.dpdns.org",
@@ -3588,11 +3168,6 @@
       "server_port": 443,
       "password": "auto",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nameless-term-9c25.vpnconnect202020.workers.dev",
@@ -3620,11 +3195,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-07.parastoo.dpdns.org",
@@ -3653,11 +3223,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "frEEDom.MOREsH.STORe",
@@ -3689,11 +3254,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "2574.papala.filegear-sg.me",
@@ -3722,11 +3282,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-11.parastoo.dpdns.org",
@@ -3755,11 +3310,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "autumn.norjson.top",
@@ -3788,11 +3338,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-09.leila.dpdns.org",
@@ -3819,11 +3364,6 @@
       "server_port": 2053,
       "password": "100b5163-fbb8-425d-9621-44d119555aa4",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "MaHSA2.cffoRm.SitE",
@@ -3855,11 +3395,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eEeeeEE4.iran.PP.Ua",
@@ -3891,11 +3426,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "wwwwwwwwwwwww.859886.xyz",
@@ -3927,11 +3457,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750926570965.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -3962,11 +3487,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750926566507.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -3995,11 +3515,6 @@
       "server_port": 443,
       "password": "9486ff17-2481-40c7-a5c4-d0d307de2509",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "yyyyyyyyyyy.818185.xyz",
@@ -4031,11 +3546,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "tttttttttttty.818185.xyz",
@@ -4065,11 +3575,6 @@
       "server_port": 443,
       "password": "509ed9b7-8d64-4204-8ec8-6b749020ac3f",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "CcCVfGTyU.89060004.Xyz",
@@ -4101,11 +3606,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750293059309.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -4136,11 +3636,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "SsSSSSSsSSSD.890606.Xyz",
@@ -4172,11 +3667,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "1750925873250.wk.by.ktff.ssl.com.kokk.cn.cdnktff.pp.ua",
@@ -4205,11 +3695,6 @@
       "server_port": 443,
       "password": "bce0c7cb-08d1-46a7-b77b-7bff8b46252f",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "UUUUuUuuU.666461.xYz",
@@ -4241,11 +3726,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nptian.xiaotianvpn.sbs",
@@ -4274,11 +3754,6 @@
       "server_port": 443,
       "password": "13e26f64-2e0c-4461-92cd-d83294cc18f0",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dddDvvbHY7.000890604.XyZ",
@@ -4308,11 +3783,6 @@
       "server_port": 443,
       "password": "e4cbe8b8-37db-4aaa-8469-b84f34c51ebc",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "6666YHjU.777159.xYz",
@@ -4341,11 +3811,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "4444R.0890604.xyZ",
@@ -4372,11 +3837,6 @@
       "server_port": 443,
       "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XXcdVFghYUIOp.999165.xyZ",
@@ -4408,11 +3868,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "KKkkKKKkkkkKLO.999824.xYz",
@@ -4444,11 +3899,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rrRFgt6.890604.fiLeGEAR-Sg.ME",
@@ -4480,11 +3930,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "dDDDvvbHY7.000890604.xYz",
@@ -4519,11 +3964,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -4552,11 +3992,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XXCsDERT6.777159.XyZ",
@@ -4591,11 +4026,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "us.kkp.me.eu.org",
@@ -4622,11 +4052,6 @@
       "server_port": 443,
       "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "666666Y.999165.XYZ",
@@ -4656,11 +4081,6 @@
       "server_port": 443,
       "password": "a4291a2a-d62c-4eb9-ac7a-ac7355d1eda2",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "RRrFGhy7.999836.XYZ",
@@ -4690,11 +4110,6 @@
       "server_port": 443,
       "password": "f108e0e2-5f12-42b6-9e67-1b2f073ffb2b",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "CCcvfgt6.852224.dpdns.org",
@@ -4726,11 +4141,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "wWwde.00890604.xyz",
@@ -4760,11 +4170,6 @@
       "server_port": 443,
       "password": "0f7070cd-c91d-4532-a51f-56da4f0e94be",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "uuujjnmm.444752.xyz",
@@ -4794,11 +4199,6 @@
       "server_port": 443,
       "password": "0f7070cd-c91d-4532-a51f-56da4f0e94be",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "wwwsder.444682.xyz",
@@ -4833,11 +4233,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -4866,11 +4261,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "WwwWWwS.4444926.xyZ",
@@ -4902,11 +4292,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "IiIIIiiIIIiiO.459.pp.uA",
@@ -4938,11 +4323,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "SssXzAw.444652.XYZ",
@@ -4972,11 +4352,6 @@
       "server_port": 443,
       "password": "2e65577e-8fdb-4bb1-a495-96f3122099a7",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "zzzZZZZz.222769.XYZ",
@@ -5006,11 +4381,6 @@
       "server_port": 443,
       "password": "9486ff17-2481-40c7-a5c4-d0d307de2509",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "zzzzzzzzzzzzcd.818185.xyz",
@@ -5042,11 +4412,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "88uuiokj.444752.xyz",
@@ -5076,11 +4441,6 @@
       "server_port": 443,
       "password": "4b33b482-25bc-49e4-b866-878c914d945a",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xXxXxxx.890604.dPDNs.org",
@@ -5112,11 +4472,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "444RRrt5.7777155.xYZ",
@@ -5148,11 +4503,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "DdDFRt5.890602.xyZ",
@@ -5184,11 +4534,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "oo098.89060004.xyZ",
@@ -5218,11 +4563,6 @@
       "server_port": 443,
       "password": "4b33b482-25bc-49e4-b866-878c914d945a",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "44444444.HuanGShANG.DPDNs.oRG",
@@ -5254,11 +4594,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "SSssSSsssSsSsswwweR.999824.XYz",
@@ -5288,11 +4623,6 @@
       "server_port": 443,
       "password": "a7b22c05-27fd-4a76-8896-2aebaf4cf3a1",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "TttTtTYU.2032.PP.UA",
@@ -5322,11 +4652,6 @@
       "server_port": 443,
       "password": "cdec9d57-661d-456a-bbf2-b4c38e9c6711",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "DDdcVfbGHy7.444682.xyz",
@@ -5356,11 +4681,6 @@
       "server_port": 443,
       "password": "288124da-0d68-42f4-9f48-70dc4dcc55a6",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "SsXCDfR5.986986.shoP",
@@ -5392,11 +4712,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "KKkkKkKKkn.890601.XYZ",
@@ -5428,11 +4743,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eeEEEeR.666470.xYZ",
@@ -5464,11 +4774,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "gl.ccccccccccccccccccccccccccccccccccccccccccc.cc",
@@ -5500,11 +4805,6 @@
       "server_port": 443,
       "password": "13e26f64-2e0c-4461-92cd-d83294cc18f0",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "WwwDe.00890604.XyZ",
@@ -5536,11 +4836,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "25707.lanpinguo.cloud-ip.biz",
@@ -5569,11 +4864,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "verina.ccantarella.dns-dynamic.net",
@@ -5605,11 +4895,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vless1.chuyangz1.sbs",
@@ -5636,11 +4921,6 @@
       "server_port": 443,
       "password": "fa050497-fc2a-45ee-89c0-96670c4ecb65",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "Rrr4.8906004.xYZ",
@@ -5670,11 +4950,6 @@
       "server_port": 443,
       "password": "c7f423b7-ced8-43da-a9ae-e906cb4a222c",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "DdDdddDDdF.999824.Xyz",
@@ -5704,11 +4979,6 @@
       "server_port": 443,
       "password": "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ZZzzzZZ.890601.XYZ",
@@ -5740,11 +5010,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-12.parastoo.dpdns.org",
@@ -5773,11 +5038,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ghh.wsthh.site",
@@ -5806,11 +5066,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "EEeeeEeEEd.999864.xyZ",
@@ -5839,11 +5094,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XcdvfGBnHU7.0890604.XyZ",
@@ -5875,11 +5125,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xXCvVBNhJ.999836.XYz",
@@ -5909,11 +5154,6 @@
       "server_port": 443,
       "password": "288124da-0d68-42f4-9f48-70dc4dcc55a6",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rRfGty6.890606.XYz",
@@ -5945,11 +5185,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "FfFfffFFFf.000890604.Xyz",
@@ -5979,11 +5214,6 @@
       "server_port": 443,
       "password": "6757b7d6-fa32-4708-b5d1-30e3cf928b51",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ggGGGGgggGGgGggy.FReevPN2026.DpDNS.Org",
@@ -6013,11 +5243,6 @@
       "server_port": 443,
       "password": "f898ffcb-6417-4373-9640-0b66091e8206",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "q12.11890604.xyz",
@@ -6049,11 +5274,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "LlLLLlLLLLLkjh.222560.xyZ",
@@ -6083,11 +5303,6 @@
       "server_port": 443,
       "password": "3d9741da-c0e4-47cc-a5e0-f1af3d337dae",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eeeeeEE4.iRan.PP.uA",
@@ -6115,11 +5330,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ad.oldcloud.online",
@@ -6151,11 +5361,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -6187,11 +5392,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "orvps2.horsenma.net",
@@ -6220,11 +5420,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pPP0.89890604.xYZ",
@@ -6254,11 +5449,6 @@
       "server_port": 443,
       "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xxcdfR.999854.xyz",
@@ -6290,11 +5480,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -6323,11 +5508,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "EDfrT.frEEvPNatm2025.DPdNS.oRG",
@@ -6359,11 +5539,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "lgoin.persianmizban.com",
@@ -6392,11 +5567,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "spx.lindak.dpdns.org",
@@ -6427,11 +5597,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "UUHuhyYgESDfgh.UyHjhgvgFCjgujhBuILbVFDXdxM.xYZ",
@@ -6466,11 +5631,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "havvas.shohreh.dpdns.org",
@@ -6501,11 +5661,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vl.bujidao.cc",
@@ -6536,11 +5691,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ey.nazanin.dpdns.org",
@@ -6571,11 +5721,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "cantarella.yaechan.ip-ddns.com",
@@ -6607,11 +5752,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "privasi.najah.biz.id",
@@ -6640,11 +5780,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mInE.ToysBRAsheRRA.oNLiNe",
@@ -6676,11 +5811,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "hOZori.iR",
@@ -6712,11 +5842,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "is.oldcloud.online",
@@ -6745,11 +5870,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rayan-10.parastoo.dpdns.org",
@@ -6776,11 +5896,6 @@
       "server_port": 443,
       "password": "7248e825-887c-48b9-83bc-c26bc6392bf8",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XXcdvFgT.191268.xYZ",
@@ -6812,11 +5927,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fffvvbgh.222856.xyz",
@@ -6851,11 +5961,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -6884,11 +5989,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XxcvfGT678.191268.Xyz",
@@ -6918,11 +6018,6 @@
       "server_port": 443,
       "password": "512d9674-db12-44ca-a1b5-654244549b65",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XxCdvfgty.444652.xyZ",
@@ -6952,11 +6047,6 @@
       "server_port": 443,
       "password": "ffcf7ec1-3e09-4821-b3d9-b426a107b73b",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eEEfGty6.999836.XYz",
@@ -6988,11 +6078,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "matoride.gorbe.site",
@@ -7026,11 +6111,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "coco.mahmoodchitooz.dpdns.org",
@@ -7061,11 +6141,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pari.parinazz.dpdns.org",
@@ -7096,11 +6171,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "kssepa.sabzipolobamahi.dpdns.org",
@@ -7131,11 +6201,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mail.ski1plag.ir",
@@ -7168,11 +6233,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "tannaz.juveitaly.dpdns.org",
@@ -7203,11 +6263,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "edmf.aimercc.filegear-sg.me",
@@ -7236,11 +6291,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "TITanTabLOmaNAHaMRaH.IR",
@@ -7272,11 +6322,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "cdn.maviks.eu",
@@ -7303,11 +6348,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "adderall.adaspolo.co",
@@ -7341,11 +6381,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "uk1.blackismyfavorite.ir",
@@ -7377,11 +6412,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "amphetamine.shividpolo.site",
@@ -7413,11 +6443,6 @@
       "server_port": 443,
       "password": "Aimer",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "epmf.ambercc.filegear-sg.me",
@@ -7446,11 +6471,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "covh.blanku.me",
@@ -7480,11 +6500,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "oops.shalamshorba.dpdns.org",
@@ -7515,11 +6530,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh36v4.hiddendom.shop",
@@ -7550,11 +6560,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "german1trial.vpn-instagram.com",
@@ -7582,11 +6587,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "mmmmmmmmmm.857856.xyz",
@@ -7618,11 +6618,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rEDzOnE.MirAcLehEaRTbIt.ICu",
@@ -7655,11 +6650,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pqh44v2.hiddendom.shop",
@@ -7688,11 +6678,6 @@
       "server_port": 443,
       "password": "e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ttYUi.7777198.xYZ",
@@ -7722,11 +6707,6 @@
       "server_port": 443,
       "password": "11fbdd36-f418-4894-b2ed-50426a01ebcb",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "nnnnnnnnn.857856.xyz",
@@ -7756,11 +6736,6 @@
       "server_port": 443,
       "password": "e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "p09.IrAN.pP.Ua",
@@ -7792,11 +6767,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "p09.IRAN.Pp.Ua",
@@ -7825,11 +6795,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vless.caoni.nyc.mn",
@@ -7860,11 +6825,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "torless.duckdns.org",
@@ -7891,11 +6851,6 @@
       "server_port": 443,
       "password": "aTArbZ2F0E",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "uSa-vp-27.bLAzECLOUD.SITE",
@@ -7922,11 +6877,6 @@
       "server_port": 443,
       "password": "19a78eeb-d83a-4364-b095-b7dd93436320",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "CVFgTrE4.222560.XyZ",
@@ -7958,11 +6908,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "00999.20220420.pP.uA",
@@ -7992,11 +6937,6 @@
       "server_port": 443,
       "password": "J6l5CNfvA6",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "uk3333ip6.hajhesam.biz.id",
@@ -8025,11 +6965,6 @@
       "server_port": 443,
       "password": "e4cbe8b8-37db-4aaa-8469-b84f34c51ebc",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xsCdfVg.20220420.Pp.UA",
@@ -8059,11 +6994,6 @@
       "server_port": 443,
       "password": "c8eac4b7-95ba-4ce0-920d-c3279eb3b391",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "U19.7282728.Xyz",
@@ -8098,11 +7028,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "wsxcdfr5.999824.xyz",
@@ -8134,11 +7059,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -8170,11 +7090,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "3eeeee.999824.xyz",
@@ -8206,11 +7121,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -8242,11 +7152,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "3dddf.444652.xyz",
@@ -8275,11 +7180,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "OOO0987654.932.pp.uA",
@@ -8314,11 +7214,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "XSssDcVFgt.444652.XyZ",
@@ -8350,11 +7245,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -8386,11 +7276,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "33defrty6.444652.xyz",
@@ -8422,11 +7307,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eerrrty6.999824.xyz",
@@ -8458,11 +7338,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "eeedcfvg.999824.xyz",
@@ -8494,11 +7369,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -8527,11 +7397,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "pq-unitedstates2.09vpn.com",
@@ -8562,11 +7427,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "xxcdvfgty.444652.xyz",
@@ -8595,11 +7455,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "hiddifyreplace2.safavidempire.org",
@@ -8631,11 +7486,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "444rfgt6.444682.xyz",
@@ -8667,11 +7517,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "us01.sh-cloudflare.sbs",
@@ -8698,11 +7543,6 @@
       "server_port": 443,
       "password": "c8eac4b7-95ba-4ce0-920d-c3279eb3b391",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "OOo0987654.932.pP.UA",
@@ -8731,11 +7571,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "19U.7282728.xyz",
@@ -8767,11 +7602,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "rakhsh.4972616e.xyz",
@@ -8800,11 +7630,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001195.sec22org.com",
@@ -8827,11 +7652,6 @@
       "server_port": 443,
       "password": "@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven@NoForcedHeaven",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "ru2.asc-sam.ir",
@@ -8857,11 +7677,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "0926.qiang2000.link",
@@ -8890,11 +7705,6 @@
       "server_port": 443,
       "password": "6884d714-d3c4-4b49-aa20-767ea92837d6",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "icecream.955850.xyz",
@@ -8923,11 +7733,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135010072.sec21org.com",
@@ -8948,11 +7753,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135004002.sec20org.com",
@@ -8971,11 +7771,6 @@
       "server_port": 38032,
       "password": "faee6828-82e8-4716-934e-d9949caead07",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "aliyun.com",
@@ -8996,11 +7791,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "fonts.googleapis.com",
@@ -9021,11 +7811,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135001178.sec22org.com",
@@ -9046,11 +7831,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -9075,11 +7855,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "147135011033.sec21org.com",
@@ -9100,11 +7875,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "cr7.traneh.dpdns.org",
@@ -9133,11 +7903,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "what.zhonghuoxing.top",
@@ -9166,11 +7931,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "Wv2NhB0hVh.SoLiJoNiTo.CoM",
@@ -9202,11 +7962,6 @@
       "authenticated_length": true,
       "packet_encoding": "",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "glweidf.sbs",
@@ -9235,11 +7990,6 @@
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      },
       "tls": {
         "enabled": true,
         "server_name": "vpn.6662221.xyz",

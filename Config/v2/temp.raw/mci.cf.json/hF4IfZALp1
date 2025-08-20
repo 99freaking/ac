@@ -771,7 +771,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "betashop.foz.rf.gd"
           },
-          "path": "%2F"
+          "path": "/"
         },
         "sockopt": {
           "dialerProxy": "fragment1",
@@ -1225,7 +1225,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "nl1.tRojANVpN.xYZ",
+          "serverName": "soft98.ir",
           "show": false
         },
         "wsSettings": {
@@ -1982,7 +1982,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "nl1.tRojANVpN.xYZ",
+          "serverName": "soft98.ir",
           "show": false
         },
         "wsSettings": {
@@ -2728,6 +2728,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2025-08-17"
+  "remarks": "#1 MCI.CF 2025-08-20"
 }
 ]

@@ -661,12 +661,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "oXGp1+ihlfKg826H",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -676,12 +671,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -691,12 +681,7 @@
       "method": "aes-128-cfb",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -706,12 +691,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -721,12 +701,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -736,12 +711,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -751,12 +721,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -766,12 +731,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -781,12 +741,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "oXGp1+ihlfKg826H",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -796,12 +751,7 @@
       "method": "aes-256-cfb",
       "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -811,12 +761,7 @@
       "method": "aes-256-cfb",
       "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -826,12 +771,7 @@
       "method": "aes-256-cfb",
       "password": "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -841,12 +781,7 @@
       "method": "aes-256-cfb",
       "password": "TN2YqghxeFDKZfLU",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -856,12 +791,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -871,12 +801,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "OX76ndgTcyESeUnZe0r5dO",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -886,12 +811,7 @@
       "method": "aes-256-gcm",
       "password": "XKFKl2rULjIp74",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -901,12 +821,7 @@
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -916,12 +831,7 @@
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -931,12 +841,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -946,12 +851,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -961,12 +861,7 @@
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -976,12 +871,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -991,12 +881,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1006,12 +891,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "cvII85TrW6n0OGyfpHVS1u",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1021,12 +901,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1036,12 +911,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "yMX9WGPgUEcRZmlaa0YHHC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1051,12 +921,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1066,12 +931,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1081,12 +941,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "QCXDxuDlTTMD7jtgHUjIoj",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1096,12 +951,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "fDDmH4QefmWqMJ8UURZrGh",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1111,12 +961,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "LqlPI19oqnunGNSLMvdXyB",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1126,12 +971,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "d3837224ed465f00",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1141,12 +981,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "d3837224ed465f00",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1156,12 +991,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "0zyDRZ1XmNXaaCAN7KEA8a",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1171,12 +1001,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1186,12 +1011,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "afKAHp1VfRWZu91LIi9o0D",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1201,12 +1021,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "WfmxKX2FBJRU0Ie9VLIYDL",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1216,12 +1031,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "ug4Fu79SEREdFGlt2sUyT4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1231,12 +1041,7 @@
       "method": "aes-128-gcm",
       "password": "Yc2CtrIz8L",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1246,12 +1051,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "gmYDzSG6K35s8b19oY4fGz",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1261,12 +1061,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1276,12 +1071,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1291,12 +1081,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "VpKABcOpNNA0l5G2AVOmw8",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1306,12 +1091,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "oYQ8JwEldYn4KT2gfZ6eNl",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1321,12 +1101,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1336,12 +1111,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1351,12 +1121,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1366,12 +1131,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1381,12 +1141,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1396,12 +1151,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "1RWwXhwfAB5gAEozU4G2Pg",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1411,12 +1161,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1426,12 +1171,7 @@
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1441,12 +1181,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1456,12 +1191,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1471,12 +1201,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "uQS5ntVqC00sSKkeNzUiD3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1486,12 +1211,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1501,12 +1221,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1516,12 +1231,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "1RWwXhwfAB5gAEozU4G2Pg",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1531,12 +1241,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1546,12 +1251,7 @@
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1561,12 +1261,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1576,12 +1271,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1591,12 +1281,7 @@
       "method": "aes-256-gcm",
       "password": "iUB0923RBA",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1606,12 +1291,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1621,12 +1301,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1636,12 +1311,7 @@
       "method": "aes-256-gcm",
       "password": "XKFKl2rULjIp74",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1651,12 +1321,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "eSHEdJz96rqNkOCAzd5Csv",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1666,12 +1331,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1681,12 +1341,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1696,12 +1351,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1711,12 +1361,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1726,12 +1371,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1741,12 +1381,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "TjTxgBFTGHrHS6x2RVJmVN3wPco1gcJaR4hnofLBt9gGA9kG724TCAARfVxBKA1fEq5mKtqi68ugML8XVfP16EU4EtctfA5E",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1756,12 +1391,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1771,12 +1401,7 @@
       "method": "aes-256-gcm",
       "password": "faBAoD54k87UJG7",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1786,12 +1411,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "QCXDxuDlTTMD7jtgHUjIoj",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1801,12 +1421,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1816,12 +1431,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "1234",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1831,12 +1441,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1846,12 +1451,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "LI4obOEIDLzDjd7xYlhhTJ",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1861,12 +1461,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1876,12 +1471,7 @@
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1891,12 +1481,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "H5S0hvcxRi#YLmgU",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1906,12 +1491,7 @@
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1921,12 +1501,7 @@
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1936,12 +1511,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1951,12 +1521,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "xzlOqy2v6vJ0XvFTN8zIBH",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1966,12 +1531,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1981,12 +1541,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "pULZkJUnl5FB4mOQUngUKFtPfohf0cUCpOxqyRD52hy9WuHe",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -1996,12 +1551,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2011,12 +1561,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "69MUii7VDwMqh7Hz",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2026,12 +1571,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "TjTxgBFTGHrHS6x2RVJmVN3wPco1gcJaR4hnofLBt9gGA9kG724TCAARfVxBKA1fEq5mKtqi68ugML8XVfP16EU4EtctfA5E",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2041,12 +1581,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "Bog0ELmMM9DSxDdQ",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2056,12 +1591,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "u17T3BvpYaaiuW2c",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2071,12 +1601,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "W74XFALLLuw6m5IA",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2086,12 +1611,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "mps3FwmDjLrWaOVg",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2101,12 +1621,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "u17T3BvpYaaiuW2c",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2116,12 +1631,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "Nk9asglDzHzjktVzTkvhaA",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2131,12 +1641,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "mps3FwmDjLrWaOVg",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2146,12 +1651,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "W74XFALLLuw6m5IA",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2161,12 +1661,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "u17T3BvpYaaiuW2c",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2176,12 +1671,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "WJ9sgvBYdt4Sydwx",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2191,12 +1681,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2206,12 +1691,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2221,12 +1701,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2236,12 +1711,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "o_A7inN1yqeWtOTL",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2251,12 +1721,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2266,12 +1731,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2281,12 +1741,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "JIhN6rBKkaEboLNXVSv5rq",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2296,12 +1751,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "JIhN6rBKkaEboLNXVSv5rq",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2311,12 +1761,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "MDtZ$d1lcz",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2326,12 +1771,7 @@
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2341,12 +1781,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2356,12 +1791,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2371,12 +1801,7 @@
       "method": "aes-256-gcm",
       "password": "zDNVedRFPQexG9v",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2386,12 +1811,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2401,12 +1821,7 @@
       "method": "aes-256-gcm",
       "password": "FoOiGlkAA9yPEGP",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2416,12 +1831,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2431,12 +1841,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2446,12 +1851,7 @@
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2461,12 +1861,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2476,12 +1871,7 @@
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2491,12 +1881,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2506,12 +1891,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2521,12 +1901,7 @@
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2536,12 +1911,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2551,12 +1921,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2566,12 +1931,7 @@
       "method": "aes-256-gcm",
       "password": "XKFKl2rULjIp74",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2581,12 +1941,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2596,12 +1951,7 @@
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2611,12 +1961,7 @@
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2626,12 +1971,7 @@
       "method": "aes-256-gcm",
       "password": "lGqs95QkFHo2NV",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2641,12 +1981,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2656,12 +1991,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2671,12 +2001,7 @@
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2686,12 +2011,7 @@
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2701,12 +2021,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2716,12 +2031,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2731,12 +2041,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2746,12 +2051,7 @@
       "method": "aes-256-gcm",
       "password": "faBAoD54k87UJG7",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2761,12 +2061,7 @@
       "method": "aes-256-gcm",
       "password": "g5MeD6Ft3CWlJId",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2776,12 +2071,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2791,12 +2081,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2806,12 +2091,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2821,12 +2101,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2836,12 +2111,7 @@
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2851,12 +2121,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2866,12 +2131,7 @@
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2881,12 +2141,7 @@
       "method": "aes-256-gcm",
       "password": "XKFKl2rULjIp74",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2896,12 +2151,7 @@
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2911,12 +2161,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2926,12 +2171,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2941,12 +2181,7 @@
       "method": "aes-256-gcm",
       "password": "TEzjfAYq2IjtuoS",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2956,12 +2191,7 @@
       "method": "aes-256-gcm",
       "password": "PCnnH6SQSnfoS27",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2971,12 +2201,7 @@
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -2986,12 +2211,7 @@
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3001,12 +2221,7 @@
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3016,12 +2231,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3031,12 +2241,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3046,12 +2251,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3061,12 +2261,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "vZr8MlUXUihNEndqIpjDxQdSeqi37FbgoHBmQ1syy6ZjkbBn",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3076,12 +2271,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3091,12 +2281,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3106,12 +2291,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3121,12 +2301,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3136,12 +2311,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3151,12 +2321,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3166,12 +2331,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3181,12 +2341,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3196,12 +2351,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3211,12 +2361,7 @@
       "method": "aes-256-cfb",
       "password": "qYEN5HX4JKeVCdEC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3226,12 +2371,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "4a2rfixophdjffa8KVA4Aa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3241,12 +2381,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "QCXDxuDlTTMD7jtgHUjIoj",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3256,12 +2391,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3271,12 +2401,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3286,12 +2411,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3301,12 +2421,7 @@
       "method": "aes-256-cfb",
       "password": "ZET59LF6DvCC8KVt",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3316,12 +2431,7 @@
       "method": "aes-256-gcm",
       "password": "uoXctIQ4L89ykUZwn17Pn3CzNDNcZSRabCgN5hyNV7JQ",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3331,12 +2441,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3346,12 +2451,7 @@
       "method": "aes-256-cfb",
       "password": "M3t2ZEQcMGRWBjRa",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3361,12 +2461,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "CIZAAhQMKlkmW60Isq82PG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3376,12 +2471,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3391,12 +2481,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3406,12 +2491,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3421,12 +2501,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3436,12 +2511,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3451,12 +2521,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3466,12 +2531,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3481,12 +2541,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3496,12 +2551,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3511,12 +2561,7 @@
       "method": "aes-256-cfb",
       "password": "gYCYXfkUQEs2TaJQ",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3526,12 +2571,7 @@
       "method": "rc4-md5",
       "password": "14fFPrbezE3HDZzsMOr6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3541,12 +2581,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "g13S7doXar0A",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3556,12 +2591,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "lWaGPVFjmnag",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3571,12 +2601,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "9Bvkw5aupNy8",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3586,12 +2611,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "5cp9Z3iWnJZ2",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3601,12 +2621,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3616,12 +2631,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3631,12 +2641,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "Mju3ZSaa4QVk45mc",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3646,12 +2651,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "P7PqQpnyhsnzKNrm",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3661,12 +2661,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3676,12 +2671,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3691,12 +2681,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3706,12 +2691,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3721,12 +2701,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3736,12 +2711,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3751,12 +2721,7 @@
       "method": "aes-256-gcm",
       "password": "dongtaiwang.com",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3766,12 +2731,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "1RWwXhwfAB5gAEozU4G2Pg",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3781,12 +2741,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3796,12 +2751,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3811,12 +2761,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3826,12 +2771,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "US4tskJaYStBPUKvcNVkf0PVhXbsAGCNvrhbfZybtOx9u2cF",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3841,12 +2781,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3856,12 +2791,7 @@
       "method": "aes-256-gcm",
       "password": "pKEW8JPByTVTLtM",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3871,12 +2801,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3886,12 +2811,7 @@
       "method": "aes-256-gcm",
       "password": "RexnBgU7EV5ADxG",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3901,12 +2821,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3916,12 +2831,7 @@
       "method": "aes-256-gcm",
       "password": "e4FCWrgpkji3QY",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3931,12 +2841,7 @@
       "method": "aes-256-gcm",
       "password": "Y6R9pAtvxxzmGC",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3946,12 +2851,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3961,12 +2861,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "ug4Fu79SEREdFGlt2sUyT4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3976,12 +2871,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -3991,12 +2881,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "ug4Fu79SEREdFGlt2sUyT4",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4006,12 +2891,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4021,12 +2901,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4036,12 +2911,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4051,12 +2921,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4066,12 +2931,7 @@
       "method": "chacha20-ietf",
       "password": "asd123456",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4081,12 +2941,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4096,12 +2951,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4111,12 +2961,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4126,12 +2971,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4141,12 +2981,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "2EtPqn6HYjUNcHohLfUpFQwnfjCCQ5mh1mJdEMCBucuWZ9P1udkRKHnVxuo55k1KXz2Fo6jrgt18W66opty1e4bm1jzfCfBb",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4156,12 +2991,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "MNJjSgxDIWBRASsnrp2T8r",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4171,12 +3001,7 @@
       "method": "aes-256-cfb",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4186,12 +3011,7 @@
       "method": "rc4-md5",
       "password": "uYhVA160ZoSg3AI5",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4201,12 +3021,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4216,12 +3031,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4231,12 +3041,7 @@
       "method": "rc4-md5",
       "password": "uYhVA160ZoSg3AI5",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4246,12 +3051,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4261,12 +3061,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4276,12 +3071,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "cN5RRTw7vYadEdRcdIduix",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4291,12 +3081,7 @@
       "method": "chacha20-ietf",
       "password": "asd123456",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4306,12 +3091,7 @@
       "method": "2022-blake3-aes-256-gcm",
       "password": "iwVoxpUSEaEBeQK9HZap7gTAN3OGoE4rg2h9orLZvdA=:pLsOybg5ng6icspjXqxXnwfVqyGk8j29Pcpytxp7O6E=",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4321,12 +3101,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4336,12 +3111,7 @@
       "method": "chacha20-ietf-poly1305",
       "password": "f8f7aCzcPKbsF8p3",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4351,12 +3121,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4366,12 +3131,7 @@
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4381,12 +3141,7 @@
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     },
     {
       "type": "shadowsocks",
@@ -4396,12 +3151,7 @@
       "method": "2022-blake3-aes-256-gcm",
       "password": "LHA8mRPN3ZoV8QnLmjfpueT1fJKGYIzt+oGmTfqouRw=:cWb/TYEyxC9G/hoWZ25CfQhPK5jFfO2a9JJvXvdIX6c=",
       "udp_over_tcp": true,
-      "tcp_fast_open": true,
-      "multiplex": {
-        "enabled": false,
-        "protocol": "smux",
-        "max_streams": 0
-      }
+      "tcp_fast_open": true
     }
   ],
   "route": {
