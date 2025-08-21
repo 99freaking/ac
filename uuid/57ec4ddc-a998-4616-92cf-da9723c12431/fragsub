@@ -1825,7 +1825,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 IRANFRAGWORKER 2025-08-19"
+  "remarks": "#1 IRANFRAGWORKER 2025-08-21"
 }
 ,
 {
@@ -3516,7 +3516,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.137.179",
+            "address": "85.198.22.162",
             "port": 41130,
             "users": [
               {
@@ -3664,6 +3664,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANFRAGWORKER 2025-08-19"
+  "remarks": "#C1 IRANFRAGWORKER 2025-08-21"
 }
 ]

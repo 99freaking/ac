@@ -1825,7 +1825,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 IRANWORKER 2025-08-19"
+  "remarks": "#1 IRANWORKER 2025-08-21"
 }
 ,
 {
@@ -3516,7 +3516,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.137.179",
+            "address": "85.198.22.162",
             "port": 43454,
             "users": [
               {
@@ -3673,7 +3673,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 IRANWORKER 2025-08-19"
+  "remarks": "#C1 IRANWORKER 2025-08-21"
 }
 ,
 {
@@ -5380,7 +5380,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.137.179",
+            "address": "85.198.22.162",
             "port": 43454,
             "users": [
               {
@@ -5537,6 +5537,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C2 IRANWORKER 2025-08-19"
+  "remarks": "#C2 IRANWORKER 2025-08-21"
 }
 ]
