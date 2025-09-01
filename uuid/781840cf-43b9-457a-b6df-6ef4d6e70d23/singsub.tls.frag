@@ -310,7 +310,7 @@
     {
       "type": "vless",
       "tag": "1.TLS.worker1.fivon81984.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -343,7 +343,7 @@
     {
       "type": "vless",
       "tag": "2.TLS.worker1.fivon81984.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -376,7 +376,7 @@
     {
       "type": "vless",
       "tag": "3.TLS.worker1.fivon81984.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -409,7 +409,7 @@
     {
       "type": "vless",
       "tag": "4.TLS.worker1.fivon81984.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -442,7 +442,7 @@
     {
       "type": "vless",
       "tag": "5.TLS.worker1.fivon81984.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -475,7 +475,7 @@
     {
       "type": "vless",
       "tag": "6.TLS.worker1.fivon81984.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -508,7 +508,7 @@
     {
       "type": "vless",
       "tag": "7.TLS.worker1.fivon81984.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "28176867-c991-4220-a40d-8133f8e75930",
       "flow": "",
@@ -541,7 +541,7 @@
     {
       "type": "vless",
       "tag": "8.TLS.worker1.wimat94374.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -574,7 +574,7 @@
     {
       "type": "vless",
       "tag": "9.TLS.worker1.wimat94374.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -607,7 +607,7 @@
     {
       "type": "vless",
       "tag": "10.TLS.worker1.wimat94374.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -640,7 +640,7 @@
     {
       "type": "vless",
       "tag": "11.TLS.worker1.wimat94374.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -673,7 +673,7 @@
     {
       "type": "vless",
       "tag": "12.TLS.worker1.wimat94374.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -706,7 +706,7 @@
     {
       "type": "vless",
       "tag": "13.TLS.worker1.wimat94374.workers.dev",
-      "server": "104.17.148.22",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -739,7 +739,7 @@
     {
       "type": "vless",
       "tag": "14.TLS.worker1.wimat94374.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "dc88e342-62e0-4c9c-9ebd-5de1f36a4dd7",
       "flow": "",
@@ -772,7 +772,7 @@
     {
       "type": "vless",
       "tag": "15.TLS.worker1.coxiy35895.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -805,7 +805,7 @@
     {
       "type": "vless",
       "tag": "16.TLS.worker1.coxiy35895.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -838,7 +838,7 @@
     {
       "type": "vless",
       "tag": "17.TLS.worker1.coxiy35895.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -871,7 +871,7 @@
     {
       "type": "vless",
       "tag": "18.TLS.worker1.coxiy35895.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -904,7 +904,7 @@
     {
       "type": "vless",
       "tag": "19.TLS.worker1.coxiy35895.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -937,7 +937,7 @@
     {
       "type": "vless",
       "tag": "20.TLS.worker1.coxiy35895.workers.dev",
-      "server": "104.17.148.22",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -970,7 +970,7 @@
     {
       "type": "vless",
       "tag": "21.TLS.worker1.coxiy35895.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "8c32936b-177f-4eb0-85ee-814b709a4e5c",
       "flow": "",
@@ -1003,7 +1003,7 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker1.kehave6570.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1036,7 +1036,7 @@
     {
       "type": "vless",
       "tag": "23.TLS.worker1.kehave6570.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1069,7 +1069,7 @@
     {
       "type": "vless",
       "tag": "24.TLS.worker1.kehave6570.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1102,7 +1102,7 @@
     {
       "type": "vless",
       "tag": "25.TLS.worker1.kehave6570.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1135,7 +1135,7 @@
     {
       "type": "vless",
       "tag": "26.TLS.worker1.kehave6570.workers.dev",
-      "server": "104.18.89.237",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1168,7 +1168,7 @@
     {
       "type": "vless",
       "tag": "27.TLS.worker1.kehave6570.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1201,7 +1201,7 @@
     {
       "type": "vless",
       "tag": "28.TLS.worker1.kehave6570.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "570ad3ba-e90a-4da6-90d6-0b23b2043262",
       "flow": "",
@@ -1234,7 +1234,7 @@
     {
       "type": "vless",
       "tag": "29.TLS.worker1.jegakey970.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1267,7 +1267,7 @@
     {
       "type": "vless",
       "tag": "30.TLS.worker1.jegakey970.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1300,7 +1300,7 @@
     {
       "type": "vless",
       "tag": "31.TLS.worker1.jegakey970.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1333,7 +1333,7 @@
     {
       "type": "vless",
       "tag": "32.TLS.worker1.jegakey970.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1366,7 +1366,7 @@
     {
       "type": "vless",
       "tag": "33.TLS.worker1.jegakey970.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1399,7 +1399,7 @@
     {
       "type": "vless",
       "tag": "34.TLS.worker1.jegakey970.workers.dev",
-      "server": "104.18.89.237",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1432,7 +1432,7 @@
     {
       "type": "vless",
       "tag": "35.TLS.worker1.jegakey970.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "273a7ab9-a5e8-4d43-96e1-b0bc0bbb8c63",
       "flow": "",
@@ -1465,7 +1465,7 @@
     {
       "type": "vless",
       "tag": "36.TLS.worker2.kexenen3585.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1498,7 +1498,7 @@
     {
       "type": "vless",
       "tag": "37.TLS.worker2.kexenen3585.workers.dev",
-      "server": "104.17.148.22",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1531,7 +1531,7 @@
     {
       "type": "vless",
       "tag": "38.TLS.worker2.kexenen3585.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1564,7 +1564,7 @@
     {
       "type": "vless",
       "tag": "39.TLS.worker2.kexenen3585.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1597,7 +1597,7 @@
     {
       "type": "vless",
       "tag": "40.TLS.worker2.kexenen3585.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1630,7 +1630,7 @@
     {
       "type": "vless",
       "tag": "41.TLS.worker2.kexenen3585.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1663,7 +1663,7 @@
     {
       "type": "vless",
       "tag": "42.TLS.worker2.kexenen3585.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "2838a4d4-14d4-4f33-b852-bc99779f2e40",
       "flow": "",
@@ -1696,7 +1696,7 @@
     {
       "type": "vless",
       "tag": "43.TLS.worker2.mepepek404.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1729,7 +1729,7 @@
     {
       "type": "vless",
       "tag": "44.TLS.worker2.mepepek404.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1762,7 +1762,7 @@
     {
       "type": "vless",
       "tag": "45.TLS.worker2.mepepek404.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1795,7 +1795,7 @@
     {
       "type": "vless",
       "tag": "46.TLS.worker2.mepepek404.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1828,7 +1828,7 @@
     {
       "type": "vless",
       "tag": "47.TLS.worker2.mepepek404.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1861,7 +1861,7 @@
     {
       "type": "vless",
       "tag": "48.TLS.worker2.mepepek404.workers.dev",
-      "server": "172.67.73.216",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1894,7 +1894,7 @@
     {
       "type": "vless",
       "tag": "49.TLS.worker2.mepepek404.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "82a0185d-3f02-4f19-94e4-6ac1a75ed934",
       "flow": "",
@@ -1927,7 +1927,7 @@
     {
       "type": "vless",
       "tag": "50.TLS.worker2.pokena4337.workers.dev",
-      "server": "104.17.148.22",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -1960,7 +1960,7 @@
     {
       "type": "vless",
       "tag": "51.TLS.worker2.pokena4337.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -1993,7 +1993,7 @@
     {
       "type": "vless",
       "tag": "52.TLS.worker2.pokena4337.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -2026,7 +2026,7 @@
     {
       "type": "vless",
       "tag": "53.TLS.worker2.pokena4337.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -2059,7 +2059,7 @@
     {
       "type": "vless",
       "tag": "54.TLS.worker2.pokena4337.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -2092,7 +2092,7 @@
     {
       "type": "vless",
       "tag": "55.TLS.worker2.pokena4337.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -2125,7 +2125,7 @@
     {
       "type": "vless",
       "tag": "56.TLS.worker2.pokena4337.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "6092650e-574f-497b-bfb5-5829d9506524",
       "flow": "",
@@ -2158,7 +2158,7 @@
     {
       "type": "vless",
       "tag": "57.TLS.worker2.yenel5385.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2191,7 +2191,7 @@
     {
       "type": "vless",
       "tag": "58.TLS.worker2.yenel5385.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2224,7 +2224,7 @@
     {
       "type": "vless",
       "tag": "59.TLS.worker2.yenel5385.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2257,7 +2257,7 @@
     {
       "type": "vless",
       "tag": "60.TLS.worker2.yenel5385.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2290,7 +2290,7 @@
     {
       "type": "vless",
       "tag": "61.TLS.worker2.yenel5385.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2323,7 +2323,7 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker2.yenel5385.workers.dev",
-      "server": "172.67.199.190",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2356,7 +2356,7 @@
     {
       "type": "vless",
       "tag": "63.TLS.worker2.yenel5385.workers.dev",
-      "server": "104.18.22.19",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "821accb9-33fb-4e15-a10d-e3a5043103e8",
       "flow": "",
@@ -2389,7 +2389,7 @@
     {
       "type": "vless",
       "tag": "64.TLS.worker2.jawic89245.workers.dev",
-      "server": "104.18.22.19",
+      "server": "188.114.96.7",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2422,7 +2422,7 @@
     {
       "type": "vless",
       "tag": "65.TLS.worker2.jawic89245.workers.dev",
-      "server": "172.67.199.190",
+      "server": "104.18.90.237",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2455,7 +2455,7 @@
     {
       "type": "vless",
       "tag": "66.TLS.worker2.jawic89245.workers.dev",
-      "server": "172.66.43.157",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2488,7 +2488,7 @@
     {
       "type": "vless",
       "tag": "67.TLS.worker2.jawic89245.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.12.15",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2521,7 +2521,7 @@
     {
       "type": "vless",
       "tag": "68.TLS.worker2.jawic89245.workers.dev",
-      "server": "104.17.148.22",
+      "server": "104.20.0.64",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2554,7 +2554,7 @@
     {
       "type": "vless",
       "tag": "69.TLS.worker2.jawic89245.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",
@@ -2587,7 +2587,7 @@
     {
       "type": "vless",
       "tag": "70.TLS.worker2.jawic89245.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.25.151.10",
       "server_port": 443,
       "uuid": "7a9d70f4-2096-4763-990f-a42f7285fafa",
       "flow": "",

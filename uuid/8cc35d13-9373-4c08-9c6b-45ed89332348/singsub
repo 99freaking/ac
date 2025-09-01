@@ -430,7 +430,7 @@
     {
       "type": "vless",
       "tag": "1.WS.worker1.homipap3587.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -438,7 +438,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -450,7 +450,7 @@
     {
       "type": "vless",
       "tag": "2.WS.worker1.homipap3587.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -458,7 +458,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -470,7 +470,7 @@
     {
       "type": "vless",
       "tag": "3.WS.worker1.homipap3587.workers.dev",
-      "server": "188.114.97.7",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -478,7 +478,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -490,7 +490,7 @@
     {
       "type": "vless",
       "tag": "4.WS.worker1.homipap3587.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -498,7 +498,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -510,7 +510,7 @@
     {
       "type": "vless",
       "tag": "5.WS.worker1.homipap3587.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -518,7 +518,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -530,7 +530,7 @@
     {
       "type": "vless",
       "tag": "6.WS.worker1.homipap3587.workers.dev",
-      "server": "104.16.170.9",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -538,7 +538,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -550,7 +550,7 @@
     {
       "type": "vless",
       "tag": "7.WS.worker1.homipap3587.workers.dev",
-      "server": "104.18.32.47",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -558,7 +558,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/fwLeV2hbHJGcnSoD",
+        "path": "/9J1c5WwvcOnbTSUW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.homipap3587.workers.dev"
@@ -570,7 +570,7 @@
     {
       "type": "vless",
       "tag": "8.WS.worker1.xicara9148.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -578,7 +578,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -590,7 +590,7 @@
     {
       "type": "vless",
       "tag": "9.WS.worker1.xicara9148.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -598,7 +598,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -610,7 +610,7 @@
     {
       "type": "vless",
       "tag": "10.WS.worker1.xicara9148.workers.dev",
-      "server": "172.67.73.216",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -618,7 +618,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -630,7 +630,7 @@
     {
       "type": "vless",
       "tag": "11.WS.worker1.xicara9148.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -638,7 +638,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -658,7 +658,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -670,7 +670,7 @@
     {
       "type": "vless",
       "tag": "13.WS.worker1.xicara9148.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -678,7 +678,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -690,7 +690,7 @@
     {
       "type": "vless",
       "tag": "14.WS.worker1.xicara9148.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -698,7 +698,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/BJf1xii9dOV0JKvb",
+        "path": "/LTnhGjWT6HoSzo6y",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.xicara9148.workers.dev"
@@ -710,7 +710,7 @@
     {
       "type": "vless",
       "tag": "15.WS.worker1.cavow47338.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -718,7 +718,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -730,7 +730,7 @@
     {
       "type": "vless",
       "tag": "16.WS.worker1.cavow47338.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -738,7 +738,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -750,7 +750,7 @@
     {
       "type": "vless",
       "tag": "17.WS.worker1.cavow47338.workers.dev",
-      "server": "104.16.170.9",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -758,7 +758,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -770,7 +770,7 @@
     {
       "type": "vless",
       "tag": "18.WS.worker1.cavow47338.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -778,7 +778,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -790,7 +790,7 @@
     {
       "type": "vless",
       "tag": "19.WS.worker1.cavow47338.workers.dev",
-      "server": "216.24.57.250",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -798,7 +798,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -810,7 +810,7 @@
     {
       "type": "vless",
       "tag": "20.WS.worker1.cavow47338.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -818,7 +818,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -830,7 +830,7 @@
     {
       "type": "vless",
       "tag": "21.WS.worker1.cavow47338.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -838,7 +838,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/opM4RbFNHk9i6TUz",
+        "path": "/wyTqhoLe2KOdLYYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.cavow47338.workers.dev"
@@ -850,7 +850,7 @@
     {
       "type": "vless",
       "tag": "22.WS.worker1.jiyaho8345.workers.dev",
-      "server": "104.18.89.237",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -858,7 +858,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -870,7 +870,7 @@
     {
       "type": "vless",
       "tag": "23.WS.worker1.jiyaho8345.workers.dev",
-      "server": "188.114.97.7",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -878,7 +878,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -890,7 +890,7 @@
     {
       "type": "vless",
       "tag": "24.WS.worker1.jiyaho8345.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -898,7 +898,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -910,7 +910,7 @@
     {
       "type": "vless",
       "tag": "25.WS.worker1.jiyaho8345.workers.dev",
-      "server": "104.16.170.9",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -918,7 +918,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -930,7 +930,7 @@
     {
       "type": "vless",
       "tag": "26.WS.worker1.jiyaho8345.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -938,7 +938,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -950,7 +950,7 @@
     {
       "type": "vless",
       "tag": "27.WS.worker1.jiyaho8345.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -958,7 +958,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -978,7 +978,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/k5a3o64uLcLeb0qA",
+        "path": "/PhNBa9oigyKuQiWn",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker1.jiyaho8345.workers.dev"
@@ -990,7 +990,7 @@
     {
       "type": "vless",
       "tag": "29.WS.worker2.kogefed644.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -998,7 +998,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1010,7 +1010,7 @@
     {
       "type": "vless",
       "tag": "30.WS.worker2.kogefed644.workers.dev",
-      "server": "104.18.32.47",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1018,7 +1018,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1030,7 +1030,7 @@
     {
       "type": "vless",
       "tag": "31.WS.worker2.kogefed644.workers.dev",
-      "server": "216.24.57.250",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1038,7 +1038,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1050,7 +1050,7 @@
     {
       "type": "vless",
       "tag": "32.WS.worker2.kogefed644.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1058,7 +1058,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1070,7 +1070,7 @@
     {
       "type": "vless",
       "tag": "33.WS.worker2.kogefed644.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1078,7 +1078,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1090,7 +1090,7 @@
     {
       "type": "vless",
       "tag": "34.WS.worker2.kogefed644.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1098,7 +1098,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1110,7 +1110,7 @@
     {
       "type": "vless",
       "tag": "35.WS.worker2.kogefed644.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -1118,7 +1118,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/0rBHmtaHofWMkYVe",
+        "path": "/c91yzrIMWCBwy9Tj",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.kogefed644.workers.dev"
@@ -1130,7 +1130,7 @@
     {
       "type": "vless",
       "tag": "36.WS.worker2.laxasix948.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1138,7 +1138,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1150,7 +1150,7 @@
     {
       "type": "vless",
       "tag": "37.WS.worker2.laxasix948.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1158,7 +1158,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1170,7 +1170,7 @@
     {
       "type": "vless",
       "tag": "38.WS.worker2.laxasix948.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1178,7 +1178,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1190,7 +1190,7 @@
     {
       "type": "vless",
       "tag": "39.WS.worker2.laxasix948.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1198,7 +1198,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1210,7 +1210,7 @@
     {
       "type": "vless",
       "tag": "40.WS.worker2.laxasix948.workers.dev",
-      "server": "172.67.73.216",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1218,7 +1218,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1230,7 +1230,7 @@
     {
       "type": "vless",
       "tag": "41.WS.worker2.laxasix948.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1238,7 +1238,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1250,7 +1250,7 @@
     {
       "type": "vless",
       "tag": "42.WS.worker2.laxasix948.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -1258,7 +1258,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/49L8SHuDRYnLde9k",
+        "path": "/pr08PvH0gyklrwV0",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.laxasix948.workers.dev"
@@ -1278,7 +1278,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1290,7 +1290,7 @@
     {
       "type": "vless",
       "tag": "44.WS.worker2.tixid15058.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1298,7 +1298,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1310,7 +1310,7 @@
     {
       "type": "vless",
       "tag": "45.WS.worker2.tixid15058.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1318,7 +1318,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1330,7 +1330,7 @@
     {
       "type": "vless",
       "tag": "46.WS.worker2.tixid15058.workers.dev",
-      "server": "104.18.89.237",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1338,7 +1338,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1350,7 +1350,7 @@
     {
       "type": "vless",
       "tag": "47.WS.worker2.tixid15058.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1358,7 +1358,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1370,7 +1370,7 @@
     {
       "type": "vless",
       "tag": "48.WS.worker2.tixid15058.workers.dev",
-      "server": "104.18.32.47",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1378,7 +1378,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1390,7 +1390,7 @@
     {
       "type": "vless",
       "tag": "49.WS.worker2.tixid15058.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -1398,7 +1398,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/5mosVAYHnEywlivJ",
+        "path": "/PQJPcJ8CF92ewRWh",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.tixid15058.workers.dev"
@@ -1410,7 +1410,7 @@
     {
       "type": "vless",
       "tag": "50.WS.worker2.bowixa2615.workers.dev",
-      "server": "104.16.170.9",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1418,7 +1418,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1438,7 +1438,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1450,7 +1450,7 @@
     {
       "type": "vless",
       "tag": "52.WS.worker2.bowixa2615.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1458,7 +1458,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1470,7 +1470,7 @@
     {
       "type": "vless",
       "tag": "53.WS.worker2.bowixa2615.workers.dev",
-      "server": "104.18.32.47",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1478,7 +1478,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1490,7 +1490,7 @@
     {
       "type": "vless",
       "tag": "54.WS.worker2.bowixa2615.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1498,7 +1498,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1510,7 +1510,7 @@
     {
       "type": "vless",
       "tag": "55.WS.worker2.bowixa2615.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1518,7 +1518,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1530,7 +1530,7 @@
     {
       "type": "vless",
       "tag": "56.WS.worker2.bowixa2615.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -1538,7 +1538,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/KaKxmhnrvAulUqoG",
+        "path": "/wjN0439tYBHTt1xT",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.bowixa2615.workers.dev"
@@ -1550,7 +1550,7 @@
     {
       "type": "vless",
       "tag": "57.WS.worker2.gemoxax771.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1558,7 +1558,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1570,7 +1570,7 @@
     {
       "type": "vless",
       "tag": "58.WS.worker2.gemoxax771.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1578,7 +1578,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1590,7 +1590,7 @@
     {
       "type": "vless",
       "tag": "59.WS.worker2.gemoxax771.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1598,7 +1598,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1610,7 +1610,7 @@
     {
       "type": "vless",
       "tag": "60.WS.worker2.gemoxax771.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1618,7 +1618,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1630,7 +1630,7 @@
     {
       "type": "vless",
       "tag": "61.WS.worker2.gemoxax771.workers.dev",
-      "server": "104.18.32.47",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1638,7 +1638,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1650,7 +1650,7 @@
     {
       "type": "vless",
       "tag": "62.WS.worker2.gemoxax771.workers.dev",
-      "server": "172.67.73.216",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -1658,7 +1658,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1678,7 +1678,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/xZUWL4Qg5BtxAEqd",
+        "path": "/B0YyDZPYQ302RZcM",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gemoxax771.workers.dev"
@@ -1690,7 +1690,7 @@
     {
       "type": "vless",
       "tag": "64.WS.worker2.gogimi1942.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.26.14.85",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1698,7 +1698,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1710,7 +1710,7 @@
     {
       "type": "vless",
       "tag": "65.WS.worker2.gogimi1942.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.32.47",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1718,7 +1718,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1730,7 +1730,7 @@
     {
       "type": "vless",
       "tag": "66.WS.worker2.gogimi1942.workers.dev",
-      "server": "172.67.73.216",
+      "server": "188.114.97.7",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1738,7 +1738,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1750,7 +1750,7 @@
     {
       "type": "vless",
       "tag": "67.WS.worker2.gogimi1942.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.13.15",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1758,7 +1758,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1770,7 +1770,7 @@
     {
       "type": "vless",
       "tag": "68.WS.worker2.gogimi1942.workers.dev",
-      "server": "104.18.32.47",
+      "server": "172.67.73.216",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1778,7 +1778,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1790,7 +1790,7 @@
     {
       "type": "vless",
       "tag": "69.WS.worker2.gogimi1942.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.66.43.157",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1798,7 +1798,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1810,7 +1810,7 @@
     {
       "type": "vless",
       "tag": "70.WS.worker2.gogimi1942.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.89.237",
       "server_port": 80,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -1818,7 +1818,7 @@
       "tcp_fast_open": true,
       "transport": {
         "type": "ws",
-        "path": "/atYHrZn1GgEY5kS8",
+        "path": "/20UYXE1cDBE6ErEW",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker2.gogimi1942.workers.dev"
@@ -1830,7 +1830,7 @@
     {
       "type": "vless",
       "tag": "71.TLS.worker1.homipap3587.workers.dev",
-      "server": "104.16.170.9",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -1862,7 +1862,7 @@
     {
       "type": "vless",
       "tag": "72.TLS.worker1.homipap3587.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -1894,7 +1894,7 @@
     {
       "type": "vless",
       "tag": "73.TLS.worker1.homipap3587.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -1990,7 +1990,7 @@
     {
       "type": "vless",
       "tag": "76.TLS.worker1.homipap3587.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -2022,7 +2022,7 @@
     {
       "type": "vless",
       "tag": "77.TLS.worker1.homipap3587.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "0b05ac05-691b-45ca-a15e-be453e43f4ab",
       "flow": "",
@@ -2054,7 +2054,7 @@
     {
       "type": "vless",
       "tag": "78.TLS.worker1.xicara9148.workers.dev",
-      "server": "104.18.32.47",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2086,7 +2086,7 @@
     {
       "type": "vless",
       "tag": "79.TLS.worker1.xicara9148.workers.dev",
-      "server": "188.114.97.7",
+      "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2118,7 +2118,7 @@
     {
       "type": "vless",
       "tag": "80.TLS.worker1.xicara9148.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2150,7 +2150,7 @@
     {
       "type": "vless",
       "tag": "81.TLS.worker1.xicara9148.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2182,7 +2182,7 @@
     {
       "type": "vless",
       "tag": "82.TLS.worker1.xicara9148.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2214,7 +2214,7 @@
     {
       "type": "vless",
       "tag": "83.TLS.worker1.xicara9148.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2246,7 +2246,7 @@
     {
       "type": "vless",
       "tag": "84.TLS.worker1.xicara9148.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "b3fb80d5-d028-410e-8f5d-cd443f6edfe0",
       "flow": "",
@@ -2278,102 +2278,6 @@
     {
       "type": "vless",
       "tag": "85.TLS.worker1.cavow47338.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 443,
-      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.cavow47338.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.cavow47338.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "86.TLS.worker1.cavow47338.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.cavow47338.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.cavow47338.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "87.TLS.worker1.cavow47338.workers.dev",
-      "server": "104.25.150.10",
-      "server_port": 443,
-      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.cavow47338.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.cavow47338.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "88.TLS.worker1.cavow47338.workers.dev",
       "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
@@ -2405,8 +2309,104 @@
     },
     {
       "type": "vless",
-      "tag": "89.TLS.worker1.cavow47338.workers.dev",
+      "tag": "86.TLS.worker1.cavow47338.workers.dev",
+      "server": "104.26.14.85",
+      "server_port": 443,
+      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.cavow47338.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.cavow47338.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "87.TLS.worker1.cavow47338.workers.dev",
       "server": "188.114.97.7",
+      "server_port": 443,
+      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.cavow47338.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.cavow47338.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "88.TLS.worker1.cavow47338.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.cavow47338.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.cavow47338.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "89.TLS.worker1.cavow47338.workers.dev",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -2438,7 +2438,7 @@
     {
       "type": "vless",
       "tag": "90.TLS.worker1.cavow47338.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -2470,7 +2470,7 @@
     {
       "type": "vless",
       "tag": "91.TLS.worker1.cavow47338.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "8307feac-c197-41e1-be66-2b47aaf4dfb4",
       "flow": "",
@@ -2502,7 +2502,7 @@
     {
       "type": "vless",
       "tag": "92.TLS.worker1.jiyaho8345.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -2534,70 +2534,6 @@
     {
       "type": "vless",
       "tag": "93.TLS.worker1.jiyaho8345.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 443,
-      "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.jiyaho8345.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.jiyaho8345.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "94.TLS.worker1.jiyaho8345.workers.dev",
-      "server": "104.16.170.9",
-      "server_port": 443,
-      "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.jiyaho8345.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.jiyaho8345.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "95.TLS.worker1.jiyaho8345.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
@@ -2629,7 +2565,39 @@
     },
     {
       "type": "vless",
-      "tag": "96.TLS.worker1.jiyaho8345.workers.dev",
+      "tag": "94.TLS.worker1.jiyaho8345.workers.dev",
+      "server": "104.18.13.15",
+      "server_port": 443,
+      "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.jiyaho8345.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.jiyaho8345.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "95.TLS.worker1.jiyaho8345.workers.dev",
       "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
@@ -2661,8 +2629,40 @@
     },
     {
       "type": "vless",
+      "tag": "96.TLS.worker1.jiyaho8345.workers.dev",
+      "server": "104.18.89.237",
+      "server_port": 443,
+      "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.jiyaho8345.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.jiyaho8345.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "97.TLS.worker1.jiyaho8345.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "652cfc83-8989-406b-b8fc-ec14d9e2ffda",
       "flow": "",
@@ -2726,7 +2726,7 @@
     {
       "type": "vless",
       "tag": "99.TLS.worker2.kogefed644.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2758,7 +2758,7 @@
     {
       "type": "vless",
       "tag": "100.TLS.worker2.kogefed644.workers.dev",
-      "server": "104.18.32.47",
+      "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2790,7 +2790,7 @@
     {
       "type": "vless",
       "tag": "101.TLS.worker2.kogefed644.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2822,7 +2822,7 @@
     {
       "type": "vless",
       "tag": "102.TLS.worker2.kogefed644.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2854,7 +2854,7 @@
     {
       "type": "vless",
       "tag": "103.TLS.worker2.kogefed644.workers.dev",
-      "server": "104.25.150.10",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2886,7 +2886,7 @@
     {
       "type": "vless",
       "tag": "104.TLS.worker2.kogefed644.workers.dev",
-      "server": "172.67.73.216",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2918,7 +2918,7 @@
     {
       "type": "vless",
       "tag": "105.TLS.worker2.kogefed644.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "fb30f42f-f4a7-4905-a32a-30137d130bdb",
       "flow": "",
@@ -2950,7 +2950,7 @@
     {
       "type": "vless",
       "tag": "106.TLS.worker2.laxasix948.workers.dev",
-      "server": "104.25.150.10",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -2982,7 +2982,7 @@
     {
       "type": "vless",
       "tag": "107.TLS.worker2.laxasix948.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -3014,7 +3014,7 @@
     {
       "type": "vless",
       "tag": "108.TLS.worker2.laxasix948.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
       "flow": "",
@@ -3046,102 +3046,6 @@
     {
       "type": "vless",
       "tag": "109.TLS.worker2.laxasix948.workers.dev",
-      "server": "188.114.97.7",
-      "server_port": 443,
-      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.laxasix948.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.laxasix948.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "110.TLS.worker2.laxasix948.workers.dev",
-      "server": "104.16.170.9",
-      "server_port": 443,
-      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.laxasix948.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.laxasix948.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "111.TLS.worker2.laxasix948.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.laxasix948.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.laxasix948.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "112.TLS.worker2.laxasix948.workers.dev",
       "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
@@ -3173,8 +3077,104 @@
     },
     {
       "type": "vless",
-      "tag": "113.TLS.worker2.tixid15058.workers.dev",
+      "tag": "110.TLS.worker2.laxasix948.workers.dev",
       "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.laxasix948.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.laxasix948.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "111.TLS.worker2.laxasix948.workers.dev",
+      "server": "104.18.89.237",
+      "server_port": 443,
+      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.laxasix948.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.laxasix948.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "112.TLS.worker2.laxasix948.workers.dev",
+      "server": "104.26.14.85",
+      "server_port": 443,
+      "uuid": "37000957-cd25-464d-b0a2-ebb7995cabf9",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.laxasix948.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.laxasix948.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "113.TLS.worker2.tixid15058.workers.dev",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3206,7 +3206,7 @@
     {
       "type": "vless",
       "tag": "114.TLS.worker2.tixid15058.workers.dev",
-      "server": "188.114.97.7",
+      "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3238,7 +3238,7 @@
     {
       "type": "vless",
       "tag": "115.TLS.worker2.tixid15058.workers.dev",
-      "server": "104.16.170.9",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3302,7 +3302,7 @@
     {
       "type": "vless",
       "tag": "117.TLS.worker2.tixid15058.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3334,7 +3334,7 @@
     {
       "type": "vless",
       "tag": "118.TLS.worker2.tixid15058.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3366,7 +3366,7 @@
     {
       "type": "vless",
       "tag": "119.TLS.worker2.tixid15058.workers.dev",
-      "server": "216.24.57.250",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "fcf34dfd-aa1d-4d51-af3b-7c7062103f3b",
       "flow": "",
@@ -3398,7 +3398,7 @@
     {
       "type": "vless",
       "tag": "120.TLS.worker2.bowixa2615.workers.dev",
-      "server": "188.114.97.7",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3430,7 +3430,7 @@
     {
       "type": "vless",
       "tag": "121.TLS.worker2.bowixa2615.workers.dev",
-      "server": "104.16.170.9",
+      "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3462,7 +3462,7 @@
     {
       "type": "vless",
       "tag": "122.TLS.worker2.bowixa2615.workers.dev",
-      "server": "104.18.89.237",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3494,7 +3494,7 @@
     {
       "type": "vless",
       "tag": "123.TLS.worker2.bowixa2615.workers.dev",
-      "server": "104.25.150.10",
+      "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3526,7 +3526,7 @@
     {
       "type": "vless",
       "tag": "124.TLS.worker2.bowixa2615.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3558,7 +3558,7 @@
     {
       "type": "vless",
       "tag": "125.TLS.worker2.bowixa2615.workers.dev",
-      "server": "172.67.73.216",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3590,7 +3590,7 @@
     {
       "type": "vless",
       "tag": "126.TLS.worker2.bowixa2615.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.13.15",
       "server_port": 443,
       "uuid": "1b251070-dfbe-4f2e-8d18-29ea26d48565",
       "flow": "",
@@ -3622,134 +3622,6 @@
     {
       "type": "vless",
       "tag": "127.TLS.worker2.gemoxax771.workers.dev",
-      "server": "216.24.57.250",
-      "server_port": 443,
-      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.gemoxax771.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.gemoxax771.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "128.TLS.worker2.gemoxax771.workers.dev",
-      "server": "104.25.150.10",
-      "server_port": 443,
-      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.gemoxax771.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.gemoxax771.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "129.TLS.worker2.gemoxax771.workers.dev",
-      "server": "104.18.89.237",
-      "server_port": 443,
-      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.gemoxax771.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.gemoxax771.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "130.TLS.worker2.gemoxax771.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.gemoxax771.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.gemoxax771.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "131.TLS.worker2.gemoxax771.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
@@ -3781,8 +3653,136 @@
     },
     {
       "type": "vless",
+      "tag": "128.TLS.worker2.gemoxax771.workers.dev",
+      "server": "104.18.13.15",
+      "server_port": 443,
+      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gemoxax771.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gemoxax771.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "129.TLS.worker2.gemoxax771.workers.dev",
+      "server": "172.66.43.157",
+      "server_port": 443,
+      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gemoxax771.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gemoxax771.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "130.TLS.worker2.gemoxax771.workers.dev",
+      "server": "104.18.89.237",
+      "server_port": 443,
+      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gemoxax771.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gemoxax771.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "131.TLS.worker2.gemoxax771.workers.dev",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gemoxax771.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gemoxax771.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "132.TLS.worker2.gemoxax771.workers.dev",
-      "server": "104.16.170.9",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "ba25e353-4aec-4be1-bd91-57c0f9704087",
       "flow": "",
@@ -3846,7 +3846,7 @@
     {
       "type": "vless",
       "tag": "134.TLS.worker2.gogimi1942.workers.dev",
-      "server": "172.67.73.216",
+      "server": "104.18.89.237",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -3878,38 +3878,6 @@
     {
       "type": "vless",
       "tag": "135.TLS.worker2.gogimi1942.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.gogimi1942.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ]
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.gogimi1942.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "136.TLS.worker2.gogimi1942.workers.dev",
       "server": "188.114.97.7",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
@@ -3941,8 +3909,40 @@
     },
     {
       "type": "vless",
+      "tag": "136.TLS.worker2.gogimi1942.workers.dev",
+      "server": "104.18.13.15",
+      "server_port": 443,
+      "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gogimi1942.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ]
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gogimi1942.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "137.TLS.worker2.gogimi1942.workers.dev",
-      "server": "104.16.170.9",
+      "server": "172.66.43.157",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -3974,7 +3974,7 @@
     {
       "type": "vless",
       "tag": "138.TLS.worker2.gogimi1942.workers.dev",
-      "server": "104.25.150.10",
+      "server": "104.26.14.85",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -4006,7 +4006,7 @@
     {
       "type": "vless",
       "tag": "139.TLS.worker2.gogimi1942.workers.dev",
-      "server": "216.24.57.250",
+      "server": "104.18.32.47",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
@@ -4038,7 +4038,7 @@
     {
       "type": "vless",
       "tag": "140.TLS.worker2.gogimi1942.workers.dev",
-      "server": "104.18.89.237",
+      "server": "172.67.73.216",
       "server_port": 443,
       "uuid": "72dc92c0-fb97-4e04-89da-95898e47a187",
       "flow": "",
