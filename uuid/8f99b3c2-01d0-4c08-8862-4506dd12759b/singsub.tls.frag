@@ -38,8 +38,7 @@
       },
       {
         "type": "https",
-        "server": "dns.cloudflare.com",
-        "domain_resolver": "hosts",
+        "server": "8.8.8.8",
         "tag": "dns-frag",
         "tls": {
           "enabled": true,
@@ -69,30 +68,6 @@
         }
       },
       {
-        "type": "hosts",
-        "tag": "hosts",
-        "predefined": {
-          "dns.cloudflare.com": [
-            "104.16.219.230",
-            "104.16.250.250",
-            "104.17.147.22",
-            "104.17.42.10",
-            "104.17.88.212",
-            "104.18.10.128",
-            "104.19.250.20",
-            "104.20.9.79",
-            "104.21.63.78",
-            "104.26.15.85",
-            "162.159.130.234",
-            "162.159.133.234",
-            "172.67.135.149",
-            "172.67.170.72",
-            "172.67.73.174",
-            "188.114.96.7"
-          ]
-        }
-      },
-      {
         "type": "fakeip",
         "tag": "fakeip",
         "inet4_range": "198.18.0.0/15",
@@ -101,14 +76,11 @@
     ],
     "rules": [
       {
-        "ip_accept_any": true,
-        "server": "hosts"
-      },
-      {
         "domain": [
           "tgju.org",
           "www.speedtest.net",
-          "b2n.ir"
+          "b2n.ir",
+          "zula.ir"
         ],
         "server": "dns-local"
       },
@@ -125,6 +97,10 @@
       {
         "clash_mode": "tahrim",
         "server": "dns-shecan"
+      },
+      {
+        "clash_mode": "youtube",
+        "server": "dns-frag"
       },
       {
         "inbound": [
@@ -176,155 +152,155 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "2.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "3.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "4.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "5.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "6.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "7.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "8.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "9.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "10.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "11.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "12.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "13.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "14.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "15.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "16.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "17.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "18.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "19.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "20.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "21.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "22.TLS.worker1.xoxid22463.workers.dev",
-        "23.TLS.worker1.xoxid22463.workers.dev",
-        "24.TLS.worker1.xoxid22463.workers.dev",
-        "25.TLS.worker1.xoxid22463.workers.dev",
-        "26.TLS.worker1.xoxid22463.workers.dev",
-        "27.TLS.worker1.xoxid22463.workers.dev",
-        "28.TLS.worker1.xoxid22463.workers.dev",
-        "29.TLS.worker1.yahoya44555.workers.dev",
-        "30.TLS.worker1.yahoya44555.workers.dev",
-        "31.TLS.worker1.yahoya44555.workers.dev",
-        "32.TLS.worker1.yahoya44555.workers.dev",
-        "33.TLS.worker1.yahoya44555.workers.dev",
-        "34.TLS.worker1.yahoya44555.workers.dev",
-        "35.TLS.worker1.yahoya44555.workers.dev",
-        "36.TLS.worker1.ditib3776666.workers.dev",
-        "37.TLS.worker1.ditib3776666.workers.dev",
-        "38.TLS.worker1.ditib3776666.workers.dev",
-        "39.TLS.worker1.ditib3776666.workers.dev",
-        "40.TLS.worker1.ditib3776666.workers.dev",
-        "41.TLS.worker1.ditib3776666.workers.dev",
-        "42.TLS.worker1.ditib3776666.workers.dev",
-        "43.TLS.worker1.fexepit851.workers.dev",
-        "44.TLS.worker1.fexepit851.workers.dev",
-        "45.TLS.worker1.fexepit851.workers.dev",
-        "46.TLS.worker1.fexepit851.workers.dev",
-        "47.TLS.worker1.fexepit851.workers.dev",
-        "48.TLS.worker1.fexepit851.workers.dev",
-        "49.TLS.worker1.fexepit851.workers.dev",
-        "50.TLS.worker1.gahekif304.workers.dev",
-        "51.TLS.worker1.gahekif304.workers.dev",
-        "52.TLS.worker1.gahekif304.workers.dev",
-        "53.TLS.worker1.gahekif304.workers.dev",
-        "54.TLS.worker1.gahekif304.workers.dev",
-        "55.TLS.worker1.gahekif304.workers.dev",
-        "56.TLS.worker1.gahekif304.workers.dev",
-        "57.TLS.worker1.hevebam556.workers.dev",
-        "58.TLS.worker1.hevebam556.workers.dev",
-        "59.TLS.worker1.hevebam556.workers.dev",
-        "60.TLS.worker1.hevebam556.workers.dev",
-        "61.TLS.worker1.hevebam556.workers.dev",
-        "62.TLS.worker1.hevebam556.workers.dev",
-        "63.TLS.worker1.hevebam556.workers.dev",
-        "64.TLS.worker1.tacemor185.workers.dev",
-        "65.TLS.worker1.tacemor185.workers.dev",
-        "66.TLS.worker1.tacemor185.workers.dev",
-        "67.TLS.worker1.tacemor185.workers.dev",
-        "68.TLS.worker1.tacemor185.workers.dev",
-        "69.TLS.worker1.tacemor185.workers.dev",
-        "70.TLS.worker1.tacemor185.workers.dev"
+        "1.TLS.worker1.yobagov334.workers.dev",
+        "2.TLS.worker1.yobagov334.workers.dev",
+        "3.TLS.worker1.yobagov334.workers.dev",
+        "4.TLS.worker1.yobagov334.workers.dev",
+        "5.TLS.worker1.yobagov334.workers.dev",
+        "6.TLS.worker1.yobagov334.workers.dev",
+        "7.TLS.worker1.yobagov334.workers.dev",
+        "8.TLS.worker1.tefos24410.workers.dev",
+        "9.TLS.worker1.tefos24410.workers.dev",
+        "10.TLS.worker1.tefos24410.workers.dev",
+        "11.TLS.worker1.tefos24410.workers.dev",
+        "12.TLS.worker1.tefos24410.workers.dev",
+        "13.TLS.worker1.tefos24410.workers.dev",
+        "14.TLS.worker1.tefos24410.workers.dev",
+        "15.TLS.worker1.wateci1156.workers.dev",
+        "16.TLS.worker1.wateci1156.workers.dev",
+        "17.TLS.worker1.wateci1156.workers.dev",
+        "18.TLS.worker1.wateci1156.workers.dev",
+        "19.TLS.worker1.wateci1156.workers.dev",
+        "20.TLS.worker1.wateci1156.workers.dev",
+        "21.TLS.worker1.wateci1156.workers.dev",
+        "22.TLS.worker2.xoxid22463.workers.dev",
+        "23.TLS.worker2.xoxid22463.workers.dev",
+        "24.TLS.worker2.xoxid22463.workers.dev",
+        "25.TLS.worker2.xoxid22463.workers.dev",
+        "26.TLS.worker2.xoxid22463.workers.dev",
+        "27.TLS.worker2.xoxid22463.workers.dev",
+        "28.TLS.worker2.xoxid22463.workers.dev",
+        "29.TLS.worker2.yahoya44555.workers.dev",
+        "30.TLS.worker2.yahoya44555.workers.dev",
+        "31.TLS.worker2.yahoya44555.workers.dev",
+        "32.TLS.worker2.yahoya44555.workers.dev",
+        "33.TLS.worker2.yahoya44555.workers.dev",
+        "34.TLS.worker2.yahoya44555.workers.dev",
+        "35.TLS.worker2.yahoya44555.workers.dev",
+        "36.TLS.worker2.ditib3776666.workers.dev",
+        "37.TLS.worker2.ditib3776666.workers.dev",
+        "38.TLS.worker2.ditib3776666.workers.dev",
+        "39.TLS.worker2.ditib3776666.workers.dev",
+        "40.TLS.worker2.ditib3776666.workers.dev",
+        "41.TLS.worker2.ditib3776666.workers.dev",
+        "42.TLS.worker2.ditib3776666.workers.dev",
+        "43.TLS.worker2.fexepit851.workers.dev",
+        "44.TLS.worker2.fexepit851.workers.dev",
+        "45.TLS.worker2.fexepit851.workers.dev",
+        "46.TLS.worker2.fexepit851.workers.dev",
+        "47.TLS.worker2.fexepit851.workers.dev",
+        "48.TLS.worker2.fexepit851.workers.dev",
+        "49.TLS.worker2.fexepit851.workers.dev",
+        "50.TLS.worker2.gahekif304.workers.dev",
+        "51.TLS.worker2.gahekif304.workers.dev",
+        "52.TLS.worker2.gahekif304.workers.dev",
+        "53.TLS.worker2.gahekif304.workers.dev",
+        "54.TLS.worker2.gahekif304.workers.dev",
+        "55.TLS.worker2.gahekif304.workers.dev",
+        "56.TLS.worker2.gahekif304.workers.dev",
+        "57.TLS.worker2.hevebam556.workers.dev",
+        "58.TLS.worker2.hevebam556.workers.dev",
+        "59.TLS.worker2.hevebam556.workers.dev",
+        "60.TLS.worker2.hevebam556.workers.dev",
+        "61.TLS.worker2.hevebam556.workers.dev",
+        "62.TLS.worker2.hevebam556.workers.dev",
+        "63.TLS.worker2.hevebam556.workers.dev",
+        "64.TLS.worker2.tacemor185.workers.dev",
+        "65.TLS.worker2.tacemor185.workers.dev",
+        "66.TLS.worker2.tacemor185.workers.dev",
+        "67.TLS.worker2.tacemor185.workers.dev",
+        "68.TLS.worker2.tacemor185.workers.dev",
+        "69.TLS.worker2.tacemor185.workers.dev",
+        "70.TLS.worker2.tacemor185.workers.dev"
       ]
     },
     {
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "2.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "3.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "4.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "5.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "6.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "7.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-        "8.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "9.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "10.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "11.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "12.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "13.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "14.TLS.late-resonance-102f.tefos24410.workers.dev",
-        "15.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "16.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "17.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "18.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "19.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "20.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "21.TLS.small-dew-db2e.wateci1156.workers.dev",
-        "22.TLS.worker1.xoxid22463.workers.dev",
-        "23.TLS.worker1.xoxid22463.workers.dev",
-        "24.TLS.worker1.xoxid22463.workers.dev",
-        "25.TLS.worker1.xoxid22463.workers.dev",
-        "26.TLS.worker1.xoxid22463.workers.dev",
-        "27.TLS.worker1.xoxid22463.workers.dev",
-        "28.TLS.worker1.xoxid22463.workers.dev",
-        "29.TLS.worker1.yahoya44555.workers.dev",
-        "30.TLS.worker1.yahoya44555.workers.dev",
-        "31.TLS.worker1.yahoya44555.workers.dev",
-        "32.TLS.worker1.yahoya44555.workers.dev",
-        "33.TLS.worker1.yahoya44555.workers.dev",
-        "34.TLS.worker1.yahoya44555.workers.dev",
-        "35.TLS.worker1.yahoya44555.workers.dev",
-        "36.TLS.worker1.ditib3776666.workers.dev",
-        "37.TLS.worker1.ditib3776666.workers.dev",
-        "38.TLS.worker1.ditib3776666.workers.dev",
-        "39.TLS.worker1.ditib3776666.workers.dev",
-        "40.TLS.worker1.ditib3776666.workers.dev",
-        "41.TLS.worker1.ditib3776666.workers.dev",
-        "42.TLS.worker1.ditib3776666.workers.dev",
-        "43.TLS.worker1.fexepit851.workers.dev",
-        "44.TLS.worker1.fexepit851.workers.dev",
-        "45.TLS.worker1.fexepit851.workers.dev",
-        "46.TLS.worker1.fexepit851.workers.dev",
-        "47.TLS.worker1.fexepit851.workers.dev",
-        "48.TLS.worker1.fexepit851.workers.dev",
-        "49.TLS.worker1.fexepit851.workers.dev",
-        "50.TLS.worker1.gahekif304.workers.dev",
-        "51.TLS.worker1.gahekif304.workers.dev",
-        "52.TLS.worker1.gahekif304.workers.dev",
-        "53.TLS.worker1.gahekif304.workers.dev",
-        "54.TLS.worker1.gahekif304.workers.dev",
-        "55.TLS.worker1.gahekif304.workers.dev",
-        "56.TLS.worker1.gahekif304.workers.dev",
-        "57.TLS.worker1.hevebam556.workers.dev",
-        "58.TLS.worker1.hevebam556.workers.dev",
-        "59.TLS.worker1.hevebam556.workers.dev",
-        "60.TLS.worker1.hevebam556.workers.dev",
-        "61.TLS.worker1.hevebam556.workers.dev",
-        "62.TLS.worker1.hevebam556.workers.dev",
-        "63.TLS.worker1.hevebam556.workers.dev",
-        "64.TLS.worker1.tacemor185.workers.dev",
-        "65.TLS.worker1.tacemor185.workers.dev",
-        "66.TLS.worker1.tacemor185.workers.dev",
-        "67.TLS.worker1.tacemor185.workers.dev",
-        "68.TLS.worker1.tacemor185.workers.dev",
-        "69.TLS.worker1.tacemor185.workers.dev",
-        "70.TLS.worker1.tacemor185.workers.dev"
+        "1.TLS.worker1.yobagov334.workers.dev",
+        "2.TLS.worker1.yobagov334.workers.dev",
+        "3.TLS.worker1.yobagov334.workers.dev",
+        "4.TLS.worker1.yobagov334.workers.dev",
+        "5.TLS.worker1.yobagov334.workers.dev",
+        "6.TLS.worker1.yobagov334.workers.dev",
+        "7.TLS.worker1.yobagov334.workers.dev",
+        "8.TLS.worker1.tefos24410.workers.dev",
+        "9.TLS.worker1.tefos24410.workers.dev",
+        "10.TLS.worker1.tefos24410.workers.dev",
+        "11.TLS.worker1.tefos24410.workers.dev",
+        "12.TLS.worker1.tefos24410.workers.dev",
+        "13.TLS.worker1.tefos24410.workers.dev",
+        "14.TLS.worker1.tefos24410.workers.dev",
+        "15.TLS.worker1.wateci1156.workers.dev",
+        "16.TLS.worker1.wateci1156.workers.dev",
+        "17.TLS.worker1.wateci1156.workers.dev",
+        "18.TLS.worker1.wateci1156.workers.dev",
+        "19.TLS.worker1.wateci1156.workers.dev",
+        "20.TLS.worker1.wateci1156.workers.dev",
+        "21.TLS.worker1.wateci1156.workers.dev",
+        "22.TLS.worker2.xoxid22463.workers.dev",
+        "23.TLS.worker2.xoxid22463.workers.dev",
+        "24.TLS.worker2.xoxid22463.workers.dev",
+        "25.TLS.worker2.xoxid22463.workers.dev",
+        "26.TLS.worker2.xoxid22463.workers.dev",
+        "27.TLS.worker2.xoxid22463.workers.dev",
+        "28.TLS.worker2.xoxid22463.workers.dev",
+        "29.TLS.worker2.yahoya44555.workers.dev",
+        "30.TLS.worker2.yahoya44555.workers.dev",
+        "31.TLS.worker2.yahoya44555.workers.dev",
+        "32.TLS.worker2.yahoya44555.workers.dev",
+        "33.TLS.worker2.yahoya44555.workers.dev",
+        "34.TLS.worker2.yahoya44555.workers.dev",
+        "35.TLS.worker2.yahoya44555.workers.dev",
+        "36.TLS.worker2.ditib3776666.workers.dev",
+        "37.TLS.worker2.ditib3776666.workers.dev",
+        "38.TLS.worker2.ditib3776666.workers.dev",
+        "39.TLS.worker2.ditib3776666.workers.dev",
+        "40.TLS.worker2.ditib3776666.workers.dev",
+        "41.TLS.worker2.ditib3776666.workers.dev",
+        "42.TLS.worker2.ditib3776666.workers.dev",
+        "43.TLS.worker2.fexepit851.workers.dev",
+        "44.TLS.worker2.fexepit851.workers.dev",
+        "45.TLS.worker2.fexepit851.workers.dev",
+        "46.TLS.worker2.fexepit851.workers.dev",
+        "47.TLS.worker2.fexepit851.workers.dev",
+        "48.TLS.worker2.fexepit851.workers.dev",
+        "49.TLS.worker2.fexepit851.workers.dev",
+        "50.TLS.worker2.gahekif304.workers.dev",
+        "51.TLS.worker2.gahekif304.workers.dev",
+        "52.TLS.worker2.gahekif304.workers.dev",
+        "53.TLS.worker2.gahekif304.workers.dev",
+        "54.TLS.worker2.gahekif304.workers.dev",
+        "55.TLS.worker2.gahekif304.workers.dev",
+        "56.TLS.worker2.gahekif304.workers.dev",
+        "57.TLS.worker2.hevebam556.workers.dev",
+        "58.TLS.worker2.hevebam556.workers.dev",
+        "59.TLS.worker2.hevebam556.workers.dev",
+        "60.TLS.worker2.hevebam556.workers.dev",
+        "61.TLS.worker2.hevebam556.workers.dev",
+        "62.TLS.worker2.hevebam556.workers.dev",
+        "63.TLS.worker2.hevebam556.workers.dev",
+        "64.TLS.worker2.tacemor185.workers.dev",
+        "65.TLS.worker2.tacemor185.workers.dev",
+        "66.TLS.worker2.tacemor185.workers.dev",
+        "67.TLS.worker2.tacemor185.workers.dev",
+        "68.TLS.worker2.tacemor185.workers.dev",
+        "69.TLS.worker2.tacemor185.workers.dev",
+        "70.TLS.worker2.tacemor185.workers.dev"
       ],
       "url": "https://www.gstatic.com/generate_204",
-      "interval": "5m",
+      "interval": "10m",
       "tolerance": 50
     },
     {
@@ -333,16 +309,115 @@
     },
     {
       "type": "vless",
-      "tag": "1.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
+      "tag": "1.TLS.worker1.yobagov334.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.yobagov334.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.yobagov334.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "2.TLS.worker1.yobagov334.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.yobagov334.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.yobagov334.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "3.TLS.worker1.yobagov334.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker1.yobagov334.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker1.yobagov334.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "4.TLS.worker1.yobagov334.workers.dev",
       "server": "188.114.96.7",
       "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
+        "server_name": "worker1.yobagov334.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -358,7 +433,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
+          "Host": "worker1.yobagov334.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -366,181 +441,16 @@
     },
     {
       "type": "vless",
-      "tag": "2.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "3.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "4.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "5.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-      "server": "104.18.23.19",
-      "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "6.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "7.TLS.frosty-surf-d6b2.yobagov334.workers.dev",
+      "tag": "5.TLS.worker1.yobagov334.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
-      "uuid": "188582b1-2c4e-4efc-908b-56967d473d78",
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "frosty-surf-d6b2.yobagov334.workers.dev",
+        "server_name": "worker1.yobagov334.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -556,7 +466,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "frosty-surf-d6b2.yobagov334.workers.dev"
+          "Host": "worker1.yobagov334.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -564,16 +474,16 @@
     },
     {
       "type": "vless",
-      "tag": "8.TLS.late-resonance-102f.tefos24410.workers.dev",
+      "tag": "6.TLS.worker1.yobagov334.workers.dev",
       "server": "104.18.23.19",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.yobagov334.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -589,7 +499,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.yobagov334.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -597,16 +507,16 @@
     },
     {
       "type": "vless",
-      "tag": "9.TLS.late-resonance-102f.tefos24410.workers.dev",
-      "server": "104.25.151.10",
+      "tag": "7.TLS.worker1.yobagov334.workers.dev",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "3e8d0e70-19e6-4afe-b070-06e79c4498bd",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.yobagov334.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -622,7 +532,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.yobagov334.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -630,49 +540,16 @@
     },
     {
       "type": "vless",
-      "tag": "10.TLS.late-resonance-102f.tefos24410.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "11.TLS.late-resonance-102f.tefos24410.workers.dev",
+      "tag": "8.TLS.worker1.tefos24410.workers.dev",
       "server": "188.114.96.7",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -688,7 +565,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -696,16 +573,16 @@
     },
     {
       "type": "vless",
-      "tag": "12.TLS.late-resonance-102f.tefos24410.workers.dev",
-      "server": "104.18.32.47",
+      "tag": "9.TLS.worker1.tefos24410.workers.dev",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -721,7 +598,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -729,16 +606,16 @@
     },
     {
       "type": "vless",
-      "tag": "13.TLS.late-resonance-102f.tefos24410.workers.dev",
-      "server": "104.16.171.9",
+      "tag": "10.TLS.worker1.tefos24410.workers.dev",
+      "server": "216.24.57.250",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -754,7 +631,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -762,16 +639,16 @@
     },
     {
       "type": "vless",
-      "tag": "14.TLS.late-resonance-102f.tefos24410.workers.dev",
+      "tag": "11.TLS.worker1.tefos24410.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
-      "uuid": "0cc614fe-6d42-4909-95a7-0722aea3a364",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "late-resonance-102f.tefos24410.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -787,7 +664,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "late-resonance-102f.tefos24410.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -795,181 +672,16 @@
     },
     {
       "type": "vless",
-      "tag": "15.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "16.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "17.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "18.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "19.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "188.114.96.7",
-      "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "20.TLS.small-dew-db2e.wateci1156.workers.dev",
+      "tag": "12.TLS.worker1.tefos24410.workers.dev",
       "server": "104.18.23.19",
       "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -985,7 +697,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -993,16 +705,16 @@
     },
     {
       "type": "vless",
-      "tag": "21.TLS.small-dew-db2e.wateci1156.workers.dev",
-      "server": "104.16.171.9",
+      "tag": "13.TLS.worker1.tefos24410.workers.dev",
+      "server": "104.25.150.10",
       "server_port": 443,
-      "uuid": "4a516d08-60f0-42ac-b4cd-8aaa956ed25f",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "small-dew-db2e.wateci1156.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1018,7 +730,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "small-dew-db2e.wateci1156.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1026,16 +738,16 @@
     },
     {
       "type": "vless",
-      "tag": "22.TLS.worker1.xoxid22463.workers.dev",
-      "server": "104.16.171.9",
+      "tag": "14.TLS.worker1.tefos24410.workers.dev",
+      "server": "104.18.3.81",
       "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
+      "uuid": "37076dfd-a3df-4936-af27-1273f911fc08",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
+        "server_name": "worker1.tefos24410.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1051,7 +763,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
+          "Host": "worker1.tefos24410.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1059,16 +771,16 @@
     },
     {
       "type": "vless",
-      "tag": "23.TLS.worker1.xoxid22463.workers.dev",
-      "server": "172.67.73.216",
+      "tag": "15.TLS.worker1.wateci1156.workers.dev",
+      "server": "104.18.3.81",
       "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1084,7 +796,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1092,115 +804,16 @@
     },
     {
       "type": "vless",
-      "tag": "24.TLS.worker1.xoxid22463.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "25.TLS.worker1.xoxid22463.workers.dev",
-      "server": "188.114.96.7",
-      "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "26.TLS.worker1.xoxid22463.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27.TLS.worker1.xoxid22463.workers.dev",
+      "tag": "16.TLS.worker1.wateci1156.workers.dev",
       "server": "104.18.23.19",
       "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1216,7 +829,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1224,16 +837,16 @@
     },
     {
       "type": "vless",
-      "tag": "28.TLS.worker1.xoxid22463.workers.dev",
-      "server": "104.25.151.10",
+      "tag": "17.TLS.worker1.wateci1156.workers.dev",
+      "server": "104.25.150.10",
       "server_port": 443,
-      "uuid": "02be1c67-9936-426d-9771-13576808e6b5",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.xoxid22463.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1249,7 +862,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.xoxid22463.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1257,16 +870,16 @@
     },
     {
       "type": "vless",
-      "tag": "29.TLS.worker1.yahoya44555.workers.dev",
-      "server": "104.18.23.19",
+      "tag": "18.TLS.worker1.wateci1156.workers.dev",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1282,7 +895,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1290,82 +903,16 @@
     },
     {
       "type": "vless",
-      "tag": "30.TLS.worker1.yahoya44555.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "31.TLS.worker1.yahoya44555.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "32.TLS.worker1.yahoya44555.workers.dev",
+      "tag": "19.TLS.worker1.wateci1156.workers.dev",
       "server": "188.114.96.7",
       "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1381,7 +928,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1389,148 +936,16 @@
     },
     {
       "type": "vless",
-      "tag": "33.TLS.worker1.yahoya44555.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "34.TLS.worker1.yahoya44555.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "35.TLS.worker1.yahoya44555.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "5ff0790f-61ca-440b-b368-f59d9caa50dc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "36.TLS.worker1.ditib3776666.workers.dev",
-      "server": "104.18.23.19",
-      "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "37.TLS.worker1.ditib3776666.workers.dev",
+      "tag": "20.TLS.worker1.wateci1156.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1546,7 +961,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1554,16 +969,16 @@
     },
     {
       "type": "vless",
-      "tag": "38.TLS.worker1.ditib3776666.workers.dev",
-      "server": "104.18.32.47",
+      "tag": "21.TLS.worker1.wateci1156.workers.dev",
+      "server": "216.24.57.250",
       "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
+      "uuid": "da9a0320-66a5-4835-877b-455a334acce8",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
+        "server_name": "worker1.wateci1156.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1579,7 +994,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
+          "Host": "worker1.wateci1156.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1587,346 +1002,16 @@
     },
     {
       "type": "vless",
-      "tag": "39.TLS.worker1.ditib3776666.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "40.TLS.worker1.ditib3776666.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "41.TLS.worker1.ditib3776666.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "42.TLS.worker1.ditib3776666.workers.dev",
-      "server": "188.114.96.7",
-      "server_port": 443,
-      "uuid": "3027e83a-65e4-4501-95bc-43b43aa72413",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "43.TLS.worker1.fexepit851.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "44.TLS.worker1.fexepit851.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "45.TLS.worker1.fexepit851.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "46.TLS.worker1.fexepit851.workers.dev",
-      "server": "104.18.23.19",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "47.TLS.worker1.fexepit851.workers.dev",
-      "server": "188.114.96.7",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "48.TLS.worker1.fexepit851.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "49.TLS.worker1.fexepit851.workers.dev",
+      "tag": "22.TLS.worker2.xoxid22463.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
-      "uuid": "990cd6cb-86b1-4cb4-a33c-26f040381adf",
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.fexepit851.workers.dev",
+        "server_name": "worker2.xoxid22463.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1942,7 +1027,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.fexepit851.workers.dev"
+          "Host": "worker2.xoxid22463.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1950,16 +1035,16 @@
     },
     {
       "type": "vless",
-      "tag": "50.TLS.worker1.gahekif304.workers.dev",
-      "server": "104.25.151.10",
+      "tag": "23.TLS.worker2.xoxid22463.workers.dev",
+      "server": "216.24.57.250",
       "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
+        "server_name": "worker2.xoxid22463.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -1975,7 +1060,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
+          "Host": "worker2.xoxid22463.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -1983,49 +1068,16 @@
     },
     {
       "type": "vless",
-      "tag": "51.TLS.worker1.gahekif304.workers.dev",
-      "server": "188.114.96.7",
-      "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "52.TLS.worker1.gahekif304.workers.dev",
+      "tag": "24.TLS.worker2.xoxid22463.workers.dev",
       "server": "104.18.23.19",
       "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
+        "server_name": "worker2.xoxid22463.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2041,7 +1093,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
+          "Host": "worker2.xoxid22463.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2049,280 +1101,16 @@
     },
     {
       "type": "vless",
-      "tag": "53.TLS.worker1.gahekif304.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "54.TLS.worker1.gahekif304.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "55.TLS.worker1.gahekif304.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "56.TLS.worker1.gahekif304.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "1e12a77a-af77-4796-9adb-4e81d0dc613a",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "57.TLS.worker1.hevebam556.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "58.TLS.worker1.hevebam556.workers.dev",
-      "server": "104.18.13.15",
-      "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "59.TLS.worker1.hevebam556.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "60.TLS.worker1.hevebam556.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "61.TLS.worker1.hevebam556.workers.dev",
+      "tag": "25.TLS.worker2.xoxid22463.workers.dev",
       "server": "188.114.96.7",
       "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
+        "server_name": "worker2.xoxid22463.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2338,7 +1126,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
+          "Host": "worker2.xoxid22463.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2346,16 +1134,16 @@
     },
     {
       "type": "vless",
-      "tag": "62.TLS.worker1.hevebam556.workers.dev",
-      "server": "104.18.23.19",
+      "tag": "26.TLS.worker2.xoxid22463.workers.dev",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
+        "server_name": "worker2.xoxid22463.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2371,7 +1159,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
+          "Host": "worker2.xoxid22463.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2379,16 +1167,82 @@
     },
     {
       "type": "vless",
-      "tag": "63.TLS.worker1.hevebam556.workers.dev",
+      "tag": "27.TLS.worker2.xoxid22463.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.xoxid22463.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.xoxid22463.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "28.TLS.worker2.xoxid22463.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "04a0cd00-3f23-4f09-9d63-1a7c749c1082",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.xoxid22463.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.xoxid22463.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "29.TLS.worker2.yahoya44555.workers.dev",
       "server": "172.67.73.216",
       "server_port": 443,
-      "uuid": "e4c08134-791e-42c3-b4b8-ebe3f190619e",
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.hevebam556.workers.dev",
+        "server_name": "worker2.yahoya44555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2404,7 +1258,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.hevebam556.workers.dev"
+          "Host": "worker2.yahoya44555.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2412,16 +1266,16 @@
     },
     {
       "type": "vless",
-      "tag": "64.TLS.worker1.tacemor185.workers.dev",
-      "server": "104.18.13.15",
+      "tag": "30.TLS.worker2.yahoya44555.workers.dev",
+      "server": "104.17.148.22",
       "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
+        "server_name": "worker2.yahoya44555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2437,7 +1291,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
+          "Host": "worker2.yahoya44555.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2445,16 +1299,16 @@
     },
     {
       "type": "vless",
-      "tag": "65.TLS.worker1.tacemor185.workers.dev",
+      "tag": "31.TLS.worker2.yahoya44555.workers.dev",
       "server": "188.114.96.7",
       "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
+        "server_name": "worker2.yahoya44555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2470,7 +1324,7 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
+          "Host": "worker2.yahoya44555.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2478,148 +1332,16 @@
     },
     {
       "type": "vless",
-      "tag": "66.TLS.worker1.tacemor185.workers.dev",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "67.TLS.worker1.tacemor185.workers.dev",
-      "server": "172.67.73.216",
-      "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "68.TLS.worker1.tacemor185.workers.dev",
-      "server": "104.16.171.9",
-      "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "69.TLS.worker1.tacemor185.workers.dev",
-      "server": "104.25.151.10",
-      "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "70.TLS.worker1.tacemor185.workers.dev",
+      "tag": "32.TLS.worker2.yahoya44555.workers.dev",
       "server": "104.18.23.19",
       "server_port": 443,
-      "uuid": "b1aa163f-a6fd-4003-acab-8c4211c230fc",
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
       "flow": "",
       "packet_encoding": "xudp",
       "tcp_fast_open": true,
       "tls": {
         "enabled": true,
-        "server_name": "worker1.tacemor185.workers.dev",
+        "server_name": "worker2.yahoya44555.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -2635,7 +1357,1261 @@
         "path": "/",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker1.tacemor185.workers.dev"
+          "Host": "worker2.yahoya44555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "33.TLS.worker2.yahoya44555.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.yahoya44555.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.yahoya44555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "34.TLS.worker2.yahoya44555.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.yahoya44555.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.yahoya44555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "35.TLS.worker2.yahoya44555.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "e40e1ab9-5132-4aaf-af9e-a62068598211",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.yahoya44555.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.yahoya44555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "36.TLS.worker2.ditib3776666.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "37.TLS.worker2.ditib3776666.workers.dev",
+      "server": "188.114.96.7",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "38.TLS.worker2.ditib3776666.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "39.TLS.worker2.ditib3776666.workers.dev",
+      "server": "104.17.148.22",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "40.TLS.worker2.ditib3776666.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "41.TLS.worker2.ditib3776666.workers.dev",
+      "server": "104.18.23.19",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "42.TLS.worker2.ditib3776666.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "ec86322c-2890-494b-a571-6798aa299d85",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "43.TLS.worker2.fexepit851.workers.dev",
+      "server": "104.18.23.19",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "44.TLS.worker2.fexepit851.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "45.TLS.worker2.fexepit851.workers.dev",
+      "server": "104.17.148.22",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "46.TLS.worker2.fexepit851.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "47.TLS.worker2.fexepit851.workers.dev",
+      "server": "188.114.96.7",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "48.TLS.worker2.fexepit851.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "49.TLS.worker2.fexepit851.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "35c150c9-aa8c-4d22-a663-8858db57f2e1",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "50.TLS.worker2.gahekif304.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "51.TLS.worker2.gahekif304.workers.dev",
+      "server": "104.18.23.19",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "52.TLS.worker2.gahekif304.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "53.TLS.worker2.gahekif304.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "54.TLS.worker2.gahekif304.workers.dev",
+      "server": "104.17.148.22",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "55.TLS.worker2.gahekif304.workers.dev",
+      "server": "188.114.96.7",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "56.TLS.worker2.gahekif304.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "7696beba-0c03-4395-ae50-6cd2d0bc8e46",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "57.TLS.worker2.hevebam556.workers.dev",
+      "server": "188.114.96.7",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "58.TLS.worker2.hevebam556.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "59.TLS.worker2.hevebam556.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "60.TLS.worker2.hevebam556.workers.dev",
+      "server": "104.17.148.22",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "61.TLS.worker2.hevebam556.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "62.TLS.worker2.hevebam556.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "63.TLS.worker2.hevebam556.workers.dev",
+      "server": "104.18.23.19",
+      "server_port": 443,
+      "uuid": "f5300f55-645a-422b-bc1d-4afb87b882e0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "64.TLS.worker2.tacemor185.workers.dev",
+      "server": "104.18.3.81",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "65.TLS.worker2.tacemor185.workers.dev",
+      "server": "104.17.148.22",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "66.TLS.worker2.tacemor185.workers.dev",
+      "server": "172.67.73.216",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "67.TLS.worker2.tacemor185.workers.dev",
+      "server": "216.24.57.250",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "68.TLS.worker2.tacemor185.workers.dev",
+      "server": "188.114.96.7",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "69.TLS.worker2.tacemor185.workers.dev",
+      "server": "104.25.150.10",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "70.TLS.worker2.tacemor185.workers.dev",
+      "server": "104.18.23.19",
+      "server_port": 443,
+      "uuid": "6ac0dcc4-f602-47dc-94a4-d63f38be0a84",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.tacemor185.workers.dev"
         },
         "max_early_data": 2560,
         "early_data_header_name": "Sec-WebSocket-Protocol"
@@ -2713,6 +2689,11 @@
       {
         "clash_mode": "tahrim",
         "outbound": "direct"
+      },
+      {
+        "clash_mode": "youtube",
+        "outbound": "direct",
+        "tls_record_fragment": true
       }
     ]
   }
