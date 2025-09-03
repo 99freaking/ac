@@ -97,7 +97,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -150,7 +150,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -203,7 +203,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -256,7 +256,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -309,7 +309,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.12.15",
+            "address": "104.25.151.10",
             "port": 443,
             "users": [
               {
@@ -362,7 +362,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -415,7 +415,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
@@ -468,7 +468,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -521,7 +521,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.64.155.209",
             "port": 443,
             "users": [
               {
@@ -574,7 +574,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -627,7 +627,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "104.26.14.85",
             "port": 443,
             "users": [
               {
@@ -680,7 +680,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "172.66.43.157",
             "port": 443,
             "users": [
               {
@@ -733,7 +733,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -786,7 +786,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -839,7 +839,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -892,13 +892,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -911,7 +911,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -920,7 +920,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -945,13 +945,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -964,7 +964,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -973,7 +973,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -998,13 +998,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "172.67.199.190",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -1017,7 +1017,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1026,7 +1026,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1051,13 +1051,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.24.197.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -1070,7 +1070,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1079,7 +1079,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1104,13 +1104,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "104.17.148.22",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -1123,7 +1123,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1132,7 +1132,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1157,13 +1157,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -1176,7 +1176,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1185,7 +1185,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -1263,7 +1263,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -1316,7 +1316,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -1369,7 +1369,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -1422,7 +1422,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
+            "address": "104.16.170.9",
             "port": 443,
             "users": [
               {
@@ -1528,7 +1528,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -1581,7 +1581,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -1634,7 +1634,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.151.10",
+            "address": "188.114.97.7",
             "port": 443,
             "users": [
               {
@@ -1926,7 +1926,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -1979,7 +1979,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -2032,7 +2032,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -2085,7 +2085,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -2138,7 +2138,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.12.15",
+            "address": "104.25.151.10",
             "port": 443,
             "users": [
               {
@@ -2191,7 +2191,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -2244,7 +2244,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
@@ -2297,7 +2297,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -2350,7 +2350,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.64.155.209",
             "port": 443,
             "users": [
               {
@@ -2403,7 +2403,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -2456,7 +2456,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "104.26.14.85",
             "port": 443,
             "users": [
               {
@@ -2509,7 +2509,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "172.66.43.157",
             "port": 443,
             "users": [
               {
@@ -2562,7 +2562,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -2615,7 +2615,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -2668,7 +2668,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -2721,13 +2721,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -2740,7 +2740,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2749,7 +2749,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2774,13 +2774,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -2793,7 +2793,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2802,7 +2802,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2827,13 +2827,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "172.67.199.190",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -2846,7 +2846,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2855,7 +2855,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2880,13 +2880,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.24.197.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -2899,7 +2899,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2908,7 +2908,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2933,13 +2933,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "104.17.148.22",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -2952,7 +2952,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2961,7 +2961,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -2986,13 +2986,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -3005,7 +3005,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -3014,7 +3014,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -3092,7 +3092,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -3145,7 +3145,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -3198,7 +3198,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -3251,7 +3251,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
+            "address": "104.16.170.9",
             "port": 443,
             "users": [
               {
@@ -3357,7 +3357,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -3410,7 +3410,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -3463,7 +3463,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.151.10",
+            "address": "188.114.97.7",
             "port": 443,
             "users": [
               {
@@ -3772,7 +3772,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -3825,7 +3825,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -3878,7 +3878,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -3931,7 +3931,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -3984,7 +3984,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.12.15",
+            "address": "104.25.151.10",
             "port": 443,
             "users": [
               {
@@ -4037,7 +4037,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -4090,7 +4090,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.0.64",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
@@ -4143,7 +4143,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -4196,7 +4196,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "172.64.155.209",
             "port": 443,
             "users": [
               {
@@ -4249,7 +4249,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -4302,7 +4302,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
+            "address": "104.26.14.85",
             "port": 443,
             "users": [
               {
@@ -4355,7 +4355,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "172.66.43.157",
             "port": 443,
             "users": [
               {
@@ -4408,7 +4408,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "104.18.23.19",
             "port": 443,
             "users": [
               {
@@ -4461,7 +4461,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
+            "address": "104.18.89.237",
             "port": 443,
             "users": [
               {
@@ -4514,7 +4514,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -4567,13 +4567,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -4586,7 +4586,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4595,7 +4595,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4620,13 +4620,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "172.67.73.216",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -4639,7 +4639,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4648,7 +4648,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4673,13 +4673,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "172.67.199.190",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "ac6c0361-9d0b-491e-8012-dce58b2b18fc",
+                "id": "ee42a6eb-99d7-4c35-b17a-ac4e18650a0e",
                 "level": 8
               }
             ]
@@ -4692,7 +4692,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.soketoj930.workers.dev",
+          "serverName": "worker3.soketoj930.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4701,7 +4701,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.soketoj930.workers.dev"
+            "Host": "worker3.soketoj930.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4726,13 +4726,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "104.24.197.20",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -4745,7 +4745,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4754,7 +4754,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4779,13 +4779,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "104.17.148.22",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -4798,7 +4798,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4807,7 +4807,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4832,13 +4832,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.3.81",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e7893d03-c784-45c3-9776-4bf872fc4403",
+                "id": "fad4adb8-362a-4595-a2e9-7fe19e67a726",
                 "level": 8
               }
             ]
@@ -4851,7 +4851,7 @@
         "tlsSettings": {
           "allowInsecure": false,
           "fingerprint": "firefox",
-          "serverName": "worker2.doviso5171.workers.dev",
+          "serverName": "worker3.doviso5171.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -4860,7 +4860,7 @@
         "wsSettings": {
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "worker2.doviso5171.workers.dev"
+            "Host": "worker3.doviso5171.workers.dev"
           },
           "path": "/?ed=2560"
         },
@@ -4938,7 +4938,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "8.6.112.64",
             "port": 443,
             "users": [
               {
@@ -4991,7 +4991,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
+            "address": "104.20.0.64",
             "port": 443,
             "users": [
               {
@@ -5044,7 +5044,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.170.9",
+            "address": "104.18.90.237",
             "port": 443,
             "users": [
               {
@@ -5097,7 +5097,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.171.9",
+            "address": "104.16.170.9",
             "port": 443,
             "users": [
               {
@@ -5203,7 +5203,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
+            "address": "104.18.22.19",
             "port": 443,
             "users": [
               {
@@ -5256,7 +5256,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -5309,7 +5309,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.25.151.10",
+            "address": "188.114.97.7",
             "port": 443,
             "users": [
               {
