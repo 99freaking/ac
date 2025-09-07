@@ -220,6 +220,7 @@
         "77.q_190",
         "78.美国_081023632 L0",
         "79.泰国_081023004 L0",
+        "80.🚩 CF | 🔒 VMESS | @proxie [17]",
         "81.🇸🇬SG-47.84.62.1-0264",
         "82.q_233",
         "83.q_219",
@@ -331,6 +332,7 @@
         "77.q_190",
         "78.美国_081023632 L0",
         "79.泰国_081023004 L0",
+        "80.🚩 CF | 🔒 VMESS | @proxie [17]",
         "81.🇸🇬SG-47.84.62.1-0264",
         "82.q_233",
         "83.q_219",
@@ -1962,6 +1964,34 @@
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
         }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "80.🚩 CF | 🔒 VMESS | @proxie [17]",
+      "server": "104.21.62.144",
+      "server_port": 443,
+      "uuid": "132e56c4-9d21-4277-a16f-45b8c5e409ff",
+      "security": "zero",
+      "alter_id": 0,
+      "global_padding": false,
+      "authenticated_length": true,
+      "packet_encoding": "",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "sauron2.melkore.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "alpn": [
+          "h3",
+          "h2",
+          "http/1.1"
+        ],
+        "record_fragment": true
       }
     },
     {
