@@ -92,12 +92,12 @@
         "vnext": [
           {
             "address": "91.98.128.91",
-            "port": 8443,
+            "port": 56558,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1a4498a0-88e2-41a8-9630-5c282c8d5561",
+                "id": "0e049978-3e11-4b60-9c57-a74516c70661",
                 "level": 8
               }
             ]
@@ -122,46 +122,7 @@
           "path": "/"
         }
       },
-      "tag": "proxy27"
-    },
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
-      "protocol": "vmess",
-      "settings": {
-        "vnext": [
-          {
-            "address": "85.198.22.162",
-            "port": 15988,
-            "users": [
-              {
-                "alterId": 0,
-                "encryption": "",
-                "flow": "",
-                "id": "840345fe-d720-4b84-bf5d-5d7dad3ccfc3",
-                "level": 8,
-                "security": "auto"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "soft98.ir"
-          },
-          "path": "/"
-        }
-      },
-      "tag": "proxy26"
+      "tag": "proxy"
     },
     {
       "tag": "direct",
@@ -203,11 +164,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field"
+        "type": "field",
+        "outboundTag": "proxy"
       },
       {
         "ip": [
@@ -240,30 +201,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
       }
     ]
   },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "SERVER3.3+SERVER1 2025-09-18"
+  "remarks": "SERVER3.3+SERVER1 2025-09-23"
 }
