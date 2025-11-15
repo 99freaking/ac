@@ -81,33 +81,38 @@
   ],
   "outbounds": [
     {
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
             "address": "85.198.22.162",
-            "port": 15988,
+            "port": 56558,
             "users": [
               {
-                "alterId": 0,
-                "encryption": "",
+                "encryption": "none",
                 "flow": "",
-                "id": "17306b93-ab5e-4462-b7c1-ab659058cca3",
-                "level": 8,
-                "security": "auto"
+                "id": "0e049978-3e11-4b60-9c57-a74516c70661",
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "soft98.ir"
-          },
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "7g1kAxBlFCpb1yfhc7XxXV9zQETTlMaqloiePhaZXB8",
+          "serverName": "ftp.debian.org",
+          "shortId": "ba",
+          "spiderX": "",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
           "path": "/"
         }
       },
@@ -196,5 +201,5 @@
       }
     ]
   },
-  "remarks": "SERVER1.30 2025-11-15"
+  "remarks": "SERVER3.3.REALITY+SERVER1 2025-11-15"
 }
