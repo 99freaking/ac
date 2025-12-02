@@ -86,7 +86,7 @@
         "vnext": [
           {
             "address": "85.198.22.162",
-            "port": 56558,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -201,5 +201,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER1 2025-11-18"
+  "remarks": "SERVER3.3.REALITY+SERVER1 2025-12-02"
 }
