@@ -8,6 +8,7 @@
   },
   "dns": {
     "hosts": {
+      "dns.cloudflare.com": "cloudflare.com",
       "dns.google": [
         "8.8.8.8",
         "8.8.4.4",
@@ -32,6 +33,10 @@
       {
         "address": "https://dns.google/dns-query",
         "tag": "remote-dns"
+      },
+      {
+        "address": "https://dns.google/dns-query",
+        "tag": "frag-dns"
       },
       "https+local://dns.digitalsize.net/dns-query"
     ],
@@ -111,17 +116,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy1"
+      "tag": "proxy1_frag1"
     },
     {
       "protocol": "vless",
@@ -153,17 +164,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy2"
+      "tag": "proxy2_frag1"
     },
     {
       "protocol": "vless",
@@ -195,17 +212,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy3"
+      "tag": "proxy3_frag1"
     },
     {
       "protocol": "vless",
@@ -237,17 +260,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy4"
+      "tag": "proxy4_frag1"
     },
     {
       "protocol": "vless",
@@ -279,17 +308,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy5"
+      "tag": "proxy5_frag1"
     },
     {
       "protocol": "vless",
@@ -321,17 +356,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy6"
+      "tag": "proxy6_frag1"
     },
     {
       "protocol": "vless",
@@ -363,17 +404,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy7"
+      "tag": "proxy7_frag1"
     },
     {
       "protocol": "vless",
@@ -405,17 +452,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy8"
+      "tag": "proxy8_frag1"
     },
     {
       "protocol": "vless",
@@ -447,17 +500,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy9"
+      "tag": "proxy9_frag1"
     },
     {
       "protocol": "vless",
@@ -489,17 +548,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy10"
+      "tag": "proxy10_frag1"
     },
     {
       "protocol": "vless",
@@ -531,17 +596,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy11"
+      "tag": "proxy11_frag1"
     },
     {
       "protocol": "vless",
@@ -573,17 +644,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy12"
+      "tag": "proxy12_frag1"
     },
     {
       "protocol": "vless",
@@ -615,17 +692,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy13"
+      "tag": "proxy13_frag1"
     },
     {
       "protocol": "vless",
@@ -657,17 +740,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy14"
+      "tag": "proxy14_frag1"
     },
     {
       "protocol": "vless",
@@ -699,17 +788,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy15"
+      "tag": "proxy15_frag1"
     },
     {
       "protocol": "vless",
@@ -741,17 +836,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy16"
+      "tag": "proxy16_frag1"
     },
     {
       "protocol": "vless",
@@ -783,17 +884,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy17"
+      "tag": "proxy17_frag1"
     },
     {
       "protocol": "vless",
@@ -825,17 +932,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy18"
+      "tag": "proxy18_frag1"
     },
     {
       "protocol": "vless",
@@ -867,17 +980,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy19"
+      "tag": "proxy19_frag1"
     },
     {
       "protocol": "vless",
@@ -909,17 +1028,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy20"
+      "tag": "proxy20_frag1"
     },
     {
       "protocol": "vless",
@@ -951,17 +1076,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy21"
+      "tag": "proxy21_frag1"
     },
     {
       "protocol": "vless",
@@ -993,17 +1124,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy22"
+      "tag": "proxy22_frag1"
     },
     {
       "protocol": "vless",
@@ -1035,17 +1172,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy23"
+      "tag": "proxy23_frag1"
     },
     {
       "protocol": "vless",
@@ -1077,17 +1220,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy24"
+      "tag": "proxy24_frag1"
     },
     {
       "protocol": "vless",
@@ -1119,17 +1268,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy25"
+      "tag": "proxy25_frag1"
     },
     {
       "protocol": "vless",
@@ -1161,17 +1316,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy26"
+      "tag": "proxy26_frag1"
     },
     {
       "protocol": "vless",
@@ -1203,17 +1364,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy27"
+      "tag": "proxy27_frag1"
     },
     {
       "protocol": "vless",
@@ -1245,17 +1412,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy28"
+      "tag": "proxy28_frag1"
     },
     {
       "protocol": "vless",
@@ -1287,17 +1460,23 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy29"
+      "tag": "proxy29_frag1"
     },
     {
       "protocol": "vless",
@@ -1329,17 +1508,43 @@
             "h3",
             "h2",
             "http/1.1"
-          ],
-          "echConfigList": "AGb+DQBiAAAgACDSVOrS8dW2BP7YEQzrjL4yqDOCzLhXEn1R4gMp0dHHSAAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADABN2cC50eXBob25lbW9iaWxlLmlyAAA="
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy30"
+      "tag": "proxy30_frag1"
+    },
+    {
+      "tag": "fragment1",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIPv4v6",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "1",
+          "interval": "0"
+        }
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
+      }
     },
     {
       "tag": "direct",
@@ -1381,10 +1586,17 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
+        "inboundTag": [
+          "frag-dns"
+        ],
+        "outboundTag": "fragment1",
+        "type": "field"
+      },
+      {
         "inboundTag": [
           "remote-dns"
         ],
+        "balancerTag": "all",
         "type": "field"
       },
       {
@@ -1443,6 +1655,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 SERVER3.8.FRAG 2025-12-09"
+  "remarks": "#1 SERVER3.8.FRAG 2025-12-09"
 }
 ]
