@@ -3164,20 +3164,21 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "reality",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "4IgvembDwoztQEH4qSVMxerjS4HigM39NEyT4TiN0SM",
+          "publicKey": "lY-ioPGXniiy1JoYiDCzNUCB2s5RSd5ZIdijwHAKjC8",
           "serverName": "shahrsakhtafzar.com",
           "shortId": "a8",
           "spiderX": "",
           "show": false
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "shahrsakhtafzar.com",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "shahrsakhtafzar.com"
+          },
           "path": "/"
         }
       },
@@ -4847,20 +4848,21 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "reality",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "4IgvembDwoztQEH4qSVMxerjS4HigM39NEyT4TiN0SM",
+          "publicKey": "lY-ioPGXniiy1JoYiDCzNUCB2s5RSd5ZIdijwHAKjC8",
           "serverName": "shahrsakhtafzar.com",
           "shortId": "a8",
           "spiderX": "",
           "show": false
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "shahrsakhtafzar.com",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "shahrsakhtafzar.com"
+          },
           "path": "/"
         }
       },
