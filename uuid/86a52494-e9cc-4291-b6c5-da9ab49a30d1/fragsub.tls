@@ -82,17 +82,11 @@
   ],
   "outbounds": [
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -128,17 +122,11 @@
       "tag": "proxy1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -174,17 +162,11 @@
       "tag": "proxy2"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -220,17 +202,11 @@
       "tag": "proxy3"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -266,17 +242,11 @@
       "tag": "proxy4"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -312,17 +282,11 @@
       "tag": "proxy5"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -358,17 +322,11 @@
       "tag": "proxy6"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -404,17 +362,11 @@
       "tag": "proxy7"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -450,17 +402,11 @@
       "tag": "proxy8"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -496,12 +442,6 @@
       "tag": "proxy9"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -542,17 +482,11 @@
       "tag": "proxy10"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -588,17 +522,11 @@
       "tag": "proxy11"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -634,17 +562,11 @@
       "tag": "proxy12"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -680,17 +602,11 @@
       "tag": "proxy13"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -726,17 +642,11 @@
       "tag": "proxy14"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -772,17 +682,11 @@
       "tag": "proxy15"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -818,17 +722,11 @@
       "tag": "proxy16"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -864,17 +762,11 @@
       "tag": "proxy17"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -910,17 +802,11 @@
       "tag": "proxy18"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -956,17 +842,11 @@
       "tag": "proxy19"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -1002,17 +882,11 @@
       "tag": "proxy20"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -1048,17 +922,11 @@
       "tag": "proxy21"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -1094,17 +962,11 @@
       "tag": "proxy22"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.24.197.20",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -1140,17 +1002,11 @@
       "tag": "proxy23"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -1186,17 +1042,11 @@
       "tag": "proxy24"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -1232,17 +1082,11 @@
       "tag": "proxy25"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -1278,17 +1122,11 @@
       "tag": "proxy26"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -1324,17 +1162,11 @@
       "tag": "proxy27"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -1370,17 +1202,11 @@
       "tag": "proxy28"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -1416,17 +1242,11 @@
       "tag": "proxy29"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -1844,7 +1664,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER6.TLS 2025-09-03"
+  "remarks": "#0 WORKER6.TLS 2026-01-04"
 }
 ,
 {
@@ -1935,17 +1755,11 @@
   ],
   "outbounds": [
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -1988,17 +1802,11 @@
       "tag": "proxy1_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -2041,17 +1849,11 @@
       "tag": "proxy2_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -2094,17 +1896,11 @@
       "tag": "proxy3_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -2147,17 +1943,11 @@
       "tag": "proxy4_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -2200,17 +1990,11 @@
       "tag": "proxy5_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -2253,17 +2037,11 @@
       "tag": "proxy6_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -2306,17 +2084,11 @@
       "tag": "proxy7_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -2359,17 +2131,11 @@
       "tag": "proxy8_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -2412,12 +2178,6 @@
       "tag": "proxy9_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
@@ -2465,17 +2225,11 @@
       "tag": "proxy10_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -2518,17 +2272,11 @@
       "tag": "proxy11_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -2571,17 +2319,11 @@
       "tag": "proxy12_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.13.15",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -2624,17 +2366,11 @@
       "tag": "proxy13_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.199.190",
+            "address": "5.10.214.168",
             "port": 443,
             "users": [
               {
@@ -2677,17 +2413,11 @@
       "tag": "proxy14_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -2730,17 +2460,11 @@
       "tag": "proxy15_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.67.73.216",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -2783,17 +2507,11 @@
       "tag": "proxy16_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.23.19",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -2836,17 +2554,11 @@
       "tag": "proxy17_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -2889,17 +2601,11 @@
       "tag": "proxy18_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.64.155.209",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -2942,17 +2648,11 @@
       "tag": "proxy19_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.22.19",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -2995,17 +2695,11 @@
       "tag": "proxy20_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -3048,17 +2742,11 @@
       "tag": "proxy21_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "8.6.112.64",
+            "address": "104.17.223.18",
             "port": 443,
             "users": [
               {
@@ -3101,17 +2789,11 @@
       "tag": "proxy22_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.24.197.20",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -3154,17 +2836,11 @@
       "tag": "proxy23_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.90.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -3207,17 +2883,11 @@
       "tag": "proxy24_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "188.114.96.7",
             "port": 443,
             "users": [
               {
@@ -3260,17 +2930,11 @@
       "tag": "proxy25_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -3313,17 +2977,11 @@
       "tag": "proxy26_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "172.66.43.157",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -3366,17 +3024,11 @@
       "tag": "proxy27_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
+            "address": "185.146.173.68",
             "port": 443,
             "users": [
               {
@@ -3419,17 +3071,11 @@
       "tag": "proxy28_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.18.26.90",
+            "address": "172.67.171.106",
             "port": 443,
             "users": [
               {
@@ -3472,17 +3118,11 @@
       "tag": "proxy29_frag1"
     },
     {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false,
-        "xudpConcurrency": 8,
-        "xudpProxyUDP443": ""
-      },
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "104.25.150.10",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -3934,6 +3574,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER6.TLS 2025-09-03"
+  "remarks": "#1 WORKER6.TLS 2026-01-04"
 }
 ]
