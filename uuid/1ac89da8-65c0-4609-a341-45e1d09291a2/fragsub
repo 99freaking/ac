@@ -107,20 +107,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy1"
+      "tag": "proxy1_fragc1"
     },
     {
       "protocol": "vless",
@@ -149,20 +149,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy2"
+      "tag": "proxy2_fragc1"
     },
     {
       "protocol": "vless",
@@ -191,20 +191,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy3"
+      "tag": "proxy3_fragc1"
     },
     {
       "protocol": "vless",
@@ -233,20 +233,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy4"
+      "tag": "proxy4_fragc1"
     },
     {
       "protocol": "vless",
@@ -275,20 +275,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy5"
+      "tag": "proxy5_fragc1"
     },
     {
       "protocol": "vless",
@@ -317,20 +317,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy6"
+      "tag": "proxy6_fragc1"
     },
     {
       "protocol": "vless",
@@ -359,20 +359,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy7"
+      "tag": "proxy7_fragc1"
     },
     {
       "protocol": "vless",
@@ -401,20 +401,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy8"
+      "tag": "proxy8_fragc1"
     },
     {
       "protocol": "vless",
@@ -443,20 +443,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy9"
+      "tag": "proxy9_fragc1"
     },
     {
       "protocol": "vless",
@@ -485,20 +485,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy10"
+      "tag": "proxy10_fragc1"
     },
     {
       "protocol": "vless",
@@ -527,20 +527,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy11"
+      "tag": "proxy11_fragc1"
     },
     {
       "protocol": "vless",
@@ -569,20 +569,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy12"
+      "tag": "proxy12_fragc1"
     },
     {
       "protocol": "vless",
@@ -611,20 +611,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy13"
+      "tag": "proxy13_fragc1"
     },
     {
       "protocol": "vless",
@@ -653,20 +653,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy14"
+      "tag": "proxy14_fragc1"
     },
     {
       "protocol": "vless",
@@ -695,20 +695,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy15"
+      "tag": "proxy15_fragc1"
     },
     {
       "protocol": "vless",
@@ -737,20 +737,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy16"
+      "tag": "proxy16_fragc1"
     },
     {
       "protocol": "vless",
@@ -779,20 +779,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy17"
+      "tag": "proxy17_fragc1"
     },
     {
       "protocol": "vless",
@@ -821,20 +821,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy18"
+      "tag": "proxy18_fragc1"
     },
     {
       "protocol": "vless",
@@ -863,20 +863,20 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy19"
+      "tag": "proxy19_fragc1"
     },
     {
       "protocol": "vless",
@@ -905,20 +905,35 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "udp://1.1.1.1:53",
-          "echForceQuery": "full"
+            "h3"
+          ]
         },
         "xhttpSettings": {
           "extra": {},
           "host": "vp.typhonemobile.ir",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy20"
+      "tag": "proxy20_fragc1"
+    },
+    {
+      "tag": "fragment0c1",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "AsIs",
+        "noises": [
+          {
+            "type": "hex",
+            "packet": "ee0000000108aaaaaaaaaaaaaaaa000044d0",
+            "delay": "1-5",
+            "count": "10"
+          }
+        ]
+      }
     },
     {
       "tag": "direct",
@@ -1022,5 +1037,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "SERVER3.4.ECH 2026-01-06"
+  "remarks": "SERVER3.4.H3 2026-01-06"
 }
