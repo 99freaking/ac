@@ -26,7 +26,9 @@
           "domain:.ir",
           "full:www.speedtest.net",
           "domain:tgju.org",
-          "domain:b2n.ir"
+          "domain:b2n.ir",
+          "domain:chatgpt.com",
+          "domain:cdnjs.com"
         ],
         "skipFallback": true
       },
@@ -2427,6 +2429,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2026-01-08"
+  "remarks": "#1 MCI.CF 2026-01-23"
 }
 ]
