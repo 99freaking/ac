@@ -94,7 +94,7 @@
         "vnext": [
           {
             "address": "104.20.28.242",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -107,7 +107,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -119,10 +119,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -141,7 +142,7 @@
         "vnext": [
           {
             "address": "104.24.197.20",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -154,7 +155,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -166,10 +167,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -187,8 +189,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
-            "port": 8443,
+            "address": "5.10.214.216",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -201,7 +203,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -213,10 +215,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -234,8 +237,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.14.85",
-            "port": 8443,
+            "address": "104.17.148.22",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -248,7 +251,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -260,10 +263,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -281,8 +285,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.21.230",
-            "port": 8443,
+            "address": "63.141.128.17",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -295,7 +299,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -307,10 +311,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -328,8 +333,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "82.26.156.57",
-            "port": 8443,
+            "address": "45.146.201.251",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -342,7 +347,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -354,10 +359,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -375,8 +381,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.22",
-            "port": 8443,
+            "address": "188.114.96.7",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -389,7 +395,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -401,10 +407,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -422,8 +429,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.146.201.251",
-            "port": 8443,
+            "address": "104.26.14.85",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -436,7 +443,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -448,10 +455,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -469,8 +477,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.7",
-            "port": 8443,
+            "address": "82.26.156.57",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -483,7 +491,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -495,10 +503,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -516,8 +525,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "63.141.128.17",
-            "port": 8443,
+            "address": "104.19.21.230",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -530,7 +539,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -542,10 +551,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -563,8 +573,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.10.214.216",
-            "port": 8443,
+            "address": "216.24.57.250",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -577,7 +587,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -589,10 +599,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -610,8 +621,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.97.7",
-            "port": 8443,
+            "address": "45.130.125.167",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -624,7 +635,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -636,10 +647,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -657,8 +669,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.171.106",
-            "port": 8443,
+            "address": "104.18.89.237",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -671,7 +683,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -683,10 +695,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -704,8 +717,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "45.130.125.167",
-            "port": 8443,
+            "address": "104.17.223.18",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -718,7 +731,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -730,10 +743,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -751,8 +765,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.57.5",
-            "port": 8443,
+            "address": "188.114.97.7",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -765,7 +779,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -777,10 +791,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -798,8 +813,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.89.237",
-            "port": 8443,
+            "address": "172.67.171.106",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -812,7 +827,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -824,10 +839,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -845,8 +861,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.223.18",
-            "port": 8443,
+            "address": "104.24.57.5",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -859,7 +875,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -871,10 +887,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -893,7 +910,7 @@
         "vnext": [
           {
             "address": "b2n.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -906,7 +923,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -918,10 +935,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -940,7 +958,7 @@
         "vnext": [
           {
             "address": "cdnjs.com",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -953,7 +971,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -965,10 +983,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -987,7 +1006,7 @@
         "vnext": [
           {
             "address": "laracasts.com",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1000,7 +1019,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1012,10 +1031,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1034,7 +1054,7 @@
         "vnext": [
           {
             "address": "laravel.com",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1047,7 +1067,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1059,10 +1079,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1081,7 +1102,7 @@
         "vnext": [
           {
             "address": "tgju.org",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1094,7 +1115,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1106,10 +1127,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1128,7 +1150,7 @@
         "vnext": [
           {
             "address": "zula.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1141,7 +1163,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1153,10 +1175,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1174,8 +1197,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
-            "port": 8443,
+            "address": "[2a06:98c1:3121::3]",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1188,7 +1211,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1200,10 +1223,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1221,8 +1245,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
-            "port": 8443,
+            "address": "[2a06:98c1:3120::3]",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1235,7 +1259,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1247,10 +1271,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1268,8 +1293,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
-            "port": 8443,
+            "address": "[2a06:98c1:3120::aa]",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1282,7 +1307,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1294,10 +1319,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1315,8 +1341,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::aa]",
-            "port": 8443,
+            "address": "[2a06:98c1:3120::6]",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1329,7 +1355,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1341,10 +1367,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1362,8 +1389,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
-            "port": 8443,
+            "address": "[2a06:98c1:3120::5d08]",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1376,7 +1403,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -1388,10 +1415,11 @@
             "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
@@ -1533,6 +1561,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 SERVER3.4.FRAG 2026-01-24"
+  "remarks": "#1 SERVER3.1.FRAG 2026-01-24"
 }
 ]
