@@ -1,0 +1,13 @@
+{
+  "test_domain": "chatgpt.com",
+  "test_path": "/",
+  "timeout": 3,
+  "max_workers": 100,
+  "test_download": true,
+  "download_size": 102400,
+  "port": 443,
+  "subnets": [
+    "104.18.0.0/20",
+    "172.64.0.0/20"
+  ]
+}
