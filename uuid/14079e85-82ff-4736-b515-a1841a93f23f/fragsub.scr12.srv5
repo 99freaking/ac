@@ -24,7 +24,10 @@
           "domain:.ir",
           "full:www.speedtest.net",
           "domain:tgju.org",
-          "domain:b2n.ir"
+          "domain:b2n.ir",
+          "domain:chatgpt.com",
+          "domain:cdnjs.com",
+          "domain:laracasts.com"
         ],
         "skipFallback": true
       },
@@ -201,5 +204,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER2 2026-01-08"
+  "remarks": "SERVER3.3.REALITY+SERVER2 2026-01-26"
 }
