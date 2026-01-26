@@ -28,7 +28,8 @@
           "domain:tgju.org",
           "domain:b2n.ir",
           "domain:chatgpt.com",
-          "domain:cdnjs.com"
+          "domain:cdnjs.com",
+          "domain:laracasts.com"
         ],
         "skipFallback": true
       },
@@ -2429,6 +2430,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2026-01-23"
+  "remarks": "#1 MCI.CF 2026-01-26"
 }
 ]
