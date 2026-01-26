@@ -22,9 +22,11 @@
           "geosite:private",
           "full:cloudflare.com",
           "domain:.ir",
-          "full:www.speedtest.net",
-          "domain:tgju.org",
-          "domain:b2n.ir"
+          "domain:api1.uploadsho.com",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir",
+          "domain:ipts.spancloud.sbs",
+          "domain:mkh.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -201,5 +203,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER1 2026-01-08"
+  "remarks": "SERVER3.3.REALITY+SERVER1 2026-01-26"
 }
