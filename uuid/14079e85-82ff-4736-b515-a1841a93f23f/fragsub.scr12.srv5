@@ -22,12 +22,11 @@
           "geosite:private",
           "full:cloudflare.com",
           "domain:.ir",
-          "full:www.speedtest.net",
-          "domain:tgju.org",
-          "domain:b2n.ir",
-          "domain:chatgpt.com",
-          "domain:cdnjs.com",
-          "domain:laracasts.com"
+          "domain:api1.uploadsho.com",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir",
+          "domain:ipts.spancloud.sbs",
+          "domain:mkh.v2plus.ovh"
         ],
         "skipFallback": true
       },

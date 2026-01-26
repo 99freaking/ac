@@ -23,12 +23,11 @@
           "geosite:private",
           "full:cloudflare.com",
           "domain:.ir",
-          "full:www.speedtest.net",
-          "domain:tgju.org",
-          "domain:b2n.ir",
-          "domain:chatgpt.com",
-          "domain:cdnjs.com",
-          "domain:laracasts.com"
+          "domain:api1.uploadsho.com",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir",
+          "domain:ipts.spancloud.sbs",
+          "domain:mkh.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -89,7 +88,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 443,
             "users": [
               {
@@ -129,7 +128,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -169,7 +168,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -209,7 +208,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -249,7 +248,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -289,7 +288,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -369,7 +368,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -409,7 +408,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 443,
             "users": [
               {
@@ -449,7 +448,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -489,7 +488,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -569,7 +568,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -609,7 +608,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -649,7 +648,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 443,
             "users": [
               {
@@ -689,7 +688,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 443,
             "users": [
               {
@@ -809,7 +808,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -1295,12 +1294,11 @@
           "geosite:private",
           "full:cloudflare.com",
           "domain:.ir",
-          "full:www.speedtest.net",
-          "domain:tgju.org",
-          "domain:b2n.ir",
-          "domain:chatgpt.com",
-          "domain:cdnjs.com",
-          "domain:laracasts.com"
+          "domain:api1.uploadsho.com",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir",
+          "domain:ipts.spancloud.sbs",
+          "domain:mkh.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -1365,7 +1363,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 443,
             "users": [
               {
@@ -1412,7 +1410,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -1459,7 +1457,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -1506,7 +1504,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -1553,7 +1551,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -1600,7 +1598,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -1694,7 +1692,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -1741,7 +1739,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 443,
             "users": [
               {
@@ -1788,7 +1786,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -1835,7 +1833,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -1929,7 +1927,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -1976,7 +1974,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::5d08]",
             "port": 443,
             "users": [
               {
@@ -2023,7 +2021,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 443,
             "users": [
               {
@@ -2070,7 +2068,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3120::3]",
             "port": 443,
             "users": [
               {
@@ -2211,7 +2209,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
