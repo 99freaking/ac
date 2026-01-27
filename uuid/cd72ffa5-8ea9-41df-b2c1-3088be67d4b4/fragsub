@@ -23,12 +23,12 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
@@ -877,7 +877,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -922,6 +922,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 SERVER3.4.FRAG 2026-01-26"
+  "remarks": "#1 SERVER3.4.FRAG 2026-01-27"
 }
 ]
