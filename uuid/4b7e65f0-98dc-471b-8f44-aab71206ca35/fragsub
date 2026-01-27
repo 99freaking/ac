@@ -22,12 +22,12 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
@@ -288,7 +288,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -368,7 +368,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -608,7 +608,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -688,7 +688,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -928,7 +928,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -1008,7 +1008,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -1248,7 +1248,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -1328,7 +1328,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -1568,7 +1568,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -1648,7 +1648,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -1888,7 +1888,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -1968,7 +1968,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -2208,7 +2208,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -2288,7 +2288,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -2528,7 +2528,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -2608,7 +2608,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -2848,7 +2848,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -2928,7 +2928,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -3168,7 +3168,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -3248,7 +3248,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -3598,7 +3598,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -3666,7 +3666,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER7.TLS 2026-01-26"
+  "remarks": "#0 WORKER7.TLS 2026-01-27"
 }
 ,
 {
@@ -3693,12 +3693,12 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
@@ -3998,7 +3998,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -4092,7 +4092,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -4374,7 +4374,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -4468,7 +4468,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -4750,7 +4750,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -4844,7 +4844,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -5126,7 +5126,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -5220,7 +5220,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -5502,7 +5502,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -5596,7 +5596,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -5878,7 +5878,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -5972,7 +5972,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -6254,7 +6254,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -6348,7 +6348,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -6630,7 +6630,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -6724,7 +6724,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -7006,7 +7006,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -7100,7 +7100,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -7382,7 +7382,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "ipts.spancloud.sbs",
             "port": 443,
             "users": [
               {
@@ -7476,7 +7476,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "api1.uploadsho.com",
+            "address": "cdn.halazzon.ir",
             "port": 443,
             "users": [
               {
@@ -7860,7 +7860,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -7928,6 +7928,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER7.TLS 2026-01-26"
+  "remarks": "#1 WORKER7.TLS 2026-01-27"
 }
 ]

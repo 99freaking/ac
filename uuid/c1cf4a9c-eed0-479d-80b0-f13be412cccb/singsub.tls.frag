@@ -330,7 +330,7 @@
     {
       "type": "vless",
       "tag": "1.TLS.worker3.vefibe8662.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "2d90bc69-0290-481b-8cc0-6e9f8bbffb20",
       "flow": "",
@@ -363,7 +363,7 @@
     {
       "type": "vless",
       "tag": "2.TLS.worker3.vefibe8662.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "2d90bc69-0290-481b-8cc0-6e9f8bbffb20",
       "flow": "",
@@ -528,7 +528,7 @@
     {
       "type": "vless",
       "tag": "7.TLS.worker3.vefibe8662.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "2d90bc69-0290-481b-8cc0-6e9f8bbffb20",
       "flow": "",
@@ -594,7 +594,7 @@
     {
       "type": "vless",
       "tag": "9.TLS.worker2.sicolek510.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "50149aa2-53ae-4365-8eb9-048820f4f671",
       "flow": "",
@@ -627,7 +627,7 @@
     {
       "type": "vless",
       "tag": "10.TLS.worker2.sicolek510.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "50149aa2-53ae-4365-8eb9-048820f4f671",
       "flow": "",
@@ -792,7 +792,7 @@
     {
       "type": "vless",
       "tag": "15.TLS.worker2.sicolek510.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "50149aa2-53ae-4365-8eb9-048820f4f671",
       "flow": "",
@@ -858,7 +858,7 @@
     {
       "type": "vless",
       "tag": "17.TLS.worker3.farife3383.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "04fe440e-66c9-46df-998b-1b22c8ca7105",
       "flow": "",
@@ -891,7 +891,7 @@
     {
       "type": "vless",
       "tag": "18.TLS.worker3.farife3383.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "04fe440e-66c9-46df-998b-1b22c8ca7105",
       "flow": "",
@@ -1056,7 +1056,7 @@
     {
       "type": "vless",
       "tag": "23.TLS.worker3.farife3383.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "04fe440e-66c9-46df-998b-1b22c8ca7105",
       "flow": "",
@@ -1122,7 +1122,7 @@
     {
       "type": "vless",
       "tag": "25.TLS.worker3.voxili9688.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "a44b59b0-bcb4-442b-b2fa-0e6e6c312fef",
       "flow": "",
@@ -1155,7 +1155,7 @@
     {
       "type": "vless",
       "tag": "26.TLS.worker3.voxili9688.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "a44b59b0-bcb4-442b-b2fa-0e6e6c312fef",
       "flow": "",
@@ -1320,7 +1320,7 @@
     {
       "type": "vless",
       "tag": "31.TLS.worker3.voxili9688.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "a44b59b0-bcb4-442b-b2fa-0e6e6c312fef",
       "flow": "",
@@ -1386,7 +1386,7 @@
     {
       "type": "vless",
       "tag": "33.TLS.worker3.xiweya2647.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "49c90466-1dc8-4b11-86b5-ed7e5c31d875",
       "flow": "",
@@ -1419,7 +1419,7 @@
     {
       "type": "vless",
       "tag": "34.TLS.worker3.xiweya2647.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "49c90466-1dc8-4b11-86b5-ed7e5c31d875",
       "flow": "",
@@ -1584,7 +1584,7 @@
     {
       "type": "vless",
       "tag": "39.TLS.worker3.xiweya2647.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "49c90466-1dc8-4b11-86b5-ed7e5c31d875",
       "flow": "",
@@ -1650,7 +1650,7 @@
     {
       "type": "vless",
       "tag": "41.TLS.worker3.besal18449.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "e630aa66-9117-424c-ad77-3360cf4fcfb5",
       "flow": "",
@@ -1683,7 +1683,7 @@
     {
       "type": "vless",
       "tag": "42.TLS.worker3.besal18449.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "e630aa66-9117-424c-ad77-3360cf4fcfb5",
       "flow": "",
@@ -1848,7 +1848,7 @@
     {
       "type": "vless",
       "tag": "47.TLS.worker3.besal18449.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "e630aa66-9117-424c-ad77-3360cf4fcfb5",
       "flow": "",
@@ -1914,7 +1914,7 @@
     {
       "type": "vless",
       "tag": "49.TLS.worker3.harijo3330.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "ba477114-ce45-41dc-9d7f-17ced9574dda",
       "flow": "",
@@ -1947,7 +1947,7 @@
     {
       "type": "vless",
       "tag": "50.TLS.worker3.harijo3330.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "ba477114-ce45-41dc-9d7f-17ced9574dda",
       "flow": "",
@@ -2112,7 +2112,7 @@
     {
       "type": "vless",
       "tag": "55.TLS.worker3.harijo3330.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "ba477114-ce45-41dc-9d7f-17ced9574dda",
       "flow": "",
@@ -2178,7 +2178,7 @@
     {
       "type": "vless",
       "tag": "57.TLS.worker3.paroxa4047.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "0ff956cc-4e6f-4c85-9483-8f1daf5e2db9",
       "flow": "",
@@ -2211,7 +2211,7 @@
     {
       "type": "vless",
       "tag": "58.TLS.worker3.paroxa4047.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "0ff956cc-4e6f-4c85-9483-8f1daf5e2db9",
       "flow": "",
@@ -2376,7 +2376,7 @@
     {
       "type": "vless",
       "tag": "63.TLS.worker3.paroxa4047.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "0ff956cc-4e6f-4c85-9483-8f1daf5e2db9",
       "flow": "",
@@ -2442,7 +2442,7 @@
     {
       "type": "vless",
       "tag": "65.TLS.worker3.moveli8866.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "4eeafb2c-0f13-439d-a61c-58d5968c288b",
       "flow": "",
@@ -2475,7 +2475,7 @@
     {
       "type": "vless",
       "tag": "66.TLS.worker3.moveli8866.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "4eeafb2c-0f13-439d-a61c-58d5968c288b",
       "flow": "",
@@ -2640,7 +2640,7 @@
     {
       "type": "vless",
       "tag": "71.TLS.worker3.moveli8866.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "4eeafb2c-0f13-439d-a61c-58d5968c288b",
       "flow": "",
@@ -2706,7 +2706,7 @@
     {
       "type": "vless",
       "tag": "73.TLS.worker3.kilafo1375.workers.dev",
-      "server": "188.114.98.0",
+      "server": "216.24.57.250",
       "server_port": 443,
       "uuid": "7e259142-9cd5-429b-8719-b10acb67614e",
       "flow": "",
@@ -2739,7 +2739,7 @@
     {
       "type": "vless",
       "tag": "74.TLS.worker3.kilafo1375.workers.dev",
-      "server": "216.24.57.250",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "7e259142-9cd5-429b-8719-b10acb67614e",
       "flow": "",
@@ -2904,7 +2904,7 @@
     {
       "type": "vless",
       "tag": "79.TLS.worker3.kilafo1375.workers.dev",
-      "server": "cdn.halazzon.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "7e259142-9cd5-429b-8719-b10acb67614e",
       "flow": "",

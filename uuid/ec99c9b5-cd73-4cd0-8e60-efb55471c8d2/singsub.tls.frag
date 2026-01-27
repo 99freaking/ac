@@ -495,7 +495,7 @@
     {
       "type": "vless",
       "tag": "6.TLS.worker3.tixid15058.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "1cebc7c5-3a28-44b5-90ce-8b81dcbaf7de",
       "flow": "",
@@ -561,7 +561,7 @@
     {
       "type": "vless",
       "tag": "8.TLS.worker3.tixid15058.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "1cebc7c5-3a28-44b5-90ce-8b81dcbaf7de",
       "flow": "",
@@ -759,7 +759,7 @@
     {
       "type": "vless",
       "tag": "14.TLS.worker3.bowixa2615.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "cb0bd785-1c87-4255-93f3-870fa6c15290",
       "flow": "",
@@ -825,7 +825,7 @@
     {
       "type": "vless",
       "tag": "16.TLS.worker3.bowixa2615.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "cb0bd785-1c87-4255-93f3-870fa6c15290",
       "flow": "",
@@ -1023,7 +1023,7 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker3.gogimi1942.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "5118ea51-38fa-460f-aa2e-92b4b92e0105",
       "flow": "",
@@ -1089,7 +1089,7 @@
     {
       "type": "vless",
       "tag": "24.TLS.worker3.gogimi1942.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "5118ea51-38fa-460f-aa2e-92b4b92e0105",
       "flow": "",
@@ -1287,7 +1287,7 @@
     {
       "type": "vless",
       "tag": "30.TLS.worker3.homipap3587.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "677301c6-e803-4d65-be68-dd96c0eb3bf8",
       "flow": "",
@@ -1353,7 +1353,7 @@
     {
       "type": "vless",
       "tag": "32.TLS.worker3.homipap3587.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "677301c6-e803-4d65-be68-dd96c0eb3bf8",
       "flow": "",
@@ -1551,7 +1551,7 @@
     {
       "type": "vless",
       "tag": "38.TLS.worker3.cavow47338.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "2ba0a378-e4be-4d77-9be8-9ea6d871299c",
       "flow": "",
@@ -1617,7 +1617,7 @@
     {
       "type": "vless",
       "tag": "40.TLS.worker3.cavow47338.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "2ba0a378-e4be-4d77-9be8-9ea6d871299c",
       "flow": "",
@@ -1815,7 +1815,7 @@
     {
       "type": "vless",
       "tag": "46.TLS.worker3.jiyaho8345.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "8427d734-2e59-4534-a1a2-6d44ef8307b0",
       "flow": "",
@@ -1881,7 +1881,7 @@
     {
       "type": "vless",
       "tag": "48.TLS.worker3.jiyaho8345.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "8427d734-2e59-4534-a1a2-6d44ef8307b0",
       "flow": "",
@@ -2079,7 +2079,7 @@
     {
       "type": "vless",
       "tag": "54.TLS.worker3.xicara9148.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "b04fcca8-7135-4c5c-b5af-80afe65402cb",
       "flow": "",
@@ -2145,7 +2145,7 @@
     {
       "type": "vless",
       "tag": "56.TLS.worker3.xicara9148.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "b04fcca8-7135-4c5c-b5af-80afe65402cb",
       "flow": "",
@@ -2343,7 +2343,7 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker3.kogefed644.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "1d9df474-deb3-4ae0-9dd2-e5e1b3937455",
       "flow": "",
@@ -2409,7 +2409,7 @@
     {
       "type": "vless",
       "tag": "64.TLS.worker3.kogefed644.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "1d9df474-deb3-4ae0-9dd2-e5e1b3937455",
       "flow": "",
@@ -2607,7 +2607,7 @@
     {
       "type": "vless",
       "tag": "70.TLS.worker3.laxasix948.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "d3616c85-c2ef-4c98-bb4e-fe3734b27313",
       "flow": "",
@@ -2673,7 +2673,7 @@
     {
       "type": "vless",
       "tag": "72.TLS.worker3.laxasix948.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "d3616c85-c2ef-4c98-bb4e-fe3734b27313",
       "flow": "",
@@ -2871,7 +2871,7 @@
     {
       "type": "vless",
       "tag": "78.TLS.worker3.gemoxax771.workers.dev",
-      "server": "cdn.sjdpictures.ir",
+      "server": "ipts.spancloud.sbs",
       "server_port": 443,
       "uuid": "c636b8bd-5d1f-4c78-ab82-f3f55c843b85",
       "flow": "",
@@ -2937,7 +2937,7 @@
     {
       "type": "vless",
       "tag": "80.TLS.worker3.gemoxax771.workers.dev",
-      "server": "api1.uploadsho.com",
+      "server": "cdn.halazzon.ir",
       "server_port": 443,
       "uuid": "c636b8bd-5d1f-4c78-ab82-f3f55c843b85",
       "flow": "",

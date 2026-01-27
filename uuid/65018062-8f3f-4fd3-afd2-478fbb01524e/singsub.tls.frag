@@ -495,39 +495,6 @@
     {
       "type": "vless",
       "tag": "6.TLS.worker3.wateci1156.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "4ee7a384-4312-4dcb-8043-2ae51a15252d",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.wateci1156.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.wateci1156.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "7.TLS.worker3.wateci1156.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "4ee7a384-4312-4dcb-8043-2ae51a15252d",
@@ -560,8 +527,41 @@
     },
     {
       "type": "vless",
+      "tag": "7.TLS.worker3.wateci1156.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "4ee7a384-4312-4dcb-8043-2ae51a15252d",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.wateci1156.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.wateci1156.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "8.TLS.worker3.wateci1156.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "4ee7a384-4312-4dcb-8043-2ae51a15252d",
       "flow": "",
@@ -759,39 +759,6 @@
     {
       "type": "vless",
       "tag": "14.TLS.worker2.yobagov334.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "381806c4-d486-4769-a7be-ff778f4db511",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker2.yobagov334.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker2.yobagov334.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "15.TLS.worker2.yobagov334.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "381806c4-d486-4769-a7be-ff778f4db511",
@@ -824,8 +791,41 @@
     },
     {
       "type": "vless",
+      "tag": "15.TLS.worker2.yobagov334.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "381806c4-d486-4769-a7be-ff778f4db511",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker2.yobagov334.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker2.yobagov334.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "16.TLS.worker2.yobagov334.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "381806c4-d486-4769-a7be-ff778f4db511",
       "flow": "",
@@ -1023,39 +1023,6 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker3.yahoya44555.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "a41322e9-d0f1-4ff1-ac5c-a486e2b680b2",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.yahoya44555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.yahoya44555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "23.TLS.worker3.yahoya44555.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "a41322e9-d0f1-4ff1-ac5c-a486e2b680b2",
@@ -1088,8 +1055,41 @@
     },
     {
       "type": "vless",
+      "tag": "23.TLS.worker3.yahoya44555.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "a41322e9-d0f1-4ff1-ac5c-a486e2b680b2",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.yahoya44555.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.yahoya44555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "24.TLS.worker3.yahoya44555.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "a41322e9-d0f1-4ff1-ac5c-a486e2b680b2",
       "flow": "",
@@ -1287,39 +1287,6 @@
     {
       "type": "vless",
       "tag": "30.TLS.worker3.ditib3776666.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "9b6923a6-2f2c-4cc7-a753-4272d94c7875",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.ditib3776666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.ditib3776666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "31.TLS.worker3.ditib3776666.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "9b6923a6-2f2c-4cc7-a753-4272d94c7875",
@@ -1352,8 +1319,41 @@
     },
     {
       "type": "vless",
+      "tag": "31.TLS.worker3.ditib3776666.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "9b6923a6-2f2c-4cc7-a753-4272d94c7875",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.ditib3776666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.ditib3776666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "32.TLS.worker3.ditib3776666.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "9b6923a6-2f2c-4cc7-a753-4272d94c7875",
       "flow": "",
@@ -1551,39 +1551,6 @@
     {
       "type": "vless",
       "tag": "38.TLS.worker3.gahekif304.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "492465ab-3855-46f2-bac3-a2cd19074a87",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.gahekif304.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.gahekif304.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "39.TLS.worker3.gahekif304.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "492465ab-3855-46f2-bac3-a2cd19074a87",
@@ -1616,8 +1583,41 @@
     },
     {
       "type": "vless",
+      "tag": "39.TLS.worker3.gahekif304.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "492465ab-3855-46f2-bac3-a2cd19074a87",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.gahekif304.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.gahekif304.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "40.TLS.worker3.gahekif304.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "492465ab-3855-46f2-bac3-a2cd19074a87",
       "flow": "",
@@ -1815,39 +1815,6 @@
     {
       "type": "vless",
       "tag": "46.TLS.worker3.tefos24410.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "24726f9a-d343-419f-a5ba-44794edc20b0",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.tefos24410.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.tefos24410.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "47.TLS.worker3.tefos24410.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "24726f9a-d343-419f-a5ba-44794edc20b0",
@@ -1880,8 +1847,41 @@
     },
     {
       "type": "vless",
+      "tag": "47.TLS.worker3.tefos24410.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "24726f9a-d343-419f-a5ba-44794edc20b0",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.tefos24410.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.tefos24410.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "48.TLS.worker3.tefos24410.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "24726f9a-d343-419f-a5ba-44794edc20b0",
       "flow": "",
@@ -2079,39 +2079,6 @@
     {
       "type": "vless",
       "tag": "54.TLS.worker3.xoxid22463.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "42ffe0e8-b244-4c75-b731-317add500a79",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.xoxid22463.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.xoxid22463.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "55.TLS.worker3.xoxid22463.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "42ffe0e8-b244-4c75-b731-317add500a79",
@@ -2144,8 +2111,41 @@
     },
     {
       "type": "vless",
+      "tag": "55.TLS.worker3.xoxid22463.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "42ffe0e8-b244-4c75-b731-317add500a79",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.xoxid22463.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.xoxid22463.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "56.TLS.worker3.xoxid22463.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "42ffe0e8-b244-4c75-b731-317add500a79",
       "flow": "",
@@ -2343,39 +2343,6 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker3.fexepit851.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "2cf79e40-74fe-4de9-ae0e-e496620a09a6",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.fexepit851.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.fexepit851.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "63.TLS.worker3.fexepit851.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "2cf79e40-74fe-4de9-ae0e-e496620a09a6",
@@ -2408,8 +2375,41 @@
     },
     {
       "type": "vless",
+      "tag": "63.TLS.worker3.fexepit851.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "2cf79e40-74fe-4de9-ae0e-e496620a09a6",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.fexepit851.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.fexepit851.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "64.TLS.worker3.fexepit851.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "2cf79e40-74fe-4de9-ae0e-e496620a09a6",
       "flow": "",
@@ -2607,39 +2607,6 @@
     {
       "type": "vless",
       "tag": "70.TLS.worker3.hevebam556.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "4cafebe8-8242-4238-bfea-0f26bd05accc",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.hevebam556.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.hevebam556.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "71.TLS.worker3.hevebam556.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "4cafebe8-8242-4238-bfea-0f26bd05accc",
@@ -2672,8 +2639,41 @@
     },
     {
       "type": "vless",
+      "tag": "71.TLS.worker3.hevebam556.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "4cafebe8-8242-4238-bfea-0f26bd05accc",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.hevebam556.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.hevebam556.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "72.TLS.worker3.hevebam556.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "4cafebe8-8242-4238-bfea-0f26bd05accc",
       "flow": "",
@@ -2871,39 +2871,6 @@
     {
       "type": "vless",
       "tag": "78.TLS.worker3.tacemor185.workers.dev",
-      "server": "cdn.sjdpictures.ir",
-      "server_port": 443,
-      "uuid": "40d36acd-5743-4b96-b8f6-b195e35e7336",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.tacemor185.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.tacemor185.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "79.TLS.worker3.tacemor185.workers.dev",
       "server": "api1.uploadsho.com",
       "server_port": 443,
       "uuid": "40d36acd-5743-4b96-b8f6-b195e35e7336",
@@ -2936,8 +2903,41 @@
     },
     {
       "type": "vless",
+      "tag": "79.TLS.worker3.tacemor185.workers.dev",
+      "server": "cdn.halazzon.ir",
+      "server_port": 443,
+      "uuid": "40d36acd-5743-4b96-b8f6-b195e35e7336",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.tacemor185.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.tacemor185.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "80.TLS.worker3.tacemor185.workers.dev",
-      "server": "ipts.spancloud.sbs",
+      "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "40d36acd-5743-4b96-b8f6-b195e35e7336",
       "flow": "",
