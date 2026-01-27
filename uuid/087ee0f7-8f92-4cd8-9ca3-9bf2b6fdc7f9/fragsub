@@ -21,12 +21,12 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
@@ -87,7 +87,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "193.151.140.251",
+            "address": "85.198.22.162",
             "port": 443,
             "users": [
               {
@@ -101,21 +101,15 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "7g1kAxBlFCpb1yfhc7XxXV9zQETTlMaqloiePhaZXB8",
-          "serverName": "ftp.debian.org",
-          "shortId": "ba",
+          "fingerprint": "chrome",
+          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "serverName": "google.com",
+          "shortId": "3d7cdb",
           "spiderX": "",
           "show": false
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
         }
       },
       "tag": "proxy"
@@ -177,7 +171,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -203,5 +197,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER2 2026-01-26"
+  "remarks": "SERVER3.15 2026-01-27"
 }
