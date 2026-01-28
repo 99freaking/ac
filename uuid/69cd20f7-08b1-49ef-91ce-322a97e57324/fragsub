@@ -1,3 +1,4 @@
+[
 {
   "log": {
     "access": "",
@@ -7,6 +8,7 @@
   },
   "dns": {
     "hosts": {
+      "dns.cloudflare.com": "cloudflare.com",
       "dns.google": [
         "8.8.8.8",
         "8.8.4.4",
@@ -21,18 +23,22 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
       {
         "address": "https://dns.google/dns-query",
         "tag": "remote-dns"
+      },
+      {
+        "address": "https://dns.google/dns-query",
+        "tag": "frag-dns"
       },
       "https+local://dns.digitalsize.net/dns-query"
     ],
@@ -88,7 +94,7 @@
         "vnext": [
           {
             "address": "216.24.57.250",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -101,7 +107,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -109,20 +115,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy1_fragc1"
+      "tag": "proxy1_frag1"
     },
     {
       "protocol": "vless",
@@ -130,7 +142,7 @@
         "vnext": [
           {
             "address": "188.114.98.0",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -143,7 +155,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -151,20 +163,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy2_fragc1"
+      "tag": "proxy2_frag1"
     },
     {
       "protocol": "vless",
@@ -172,7 +190,7 @@
         "vnext": [
           {
             "address": "192.0.54.134",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -185,7 +203,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -193,20 +211,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy3_fragc1"
+      "tag": "proxy3_frag1"
     },
     {
       "protocol": "vless",
@@ -214,7 +238,7 @@
         "vnext": [
           {
             "address": "api1.uploadsho.com",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -227,7 +251,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -235,20 +259,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy4_fragc1"
+      "tag": "proxy4_frag1"
     },
     {
       "protocol": "vless",
@@ -256,7 +286,7 @@
         "vnext": [
           {
             "address": "cdn.halazzon.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -269,7 +299,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -277,20 +307,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy5_fragc1"
+      "tag": "proxy5_frag1"
     },
     {
       "protocol": "vless",
@@ -298,7 +334,7 @@
         "vnext": [
           {
             "address": "cdn.sjdpictures.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -311,7 +347,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -319,20 +355,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy6_fragc1"
+      "tag": "proxy6_frag1"
     },
     {
       "protocol": "vless",
@@ -340,7 +382,7 @@
         "vnext": [
           {
             "address": "ipts.spancloud.sbs",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -353,7 +395,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -361,20 +403,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy7_fragc1"
+      "tag": "proxy7_frag1"
     },
     {
       "protocol": "vless",
@@ -382,7 +430,7 @@
         "vnext": [
           {
             "address": "mkh.v2plus.ovh",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -395,7 +443,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -403,20 +451,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy8_fragc1"
+      "tag": "proxy8_frag1"
     },
     {
       "protocol": "vless",
@@ -424,7 +478,7 @@
         "vnext": [
           {
             "address": "[2a06:98c1:3120::aa]",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -437,7 +491,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -445,20 +499,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy9_fragc1"
+      "tag": "proxy9_frag1"
     },
     {
       "protocol": "vless",
@@ -466,7 +526,7 @@
         "vnext": [
           {
             "address": "[2a06:98c1:3120::6]",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -479,7 +539,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -487,62 +547,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy10_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "[2a06:98c1:3120::3]",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "69cd20f7-08b1-49ef-91ce-322a97e57324",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "vp.typhonemobile.ir",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "dialerProxy": "fragment0c1"
-        }
-      },
-      "tag": "proxy11_fragc1"
+      "tag": "proxy10_frag1"
     },
     {
       "protocol": "vless",
@@ -550,7 +574,7 @@
         "vnext": [
           {
             "address": "[2a06:98c1:3121::3]",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -563,7 +587,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -571,20 +595,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy12_fragc1"
+      "tag": "proxy11_frag1"
     },
     {
       "protocol": "vless",
@@ -592,7 +622,7 @@
         "vnext": [
           {
             "address": "[2a06:98c1:3120::5d08]",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -605,7 +635,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -613,20 +643,74 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy13_fragc1"
+      "tag": "proxy12_frag1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2a06:98c1:3120::3]",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "69cd20f7-08b1-49ef-91ce-322a97e57324",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy13_frag1"
     },
     {
       "protocol": "vless",
@@ -634,7 +718,7 @@
         "vnext": [
           {
             "address": "mci.typhonemobile.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -647,7 +731,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -655,20 +739,26 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy14_fragc1"
+      "tag": "proxy14_frag1"
     },
     {
       "protocol": "vless",
@@ -676,7 +766,7 @@
         "vnext": [
           {
             "address": "mtn.typhonemobile.ir",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -689,7 +779,7 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "allowInsecure": false,
@@ -697,34 +787,45 @@
           "serverName": "vp.typhonemobile.ir",
           "show": false,
           "alpn": [
-            "h3"
+            "h2",
+            "http/1.1"
           ]
         },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
+        "wsSettings": {
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+            "Host": "vp.typhonemobile.ir"
+          },
           "path": "/"
         },
         "sockopt": {
-          "dialerProxy": "fragment0c1"
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
         }
       },
-      "tag": "proxy15_fragc1"
+      "tag": "proxy15_frag1"
     },
     {
-      "tag": "fragment0c1",
+      "tag": "fragment1",
       "protocol": "freedom",
       "settings": {
-        "domainStrategy": "AsIs",
-        "noises": [
-          {
-            "type": "hex",
-            "packet": "ee0000000108aaaaaaaaaaaaaaaa000044d0",
-            "delay": "1-5",
-            "count": "10"
-          }
-        ]
+        "domainStrategy": "UseIPv4v6",
+        "fragment": {
+          "packets": "tlshello",
+          "length": "1",
+          "interval": "0"
+        }
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "",
+        "sockopt": {
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100
+        }
       }
     },
     {
@@ -767,10 +868,17 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
+        "inboundTag": [
+          "frag-dns"
+        ],
+        "outboundTag": "fragment1",
+        "type": "field"
+      },
+      {
         "inboundTag": [
           "remote-dns"
         ],
+        "balancerTag": "all",
         "type": "field"
       },
       {
@@ -784,7 +892,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -829,5 +937,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "SERVER3.4.H3 2026-01-26"
+  "remarks": "#1 SERVER3.1.FRAG 2026-01-28"
 }
+]
