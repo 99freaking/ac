@@ -21,12 +21,12 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
+          "regexp:\\.ir$",
           "domain:api1.uploadsho.com",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir",
           "domain:ipts.spancloud.sbs",
-          "domain:mkh.v2plus.ovh"
+          "domain:mkh.v2plus.ovh",
+          "domain:cdn.halazzon.ir",
+          "domain:cdn.sjdpictures.ir"
         ],
         "skipFallback": true
       },
@@ -105,8 +105,8 @@
         "security": "reality",
         "realitySettings": {
           "fingerprint": "firefox",
-          "publicKey": "7g1kAxBlFCpb1yfhc7XxXV9zQETTlMaqloiePhaZXB8",
-          "serverName": "ftp.debian.org",
+          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
+          "serverName": "www.google.com",
           "shortId": "ba",
           "spiderX": "",
           "show": false
@@ -177,7 +177,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -203,5 +203,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER1 2026-01-26"
+  "remarks": "SERVER3.3.REALITY+SERVER1 2026-01-28"
 }
