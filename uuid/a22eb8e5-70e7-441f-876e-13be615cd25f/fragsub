@@ -101,21 +101,15 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
-          "serverName": "www.google.com",
-          "shortId": "ba",
+          "fingerprint": "chrome",
+          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "serverName": "google.com",
+          "shortId": "3d7cdb",
           "spiderX": "",
           "show": false
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
         }
       },
       "tag": "proxy"
@@ -203,5 +197,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER1 2026-01-28"
+  "remarks": "SERVER3.15 2026-01-28"
 }
