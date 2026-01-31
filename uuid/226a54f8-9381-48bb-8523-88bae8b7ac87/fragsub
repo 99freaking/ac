@@ -22,11 +22,13 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:api1.uploadsho.com",
           "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir"
+          "domain:fox3.wizard2shop.org",
+          "domain:freeiran.lookanet.app",
+          "domain:mci.v2plus.ovh",
+          "domain:mpc.mobayandeh.top",
+          "domain:mtn.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -197,5 +199,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.15 2026-01-29"
+  "remarks": "SERVER3.15.REALITY+SERVER1 2026-01-31"
 }

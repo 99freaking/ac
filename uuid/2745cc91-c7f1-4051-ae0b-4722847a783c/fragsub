@@ -22,11 +22,13 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:api1.uploadsho.com",
           "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir"
+          "domain:fox3.wizard2shop.org",
+          "domain:freeiran.lookanet.app",
+          "domain:mci.v2plus.ovh",
+          "domain:mpc.mobayandeh.top",
+          "domain:mtn.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -88,7 +90,7 @@
         "vnext": [
           {
             "address": "193.151.140.251",
-            "port": 443,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -203,5 +205,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER2 2026-01-28"
+  "remarks": "SERVER3.3.REALITY+SERVER2 2026-01-31"
 }
