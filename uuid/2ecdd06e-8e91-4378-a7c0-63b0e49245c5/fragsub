@@ -21,10 +21,14 @@
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
-          "domain:.ir",
-          "full:www.speedtest.net",
-          "domain:tgju.org",
-          "domain:b2n.ir"
+          "regexp:\\.ir$",
+          "domain:ipts.spancloud.sbs",
+          "domain:mkh.v2plus.ovh",
+          "domain:fox3.wizard2shop.org",
+          "domain:freeiran.lookanet.app",
+          "domain:mci.v2plus.ovh",
+          "domain:mpc.mobayandeh.top",
+          "domain:mtn.v2plus.ovh"
         ],
         "skipFallback": true
       },
@@ -81,34 +85,33 @@
   ],
   "outbounds": [
     {
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "85.198.22.162",
-            "port": 15988,
+            "address": "193.151.140.251",
+            "port": 443,
             "users": [
               {
-                "alterId": 0,
-                "encryption": "",
+                "encryption": "none",
                 "flow": "",
                 "id": "2ecdd06e-8e91-4378-a7c0-63b0e49245c5",
-                "level": 8,
-                "security": "auto"
+                "level": 8
               }
             ]
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "",
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "soft98.ir"
-          },
-          "path": "/"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "serverName": "google.com",
+          "shortId": "3d7cdb",
+          "spiderX": "",
+          "show": false
         }
       },
       "tag": "proxy"
@@ -170,7 +173,7 @@
       },
       {
         "domain": [
-          "domain:.ir"
+          "regexp:\\.ir$"
         ],
         "outboundTag": "direct",
         "type": "field"
@@ -196,5 +199,5 @@
       }
     ]
   },
-  "remarks": "SERVER1.30 2026-01-07"
+  "remarks": "SERVER3.15.REALITY+SERVER2 2026-01-31"
 }
