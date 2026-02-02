@@ -24,13 +24,12 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:fox3.wizard2shop.org",
           "domain:freeiran.lookanet.app",
           "domain:mci.v2plus.ovh",
           "domain:mpc.mobayandeh.top",
-          "domain:mtn.v2plus.ovh"
+          "domain:mtn.v2plus.ovh",
+          "domain:ip.ali.lat"
         ],
         "skipFallback": true
       },
@@ -95,7 +94,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.typhonemobile.ir",
+            "address": "172.64.152.23",
             "port": 8443,
             "users": [
               {
@@ -142,7 +141,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtn.typhonemobile.ir",
+            "address": "104.18.93.3",
             "port": 8443,
             "users": [
               {
@@ -189,7 +188,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "104.26.11.238",
             "port": 8443,
             "users": [
               {
@@ -236,7 +235,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn4.eswap.ir",
+            "address": "104.18.32.47",
             "port": 8443,
             "users": [
               {
@@ -283,7 +282,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "dir2.serviceali.ir",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -330,7 +329,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "fox3.wizard2shop.org",
+            "address": "192.0.54.252",
             "port": 8443,
             "users": [
               {
@@ -377,7 +376,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "freeiran.lookanet.app",
+            "address": "162.159.152.4",
             "port": 8443,
             "users": [
               {
@@ -424,7 +423,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.v2plus.ovh",
+            "address": "188.114.98.0",
             "port": 8443,
             "users": [
               {
@@ -471,7 +470,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mpc.mobayandeh.top",
+            "address": "mci.typhonemobile.ir",
             "port": 8443,
             "users": [
               {
@@ -518,7 +517,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtn.v2plus.ovh",
+            "address": "mtn.typhonemobile.ir",
             "port": 8443,
             "users": [
               {
@@ -561,6 +560,241 @@
       "tag": "proxy10_frag1"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "freeiran.lookanet.app",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy11_frag1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ip.ali.lat",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy12_frag1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mci.v2plus.ovh",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy13_frag1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mpc.mobayandeh.top",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy14_frag1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mtn.v2plus.ovh",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment1",
+          "tcpNoDelay": true,
+          "tcpKeepAliveIdle": 100,
+          "mark": 255,
+          "tcpFastOpen": true
+        }
+      },
+      "tag": "proxy15_frag1"
+    },
+    {
       "tag": "fragment1",
       "protocol": "freedom",
       "settings": {
@@ -576,7 +810,9 @@
         "security": "",
         "sockopt": {
           "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 100
+          "tcpKeepAliveIdle": 45,
+          "tcpKeepAliveInterval": 45,
+          "tcpUserTimeout": 12000
         }
       }
     },
@@ -689,7 +925,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 SERVER3.4.FRAG 2026-01-31"
+  "remarks": "#1 SERVER3.4.FRAG 2026-02-02"
 }
 ,
 {
@@ -717,13 +953,12 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:fox3.wizard2shop.org",
           "domain:freeiran.lookanet.app",
           "domain:mci.v2plus.ovh",
           "domain:mpc.mobayandeh.top",
-          "domain:mtn.v2plus.ovh"
+          "domain:mtn.v2plus.ovh",
+          "domain:ip.ali.lat"
         ],
         "skipFallback": true
       },
@@ -788,7 +1023,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.typhonemobile.ir",
+            "address": "172.64.152.23",
             "port": 8443,
             "users": [
               {
@@ -830,7 +1065,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtn.typhonemobile.ir",
+            "address": "104.18.93.3",
             "port": 8443,
             "users": [
               {
@@ -872,7 +1107,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn.sjdpictures.ir",
+            "address": "104.26.11.238",
             "port": 8443,
             "users": [
               {
@@ -914,7 +1149,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdn4.eswap.ir",
+            "address": "104.18.32.47",
             "port": 8443,
             "users": [
               {
@@ -956,7 +1191,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "dir2.serviceali.ir",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -998,7 +1233,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "fox3.wizard2shop.org",
+            "address": "192.0.54.252",
             "port": 8443,
             "users": [
               {
@@ -1040,7 +1275,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "freeiran.lookanet.app",
+            "address": "162.159.152.4",
             "port": 8443,
             "users": [
               {
@@ -1082,7 +1317,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mci.v2plus.ovh",
+            "address": "188.114.98.0",
             "port": 8443,
             "users": [
               {
@@ -1124,7 +1359,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mpc.mobayandeh.top",
+            "address": "mci.typhonemobile.ir",
             "port": 8443,
             "users": [
               {
@@ -1166,7 +1401,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "mtn.v2plus.ovh",
+            "address": "mtn.typhonemobile.ir",
             "port": 8443,
             "users": [
               {
@@ -1202,6 +1437,216 @@
         }
       },
       "tag": "proxy10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "freeiran.lookanet.app",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "echConfigList": "udp://1.1.1.1:53",
+          "echForceQuery": "full"
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy11"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ip.ali.lat",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "echConfigList": "udp://1.1.1.1:53",
+          "echForceQuery": "full"
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy12"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mci.v2plus.ovh",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "echConfigList": "udp://1.1.1.1:53",
+          "echForceQuery": "full"
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mpc.mobayandeh.top",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "echConfigList": "udp://1.1.1.1:53",
+          "echForceQuery": "full"
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "mtn.v2plus.ovh",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "697dcbcb-b2c4-48ac-95f4-74c1985f3ca6",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "allowInsecure": false,
+          "fingerprint": "firefox",
+          "serverName": "vp.typhonemobile.ir",
+          "show": false,
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ],
+          "echConfigList": "udp://1.1.1.1:53",
+          "echForceQuery": "full"
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy15"
     },
     {
       "tag": "direct",
@@ -1312,6 +1757,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER3.4.FRAG 2026-01-31"
+  "remarks": "#E SERVER3.4.FRAG 2026-02-02"
 }
 ]

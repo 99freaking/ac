@@ -22,13 +22,12 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:fox3.wizard2shop.org",
           "domain:freeiran.lookanet.app",
           "domain:mci.v2plus.ovh",
           "domain:mpc.mobayandeh.top",
-          "domain:mtn.v2plus.ovh"
+          "domain:mtn.v2plus.ovh",
+          "domain:ip.ali.lat"
         ],
         "skipFallback": true
       },
@@ -199,5 +198,5 @@
       }
     ]
   },
-  "remarks": "SERVER3.15.REALITY+SERVER2 2026-01-31"
+  "remarks": "SERVER3.15.REALITY+SERVER2 2026-02-02"
 }
