@@ -863,8 +863,7 @@
         "sockopt": {
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 45,
-          "tcpKeepAliveInterval": 45,
-          "tcpUserTimeout": 12000
+          "tcpKeepAliveInterval": 45
         }
       }
     },
@@ -970,6 +969,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER9.WS 2026-02-02"
+  "remarks": "#1 WORKER9.WS 2026-02-05"
 }
 ]
