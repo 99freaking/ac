@@ -24,13 +24,12 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:fox3.wizard2shop.org",
           "domain:freeiran.lookanet.app",
           "domain:mci.v2plus.ovh",
           "domain:mpc.mobayandeh.top",
-          "domain:mtn.v2plus.ovh"
+          "domain:mtn.v2plus.ovh",
+          "domain:ip.ali.lat"
         ],
         "skipFallback": true
       },
@@ -2329,8 +2328,7 @@
         "sockopt": {
           "tcpNoDelay": true,
           "tcpKeepAliveIdle": 45,
-          "tcpKeepAliveInterval": 45,
-          "tcpUserTimeout": 12000
+          "tcpKeepAliveInterval": 45
         }
       }
     },
@@ -2443,6 +2441,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 MCI.CF 2026-02-01"
+  "remarks": "#1 MCI.CF 2026-02-07"
 }
 ]
