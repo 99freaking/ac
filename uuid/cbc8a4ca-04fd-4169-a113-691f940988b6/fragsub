@@ -1,1 +1,36 @@
-trojan://1234@127.0.0.1:1080?#------EXPIRED------
+#!/bin/bash
+. $HOME/ProgramData/v2raysub/global.sh
+. $HOME/ProgramData/v2raysub/database.sh
+
+server_config="$SOURCE/makesub/mkserver.cf"
+server_type="defualt_type"
+
+unset worker traffic make_qr sub_type uuid name
+OPTIND=1; while getopts :n:c:Rw:u:UXEt:WTG:L:12345 opt; do
+	case "$opt" in
+        n) name="$OPTARG";;
+		u) uuid="$OPTARG";;
+		c) server_config="$SOURCE/makesub/$OPTARG.cf";;
+		R) server_type="reality_type";;
+		U) server_type="udp_type";;
+		W) server_type="ws_type";;
+		X) server_type="xhttp_type";;
+		E) server_type="ech_type";;
+		w) server_type="worker_type"; worker=$OPTARG;;
+		1) server_type="method1_type";;
+		2) server_type="method2_type";;
+		3) server_type="method3_type";;
+		4) server_type="method4_type";;
+		5) server_type="method5_type";;
+		t) sub_type=$OPTARG;;
+		G) traffic=$OPTARG;;
+		L) length=$OPTARG;;
+		q) make_qr=true;;
+        \?) printf 'Error: Unknown option "--%s"\n' "$OPTARG" 1>&2; exit 1;;
+		:) printf 'Error: "--%s" requires an argument\n' "$OPTARG" >&2; exit 1;;
+		*) exit 1;;	
+	esac
+done; shift "$((OPTIND-1))"
+{ [ -z "$name" ]  || [ -z "$uuid" ] } && { echo "no name or uuid specified"; exit 1; }
+
+. "$server_config"
