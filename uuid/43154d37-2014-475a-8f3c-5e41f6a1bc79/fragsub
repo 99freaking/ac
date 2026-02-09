@@ -92,13 +92,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "85.198.22.162",
+            "address": "193.151.146.178",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "0c20ee64-48b1-4f30-85c3-649f91a60fe7",
+                "id": "43154d37-2014-475a-8f3c-5e41f6a1bc79",
                 "level": 8
               }
             ]
@@ -110,46 +110,14 @@
         "security": "reality",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
-          "serverName": "google.com",
-          "shortId": "3d7cdb",
+          "publicKey": "Kqw2BTLB1AzorjXSp21uX67cgLH8PypjWpNArZnACkI",
+          "serverName": "www.google.com",
+          "shortId": "b6c8",
           "spiderX": "",
           "show": false
         }
       },
-      "tag": "proxy1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.151.140.251",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0c20ee64-48b1-4f30-85c3-649f91a60fe7",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
-          "serverName": "google.com",
-          "shortId": "3d7cdb",
-          "spiderX": "",
-          "show": false
-        }
-      },
-      "tag": "proxy2"
+      "tag": "proxy"
     },
     {
       "tag": "direct",
@@ -191,11 +159,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field"
+        "type": "field",
+        "outboundTag": "proxy"
       },
       {
         "ip": [
@@ -228,30 +196,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
       }
     ]
-  },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
   },
   "remarks": "REALITY+TUNNEL 2026-02-09"
 }
