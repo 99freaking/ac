@@ -132,14 +132,16 @@
       "type": "selector",
       "outbounds": [
         "URL-TEST",
-        "1.reality-le13ae84"
+        "1.reality-le13ae84",
+        "2.reality-le13ae84"
       ]
     },
     {
       "tag": "URL-TEST",
       "type": "urltest",
       "outbounds": [
-        "1.reality-le13ae84"
+        "1.reality-le13ae84",
+        "2.reality-le13ae84"
       ],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -152,6 +154,30 @@
     {
       "type": "vless",
       "tag": "1.reality-le13ae84",
+      "server": "85.198.22.162",
+      "server_port": 443,
+      "uuid": "529e3dec-9cd5-44de-807a-932ded21ea71",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "short_id": "3d7cdb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "2.reality-le13ae84",
       "server": "193.151.140.251",
       "server_port": 443,
       "uuid": "529e3dec-9cd5-44de-807a-932ded21ea71",

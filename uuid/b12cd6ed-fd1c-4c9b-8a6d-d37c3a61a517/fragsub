@@ -12,6 +12,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -22,11 +26,12 @@
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:api1.uploadsho.com",
-          "domain:ipts.spancloud.sbs",
           "domain:mkh.v2plus.ovh",
-          "domain:cdn.halazzon.ir",
-          "domain:cdn.sjdpictures.ir"
+          "domain:freeiran.lookanet.app",
+          "domain:mci.v2plus.ovh",
+          "domain:mpc.mobayandeh.top",
+          "domain:mtn.v2plus.ovh",
+          "domain:ip.ali.lat"
         ],
         "skipFallback": true
       },
@@ -87,6 +92,38 @@
       "settings": {
         "vnext": [
           {
+            "address": "85.198.22.162",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "b12cd6ed-fd1c-4c9b-8a6d-d37c3a61a517",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "serverName": "google.com",
+          "shortId": "3d7cdb",
+          "spiderX": "",
+          "show": false
+        }
+      },
+      "tag": "proxy1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "193.151.140.251",
             "port": 443,
             "users": [
@@ -112,7 +149,7 @@
           "show": false
         }
       },
-      "tag": "proxy"
+      "tag": "proxy2"
     },
     {
       "tag": "direct",
@@ -154,11 +191,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "ip": [
@@ -191,11 +228,30 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
   },
-  "remarks": "SERVER3.15.REALITY+SERVER2 2026-01-29"
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
+  },
+  "remarks": "REALITY+TUNNEL 2026-02-10"
 }
