@@ -12,6 +12,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -119,7 +123,45 @@
           "path": "/"
         }
       },
-      "tag": "proxy"
+      "tag": "proxy1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.151.140.251",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "e0b6ddea-e215-49a1-b2cb-bcd13918aa9b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "firefox",
+          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
+          "serverName": "www.google.com",
+          "shortId": "ba",
+          "spiderX": "",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {},
+          "host": "vp.typhonemobile.ir",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy2"
     },
     {
       "tag": "direct",
@@ -161,11 +203,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "ip": [
@@ -198,11 +240,30 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
   },
-  "remarks": "SERVER3.3.REALITY+SERVER1 2026-02-05"
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
+  },
+  "remarks": "REALITY+TUNNEL 2026-02-12"
 }

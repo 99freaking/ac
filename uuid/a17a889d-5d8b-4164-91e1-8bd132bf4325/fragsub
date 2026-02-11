@@ -98,7 +98,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "188.114.98.0",
             "port": 8443,
             "users": [
               {
@@ -145,7 +145,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "192.0.54.252",
             "port": 8443,
             "users": [
               {
@@ -192,7 +192,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -239,7 +239,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.11.238",
+            "address": "104.18.93.3",
             "port": 8443,
             "users": [
               {
@@ -286,7 +286,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.93.3",
+            "address": "162.159.152.4",
             "port": 8443,
             "users": [
               {
@@ -333,7 +333,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "172.64.152.23",
             "port": 8443,
             "users": [
               {
@@ -380,7 +380,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.0",
+            "address": "104.18.32.47",
             "port": 8443,
             "users": [
               {
@@ -427,7 +427,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.252",
+            "address": "104.26.11.238",
             "port": 8443,
             "users": [
               {
@@ -835,7 +835,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 SERVER3.4 2026-02-10"
+  "remarks": "#1 SERVER3.4 2026-02-12"
 }
 ,
 {
@@ -937,7 +937,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "188.114.98.0",
             "port": 8443,
             "users": [
               {
@@ -979,7 +979,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "192.0.54.252",
             "port": 8443,
             "users": [
               {
@@ -1021,7 +1021,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -1063,7 +1063,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.11.238",
+            "address": "104.18.93.3",
             "port": 8443,
             "users": [
               {
@@ -1105,7 +1105,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.93.3",
+            "address": "162.159.152.4",
             "port": 8443,
             "users": [
               {
@@ -1147,7 +1147,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "172.64.152.23",
             "port": 8443,
             "users": [
               {
@@ -1189,7 +1189,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.0",
+            "address": "104.18.32.47",
             "port": 8443,
             "users": [
               {
@@ -1231,7 +1231,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.252",
+            "address": "104.26.11.238",
             "port": 8443,
             "users": [
               {
@@ -1587,7 +1587,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER3.4 2026-02-10"
+  "remarks": "#E SERVER3.4 2026-02-12"
 }
 ,
 {
@@ -1684,7 +1684,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "188.114.98.0",
             "port": 8443,
             "users": [
               {
@@ -1726,7 +1726,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "192.0.54.252",
             "port": 8443,
             "users": [
               {
@@ -1768,7 +1768,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.32.47",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -1810,7 +1810,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.11.238",
+            "address": "104.18.93.3",
             "port": 8443,
             "users": [
               {
@@ -1852,7 +1852,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.18.93.3",
+            "address": "162.159.152.4",
             "port": 8443,
             "users": [
               {
@@ -1894,7 +1894,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "172.64.152.23",
             "port": 8443,
             "users": [
               {
@@ -1936,7 +1936,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.98.0",
+            "address": "104.18.32.47",
             "port": 8443,
             "users": [
               {
@@ -1978,7 +1978,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.252",
+            "address": "104.26.11.238",
             "port": 8443,
             "users": [
               {
@@ -2342,6 +2342,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#H3 SERVER3.4 2026-02-10"
+  "remarks": "#H3 SERVER3.4 2026-02-12"
 }
 ]
