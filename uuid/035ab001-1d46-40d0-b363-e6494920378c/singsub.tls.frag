@@ -449,7 +449,7 @@
     {
       "type": "vless",
       "tag": "4.TLS.worker3.xomoh98816.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "90c96790-b4e6-4ceb-bd70-cfe6e4bc1139",
       "flow": "",
@@ -482,7 +482,7 @@
     {
       "type": "vless",
       "tag": "5.TLS.worker3.xomoh98816.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "90c96790-b4e6-4ceb-bd70-cfe6e4bc1139",
       "flow": "",
@@ -515,7 +515,7 @@
     {
       "type": "vless",
       "tag": "6.TLS.worker3.xomoh98816.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "90c96790-b4e6-4ceb-bd70-cfe6e4bc1139",
       "flow": "",
@@ -581,7 +581,7 @@
     {
       "type": "vless",
       "tag": "8.TLS.worker3.xomoh98816.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "90c96790-b4e6-4ceb-bd70-cfe6e4bc1139",
       "flow": "",
@@ -614,7 +614,7 @@
     {
       "type": "vless",
       "tag": "9.TLS.worker3.xomoh98816.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "90c96790-b4e6-4ceb-bd70-cfe6e4bc1139",
       "flow": "",
@@ -746,7 +746,7 @@
     {
       "type": "vless",
       "tag": "13.TLS.worker3.hemip3575.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "99c47d45-a12d-4248-ad8c-77dafdf643e8",
       "flow": "",
@@ -779,7 +779,7 @@
     {
       "type": "vless",
       "tag": "14.TLS.worker3.hemip3575.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "99c47d45-a12d-4248-ad8c-77dafdf643e8",
       "flow": "",
@@ -812,7 +812,7 @@
     {
       "type": "vless",
       "tag": "15.TLS.worker3.hemip3575.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "99c47d45-a12d-4248-ad8c-77dafdf643e8",
       "flow": "",
@@ -878,7 +878,7 @@
     {
       "type": "vless",
       "tag": "17.TLS.worker3.hemip3575.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "99c47d45-a12d-4248-ad8c-77dafdf643e8",
       "flow": "",
@@ -911,7 +911,7 @@
     {
       "type": "vless",
       "tag": "18.TLS.worker3.hemip3575.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "99c47d45-a12d-4248-ad8c-77dafdf643e8",
       "flow": "",
@@ -1043,7 +1043,7 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker3.jeyomi8188.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "9bb94cc9-10b2-42c0-92eb-d485b7c37470",
       "flow": "",
@@ -1076,7 +1076,7 @@
     {
       "type": "vless",
       "tag": "23.TLS.worker3.jeyomi8188.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "9bb94cc9-10b2-42c0-92eb-d485b7c37470",
       "flow": "",
@@ -1109,7 +1109,7 @@
     {
       "type": "vless",
       "tag": "24.TLS.worker3.jeyomi8188.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "9bb94cc9-10b2-42c0-92eb-d485b7c37470",
       "flow": "",
@@ -1175,7 +1175,7 @@
     {
       "type": "vless",
       "tag": "26.TLS.worker3.jeyomi8188.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "9bb94cc9-10b2-42c0-92eb-d485b7c37470",
       "flow": "",
@@ -1208,7 +1208,7 @@
     {
       "type": "vless",
       "tag": "27.TLS.worker3.jeyomi8188.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "9bb94cc9-10b2-42c0-92eb-d485b7c37470",
       "flow": "",
@@ -1340,7 +1340,7 @@
     {
       "type": "vless",
       "tag": "31.TLS.worker3.helef33553.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "b2b1b1f7-8cb2-4ecb-8752-7fe00fb368ce",
       "flow": "",
@@ -1373,7 +1373,7 @@
     {
       "type": "vless",
       "tag": "32.TLS.worker3.helef33553.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "b2b1b1f7-8cb2-4ecb-8752-7fe00fb368ce",
       "flow": "",
@@ -1406,7 +1406,7 @@
     {
       "type": "vless",
       "tag": "33.TLS.worker3.helef33553.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "b2b1b1f7-8cb2-4ecb-8752-7fe00fb368ce",
       "flow": "",
@@ -1472,7 +1472,7 @@
     {
       "type": "vless",
       "tag": "35.TLS.worker3.helef33553.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "b2b1b1f7-8cb2-4ecb-8752-7fe00fb368ce",
       "flow": "",
@@ -1505,7 +1505,7 @@
     {
       "type": "vless",
       "tag": "36.TLS.worker3.helef33553.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "b2b1b1f7-8cb2-4ecb-8752-7fe00fb368ce",
       "flow": "",
@@ -1637,7 +1637,7 @@
     {
       "type": "vless",
       "tag": "40.TLS.worker3.biwir20896.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "8833b548-8a27-44d9-8c71-53c1fb15797c",
       "flow": "",
@@ -1670,7 +1670,7 @@
     {
       "type": "vless",
       "tag": "41.TLS.worker3.biwir20896.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "8833b548-8a27-44d9-8c71-53c1fb15797c",
       "flow": "",
@@ -1703,7 +1703,7 @@
     {
       "type": "vless",
       "tag": "42.TLS.worker3.biwir20896.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "8833b548-8a27-44d9-8c71-53c1fb15797c",
       "flow": "",
@@ -1769,7 +1769,7 @@
     {
       "type": "vless",
       "tag": "44.TLS.worker3.biwir20896.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "8833b548-8a27-44d9-8c71-53c1fb15797c",
       "flow": "",
@@ -1802,7 +1802,7 @@
     {
       "type": "vless",
       "tag": "45.TLS.worker3.biwir20896.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "8833b548-8a27-44d9-8c71-53c1fb15797c",
       "flow": "",
@@ -1934,7 +1934,7 @@
     {
       "type": "vless",
       "tag": "49.TLS.worker3.toxev546455.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "46e278e8-a4a3-4052-8883-87e2a5bca7d0",
       "flow": "",
@@ -1967,7 +1967,7 @@
     {
       "type": "vless",
       "tag": "50.TLS.worker3.toxev546455.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "46e278e8-a4a3-4052-8883-87e2a5bca7d0",
       "flow": "",
@@ -2000,7 +2000,7 @@
     {
       "type": "vless",
       "tag": "51.TLS.worker3.toxev546455.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "46e278e8-a4a3-4052-8883-87e2a5bca7d0",
       "flow": "",
@@ -2066,7 +2066,7 @@
     {
       "type": "vless",
       "tag": "53.TLS.worker3.toxev546455.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "46e278e8-a4a3-4052-8883-87e2a5bca7d0",
       "flow": "",
@@ -2099,7 +2099,7 @@
     {
       "type": "vless",
       "tag": "54.TLS.worker3.toxev546455.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "46e278e8-a4a3-4052-8883-87e2a5bca7d0",
       "flow": "",
@@ -2231,7 +2231,7 @@
     {
       "type": "vless",
       "tag": "58.TLS.worker3.hiyere5918.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "87743dcf-753c-4c01-a3a2-a04762016d74",
       "flow": "",
@@ -2264,7 +2264,7 @@
     {
       "type": "vless",
       "tag": "59.TLS.worker3.hiyere5918.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "87743dcf-753c-4c01-a3a2-a04762016d74",
       "flow": "",
@@ -2297,7 +2297,7 @@
     {
       "type": "vless",
       "tag": "60.TLS.worker3.hiyere5918.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "87743dcf-753c-4c01-a3a2-a04762016d74",
       "flow": "",
@@ -2363,7 +2363,7 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker3.hiyere5918.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "87743dcf-753c-4c01-a3a2-a04762016d74",
       "flow": "",
@@ -2396,7 +2396,7 @@
     {
       "type": "vless",
       "tag": "63.TLS.worker3.hiyere5918.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "87743dcf-753c-4c01-a3a2-a04762016d74",
       "flow": "",
@@ -2528,7 +2528,7 @@
     {
       "type": "vless",
       "tag": "67.TLS.worker3.hevoy51368.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "d55bae7d-8c04-4129-97ab-6a74bb0b4ced",
       "flow": "",
@@ -2561,7 +2561,7 @@
     {
       "type": "vless",
       "tag": "68.TLS.worker3.hevoy51368.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "d55bae7d-8c04-4129-97ab-6a74bb0b4ced",
       "flow": "",
@@ -2594,7 +2594,7 @@
     {
       "type": "vless",
       "tag": "69.TLS.worker3.hevoy51368.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "d55bae7d-8c04-4129-97ab-6a74bb0b4ced",
       "flow": "",
@@ -2660,7 +2660,7 @@
     {
       "type": "vless",
       "tag": "71.TLS.worker3.hevoy51368.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "d55bae7d-8c04-4129-97ab-6a74bb0b4ced",
       "flow": "",
@@ -2693,7 +2693,7 @@
     {
       "type": "vless",
       "tag": "72.TLS.worker3.hevoy51368.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "d55bae7d-8c04-4129-97ab-6a74bb0b4ced",
       "flow": "",
@@ -2825,7 +2825,7 @@
     {
       "type": "vless",
       "tag": "76.TLS.worker3.tigowow25.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "35f2e663-41ff-4213-a0f8-a0dd38fddd5e",
       "flow": "",
@@ -2858,7 +2858,7 @@
     {
       "type": "vless",
       "tag": "77.TLS.worker3.tigowow25.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "35f2e663-41ff-4213-a0f8-a0dd38fddd5e",
       "flow": "",
@@ -2891,7 +2891,7 @@
     {
       "type": "vless",
       "tag": "78.TLS.worker3.tigowow25.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "35f2e663-41ff-4213-a0f8-a0dd38fddd5e",
       "flow": "",
@@ -2957,7 +2957,7 @@
     {
       "type": "vless",
       "tag": "80.TLS.worker3.tigowow25.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "35f2e663-41ff-4213-a0f8-a0dd38fddd5e",
       "flow": "",
@@ -2990,7 +2990,7 @@
     {
       "type": "vless",
       "tag": "81.TLS.worker3.tigowow25.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "35f2e663-41ff-4213-a0f8-a0dd38fddd5e",
       "flow": "",
@@ -3122,7 +3122,7 @@
     {
       "type": "vless",
       "tag": "85.TLS.worker3.yoyey30778.workers.dev",
-      "server": "192.0.54.252",
+      "server": "172.64.152.23",
       "server_port": 443,
       "uuid": "771031f0-d28d-4fe1-b5c0-ee025253b835",
       "flow": "",
@@ -3155,7 +3155,7 @@
     {
       "type": "vless",
       "tag": "86.TLS.worker3.yoyey30778.workers.dev",
-      "server": "188.114.98.0",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "771031f0-d28d-4fe1-b5c0-ee025253b835",
       "flow": "",
@@ -3188,7 +3188,7 @@
     {
       "type": "vless",
       "tag": "87.TLS.worker3.yoyey30778.workers.dev",
-      "server": "104.18.32.47",
+      "server": "104.18.93.3",
       "server_port": 443,
       "uuid": "771031f0-d28d-4fe1-b5c0-ee025253b835",
       "flow": "",
@@ -3254,7 +3254,7 @@
     {
       "type": "vless",
       "tag": "89.TLS.worker3.yoyey30778.workers.dev",
-      "server": "freeiran.lookanet.app",
+      "server": "mpc.mobayandeh.top",
       "server_port": 443,
       "uuid": "771031f0-d28d-4fe1-b5c0-ee025253b835",
       "flow": "",
@@ -3287,7 +3287,7 @@
     {
       "type": "vless",
       "tag": "90.TLS.worker3.yoyey30778.workers.dev",
-      "server": "mtn.v2plus.ovh",
+      "server": "mci.v2plus.ovh",
       "server_port": 443,
       "uuid": "771031f0-d28d-4fe1-b5c0-ee025253b835",
       "flow": "",

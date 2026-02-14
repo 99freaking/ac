@@ -13,6 +13,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -249,7 +253,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -289,7 +293,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -569,7 +573,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -609,7 +613,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -889,7 +893,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -929,7 +933,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -1209,7 +1213,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -1249,7 +1253,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -1529,7 +1533,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -1569,7 +1573,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -1849,7 +1853,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -1889,7 +1893,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -2169,7 +2173,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -2209,7 +2213,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -2489,7 +2493,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -2529,7 +2533,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -2809,7 +2813,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -2849,7 +2853,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -3129,7 +3133,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -3169,7 +3173,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -3667,7 +3671,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER8.TLS 2026-02-05"
+  "remarks": "#0 WORKER8.TLS 2026-02-14"
 }
 ,
 {
@@ -3685,6 +3689,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -3953,7 +3961,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -4000,7 +4008,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -4329,7 +4337,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -4376,7 +4384,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -4705,7 +4713,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -4752,7 +4760,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -5081,7 +5089,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -5128,7 +5136,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -5457,7 +5465,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -5504,7 +5512,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -5833,7 +5841,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -5880,7 +5888,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -6209,7 +6217,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -6256,7 +6264,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -6585,7 +6593,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -6632,7 +6640,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -6961,7 +6969,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -7008,7 +7016,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -7337,7 +7345,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -7384,7 +7392,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -7536,8 +7544,9 @@
         "security": "",
         "sockopt": {
           "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 45,
-          "tcpKeepAliveInterval": 45
+          "tcpFastOpen": true,
+          "tcpKeepAliveIdle": 30,
+          "tcpKeepAliveInterval": 30
         }
       }
     },
@@ -7931,7 +7940,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER8.TLS 2026-02-05"
+  "remarks": "#1 WORKER8.TLS 2026-02-14"
 }
 ,
 {
@@ -7949,6 +7958,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -8197,7 +8210,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -8239,7 +8252,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -8533,7 +8546,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -8575,7 +8588,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -8869,7 +8882,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -8911,7 +8924,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -9205,7 +9218,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -9247,7 +9260,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -9541,7 +9554,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -9583,7 +9596,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -9877,7 +9890,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -9919,7 +9932,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -10213,7 +10226,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -10255,7 +10268,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -10549,7 +10562,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -10591,7 +10604,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -10885,7 +10898,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -10927,7 +10940,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -11221,7 +11234,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.152.4",
+            "address": "104.26.11.238",
             "port": 443,
             "users": [
               {
@@ -11263,7 +11276,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.152.23",
+            "address": "162.159.152.4",
             "port": 443,
             "users": [
               {
@@ -11774,6 +11787,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E WORKER8.TLS 2026-02-05"
+  "remarks": "#E WORKER8.TLS 2026-02-14"
 }
 ]

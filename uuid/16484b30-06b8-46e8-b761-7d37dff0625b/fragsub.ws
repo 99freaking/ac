@@ -13,6 +13,10 @@
         "8.8.4.4",
         "2001:4860:4860::8888",
         "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
     "servers": [
@@ -862,8 +866,9 @@
         "security": "",
         "sockopt": {
           "tcpNoDelay": true,
-          "tcpKeepAliveIdle": 45,
-          "tcpKeepAliveInterval": 45
+          "tcpFastOpen": true,
+          "tcpKeepAliveIdle": 30,
+          "tcpKeepAliveInterval": 30
         }
       }
     },
@@ -969,6 +974,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER11.WS 2026-02-05"
+  "remarks": "#1 WORKER11.WS 2026-02-14"
 }
 ]
