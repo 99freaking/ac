@@ -97,7 +97,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-vision",
+                "flow": "",
                 "id": "034b4d4e-da36-4df5-9cfa-1390b3ce7094",
                 "level": 8
               }
@@ -110,9 +110,9 @@
         "security": "reality",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "LcVWAw57lHBSebCOUpVxFkmbWd9clvgpL3X-xUUK0XI",
+          "publicKey": "fjLGqGhgb1rE-AwDwDpG3-Trzp07nnZSknQUIRXxoB0",
           "serverName": "www.google.com",
-          "shortId": "34fd",
+          "shortId": "4482",
           "spiderX": "",
           "show": false
         }
@@ -202,5 +202,5 @@
       }
     ]
   },
-  "remarks": "SERVER5.4 2026-02-16"
+  "remarks": "SERVER5.5 2026-02-17"
 }
