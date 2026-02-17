@@ -97,7 +97,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "",
+                "flow": "xtls-rprx-vision",
                 "id": "034b4d4e-da36-4df5-9cfa-1390b3ce7094",
                 "level": 8
               }
