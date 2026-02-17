@@ -92,8 +92,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "85.198.22.162",
-            "port": 8443,
+            "address": "193.151.146.178",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -106,62 +106,18 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
+          "fingerprint": "chrome",
+          "publicKey": "Kqw2BTLB1AzorjXSp21uX67cgLH8PypjWpNArZnACkI",
           "serverName": "www.google.com",
-          "shortId": "ba",
+          "shortId": "b6c8",
           "spiderX": "",
           "show": false
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
         }
       },
-      "tag": "proxy1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "193.151.140.251",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "c007093a-0fe4-4e19-841c-840d29ebbcb8",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
-          "serverName": "www.google.com",
-          "shortId": "ba",
-          "spiderX": "",
-          "show": false
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
-        }
-      },
-      "tag": "proxy2"
+      "tag": "proxy"
     },
     {
       "tag": "direct",
@@ -203,11 +159,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field"
+        "type": "field",
+        "outboundTag": "proxy"
       },
       {
         "ip": [
@@ -240,30 +196,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
       }
     ]
   },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "REALITY+TUNNEL 2026-02-14"
+  "remarks": "REALITY+TUNNEL 2026-02-17"
 }
