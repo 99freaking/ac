@@ -93,7 +93,7 @@
         "vnext": [
           {
             "address": "193.151.146.178",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -106,21 +106,15 @@
         ]
       },
       "streamSettings": {
-        "network": "xhttp",
+        "network": "tcp",
         "security": "reality",
         "realitySettings": {
-          "fingerprint": "firefox",
-          "publicKey": "Ll9zQcxKtz_RMIpALgnZ3eqL8rv5G35n6ERevwXfHW4",
+          "fingerprint": "chrome",
+          "publicKey": "Kqw2BTLB1AzorjXSp21uX67cgLH8PypjWpNArZnACkI",
           "serverName": "www.google.com",
-          "shortId": "ba",
+          "shortId": "b6c8",
           "spiderX": "",
           "show": false
-        },
-        "xhttpSettings": {
-          "extra": {},
-          "host": "vp.typhonemobile.ir",
-          "mode": "auto",
-          "path": "/"
         }
       },
       "tag": "proxy"
@@ -208,5 +202,5 @@
       }
     ]
   },
-  "remarks": "REALITY+TUNNEL 2026-02-14"
+  "remarks": "REALITY+TUNNEL 2026-02-17"
 }
