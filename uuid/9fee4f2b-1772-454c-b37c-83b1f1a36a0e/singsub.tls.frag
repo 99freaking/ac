@@ -371,7 +371,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -404,7 +404,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -416,7 +416,7 @@
     {
       "type": "vless",
       "tag": "3.TLS.worker3.fifed36752.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
       "flow": "",
@@ -437,7 +437,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -449,7 +449,7 @@
     {
       "type": "vless",
       "tag": "4.TLS.worker3.fifed36752.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
       "flow": "",
@@ -470,7 +470,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -503,7 +503,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -515,7 +515,7 @@
     {
       "type": "vless",
       "tag": "6.TLS.worker3.fifed36752.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
       "flow": "",
@@ -536,7 +536,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -548,7 +548,7 @@
     {
       "type": "vless",
       "tag": "7.TLS.worker3.fifed36752.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
       "flow": "",
@@ -569,7 +569,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -581,39 +581,6 @@
     {
       "type": "vless",
       "tag": "8.TLS.worker3.fifed36752.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.fifed36752.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.fifed36752.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "9.TLS.worker3.fifed36752.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
@@ -635,7 +602,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/wYStCxf8W3rHOO8g",
+        "path": "/wYAc4Gx3t9IyrVTA",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.fifed36752.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "9.TLS.worker3.fifed36752.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "95dc5dab-c78f-4d93-951a-4d6b0d68ba6f",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.fifed36752.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wYAc4Gx3t9IyrVTA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fifed36752.workers.dev"
@@ -668,7 +668,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -701,7 +701,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -713,7 +713,7 @@
     {
       "type": "vless",
       "tag": "12.TLS.worker3.fimara4589.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
       "flow": "",
@@ -734,7 +734,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -746,7 +746,7 @@
     {
       "type": "vless",
       "tag": "13.TLS.worker3.fimara4589.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
       "flow": "",
@@ -767,7 +767,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -800,7 +800,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -812,7 +812,7 @@
     {
       "type": "vless",
       "tag": "15.TLS.worker3.fimara4589.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
       "flow": "",
@@ -833,7 +833,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -845,7 +845,7 @@
     {
       "type": "vless",
       "tag": "16.TLS.worker3.fimara4589.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
       "flow": "",
@@ -866,7 +866,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -878,39 +878,6 @@
     {
       "type": "vless",
       "tag": "17.TLS.worker3.fimara4589.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.fimara4589.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.fimara4589.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "18.TLS.worker3.fimara4589.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
@@ -932,7 +899,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ItosZWmihL7jJyyG",
+        "path": "/PlmMJxhwuXL7306j",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.fimara4589.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "18.TLS.worker3.fimara4589.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "d4aff56e-59cf-4309-932f-b670b64ac4d6",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.fimara4589.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/PlmMJxhwuXL7306j",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fimara4589.workers.dev"
@@ -965,7 +965,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -998,7 +998,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1010,7 +1010,7 @@
     {
       "type": "vless",
       "tag": "21.TLS.worker3.daticah6555.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
       "flow": "",
@@ -1031,7 +1031,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1043,7 +1043,7 @@
     {
       "type": "vless",
       "tag": "22.TLS.worker3.daticah6555.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
       "flow": "",
@@ -1064,7 +1064,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1097,7 +1097,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1109,7 +1109,7 @@
     {
       "type": "vless",
       "tag": "24.TLS.worker3.daticah6555.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
       "flow": "",
@@ -1130,7 +1130,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1142,7 +1142,7 @@
     {
       "type": "vless",
       "tag": "25.TLS.worker3.daticah6555.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
       "flow": "",
@@ -1163,7 +1163,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1175,39 +1175,6 @@
     {
       "type": "vless",
       "tag": "26.TLS.worker3.daticah6555.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.daticah6555.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.daticah6555.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "27.TLS.worker3.daticah6555.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
@@ -1229,7 +1196,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/LkTdDq3W1ZlFIcGR",
+        "path": "/D8jdGLE9zh6gBxxY",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.daticah6555.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "27.TLS.worker3.daticah6555.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "b8ca5aff-36fd-4c9e-b309-9d0bb054d8e5",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.daticah6555.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/D8jdGLE9zh6gBxxY",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.daticah6555.workers.dev"
@@ -1262,7 +1262,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1295,7 +1295,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1307,7 +1307,7 @@
     {
       "type": "vless",
       "tag": "30.TLS.worker3.dawejoy4544.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
       "flow": "",
@@ -1328,7 +1328,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1340,7 +1340,7 @@
     {
       "type": "vless",
       "tag": "31.TLS.worker3.dawejoy4544.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
       "flow": "",
@@ -1361,7 +1361,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1394,7 +1394,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1406,7 +1406,7 @@
     {
       "type": "vless",
       "tag": "33.TLS.worker3.dawejoy4544.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
       "flow": "",
@@ -1427,7 +1427,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1439,7 +1439,7 @@
     {
       "type": "vless",
       "tag": "34.TLS.worker3.dawejoy4544.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
       "flow": "",
@@ -1460,7 +1460,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1472,39 +1472,6 @@
     {
       "type": "vless",
       "tag": "35.TLS.worker3.dawejoy4544.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.dawejoy4544.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.dawejoy4544.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "36.TLS.worker3.dawejoy4544.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
@@ -1526,7 +1493,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/st0DKxAty4cM7PfT",
+        "path": "/ihms8ipTW5EaC7vP",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.dawejoy4544.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "36.TLS.worker3.dawejoy4544.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "fcd5a9bf-b5e2-44f2-8bc2-77ef222c7187",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.dawejoy4544.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ihms8ipTW5EaC7vP",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.dawejoy4544.workers.dev"
@@ -1559,7 +1559,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1592,7 +1592,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1604,7 +1604,7 @@
     {
       "type": "vless",
       "tag": "39.TLS.worker3.cipek2755.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
       "flow": "",
@@ -1625,7 +1625,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1637,7 +1637,7 @@
     {
       "type": "vless",
       "tag": "40.TLS.worker3.cipek2755.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
       "flow": "",
@@ -1658,7 +1658,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1691,7 +1691,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1703,7 +1703,7 @@
     {
       "type": "vless",
       "tag": "42.TLS.worker3.cipek2755.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
       "flow": "",
@@ -1724,7 +1724,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1736,7 +1736,7 @@
     {
       "type": "vless",
       "tag": "43.TLS.worker3.cipek2755.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
       "flow": "",
@@ -1757,7 +1757,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1769,39 +1769,6 @@
     {
       "type": "vless",
       "tag": "44.TLS.worker3.cipek2755.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.cipek2755.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.cipek2755.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "45.TLS.worker3.cipek2755.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
@@ -1823,7 +1790,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/a9UmaQqj5ippGJtp",
+        "path": "/lQH3ibrgfxQLOqIX",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.cipek2755.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "45.TLS.worker3.cipek2755.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "692b04d3-1f66-4e42-93af-f9f4a8541cee",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.cipek2755.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lQH3ibrgfxQLOqIX",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.cipek2755.workers.dev"
@@ -1856,7 +1856,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -1889,7 +1889,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -1901,7 +1901,7 @@
     {
       "type": "vless",
       "tag": "48.TLS.worker3.notoj58234.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
       "flow": "",
@@ -1922,7 +1922,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -1934,7 +1934,7 @@
     {
       "type": "vless",
       "tag": "49.TLS.worker3.notoj58234.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
       "flow": "",
@@ -1955,7 +1955,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -1988,7 +1988,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -2000,7 +2000,7 @@
     {
       "type": "vless",
       "tag": "51.TLS.worker3.notoj58234.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
       "flow": "",
@@ -2021,7 +2021,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -2033,7 +2033,7 @@
     {
       "type": "vless",
       "tag": "52.TLS.worker3.notoj58234.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
       "flow": "",
@@ -2054,7 +2054,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -2066,39 +2066,6 @@
     {
       "type": "vless",
       "tag": "53.TLS.worker3.notoj58234.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.notoj58234.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.notoj58234.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "54.TLS.worker3.notoj58234.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
@@ -2120,7 +2087,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RiYxFCgNFO7wsiVe",
+        "path": "/oSMR9ReHv7uujY7c",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.notoj58234.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "54.TLS.worker3.notoj58234.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "4db3b5c2-2b39-4e59-b6f3-7e10145a8d7c",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.notoj58234.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/oSMR9ReHv7uujY7c",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.notoj58234.workers.dev"
@@ -2153,7 +2153,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2186,7 +2186,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2198,7 +2198,7 @@
     {
       "type": "vless",
       "tag": "57.TLS.worker3.fosexej7666.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
       "flow": "",
@@ -2219,7 +2219,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2231,7 +2231,7 @@
     {
       "type": "vless",
       "tag": "58.TLS.worker3.fosexej7666.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
       "flow": "",
@@ -2252,7 +2252,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2285,7 +2285,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2297,7 +2297,7 @@
     {
       "type": "vless",
       "tag": "60.TLS.worker3.fosexej7666.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
       "flow": "",
@@ -2318,7 +2318,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2330,7 +2330,7 @@
     {
       "type": "vless",
       "tag": "61.TLS.worker3.fosexej7666.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
       "flow": "",
@@ -2351,7 +2351,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2363,39 +2363,6 @@
     {
       "type": "vless",
       "tag": "62.TLS.worker3.fosexej7666.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.fosexej7666.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.fosexej7666.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "63.TLS.worker3.fosexej7666.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
@@ -2417,7 +2384,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/vAGUPasEk3vSPp3d",
+        "path": "/lUI4wAd6PQITBVYc",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.fosexej7666.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "63.TLS.worker3.fosexej7666.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "efdaabad-1184-4f27-a7ca-be6cd04c26cd",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.fosexej7666.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lUI4wAd6PQITBVYc",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.fosexej7666.workers.dev"
@@ -2450,7 +2450,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2483,7 +2483,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2495,7 +2495,7 @@
     {
       "type": "vless",
       "tag": "66.TLS.worker3.wawey55881.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
       "flow": "",
@@ -2516,7 +2516,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2528,7 +2528,7 @@
     {
       "type": "vless",
       "tag": "67.TLS.worker3.wawey55881.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
       "flow": "",
@@ -2549,7 +2549,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2582,7 +2582,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2594,7 +2594,7 @@
     {
       "type": "vless",
       "tag": "69.TLS.worker3.wawey55881.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
       "flow": "",
@@ -2615,7 +2615,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2627,7 +2627,7 @@
     {
       "type": "vless",
       "tag": "70.TLS.worker3.wawey55881.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
       "flow": "",
@@ -2648,7 +2648,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2660,39 +2660,6 @@
     {
       "type": "vless",
       "tag": "71.TLS.worker3.wawey55881.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.wawey55881.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.wawey55881.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "72.TLS.worker3.wawey55881.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
@@ -2714,7 +2681,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/JjGVY0RFjsJ1qQSK",
+        "path": "/cc4WXznK7BhgMBpA",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.wawey55881.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "72.TLS.worker3.wawey55881.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "9852e133-fc9d-49f9-9185-00ec5be88af6",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.wawey55881.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cc4WXznK7BhgMBpA",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.wawey55881.workers.dev"
@@ -2747,7 +2747,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2780,7 +2780,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2792,7 +2792,7 @@
     {
       "type": "vless",
       "tag": "75.TLS.worker3.gojipe5906.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
       "flow": "",
@@ -2813,7 +2813,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2825,7 +2825,7 @@
     {
       "type": "vless",
       "tag": "76.TLS.worker3.gojipe5906.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
       "flow": "",
@@ -2846,7 +2846,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2879,7 +2879,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2891,7 +2891,7 @@
     {
       "type": "vless",
       "tag": "78.TLS.worker3.gojipe5906.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
       "flow": "",
@@ -2912,7 +2912,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2924,7 +2924,7 @@
     {
       "type": "vless",
       "tag": "79.TLS.worker3.gojipe5906.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
       "flow": "",
@@ -2945,7 +2945,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -2957,39 +2957,6 @@
     {
       "type": "vless",
       "tag": "80.TLS.worker3.gojipe5906.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.gojipe5906.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.gojipe5906.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "81.TLS.worker3.gojipe5906.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
@@ -3011,7 +2978,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/RRcJLV0Rr0aA1gSI",
+        "path": "/wzeyK1rSncocbF2M",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.gojipe5906.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "81.TLS.worker3.gojipe5906.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "4de25c29-1502-4c59-ba38-3e50b11920f6",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.gojipe5906.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wzeyK1rSncocbF2M",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.gojipe5906.workers.dev"
@@ -3044,7 +3044,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3077,7 +3077,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3089,7 +3089,7 @@
     {
       "type": "vless",
       "tag": "84.TLS.worker3.sabotat455.workers.dev",
-      "server": "162.159.152.4",
+      "server": "192.0.54.252",
       "server_port": 443,
       "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
       "flow": "",
@@ -3110,7 +3110,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3122,7 +3122,7 @@
     {
       "type": "vless",
       "tag": "85.TLS.worker3.sabotat455.workers.dev",
-      "server": "188.114.98.0",
+      "server": "31.43.179.0",
       "server_port": 443,
       "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
       "flow": "",
@@ -3143,7 +3143,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3176,7 +3176,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3188,7 +3188,7 @@
     {
       "type": "vless",
       "tag": "87.TLS.worker3.sabotat455.workers.dev",
-      "server": "104.18.93.3",
+      "server": "162.159.152.4",
       "server_port": 443,
       "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
       "flow": "",
@@ -3209,7 +3209,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3221,7 +3221,7 @@
     {
       "type": "vless",
       "tag": "88.TLS.worker3.sabotat455.workers.dev",
-      "server": "104.26.11.238",
+      "server": "188.114.98.0",
       "server_port": 443,
       "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
       "flow": "",
@@ -3242,7 +3242,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"
@@ -3254,39 +3254,6 @@
     {
       "type": "vless",
       "tag": "89.TLS.worker3.sabotat455.workers.dev",
-      "server": "freeiran.lookanet.app",
-      "server_port": 443,
-      "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
-      "flow": "",
-      "packet_encoding": "xudp",
-      "tcp_fast_open": true,
-      "tls": {
-        "enabled": true,
-        "server_name": "worker3.sabotat455.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "alpn": [
-          "http/1.1"
-        ],
-        "record_fragment": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-          "Host": "worker3.sabotat455.workers.dev"
-        },
-        "max_early_data": 2560,
-        "early_data_header_name": "Sec-WebSocket-Protocol"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "90.TLS.worker3.sabotat455.workers.dev",
       "server": "mtn.v2plus.ovh",
       "server_port": 443,
       "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
@@ -3308,7 +3275,40 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/EPsZW1V4sIU21CPs",
+        "path": "/5xDdDBYWiscPRICf",
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+          "Host": "worker3.sabotat455.workers.dev"
+        },
+        "max_early_data": 2560,
+        "early_data_header_name": "Sec-WebSocket-Protocol"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "90.TLS.worker3.sabotat455.workers.dev",
+      "server": "freeiran.lookanet.app",
+      "server_port": 443,
+      "uuid": "d8aaefc6-6faa-4db1-b983-18e689ebc128",
+      "flow": "",
+      "packet_encoding": "xudp",
+      "tcp_fast_open": true,
+      "tls": {
+        "enabled": true,
+        "server_name": "worker3.sabotat455.workers.dev",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "alpn": [
+          "http/1.1"
+        ],
+        "record_fragment": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/5xDdDBYWiscPRICf",
         "headers": {
           "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
           "Host": "worker3.sabotat455.workers.dev"

@@ -114,7 +114,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.vefibe8662.workers.dev"
           },
-          "path": "/q9k8658EzGtZikTw?ed=2560"
+          "path": "/7GIxGdaa0slMAG0i?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -152,7 +152,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.vefibe8662.workers.dev"
           },
-          "path": "/q9k8658EzGtZikTw?ed=2560"
+          "path": "/7GIxGdaa0slMAG0i?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -190,7 +190,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker2.sicolek510.workers.dev"
           },
-          "path": "/VG29TOQTUv0vuBQD?ed=2560"
+          "path": "/s3ITpKilAdt4SQgs?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -228,7 +228,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker2.sicolek510.workers.dev"
           },
-          "path": "/VG29TOQTUv0vuBQD?ed=2560"
+          "path": "/s3ITpKilAdt4SQgs?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -266,7 +266,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.farife3383.workers.dev"
           },
-          "path": "/eyJqdW5rIjoiN1I5Y2M5dDM4V1p4aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiYUNCWmxCZVo5Y05wZXkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -304,7 +304,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.farife3383.workers.dev"
           },
-          "path": "/eyJqdW5rIjoiN1I5Y2M5dDM4V1p4aCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+          "path": "/eyJqdW5rIjoiYUNCWmxCZVo5Y05wZXkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -342,7 +342,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.voxili9688.workers.dev"
           },
-          "path": "/jkhkeiyxuX99xLch?ed=2560"
+          "path": "/UMIXr2h1vlj8XwiN?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -380,7 +380,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.voxili9688.workers.dev"
           },
-          "path": "/jkhkeiyxuX99xLch?ed=2560"
+          "path": "/UMIXr2h1vlj8XwiN?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -418,7 +418,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.xiweya2647.workers.dev"
           },
-          "path": "/YnPjlpjEbP20Imx0?ed=2560"
+          "path": "/OOsKXbP7QLqheQyz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -456,7 +456,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.xiweya2647.workers.dev"
           },
-          "path": "/YnPjlpjEbP20Imx0?ed=2560"
+          "path": "/OOsKXbP7QLqheQyz?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -494,7 +494,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.besal18449.workers.dev"
           },
-          "path": "/cc1l3yyKh96pk3Vt?ed=2560"
+          "path": "/2AIG1Ze0BzSdPmzH?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -532,7 +532,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.besal18449.workers.dev"
           },
-          "path": "/cc1l3yyKh96pk3Vt?ed=2560"
+          "path": "/2AIG1Ze0BzSdPmzH?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -570,7 +570,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.harijo3330.workers.dev"
           },
-          "path": "/ka0KFEafdVlbr2GC?ed=2560"
+          "path": "/9rWscwTbUotLM6OO?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -608,7 +608,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.harijo3330.workers.dev"
           },
-          "path": "/ka0KFEafdVlbr2GC?ed=2560"
+          "path": "/9rWscwTbUotLM6OO?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -646,7 +646,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.paroxa4047.workers.dev"
           },
-          "path": "/DoyNaD082qxzwyVM?ed=2560"
+          "path": "/zsb1ZDYwCAX6peRG?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -684,7 +684,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.paroxa4047.workers.dev"
           },
-          "path": "/DoyNaD082qxzwyVM?ed=2560"
+          "path": "/zsb1ZDYwCAX6peRG?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -722,7 +722,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.moveli8866.workers.dev"
           },
-          "path": "/wrPVUQnpOAhbDbnD?ed=2560"
+          "path": "/b6oxDxM3uzeTJDGs?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -760,7 +760,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.moveli8866.workers.dev"
           },
-          "path": "/wrPVUQnpOAhbDbnD?ed=2560"
+          "path": "/b6oxDxM3uzeTJDGs?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -798,7 +798,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.kilafo1375.workers.dev"
           },
-          "path": "/eAYX5yE72xfkqMxM?ed=2560"
+          "path": "/2kRR5hXqOb6ppSKY?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -836,7 +836,7 @@
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
             "Host": "worker3.kilafo1375.workers.dev"
           },
-          "path": "/eAYX5yE72xfkqMxM?ed=2560"
+          "path": "/2kRR5hXqOb6ppSKY?ed=2560"
         },
         "sockopt": {
           "dialerProxy": "fragmentws1",
@@ -974,6 +974,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#1 WORKER10.WS 2026-02-14"
+  "remarks": "#1 WORKER10.WS 2026-02-17"
 }
 ]
