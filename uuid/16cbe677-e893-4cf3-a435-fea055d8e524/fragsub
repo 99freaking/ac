@@ -152,6 +152,38 @@
       "tag": "proxy2"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "193.151.146.178",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "16cbe677-e893-4cf3-a435-fea055d8e524",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "4Y51Pa5WXWVpBIKbIl8NezZ4QaGP4GhvvFo_beVzLnQ",
+          "serverName": "google.com",
+          "shortId": "3d7cdb",
+          "spiderX": "",
+          "show": false
+        }
+      },
+      "tag": "proxy3"
+    },
+    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {
@@ -253,5 +285,5 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "REALITY+TUNNEL 2026-02-14"
+  "remarks": "REALITY+TUNNEL 2026-02-18"
 }
