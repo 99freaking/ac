@@ -26,41 +26,29 @@
       ]
     },
     "servers": [
-      "fakedns",
       {
         "address": "localhost",
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:cdnjs.com",
-          "domain:chatgpt.com",
-          "domain:laravel.com",
+          "full:www.speedtest.net",
           "domain:tgju.org",
-          "domain:www.hcaptcha.com"
+          "domain:b2n.ir",
+          "domain:zula.ir"
         ],
         "skipFallback": true
       },
       {
-        "address": "https://dns.google/dns-query"
+        "address": "https://one.one.one.one/dns-query"
       },
       {
-        "address": "https://one.one.one.one/dns-query"
+        "address": "https://dns.google/dns-query"
       }
     ],
     "tag": "remote-dns",
     "queryStrategy": "UseIP"
   },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    },
-    {
-      "ipPool": "fc00::/18",
-      "poolSize": 10000
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -72,9 +60,7 @@
         "routeOnly": true,
         "destOverride": [
           "http",
-          "tls",
-          "quic",
-          "fakedns"
+          "tls"
         ]
       },
       "settings": {
@@ -86,514 +72,138 @@
   ],
   "outbounds": [
     {
-      "protocol": "vless",
+      "protocol": "wireguard",
       "settings": {
-        "vnext": [
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8790:6305:2381:d2a:9571/128"
+        ],
+        "peers": [
           {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
+            "endpoint": "188.114.99.34:8854",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
           }
-        ]
+        ],
+        "reserved": [
+          237,
+          12,
+          234
+        ],
+        "secretKey": "yAsG3ktn9QIydlTGlfSnSvy5UfZ/jV/wShjoKVwS+0Q=",
+        "mtu": 1308
       },
+      "tag": "proxy",
       "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
         "finalmask": {
-          "tcp": [
+          "udp": [
             {
-              "type": "fragment",
+              "type": "noise",
               "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
+                "reset": "5",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
               }
             }
           ]
         }
-      },
-      "tag": "proxy1_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy2_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy3_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy4_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy5_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "5",
-                  "94",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "109",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "355"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy6_fragc1"
+      }
     },
     {
       "tag": "direct",
@@ -635,16 +245,10 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
+        "outboundTag": "proxy",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "port": "443",
         "type": "field"
       },
       {
@@ -678,32 +282,13 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
+        "port": "0-65535",
+        "outboundTag": "proxy"
       }
     ]
   },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "#C1 SERVER5.3 2026-08-29"
+  "remarks": "WARP_4"
 }
 ,
 {
@@ -733,41 +318,29 @@
       ]
     },
     "servers": [
-      "fakedns",
       {
         "address": "localhost",
         "domains": [
           "geosite:private",
           "full:cloudflare.com",
           "regexp:\\.ir$",
-          "domain:cdnjs.com",
-          "domain:chatgpt.com",
-          "domain:laravel.com",
+          "full:www.speedtest.net",
           "domain:tgju.org",
-          "domain:www.hcaptcha.com"
+          "domain:b2n.ir",
+          "domain:zula.ir"
         ],
         "skipFallback": true
       },
       {
-        "address": "https://dns.google/dns-query"
+        "address": "https://one.one.one.one/dns-query"
       },
       {
-        "address": "https://one.one.one.one/dns-query"
+        "address": "https://dns.google/dns-query"
       }
     ],
     "tag": "remote-dns",
     "queryStrategy": "UseIP"
   },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    },
-    {
-      "ipPool": "fc00::/18",
-      "poolSize": 10000
-    }
-  ],
   "inbounds": [
     {
       "tag": "socks",
@@ -779,9 +352,7 @@
         "routeOnly": true,
         "destOverride": [
           "http",
-          "tls",
-          "quic",
-          "fakedns"
+          "tls"
         ]
       },
       "settings": {
@@ -793,424 +364,167 @@
   ],
   "outbounds": [
     {
-      "protocol": "vless",
+      "protocol": "wireguard",
       "settings": {
-        "vnext": [
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8c99:5cdb:428f:a2ca:c4eb/128"
+        ],
+        "peers": [
           {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
+            "endpoint": "188.114.99.34:8854",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
           }
-        ]
+        ],
+        "reserved": [
+          142,
+          14,
+          62
+        ],
+        "secretKey": "4F1N+coZLUHImHVpTgmHxGlpJgBvmy+iJV0+JG6KWVA=",
+        "mtu": 1280
       },
+      "tag": "proxy",
       "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
         "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
-            }
-          ]
+          "dialerProxy": "warpir"
         }
-      },
-      "tag": "proxy1_fragc2"
+      }
     },
     {
-      "protocol": "vless",
+      "protocol": "wireguard",
       "settings": {
-        "vnext": [
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8790:6305:2381:d2a:9571/128"
+        ],
+        "peers": [
           {
-            "address": "cdnjs.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
+            "endpoint": "188.114.99.34:8854",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
           }
-        ]
+        ],
+        "reserved": [
+          237,
+          12,
+          234
+        ],
+        "secretKey": "yAsG3ktn9QIydlTGlfSnSvy5UfZ/jV/wShjoKVwS+0Q=",
+        "mtu": 1308
       },
+      "tag": "warpir",
       "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
         "finalmask": {
-          "tcp": [
+          "udp": [
             {
+              "type": "noise",
               "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
+                "reset": "5",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
             }
           ]
         }
-      },
-      "tag": "proxy2_fragc2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
-            }
-          ]
-        }
-      },
-      "tag": "proxy3_fragc2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
-            }
-          ]
-        }
-      },
-      "tag": "proxy4_fragc2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
-            }
-          ]
-        }
-      },
-      "tag": "proxy5_fragc2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "settings": {
-                "delays": [
-                  "0"
-                ],
-                "lengths": [
-                  "1",
-                  "10000"
-                ],
-                "maxSplit": "",
-                "packets": "tlshello"
-              },
-              "type": "fragment"
-            }
-          ]
-        }
-      },
-      "tag": "proxy6_fragc2"
+      }
     },
     {
       "tag": "direct",
@@ -1252,1679 +566,7 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
-        "inboundTag": [
-          "remote-dns"
-        ],
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "port": "443",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "10.10.34.34",
-          "10.10.34.35",
-          "10.10.34.36"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "regexp:\\.ir$"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "balancerTag": "all",
-        "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
-      }
-    ]
-  },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "#C2 SERVER5.3 2026-08-29"
-}
-,
-{
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning",
-    "dnsLog": false
-  },
-  "dns": {
-    "hosts": {
-      "one.one.one.one": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ],
-      "dns.digitalsize.net": [
-        "94.130.135.203",
-        "2a01:4f8:13b:3407::face"
-      ]
-    },
-    "servers": [
-      "fakedns",
-      {
-        "address": "localhost",
-        "domains": [
-          "geosite:private",
-          "full:cloudflare.com",
-          "regexp:\\.ir$",
-          "domain:cdnjs.com",
-          "domain:chatgpt.com",
-          "domain:laravel.com",
-          "domain:tgju.org",
-          "domain:www.hcaptcha.com"
-        ],
-        "skipFallback": true
-      },
-      {
-        "address": "https://dns.google/dns-query"
-      },
-      {
-        "address": "https://one.one.one.one/dns-query"
-      }
-    ],
-    "tag": "remote-dns",
-    "queryStrategy": "UseIP"
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    },
-    {
-      "ipPool": "fc00::/18",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ]
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy3"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy4"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy5"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy6"
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      }
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    },
-    {
-      "protocol": "dns",
-      "tag": "dns-out"
-    }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "socks"
-        ],
-        "port": "53",
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "balancerTag": "all",
-        "inboundTag": [
-          "remote-dns"
-        ],
-        "type": "field"
-      },
-      {
-        "network": "udp",
-        "outboundTag": "block",
-        "port": "443",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "10.10.34.34",
-          "10.10.34.35",
-          "10.10.34.36"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "regexp:\\.ir$"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:private"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "balancerTag": "all",
-        "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
-      }
-    ]
-  },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "#E SERVER5.3 2026-08-29"
-}
-,
-{
-  "log": {
-    "access": "",
-    "error": "",
-    "loglevel": "warning",
-    "dnsLog": false
-  },
-  "dns": {
-    "hosts": {
-      "one.one.one.one": [
-        "1.1.1.1",
-        "1.0.0.1",
-        "2606:4700:4700::1111",
-        "2606:4700:4700::1001"
-      ],
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4",
-        "2001:4860:4860::8888",
-        "2001:4860:4860::8844"
-      ],
-      "dns.digitalsize.net": [
-        "94.130.135.203",
-        "2a01:4f8:13b:3407::face"
-      ]
-    },
-    "servers": [
-      "fakedns",
-      {
-        "address": "localhost",
-        "domains": [
-          "geosite:private",
-          "full:cloudflare.com",
-          "regexp:\\.ir$",
-          "domain:cdnjs.com",
-          "domain:chatgpt.com",
-          "domain:laravel.com",
-          "domain:tgju.org",
-          "domain:www.hcaptcha.com"
-        ],
-        "skipFallback": true
-      },
-      {
-        "address": "https://dns.google/dns-query"
-      },
-      {
-        "address": "https://one.one.one.one/dns-query"
-      }
-    ],
-    "tag": "remote-dns",
-    "queryStrategy": "UseIP"
-  },
-  "fakedns": [
-    {
-      "ipPool": "198.18.0.0/15",
-      "poolSize": 10000
-    },
-    {
-      "ipPool": "fc00::/18",
-      "poolSize": 10000
-    }
-  ],
-  "inbounds": [
-    {
-      "tag": "socks",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "sniffing": {
-        "enabled": true,
-        "routeOnly": true,
-        "destOverride": [
-          "http",
-          "tls",
-          "quic",
-          "fakedns"
-        ]
-      },
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy1_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy2_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy3_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy4_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy5_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e63bee94-7a54-40a0-8de3-f41dc358f2d6",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "allowInsecure": false,
-          "fingerprint": "firefox",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h3"
-          ]
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "s51.typhone1.site",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "udp": [
-            {
-              "type": "noise",
-              "settings": {
-                "reset": "5",
-                "noise": [
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  },
-                  {
-                    "rand": "1200-1230",
-                    "delay": "10"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy6_fragc1"
-    },
-    {
-      "tag": "direct",
-      "protocol": "freedom",
-      "settings": {
-        "domainStrategy": "UseIP"
-      }
-    },
-    {
-      "tag": "block",
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      }
-    },
-    {
-      "protocol": "dns",
-      "tag": "dns-out"
-    }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "inboundTag": [
-          "socks"
-        ],
-        "port": "53",
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "balancerTag": "all",
+        "outboundTag": "warpir",
         "inboundTag": [
           "remote-dns"
         ],
@@ -2961,31 +603,12 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp"
-      }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
+        "port": "0-65535",
+        "outboundTag": "proxy"
       }
     ]
   },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "#H3 SERVER5.3 2026-08-29"
+  "remarks": "WARPINWARP_4"
 }
 ]
