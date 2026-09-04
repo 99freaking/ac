@@ -1,0 +1,332 @@
+[
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning",
+    "dnsLog": false
+  },
+  "dns": {
+    "hosts": {
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
+      ]
+    },
+    "servers": [
+      {
+        "address": "localhost",
+        "domains": [
+          "geosite:private",
+          "full:cloudflare.com",
+          "regexp:\\.ir$",
+          "domain:cdnjs.com",
+          "domain:chatgpt.com",
+          "domain:laravel.com",
+          "domain:tgju.org",
+          "domain:www.hcaptcha.com"
+        ],
+        "skipFallback": true
+      },
+      {
+        "address": "https://one.one.one.one/dns-query"
+      }
+    ],
+    "tag": "remote-dns",
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "s5.typhone1.site",
+            "port": 8080,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0abf22dd-c092-447c-8a46-8e8f3ec25b6c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "9GvIrRPnNGqS6-4m6eKoEZva72yDBFDwMk8VuDBSQDw",
+          "serverName": "www.sony.fr",
+          "shortId": "67fef9",
+          "spiderX": "",
+          "show": false
+        },
+        "sockopt": {
+          "dialerProxy": "warpir"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8e63:8d70:2bca:1eec:8be3/128"
+        ],
+        "peers": [
+          {
+            "endpoint": "188.114.99.34:8854",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
+          }
+        ],
+        "reserved": [
+          69,
+          177,
+          17
+        ],
+        "secretKey": "GOIJIfvyptZsJ6dvM1YSWqMcpjjlLx47j/GSLGFUMUY=",
+        "mtu": 1308
+      },
+      "tag": "warpir",
+      "streamSettings": {
+        "finalmask": {
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "reset": "5",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    },
+    {
+      "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
+      "tag": "dns-out"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "socks"
+        ],
+        "port": "53",
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "outboundTag": "warpir",
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "type": "field"
+      },
+      {
+        "ip": [
+          "10.10.34.34",
+          "10.10.34.35",
+          "10.10.34.36"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "regexp:\\.ir$"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
+      }
+    ]
+  },
+  "remarks": "SERVER5.13 2026-09-04"
+}
+]
