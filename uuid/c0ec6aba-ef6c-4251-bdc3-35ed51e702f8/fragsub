@@ -105,7 +105,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8d2d:e07c:c14e:4899:cb2a/128"
+          "2606:4700:110:8df3:a61:30bc:a456:4dd7/128"
         ],
         "peers": [
           {
@@ -115,11 +115,11 @@
           }
         ],
         "reserved": [
-          128,
-          67,
-          23
+          4,
+          23,
+          201
         ],
-        "secretKey": "sMzRN2aw3zjFSjvEIXQyk1ld+vASMEuX4Aajp7y2rXQ=",
+        "secretKey": "oNdT8HysmF3uU1rQ7KiZUU/KHGw0XtwRtSSXs3lHRGI=",
         "mtu": 1308
       },
       "tag": "warpir",
