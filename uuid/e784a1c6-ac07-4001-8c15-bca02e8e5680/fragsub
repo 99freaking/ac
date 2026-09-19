@@ -911,8 +911,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
         "sockopt": {
           "dialerProxy": "to-balancer"
         }
@@ -2629,8 +2634,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
         "sockopt": {
           "dialerProxy": "to-balancer"
         }
@@ -3727,8 +3737,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
         "sockopt": {
           "dialerProxy": "to-balancer"
         }
