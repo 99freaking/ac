@@ -87,8 +87,13 @@
         ]
       },
       "streamSettings": {
-        "network": "tcp",
+        "network": "grpc",
         "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
         "sockopt": {
           "dialerProxy": "warpir"
         }
@@ -100,7 +105,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8ee5:aca0:3f5:4d18:b3a8/128"
+          "2606:4700:110:813a:a654:265b:68d1:aa1/128"
         ],
         "peers": [
           {
@@ -110,11 +115,11 @@
           }
         ],
         "reserved": [
-          77,
-          217,
-          220
+          128,
+          57,
+          125
         ],
-        "secretKey": "iJhrRYnpq3FcsWZ/i5S4f6zgdXx9IbflZKvKVFeV5lY=",
+        "secretKey": "mBrYylmAYle5PpyjCsPaKmoQffiatR0ZxdI8eDxV60w=",
         "mtu": 1308
       },
       "tag": "warpir",
