@@ -81,6 +81,14 @@
         "udp": true,
         "userLevel": 8
       }
+    },
+    {
+      "tag": "balancer-in",
+      "port": 21763,
+      "protocol": "socks",
+      "settings": {
+        "udp": true
+      }
     }
   ],
   "outbounds": [
@@ -89,12 +97,12 @@
       "settings": {
         "servers": [
           {
-            "address": "5.75.200.179",
+            "address": "s5.typhone1.site",
             "level": 8,
             "method": "chacha20-ietf-poly1305",
             "ota": false,
             "password": "48a7a267-73f8-4dfc-bbd3-bdee46427571",
-            "port": 2083
+            "port": 2096
           }
         ]
       },
@@ -102,73 +110,19 @@
         "network": "tcp",
         "security": ""
       },
-      "tag": "proxy1"
+      "tag": "proxy"
     },
     {
-      "protocol": "vless",
+      "tag": "to-balancer",
+      "protocol": "socks",
       "settings": {
-        "vnext": [
+        "servers": [
           {
-            "address": "5.75.200.179",
-            "port": 38474,
-            "users": [
-              {
-                "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
-                "flow": "",
-                "id": "48a7a267-73f8-4dfc-bbd3-bdee46427571",
-                "level": 8
-              }
-            ]
+            "address": "127.0.0.1",
+            "port": 21763
           }
         ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "",
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        }
-      },
-      "tag": "proxy2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.75.200.179",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "48a7a267-73f8-4dfc-bbd3-bdee46427571",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "qq",
-          "publicKey": "2w0k68IgTH45yzYNsbqeUYkEli5MgE0dll6MhZp9tTg",
-          "serverName": "amp-api-edge.apps.apple.com",
-          "shortId": "24",
-          "spiderX": "/85cfc4aaa24b3de",
-          "show": false
-        },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        }
-      },
-      "tag": "proxy3"
+      }
     },
     {
       "tag": "direct",
@@ -217,11 +171,11 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field"
+        "type": "field",
+        "outboundTag": "proxy"
       },
       {
         "network": "udp",
@@ -260,31 +214,20 @@
         "type": "field"
       },
       {
-        "balancerTag": "all",
+        "inboundTag": [
+          "balancer-in"
+        ],
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
+      },
+      {
+        "outboundTag": "exit_proxy",
         "type": "field",
         "network": "tcp,udp"
       }
-    ],
-    "balancers": [
-      {
-        "tag": "all",
-        "selector": [
-          "prox"
-        ],
-        "strategy": {
-          "type": "leastPing"
-        }
-      }
     ]
   },
-  "observatory": {
-    "probeInterval": "10m",
-    "probeURL": "https://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "prox"
-    ],
-    "EnableConcurrency": true
-  },
-  "remarks": "#0 WIREGUARD 2026-10-01"
+  "remarks": "#0 SERVER5.22 2026-10-01"
 }
 ]
