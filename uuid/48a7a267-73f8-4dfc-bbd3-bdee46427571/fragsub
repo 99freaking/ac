@@ -110,7 +110,73 @@
         "network": "tcp",
         "security": ""
       },
-      "tag": "proxy"
+      "tag": "proxy1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.200.179",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
+                "flow": "",
+                "id": "48a7a267-73f8-4dfc-bbd3-bdee46427571",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        }
+      },
+      "tag": "proxy2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.200.179",
+            "port": 2083,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "48a7a267-73f8-4dfc-bbd3-bdee46427571",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "qq",
+          "publicKey": "2w0k68IgTH45yzYNsbqeUYkEli5MgE0dll6MhZp9tTg",
+          "serverName": "amp-api-search.apps.apple.com",
+          "shortId": "23fa",
+          "spiderX": "/85cfc4aaa24b3de",
+          "show": false
+        },
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        }
+      },
+      "tag": "proxy3"
     },
     {
       "protocol": "wireguard",
@@ -200,11 +266,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "network": "udp",
@@ -246,16 +312,35 @@
         "inboundTag": [
           "balancer-in"
         ],
+        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
       },
       {
         "outboundTag": "exit_proxy",
         "type": "field",
         "network": "tcp,udp"
       }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
     ]
+  },
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
   },
   "remarks": "#0 SERVER5.22 2026-10-01"
 }
