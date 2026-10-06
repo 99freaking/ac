@@ -105,7 +105,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:80f7:2fce:b15a:cc6b:c885/128"
+          "2606:4700:110:8343:adef:323a:9574:29cb/128"
         ],
         "peers": [
           {
@@ -115,11 +115,11 @@
           }
         ],
         "reserved": [
-          106,
-          45,
-          58
+          233,
+          221,
+          40
         ],
-        "secretKey": "+BJVW9qkORBr1KGiTeHnkKIo2vWtP6FjGcSwqu/hbH8=",
+        "secretKey": "gD9VcKCUXRdX1dcpcBecmVC58PuSb9v7Q4QMDJJ7w38=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -433,7 +433,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:80f7:2fce:b15a:cc6b:c885/128"
+          "2606:4700:110:8343:adef:323a:9574:29cb/128"
         ],
         "peers": [
           {
@@ -443,11 +443,11 @@
           }
         ],
         "reserved": [
-          106,
-          45,
-          58
+          233,
+          221,
+          40
         ],
-        "secretKey": "+BJVW9qkORBr1KGiTeHnkKIo2vWtP6FjGcSwqu/hbH8=",
+        "secretKey": "gD9VcKCUXRdX1dcpcBecmVC58PuSb9v7Q4QMDJJ7w38=",
         "mtu": 1308
       },
       "tag": "warpir",
