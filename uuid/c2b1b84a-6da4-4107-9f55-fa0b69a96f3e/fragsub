@@ -97,7 +97,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a08:7373:5561:8e82:b40c/128"
+          "2606:4700:110:8239:a13f:850b:a4f6:a85d/128"
         ],
         "peers": [
           {
@@ -107,11 +107,11 @@
           }
         ],
         "reserved": [
-          71,
-          188,
-          191
+          119,
+          79,
+          63
         ],
-        "secretKey": "SLq9HmbcuemKAVWL1qra8Hw4uiysVZTIcLyg/npGlEk=",
+        "secretKey": "eO3CjD/25+glqVzPvlicdQYzs6f7z/iabJTatzQbokg=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -121,7 +121,7 @@
             {
               "type": "noise",
               "settings": {
-                "reset": "5",
+                "reset": "28",
                 "noise": [
                   {
                     "rand": "1200-1230",
@@ -417,7 +417,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8a08:7373:5561:8e82:b40c/128"
+          "2606:4700:110:8239:a13f:850b:a4f6:a85d/128"
         ],
         "peers": [
           {
@@ -427,11 +427,11 @@
           }
         ],
         "reserved": [
-          71,
-          188,
-          191
+          119,
+          79,
+          63
         ],
-        "secretKey": "SLq9HmbcuemKAVWL1qra8Hw4uiysVZTIcLyg/npGlEk=",
+        "secretKey": "eO3CjD/25+glqVzPvlicdQYzs6f7z/iabJTatzQbokg=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -441,7 +441,7 @@
             {
               "type": "noise",
               "settings": {
-                "reset": "5",
+                "reset": "28",
                 "noise": [
                   {
                     "rand": "1200-1230",
