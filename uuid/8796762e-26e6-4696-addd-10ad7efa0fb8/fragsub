@@ -1,329 +1,657 @@
 [
-  {
-    "log": {
-      "access": "",
-      "error": "",
-      "loglevel": "warning",
-      "dnsLog": false
-    },
-    "dns": {
-      "hosts": {
-        "one.one.one.one": [
-          "1.1.1.1",
-          "1.0.0.1",
-          "2606:4700:4700::1111",
-          "2606:4700:4700::1001"
-        ],
-        "dns.google": [
-          "8.8.8.8",
-          "8.8.4.4",
-          "2001:4860:4860::8888",
-          "2001:4860:4860::8844"
-        ],
-        "dns.digitalsize.net": [
-          "94.130.135.203",
-          "2a01:4f8:13b:3407::face"
-        ]
-      },
-      "servers": [
-        {
-          "address": "localhost",
-          "domains": [
-            "geosite:private",
-            "full:cloudflare.com",
-            "regexp:\\.ir$",
-            "domain:cdnjs.com",
-            "domain:chatgpt.com",
-            "domain:laravel.com",
-            "domain:tgju.org",
-            "domain:www.hcaptcha.com"
-          ],
-          "skipFallback": true
-        },
-        {
-          "address": "https://one.one.one.one/dns-query"
-        }
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning",
+    "dnsLog": false
+  },
+  "dns": {
+    "hosts": {
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
       ],
-      "tag": "remote-dns",
-      "queryStrategy": "UseIP"
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
+      ]
     },
-    "inbounds": [
+    "servers": [
       {
-        "tag": "socks",
-        "port": 10808,
-        "protocol": "socks",
-        "sniffing": {
-          "enabled": true,
-          "routeOnly": true,
-          "destOverride": [
-            "http",
-            "tls"
-          ]
-        },
-        "settings": {
-          "auth": "noauth",
-          "udp": true,
-          "userLevel": 8
-        }
+        "address": "localhost",
+        "domains": [
+          "geosite:private",
+          "full:cloudflare.com",
+          "regexp:\\.ir$",
+          "domain:cdnjs.com",
+          "domain:chatgpt.com",
+          "domain:laravel.com",
+          "domain:tgju.org",
+          "domain:www.hcaptcha.com"
+        ],
+        "skipFallback": true
+      },
+      {
+        "address": "https://one.one.one.one/dns-query"
       }
     ],
-    "outbounds": [
-      {
-        "protocol": "vless",
-        "settings": {
-          "vnext": [
-            {
-              "address": "5.75.200.179",
-              "port": 38474,
-              "users": [
-                {
-                  "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
-                  "flow": "",
-                  "id": "8796762e-26e6-4696-addd-10ad7efa0fb8",
-                  "level": 8
-                }
-              ]
-            }
-          ]
-        },
-        "streamSettings": {
-          "network": "grpc",
-          "security": "",
-          "grpcSettings": {
-            "authority": "",
-            "multiMode": false,
-            "serviceName": ""
-          },
-          "sockopt": {
-            "dialerProxy": "warpir"
-          }
-        },
-        "tag": "proxy"
+    "tag": "remote-dns",
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
       },
-      {
-        "protocol": "wireguard",
-        "settings": {
-          "address": [
-            "172.16.0.2/32",
-            "2606:4700:110:813a:a654:265b:68d1:aa1/128"
-          ],
-          "peers": [
-            {
-              "endpoint": "162.159.195.234:1014",
-              "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-              "keepAlive": 5
-            }
-          ],
-          "reserved": [
-            128,
-            57,
-            125
-          ],
-          "secretKey": "mBrYylmAYle5PpyjCsPaKmoQffiatR0ZxdI8eDxV60w=",
-          "mtu": 1308
-        },
-        "tag": "warpir",
-        "streamSettings": {
-          "finalmask": {
-            "udp": [
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.200.179",
+            "port": 80,
+            "users": [
               {
-                "type": "noise",
-                "settings": {
-                  "reset": "28",
-                  "noise": [
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    },
-                    {
-                      "rand": "1200-1230",
-                      "delay": "10"
-                    }
-                  ]
-                }
+                "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
+                "flow": "",
+                "id": "8796762e-26e6-4696-addd-10ad7efa0fb8",
+                "level": 8
               }
             ]
           }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "warpir"
         }
       },
-      {
-        "tag": "direct",
-        "protocol": "freedom",
-        "settings": {
-          "domainStrategy": "UseIP"
-        }
-      },
-      {
-        "tag": "block",
-        "protocol": "blackhole",
-        "settings": {
-          "response": {
-            "type": "http"
+      "tag": "proxy"
+    },
+    {
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:80f7:2fce:b15a:cc6b:c885/128"
+        ],
+        "peers": [
+          {
+            "endpoint": "162.159.195.234:1014",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
           }
-        }
+        ],
+        "reserved": [
+          106,
+          45,
+          58
+        ],
+        "secretKey": "+BJVW9qkORBr1KGiTeHnkKIo2vWtP6FjGcSwqu/hbH8=",
+        "mtu": 1308
       },
-      {
-        "protocol": "dns",
-        "settings": {
-          "rules": [
+      "tag": "warpir",
+      "streamSettings": {
+        "finalmask": {
+          "udp": [
             {
-              "action": "hijack"
+              "type": "noise",
+              "settings": {
+                "reset": "28",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
             }
           ]
-        },
-        "tag": "dns-out"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": [
-        {
-          "inboundTag": [
-            "dns-in"
-          ],
-          "outboundTag": "dns-out",
-          "type": "field"
-        },
-        {
-          "inboundTag": [
-            "socks"
-          ],
-          "port": "53",
-          "outboundTag": "dns-out",
-          "type": "field"
-        },
-        {
-          "outboundTag": "warpir",
-          "inboundTag": [
-            "remote-dns"
-          ],
-          "type": "field"
-        },
-        {
-          "ip": [
-            "10.10.34.34",
-            "10.10.34.35",
-            "10.10.34.36"
-          ],
-          "outboundTag": "block",
-          "type": "field"
-        },
-        {
-          "domain": [
-            "regexp:\\.ir$"
-          ],
-          "outboundTag": "direct",
-          "type": "field"
-        },
-        {
-          "ip": [
-            "geoip:private"
-          ],
-          "outboundTag": "direct",
-          "type": "field"
-        },
-        {
-          "domain": [
-            "geosite:private"
-          ],
-          "outboundTag": "direct",
-          "type": "field"
-        },
-        {
-          "type": "field",
-          "network": "tcp,udp",
-          "outboundTag": "proxy"
         }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    },
+    {
+      "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
+      "tag": "dns-out"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "socks"
+        ],
+        "port": "53",
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "outboundTag": "warpir",
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "type": "field"
+      },
+      {
+        "ip": [
+          "10.10.34.34",
+          "10.10.34.35",
+          "10.10.34.36"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "regexp:\\.ir$"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
+      }
+    ]
+  },
+  "remarks": "#WARP_4 SERVER5.16 2026-10-06"
+}
+,
+{
+  "log": {
+    "access": "",
+    "error": "",
+    "loglevel": "warning",
+    "dnsLog": false
+  },
+  "dns": {
+    "hosts": {
+      "one.one.one.one": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ],
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4",
+        "2001:4860:4860::8888",
+        "2001:4860:4860::8844"
+      ],
+      "dns.digitalsize.net": [
+        "94.130.135.203",
+        "2a01:4f8:13b:3407::face"
       ]
     },
-    "remarks": "#WARP_4 SERVER5.16 2026-09-19"
-  }
+    "servers": [
+      {
+        "address": "localhost",
+        "domains": [
+          "geosite:private",
+          "full:cloudflare.com",
+          "regexp:\\.ir$",
+          "domain:cdnjs.com",
+          "domain:chatgpt.com",
+          "domain:laravel.com",
+          "domain:tgju.org",
+          "domain:www.hcaptcha.com"
+        ],
+        "skipFallback": true
+      },
+      {
+        "address": "https://one.one.one.one/dns-query"
+      }
+    ],
+    "tag": "remote-dns",
+    "queryStrategy": "UseIP"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "protocol": "socks",
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls"
+        ]
+      },
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "5.75.200.179",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
+                "flow": "",
+                "id": "8796762e-26e6-4696-addd-10ad7efa0fb8",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "",
+        "grpcSettings": {
+          "authority": "",
+          "multiMode": false,
+          "serviceName": ""
+        },
+        "sockopt": {
+          "dialerProxy": "warpir"
+        }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "wireguard",
+      "settings": {
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:80f7:2fce:b15a:cc6b:c885/128"
+        ],
+        "peers": [
+          {
+            "endpoint": "[2a06:98c1:3120::3]:988",
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "keepAlive": 5
+          }
+        ],
+        "reserved": [
+          106,
+          45,
+          58
+        ],
+        "secretKey": "+BJVW9qkORBr1KGiTeHnkKIo2vWtP6FjGcSwqu/hbH8=",
+        "mtu": 1308
+      },
+      "tag": "warpir",
+      "streamSettings": {
+        "finalmask": {
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "reset": "28",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      }
+    },
+    {
+      "protocol": "dns",
+      "settings": {
+        "rules": [
+          {
+            "action": "hijack"
+          }
+        ]
+      },
+      "tag": "dns-out"
+    }
+  ],
+  "routing": {
+    "domainStrategy": "AsIs",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "inboundTag": [
+          "socks"
+        ],
+        "port": "53",
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "outboundTag": "warpir",
+        "inboundTag": [
+          "remote-dns"
+        ],
+        "type": "field"
+      },
+      {
+        "ip": [
+          "10.10.34.34",
+          "10.10.34.35",
+          "10.10.34.36"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "regexp:\\.ir$"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "outboundTag": "proxy"
+      }
+    ]
+  },
+  "remarks": "#WARP_6 SERVER5.16 2026-10-06"
+}
 ]
