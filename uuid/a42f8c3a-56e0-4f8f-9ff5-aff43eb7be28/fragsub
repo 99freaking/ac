@@ -132,7 +132,7 @@
               {
                 "type": "noise",
                 "settings": {
-                  "reset": "5",
+                  "reset": "28",
                   "noise": [
                     {
                       "rand": "1200-1230",
