@@ -569,7 +569,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -649,7 +649,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "172.66.174.216",
             "port": 2053,
             "users": [
               {
@@ -729,7 +729,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "192.0.54.134",
             "port": 2053,
             "users": [
               {
@@ -809,7 +809,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "208.103.161.62",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -889,7 +889,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "104.24.89.14",
             "port": 2053,
             "users": [
               {
@@ -969,7 +969,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "156.224.73.243",
             "port": 2053,
             "users": [
               {
@@ -1049,7 +1049,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.34.146.13",
             "port": 2053,
             "users": [
               {
@@ -1129,7 +1129,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 2053,
             "users": [
               {
@@ -1225,6 +1225,7 @@
       "settings": {
         "rules": [
           {
+            "qType": "1,28",
             "action": "hijack"
           }
         ]
@@ -1319,7 +1320,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 SERVER5.20 2026-10-06"
+  "remarks": "#C1 SERVER5.20 2026-10-07"
 }
 ,
 {
@@ -1706,7 +1707,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -1755,7 +1756,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "172.66.174.216",
             "port": 2053,
             "users": [
               {
@@ -1804,7 +1805,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "192.0.54.134",
             "port": 2053,
             "users": [
               {
@@ -1853,7 +1854,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "208.103.161.62",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -1902,7 +1903,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "104.24.89.14",
             "port": 2053,
             "users": [
               {
@@ -1951,7 +1952,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "156.224.73.243",
             "port": 2053,
             "users": [
               {
@@ -2000,7 +2001,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.34.146.13",
             "port": 2053,
             "users": [
               {
@@ -2049,7 +2050,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::5d08]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 2053,
             "users": [
               {
@@ -2114,6 +2115,7 @@
       "settings": {
         "rules": [
           {
+            "qType": "1,28",
             "action": "hijack"
           }
         ]
@@ -2208,6 +2210,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.20 2026-10-06"
+  "remarks": "#E SERVER5.20 2026-10-07"
 }
 ]
