@@ -569,7 +569,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -649,7 +649,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -809,7 +809,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.27.12.184",
             "port": 2053,
             "users": [
               {
@@ -889,7 +889,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.89.14",
+            "address": "188.114.96.6",
             "port": 2053,
             "users": [
               {
@@ -969,7 +969,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.224.73.243",
+            "address": "46.202.30.193",
             "port": 2053,
             "users": [
               {
@@ -1049,7 +1049,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "172.66.174.216",
             "port": 2053,
             "users": [
               {
@@ -1129,7 +1129,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 2053,
             "users": [
               {
@@ -1222,14 +1222,6 @@
     },
     {
       "protocol": "dns",
-      "settings": {
-        "rules": [
-          {
-            "qType": "1,28",
-            "action": "hijack"
-          }
-        ]
-      },
       "tag": "dns-out"
     }
   ],
@@ -1320,7 +1312,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 SERVER5.20 2026-10-07"
+  "remarks": "#C1 SERVER5.20 2026-10-08"
 }
 ,
 {
@@ -1707,7 +1699,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -1756,7 +1748,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -1854,7 +1846,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.27.12.184",
             "port": 2053,
             "users": [
               {
@@ -1903,7 +1895,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.24.89.14",
+            "address": "188.114.96.6",
             "port": 2053,
             "users": [
               {
@@ -1952,7 +1944,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "156.224.73.243",
+            "address": "46.202.30.193",
             "port": 2053,
             "users": [
               {
@@ -2001,7 +1993,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "172.66.174.216",
             "port": 2053,
             "users": [
               {
@@ -2050,7 +2042,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::aa]",
             "port": 2053,
             "users": [
               {
@@ -2112,14 +2104,6 @@
     },
     {
       "protocol": "dns",
-      "settings": {
-        "rules": [
-          {
-            "qType": "1,28",
-            "action": "hijack"
-          }
-        ]
-      },
       "tag": "dns-out"
     }
   ],
@@ -2210,6 +2194,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.20 2026-10-07"
+  "remarks": "#E SERVER5.20 2026-10-08"
 }
 ]

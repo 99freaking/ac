@@ -180,14 +180,6 @@
     },
     {
       "protocol": "dns",
-      "settings": {
-        "rules": [
-          {
-            "qType": "1,28",
-            "action": "hijack"
-          }
-        ]
-      },
       "tag": "dns-out"
     }
   ],
@@ -267,7 +259,7 @@
       }
     ]
   },
-  "remarks": "#0 SERVER5.DIRECT 2026-10-07"
+  "remarks": "#0 SERVER5.DIRECT 2026-10-08"
 }
 ,
 {
@@ -872,7 +864,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "192.0.54.134",
             "port": 443,
             "users": [
               {
@@ -956,7 +948,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.149.142",
+            "address": "104.27.12.184",
             "port": 443,
             "users": [
               {
@@ -1040,7 +1032,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.20.17.44",
             "port": 443,
             "users": [
               {
@@ -1124,7 +1116,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "46.202.30.193",
             "port": 443,
             "users": [
               {
@@ -1208,7 +1200,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "162.159.149.142",
             "port": 443,
             "users": [
               {
@@ -1376,7 +1368,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 443,
             "users": [
               {
@@ -2024,7 +2016,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "192.0.54.134",
             "port": 2053,
             "users": [
               {
@@ -2104,7 +2096,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.149.142",
+            "address": "104.27.12.184",
             "port": 2053,
             "users": [
               {
@@ -2184,7 +2176,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.20.17.44",
             "port": 2053,
             "users": [
               {
@@ -2264,7 +2256,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "46.202.30.193",
             "port": 2053,
             "users": [
               {
@@ -2344,7 +2336,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "162.159.149.142",
             "port": 2053,
             "users": [
               {
@@ -2504,7 +2496,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 2053,
             "users": [
               {
@@ -2689,9 +2681,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -2770,9 +2762,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -2851,9 +2843,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -2932,9 +2924,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3013,9 +3005,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3094,9 +3086,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3150,7 +3142,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "192.0.54.134",
             "port": 8443,
             "users": [
               {
@@ -3175,9 +3167,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3231,7 +3223,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.149.142",
+            "address": "104.27.12.184",
             "port": 8443,
             "users": [
               {
@@ -3256,9 +3248,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3312,7 +3304,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.20.17.44",
             "port": 8443,
             "users": [
               {
@@ -3337,9 +3329,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3393,7 +3385,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "46.202.30.193",
             "port": 8443,
             "users": [
               {
@@ -3418,9 +3410,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3474,7 +3466,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "162.159.149.142",
             "port": 8443,
             "users": [
               {
@@ -3499,9 +3491,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3580,9 +3572,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3636,7 +3628,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 8443,
             "users": [
               {
@@ -3661,9 +3653,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3742,9 +3734,9 @@
           ]
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -3852,14 +3844,6 @@
     },
     {
       "protocol": "dns",
-      "settings": {
-        "rules": [
-          {
-            "qType": "1,28",
-            "action": "hijack"
-          }
-        ]
-      },
       "tag": "dns-out"
     }
   ],
@@ -3958,7 +3942,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#C1 SERVER5.CDN 2026-10-07"
+  "remarks": "#C1 SERVER5.CDN 2026-10-08"
 }
 ,
 {
@@ -4377,7 +4361,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "192.0.54.134",
             "port": 443,
             "users": [
               {
@@ -4430,7 +4414,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.149.142",
+            "address": "104.27.12.184",
             "port": 443,
             "users": [
               {
@@ -4483,7 +4467,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.20.17.44",
             "port": 443,
             "users": [
               {
@@ -4536,7 +4520,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "46.202.30.193",
             "port": 443,
             "users": [
               {
@@ -4589,7 +4573,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "162.159.149.142",
             "port": 443,
             "users": [
               {
@@ -4695,7 +4679,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 443,
             "users": [
               {
@@ -5095,7 +5079,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.12.184",
+            "address": "192.0.54.134",
             "port": 2053,
             "users": [
               {
@@ -5144,7 +5128,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.149.142",
+            "address": "104.27.12.184",
             "port": 2053,
             "users": [
               {
@@ -5193,7 +5177,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "104.20.17.44",
             "port": 2053,
             "users": [
               {
@@ -5242,7 +5226,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "192.0.54.134",
+            "address": "46.202.30.193",
             "port": 2053,
             "users": [
               {
@@ -5291,7 +5275,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "162.159.149.142",
             "port": 2053,
             "users": [
               {
@@ -5389,7 +5373,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 2053,
             "users": [
               {
@@ -5514,9 +5498,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5564,9 +5548,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5614,9 +5598,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5664,9 +5648,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5714,9 +5698,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5764,9 +5748,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5781,156 +5765,6 @@
         }
       },
       "tag": "proxy34"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.27.12.184",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy35"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "162.159.149.142",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy36"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.175.141.15",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy37"
     },
     {
       "protocol": "vless",
@@ -5964,9 +5798,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -5980,7 +5814,57 @@
           }
         }
       },
-      "tag": "proxy38"
+      "tag": "proxy35"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "104.27.12.184",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "https://dns.digitalsize.net/dns-query",
+          "echForceQuery": "full"
+        },
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy36"
     },
     {
       "protocol": "vless",
@@ -6014,9 +5898,109 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy37"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "46.202.30.193",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "https://dns.digitalsize.net/dns-query",
+          "echForceQuery": "full"
+        },
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy38"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "162.159.149.142",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "1298ac99-c7ed-4b5d-a543-f6867fc16f78",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "https://dns.digitalsize.net/dns-query",
+          "echForceQuery": "full"
+        },
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -6064,9 +6048,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -6087,7 +6071,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "45.135.235.255",
             "port": 8443,
             "users": [
               {
@@ -6114,9 +6098,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -6164,9 +6148,9 @@
           "echForceQuery": "full"
         },
         "wsSettings": {
+          "host": "s51.typhone1.site",
           "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
-            "Host": "s51.typhone1.site"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
           "path": "/assets?ed=2560"
         },
@@ -6241,14 +6225,6 @@
     },
     {
       "protocol": "dns",
-      "settings": {
-        "rules": [
-          {
-            "qType": "1,28",
-            "action": "hijack"
-          }
-        ]
-      },
       "tag": "dns-out"
     }
   ],
@@ -6347,6 +6323,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.CDN 2026-10-07"
+  "remarks": "#E SERVER5.CDN 2026-10-08"
 }
 ]
