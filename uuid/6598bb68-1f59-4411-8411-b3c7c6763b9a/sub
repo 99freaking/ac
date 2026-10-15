@@ -1,0 +1,5 @@
+aether://?protocol=masque&scan=balanced&ip=v4&transport=h2#IR
+aether://?protocol=wg-over-masque&scan=balanced&ip=v4&transport=h2#DE
+aether://?protocol=masque&scan=balanced&ip=v4&transport=h2&psiphon=chain&psiphon_mode=auto&region=US#US
+aether://?protocol=wg&scan=balanced&ip=v6#IR.IPV6
+aether://?protocol=wg&scan=balanced&ip=v6&psiphon=chain&psiphon_mode=auto&region=US#US.IPV6
