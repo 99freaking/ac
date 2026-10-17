@@ -1,3 +1,4 @@
-aether://162.159.198.118:443?protocol=masque&scan=balanced&ip=v4&transport=h2#masq
-aether://?protocol=wg-over-masque&scan=balanced&ip=v4&transport=h2&outer=162.159.198.167%3A443#masq%2Bwire
-aether://162.159.198.118:443?protocol=masque&scan=balanced&ip=v4&transport=h2&psiphon=chain&psiphon_mode=auto&region=US#masq%2Bus
+aether://?protocol=masque&scan=balanced&ip=both&transport=h2#IR
+aether://?protocol=masque&scan=balanced&ip=both&transport=h2&psiphon=chain&psiphon_mode=auto&region=US&psiphon_bundled=0#US
+aether://?protocol=masque&scan=balanced&ip=both&transport=h2&ech=1&ech_dns=tcp%3A%2F%2F1.1.1.1#IR.ECH
+aether://?protocol=masque&scan=balanced&ip=both&transport=h2&ech=1&ech_dns=tcp%3A%2F%2F1.1.1.1&psiphon=chain&psiphon_mode=auto&region=US&psiphon_bundled=0#US.ECH
