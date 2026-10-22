@@ -81,14 +81,6 @@
         "udp": true,
         "userLevel": 8
       }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
-      }
     }
   ],
   "outbounds": [
@@ -119,48 +111,48 @@
           "serviceName": ""
         }
       },
-      "tag": "proxy"
+      "tag": "proxy1"
     },
     {
-      "protocol": "wireguard",
+      "protocol": "vless",
       "settings": {
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:8eda:d6df:3f20:b3d3:356a/128"
-        ],
-        "peers": [
+        "vnext": [
           {
-            "endpoint": "engage.cloudflareclient.com:2408",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "keepAlive": 5
-          }
-        ],
-        "reserved": [
-          192,
-          22,
-          57
-        ],
-        "secretKey": "iOt3Q6Y226uKcaQybjoAEgWvQ3jh+Rmu2Pdn1JaL2mE=",
-        "mtu": 1280
-      },
-      "tag": "exit_proxy",
-      "streamSettings": {
-        "sockopt": {
-          "dialerProxy": "to-balancer"
-        }
-      }
-    },
-    {
-      "tag": "to-balancer",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
+            "address": "5.75.200.179",
+            "port": 2083,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "edc12794-5b7f-4b6e-ac6a-14a65d56e0a7",
+                "level": 8
+              }
+            ]
           }
         ]
-      }
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "TTHsTTMgI8KpFdhj93j_fAQUKOj3kHGajOVJa3hzxUk",
+          "serverName": "android.clients.google.com",
+          "shortId": "52d79583ae",
+          "spiderX": "/feaae5fb6c17185",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy2"
     },
     {
       "tag": "direct",
@@ -202,11 +194,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "network": "udp",
@@ -245,21 +237,32 @@
         "type": "field"
       },
       {
-        "inboundTag": [
-          "balancer-in"
-        ],
-        "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
-      },
-      {
-        "outboundTag": "exit_proxy",
+        "balancerTag": "all",
         "type": "field",
         "network": "tcp,udp"
       }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
+      }
     ]
   },
-  "remarks": "#0 SERVER5.DIRECT 2026-10-17"
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
+  },
+  "remarks": "#0 SERVER5.DIRECT 2026-10-22"
 }
 ,
 {
@@ -343,14 +346,6 @@
         "auth": "noauth",
         "udp": true,
         "userLevel": 8
-      }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
       }
     }
   ],
@@ -678,7 +673,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 443,
             "users": [
               {
@@ -731,7 +726,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 443,
             "users": [
               {
@@ -784,7 +779,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 443,
             "users": [
               {
@@ -837,7 +832,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -890,7 +885,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 443,
             "users": [
               {
@@ -943,7 +938,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 443,
             "users": [
               {
@@ -996,7 +991,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 443,
             "users": [
               {
@@ -1396,7 +1391,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -1445,7 +1440,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 2053,
             "users": [
               {
@@ -1494,7 +1489,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 2053,
             "users": [
               {
@@ -1543,7 +1538,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 2053,
             "users": [
               {
@@ -1592,7 +1587,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 2053,
             "users": [
               {
@@ -1641,7 +1636,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -1690,7 +1685,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 2053,
             "users": [
               {
@@ -2088,7 +2083,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 8443,
             "users": [
               {
@@ -2138,7 +2133,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 8443,
             "users": [
               {
@@ -2188,7 +2183,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 8443,
             "users": [
               {
@@ -2238,7 +2233,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 8443,
             "users": [
               {
@@ -2288,7 +2283,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -2338,7 +2333,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 8443,
             "users": [
               {
@@ -2388,7 +2383,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 8443,
             "users": [
               {
@@ -2484,47 +2479,6 @@
       "tag": "proxy42"
     },
     {
-      "protocol": "wireguard",
-      "settings": {
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:8eda:d6df:3f20:b3d3:356a/128"
-        ],
-        "peers": [
-          {
-            "endpoint": "engage.cloudflareclient.com:2408",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "keepAlive": 5
-          }
-        ],
-        "reserved": [
-          192,
-          22,
-          57
-        ],
-        "secretKey": "iOt3Q6Y226uKcaQybjoAEgWvQ3jh+Rmu2Pdn1JaL2mE=",
-        "mtu": 1280
-      },
-      "tag": "exit_proxy",
-      "streamSettings": {
-        "sockopt": {
-          "dialerProxy": "to-balancer"
-        }
-      }
-    },
-    {
-      "tag": "to-balancer",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
-          }
-        ]
-      }
-    },
-    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {
@@ -2607,15 +2561,7 @@
         "type": "field"
       },
       {
-        "inboundTag": [
-          "balancer-in"
-        ],
         "balancerTag": "all",
-        "type": "field",
-        "network": "tcp,udp"
-      },
-      {
-        "outboundTag": "exit_proxy",
         "type": "field",
         "network": "tcp,udp"
       }
@@ -2640,7 +2586,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.CDN 2026-10-17"
+  "remarks": "#E SERVER5.CDN 2026-10-22"
 }
 ,
 {
@@ -2724,14 +2670,6 @@
         "auth": "noauth",
         "udp": true,
         "userLevel": 8
-      }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
       }
     }
   ],
@@ -3245,7 +3183,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 443,
             "users": [
               {
@@ -3329,7 +3267,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 443,
             "users": [
               {
@@ -3413,7 +3351,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 443,
             "users": [
               {
@@ -3497,7 +3435,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 443,
             "users": [
               {
@@ -3581,7 +3519,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 443,
             "users": [
               {
@@ -3665,7 +3603,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 443,
             "users": [
               {
@@ -3749,7 +3687,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 443,
             "users": [
               {
@@ -4397,7 +4335,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -4477,7 +4415,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 2053,
             "users": [
               {
@@ -4557,7 +4495,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 2053,
             "users": [
               {
@@ -4637,7 +4575,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 2053,
             "users": [
               {
@@ -4717,7 +4655,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 2053,
             "users": [
               {
@@ -4797,7 +4735,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 2053,
             "users": [
               {
@@ -4877,7 +4815,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 2053,
             "users": [
               {
@@ -5523,7 +5461,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "5.175.141.15",
             "port": 8443,
             "users": [
               {
@@ -5604,7 +5542,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.34.146.13",
+            "address": "104.20.17.44",
             "port": 8443,
             "users": [
               {
@@ -5685,7 +5623,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "45.135.235.255",
             "port": 8443,
             "users": [
               {
@@ -5766,7 +5704,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "216.24.57.250",
             "port": 8443,
             "users": [
               {
@@ -5847,7 +5785,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "31.43.179.0",
             "port": 8443,
             "users": [
               {
@@ -5928,7 +5866,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "154.197.64.252",
             "port": 8443,
             "users": [
               {
@@ -6009,7 +5947,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.174.216",
+            "address": "188.114.96.6",
             "port": 8443,
             "users": [
               {
@@ -6167,47 +6105,6 @@
       "tag": "proxy42_fragc1"
     },
     {
-      "protocol": "wireguard",
-      "settings": {
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:8eda:d6df:3f20:b3d3:356a/128"
-        ],
-        "peers": [
-          {
-            "endpoint": "engage.cloudflareclient.com:2408",
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "keepAlive": 5
-          }
-        ],
-        "reserved": [
-          192,
-          22,
-          57
-        ],
-        "secretKey": "iOt3Q6Y226uKcaQybjoAEgWvQ3jh+Rmu2Pdn1JaL2mE=",
-        "mtu": 1280
-      },
-      "tag": "exit_proxy",
-      "streamSettings": {
-        "sockopt": {
-          "dialerProxy": "to-balancer"
-        }
-      }
-    },
-    {
-      "tag": "to-balancer",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
-          }
-        ]
-      }
-    },
-    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {
@@ -6290,15 +6187,7 @@
         "type": "field"
       },
       {
-        "inboundTag": [
-          "balancer-in"
-        ],
         "balancerTag": "all",
-        "type": "field",
-        "network": "tcp,udp"
-      },
-      {
-        "outboundTag": "exit_proxy",
         "type": "field",
         "network": "tcp,udp"
       }
@@ -6323,6 +6212,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 SERVER5.CDN 2026-10-17"
+  "remarks": "#F1 SERVER5.CDN 2026-10-22"
 }
 ]
