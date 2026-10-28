@@ -1385,7 +1385,7 @@
         "vnext": [
           {
             "address": "5.75.200.179",
-            "port": 80,
+            "port": 8080,
             "users": [
               {
                 "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
@@ -1539,7 +1539,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER12.TLS 2026-10-22"
+  "remarks": "#0 WORKER12.TLS 2026-10-28"
 }
 ,
 {
@@ -2994,7 +2994,7 @@
         "vnext": [
           {
             "address": "5.75.200.179",
-            "port": 80,
+            "port": 8080,
             "users": [
               {
                 "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
@@ -3148,7 +3148,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E WORKER12.TLS 2026-10-22"
+  "remarks": "#E WORKER12.TLS 2026-10-28"
 }
 ,
 {
@@ -5659,7 +5659,7 @@
         "vnext": [
           {
             "address": "5.75.200.179",
-            "port": 80,
+            "port": 8080,
             "users": [
               {
                 "encryption": "mlkem768x25519plus.native.0rtt.MeXd64CDTB7HhFf_NmML-MDQg5CYo1Cc2TgjCj1tQBY",
@@ -5813,6 +5813,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 WORKER12.TLS 2026-10-22"
+  "remarks": "#F1 WORKER12.TLS 2026-10-28"
 }
 ]

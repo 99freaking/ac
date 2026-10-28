@@ -167,6 +167,47 @@
       "tag": "proxy2"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.202.244.183",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "d919c556-67c1-4047-87c4-454a5231d47e",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy3"
+    },
+    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {
@@ -274,6 +315,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 SERVER5.TUNNEL 2026-10-25"
+  "remarks": "SRV1 2026-10-28"
 }
 ]

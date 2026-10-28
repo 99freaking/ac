@@ -123,7 +123,89 @@
           "path": "/"
         }
       },
-      "tag": "proxy"
+      "tag": "proxy1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.202.244.183",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "41214ea1-8807-4a51-95a1-860d3d8ac25a",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy2"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.202.244.183",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "41214ea1-8807-4a51-95a1-860d3d8ac25a",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        }
+      },
+      "tag": "proxy3"
     },
     {
       "tag": "direct",
@@ -165,11 +247,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "network": "udp",
@@ -208,12 +290,31 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
   },
-  "remarks": "#0 SERVER5.TUNNEL 2026-10-25"
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
+  },
+  "remarks": "SRV1 2026-10-28"
 }
 ]

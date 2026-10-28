@@ -415,7 +415,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "31.43.179.0",
             "port": 443,
             "users": [
               {
@@ -468,7 +468,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "5.175.141.15",
             "port": 443,
             "users": [
               {
@@ -574,7 +574,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "37.202.244.87",
             "port": 443,
             "users": [
               {
@@ -627,7 +627,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "185.18.250.2",
             "port": 443,
             "users": [
               {
@@ -680,7 +680,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.6.112.0",
             "port": 443,
             "users": [
               {
@@ -733,7 +733,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "208.103.161.62",
             "port": 443,
             "users": [
               {
@@ -786,7 +786,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -853,23 +853,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -902,23 +903,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -951,23 +953,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1000,23 +1003,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1049,23 +1053,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1098,23 +1103,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1127,6 +1133,56 @@
         }
       },
       "tag": "proxy20"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "31.43.179.0",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ],
+          "echConfigList": "https://dns.digitalsize.net/dns-query",
+          "echForceQuery": "full"
+        },
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy21"
     },
     {
       "protocol": "vless",
@@ -1147,72 +1203,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy21"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.20.17.44",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "grpc",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "h2",
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1245,23 +1253,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1280,7 +1289,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "37.202.244.87",
             "port": 2053,
             "users": [
               {
@@ -1294,23 +1303,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1329,7 +1339,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "185.18.250.2",
             "port": 2053,
             "users": [
               {
@@ -1343,23 +1353,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1378,7 +1389,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.6.112.0",
             "port": 2053,
             "users": [
               {
@@ -1392,23 +1403,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1427,7 +1439,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "208.103.161.62",
             "port": 2053,
             "users": [
               {
@@ -1441,23 +1453,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1476,7 +1489,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 2053,
             "users": [
               {
@@ -1490,23 +1503,24 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ],
           "echConfigList": "https://dns.digitalsize.net/dns-query",
           "echForceQuery": "full"
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -1519,706 +1533,6 @@
         }
       },
       "tag": "proxy28"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy29"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy30"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy31"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy32"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy33"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy34"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.175.141.15",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy35"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.20.17.44",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy36"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.135.235.255",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy37"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "216.24.57.250",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy38"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.43.179.0",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy39"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "154.197.64.252",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy40"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.96.6",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy41"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "[2a06:98c1:3120::6]",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "echConfigList": "https://dns.digitalsize.net/dns-query",
-          "echForceQuery": "full"
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy42"
     },
     {
       "protocol": "wireguard",
@@ -2377,7 +1691,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.CDN 2026-10-22"
+  "remarks": "#E SERVER5.CDN 2026-10-28"
 }
 ,
 {
@@ -2982,7 +2296,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "31.43.179.0",
             "port": 443,
             "users": [
               {
@@ -3066,7 +2380,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "5.175.141.15",
             "port": 443,
             "users": [
               {
@@ -3234,7 +2548,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "37.202.244.87",
             "port": 443,
             "users": [
               {
@@ -3318,7 +2632,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "185.18.250.2",
             "port": 443,
             "users": [
               {
@@ -3402,7 +2716,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.6.112.0",
             "port": 443,
             "users": [
               {
@@ -3486,7 +2800,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "208.103.161.62",
             "port": 443,
             "users": [
               {
@@ -3570,7 +2884,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -3668,21 +2982,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -3748,21 +3063,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -3828,21 +3144,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -3908,21 +3225,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -3988,21 +3306,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4068,21 +3387,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4134,7 +3454,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "5.175.141.15",
+            "address": "31.43.179.0",
             "port": 2053,
             "users": [
               {
@@ -4148,21 +3468,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4214,7 +3535,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.17.44",
+            "address": "5.175.141.15",
             "port": 2053,
             "users": [
               {
@@ -4228,21 +3549,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4308,21 +3630,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4374,7 +3697,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "216.24.57.250",
+            "address": "37.202.244.87",
             "port": 2053,
             "users": [
               {
@@ -4388,21 +3711,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4454,7 +3778,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "31.43.179.0",
+            "address": "185.18.250.2",
             "port": 2053,
             "users": [
               {
@@ -4468,21 +3792,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4534,7 +3859,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "154.197.64.252",
+            "address": "8.6.112.0",
             "port": 2053,
             "users": [
               {
@@ -4548,21 +3873,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4614,7 +3940,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.6",
+            "address": "208.103.161.62",
             "port": 2053,
             "users": [
               {
@@ -4628,21 +3954,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4694,7 +4021,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 2053,
             "users": [
               {
@@ -4708,21 +4035,22 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "ws",
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
           "serverName": "s51.typhone1.site",
           "show": false,
           "alpn": [
-            "h2",
             "http/1.1"
           ]
         },
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
+        "wsSettings": {
+          "host": "s51.typhone1.site",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/assets?ed=2560"
         },
         "sockopt": {
           "domainStrategy": "UseIP",
@@ -4768,1140 +4096,6 @@
         }
       },
       "tag": "proxy28_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy29_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy30_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy31_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy32_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy33_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy34_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "5.175.141.15",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy35_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "104.20.17.44",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy36_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "45.135.235.255",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy37_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "216.24.57.250",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy38_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "31.43.179.0",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy39_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "154.197.64.252",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy40_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "188.114.96.6",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy41_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "[2a06:98c1:3120::6]",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0d5ef305-67fa-46d7-a485-563b6ccfef15",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "s51.typhone1.site",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "s51.typhone1.site",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/assets?ed=2560"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy42_fragc1"
     },
     {
       "protocol": "wireguard",
@@ -6060,6 +4254,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 SERVER5.CDN 2026-10-22"
+  "remarks": "#F1 SERVER5.CDN 2026-10-28"
 }
 ]
