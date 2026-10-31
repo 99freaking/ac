@@ -126,7 +126,139 @@
           "dialerProxy": "fragment0c1"
         }
       },
-      "tag": "proxy"
+      "tag": "proxy1_fragc1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "127.0.0.1",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "55ae7fb7-6f83-4cbe-8a5f-62315a8dcc7c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "TTHsTTMgI8KpFdhj93j_fAQUKOj3kHGajOVJa3hzxUk",
+          "serverName": "android.clients.google.com",
+          "shortId": "52d79583ae",
+          "spiderX": "/feaae5fb6c17185",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
+        }
+      },
+      "tag": "proxy2_fragc1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "127.0.0.1",
+            "port": 80,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "55ae7fb7-6f83-4cbe-8a5f-62315a8dcc7c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
+        }
+      },
+      "tag": "proxy3_fragc1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "127.0.0.1",
+            "port": 8443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "55ae7fb7-6f83-4cbe-8a5f-62315a8dcc7c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
+        }
+      },
+      "tag": "proxy4_fragc1"
     },
     {
       "protocol": "vless",
@@ -209,11 +341,11 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "inboundTag": [
           "remote-dns"
         ],
-        "type": "field",
-        "outboundTag": "proxy"
+        "type": "field"
       },
       {
         "network": "udp",
@@ -252,11 +384,30 @@
         "type": "field"
       },
       {
+        "balancerTag": "all",
         "type": "field",
-        "network": "tcp,udp",
-        "outboundTag": "proxy"
+        "network": "tcp,udp"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "all",
+        "selector": [
+          "prox"
+        ],
+        "strategy": {
+          "type": "leastPing"
+        }
       }
     ]
+  },
+  "observatory": {
+    "probeInterval": "10m",
+    "probeURL": "https://www.gstatic.com/generate_204",
+    "subjectSelector": [
+      "prox"
+    ],
+    "EnableConcurrency": true
   },
   "remarks": "SRV2 2026-10-31"
 }
