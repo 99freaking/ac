@@ -212,6 +212,50 @@
       "settings": {
         "vnext": [
           {
+            "address": "5.75.200.179",
+            "port": 2083,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "55ae7fb7-6f83-4cbe-8a5f-62315a8dcc7c",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "TTHsTTMgI8KpFdhj93j_fAQUKOj3kHGajOVJa3hzxUk",
+          "serverName": "android.clients.google.com",
+          "shortId": "52d79583ae",
+          "spiderX": "/feaae5fb6c17185",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "dialerProxy": "fragment0c1"
+        }
+      },
+      "tag": "proxy1_fragc1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "37.202.244.183",
             "port": 8080,
             "users": [
