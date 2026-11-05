@@ -75,7 +75,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8f87:331d:20af:c7a5:4f1f/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
@@ -85,11 +85,11 @@
           }
         ],
         "reserved": [
-          240,
-          124,
-          122
+          118,
+          241,
+          43
         ],
-        "secretKey": "MARGHlUxxfpwdE8whgAFewrqbGHi7lXzfrb2AHvdWUM=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1308
       },
       "tag": "proxy",
@@ -366,21 +366,21 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8f87:331d:20af:c7a5:4f1f/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::bc72:6009]:1002",
+            "endpoint": "[2606:4700:d1::bc72:6386]:987",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "keepAlive": 5
           }
         ],
         "reserved": [
-          240,
-          124,
-          122
+          118,
+          241,
+          43
         ],
-        "secretKey": "MARGHlUxxfpwdE8whgAFewrqbGHi7lXzfrb2AHvdWUM=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1308
       },
       "tag": "proxy",
@@ -657,7 +657,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8dc7:5f2e:4c66:5896:96f6/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
@@ -667,11 +667,11 @@
           }
         ],
         "reserved": [
-          122,
-          28,
-          242
+          118,
+          241,
+          43
         ],
-        "secretKey": "IL4gb/1roOO41iUZZP6nDg0qP+aqW5cDRGz8rqnkb2M=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1280
       },
       "tag": "proxy",
@@ -686,7 +686,7 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8f87:331d:20af:c7a5:4f1f/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
@@ -696,11 +696,11 @@
           }
         ],
         "reserved": [
-          240,
-          124,
-          122
+          118,
+          241,
+          43
         ],
-        "secretKey": "MARGHlUxxfpwdE8whgAFewrqbGHi7lXzfrb2AHvdWUM=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1308
       },
       "tag": "warpir",
@@ -977,21 +977,21 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8dc7:5f2e:4c66:5896:96f6/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::bc72:6009]:1002",
+            "endpoint": "[2606:4700:d1::bc72:6386]:987",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "keepAlive": 5
           }
         ],
         "reserved": [
-          122,
-          28,
-          242
+          118,
+          241,
+          43
         ],
-        "secretKey": "IL4gb/1roOO41iUZZP6nDg0qP+aqW5cDRGz8rqnkb2M=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1280
       },
       "tag": "proxy",
@@ -1006,21 +1006,21 @@
       "settings": {
         "address": [
           "172.16.0.2/32",
-          "2606:4700:110:8f87:331d:20af:c7a5:4f1f/128"
+          "2606:4700:110:8567:ade7:5f60:1e05:3210/128"
         ],
         "peers": [
           {
-            "endpoint": "[2606:4700:d0::bc72:6009]:1002",
+            "endpoint": "[2606:4700:d1::bc72:6386]:987",
             "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
             "keepAlive": 5
           }
         ],
         "reserved": [
-          240,
-          124,
-          122
+          118,
+          241,
+          43
         ],
-        "secretKey": "MARGHlUxxfpwdE8whgAFewrqbGHi7lXzfrb2AHvdWUM=",
+        "secretKey": "qAlqPhkGbDFn0+BwstC0ucA6RIXL2j6GXFlpEddssG4=",
         "mtu": 1308
       },
       "tag": "warpir",
