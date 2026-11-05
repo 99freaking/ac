@@ -1,2 +1,5 @@
-aether://?protocol=masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com#IR
-aether://?protocol=masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com&psiphon=chain&psiphon_mode=auto&region=US#US
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com#IR
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com&psiphon=chain&psiphon_mode=auto&region=US#US
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com&fingerprint=firefox#IR.irancell
+aether://?protocol=wg-over-masque&scan=balanced&ip=both&transport=h2&sni=www.chatgpt.com&fingerprint=firefox&psiphon=chain&psiphon_mode=auto&region=US#US.irancell
+aether://?protocol=wg&scan=balanced&ip=both&psiphon=chain&psiphon_mode=auto&region=US#US.ipv6
