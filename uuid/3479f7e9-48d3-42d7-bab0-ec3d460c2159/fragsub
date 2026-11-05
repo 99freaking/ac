@@ -97,6 +97,45 @@
       "settings": {
         "vnext": [
           {
+            "address": "tgju.org",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "eac64826-e281-49c2-88bf-cd0078675b09",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.cexewob845.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.cexewob845.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy1"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
             "address": "laravel.com",
             "port": 443,
             "users": [
@@ -126,10 +165,10 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
-      "tag": "proxy1"
+      "tag": "proxy2"
     },
     {
       "protocol": "vless",
@@ -142,7 +181,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "eac64826-e281-49c2-88bf-cd0078675b09",
+                "id": "3daa3f9c-9d4b-42bb-8eac-10688e6a1b46",
                 "level": 8
               }
             ]
@@ -154,28 +193,28 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.cexewob845.workers.dev",
+          "serverName": "worker3.kawad96201.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.cexewob845.workers.dev",
+          "host": "worker3.kawad96201.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
-      "tag": "proxy2"
+      "tag": "proxy3"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -204,10 +243,49 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
-      "tag": "proxy3"
+      "tag": "proxy4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "laravel.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "a60d0ff1-19a5-425b-a753-cc53367e823f",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.relip8952.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.relip8952.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy5"
     },
     {
       "protocol": "vless",
@@ -220,45 +298,6 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "3daa3f9c-9d4b-42bb-8eac-10688e6a1b46",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.kawad96201.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.kawad96201.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy4"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
                 "id": "a60d0ff1-19a5-425b-a753-cc53367e823f",
                 "level": 8
               }
@@ -282,46 +321,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy5"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "a60d0ff1-19a5-425b-a753-cc53367e823f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.relip8952.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.relip8952.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy6"
@@ -331,7 +331,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -360,7 +360,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy7"
@@ -370,7 +370,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -399,10 +399,49 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy8"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "b2n.ir",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "10997f19-2951-4a9b-a26f-611a6bd72d02",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.sicoro1729.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.sicoro1729.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy9"
     },
     {
       "protocol": "vless",
@@ -438,10 +477,49 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
-      "tag": "proxy9"
+      "tag": "proxy10"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "cdnjs.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "5bc754d8-17f8-4065-a31b-6ff320e94c7b",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.yofobi7096.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.yofobi7096.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy11"
     },
     {
       "protocol": "vless",
@@ -454,45 +532,6 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "10997f19-2951-4a9b-a26f-611a6bd72d02",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.sicoro1729.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.sicoro1729.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy10"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
                 "id": "5bc754d8-17f8-4065-a31b-6ff320e94c7b",
                 "level": 8
               }
@@ -516,46 +555,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy11"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "5bc754d8-17f8-4065-a31b-6ff320e94c7b",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.yofobi7096.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.yofobi7096.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy12"
@@ -565,7 +565,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "b2n.ir",
             "port": 443,
             "users": [
               {
@@ -594,10 +594,127 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy13"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.hcaptcha.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "e9573bee-7484-4e9b-92f6-a1ded4576365",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.riwihiv298.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.riwihiv298.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy14"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "b2n.ir",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0529949b-b8b1-499f-9a88-00ebec9ba440",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.konen31358.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.konen31358.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy15"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "laravel.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "0529949b-b8b1-499f-9a88-00ebec9ba440",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.konen31358.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.konen31358.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
+        }
+      },
+      "tag": "proxy16"
     },
     {
       "protocol": "vless",
@@ -610,123 +727,6 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "e9573bee-7484-4e9b-92f6-a1ded4576365",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.riwihiv298.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.riwihiv298.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy14"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0529949b-b8b1-499f-9a88-00ebec9ba440",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.konen31358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.konen31358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy15"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "0529949b-b8b1-499f-9a88-00ebec9ba440",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.konen31358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.konen31358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
-        }
-      },
-      "tag": "proxy16"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
                 "id": "24415cec-43b2-4de6-8d04-260b15e8226c",
                 "level": 8
               }
@@ -750,7 +750,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy17"
@@ -760,7 +760,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
@@ -789,7 +789,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy18"
@@ -828,7 +828,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy19"
@@ -838,7 +838,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -867,7 +867,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         }
       },
       "tag": "proxy20"
@@ -1389,7 +1389,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "tgju.org",
             "port": 443,
             "users": [
               {
@@ -1419,7 +1419,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1462,7 +1462,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdnjs.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
@@ -1492,7 +1492,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1535,7 +1535,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
@@ -1565,7 +1565,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1608,7 +1608,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -1638,7 +1638,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1681,7 +1681,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
@@ -1711,7 +1711,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1754,7 +1754,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "b2n.ir",
             "port": 443,
             "users": [
               {
@@ -1784,7 +1784,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1827,7 +1827,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -1857,7 +1857,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1900,7 +1900,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -1930,7 +1930,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1973,7 +1973,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "b2n.ir",
             "port": 443,
             "users": [
               {
@@ -2003,7 +2003,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2046,7 +2046,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -2076,7 +2076,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2119,7 +2119,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
@@ -2149,7 +2149,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2192,7 +2192,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -2222,7 +2222,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2265,7 +2265,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "b2n.ir",
             "port": 443,
             "users": [
               {
@@ -2295,7 +2295,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2338,7 +2338,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
@@ -2368,7 +2368,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2411,7 +2411,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "b2n.ir",
             "port": 443,
             "users": [
               {
@@ -2441,7 +2441,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2484,7 +2484,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
@@ -2514,7 +2514,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2557,7 +2557,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "tgju.org",
             "port": 443,
             "users": [
               {
@@ -2587,7 +2587,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2630,7 +2630,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
@@ -2660,7 +2660,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2733,7 +2733,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2776,7 +2776,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -2806,7 +2806,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/fRX3BnTtU0EJNwij?ed=2560"
+          "path": "/bVYp1Ej8FGibp4oy?ed=2560"
         },
         "finalmask": {
           "tcp": [
