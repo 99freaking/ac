@@ -121,6 +121,15 @@
           "host": "",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy1"
@@ -162,6 +171,15 @@
           "host": "",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy2"
@@ -203,9 +221,348 @@
           "host": "",
           "mode": "auto",
           "path": "/"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "www.hcaptcha.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "da335ccd-209f-4738-8248-b34d5cd5dbe4",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "h3"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "s51.typhone1.site",
+          "mode": "auto",
+          "path": "/"
+        },
+        "finalmask": {
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "reset": "28",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy4"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "chatgpt.com",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "da335ccd-209f-4738-8248-b34d5cd5dbe4",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "h3"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "s51.typhone1.site",
+          "mode": "auto",
+          "path": "/"
+        },
+        "finalmask": {
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "reset": "28",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy5"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "[2a06:98c1:3120::5d08]",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "da335ccd-209f-4738-8248-b34d5cd5dbe4",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "s51.typhone1.site",
+          "show": false,
+          "alpn": [
+            "h3"
+          ]
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "s51.typhone1.site",
+          "mode": "auto",
+          "path": "/"
+        },
+        "finalmask": {
+          "udp": [
+            {
+              "type": "noise",
+              "settings": {
+                "reset": "28",
+                "noise": [
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  },
+                  {
+                    "rand": "1200-1230",
+                    "delay": "10"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": true,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy6"
     },
     {
       "tag": "direct",
@@ -315,6 +672,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "SRV1 2026-10-28"
+  "remarks": "SRV1 2026-11-05"
 }
 ]
