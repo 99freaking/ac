@@ -240,10 +240,10 @@
         "vnext": [
           {
             "address": "37.202.244.183",
-            "port": 2087,
+            "port": 8080,
             "users": [
               {
-                "encryption": "mlkem768x25519plus.native.0rtt.YV-QaKK-vJ4SQdAxZtDoUwjLoaRoRIsVQ5lYHy7l-R4",
+                "encryption": "mlkem768x25519plus.native.0rtt.AqM9g_B4q8HBbPUghQ31w2FtbmFJypLAnVRQGxeYFn4",
                 "flow": "",
                 "id": "ec834890-2f35-423a-ab2a-81f1af058754",
                 "level": 8
@@ -257,10 +257,10 @@
         "security": "reality",
         "realitySettings": {
           "fingerprint": "chrome",
-          "publicKey": "HsH3KUNu5tvfZ_8mg7RO6rhCG338nO7pVALcsbtdXlQ",
-          "serverName": "varzesh3.com",
-          "shortId": "6095e02efb65c1",
-          "spiderX": "/685bf6ac504d412",
+          "publicKey": "HhaBbM4nYdCD6hOBiGKxSPeh3DeufYwrVk3hnOr7kB4",
+          "serverName": "aparat.com",
+          "shortId": "c46a44",
+          "spiderX": "/d76ada631256001",
           "show": false
         },
         "xhttpSettings": {
@@ -268,7 +268,7 @@
             "mode": "auto",
             "xPaddingBytes": "100-1000"
           },
-          "host": "",
+          "host": "aparat.com",
           "mode": "auto",
           "path": "/"
         },
@@ -283,56 +283,6 @@
         }
       },
       "tag": "proxy4"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.202.244.183",
-            "port": 2053,
-            "users": [
-              {
-                "encryption": "mlkem768x25519plus.native.0rtt.SA8WcFD07tY5qCihVQ-urJeTes_UxpmvCv6mglNA3Q8",
-                "flow": "",
-                "id": "ec834890-2f35-423a-ab2a-81f1af058754",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "HsH3KUNu5tvfZ_8mg7RO6rhCG338nO7pVALcsbtdXlQ",
-          "serverName": "varzesh3.com",
-          "shortId": "85cd3735b300",
-          "spiderX": "/c429665305fd75f",
-          "show": false
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy5"
     },
     {
       "tag": "direct",
@@ -442,6 +392,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "SRV1 2026-11-05"
+  "remarks": "SRV1 2026-11-07"
 }
 ]

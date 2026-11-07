@@ -192,7 +192,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.CDN 2026-11-05"
+  "remarks": "#E SERVER5.CDN 2026-11-07"
 }
 ,
 {
@@ -455,7 +455,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3121::3]",
+            "address": "[2a06:98c1:3120::6]",
             "port": 443,
             "users": [
               {
@@ -643,6 +643,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 SERVER5.CDN 2026-11-05"
+  "remarks": "#F1 SERVER5.CDN 2026-11-07"
 }
 ]
