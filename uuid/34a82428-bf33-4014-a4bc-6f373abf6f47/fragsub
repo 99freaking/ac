@@ -81,14 +81,6 @@
         "udp": true,
         "userLevel": 8
       }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
-      }
     }
   ],
   "outbounds": [
@@ -97,7 +89,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -126,7 +118,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy1"
@@ -136,45 +128,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "531f2275-df96-46a1-be70-e654f0ed402f",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.hemip3575.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.hemip3575.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy2"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "laravel.com",
             "port": 443,
             "users": [
@@ -204,23 +157,23 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
-      "tag": "proxy3"
+      "tag": "proxy2"
     },
     {
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "9b4c8a67-9dca-43c6-b9c5-8612ac817ea4",
+                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
                 "level": 8
               }
             ]
@@ -232,18 +185,57 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.hevoy51368.workers.dev",
+          "serverName": "worker3.jeyomi8190.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.hevoy51368.workers.dev",
+          "host": "worker3.jeyomi8190.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
+        }
+      },
+      "tag": "proxy3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "tgju.org",
+            "port": 443,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "serverName": "worker3.biwir20896.workers.dev",
+          "show": false,
+          "alpn": [
+            "http/1.1"
+          ]
+        },
+        "wsSettings": {
+          "host": "worker3.biwir20896.workers.dev",
+          "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
+          },
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy4"
@@ -259,7 +251,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
+                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
                 "level": 8
               }
             ]
@@ -271,18 +263,18 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.jeyomi8190.workers.dev",
+          "serverName": "worker3.xomoh98816.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.jeyomi8190.workers.dev",
+          "host": "worker3.xomoh98816.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy5"
@@ -292,13 +284,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
+                "id": "e34fda54-c68b-4212-933b-140d85774787",
                 "level": 8
               }
             ]
@@ -310,18 +302,18 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.jeyomi8190.workers.dev",
+          "serverName": "worker3.helef3358.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.jeyomi8190.workers.dev",
+          "host": "worker3.helef3358.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy6"
@@ -337,7 +329,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
+                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
                 "level": 8
               }
             ]
@@ -349,18 +341,18 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.biwir20896.workers.dev",
+          "serverName": "worker3.hiyere5918.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.biwir20896.workers.dev",
+          "host": "worker3.hiyere5918.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy7"
@@ -370,13 +362,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
+                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
                 "level": 8
               }
             ]
@@ -388,18 +380,18 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.biwir20896.workers.dev",
+          "serverName": "worker3.yoyey30778.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.biwir20896.workers.dev",
+          "host": "worker3.yoyey30778.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy8"
@@ -409,13 +401,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdnjs.com",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
+                "id": "173be503-0a12-4390-aba2-0b3367d60269",
                 "level": 8
               }
             ]
@@ -427,18 +419,18 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "chrome",
-          "serverName": "worker3.xomoh98816.workers.dev",
+          "serverName": "worker3.tigowow25.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
           ]
         },
         "wsSettings": {
-          "host": "worker3.xomoh98816.workers.dev",
+          "host": "worker3.tigowow25.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
       "tag": "proxy9"
@@ -448,396 +440,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.xomoh98816.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.xomoh98816.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy10"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e34fda54-c68b-4212-933b-140d85774787",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.helef3358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.helef3358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy11"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e34fda54-c68b-4212-933b-140d85774787",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.helef3358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.helef3358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy12"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.hiyere5918.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.hiyere5918.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy13"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.hiyere5918.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.hiyere5918.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy14"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.yoyey30778.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.yoyey30778.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy15"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.yoyey30778.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.yoyey30778.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy16"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "173be503-0a12-4390-aba2-0b3367d60269",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.tigowow25.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.tigowow25.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy17"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "173be503-0a12-4390-aba2-0b3367d60269",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.tigowow25.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.tigowow25.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy18"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "424a05c1-bb92-48cf-a9db-345983f1794c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "chrome",
-          "serverName": "worker3.toxev546455.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ]
-        },
-        "wsSettings": {
-          "host": "worker3.toxev546455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        }
-      },
-      "tag": "proxy19"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "cdnjs.com",
             "port": 443,
             "users": [
@@ -867,10 +469,10 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         }
       },
-      "tag": "proxy20"
+      "tag": "proxy10"
     },
     {
       "protocol": "vless",
@@ -906,14 +508,9 @@
     },
     {
       "tag": "to-balancer",
-      "protocol": "socks",
+      "protocol": "loopback",
       "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
-          }
-        ]
+        "inboundTag": "balancer-in"
       }
     },
     {
@@ -1032,7 +629,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#0 WORKER1.TLS 2026-11-07"
+  "remarks": "#0 WORKER1.TLS 2026-11-10"
 }
 ,
 {
@@ -1117,14 +714,6 @@
         "udp": true,
         "userLevel": 8
       }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
-      }
     }
   ],
   "outbounds": [
@@ -1162,14 +751,9 @@
     },
     {
       "tag": "to-balancer",
-      "protocol": "socks",
+      "protocol": "loopback",
       "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
-          }
-        ]
+        "inboundTag": "balancer-in"
       }
     },
     {
@@ -1288,7 +872,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E WORKER1.TLS 2026-11-07"
+  "remarks": "#E WORKER1.TLS 2026-11-10"
 }
 ,
 {
@@ -1373,14 +957,6 @@
         "udp": true,
         "userLevel": 8
       }
-    },
-    {
-      "tag": "balancer-in",
-      "port": 21763,
-      "protocol": "socks",
-      "settings": {
-        "udp": true
-      }
     }
   ],
   "outbounds": [
@@ -1389,7 +965,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
@@ -1419,7 +995,7 @@
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1462,13 +1038,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "531f2275-df96-46a1-be70-e654f0ed402f",
+                "id": "9b4c8a67-9dca-43c6-b9c5-8612ac817ea4",
                 "level": 8
               }
             ]
@@ -1480,7 +1056,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.hemip3575.workers.dev",
+          "serverName": "worker3.hevoy51368.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1488,11 +1064,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.hemip3575.workers.dev",
+          "host": "worker3.hevoy51368.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1535,13 +1111,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "laravel.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "9b4c8a67-9dca-43c6-b9c5-8612ac817ea4",
+                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
                 "level": 8
               }
             ]
@@ -1553,7 +1129,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.hevoy51368.workers.dev",
+          "serverName": "worker3.jeyomi8190.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1561,11 +1137,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.hevoy51368.workers.dev",
+          "host": "worker3.jeyomi8190.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1608,13 +1184,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
+            "address": "tgju.org",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "9b4c8a67-9dca-43c6-b9c5-8612ac817ea4",
+                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
                 "level": 8
               }
             ]
@@ -1626,7 +1202,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.hevoy51368.workers.dev",
+          "serverName": "worker3.biwir20896.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1634,11 +1210,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.hevoy51368.workers.dev",
+          "host": "worker3.biwir20896.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1687,7 +1263,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
+                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
                 "level": 8
               }
             ]
@@ -1699,7 +1275,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.jeyomi8190.workers.dev",
+          "serverName": "worker3.xomoh98816.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1707,11 +1283,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.jeyomi8190.workers.dev",
+          "host": "worker3.xomoh98816.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1754,13 +1330,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "tgju.org",
+            "address": "chatgpt.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "23f21426-0a24-479d-915d-5bdcdc001d4f",
+                "id": "e34fda54-c68b-4212-933b-140d85774787",
                 "level": 8
               }
             ]
@@ -1772,7 +1348,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.jeyomi8190.workers.dev",
+          "serverName": "worker3.helef3358.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1780,11 +1356,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.jeyomi8190.workers.dev",
+          "host": "worker3.helef3358.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1833,7 +1409,7 @@
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
+                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
                 "level": 8
               }
             ]
@@ -1845,7 +1421,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.biwir20896.workers.dev",
+          "serverName": "worker3.hiyere5918.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1853,11 +1429,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.biwir20896.workers.dev",
+          "host": "worker3.hiyere5918.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1900,13 +1476,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "chatgpt.com",
+            "address": "laravel.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "167d7768-2f0a-4f9d-86e0-81514362c189",
+                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
                 "level": 8
               }
             ]
@@ -1918,7 +1494,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.biwir20896.workers.dev",
+          "serverName": "worker3.yoyey30778.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1926,11 +1502,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.biwir20896.workers.dev",
+          "host": "worker3.yoyey30778.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -1973,13 +1549,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "cdnjs.com",
+            "address": "www.hcaptcha.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
+                "id": "173be503-0a12-4390-aba2-0b3367d60269",
                 "level": 8
               }
             ]
@@ -1991,7 +1567,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.xomoh98816.workers.dev",
+          "serverName": "worker3.tigowow25.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -1999,11 +1575,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.xomoh98816.workers.dev",
+          "host": "worker3.tigowow25.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2046,13 +1622,13 @@
       "settings": {
         "vnext": [
           {
-            "address": "www.hcaptcha.com",
+            "address": "cdnjs.com",
             "port": 443,
             "users": [
               {
                 "encryption": "none",
                 "flow": "",
-                "id": "1bc29b34-0a7d-4252-97bb-1cc3514e7d42",
+                "id": "424a05c1-bb92-48cf-a9db-345983f1794c",
                 "level": 8
               }
             ]
@@ -2064,7 +1640,7 @@
         "security": "tls",
         "tlsSettings": {
           "fingerprint": "unsafe",
-          "serverName": "worker3.xomoh98816.workers.dev",
+          "serverName": "worker3.toxev546455.workers.dev",
           "show": false,
           "alpn": [
             "http/1.1"
@@ -2072,11 +1648,11 @@
           "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
         },
         "wsSettings": {
-          "host": "worker3.xomoh98816.workers.dev",
+          "host": "worker3.toxev546455.workers.dev",
           "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
           },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
+          "path": "/T71CVxNE03BLSGQM?ed=2560"
         },
         "finalmask": {
           "tcp": [
@@ -2119,736 +1695,6 @@
       "settings": {
         "vnext": [
           {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e34fda54-c68b-4212-933b-140d85774787",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.helef3358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.helef3358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy11_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "e34fda54-c68b-4212-933b-140d85774787",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.helef3358.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.helef3358.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy12_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.hiyere5918.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.hiyere5918.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy13_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "2e87dd5b-ca5b-4d8b-9bf0-0ed9dfa43da2",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.hiyere5918.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.hiyere5918.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy14_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "chatgpt.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.yoyey30778.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.yoyey30778.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy15_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "www.hcaptcha.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "00b9ca29-92ff-4f96-bd6d-c125299ce151",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.yoyey30778.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.yoyey30778.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy16_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "tgju.org",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "173be503-0a12-4390-aba2-0b3367d60269",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.tigowow25.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.tigowow25.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy17_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "b2n.ir",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "173be503-0a12-4390-aba2-0b3367d60269",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.tigowow25.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.tigowow25.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy18_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "laravel.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "424a05c1-bb92-48cf-a9db-345983f1794c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.toxev546455.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.toxev546455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy19_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "cdnjs.com",
-            "port": 443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "424a05c1-bb92-48cf-a9db-345983f1794c",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlsSettings": {
-          "fingerprint": "unsafe",
-          "serverName": "worker3.toxev546455.workers.dev",
-          "show": false,
-          "alpn": [
-            "http/1.1"
-          ],
-          "cipherSuites": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384%3ATLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256%3ATLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256%3ATLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_RSA_WITH_AES_256_CBC_SHA%3ATLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256%3ATLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
-        },
-        "wsSettings": {
-          "host": "worker3.toxev546455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/x6nFI748E8yrLNFn?ed=2560"
-        },
-        "finalmask": {
-          "tcp": [
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "tlshello",
-                "lengths": [
-                  "0",
-                  "104",
-                  "1"
-                ],
-                "delays": [
-                  "0"
-                ],
-                "maxSplit": "0"
-              }
-            },
-            {
-              "type": "fragment",
-              "settings": {
-                "packets": "1-1",
-                "lengths": [
-                  "114",
-                  "1"
-                ],
-                "delays": [
-                  "1"
-                ],
-                "maxSplit": "11"
-              }
-            }
-          ]
-        }
-      },
-      "tag": "proxy20_fragc1"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
             "address": "5.75.200.179",
             "port": 8080,
             "users": [
@@ -2878,14 +1724,9 @@
     },
     {
       "tag": "to-balancer",
-      "protocol": "socks",
+      "protocol": "loopback",
       "settings": {
-        "servers": [
-          {
-            "address": "127.0.0.1",
-            "port": 21763
-          }
-        ]
+        "inboundTag": "balancer-in"
       }
     },
     {
@@ -3004,6 +1845,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 WORKER1.TLS 2026-11-07"
+  "remarks": "#F1 WORKER1.TLS 2026-11-10"
 }
 ]
