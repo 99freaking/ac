@@ -285,6 +285,56 @@
       "tag": "proxy4"
     },
     {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.202.244.183",
+            "port": 2053,
+            "users": [
+              {
+                "encryption": "mlkem768x25519plus.native.0rtt.JWtuGeu5a8kqBnrtqCAxYhQgz-gThKrFU-ttWjoDqkQ",
+                "flow": "",
+                "id": "c553bde0-ef50-4506-bfe4-1a82a9341380",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "Ug3rVIssku6ma3mNt_wUzeLI6IRiquhjxVKwHwPmDzc",
+          "serverName": "myket.ir",
+          "shortId": "f04b8ff46849",
+          "spiderX": "/c2c9b3989cdbec4",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy5"
+    },
+    {
       "tag": "direct",
       "protocol": "freedom",
       "settings": {
