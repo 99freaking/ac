@@ -116,6 +116,15 @@
         "wsSettings": {
           "host": "worker3.cexewob845.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy1"
@@ -152,6 +161,15 @@
         "wsSettings": {
           "host": "worker3.kawad96201.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy2"
@@ -188,6 +206,15 @@
         "wsSettings": {
           "host": "worker3.relip8952.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy3"
@@ -224,6 +251,15 @@
         "wsSettings": {
           "host": "worker3.cexop17836.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy4"
@@ -260,6 +296,15 @@
         "wsSettings": {
           "host": "worker3.sicoro1729.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy5"
@@ -296,6 +341,15 @@
         "wsSettings": {
           "host": "worker3.yofobi7096.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy6"
@@ -332,6 +386,15 @@
         "wsSettings": {
           "host": "worker3.riwihiv298.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy7"
@@ -368,6 +431,15 @@
         "wsSettings": {
           "host": "worker3.konen31358.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy8"
@@ -404,6 +476,15 @@
         "wsSettings": {
           "host": "worker3.piyopaw466.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy9"
@@ -440,6 +521,15 @@
         "wsSettings": {
           "host": "worker3.vanif75443.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy10"
@@ -721,6 +811,15 @@
           "host": "worker3.cexewob845.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
         },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
         "finalmask": {
           "tcp": [
             {
@@ -790,6 +889,15 @@
         "wsSettings": {
           "host": "worker3.kawad96201.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -861,6 +969,15 @@
           "host": "worker3.relip8952.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
         },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
         "finalmask": {
           "tcp": [
             {
@@ -930,6 +1047,15 @@
         "wsSettings": {
           "host": "worker3.cexop17836.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -1001,6 +1127,15 @@
           "host": "worker3.sicoro1729.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
         },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
         "finalmask": {
           "tcp": [
             {
@@ -1070,6 +1205,15 @@
         "wsSettings": {
           "host": "worker3.yofobi7096.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -1141,6 +1285,15 @@
           "host": "worker3.riwihiv298.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
         },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
         "finalmask": {
           "tcp": [
             {
@@ -1210,6 +1363,15 @@
         "wsSettings": {
           "host": "worker3.konen31358.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -1281,6 +1443,15 @@
           "host": "worker3.piyopaw466.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
         },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        },
         "finalmask": {
           "tcp": [
             {
@@ -1350,6 +1521,15 @@
         "wsSettings": {
           "host": "worker3.vanif75443.workers.dev",
           "path": "/pTuaMr9PTBvrkOLw?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
