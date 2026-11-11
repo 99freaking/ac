@@ -127,7 +127,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -177,7 +177,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -227,7 +227,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -277,7 +277,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -392,6 +392,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "SRV1 2026-11-07"
+  "remarks": "SRV1 2026-11-11"
 }
 ]
