@@ -190,56 +190,6 @@
         "vnext": [
           {
             "address": "37.202.244.183",
-            "port": 8443,
-            "users": [
-              {
-                "encryption": "none",
-                "flow": "",
-                "id": "24802508-b27d-4331-ab6e-1aafb42510fb",
-                "level": 8
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "xhttp",
-        "security": "reality",
-        "realitySettings": {
-          "fingerprint": "chrome",
-          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
-          "serverName": "aparat.com",
-          "shortId": "d7a20e1b",
-          "spiderX": "/c70c8fb82d0b34c",
-          "show": false
-        },
-        "xhttpSettings": {
-          "extra": {
-            "mode": "auto",
-            "xPaddingBytes": "100-1000"
-          },
-          "host": "",
-          "mode": "auto",
-          "path": "/"
-        },
-        "sockopt": {
-          "domainStrategy": "UseIP",
-          "happyEyeballs": {
-            "interleave": 2,
-            "maxConcurrentTry": 4,
-            "prioritizeIPv6": false,
-            "tryDelayMs": 250
-          }
-        }
-      },
-      "tag": "proxy3"
-    },
-    {
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "37.202.244.183",
             "port": 8080,
             "users": [
               {
@@ -269,6 +219,56 @@
             "xPaddingBytes": "100-1000"
           },
           "host": "aparat.com",
+          "mode": "auto",
+          "path": "/"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
+        }
+      },
+      "tag": "proxy3"
+    },
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "37.202.244.183",
+            "port": 22,
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "",
+                "id": "24802508-b27d-4331-ab6e-1aafb42510fb",
+                "level": 8
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "reality",
+        "realitySettings": {
+          "fingerprint": "chrome",
+          "publicKey": "O1kzUEuyRRIyBSg4DzNIw2XvuD1y4Xzs1kvF5DXIW3g",
+          "serverName": "aparat.com",
+          "shortId": "d7a20e1b",
+          "spiderX": "/c70c8fb82d0b34c",
+          "show": false
+        },
+        "xhttpSettings": {
+          "extra": {
+            "mode": "auto",
+            "xPaddingBytes": "100-1000"
+          },
+          "host": "",
           "mode": "auto",
           "path": "/"
         },

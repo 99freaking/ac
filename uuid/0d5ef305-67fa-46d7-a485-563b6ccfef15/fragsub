@@ -192,7 +192,7 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#E SERVER5.CDN 2026-11-07"
+  "remarks": "#E SERVER5.CDN 2026-11-11"
 }
 ,
 {
@@ -358,7 +358,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -443,7 +443,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -455,7 +455,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "[2a06:98c1:3120::6]",
+            "address": "[2a06:98c1:3121::3]",
             "port": 443,
             "users": [
               {
@@ -528,7 +528,7 @@
           "happyEyeballs": {
             "interleave": 2,
             "maxConcurrentTry": 4,
-            "prioritizeIPv6": true,
+            "prioritizeIPv6": false,
             "tryDelayMs": 250
           }
         }
@@ -643,6 +643,6 @@
     ],
     "EnableConcurrency": true
   },
-  "remarks": "#F1 SERVER5.CDN 2026-11-07"
+  "remarks": "#F1 SERVER5.CDN 2026-11-11"
 }
 ]
