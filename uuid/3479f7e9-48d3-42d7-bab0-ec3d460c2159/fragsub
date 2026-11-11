@@ -682,7 +682,7 @@
     "subjectSelector": [
       "prox"
     ],
-    "EnableConcurrency": true
+    "EnableConcurrency": false
   },
   "remarks": "#0 WORKER12.TLS 2026-11-11"
 }
@@ -1710,7 +1710,7 @@
     "subjectSelector": [
       "prox"
     ],
-    "EnableConcurrency": true
+    "EnableConcurrency": false
   },
   "remarks": "#F1 WORKER12.TLS 2026-11-11"
 }
