@@ -115,10 +115,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy1"
@@ -154,10 +160,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy2"
@@ -193,10 +205,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy3"
@@ -232,10 +250,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy4"
@@ -271,10 +295,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy5"
@@ -310,10 +340,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy6"
@@ -349,10 +385,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy7"
@@ -388,10 +430,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy8"
@@ -427,10 +475,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy9"
@@ -466,10 +520,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy10"
@@ -505,10 +565,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy11"
@@ -544,10 +610,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy12"
@@ -583,10 +655,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy13"
@@ -622,10 +700,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy14"
@@ -661,10 +745,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy15"
@@ -700,10 +790,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy16"
@@ -739,10 +835,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy17"
@@ -778,10 +880,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy18"
@@ -817,10 +925,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy19"
@@ -856,10 +970,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy20"
@@ -895,10 +1015,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy21"
@@ -934,10 +1060,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy22"
@@ -973,10 +1105,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy23"
@@ -1012,10 +1150,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy24"
@@ -1051,10 +1195,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy25"
@@ -1090,10 +1240,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy26"
@@ -1129,10 +1285,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy27"
@@ -1168,10 +1330,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy28"
@@ -1207,10 +1375,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy29"
@@ -1246,10 +1420,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy30"
@@ -1285,10 +1465,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy31"
@@ -1324,10 +1510,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy32"
@@ -1363,10 +1555,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy33"
@@ -1402,10 +1600,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy34"
@@ -1441,10 +1645,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy35"
@@ -1480,10 +1690,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy36"
@@ -1519,10 +1735,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy37"
@@ -1558,10 +1780,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy38"
@@ -1597,10 +1825,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy39"
@@ -1636,10 +1870,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         }
       },
       "tag": "proxy40"
@@ -1750,9 +1990,9 @@
     "subjectSelector": [
       "prox"
     ],
-    "EnableConcurrency": true
+    "EnableConcurrency": false
   },
-  "remarks": "#0 WORKER3.TLS 2026-11-10"
+  "remarks": "#0 WORKER3.TLS 2026-11-12"
 }
 ,
 {
@@ -1872,10 +2112,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -1945,10 +2191,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2018,10 +2270,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2091,10 +2349,16 @@
         },
         "wsSettings": {
           "host": "worker3.fosexej7666.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2164,10 +2428,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2237,10 +2507,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2310,10 +2586,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2383,10 +2665,16 @@
         },
         "wsSettings": {
           "host": "worker3.fifed36752.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2456,10 +2744,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2529,10 +2823,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2602,10 +2902,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2675,10 +2981,16 @@
         },
         "wsSettings": {
           "host": "worker3.daticah6555.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2748,10 +3060,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2821,10 +3139,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2894,10 +3218,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -2967,10 +3297,16 @@
         },
         "wsSettings": {
           "host": "worker3.cipek2755.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3040,10 +3376,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3113,10 +3455,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3186,10 +3534,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3259,10 +3613,16 @@
         },
         "wsSettings": {
           "host": "worker3.notoj58234.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3332,10 +3692,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3405,10 +3771,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3478,10 +3850,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3551,10 +3929,16 @@
         },
         "wsSettings": {
           "host": "worker3.sabotat455.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3624,10 +4008,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3697,10 +4087,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3770,10 +4166,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3843,10 +4245,16 @@
         },
         "wsSettings": {
           "host": "worker3.wawey55881.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3916,10 +4324,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -3989,10 +4403,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4062,10 +4482,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4135,10 +4561,16 @@
         },
         "wsSettings": {
           "host": "worker3.dawejoy454.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4208,10 +4640,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4281,10 +4719,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4354,10 +4798,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4427,10 +4877,16 @@
         },
         "wsSettings": {
           "host": "worker3.gojipe5906.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4500,10 +4956,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4573,10 +5035,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4646,10 +5114,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4719,10 +5193,16 @@
         },
         "wsSettings": {
           "host": "worker3.fimara4589.workers.dev",
-          "headers": {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36"
-          },
-          "path": "/VBWi9xeeJUgBt5Hr?ed=2560"
+          "path": "/yvmKTFUkxI2vQTHV?ed=2560"
+        },
+        "sockopt": {
+          "domainStrategy": "UseIP",
+          "happyEyeballs": {
+            "interleave": 2,
+            "maxConcurrentTry": 4,
+            "prioritizeIPv6": false,
+            "tryDelayMs": 250
+          }
         },
         "finalmask": {
           "tcp": [
@@ -4866,8 +5346,8 @@
     "subjectSelector": [
       "prox"
     ],
-    "EnableConcurrency": true
+    "EnableConcurrency": false
   },
-  "remarks": "#F1 WORKER3.TLS 2026-11-10"
+  "remarks": "#F1 WORKER3.TLS 2026-11-12"
 }
 ]
