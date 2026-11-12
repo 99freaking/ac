@@ -553,13 +553,8 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "",
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        },
         "sockopt": {
           "dialerProxy": "to-balancer"
         }
@@ -689,7 +684,7 @@
     ],
     "EnableConcurrency": false
   },
-  "remarks": "#0 WORKER12.TLS 2026-11-11"
+  "remarks": "#0 WORKER12.TLS 2026-11-12"
 }
 ,
 {
@@ -1586,13 +1581,8 @@
         ]
       },
       "streamSettings": {
-        "network": "grpc",
+        "network": "tcp",
         "security": "",
-        "grpcSettings": {
-          "authority": "",
-          "multiMode": false,
-          "serviceName": ""
-        },
         "sockopt": {
           "dialerProxy": "to-balancer"
         }
@@ -1722,6 +1712,6 @@
     ],
     "EnableConcurrency": false
   },
-  "remarks": "#F1 WORKER12.TLS 2026-11-11"
+  "remarks": "#F1 WORKER12.TLS 2026-11-12"
 }
 ]
